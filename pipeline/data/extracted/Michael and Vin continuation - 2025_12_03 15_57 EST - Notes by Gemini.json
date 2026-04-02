@@ -1,0 +1,160 @@
+{
+  "meetingId": "michael-and-vin-continuation-2025-12-03",
+  "title": "Michael and Vin continuation",
+  "date": "2025-12-03",
+  "series": "Michael and Vin continuation",
+  "type": "one-on-one",
+  "attendees": ["Vinnie Micciche", "Michael Donovan"],
+  "summary": "Vinnie Micciche expressed concerns about the lack of actionable marketing leads from Michael Donovan and urged immediate action and content creation. Michael Donovan shared their background and noted differing views on the Ideal Customer Profile (ICP). Vinnie Micciche emphasized the need for collaboration, clear deliverables, lead generation, and simple content aimed at attracting car guys and dealer groups.",
+  "decisions": [
+    {
+      "description": "Michael Donovan will refine social posts to be more in-your-face and low-funnel for lead generation.",
+      "decidedBy": ["Michael Donovan"],
+      "topic": "messaging-strategy",
+      "confidence": "firm"
+    },
+    {
+      "description": "Michael Donovan will contact Perry regarding the Viconic website progress.",
+      "decidedBy": ["Michael Donovan", "Vinnie Micciche"],
+      "topic": "website-refresh",
+      "confidence": "firm"
+    },
+    {
+      "description": "Vinnie Micciche will send content ideas to Michael Donovan for posting on Wednesday or Thursday.",
+      "decidedBy": ["Vinnie Micciche"],
+      "topic": "content-creation",
+      "confidence": "firm"
+    },
+    {
+      "description": "Marketing should translate ideas into messaging, focusing on velocity, brand guidelines, messaging, and leads.",
+      "decidedBy": ["Vinnie Micciche"],
+      "topic": "messaging-strategy",
+      "confidence": "firm"
+    },
+    {
+      "description": "Messaging must be relevant to the company's direction.",
+      "decidedBy": ["Vinnie Micciche"],
+      "topic": "messaging-strategy",
+      "confidence": "firm"
+    },
+    {
+      "description": "Michael Donovan will immediately refine social posts to be more in-your-face and low-funnel.",
+      "decidedBy": ["Michael Donovan"],
+      "topic": "messaging-strategy",
+      "confidence": "firm"
+    },
+    {
+      "description": "Michael Donovan should focus on lead generation rather than building the marketing 'engine'.",
+      "decidedBy": ["Vinnie Micciche"],
+      "topic": "lead-generation",
+      "confidence": "firm"
+    },
+    {
+      "description": "Michael Donovan will \"tone down\" the marketing messaging to be less complex and more direct for the target audience of \"car guys.\"",
+      "decidedBy": ["Michael Donovan", "Vinnie Micciche"],
+      "topic": "messaging-strategy",
+      "confidence": "firm"
+    },
+    {
+      "description": "Michael Donovan will send out whatever posts they have immediately, emphasizing the need for speed.",
+      "decidedBy": ["Michael Donovan"],
+      "topic": "content-creation",
+      "confidence": "firm"
+    }
+  ],
+  "actionItems": [
+    {
+      "task": "Tone down the messaging to be less complex and more direct for the target audience of car guys.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "social-media",
+        "description": "Messaging resonates with 'car guys' and attracts dealer groups."
+      }
+    },
+    {
+      "task": "Refine social media post designs to be more in-your-face and low-funnel for lead generation.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "social-media",
+        "description": "Social media posts effectively generate leads."
+      }
+    },
+    {
+      "task": "Circle back with Perry regarding the Viconic site.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "website",
+        "description": "Progress on the Viconic website is assessed and next steps are defined."
+      }
+    },
+    {
+      "task": "Work on some content ideas and send them to Michael Donovan for posting.",
+      "owner": "Vinnie Micciche",
+      "deadline": "2025-12-04",
+      "expectedOutcome": {
+        "system": "email",
+        "description": "Michael Donovan receives content ideas from Vinnie Micciche."
+      }
+    },
+    {
+      "task": "Ensure new social media posts are sent out immediately to maintain posting frequency.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "social-media",
+        "description": "Consistent and timely posting of content on social media platforms."
+      }
+    }
+  ],
+  "topicsDiscussed": [
+    "work-expectations",
+    "communication-style",
+    "mortgage-industry-background",
+    "automotive-industry-transition",
+    "actionable-marketing-opportunities",
+    "revenue-generation",
+    "dealer-group-focus",
+    "scalability",
+    "collaboration",
+    "prioritization",
+    "management-priorities",
+    "marketing-priorities",
+    "audience-engagement",
+    "messaging-strategy",
+    "middleware-idea",
+    "paradigm-shifts",
+    "content-strategy-critique",
+    "pace-and-velocity",
+    "ai-utilization",
+    "decisive-action",
+    "accountability",
+    "ideal-customer-profile",
+    "content-output",
+    "content-quality",
+    "viconic-website",
+    "lead-generation",
+    "website-refresh",
+    "social-media",
+    "content-creation"
+  ],
+  "tensions": [
+    "Vinnie Micciche's concern over the lack of actionable marketing opportunities and leads generated by Michael Donovan.",
+    "Michael Donovan and Vinnie Micciche have fundamental differences in their beliefs regarding the Ideal Customer Profile (ICP).",
+    "Vinnie Micciche's criticism of Michael Donovan's content drafts and lack of prioritization.",
+    "Vinnie Micciche feeling like they are in \"quicksand\" with marketing.",
+    "Vinnie Micciche's frustration that Michael Donovan is not prioritizing lead generation.",
+    "Debate over the value of the '47 minutes is too long' message.",
+    "Michael Donovan outlined a range of marketing activities without quantifying the time needed.",
+    "Vinnie Micciche expressed concern that Michael Donovan does not translate requests into expected deliverables."
+  ],
+  "referencesToPast": [
+    "Conversation held years ago with Sean Reigns about the business being built on reputation.",
+    "Previous marketing efforts that included regular posting and email campaigns.",
+    "Previous content seen from Ken and Z.",
+    "Mention of past struggles scaling for groups.",
+    "Reference to Z's work the week before."
+  ]
+}

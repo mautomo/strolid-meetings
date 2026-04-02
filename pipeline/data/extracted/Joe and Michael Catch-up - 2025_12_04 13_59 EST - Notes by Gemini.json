@@ -1,0 +1,60 @@
+{
+  "meetingId": "joe-and-michael-catch-up-2025-12-04",
+  "title": "Joe and Michael Catch-up",
+  "date": "2025-12-04",
+  "series": "Joe and Michael Catch-up",
+  "type": "one-on-one",
+  "attendees": ["Joe Furnari", "Michael Donovan"],
+  "summary": "Joe Furnari and Michael Donovan discussed Vinnie's management style and its impact on workflow, including a Perplexity payment issue and content strategy challenges due to inconsistent feedback. Joe advised Michael to balance tool development with immediate production to satisfy Vinnie's impatience, while Michael temporarily resolved the Perplexity issue and aims for a more efficient content creation system.",
+  "decisions": [
+    {
+      "description": "Michael Donovan temporarily paid the $40 charge for Perplexity to resolve the immediate lockout.",
+      "decidedBy": ["Michael Donovan"],
+      "topic": "perplexity-payment",
+      "confidence": "firm"
+    },
+    {
+      "description": "Focus on one big content idea per month.",
+      "decidedBy": ["Michael Donovan"],
+      "topic": "content-strategy",
+      "confidence": "firm"
+    }
+  ],
+  "actionItems": [
+    {
+      "task": "Find the documents that Vinnie sent for the social posts.",
+      "owner": "Joe Furnari",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "google-docs",
+        "description": "Locate the original document from Vinnie for creating social posts."
+      }
+    },
+    {
+      "task": "Work with Mindy to put the Google account and other services on her corporate card.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "other",
+        "description": "Migrate accounts to the corporate card to resolve payment issues."
+      }
+    }
+  ],
+  "topicsDiscussed": [
+    "vinnie-management-style",
+    "perplexity-payment",
+    "social-post-workflow",
+    "content-strategy",
+    "source-documentation"
+  ],
+  "tensions": [
+    "Vinnie's emotionally volatile management style and low emotional intelligence.",
+    "Vinnie's inconsistent feedback and excessive content requests.",
+    "Frustration over Vinnie's lack of interest in tracking and reporting, prioritizing immediate visibility instead.",
+    "Difficulty in advancing the social post workflow due to being locked out of the Perplexity platform related to a payment issue."
+  ],
+  "referencesToPast": [
+    "Past incident where Vinnie got animated, and Shauna had to intervene.",
+    "Vinnie's past feedback contradicted this approach by stating that content was 'too much to read'."
+  ]
+}

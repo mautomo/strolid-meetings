@@ -1,0 +1,99 @@
+{
+  "meetingId": "the-marketing-meeting-2026-03-03",
+  "title": "The Marketing Meeting",
+  "date": "2026-03-03",
+  "series": "The Marketing Meeting",
+  "type": "marketing",
+  "attendees": [
+    "Vinnie Micciche",
+    "Joe Furnari",
+    "Michael Donovan",
+    "Jason Branham",
+    "Paulo Trovao"
+  ],
+  "summary": "The team discussed data enrichment options, including XP exe, and campaign deployment strategies. They agreed to prioritize campaigns for the ideal customer profile, focusing on establishing conversions and bounce rates, and segmenting campaigns into three areas: current customers, conquest, and past/cold customers. Michael Donovan will address the ad spend billing issue and share the video from Notebook LM for feedback.",
+  "decisions": [
+    {
+      "description": "Proceed with email and ad campaigns, prioritizing deployment.",
+      "decidedBy": ["Michael Donovan"],
+      "topic": "campaign-deployment",
+      "confidence": "firm"
+    },
+    {
+      "description": "Remove McGovern from the initial target list due to an existing negative relationship.",
+      "decidedBy": ["The team"],
+      "topic": "target-candidate-exclusion",
+      "confidence": "firm"
+    },
+    {
+      "description": "Focus on running campaigns for the defined ideal customer profile (ICP) roles to establish conversions and bounce rates.",
+      "decidedBy": ["Vinnie Micciche", "Michael Donovan"],
+      "topic": "ideal-customer-profile",
+      "confidence": "firm"
+    },
+    {
+      "description": "Segment campaigns into three areas: current customers, conquest, and past/cold customers, all requiring different messaging.",
+      "decidedBy": ["Vinnie Micciche"],
+      "topic": "campaign-segmentation",
+      "confidence": "firm"
+    },
+    {
+      "description": "Start with existing data to establish a baseline through campaigns before enriching the data using XP exe.",
+      "decidedBy": ["Vinnie Micciche"],
+      "topic": "data-enrichment",
+      "confidence": "firm"
+    },
+    {
+      "description": "Target dealer principals, corporate staff, and owners as the primary audience.",
+      "decidedBy": ["The team"],
+      "topic": "buyer-targeting",
+      "confidence": "firm"
+    }
+  ],
+  "actionItems": [
+    {
+      "task": "Address the ad spend billing issue by migrating the billing away from the external association or creating a new shell account.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "google-docs",
+        "description": "Ad spend billing is correctly allocated and not charged to the external backup card associated with Daniel Parker's organization."
+      }
+    },
+    {
+      "task": "Share the video from Notebook LM, cut into short clips, for feedback.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "email",
+        "description": "Team provides feedback on the video content."
+      }
+    },
+    {
+      "task": "Put together a list of Lithia dealers.",
+      "owner": "Unassigned",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "google-docs",
+        "description": "A comprehensive list of Lithia dealers is compiled."
+      }
+    }
+  ],
+  "topicsDiscussed": [
+    "data-enrichment",
+    "campaign-deployment",
+    "buyer-targeting",
+    "data-accuracy",
+    "campaign-segmentation",
+    "lithia-partnership",
+    "active-customer-tracking",
+    "data-ownership",
+    "video-content-feedback",
+    "ad-spend-billing"
+  ],
+  "tensions": [
+    "Jason Branham's concerns about the age of the data.",
+    "Vinnie Micciche questioned the need to use XP exe in conjunction with Clay and Apollo."
+  ],
+  "referencesToPast": []
+}

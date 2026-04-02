@@ -1,0 +1,124 @@
+{
+  "meetingId": "strolid-leadership-call-2026-03-30",
+  "title": "Strolid Leadership Call",
+  "date": "2026-03-30",
+  "series": "Strolid Leadership Call",
+  "type": "leadership",
+  "attendees": [
+    "Matt Watson",
+    "Shawna Behen",
+    "Vinnie Micciche",
+    "Thomas Howe",
+    "Jason Branham",
+    "Joe Furnari",
+    "Michael Donovan",
+    "Harinder Bhinder",
+    "Sergey Lyapustin",
+    "Kevin Breen"
+  ],
+  "summary": "The Strolid Leadership call focused on rescheduling the meeting due to Vinnie's absence, preparing a presentation for Lithia detailing Q1 2026 and Q4 2025 results, and the ongoing development of an AI resource marketplace with sub-agents and skills. Decisions were made regarding the presentation strategy and the involvement of specific team members in its preparation.",
+  "decisions": [
+    {
+      "description": "Reschedule the meeting to later in the week due to Vinnie's absence if no one has any immediate critical topics.",
+      "decidedBy": ["Joe Furnari"],
+      "topic": "meeting-schedule",
+      "confidence": "tentative"
+    },
+    {
+      "description": "Shawna Behen will prepare a presentation deck for a call with Lithia's Mara, detailing Q1 2026 and Q4 2025 results.",
+      "decidedBy": ["Shawna Behen"],
+      "topic": "lithia-presentation",
+      "confidence": "firm"
+    },
+    {
+      "description": "The presentation must address past inconsistencies when onboarding Lithia dealers.",
+      "decidedBy": ["Joe Furnari", "Shawna Behen"],
+      "topic": "lithia-presentation-content",
+      "confidence": "firm"
+    },
+    {
+      "description": "Shawna Behen and Jason Branham will lead the effort to prepare the \"best overview\" presentation for Lithia.",
+      "decidedBy": ["Joe Furnari"],
+      "topic": "lithia-presentation-responsibility",
+      "confidence": "firm"
+    },
+    {
+      "description": "Michael Donovan and Sergey Lyapustin will continue developing the AI resource marketplace.",
+      "decidedBy": ["Michael Donovan", "Sergey Lyapustin"],
+      "topic": "ai-marketplace-development",
+      "confidence": "firm"
+    }
+  ],
+  "actionItems": [
+    {
+      "task": "Send Vinnie an email to inform him about the potential reschedule to tomorrow or Wednesday.",
+      "owner": "Joe Furnari",
+      "deadline": "2026-03-30",
+      "expectedOutcome": {
+        "system": "email",
+        "description": "Vinnie is informed about rescheduling options."
+      }
+    },
+    {
+      "task": "Send an email to Jason Branham and Joe Furnari with the list of Lithia dealers and a snapshot of Edwin's previous work.",
+      "owner": "Shawna Behen",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "email",
+        "description": "Jason and Joe receive necessary information to prepare for the Lithia presentation."
+      }
+    },
+    {
+      "task": "Work on a presentation deck for Mara (Lithia) covering Q1 2026 and Q4 2025 dealer performance.",
+      "owner": "Shawna Behen",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "google-docs",
+        "description": "Completed presentation deck ready for the call with Lithia."
+      }
+    },
+    {
+      "task": "Get the framework together for the presentation overview for the conversation with Lithia.",
+      "owner": "Shawna Behen",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "google-docs",
+        "description": "A structured presentation framework for the Lithia conversation."
+      }
+    },
+    {
+      "task": "Continue putting together AI resources and compiling a marketplace with sub agents/skills and plugins.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "codebase",
+        "description": "AI resource marketplace with sub-agents, skills, and plugins is developed and functional."
+      }
+    },
+    {
+      "task": "Continue putting together AI resources and compiling a marketplace with sub agents/skills and plugins.",
+      "owner": "Sergey Lyapustin",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "codebase",
+        "description": "AI resource marketplace with sub-agents, skills, and plugins is developed and functional."
+      }
+    }
+  ],
+  "topicsDiscussed": [
+    "meeting-schedule",
+    "lithia-presentation",
+    "dealer-onboarding",
+    "ai-marketplace-development",
+    "data-presentation",
+    "presentation-framework"
+  ],
+  "tensions": [
+    "Concern about inconsistencies in past Lithia dealer onboarding processes.",
+    "Ensuring the Lithia presentation focuses on clear data and results rather than just visuals."
+  ],
+  "referencesToPast": [
+    "Past inconsistencies when onboarding Lithia dealers, such as cancellations after a month and individual dealer deviations.",
+    "Edwin's previous work on case studies detailing performance prior to and with Strolid."
+  ]
+}

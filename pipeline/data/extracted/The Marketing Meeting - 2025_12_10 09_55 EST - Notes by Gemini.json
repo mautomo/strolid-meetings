@@ -1,0 +1,55 @@
+{
+  "meetingId": "the-marketing-meeting-2025-12-10",
+  "title": "The Marketing Meeting",
+  "date": "2025-12-10",
+  "series": "The Marketing Meeting",
+  "type": "marketing",
+  "attendees": [
+    "Thomas Howe",
+    "Vinnie Micciche",
+    "Joe Furnari",
+    "Michael Donovan",
+    "Ziad Al Khatib",
+    "Jason Branham",
+    "Matt Watson",
+    "Kevin Breen",
+    "Harinder Bhinder"
+  ],
+  "summary": "The meeting focused on the tokenized design system and content strategy for social posts. Vinnie Micciche emphasized the importance of accurate content and messaging reflecting Strawid's evolution, particularly in relation to AI and competition, requesting content approval before automation. Joe Furnari proposed, and Vinnie agreed to, generating two weeks of posts for Vinnie’s review before proceeding with automation.",
+  "decisions": [
+    {
+      "description": "Generate two weeks' worth of social media posts for review before proceeding with automation.",
+      "decidedBy": ["Joe Furnari", "Vinnie Micciche"],
+      "topic": "content-review-approval",
+      "confidence": "firm"
+    },
+    {
+      "description": "Focus messaging on helping dealers who don't know how to use AI, positioning Strawid as the expert.",
+      "decidedBy": ["Thomas Howe", "Vinnie Micciche"],
+      "topic": "messaging-strategy",
+      "confidence": "firm"
+    }
+  ],
+  "actionItems": [
+    {
+      "task": "Go through the three documents and provide additional comments.",
+      "owner": "Joe Furnari",
+      "deadline": "2025-12-10",
+      "expectedOutcome": {
+        "system": "google-docs",
+        "description": "Joe Furnari will have added comments to the three documents, providing feedback on content and messaging."
+      }
+    }
+  ],
+  "topicsDiscussed": [
+    "design-system",
+    "messaging-strategy",
+    "content-review-approval",
+    "ai-messaging"
+  ],
+  "tensions": [
+    "Vinnie Micciche's concern that aesthetics were getting more focus than the messaging.",
+    "Vinnie's concern about messaging accuracy and the need to address the threat of AI bots."
+  ],
+  "referencesToPast": []
+}

@@ -1,0 +1,432 @@
+[
+  {
+    "topic": "portal-user-engagement",
+    "originalPosition": "Focus on the \"why\" behind portal usage to drive dealer adoption.",
+    "originalDate": "2025-01-28",
+    "originalMeeting": "product-roadmap-planning-2025-01-28",
+    "newPosition": "Leverage the diffusion of innovation theory to incentivize participation.",
+    "changeDate": "2025-01-28",
+    "changeMeeting": "product-roadmap-planning-2025-01-28",
+    "daysBetween": 0
+  },
+  {
+    "topic": "project-documentation",
+    "originalPosition": "Use a simple task list for project documentation instead of a complex workflow, including details like concepts, messages, due dates, and linked files.",
+    "originalDate": "2025-09-23",
+    "originalMeeting": "homepage-hero-session-2025-09-23",
+    "newPosition": "Michael Donovan will set Ziad Al Khatib as the default for multiple selections in the task list.",
+    "changeDate": "2025-09-23",
+    "changeMeeting": "homepage-hero-session-2025-09-23",
+    "daysBetween": 0
+  },
+  {
+    "topic": "portal-onboarding",
+    "originalPosition": "Notify the client success person when a dealer user without a portal login attempts to access the portal through a call note link.",
+    "originalDate": "2025-10-02",
+    "originalMeeting": "active-pipeline-review-2025-10-02",
+    "newPosition": "Prioritize building an onboarding flow for new portal users.",
+    "changeDate": "2025-10-02",
+    "changeMeeting": "active-pipeline-review-2025-10-02",
+    "daysBetween": 0
+  },
+  {
+    "topic": "website-development",
+    "originalPosition": "Michael Donovan will provide a visual, password-protected staging version of the website for Perry Evans to review.",
+    "originalDate": "2025-10-24",
+    "originalMeeting": "vconic-priority-content-update-2025-10-24",
+    "newPosition": "Perry Evans will assess the staging website version and decide whether to dedicate three weeks to the website with a focus on LinkedIn, or spend the next week iterating on the website for a refined draft.",
+    "changeDate": "2025-10-24",
+    "changeMeeting": "vconic-priority-content-update-2025-10-24",
+    "daysBetween": 0
+  },
+  {
+    "topic": "linkedin-strategy",
+    "originalPosition": "Michael Donovan will have LinkedIn assets ready to align with Vinnie's priority for immediate launch and social media development.",
+    "originalDate": "2025-10-24",
+    "originalMeeting": "vconic-priority-content-update-2025-10-24",
+    "newPosition": "LinkedIn project is put in a secondary stage, focusing on hero images, profile banners, and post templates.",
+    "changeDate": "2025-10-24",
+    "changeMeeting": "vconic-priority-content-update-2025-10-24",
+    "daysBetween": 0
+  },
+  {
+    "topic": "linkedin-strategy",
+    "originalPosition": "LinkedIn project is put in a secondary stage, focusing on hero images, profile banners, and post templates.",
+    "originalDate": "2025-10-24",
+    "originalMeeting": "vconic-priority-content-update-2025-10-24",
+    "newPosition": "Increase the frequency of carousel posts on LinkedIn from once a week to potentially twice a week.",
+    "changeDate": "2025-11-25",
+    "changeMeeting": "the-marketing-meeting-2025-11-25",
+    "daysBetween": 32
+  },
+  {
+    "topic": "sales-deck-update",
+    "originalPosition": "Michael Donovan will schedule time with Jason Branham to review and align the updated sales deck with a more modern aesthetic.",
+    "originalDate": "2025-11-25",
+    "originalMeeting": "the-marketing-meeting-2025-11-25",
+    "newPosition": "Michael Donovan will build out the template for the updated aesthetic sales deck so that the team can utilize it.",
+    "changeDate": "2025-11-25",
+    "changeMeeting": "the-marketing-meeting-2025-11-25",
+    "daysBetween": 0
+  },
+  {
+    "topic": "messaging-strategy",
+    "originalPosition": "Refine hero messaging to ensure VConic is recognized as the creator and educator of VCon.",
+    "originalDate": "2025-11-20",
+    "originalMeeting": "vconic-site-content-2025-11-20",
+    "newPosition": "Michael Donovan will refine social posts to be more in-your-face and low-funnel for lead generation.",
+    "changeDate": "2025-12-03",
+    "changeMeeting": "michael-and-vin-continuation-2025-12-03",
+    "daysBetween": 13
+  },
+  {
+    "topic": "messaging-strategy",
+    "originalPosition": "Michael Donovan will refine social posts to be more in-your-face and low-funnel for lead generation.",
+    "originalDate": "2025-12-03",
+    "originalMeeting": "michael-and-vin-continuation-2025-12-03",
+    "newPosition": "Marketing should translate ideas into messaging, focusing on velocity, brand guidelines, messaging, and leads.",
+    "changeDate": "2025-12-03",
+    "changeMeeting": "michael-and-vin-continuation-2025-12-03",
+    "daysBetween": 0
+  },
+  {
+    "topic": "messaging-strategy",
+    "originalPosition": "Marketing should translate ideas into messaging, focusing on velocity, brand guidelines, messaging, and leads.",
+    "originalDate": "2025-12-03",
+    "originalMeeting": "michael-and-vin-continuation-2025-12-03",
+    "newPosition": "Messaging must be relevant to the company's direction.",
+    "changeDate": "2025-12-03",
+    "changeMeeting": "michael-and-vin-continuation-2025-12-03",
+    "daysBetween": 0
+  },
+  {
+    "topic": "messaging-strategy",
+    "originalPosition": "Messaging must be relevant to the company's direction.",
+    "originalDate": "2025-12-03",
+    "originalMeeting": "michael-and-vin-continuation-2025-12-03",
+    "newPosition": "Michael Donovan will immediately refine social posts to be more in-your-face and low-funnel.",
+    "changeDate": "2025-12-03",
+    "changeMeeting": "michael-and-vin-continuation-2025-12-03",
+    "daysBetween": 0
+  },
+  {
+    "topic": "messaging-strategy",
+    "originalPosition": "Michael Donovan will immediately refine social posts to be more in-your-face and low-funnel.",
+    "originalDate": "2025-12-03",
+    "originalMeeting": "michael-and-vin-continuation-2025-12-03",
+    "newPosition": "Michael Donovan will \"tone down\" the marketing messaging to be less complex and more direct for the target audience of \"car guys.\"",
+    "changeDate": "2025-12-03",
+    "changeMeeting": "michael-and-vin-continuation-2025-12-03",
+    "daysBetween": 0
+  },
+  {
+    "topic": "content-creation",
+    "originalPosition": "Vinnie Micciche will send content ideas to Michael Donovan for posting on Wednesday or Thursday.",
+    "originalDate": "2025-12-03",
+    "originalMeeting": "michael-and-vin-continuation-2025-12-03",
+    "newPosition": "Michael Donovan will send out whatever posts they have immediately, emphasizing the need for speed.",
+    "changeDate": "2025-12-03",
+    "changeMeeting": "michael-and-vin-continuation-2025-12-03",
+    "daysBetween": 0
+  },
+  {
+    "topic": "content-strategy",
+    "originalPosition": "Content strategy will focus on new technology and the company's shift toward automation.",
+    "originalDate": "2025-12-02",
+    "originalMeeting": "the-marketing-meeting-2025-12-02",
+    "newPosition": "Focus on one big content idea per month.",
+    "changeDate": "2025-12-04",
+    "changeMeeting": "joe-and-michael-catch-up-2025-12-04",
+    "daysBetween": 2
+  },
+  {
+    "topic": "messaging-strategy",
+    "originalPosition": "Michael Donovan will \"tone down\" the marketing messaging to be less complex and more direct for the target audience of \"car guys.\"",
+    "originalDate": "2025-12-03",
+    "originalMeeting": "michael-and-vin-continuation-2025-12-03",
+    "newPosition": "Adopt Vinnie Micciche's messaging focused on speed, efficiency, and advanced technology for marketing content.",
+    "changeDate": "2025-12-05",
+    "changeMeeting": "call-with-michael-2025-12-05",
+    "daysBetween": 2
+  },
+  {
+    "topic": "messaging-strategy",
+    "originalPosition": "Adopt Vinnie Micciche's messaging focused on speed, efficiency, and advanced technology for marketing content.",
+    "originalDate": "2025-12-05",
+    "originalMeeting": "call-with-michael-2025-12-05",
+    "newPosition": "Focus messaging on helping dealers who don't know how to use AI, positioning Strawid as the expert.",
+    "changeDate": "2025-12-10",
+    "changeMeeting": "the-marketing-meeting-2025-12-10",
+    "daysBetween": 5
+  },
+  {
+    "topic": "messaging-strategy",
+    "originalPosition": "Focus messaging on helping dealers who don't know how to use AI, positioning Strawid as the expert.",
+    "originalDate": "2025-12-10",
+    "originalMeeting": "the-marketing-meeting-2025-12-10",
+    "newPosition": "Structure the marketing messaging into three lanes: dealer visibility/operational clarity; speed/flow/follow-up engineering; and AI/human co-pilot/dealer brain.",
+    "changeDate": "2025-12-23",
+    "changeMeeting": "marketing-90-day-prioritization-2025-12-23",
+    "daysBetween": 13
+  },
+  {
+    "topic": "newsletter-process",
+    "originalPosition": "Automate the newsletter content request via Slack.",
+    "originalDate": "2025-12-29",
+    "originalMeeting": "website-planning-session-2025-12-29",
+    "newPosition": "Use a huddle format for the newsletter team (Natalie, Kristina, Michael) to confirm deadlines and discuss progress.",
+    "changeDate": "2025-12-29",
+    "changeMeeting": "website-planning-session-2025-12-29",
+    "daysBetween": 0
+  },
+  {
+    "topic": "newsletter-process",
+    "originalPosition": "Use a huddle format for the newsletter team (Natalie, Kristina, Michael) to confirm deadlines and discuss progress.",
+    "originalDate": "2025-12-29",
+    "originalMeeting": "website-planning-session-2025-12-29",
+    "newPosition": "Obtain final newsletter approval from Vin or Shauna.",
+    "changeDate": "2025-12-29",
+    "changeMeeting": "website-planning-session-2025-12-29",
+    "daysBetween": 0
+  },
+  {
+    "topic": "website-redesign",
+    "originalPosition": "Implement a \"fresh start\" for the website, installing only necessary plugins and extensions.",
+    "originalDate": "2025-12-29",
+    "originalMeeting": "website-planning-session-2025-12-29",
+    "newPosition": "Kristina Cvitko will dedicate the time typically spent on her three monthly pages (lead magnet, product, article) to assist with the WordPress site redesign, plugins, and overall improvement.",
+    "changeDate": "2025-12-29",
+    "changeMeeting": "website-planning-session-2025-12-29",
+    "daysBetween": 0
+  },
+  {
+    "topic": "website-redesign",
+    "originalPosition": "Kristina Cvitko will dedicate the time typically spent on her three monthly pages (lead magnet, product, article) to assist with the WordPress site redesign, plugins, and overall improvement.",
+    "originalDate": "2025-12-29",
+    "originalMeeting": "website-planning-session-2025-12-29",
+    "newPosition": "Create a new staging environment for the website.",
+    "changeDate": "2025-12-29",
+    "changeMeeting": "website-planning-session-2025-12-29",
+    "daysBetween": 0
+  },
+  {
+    "topic": "website-redesign",
+    "originalPosition": "Create a new staging environment for the website.",
+    "originalDate": "2025-12-29",
+    "originalMeeting": "website-planning-session-2025-12-29",
+    "newPosition": "Install a new, reputable theme for the website.",
+    "changeDate": "2025-12-29",
+    "changeMeeting": "website-planning-session-2025-12-29",
+    "daysBetween": 0
+  },
+  {
+    "topic": "website-redesign",
+    "originalPosition": "Install a new, reputable theme for the website.",
+    "originalDate": "2025-12-29",
+    "originalMeeting": "website-planning-session-2025-12-29",
+    "newPosition": "Migrate existing website content using a local Docker instance with a Claude plugin.",
+    "changeDate": "2025-12-29",
+    "changeMeeting": "website-planning-session-2025-12-29",
+    "daysBetween": 0
+  },
+  {
+    "topic": "website-redesign",
+    "originalPosition": "Migrate existing website content using a local Docker instance with a Claude plugin.",
+    "originalDate": "2025-12-29",
+    "originalMeeting": "website-planning-session-2025-12-29",
+    "newPosition": "Loop Vin in on the website redesign plan.",
+    "changeDate": "2025-12-29",
+    "changeMeeting": "website-planning-session-2025-12-29",
+    "daysBetween": 0
+  },
+  {
+    "topic": "messaging-strategy",
+    "originalPosition": "Structure the marketing messaging into three lanes: dealer visibility/operational clarity; speed/flow/follow-up engineering; and AI/human co-pilot/dealer brain.",
+    "originalDate": "2025-12-23",
+    "originalMeeting": "marketing-90-day-prioritization-2025-12-23",
+    "newPosition": "Use the three lanes (Truth, Control, Vision) as an architecture to anchor strategic outcomes of trust, belief, and preference.",
+    "changeDate": "2025-12-30",
+    "changeMeeting": "the-marketing-meeting-2025-12-30",
+    "daysBetween": 7
+  },
+  {
+    "topic": "messaging-strategy",
+    "originalPosition": "Use the three lanes (Truth, Control, Vision) as an architecture to anchor strategic outcomes of trust, belief, and preference.",
+    "originalDate": "2025-12-30",
+    "originalMeeting": "the-marketing-meeting-2025-12-30",
+    "newPosition": "Define the core message of Lane One (Truth) as \"you can't manage what you can't see.\"",
+    "changeDate": "2025-12-30",
+    "changeMeeting": "the-marketing-meeting-2025-12-30",
+    "daysBetween": 0
+  },
+  {
+    "topic": "website-refresh",
+    "originalPosition": "Michael Donovan will contact Perry regarding the Viconic website progress.",
+    "originalDate": "2025-12-03",
+    "originalMeeting": "michael-and-vin-continuation-2025-12-03",
+    "newPosition": "Michael Donovan will approach website development in two phases: a quick refresh for Vinnie and a strategic buildout for Michael's infrastructure plan.",
+    "changeDate": "2025-12-30",
+    "changeMeeting": "joe-and-michael-reconnect-2025-12-30",
+    "daysBetween": 27
+  },
+  {
+    "topic": "messaging-strategy",
+    "originalPosition": "Define the core message of Lane One (Truth) as \"you can't manage what you can't see.\"",
+    "originalDate": "2025-12-30",
+    "originalMeeting": "the-marketing-meeting-2025-12-30",
+    "newPosition": "Implement website content with a \"human first or AI first\" message.",
+    "changeDate": "2026-01-06",
+    "changeMeeting": "the-marketing-meeting-2026-01-06",
+    "daysBetween": 7
+  },
+  {
+    "topic": "website-refresh",
+    "originalPosition": "Michael Donovan will approach website development in two phases: a quick refresh for Vinnie and a strategic buildout for Michael's infrastructure plan.",
+    "originalDate": "2025-12-30",
+    "originalMeeting": "joe-and-michael-reconnect-2025-12-30",
+    "newPosition": "Focus on refreshing the existing website for a quick win.",
+    "changeDate": "2026-01-06",
+    "changeMeeting": "the-marketing-meeting-2026-01-06",
+    "daysBetween": 7
+  },
+  {
+    "topic": "website-content",
+    "originalPosition": "Michael Donovan will focus on creating five core new pages or refreshes by Friday, anchored to the 11-page PowerPoint Vinnie had sent.",
+    "originalDate": "2025-12-30",
+    "originalMeeting": "joe-and-michael-reconnect-2025-12-30",
+    "newPosition": "Build the website with the content provided by Vinnie Micciche.",
+    "changeDate": "2026-01-06",
+    "changeMeeting": "the-marketing-meeting-2026-01-06",
+    "daysBetween": 7
+  },
+  {
+    "topic": "lead-generation",
+    "originalPosition": "Michael Donovan should focus on lead generation rather than building the marketing 'engine'.",
+    "originalDate": "2025-12-03",
+    "originalMeeting": "michael-and-vin-continuation-2025-12-03",
+    "newPosition": "Rely on a form for leads in the short term, removing \"leads\" and \"lead magnets\".",
+    "changeDate": "2026-01-20",
+    "changeMeeting": "joe-and-michael-touch-base-2026-01-20",
+    "daysBetween": 48
+  },
+  {
+    "topic": "website-content",
+    "originalPosition": "Build the website with the content provided by Vinnie Micciche.",
+    "originalDate": "2026-01-06",
+    "originalMeeting": "the-marketing-meeting-2026-01-06",
+    "newPosition": "Focus on creating updates and swapping out pages rather than refreshing every legacy page.",
+    "changeDate": "2026-01-20",
+    "changeMeeting": "joe-and-michael-touch-base-2026-01-20",
+    "daysBetween": 14
+  },
+  {
+    "topic": "website-navigation",
+    "originalPosition": "Remove 'resources' and 'lead sources' from the Solutions section and move them to other categories.",
+    "originalDate": "2026-01-20",
+    "originalMeeting": "joe-and-michael-touch-base-2026-01-20",
+    "newPosition": "Potentially move \"AI intelligent engine\" under \"BDC solutions\" to create two stacks instead of three to maintain symmetry in the navigation.",
+    "changeDate": "2026-01-20",
+    "changeMeeting": "joe-and-michael-touch-base-2026-01-20",
+    "daysBetween": 0
+  },
+  {
+    "topic": "website-navigation",
+    "originalPosition": "Potentially move \"AI intelligent engine\" under \"BDC solutions\" to create two stacks instead of three to maintain symmetry in the navigation.",
+    "originalDate": "2026-01-20",
+    "originalMeeting": "joe-and-michael-touch-base-2026-01-20",
+    "newPosition": "Combine \"Insights\" and \"Resources\" in the navigation, resulting in three drop-downs: \"Solutions,\" \"Insights and Resources,\" and \"About Us\".",
+    "changeDate": "2026-01-20",
+    "changeMeeting": "joe-and-michael-touch-base-2026-01-20",
+    "daysBetween": 0
+  },
+  {
+    "topic": "website-launch",
+    "originalPosition": "Do not launch a new website before the NADA event.",
+    "originalDate": "2026-01-20",
+    "originalMeeting": "joe-and-michael-touch-base-2026-01-20",
+    "newPosition": "Aim for an \"awesome splash\" and momentum-building launch of the new site after the NADA event.",
+    "changeDate": "2026-01-20",
+    "changeMeeting": "joe-and-michael-touch-base-2026-01-20",
+    "daysBetween": 0
+  },
+  {
+    "topic": "buyer-targeting",
+    "originalPosition": "Shift business focus to larger dealer groups and OEMs to secure more stable, long-term contracts.",
+    "originalDate": "2025-12-05",
+    "originalMeeting": "call-with-michael-2025-12-05",
+    "newPosition": "Target dealer principals, corporate staff, and owners as the primary audience.",
+    "changeDate": "2026-03-03",
+    "changeMeeting": "the-marketing-meeting-2026-03-03",
+    "daysBetween": 88
+  },
+  {
+    "topic": "soc-2-audit",
+    "originalPosition": "The SOC 2 audit target completion date is set for September, slightly delayed due to the decision to run two separate SOC audits.",
+    "originalDate": "2026-03-09",
+    "originalMeeting": "strolid-leadership-call-2026-03-09",
+    "newPosition": "The team will run two separate SOC audits to separate VCON and the parent company downstream.",
+    "changeDate": "2026-03-09",
+    "changeMeeting": "strolid-leadership-call-2026-03-09",
+    "daysBetween": 0
+  },
+  {
+    "topic": "buyer-targeting",
+    "originalPosition": "Target dealer principals, corporate staff, and owners as the primary audience.",
+    "originalDate": "2026-03-03",
+    "originalMeeting": "the-marketing-meeting-2026-03-03",
+    "newPosition": "ICP groups were identified using seed customers based on analyzed technology usage and staffing levels to create a defined target audience.",
+    "changeDate": "2026-03-10",
+    "changeMeeting": "the-marketing-meeting-2026-03-10",
+    "daysBetween": 7
+  },
+  {
+    "topic": "linkedin-strategy",
+    "originalPosition": "Increase the frequency of carousel posts on LinkedIn from once a week to potentially twice a week.",
+    "originalDate": "2025-11-25",
+    "originalMeeting": "the-marketing-meeting-2025-11-25",
+    "newPosition": "The sales team will begin sending out connection requests on LinkedIn using the \"phase zero\" lookalike list, as part of a multi-channel strategy.",
+    "changeDate": "2026-03-13",
+    "changeMeeting": "marketing-2026-03-13",
+    "daysBetween": 108
+  },
+  {
+    "topic": "ideal-customer-profile",
+    "originalPosition": "Focus on running campaigns for the defined ideal customer profile (ICP) roles to establish conversions and bounce rates.",
+    "originalDate": "2026-03-03",
+    "originalMeeting": "the-marketing-meeting-2026-03-03",
+    "newPosition": "The sales and client success teams will proceed with the presented Ideal Customer Profile (ICP) definition, as presented by Michael Donovan's team.",
+    "changeDate": "2026-03-13",
+    "changeMeeting": "marketing-2026-03-13",
+    "daysBetween": 10
+  },
+  {
+    "topic": "meeting-schedule",
+    "originalPosition": "Set the weekly meeting between Michael and Joe back to 10:00 AM ongoing.",
+    "originalDate": "2025-10-21",
+    "originalMeeting": "the-marketing-meeting-2025-10-21",
+    "newPosition": "Reschedule the meeting to later in the week due to Vinnie's absence if no one has any immediate critical topics.",
+    "changeDate": "2026-03-30",
+    "changeMeeting": "strolid-leadership-call-2026-03-30",
+    "daysBetween": 160
+  },
+  {
+    "topic": "messaging-strategy",
+    "originalPosition": "Implement website content with a \"human first or AI first\" message.",
+    "originalDate": "2026-01-06",
+    "originalMeeting": "the-marketing-meeting-2026-01-06",
+    "newPosition": "The marketing team must align messaging with current dealer challenges (high turnover, response time), leveraging data from form entries to develop campaigns.",
+    "changeDate": "2026-03-31",
+    "changeMeeting": "the-marketing-meeting-2026-03-31",
+    "daysBetween": 84
+  },
+  {
+    "topic": "content-creation",
+    "originalPosition": "Michael Donovan will send out whatever posts they have immediately, emphasizing the need for speed.",
+    "originalDate": "2025-12-03",
+    "originalMeeting": "michael-and-vin-continuation-2025-12-03",
+    "newPosition": "Michael Donovan to create an outline for proposed value propositions, using a simple \"Yes or No\" approval format to ensure alignment.",
+    "changeDate": "2026-03-31",
+    "changeMeeting": "the-marketing-meeting-2026-03-31",
+    "daysBetween": 118
+  }
+]

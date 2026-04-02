@@ -1,0 +1,97 @@
+{
+  "meetingId": "weekly-1-on-1-with-michael-d-and-joe-f-2026-03-30",
+  "title": "Weekly 1 on 1 with Michael D and Joe F",
+  "date": "2026-03-30",
+  "series": "Weekly 1 on 1 with Michael D and Joe F",
+  "type": "one-on-one",
+  "attendees": ["Joe Furnari", "Michael Donovan", "Paulo Trovao"],
+  "summary": "The discussion centered around CRM visualization challenges and the need for foundational system fixes to improve marketing strategy and lead generation. Michael Donovan was tasked with prioritizing and presenting these fixes to Vinnie, highlighting their importance for enabling core features like Cadence and progressing MQLs through the conversion funnel. Joe Furnari emphasized the importance of adhering to established email campaign review processes and addressing deviations.",
+  "decisions": [
+    {
+      "description": "Foundational CRM work is required before proceeding with other CRM improvements.",
+      "decidedBy": ["Joe Furnari", "Michael Donovan"],
+      "topic": "crm-foundational-fixes",
+      "confidence": "firm"
+    },
+    {
+      "description": "Michael Donovan will prioritize and present necessary CRM foundational fixes to Vinnie.",
+      "decidedBy": ["Joe Furnari"],
+      "topic": "crm-foundational-fixes-presentation",
+      "confidence": "firm"
+    },
+    {
+      "description": "All email campaigns and social posts will be delivered in a structured manner.",
+      "decidedBy": ["Michael Donovan"],
+      "topic": "email-campaign-structure",
+      "confidence": "firm"
+    },
+    {
+      "description": "Fixed email campaign schedules will be subject to change based on data.",
+      "decidedBy": ["Michael Donovan"],
+      "topic": "email-campaign-scheduling",
+      "confidence": "firm"
+    }
+  ],
+  "actionItems": [
+    {
+      "task": "Upload existing contact lists; classify as MQLs.",
+      "owner": "Unassigned",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "crm",
+        "description": "Existing contact lists are added to the CRM and correctly classified as MQLs."
+      }
+    },
+    {
+      "task": "Speak with Vinnie about better approaches for CRM coordination.",
+      "owner": "Joe Furnari",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "other",
+        "description": "Vinnie is aligned on a coordinated approach for CRM improvements."
+      }
+    },
+    {
+      "task": "Present the proposed CRM foundational fixes to Vinnie. Include a reasonable timeline for required completion.",
+      "owner": "Michael Donovan",
+      "deadline": "2026-03-31",
+      "expectedOutcome": {
+        "system": "other",
+        "description": "Vinnie understands the importance of the CRM fixes and agrees with the proposed timeline."
+      }
+    },
+    {
+      "task": "Balance and finalize the proposed recap format against the initial carousel idea.",
+      "owner": "Unassigned",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "other",
+        "description": "A final decision on the recap format is made."
+      }
+    },
+    {
+      "task": "Confirm Vinnie's attendance for the meeting tomorrow.",
+      "owner": "Joe Furnari",
+      "deadline": "2026-03-31",
+      "expectedOutcome": {
+        "system": "calendar",
+        "description": "Vinnie's attendance is confirmed."
+      }
+    }
+  ],
+  "topicsDiscussed": [
+    "crm-visualization",
+    "relational-database",
+    "crm-foundational-fixes",
+    "marketing-strategy",
+    "lead-generation",
+    "website-performance",
+    "email-campaigns",
+    "process-adherence"
+  ],
+  "tensions": [
+    "Michael Donovan disagreed that the CRM issues were merely about better reporting, insisting they were more fundamental.",
+    "The email campaign sent last week didn't allow adequate review time for Vinnie before the scheduled send, violating the established process."
+  ],
+  "referencesToPast": ["Reference to the CRM roadmap requested last week."]
+}

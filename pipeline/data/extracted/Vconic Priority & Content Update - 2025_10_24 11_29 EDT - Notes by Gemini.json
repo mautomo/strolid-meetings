@@ -1,0 +1,86 @@
+{
+  "meetingId": "vconic-priority-content-update-2025-10-24",
+  "title": "Vconic Priority & Content Update",
+  "date": "2025-10-24",
+  "series": "Vconic Priority & Content Update",
+  "type": "marketing",
+  "attendees": ["Perry Evans", "Michael Donovan"],
+  "summary": "Perry Evans and Michael Donovan discussed website development, communication breakdowns, and strategic priorities, focusing on launching the website and LinkedIn content. Michael Donovan will provide a staging version of the website for Perry's feedback and prepare LinkedIn assets, while addressing communication gaps regarding directives and priorities.",
+  "decisions": [
+    {
+      "description": "Michael Donovan will provide a visual, password-protected staging version of the website for Perry Evans to review.",
+      "decidedBy": ["Michael Donovan"],
+      "topic": "website-development",
+      "confidence": "firm"
+    },
+    {
+      "description": "Perry Evans will assess the staging website version and decide whether to dedicate three weeks to the website with a focus on LinkedIn, or spend the next week iterating on the website for a refined draft.",
+      "decidedBy": ["Perry Evans"],
+      "topic": "website-development",
+      "confidence": "tentative"
+    },
+    {
+      "description": "Michael Donovan will have LinkedIn assets ready to align with Vinnie's priority for immediate launch and social media development.",
+      "decidedBy": ["Michael Donovan"],
+      "topic": "linkedin-strategy",
+      "confidence": "firm"
+    },
+    {
+      "description": "LinkedIn project is put in a secondary stage, focusing on hero images, profile banners, and post templates.",
+      "decidedBy": ["Perry Evans", "Michael Donovan"],
+      "topic": "linkedin-strategy",
+      "confidence": "firm"
+    }
+  ],
+  "actionItems": [
+    {
+      "task": "Send a link to the staging version of the website, including the homepage, four product pages, leadership, and about page.",
+      "owner": "Michael Donovan",
+      "deadline": "2025-10-24",
+      "expectedOutcome": {
+        "system": "email",
+        "description": "Perry Evans receives a link to the staging website."
+      }
+    },
+    {
+      "task": "Publish the draft website behind a firewall or password protected for review.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "website",
+        "description": "Perry Evans can access and view the draft website."
+      }
+    },
+    {
+      "task": "Focus on hero images, profile banners, and post templates to define the look and feel of LinkedIn content.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "linkedin",
+        "description": "Templates and design language established for upcoming LinkedIn posts."
+      }
+    }
+  ],
+  "topicsDiscussed": [
+    "website-development",
+    "user-experience",
+    "communication-breakdown",
+    "team-dynamics",
+    "strategic-priorities",
+    "linkedin-strategy",
+    "content-creation",
+    "project-management",
+    "resource-allocation"
+  ],
+  "tensions": [
+    "Communication breakdown between Perry Evans and Michael Donovan regarding website draft production.",
+    "Differing approaches between Vinnie (sales-focused) and Michael Donovan (structure-focused).",
+    "Vinnie's \"rant\" about lack of social posts and website launch timing.",
+    "Michael Donovan being given conflicting directives by Vinnie."
+  ],
+  "referencesToPast": [
+    "Previous conversation between Perry Evans and Michael Donovan about producing a website draft.",
+    "Mention of past conversations around Z and Vinnie ranting about not enough social posts.",
+    "Reference to the original sanity framework wireframe."
+  ]
+}

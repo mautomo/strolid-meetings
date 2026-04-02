@@ -1,0 +1,68 @@
+{
+  "meetingId": "regroup-on-website-refresh-initiative-2026-01-09",
+  "title": "Regroup on Website Refresh Initiative",
+  "date": "2026-01-09",
+  "series": "Regroup on Website Refresh Initiative",
+  "type": "other",
+  "attendees": ["Joe Furnari", "Michael Donovan"],
+  "summary": "Michael Donovan shared his frustration with the current WordPress website and detailed his independently developed modern website solution. Joe Furnari insisted Michael Donovan focus on Vinnie's request to update a few pages on the existing site to assess messaging and core concepts. Ultimately, Michael Donovan agreed to send Joe Furnari links to the updated pages before Monday.",
+  "decisions": [
+    {
+      "description": "Michael Donovan will update only four or five pages of new content on the existing WordPress site, focusing on Vinnie's directive.",
+      "decidedBy": ["Joe Furnari"],
+      "topic": "website-content-update-scope",
+      "confidence": "firm"
+    },
+    {
+      "description": "Michael Donovan will send links to the updated pages/content to Joe Furnari before Monday.",
+      "decidedBy": ["Michael Donovan"],
+      "topic": "content-delivery",
+      "confidence": "firm"
+    },
+    {
+      "description": "The new website build will not be shared with Vinnie.",
+      "decidedBy": ["Joe Furnari"],
+      "topic": "new-website-sharing",
+      "confidence": "firm"
+    }
+  ],
+  "actionItems": [
+    {
+      "task": "Send links to the updated pages/content",
+      "owner": "Michael Donovan",
+      "deadline": "2026-01-12",
+      "expectedOutcome": {
+        "system": "email",
+        "description": "Joe Furnari will receive links to two or three updated pages/content before Monday."
+      }
+    },
+    {
+      "task": "Review the links and pages sent by Michael Donovan and provide feedback.",
+      "owner": "Joe Furnari",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "email",
+        "description": "Joe Furnari will be prepared to discuss the updated content with Vinnie and provide feedback to Michael Donovan after the Monday staff meeting."
+      }
+    }
+  ],
+  "topicsDiscussed": [
+    "website-refresh",
+    "wordpress-platform",
+    "content-messaging",
+    "navigation-structure",
+    "technical-debt",
+    "alternative-website-solution"
+  ],
+  "tensions": [
+    "Michael Donovan's frustration with WordPress and desire to focus on the new website solution.",
+    "Joe Furnari's insistence on adhering to Vinnie's request to update the existing site.",
+    "Michael Donovan's argument about the technical difficulties of updating the existing site.",
+    "Disagreement over whether updating the navigation is necessary and within scope."
+  ],
+  "referencesToPast": [
+    "Vinnie's previous acknowledgement that WordPress is not the long-term platform.",
+    "Previous scope of work discussions regarding website updates.",
+    "Content previously provided by Vinnie for the website."
+  ]
+}

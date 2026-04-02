@@ -1,0 +1,104 @@
+{
+  "meetingId": "the-marketing-meeting-2026-03-10",
+  "title": "The Marketing Meeting",
+  "date": "2026-03-10",
+  "series": "The Marketing Meeting",
+  "type": "marketing",
+  "attendees": [
+    "Vinnie Micciche",
+    "Joe Furnari",
+    "Michael Donovan",
+    "Jason Branham",
+    "Paulo Trovao"
+  ],
+  "summary": "The meeting focused on campaign content and messaging accuracy, especially concerning the integration of AI into marketing materials. There was a strong disagreement over content relevance and messaging authority, but the team committed to a simplified campaign implementation, agreeing to share draft email themes for content modification. Vinnie Micciche agreed to quickly provide finalized content to ensure accurate messaging.",
+  "decisions": [
+    {
+      "description": "ICP groups were identified using seed customers based on analyzed technology usage and staffing levels to create a defined target audience.",
+      "decidedBy": ["Michael Donovan"],
+      "topic": "buyer-targeting",
+      "confidence": "firm"
+    },
+    {
+      "description": "Dashboard simplification was confirmed and historical revenue data was confirmed to originate from the invoice tracker.",
+      "decidedBy": ["Michael Donovan"],
+      "topic": "dashboard-simplification",
+      "confidence": "firm"
+    },
+    {
+      "description": "Simplified campaign implementation was committed to, foregoing video content initially.",
+      "decidedBy": [
+        "Joe Furnari",
+        "Vinnie Micciche",
+        "Michael Donovan",
+        "Jason Branham"
+      ],
+      "topic": "campaign-implementation",
+      "confidence": "firm"
+    },
+    {
+      "description": "2 or 3 draft email themes will be shared for content modification.",
+      "decidedBy": ["Joe Furnari", "Michael Donovan"],
+      "topic": "email-campaign-content",
+      "confidence": "firm"
+    }
+  ],
+  "actionItems": [
+    {
+      "task": "Complete the current pipeline and scoring model.",
+      "owner": "Jason Branham",
+      "deadline": "2026-03-10",
+      "expectedOutcome": {
+        "system": "other",
+        "description": "A completed pipeline and scoring model based on lifetime accounts and associated lifetime value data."
+      }
+    },
+    {
+      "task": "Provide Vinnie Micciche and Jason Branham with two or three themes for the weekly email campaigns.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "email",
+        "description": "Shared themes to guide content creation for the email campaigns."
+      }
+    },
+    {
+      "task": "Provide content for the email campaigns based on the themes Michael Donovan provides.",
+      "owner": "Vinnie Micciche",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "email",
+        "description": "Completed content aligned with the agreed-upon themes for the email campaigns."
+      }
+    }
+  ],
+  "topicsDiscussed": [
+    "technical-review",
+    "icp-scoring",
+    "content-validity",
+    "messaging-authority",
+    "content-simplification",
+    "theme-focus",
+    "dashboard-simplification",
+    "historical-revenue-data",
+    "ideal-customer-profile",
+    "campaign-launch",
+    "ai-integration",
+    "data-accuracy",
+    "campaign-implementation",
+    "lead-generation",
+    "lead-quality",
+    "roi-analysis"
+  ],
+  "tensions": [
+    "Disagreement over content relevance and the need for AI focus in marketing materials.",
+    "Concern that current sales deck data is outdated and lacks essential AI focus.",
+    "Disagreement over whose messaging authority should be prioritized, especially regarding industry expertise.",
+    "Michael Donovan pushed back, stating that the draft email content was intentionally geared to go to the economic buyer and other classified decision-makers, a point Vinnie Micciche immediately rejected as a marketing twist and not reality"
+  ],
+  "referencesToPast": [
+    "Mention of Vinnie Micciche's feedback received and updates underway.",
+    "Reference to the dashboard's original version being \"overwhelming\".",
+    "Content used in the sales deck was reliant on \"old BDC data\" that was relevant ten years ago but that dealers would probably scoff at today, lacking essential information on AI."
+  ]
+}

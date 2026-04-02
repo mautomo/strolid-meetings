@@ -1,0 +1,108 @@
+{
+  "meetingId": "jason-michael-2025-09-16",
+  "title": "Jason / Michael",
+  "date": "2025-09-16",
+  "series": "Jason / Michael",
+  "type": "one-on-one",
+  "attendees": ["Michael Donovan", "Jason Branham"],
+  "summary": "Michael Donovan discussed the Strolid AI and Viconic integration, the rebuilding of the marketing team to focus on data-driven approaches, and introduced the BDC app for dealer campaigns. He emphasized the importance of orchestration in automation, aligning marketing and sales for account-based strategies, and empowering team members with new tools.",
+  "decisions": [
+    {
+      "description": "Integrate Strolid AI with Viconic for an AI show in Amsterdam, with plans to eventually bring Strolid AI fully into the Strolid brand.",
+      "decidedBy": ["Michael Donovan"],
+      "topic": "strolid-ai-integration",
+      "confidence": "firm"
+    },
+    {
+      "description": "Rebuild the Strolid marketing team with a focus on data-driven approaches and transparency.",
+      "decidedBy": ["Michael Donovan"],
+      "topic": "marketing-team-rebuild",
+      "confidence": "firm"
+    },
+    {
+      "description": "Align marketing and sales to transition from lead generation to account-based marketing and experience.",
+      "decidedBy": ["Michael Donovan"],
+      "topic": "marketing-sales-alignment",
+      "confidence": "firm"
+    },
+    {
+      "description": "Use the BDC app as an olive branch to Edwin.",
+      "decidedBy": ["Michael Donovan"],
+      "topic": "bdc-app-edwin",
+      "confidence": "tentative"
+    },
+    {
+      "description": "Proceed with dashboards, including one for service.",
+      "decidedBy": ["Michael Donovan", "Jason Branham"],
+      "topic": "service-dashboards",
+      "confidence": "firm"
+    },
+    {
+      "description": "Michael Donovan will get with Reed to get the tag manager done for the Rainbow store.",
+      "decidedBy": ["Michael Donovan"],
+      "topic": "tag-manager-setup",
+      "confidence": "firm"
+    }
+  ],
+  "actionItems": [
+    {
+      "task": "Complete the session after work tonight to fix the BDC app.",
+      "owner": "Michael Donovan",
+      "deadline": "2025-09-16",
+      "expectedOutcome": {
+        "system": "other",
+        "description": "The BDC app is functional with capabilities to scan a market and create email campaigns."
+      }
+    },
+    {
+      "task": "Send an invite from the BDC app to Jason Branham.",
+      "owner": "Michael Donovan",
+      "deadline": "2025-09-16",
+      "expectedOutcome": {
+        "system": "email",
+        "description": "Jason Branham receives an invitation to access the BDC app."
+      }
+    },
+    {
+      "task": "Get with Reed to get the tag manager done for the Rainbow store.",
+      "owner": "Michael Donovan",
+      "deadline": "2025-09-16",
+      "expectedOutcome": {
+        "system": "codebase",
+        "description": "Tag manager implemented for Rainbow store."
+      }
+    },
+    {
+      "task": "Inform everyone regarding the next steps for analysis and automation.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "slack",
+        "description": "Team members are aware of the next steps for analysis and automation"
+      }
+    }
+  ],
+  "topicsDiscussed": [
+    "strolid-ai-integration",
+    "marketing-automation",
+    "chatbot-engagement",
+    "marketing-team-rebuild",
+    "account-based-marketing",
+    "bdc-app",
+    "dealer-campaigns",
+    "data-analysis",
+    "market-scanning",
+    "tag-manager-setup",
+    "customer-relationship-management"
+  ],
+  "tensions": [
+    "Debate about focusing on leads versus building relationships.",
+    "The delay in VIN Solutions API integration.",
+    "Concerns about Edwin creating his own email blast.",
+    "Vin's initial resistance to more dashboards."
+  ],
+  "referencesToPast": [
+    "Previous marketing meeting which turned into a marathon meeting.",
+    "Past debates between Michael and Jason regarding lead generation vs. relationship building."
+  ]
+}

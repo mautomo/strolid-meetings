@@ -1,0 +1,91 @@
+{
+  "meetingId": "the-marketing-meeting-2025-12-16",
+  "title": "The Marketing Meeting",
+  "date": "2025-12-16",
+  "series": "The Marketing Meeting",
+  "type": "marketing",
+  "attendees": [
+    "Thomas Howe",
+    "Vinnie Micciche",
+    "Joe Furnari",
+    "Michael Donovan",
+    "Ziad Al Khatib",
+    "Jason Branham",
+    "Matt Watson",
+    "Kevin Breen",
+    "Harinder Bhinder"
+  ],
+  "summary": "The meeting centered on AI tool alignment, website updates to reflect AI capabilities, and marketplace profile updates. Vinnie Micciche presented Strallet and emphasized the urgency of updating the company website to showcase the AI focus, while Michael Donovan explained the website migration challenges and content strategy. Jason Branham requested a V20 marketplace update, which Vinnie Micciche agreed to handle.",
+  "decisions": [
+    {
+      "description": "Vinnie Micciche will review and update the company's profile page on the V20 marketplace, focusing on BDC and new AI capabilities.",
+      "decidedBy": ["Vinnie Micciche"],
+      "topic": "v20-marketplace-update",
+      "confidence": "firm"
+    },
+    {
+      "description": "Promote capabilities of new and future AI products (e.g., inbound and outbound Sophia) even if not fully ready, to attract customers and communicate the product roadmap.",
+      "decidedBy": ["Vinnie Micciche", "Jason Branham", "Harinder Bhinder"],
+      "topic": "ai-roadmap-promotion",
+      "confidence": "firm"
+    }
+  ],
+  "actionItems": [
+    {
+      "task": "Provide Vinnie Micciche with the login information for the V20 marketplace.",
+      "owner": "Jason Branham",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "email",
+        "description": "Vinnie Micciche has access to the V20 marketplace profile page to make updates."
+      }
+    },
+    {
+      "task": "Review the V20 marketplace profile page, add content with appropriate messaging (focusing on BDC and new AI capabilities), and get a general understanding of all the different stuff that can be added.",
+      "owner": "Vinnie Micciche",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "v20-marketplace",
+        "description": "The company profile on the V20 marketplace is updated with relevant content and highlights the company's AI capabilities."
+      }
+    },
+    {
+      "task": "Connect with Michael Donovan to discuss an idea related to the website plan and progression.",
+      "owner": "Joe Furnari",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "calendar",
+        "description": "A meeting is scheduled between Joe Furnari and Michael Donovan to discuss the website plan."
+      }
+    },
+    {
+      "task": "Work on the plan for the website based on the information Vinnie Micciche sent on Friday and come up with deadlines, expectations, and timelines to start executing on some of the content for the website.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "google-docs",
+        "description": "A detailed website plan document exists, outlining deadlines, expectations, and timelines for content execution."
+      }
+    }
+  ],
+  "topicsDiscussed": [
+    "ai-tools-sharing",
+    "content-development",
+    "strallet-ai-capabilities",
+    "data-strategy",
+    "outbound-follow-up",
+    "internal-product-messaging",
+    "website-development-plan",
+    "website-migration-challenges",
+    "v20-marketplace-update",
+    "ai-roadmap-promotion",
+    "future-ai-product-vision",
+    "tools-development-efficiency",
+    "website-content-alignment"
+  ],
+  "tensions": [
+    "Vinnie Micciche's frustration with the slow pace of website development and the website's failure to reflect the company's AI focus.",
+    "Michael Donovan's perceived contempt, leading to frustration from Vinnie Micciche."
+  ],
+  "referencesToPast": ["Website migration project started in late September."]
+}

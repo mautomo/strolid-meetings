@@ -1,0 +1,77 @@
+{
+  "meetingId": "product-roadmap-planning-2025-02-04",
+  "title": "Product: Roadmap Planning",
+  "date": "2025-02-04",
+  "series": "Product: Roadmap Planning",
+  "type": "product",
+  "attendees": [
+    "Thomas Howe",
+    "Matt Watson",
+    "Shawna Behen",
+    "Vinnie Micciche",
+    "Kristina Cvitko",
+    "Ken Herron",
+    "Joe Furnari",
+    "David Walsh",
+    "Jason Branham",
+    "Michael Mirabile",
+    "Michael Donovan"
+  ],
+  "summary": "The meeting centered on Q1 roadmap planning, presented by Matt Watson, with a focus on GPT, the portal, and signals. Key discussions involved timeline management, resource allocation, the phone system transition, and GPT pilot program feedback. Decisions included finalizing the phone system transition by February 28th and prioritizing dealer feedback for the GPT pilot.",
+  "decisions": [
+    {
+      "description": "Finalize the phone system transition by February 28th (pending contract).",
+      "decidedBy": ["Matt Watson", "Vinnie Micciche"],
+      "topic": "phone-system-transition",
+      "confidence": "firm"
+    },
+    {
+      "description": "Integrate Crescendo (dependent on contract).",
+      "decidedBy": ["Matt Watson"],
+      "topic": "crescendo-integration",
+      "confidence": "tentative"
+    },
+    {
+      "description": "Prioritize dealer GPT feedback.",
+      "decidedBy": ["Matt Watson", "Vinnie Micciche"],
+      "topic": "dealer-gpt-feedback",
+      "confidence": "firm"
+    },
+    {
+      "description": "Increase Sergey's hours.",
+      "decidedBy": ["Vinnie Micciche"],
+      "topic": "resource-allocation",
+      "confidence": "tentative"
+    }
+  ],
+  "actionItems": [
+    {
+      "task": "Conduct a gap analysis to determine the necessary level of effort and associated costs for achieving project timelines.",
+      "owner": "Joe Furnari",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "other",
+        "description": "A clear understanding of the required effort and costs associated with project timelines."
+      }
+    }
+  ],
+  "topicsDiscussed": [
+    "q1-roadmap",
+    "gpt-deployment",
+    "resource-allocation",
+    "phone-system-transition",
+    "crescendo-integration",
+    "gpt-pilot-program",
+    "dealer-feedback",
+    "llm-development"
+  ],
+  "tensions": [
+    "Concerns about rushing releases and the need for thorough testing before launch.",
+    "Frustration over delays in GPT deployment.",
+    "Concerns about the upcoming phone system transition's impact on workflow.",
+    "Debate on prioritizing speed versus understanding SLAs for the phone system transition."
+  ],
+  "referencesToPast": [
+    "Previous feedback from a similar initiative with merchants."
+  ]
+}

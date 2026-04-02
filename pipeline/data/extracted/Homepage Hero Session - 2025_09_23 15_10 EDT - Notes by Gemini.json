@@ -1,0 +1,156 @@
+{
+  "meetingId": "homepage-hero-session-2025-09-23",
+  "title": "Homepage Hero Session",
+  "date": "2025-09-23",
+  "series": "Homepage Hero Session",
+  "type": "other",
+  "attendees": ["Ziad Al Khatib", "Michael Donovan"],
+  "summary": "Michael Donovan met with Ziad Al Khatib to discuss the homepage hero section, design tool access, and brand guidelines. They agreed on a temporary adjustment to project documentation using a simple task list. Michael provided brand guidelines, access to necessary files, and encouraged research and creative freedom, addressing Ziad's concerns about tool limitations and aiming to support team capabilities and overcome overwhelm.",
+  "decisions": [
+    {
+      "description": "Use a simple task list for project documentation instead of a complex workflow, including details like concepts, messages, due dates, and linked files.",
+      "decidedBy": ["Michael Donovan"],
+      "topic": "project-documentation",
+      "confidence": "firm"
+    },
+    {
+      "description": "Michael Donovan will set Ziad Al Khatib as the default for multiple selections in the task list.",
+      "decidedBy": ["Michael Donovan"],
+      "topic": "project-documentation",
+      "confidence": "firm"
+    },
+    {
+      "description": "Ziad Al Khatib will send Michael Donovan the click path and prompt used for Gemini images.",
+      "decidedBy": ["Ziad Al Khatib"],
+      "topic": "image-generation",
+      "confidence": "firm"
+    },
+    {
+      "description": "Explore modern web trends, hero backgrounds, and gradients to find starting points for visual design.",
+      "decidedBy": ["Michael Donovan", "Ziad Al Khatib"],
+      "topic": "design-research",
+      "confidence": "firm"
+    },
+    {
+      "description": "Ziad Al Khatib will do independent research and then request examples from Invado or award-winning websites from 2025.",
+      "decidedBy": ["Ziad Al Khatib"],
+      "topic": "design-inspiration",
+      "confidence": "firm"
+    },
+    {
+      "description": "Ziad Al Khatib will take some time to get the design dialed in to their standard and show Michael Donovan what that is.",
+      "decidedBy": ["Ziad Al Khatib"],
+      "topic": "design-standards",
+      "confidence": "firm"
+    }
+  ],
+  "actionItems": [
+    {
+      "task": "Create a task list to document projects and tasks.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "other",
+        "description": "A usable task list with fields for concepts, messages, due dates, and linked files."
+      }
+    },
+    {
+      "task": "Share the agenda for the marketing meeting with Ziad Al Khatib.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "other",
+        "description": "Ziad has the agenda for the marketing meeting."
+      }
+    },
+    {
+      "task": "Share historical documents with Ziad Al Khatib.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "other",
+        "description": "Ziad has historical design documents for reference."
+      }
+    },
+    {
+      "task": "Share the corporate identity brand guidelines for Strawid, including the white logo versions, with Ziad Al Khatib.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "google-docs",
+        "description": "Ziad has access to the Strawid brand guidelines including logo usage and color palettes."
+      }
+    },
+    {
+      "task": "Send Michael Donovan the click path and prompt used for Gemini images.",
+      "owner": "Ziad Al Khatib",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "email",
+        "description": "Michael Donovan understands how Ziad Al Khatib is using Gemini for image creation."
+      }
+    },
+    {
+      "task": "Watch Karate Kid, Goonies, and 16 Candles.",
+      "owner": "Ziad Al Khatib",
+      "deadline": "2025-09-24",
+      "expectedOutcome": {
+        "system": "other",
+        "description": "Ziad Al Khatib has watched the movies and is ready to discuss them."
+      }
+    },
+    {
+      "task": "Do independent research.",
+      "owner": "Ziad Al Khatib",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "website",
+        "description": "Ziad Al Khatib has researched modern web trends and examples of hero images."
+      }
+    },
+    {
+      "task": "Request examples from invado or award-winning websites from 2025.",
+      "owner": "Ziad Al Khatib",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "website",
+        "description": "Ziad Al Khatib has specific examples of desired design styles."
+      }
+    },
+    {
+      "task": "Take some time to get the design dialed in to their standard and show Michael Donovan what that is.",
+      "owner": "Ziad Al Khatib",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "other",
+        "description": "Michael Donovan understands Ziad Al Khatib's design aesthetic."
+      }
+    }
+  ],
+  "topicsDiscussed": [
+    "project-documentation",
+    "design-tools",
+    "brand-guidelines",
+    "visual-design",
+    "team-capabilities",
+    "brand-identity",
+    "design-research",
+    "hero-design",
+    "task-management",
+    "adobe-express",
+    "canva",
+    "image-generation"
+  ],
+  "tensions": [
+    "Ziad Al Khatib's limited access to design tools like Adobe Express and Canva.",
+    "Michael Donovan's frustration with Ziad Al Khatib using Gemini for image creation due to aspect ratio issues.",
+    "Christina's incomplete handover of responsibilities, causing access issues for Ziad Al Khatib and leaving Ken Haron with unauthorized access.",
+    "Ziad Al Khatib feeling overwhelmed and lost due to the amount of information and the need to catch up.",
+    "Michael Donovan's frustration with edits from others delaying important tasks."
+  ],
+  "referencesToPast": [
+    "Previous requests for access to tools like Adobe PDF and Illustrator.",
+    "Issues stemming from Christina's incomplete handover of responsibilities.",
+    "Previous conversations about creative research and problem-solving."
+  ]
+}

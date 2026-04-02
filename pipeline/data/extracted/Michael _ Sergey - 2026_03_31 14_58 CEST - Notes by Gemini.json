@@ -1,0 +1,79 @@
+{
+  "meetingId": "michael-sergey-2026-03-31",
+  "title": "Michael / Sergey",
+  "date": "2026-03-31",
+  "series": "Michael / Sergey",
+  "type": "one-on-one",
+  "attendees": ["Michael Donovan", "Sergey Lyapustin"],
+  "summary": "Michael and Sergey discussed Zoho CRM database issues and account limits. They decided to develop a minimal branding skill for organizational deployment via the Anthropic account. Sergey will create a GitHub repository for skills, and Michael will contact Harinder to address account limits.",
+  "decisions": [
+    {
+      "description": "Develop a minimal branding skill defining basic guidelines like names and colors for organizational deployment via the Anthropic account.",
+      "decidedBy": ["Sergey Lyapustin"],
+      "topic": "branding-skill-development",
+      "confidence": "firm"
+    },
+    {
+      "description": "Create a new GitHub repository for organization skills with basic structure and placeholder files.",
+      "decidedBy": ["Sergey Lyapustin"],
+      "topic": "skills-repository",
+      "confidence": "firm"
+    },
+    {
+      "description": "Michael will spin up a new project for all Straw work and migrate related settings and skills.",
+      "decidedBy": ["Michael Donovan"],
+      "topic": "work-setup-migration",
+      "confidence": "firm"
+    },
+    {
+      "description": "Michael will contact Harinder to investigate obtaining more resources for the limited account.",
+      "decidedBy": ["Michael Donovan"],
+      "topic": "account-limits",
+      "confidence": "firm"
+    }
+  ],
+  "actionItems": [
+    {
+      "task": "Create new GitHub repository for organization skills. Include basic structure and placeholder files.",
+      "owner": "Sergey Lyapustin",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "github",
+        "description": "A new repository exists with a defined structure for organization skills."
+      }
+    },
+    {
+      "task": "Spin up new project for all Straw work. Migrate related settings and skills.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "other",
+        "description": "New project created with Straw work migrated."
+      }
+    },
+    {
+      "task": "Contact Harinder regarding current account limitations. Investigate obtaining more resources for the limited account.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "email",
+        "description": "Increased account resources or clarification on current limits."
+      }
+    }
+  ],
+  "topicsDiscussed": [
+    "zoho-crm",
+    "database-model",
+    "internal-marketplace",
+    "skills",
+    "account-limits",
+    "skill-deployment",
+    "permissions",
+    "configuration"
+  ],
+  "tensions": [
+    "Concerns raised about the Zoho CRM database model, specifically that 4 critical tables (users, tasks, meetings, calls) appeared disconnected.",
+    "Usage limits were exceeded, causing extra expense."
+  ],
+  "referencesToPast": []
+}

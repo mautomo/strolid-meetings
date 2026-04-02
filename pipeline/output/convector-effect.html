@@ -1,0 +1,1709 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Convector Effect — Strolid Marketing Contradiction Map</title>
+    <style>
+      :root {
+        --bg: #0a0e1a;
+        --surface: #111827;
+        --surface2: #1e293b;
+        --surface3: #334155;
+        --text: #e2e8f0;
+        --muted: #94a3b8;
+        --accent: #6366f1;
+        --red: #ef4444;
+        --orange: #f97316;
+        --yellow: #eab308;
+        --green: #22c55e;
+        --blue: #3b82f6;
+        --pink: #ec4899;
+        --cyan: #06b6d4;
+        --red-glow: rgba(239, 68, 68, 0.3);
+        --orange-glow: rgba(249, 115, 22, 0.2);
+      }
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        font-family:
+          "Segoe UI",
+          -apple-system,
+          sans-serif;
+        background: var(--bg);
+        color: var(--text);
+        overflow-x: hidden;
+      }
+
+      /* Hero */
+      .hero {
+        text-align: center;
+        padding: 4rem 2rem 2rem;
+        position: relative;
+      }
+      .hero::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 10%;
+        right: 10%;
+        height: 1px;
+        background: linear-gradient(
+          90deg,
+          transparent,
+          var(--red),
+          transparent
+        );
+      }
+      .hero h1 {
+        font-size: 2.8rem;
+        font-weight: 800;
+        background: linear-gradient(
+          135deg,
+          var(--red),
+          var(--orange),
+          var(--yellow)
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+      .hero .subtitle {
+        color: var(--muted);
+        font-size: 1.1rem;
+        margin-top: 0.5rem;
+        max-width: 700px;
+        margin-inline: auto;
+      }
+      .hero .stat-row {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        margin-top: 2rem;
+        flex-wrap: wrap;
+      }
+      .hero .stat {
+        background: var(--surface);
+        border: 1px solid var(--surface3);
+        border-radius: 12px;
+        padding: 1rem 1.5rem;
+        min-width: 140px;
+      }
+      .hero .stat .num {
+        font-size: 2rem;
+        font-weight: 800;
+      }
+      .hero .stat .lbl {
+        font-size: 0.8rem;
+        color: var(--muted);
+      }
+      .stat .num.red {
+        color: var(--red);
+      }
+      .stat .num.orange {
+        color: var(--orange);
+      }
+      .stat .num.yellow {
+        color: var(--yellow);
+      }
+
+      /* Section */
+      .container {
+        max-width: 1300px;
+        margin: 0 auto;
+        padding: 2rem;
+      }
+      section {
+        margin: 3rem 0;
+      }
+      h2 {
+        font-size: 1.6rem;
+        font-weight: 700;
+        margin-bottom: 1.5rem;
+        padding-bottom: 0.5rem;
+        border-bottom: 2px solid var(--surface3);
+      }
+      h3 {
+        font-size: 1.1rem;
+        color: var(--muted);
+        margin: 1.5rem 0 0.75rem;
+      }
+
+      /* Convector Diagram */
+      .convector-wrap {
+        position: relative;
+        background: var(--surface);
+        border-radius: 16px;
+        padding: 2rem;
+        border: 1px solid var(--surface3);
+        overflow: hidden;
+      }
+      .convector-wrap::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: radial-gradient(
+          ellipse at center,
+          var(--red-glow) 0%,
+          transparent 70%
+        );
+        pointer-events: none;
+      }
+      .convector-diagram {
+        position: relative;
+        z-index: 1;
+      }
+      .convector-explanation {
+        background: var(--surface2);
+        border-radius: 12px;
+        padding: 1.5rem;
+        margin-bottom: 2rem;
+        border-left: 4px solid var(--orange);
+      }
+      .convector-explanation h3 {
+        margin-top: 0;
+        color: var(--orange);
+      }
+
+      /* Spiral visualization */
+      .spiral-container {
+        position: relative;
+        width: 100%;
+        height: 650px;
+      }
+      .spiral-center {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        background: radial-gradient(circle, var(--red), #7f1d1d);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        font-weight: 800;
+        font-size: 0.85rem;
+        color: white;
+        box-shadow:
+          0 0 60px var(--red-glow),
+          0 0 120px rgba(239, 68, 68, 0.15);
+        z-index: 10;
+        cursor: pointer;
+        transition:
+          transform 0.3s,
+          box-shadow 0.3s;
+      }
+      .spiral-center:hover {
+        transform: translate(-50%, -50%) scale(1.08);
+        box-shadow:
+          0 0 80px var(--red-glow),
+          0 0 160px rgba(239, 68, 68, 0.25);
+      }
+      .spiral-center .big {
+        font-size: 1.6rem;
+      }
+
+      /* Pivot nodes */
+      .pivot-node {
+        position: absolute;
+        width: 160px;
+        padding: 0.6rem 0.8rem;
+        background: var(--surface2);
+        border: 2px solid var(--surface3);
+        border-radius: 10px;
+        font-size: 0.75rem;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        z-index: 5;
+      }
+      .pivot-node:hover {
+        transform: scale(1.08);
+        z-index: 20;
+        border-color: var(--accent);
+      }
+      .pivot-node.active {
+        border-color: var(--red);
+        box-shadow: 0 0 20px var(--red-glow);
+        z-index: 20;
+      }
+      .pivot-node .pivot-date {
+        font-weight: 700;
+        color: var(--cyan);
+        font-size: 0.7rem;
+      }
+      .pivot-node .pivot-label {
+        margin-top: 0.2rem;
+        line-height: 1.3;
+      }
+      .pivot-node .pivot-days {
+        font-size: 0.65rem;
+        color: var(--muted);
+        margin-top: 0.3rem;
+      }
+      .pivot-node .pivot-days span {
+        color: var(--red);
+        font-weight: 700;
+      }
+
+      /* Contradiction arrows - SVG */
+      .arrow-svg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+        z-index: 2;
+      }
+      .arrow-svg path {
+        fill: none;
+        stroke-width: 2;
+        opacity: 0.4;
+        transition: opacity 0.3s;
+      }
+      .arrow-svg path.active {
+        opacity: 1;
+        stroke-width: 3;
+      }
+
+      /* Contradiction detail panel */
+      .contradiction-panel {
+        background: var(--surface);
+        border: 1px solid var(--surface3);
+        border-radius: 12px;
+        padding: 1.5rem;
+        margin-top: 1.5rem;
+        display: none;
+      }
+      .contradiction-panel.visible {
+        display: block;
+        animation: fadeIn 0.3s ease;
+      }
+      .contradiction-panel .contra-header {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        margin-bottom: 1rem;
+      }
+      .contra-from,
+      .contra-to {
+        background: var(--surface2);
+        padding: 0.5rem 0.75rem;
+        border-radius: 8px;
+        font-size: 0.85rem;
+      }
+      .contra-from {
+        border-left: 3px solid var(--blue);
+      }
+      .contra-to {
+        border-left: 3px solid var(--red);
+      }
+      .contra-arrow {
+        color: var(--red);
+        font-size: 1.4rem;
+        font-weight: 700;
+      }
+      .contra-impact {
+        margin-top: 0.75rem;
+        padding: 0.75rem;
+        background: var(--surface2);
+        border-radius: 8px;
+      }
+      .contra-impact .label {
+        font-size: 0.8rem;
+        color: var(--muted);
+      }
+      .contra-impact .value {
+        font-weight: 700;
+      }
+      .contra-impact .value.negative {
+        color: var(--red);
+      }
+
+      /* Timeline heat */
+      .heat-timeline {
+        display: flex;
+        gap: 2px;
+        margin: 1rem 0;
+        height: 60px;
+        align-items: flex-end;
+      }
+      .heat-bar {
+        flex: 1;
+        border-radius: 4px 4px 0 0;
+        position: relative;
+        cursor: pointer;
+        transition: all 0.2s;
+        min-width: 30px;
+      }
+      .heat-bar:hover {
+        filter: brightness(1.3);
+        transform: scaleY(1.05);
+      }
+      .heat-bar .heat-label {
+        position: absolute;
+        bottom: -20px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 0.65rem;
+        color: var(--muted);
+        white-space: nowrap;
+      }
+      .heat-bar .heat-count {
+        position: absolute;
+        top: -18px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 0.7rem;
+        font-weight: 700;
+      }
+
+      /* Convector cycle diagram */
+      .cycle-ring {
+        display: flex;
+        justify-content: center;
+        gap: 0;
+        margin: 2rem auto;
+        max-width: 900px;
+        flex-wrap: wrap;
+      }
+      .cycle-step {
+        flex: 1;
+        min-width: 140px;
+        max-width: 180px;
+        text-align: center;
+        padding: 1rem 0.5rem;
+        position: relative;
+      }
+      .cycle-step .step-icon {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin: 0 auto 0.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.3rem;
+        font-weight: 800;
+        color: white;
+      }
+      .cycle-step .step-text {
+        font-size: 0.8rem;
+        line-height: 1.4;
+      }
+      .cycle-step::after {
+        content: "\2192";
+        position: absolute;
+        right: -10px;
+        top: 35px;
+        font-size: 1.5rem;
+        color: var(--surface3);
+      }
+      .cycle-step:last-child::after {
+        content: "\21BB";
+        color: var(--red);
+      }
+
+      /* Category impact */
+      .category-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 1rem;
+      }
+      .cat-card {
+        background: var(--surface);
+        border-radius: 12px;
+        padding: 1.25rem;
+        border: 1px solid var(--surface3);
+        transition: border-color 0.2s;
+      }
+      .cat-card:hover {
+        border-color: var(--accent);
+      }
+      .cat-card .cat-name {
+        font-weight: 700;
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+      }
+      .cat-card .cat-count {
+        font-size: 0.8rem;
+        color: var(--muted);
+      }
+      .cat-card .cat-chain {
+        font-size: 0.8rem;
+        color: var(--orange);
+        margin: 0.5rem 0;
+        font-style: italic;
+      }
+      .cat-card .cat-impact {
+        font-size: 0.85rem;
+        font-weight: 600;
+      }
+      .cat-impact.negative {
+        color: var(--red);
+      }
+      .cat-impact.mixed {
+        color: var(--yellow);
+      }
+      .cat-impact.neutral {
+        color: var(--muted);
+      }
+
+      /* Ambiguity gauge */
+      .gauge-row {
+        display: flex;
+        gap: 1.5rem;
+        flex-wrap: wrap;
+        margin: 1.5rem 0;
+      }
+      .gauge {
+        flex: 1;
+        min-width: 200px;
+        background: var(--surface);
+        border-radius: 12px;
+        padding: 1.5rem;
+        border: 1px solid var(--surface3);
+        text-align: center;
+      }
+      .gauge .gauge-value {
+        font-size: 2.5rem;
+        font-weight: 800;
+      }
+      .gauge .gauge-label {
+        font-size: 0.85rem;
+        color: var(--muted);
+        margin-top: 0.25rem;
+      }
+      .gauge .gauge-bar {
+        height: 8px;
+        background: var(--surface3);
+        border-radius: 4px;
+        margin-top: 0.75rem;
+        overflow: hidden;
+      }
+      .gauge .gauge-fill {
+        height: 100%;
+        border-radius: 4px;
+        transition: width 1s ease;
+      }
+
+      /* Churn context */
+      .churn-visual {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        margin: 1.5rem 0;
+      }
+      .churn-box {
+        background: var(--surface);
+        border-radius: 12px;
+        padding: 1.5rem;
+        border: 1px solid var(--surface3);
+      }
+      .churn-box h4 {
+        font-size: 0.9rem;
+        color: var(--muted);
+        margin-bottom: 1rem;
+      }
+      .bucket-viz {
+        position: relative;
+        height: 200px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        gap: 2rem;
+      }
+      .bucket {
+        width: 80px;
+        border-radius: 8px 8px 0 0;
+        position: relative;
+        transition: height 1s ease;
+      }
+      .bucket .bucket-label {
+        position: absolute;
+        bottom: -25px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 0.75rem;
+        color: var(--muted);
+        white-space: nowrap;
+      }
+      .bucket .bucket-value {
+        position: absolute;
+        top: -22px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 0.85rem;
+        font-weight: 700;
+      }
+      .flow-arrow {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        padding: 0.5rem 0;
+        font-size: 0.85rem;
+      }
+      .flow-arrow .arrow {
+        color: var(--red);
+        font-weight: 700;
+        font-size: 1.2rem;
+      }
+
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(10px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+      @keyframes pulse {
+        0%,
+        100% {
+          opacity: 0.4;
+        }
+        50% {
+          opacity: 1;
+        }
+      }
+
+      /* Responsive */
+      @media (max-width: 768px) {
+        .hero h1 {
+          font-size: 1.8rem;
+        }
+        .spiral-container {
+          height: auto;
+          min-height: 600px;
+        }
+        .pivot-node {
+          width: 130px;
+          font-size: 0.7rem;
+        }
+        .churn-visual {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      /* Nav */
+      nav {
+        position: sticky;
+        top: 0;
+        background: rgba(10, 14, 26, 0.95);
+        backdrop-filter: blur(8px);
+        padding: 0.75rem 2rem;
+        z-index: 100;
+        border-bottom: 1px solid var(--surface3);
+        display: flex;
+        gap: 1.5rem;
+        flex-wrap: wrap;
+      }
+      nav a {
+        color: var(--accent);
+        text-decoration: none;
+        font-size: 0.85rem;
+        font-weight: 500;
+      }
+      nav a:hover {
+        color: var(--text);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="hero">
+      <h1>The Convector Effect</h1>
+      <p class="subtitle">
+        How contradictory marketing decisions create a self-reinforcing cycle of
+        wasted energy, where heat rises, cools, and circulates back — producing
+        motion without forward progress.
+      </p>
+      <div class="stat-row">
+        <div class="stat">
+          <div class="num red">12</div>
+          <div class="lbl">Messaging Pivots (5 months)</div>
+        </div>
+        <div class="stat">
+          <div class="num orange">83%</div>
+          <div class="lbl">Directives Undefined</div>
+        </div>
+        <div class="stat">
+          <div class="num yellow">0</div>
+          <div class="lbl">Campaigns Completed Full Cycle</div>
+        </div>
+        <div class="stat">
+          <div class="num red">0%</div>
+          <div class="lbl">Accountability on Decision-Maker</div>
+        </div>
+        <div class="stat">
+          <div class="num orange">16%</div>
+          <div class="lbl">Action Item Completion</div>
+        </div>
+      </div>
+    </div>
+
+    <nav>
+      <a href="#convector">The Convector Effect</a>
+      <a href="#spiral">Contradiction Spiral</a>
+      <a href="#heat">Volatility Heat Map</a>
+      <a href="#categories">Category Impact</a>
+      <a href="#ambiguity">Ambiguity Gauges</a>
+      <a href="#churn">Churn Context</a>
+      <a href="#cycle">The Dysfunction Cycle</a>
+    </nav>
+
+    <div class="container">
+      <!-- SECTION 1: Convector Explanation -->
+      <section id="convector">
+        <h2>What Is the Convector Effect?</h2>
+        <div class="convector-wrap">
+          <div class="convector-explanation">
+            <h3>Convection in Physics</h3>
+            <p>
+              A convector heats air, which rises, cools, falls back down, and
+              gets reheated — creating a
+              <strong
+                >continuous circular current that produces constant motion but
+                no net displacement</strong
+              >. The air is always moving. Energy is always being consumed. But
+              the room only gets warm if the cycle runs long enough without
+              interruption.
+            </p>
+          </div>
+          <div
+            class="convector-explanation"
+            style="border-left-color: var(--red)"
+          >
+            <h3>Convection in Strolid's Marketing</h3>
+            <p>
+              Vin injects <strong>energy</strong> (a new directive). The team
+              <strong>heats up</strong> (begins execution). Before the work can
+              reach the market and produce results, Vin
+              <strong>changes direction</strong> (the air cools). The team falls
+              back to baseline and the cycle restarts. The result:
+              <strong
+                >constant activity, constant energy expenditure, zero forward
+                progress on leads</strong
+              >.
+            </p>
+            <p style="margin-top: 0.75rem">
+              Unlike a real convector that eventually warms the room, Strolid's
+              cycle <strong>never completes</strong> because the interval
+              between pivots (avg 14 days) is shorter than the minimum time for
+              any marketing initiative to produce measurable results (60-90
+              days).
+            </p>
+          </div>
+
+          <div
+            style="
+              display: grid;
+              grid-template-columns: repeat(4, 1fr);
+              gap: 1rem;
+              margin-top: 1.5rem;
+            "
+          >
+            <div
+              style="
+                text-align: center;
+                padding: 1rem;
+                background: var(--surface2);
+                border-radius: 10px;
+              "
+            >
+              <div style="font-size: 2rem; margin-bottom: 0.5rem">
+                &#x1F525;
+              </div>
+              <div style="font-weight: 700; color: var(--orange)">HEAT</div>
+              <div
+                style="
+                  font-size: 0.8rem;
+                  color: var(--muted);
+                  margin-top: 0.3rem;
+                "
+              >
+                Vin issues directive.<br />Energy enters the system.
+              </div>
+            </div>
+            <div
+              style="
+                text-align: center;
+                padding: 1rem;
+                background: var(--surface2);
+                border-radius: 10px;
+              "
+            >
+              <div style="font-size: 2rem; margin-bottom: 0.5rem">&#x2B06;</div>
+              <div style="font-weight: 700; color: var(--yellow)">RISE</div>
+              <div
+                style="
+                  font-size: 0.8rem;
+                  color: var(--muted);
+                  margin-top: 0.3rem;
+                "
+              >
+                Team begins execution.<br />Assets built, content created.
+              </div>
+            </div>
+            <div
+              style="
+                text-align: center;
+                padding: 1rem;
+                background: var(--surface2);
+                border-radius: 10px;
+              "
+            >
+              <div style="font-size: 2rem; margin-bottom: 0.5rem">&#x2744;</div>
+              <div style="font-weight: 700; color: var(--blue)">COOL</div>
+              <div
+                style="
+                  font-size: 0.8rem;
+                  color: var(--muted);
+                  margin-top: 0.3rem;
+                "
+              >
+                Vin changes direction.<br />Work becomes obsolete.
+              </div>
+            </div>
+            <div
+              style="
+                text-align: center;
+                padding: 1rem;
+                background: var(--surface2);
+                border-radius: 10px;
+              "
+            >
+              <div style="font-size: 2rem; margin-bottom: 0.5rem">&#x2B07;</div>
+              <div style="font-weight: 700; color: var(--red)">FALL</div>
+              <div
+                style="
+                  font-size: 0.8rem;
+                  color: var(--muted);
+                  margin-top: 0.3rem;
+                "
+              >
+                Team resets to zero.<br />Energy wasted. No leads.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 2: Contradiction Spiral -->
+      <section id="spiral">
+        <h2>The Contradiction Spiral</h2>
+        <p style="color: var(--muted); margin-bottom: 1rem">
+          Click any pivot to see the contradiction detail. Lines show what each
+          direction contradicted.
+        </p>
+
+        <div class="spiral-container" id="spiralContainer">
+          <svg class="arrow-svg" id="arrowSvg"></svg>
+          <div class="spiral-center" onclick="clearSelection()">
+            <div class="big">0</div>
+            <div>LEADS<br />GENERATED</div>
+          </div>
+        </div>
+
+        <div class="contradiction-panel" id="contraPanel">
+          <div class="contra-header">
+            <div class="contra-from" id="contraFrom"></div>
+            <div class="contra-arrow">&rarr;</div>
+            <div class="contra-to" id="contraTo"></div>
+          </div>
+          <div
+            id="contraExplain"
+            style="font-size: 0.9rem; margin: 0.75rem 0"
+          ></div>
+          <div class="contra-impact">
+            <div class="label">Days between contradictory decisions</div>
+            <div class="value negative" id="contraDays"></div>
+          </div>
+          <div class="contra-impact" style="margin-top: 0.5rem">
+            <div class="label">Impact on Lead Generation</div>
+            <div class="value negative" id="contraImpact"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 3: Volatility Heat Map -->
+      <section id="heat">
+        <h2>Pivot Volatility by Month</h2>
+        <p style="color: var(--muted); margin-bottom: 0.5rem">
+          Number of messaging direction changes per month. December 2025 was
+          catastrophic.
+        </p>
+        <div class="heat-timeline" id="heatTimeline"></div>
+        <div style="margin-top: 2rem">
+          <h3>The December Crisis Window</h3>
+          <p style="font-size: 0.9rem; color: var(--muted); margin-top: 0.5rem">
+            Between December 2 and December 30, 2025, Vin issued
+            <strong style="color: var(--red)"
+              >7 distinct messaging directions in 28 days</strong
+            >. This is the period where the convector effect reached maximum
+            intensity — the team could not complete any single asset before the
+            next direction arrived. Average time between pivots:
+            <strong style="color: var(--red)">4.7 days</strong>.
+          </p>
+          <div
+            style="
+              display: grid;
+              grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+              gap: 1rem;
+              margin-top: 1rem;
+            "
+          >
+            <div
+              style="
+                background: var(--surface);
+                padding: 1rem;
+                border-radius: 8px;
+                border-left: 3px solid var(--red);
+              "
+            >
+              <div style="font-size: 0.8rem; color: var(--cyan)">Dec 2</div>
+              <div style="font-size: 0.85rem">
+                Technology & automation shift
+              </div>
+            </div>
+            <div
+              style="
+                background: var(--surface);
+                padding: 1rem;
+                border-radius: 8px;
+                border-left: 3px solid var(--red);
+              "
+            >
+              <div style="font-size: 0.8rem; color: var(--cyan)">
+                Dec 3 (1 day later)
+              </div>
+              <div style="font-size: 0.85rem">Tone down for "car guys"</div>
+            </div>
+            <div
+              style="
+                background: var(--surface);
+                padding: 1rem;
+                border-radius: 8px;
+                border-left: 3px solid var(--red);
+              "
+            >
+              <div style="font-size: 0.8rem; color: var(--cyan)">
+                Dec 5 (2 days later)
+              </div>
+              <div style="font-size: 0.85rem">
+                Speed, efficiency, advanced tech
+              </div>
+            </div>
+            <div
+              style="
+                background: var(--surface);
+                padding: 1rem;
+                border-radius: 8px;
+                border-left: 3px solid var(--red);
+              "
+            >
+              <div style="font-size: 0.8rem; color: var(--cyan)">
+                Dec 10 (5 days later)
+              </div>
+              <div style="font-size: 0.85rem">
+                Help dealers learn AI (educational)
+              </div>
+            </div>
+            <div
+              style="
+                background: var(--surface);
+                padding: 1rem;
+                border-radius: 8px;
+                border-left: 3px solid var(--red);
+              "
+            >
+              <div style="font-size: 0.8rem; color: var(--cyan)">
+                Dec 15 (5 days later)
+              </div>
+              <div style="font-size: 0.85rem">Emphasize AI capabilities</div>
+            </div>
+            <div
+              style="
+                background: var(--surface);
+                padding: 1rem;
+                border-radius: 8px;
+                border-left: 3px solid var(--orange);
+              "
+            >
+              <div style="font-size: 0.8rem; color: var(--cyan)">
+                Dec 23 (8 days later)
+              </div>
+              <div style="font-size: 0.85rem">
+                Four building blocks framework
+              </div>
+            </div>
+            <div
+              style="
+                background: var(--surface);
+                padding: 1rem;
+                border-radius: 8px;
+                border-left: 3px solid var(--orange);
+              "
+            >
+              <div style="font-size: 0.8rem; color: var(--cyan)">
+                Dec 30 (7 days later)
+              </div>
+              <div style="font-size: 0.85rem">
+                Three lanes: Truth, Control, Vision
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 4: Category Impact -->
+      <section id="categories">
+        <h2>Contradiction Impact by Marketing Category</h2>
+        <div class="category-grid">
+          <div class="cat-card">
+            <div class="cat-name">Messaging Strategy</div>
+            <div class="cat-count">14 decisions | 8 contradictions</div>
+            <div class="cat-chain">
+              Human-led &rarr; Tech-led &rarr; Simple &rarr; Complex &rarr;
+              Educational &rarr; AI-forward &rarr; Products &rarr; Abstract
+              &rarr; Dealer outcomes
+            </div>
+            <div class="cat-impact negative">
+              NET NEGATIVE &mdash; constant resets prevent market testing
+            </div>
+          </div>
+          <div class="cat-card">
+            <div class="cat-name">Content / Social</div>
+            <div class="cat-count">10 decisions | 5 channel switches</div>
+            <div class="cat-chain">
+              Carousel &rarr; LinkedIn &rarr; Website &rarr; TikTok &rarr;
+              Simplified
+            </div>
+            <div class="cat-impact negative">
+              NEGATIVE &mdash; no channel ran long enough for pipeline
+            </div>
+          </div>
+          <div class="cat-card">
+            <div class="cat-name">Website</div>
+            <div class="cat-count">8 decisions | 4 scope changes</div>
+            <div class="cat-chain">
+              Build new &rarr; Refresh existing &rarr; Add content &rarr; Wait
+              for Vin
+            </div>
+            <div class="cat-impact negative">
+              NEGATIVE &mdash; 3-month detour, zero leads produced
+            </div>
+          </div>
+          <div class="cat-card">
+            <div class="cat-name">Lead Generation</div>
+            <div class="cat-count">7 decisions | 4 strategy switches</div>
+            <div class="cat-chain">
+              ABM &rarr; LinkedIn pilot &rarr; Outbound &rarr; ICP targeting
+              &rarr; Data tools
+            </div>
+            <div class="cat-impact mixed">
+              MIXED &mdash; correct ideas, killed before execution
+            </div>
+          </div>
+          <div class="cat-card">
+            <div class="cat-name">Targeting</div>
+            <div class="cat-count">4 decisions | 4 audience changes</div>
+            <div class="cat-chain">
+              Small dealers &rarr; Large groups/OEMs &rarr; Low-hanging fruit
+              &rarr; ICP roles
+            </div>
+            <div class="cat-impact negative">
+              NEGATIVE &mdash; no campaign completed full cycle
+            </div>
+          </div>
+          <div class="cat-card">
+            <div class="cat-name">Process / Approval</div>
+            <div class="cat-count">5 decisions | approval bottleneck</div>
+            <div class="cat-chain">
+              Post immediately &rarr; 2-week review &rarr; Review everything
+              &rarr; Yes/No
+            </div>
+            <div class="cat-impact negative">
+              NEGATIVE &mdash; Vin created bottleneck, then complained about
+              slowness
+            </div>
+          </div>
+          <div class="cat-card">
+            <div class="cat-name">CRM / Infrastructure</div>
+            <div class="cat-count">2 decisions | 180-degree reversal</div>
+            <div class="cat-chain">
+              "Don't build engine" (Dec 3) &rarr; "$2K for data tools" (Feb 24)
+            </div>
+            <div class="cat-impact negative">
+              NEGATIVE &mdash; 3-month delay cost full quarter of capacity
+            </div>
+          </div>
+          <div class="cat-card">
+            <div class="cat-name">Product Marketing</div>
+            <div class="cat-count">6 decisions | positioning unstable</div>
+            <div class="cat-chain">
+              Human-led &rarr; AI-first &rarr; Human+AI &rarr; Dealer outcomes
+            </div>
+            <div class="cat-impact neutral">
+              NEUTRAL &mdash; positioning never stabilized long enough to assess
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 5: Ambiguity Gauges -->
+      <section id="ambiguity">
+        <h2>Ambiguity & Accountability Gauges</h2>
+        <div class="gauge-row">
+          <div class="gauge">
+            <div class="gauge-value" style="color: var(--orange)">7.2</div>
+            <div class="gauge-label">Average Ambiguity (out of 10)</div>
+            <div class="gauge-bar">
+              <div
+                class="gauge-fill"
+                style="
+                  width: 72%;
+                  background: linear-gradient(90deg, var(--yellow), var(--red));
+                "
+              ></div>
+            </div>
+          </div>
+          <div class="gauge">
+            <div class="gauge-value" style="color: var(--red)">83%</div>
+            <div class="gauge-label">Directives Never Defined</div>
+            <div class="gauge-bar">
+              <div
+                class="gauge-fill"
+                style="width: 83%; background: var(--red)"
+              ></div>
+            </div>
+          </div>
+          <div class="gauge">
+            <div class="gauge-value" style="color: var(--red)">0%</div>
+            <div class="gauge-label">Accountability on Vin</div>
+            <div class="gauge-bar">
+              <div
+                class="gauge-fill"
+                style="width: 0%; background: var(--green)"
+              ></div>
+            </div>
+          </div>
+          <div class="gauge">
+            <div class="gauge-value" style="color: var(--red)">90%</div>
+            <div class="gauge-label">Blame Landed on Michael</div>
+            <div class="gauge-bar">
+              <div
+                class="gauge-fill"
+                style="width: 90%; background: var(--red)"
+              ></div>
+            </div>
+          </div>
+        </div>
+        <div class="gauge-row">
+          <div class="gauge">
+            <div class="gauge-value" style="color: var(--orange)">10%</div>
+            <div class="gauge-label">Reflects Modern Marketing</div>
+            <div class="gauge-bar">
+              <div
+                class="gauge-fill"
+                style="width: 10%; background: var(--green)"
+              ></div>
+            </div>
+          </div>
+          <div class="gauge">
+            <div class="gauge-value" style="color: var(--red)">14 days</div>
+            <div class="gauge-label">Avg Pivot Interval</div>
+            <div class="gauge-bar">
+              <div
+                class="gauge-fill"
+                style="width:${14/90*100}%;background:var(--red);"
+              ></div>
+            </div>
+          </div>
+          <div class="gauge">
+            <div class="gauge-value" style="color: var(--green)">90 days</div>
+            <div class="gauge-label">Min Time for Marketing ROI</div>
+            <div class="gauge-bar">
+              <div
+                class="gauge-fill"
+                style="width: 100%; background: var(--green)"
+              ></div>
+            </div>
+          </div>
+          <div class="gauge">
+            <div class="gauge-value" style="color: var(--red)">6.4x</div>
+            <div class="gauge-label">Pivot Speed vs. ROI Window</div>
+            <div class="gauge-bar">
+              <div
+                class="gauge-fill"
+                style="
+                  width: 100%;
+                  background: linear-gradient(90deg, var(--orange), var(--red));
+                "
+              ></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 6: Churn Context -->
+      <section id="churn">
+        <h2>The Churn Reality Vin's Model Ignores</h2>
+        <div class="churn-visual">
+          <div class="churn-box">
+            <h4>The Leaky Bucket</h4>
+            <div class="bucket-viz">
+              <div
+                class="bucket"
+                style="
+                  height: 180px;
+                  background: linear-gradient(
+                    to top,
+                    var(--green),
+                    var(--green) 30%,
+                    var(--surface3) 30%
+                  );
+                "
+              >
+                <div class="bucket-value" style="color: var(--green)">+10</div>
+                <div class="bucket-label">Acquired</div>
+              </div>
+              <div
+                style="
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: center;
+                  gap: 0.5rem;
+                  padding: 0 0.5rem;
+                "
+              >
+                <div style="font-size: 2rem; color: var(--red)">&rarr;</div>
+                <div
+                  style="
+                    font-size: 0.75rem;
+                    color: var(--red);
+                    font-weight: 700;
+                  "
+                >
+                  70% churn
+                </div>
+              </div>
+              <div
+                class="bucket"
+                style="
+                  height: 180px;
+                  background: linear-gradient(
+                    to top,
+                    var(--red),
+                    var(--red) 70%,
+                    var(--surface3) 70%
+                  );
+                "
+              >
+                <div class="bucket-value" style="color: var(--red)">-7</div>
+                <div class="bucket-label">Churned</div>
+              </div>
+              <div
+                style="
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: center;
+                  gap: 0.5rem;
+                  padding: 0 0.5rem;
+                "
+              >
+                <div style="font-size: 2rem; color: var(--yellow)">=</div>
+              </div>
+              <div
+                class="bucket"
+                style="
+                  height: 54px;
+                  background: var(--yellow);
+                  align-self: flex-end;
+                "
+              >
+                <div class="bucket-value" style="color: var(--yellow)">+3</div>
+                <div class="bucket-label">Net gain</div>
+              </div>
+            </div>
+            <p
+              style="
+                font-size: 0.8rem;
+                color: var(--muted);
+                margin-top: 2rem;
+                text-align: center;
+              "
+            >
+              For every 10 new dealers, 7 leave within a year.
+            </p>
+          </div>
+          <div class="churn-box">
+            <h4>Where Vin Focuses vs. Where the Problem Is</h4>
+            <div style="margin-top: 1rem">
+              <div class="flow-arrow">
+                <span class="arrow" style="color: var(--orange)">100%</span> of
+                Vin's marketing energy &rarr; <strong>New Acquisition</strong>
+              </div>
+              <div class="flow-arrow">
+                <span class="arrow" style="color: var(--red)">0%</span> of Vin's
+                marketing energy &rarr;
+                <strong>Retention / Churn Reduction</strong>
+              </div>
+              <div
+                style="height: 1px; background: var(--surface3); margin: 1rem 0"
+              ></div>
+              <div class="flow-arrow">
+                <span class="arrow" style="color: var(--red)">70%+</span>
+                annualized churn rate
+              </div>
+              <div class="flow-arrow">
+                <span class="arrow" style="color: var(--red)">~40%</span> MRR
+                loss over the same period
+              </div>
+              <div
+                style="height: 1px; background: var(--surface3); margin: 1rem 0"
+              ></div>
+              <p
+                style="font-size: 0.85rem; color: var(--red); font-weight: 600"
+              >
+                Zero meetings between Sep 2025 and Apr 2026 directed marketing
+                toward churn reduction. No customer health scoring. No retention
+                sequences. No at-risk outreach.
+              </p>
+              <p
+                style="
+                  font-size: 0.85rem;
+                  color: var(--muted);
+                  margin-top: 0.75rem;
+                "
+              >
+                To outrun 70% churn through acquisition alone requires 3x+
+                growth rate — unsustainable without massive budget that doesn't
+                exist.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 7: The Dysfunction Cycle -->
+      <section id="cycle">
+        <h2>The Convector Dysfunction Cycle</h2>
+        <p style="color: var(--muted); margin-bottom: 1rem">
+          This cycle repeated for every major marketing initiative from Sep 2025
+          to Apr 2026. No initiative survived past Stage 3.
+        </p>
+        <div class="cycle-ring">
+          <div class="cycle-step">
+            <div class="step-icon" style="background: var(--orange)">1</div>
+            <div class="step-text">
+              <strong>Vin demands leads</strong><br /><span
+                style="color: var(--muted)"
+                >Vague directive issued. "We need leads." No definition of type,
+                volume, or timeline.</span
+              >
+            </div>
+          </div>
+          <div class="cycle-step">
+            <div class="step-icon" style="background: var(--yellow)">2</div>
+            <div class="step-text">
+              <strong>Michael interprets & executes</strong><br /><span
+                style="color: var(--muted)"
+                >Best-guess execution begins. Assets created. Strategy takes
+                shape.</span
+              >
+            </div>
+          </div>
+          <div class="cycle-step">
+            <div class="step-icon" style="background: var(--blue)">3</div>
+            <div class="step-text">
+              <strong>Vin changes direction</strong><br /><span
+                style="color: var(--muted)"
+                >New messaging, new channel, new framework. Avg interval: 14
+                days.</span
+              >
+            </div>
+          </div>
+          <div class="cycle-step">
+            <div class="step-icon" style="background: var(--red)">4</div>
+            <div class="step-text">
+              <strong>Work abandoned</strong><br /><span
+                style="color: var(--muted)"
+                >67 action items abandoned. Previous assets rendered
+                obsolete.</span
+              >
+            </div>
+          </div>
+          <div class="cycle-step">
+            <div class="step-icon" style="background: var(--pink)">5</div>
+            <div class="step-text">
+              <strong>Michael blamed</strong><br /><span
+                style="color: var(--muted)"
+                >Vin frustrated with "slow pace." Accountability: 90% on
+                Michael, 0% on Vin.</span
+              >
+            </div>
+          </div>
+          <div class="cycle-step">
+            <div class="step-icon" style="background: var(--red)">&#x21BB;</div>
+            <div class="step-text">
+              <strong>Cycle restarts</strong><br /><span
+                style="color: var(--muted)"
+                >New directive issued. Same pattern. Zero leads generated across
+                6 months.</span
+              >
+            </div>
+          </div>
+        </div>
+
+        <div
+          style="
+            background: var(--surface);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-top: 2rem;
+            border: 1px solid var(--red);
+            border-left: 4px solid var(--red);
+          "
+        >
+          <h3 style="color: var(--red); margin-top: 0">
+            The Convector Effect Summary
+          </h3>
+          <p style="font-size: 0.95rem; line-height: 1.7">
+            A convector produces constant air circulation without ever opening a
+            window. Strolid's marketing produces constant
+            <em>activity</em> without ever completing a <em>campaign</em>. The
+            minimum time for any marketing initiative to produce measurable ROI
+            is <strong>60–90 days</strong>. Vin's average pivot interval is
+            <strong>14 days</strong> — 6.4x faster than results can appear. The
+            system is designed to fail. Not by malice, but by a mental model
+            that treats marketing as a series of isolated directives rather than
+            a compounding investment that requires patience, consistency, and
+            measurement. After 6 months of the convector effect:
+            <strong style="color: var(--red)"
+              >zero measurable lead increase, Sophia engagement declined (15%
+              &rarr; 11%), 67 abandoned action items, and marketing sentiment at
+              0% positive</strong
+            >.
+          </p>
+        </div>
+      </section>
+    </div>
+
+    <footer
+      style="
+        text-align: center;
+        padding: 3rem 2rem;
+        color: var(--muted);
+        font-size: 0.8rem;
+        border-top: 1px solid var(--surface3);
+      "
+    >
+      The Convector Effect | Built from 53 meeting transcripts, 56 decisions, 29
+      ambiguity instances, 12 contradictions | April 2, 2026
+    </footer>
+
+    <script>
+      const pivots = [
+        {
+          id: 1,
+          date: "Oct 21",
+          label: '"Human-led, AI-assisted"',
+          days: null,
+          contradicts: null,
+          explain:
+            "Initial positioning. Clear differentiation from pure-AI competitors.",
+          impact: "Positive — appeals to AI-skeptic dealers",
+          x: 75,
+          y: 8,
+        },
+        {
+          id: 2,
+          date: "Dec 2",
+          label: "Technology & automation shift",
+          days: 42,
+          contradicts: 1,
+          explain:
+            "Flips from human-led to tech-led. Contradicts the core positioning set 42 days earlier.",
+          impact:
+            "Negative — confuses market, abandons established positioning",
+          x: 2,
+          y: 12,
+        },
+        {
+          id: 3,
+          date: "Dec 3",
+          label: 'Tone down for "car guys"',
+          days: 1,
+          contradicts: 2,
+          explain:
+            "ONE DAY later, reverses complexity. Wants simple, direct language for automotive audience.",
+          impact: "Negative — team built tech-forward assets for 1 day",
+          x: 2,
+          y: 35,
+        },
+        {
+          id: 4,
+          date: "Dec 5",
+          label: "Speed, efficiency, advanced tech",
+          days: 2,
+          contradicts: 3,
+          explain:
+            "TWO DAYS later, re-escalates to advanced technology messaging. Direct contradiction of 'car guys' simplicity.",
+          impact: "Negative — oscillation makes any execution impossible",
+          x: 0,
+          y: 58,
+        },
+        {
+          id: 5,
+          date: "Dec 10",
+          label: "Help dealers learn AI",
+          days: 5,
+          contradicts: 4,
+          explain:
+            "Flips from showcasing tech prowess to educational positioning for AI-naive dealers.",
+          impact: "Negative — another asset rebuild, 3rd direction in 8 days",
+          x: 12,
+          y: 78,
+        },
+        {
+          id: 6,
+          date: "Dec 15",
+          label: "Emphasize AI capabilities",
+          days: 5,
+          contradicts: 5,
+          explain:
+            "Flips BACK to AI-forward. 5 days ago dealers 'don't know AI'; now 'emphasize AI capabilities'.",
+          impact: "Negative — direct reversal, 4th flip in 13 days",
+          x: 35,
+          y: 88,
+        },
+        {
+          id: 7,
+          date: "Dec 23",
+          label: "Four building blocks",
+          days: 8,
+          contradicts: 6,
+          explain:
+            "Restructures entirely around product framework (Vita, Sophia, co-pilot, analytics). Abandons AI-emphasis framing.",
+          impact: "Neutral — product framework has merit but replaced too fast",
+          x: 60,
+          y: 88,
+        },
+        {
+          id: 8,
+          date: "Dec 30",
+          label: "Three lanes: Truth, Control, Vision",
+          days: 7,
+          contradicts: 7,
+          explain:
+            "Abandons concrete product framework for abstract philosophical lanes. Complete framework replacement in 7 days.",
+          impact:
+            "Negative — abstract lanes impossible to translate to campaigns",
+          x: 82,
+          y: 78,
+        },
+        {
+          id: 9,
+          date: "Jan 6",
+          label: '"Human first or AI first?"',
+          days: 7,
+          contradicts: 8,
+          explain:
+            "Collapses lane framework. Returns to the ORIGINAL question from Oct 21 — 77 days and 8 pivots later.",
+          impact: "Negative — circular. Back to square one.",
+          x: 90,
+          y: 58,
+        },
+        {
+          id: 10,
+          date: "Jan 13",
+          label: 'Dealer outcomes, "Human + AI"',
+          days: 7,
+          contradicts: 6,
+          explain:
+            "Explicitly reverses Dec 15 'emphasize AI'. Now human comes first. Badge reversed to 'Human + AI'.",
+          impact:
+            "Mixed — closest to viable positioning but arrived after 9 pivots",
+          x: 88,
+          y: 35,
+        },
+        {
+          id: 11,
+          date: "Feb 13",
+          label: "Three pillars: employee, dealer, CX",
+          days: 31,
+          contradicts: 10,
+          explain:
+            "New framework AGAIN. Replaces dealer-outcomes focus with triple-pillar model.",
+          impact: "Negative — another framework restart, team fatigue",
+          x: 78,
+          y: 12,
+        },
+        {
+          id: 12,
+          date: "Mar 31",
+          label: "Dealer challenges (turnover, response)",
+          days: 46,
+          contradicts: 11,
+          explain:
+            "Drops pillar framework. Now focuses on specific dealer pain points. 12th direction in 5 months.",
+          impact:
+            "Potentially positive — most specific direction yet. But will it survive?",
+          x: 48,
+          y: 2,
+        },
+      ];
+
+      const container = document.getElementById("spiralContainer");
+      const svg = document.getElementById("arrowSvg");
+      const panel = document.getElementById("contraPanel");
+
+      // Render pivot nodes
+      pivots.forEach((p) => {
+        const node = document.createElement("div");
+        node.className = "pivot-node";
+        node.id = `pivot-${p.id}`;
+        node.style.left = `${p.x}%`;
+        node.style.top = `${p.y}%`;
+        node.innerHTML = `
+    <div class="pivot-date">#${p.id} &mdash; ${p.date}</div>
+    <div class="pivot-label">${p.label}</div>
+    ${p.days !== null ? `<div class="pivot-days"><span>${p.days} day${p.days !== 1 ? "s" : ""}</span> since last pivot</div>` : ""}
+  `;
+        node.addEventListener("click", () => selectPivot(p));
+        container.appendChild(node);
+      });
+
+      // Draw contradiction arrows
+      function drawArrows() {
+        svg.innerHTML = "";
+        const rect = container.getBoundingClientRect();
+        pivots.forEach((p) => {
+          if (!p.contradicts) return;
+          const from = document.getElementById(`pivot-${p.contradicts}`);
+          const to = document.getElementById(`pivot-${p.id}`);
+          if (!from || !to) return;
+          const fr = from.getBoundingClientRect();
+          const tr = to.getBoundingClientRect();
+          const x1 = fr.left - rect.left + fr.width / 2;
+          const y1 = fr.top - rect.top + fr.height / 2;
+          const x2 = tr.left - rect.left + tr.width / 2;
+          const y2 = tr.top - rect.top + tr.height / 2;
+          const mx = (x1 + x2) / 2 + (y2 - y1) * 0.15;
+          const my = (y1 + y2) / 2 - (x2 - x1) * 0.15;
+          const path = document.createElementNS(
+            "http://www.w3.org/2000/svg",
+            "path",
+          );
+          path.setAttribute("d", `M${x1},${y1} Q${mx},${my} ${x2},${y2}`);
+          path.setAttribute(
+            "stroke",
+            p.days <= 2 ? "#ef4444" : p.days <= 7 ? "#f97316" : "#eab308",
+          );
+          path.setAttribute("id", `arrow-${p.id}`);
+          path.setAttribute("marker-end", "url(#arrowhead)");
+          svg.appendChild(path);
+        });
+        // Arrowhead marker
+        const defs = document.createElementNS(
+          "http://www.w3.org/2000/svg",
+          "defs",
+        );
+        const marker = document.createElementNS(
+          "http://www.w3.org/2000/svg",
+          "marker",
+        );
+        marker.setAttribute("id", "arrowhead");
+        marker.setAttribute("markerWidth", "10");
+        marker.setAttribute("markerHeight", "7");
+        marker.setAttribute("refX", "10");
+        marker.setAttribute("refY", "3.5");
+        marker.setAttribute("orient", "auto");
+        const poly = document.createElementNS(
+          "http://www.w3.org/2000/svg",
+          "polygon",
+        );
+        poly.setAttribute("points", "0 0, 10 3.5, 0 7");
+        poly.setAttribute("fill", "#ef4444");
+        marker.appendChild(poly);
+        defs.appendChild(marker);
+        svg.prepend(defs);
+      }
+
+      function selectPivot(p) {
+        document
+          .querySelectorAll(".pivot-node")
+          .forEach((n) => n.classList.remove("active"));
+        document
+          .querySelectorAll(".arrow-svg path")
+          .forEach((a) => a.classList.remove("active"));
+        document.getElementById(`pivot-${p.id}`).classList.add("active");
+        if (p.contradicts) {
+          document
+            .getElementById(`pivot-${p.contradicts}`)
+            ?.classList.add("active");
+          const arrow = document.getElementById(`arrow-${p.id}`);
+          if (arrow) arrow.classList.add("active");
+          const prev = pivots.find((pp) => pp.id === p.contradicts);
+          document.getElementById("contraFrom").innerHTML =
+            `<strong>#${prev.id} ${prev.date}</strong><br>${prev.label}`;
+          document.getElementById("contraTo").innerHTML =
+            `<strong>#${p.id} ${p.date}</strong><br>${p.label}`;
+          document.getElementById("contraExplain").textContent = p.explain;
+          document.getElementById("contraDays").textContent =
+            `${p.days} day${p.days !== 1 ? "s" : ""}`;
+          document.getElementById("contraImpact").textContent = p.impact;
+          panel.classList.add("visible");
+        } else {
+          panel.classList.remove("visible");
+        }
+      }
+
+      function clearSelection() {
+        document
+          .querySelectorAll(".pivot-node")
+          .forEach((n) => n.classList.remove("active"));
+        document
+          .querySelectorAll(".arrow-svg path")
+          .forEach((a) => a.classList.remove("active"));
+        panel.classList.remove("visible");
+      }
+
+      // Heat timeline
+      const months = [
+        { label: "Sep", count: 0, color: "var(--surface3)" },
+        { label: "Oct", count: 1, color: "var(--yellow)" },
+        { label: "Nov", count: 0, color: "var(--surface3)" },
+        { label: "Dec", count: 7, color: "var(--red)" },
+        { label: "Jan", count: 2, color: "var(--orange)" },
+        { label: "Feb", count: 1, color: "var(--yellow)" },
+        { label: "Mar", count: 1, color: "var(--yellow)" },
+      ];
+      const heatEl = document.getElementById("heatTimeline");
+      months.forEach((m) => {
+        const bar = document.createElement("div");
+        bar.className = "heat-bar";
+        const h = m.count === 0 ? 8 : (m.count / 7) * 100;
+        bar.style.height = h + "%";
+        bar.style.background = m.color;
+        bar.innerHTML = `<span class="heat-count" style="color:${m.color}">${m.count}</span><span class="heat-label">${m.label}</span>`;
+        heatEl.appendChild(bar);
+      });
+
+      // Draw arrows after layout
+      window.addEventListener("load", drawArrows);
+      window.addEventListener("resize", drawArrows);
+      setTimeout(drawArrows, 100);
+      setTimeout(drawArrows, 500);
+    </script>
+  </body>
+</html>

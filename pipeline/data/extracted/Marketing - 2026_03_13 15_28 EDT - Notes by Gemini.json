@@ -1,0 +1,58 @@
+{
+  "meetingId": "marketing-2026-03-13",
+  "title": "Marketing",
+  "date": "2026-03-13",
+  "series": "Marketing",
+  "type": "marketing",
+  "attendees": ["Paulo Trovao", "Michael Donovan", "Jason Branham"],
+  "summary": "The meeting focused on aligning the marketing and sales teams on the Ideal Customer Profile (ICP) and its multi-channel strategy. There was a debate regarding the effectiveness of direct LinkedIn connection requests from sales profiles, but Jason Branham agreed to test the strategy by sending out connection requests from the sales team, as part of a broader multi-channel approach.",
+  "decisions": [
+    {
+      "description": "The sales and client success teams will proceed with the presented Ideal Customer Profile (ICP) definition, as presented by Michael Donovan's team.",
+      "decidedBy": ["Jason Branham"],
+      "topic": "ideal-customer-profile",
+      "confidence": "firm"
+    },
+    {
+      "description": "The sales team will begin sending out connection requests on LinkedIn using the \"phase zero\" lookalike list, as part of a multi-channel strategy.",
+      "decidedBy": ["Jason Branham"],
+      "topic": "linkedin-strategy",
+      "confidence": "tentative"
+    }
+  ],
+  "actionItems": [
+    {
+      "task": "Provide Jason Branham with the \"phase zero\" lookalike list derived from the ICP data.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "email",
+        "description": "Jason Branham receives the list of leads with LinkedIn profiles for the sales team to connect with."
+      }
+    },
+    {
+      "task": "Use the lookalike list to start sending out connection requests on LinkedIn to test the results.",
+      "owner": "Jason Branham",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "linkedin",
+        "description": "Sales team members connect with leads on the list."
+      }
+    }
+  ],
+  "topicsDiscussed": [
+    "ideal-customer-profile",
+    "lead-scoring",
+    "multi-channel-marketing",
+    "linkedin-strategy",
+    "sales-enablement"
+  ],
+  "tensions": [
+    "Jason Branham expressed concern that direct LinkedIn connection requests from sales profiles are typically viewed as an 'obvious sales play' and are often declined.",
+    "Michael Donovan's frustration with \"just something\" marketing efforts."
+  ],
+  "referencesToPast": [
+    "Michael Donovan referenced past performance and marketing efforts, particularly those done last year.",
+    "Michael Donovan mentioned a previous website project that remains a problem."
+  ]
+}

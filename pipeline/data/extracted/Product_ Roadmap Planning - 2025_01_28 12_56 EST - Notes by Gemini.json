@@ -1,0 +1,114 @@
+{
+  "meetingId": "product-roadmap-planning-2025-01-28",
+  "title": "Product: Roadmap Planning",
+  "date": "2025-01-28",
+  "series": "Product: Roadmap Planning",
+  "type": "product",
+  "attendees": [
+    "Thomas Howe",
+    "Matt Watson",
+    "Shawna Behen",
+    "Vinnie Micciche",
+    "Kristina Cvitko",
+    "Ken Herron",
+    "Joe Furnari",
+    "David Walsh",
+    "Michael Mirabile",
+    "Michael Donovan",
+    "Jason Branham"
+  ],
+  "summary": "The team discussed strategies for improving portal user engagement, focusing on onboarding, communication, and training. They decided to leverage a product-led growth model, implement pilot programs to test GPT, and improve internal team training using a tiered approach. Next steps involve creating training materials, conducting pilot programs, and improving data collection to measure impact.",
+  "decisions": [
+    {
+      "description": "Focus on the \"why\" behind portal usage to drive dealer adoption.",
+      "decidedBy": ["Vinnie Micciche"],
+      "topic": "portal-user-engagement",
+      "confidence": "firm"
+    },
+    {
+      "description": "Leverage the diffusion of innovation theory to incentivize participation.",
+      "decidedBy": ["Michael Donovan"],
+      "topic": "portal-user-engagement",
+      "confidence": "firm"
+    },
+    {
+      "description": "Focus on improved onboarding and marketing campaigns.",
+      "decidedBy": ["Matt Watson"],
+      "topic": "user-onboarding",
+      "confidence": "firm"
+    },
+    {
+      "description": "Explore product improvements to increase inherent value.",
+      "decidedBy": ["Matt Watson"],
+      "topic": "product-improvement",
+      "confidence": "exploratory"
+    },
+    {
+      "description": "Implement a pilot program with a small group of dealers to test and improve GPT.",
+      "decidedBy": ["Vinnie Micciche"],
+      "topic": "gpt-pilot-program",
+      "confidence": "firm"
+    },
+    {
+      "description": "Use a \"karate school\" approach to training, where initial experts train more people.",
+      "decidedBy": ["Thomas Howe"],
+      "topic": "internal-team-training",
+      "confidence": "firm"
+    },
+    {
+      "description": "Incorporate daily prompts that help managers track their daily tasks to improve usage and retention.",
+      "decidedBy": ["Thomas Howe"],
+      "topic": "portal-usage",
+      "confidence": "tentative"
+    }
+  ],
+  "actionItems": [
+    {
+      "task": "Create engaging training and outreach materials for the sales and client success teams.",
+      "owner": "Unassigned",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "other",
+        "description": "Improved understanding of the portal's value and demo capabilities among sales and client success teams."
+      }
+    },
+    {
+      "task": "Conduct pilot programs with a select group of dealers to test and improve GPT.",
+      "owner": "Vinnie Micciche",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "other",
+        "description": "Identified areas for improvement in GPT functionality and dealer training."
+      }
+    },
+    {
+      "task": "Improve data collection and analysis to measure the impact of implemented changes.",
+      "owner": "Matt Watson",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "google-analytics",
+        "description": "Establish baselines and track user engagement metrics to assess the effectiveness of changes."
+      }
+    }
+  ],
+  "topicsDiscussed": [
+    "portal-user-engagement",
+    "product-led-growth",
+    "user-onboarding",
+    "product-marketing",
+    "communication-strategy",
+    "internal-team-training",
+    "product-improvement",
+    "gpt-pilot-program",
+    "data-collection",
+    "usage-metrics",
+    "dealer-adoption",
+    "diffusion-of-innovation"
+  ],
+  "tensions": [
+    "Lack of understanding of dealer needs contributing to low engagement.",
+    "Sales and client success teams need improved training on effectively communicating the portal's value.",
+    "Team members unable to perform demos and lack of consistent communication about new features."
+  ],
+  "referencesToPast": []
+}

@@ -1,0 +1,32 @@
+{
+  "meetingId": "michael-jason-2026-03-27",
+  "title": "Michael / Jason",
+  "date": "2026-03-27",
+  "series": "Michael / Jason",
+  "type": "one-on-one",
+  "attendees": ["Michael Donovan", "Jason Branham"],
+  "summary": "Michael and Jason discussed challenges in lead management, complex dealer setups including AI-driven systems, and conflicts over lead ownership among Lexus dealerships. The conversation highlighted issues with clients requesting procedures outside the company's established structure, internal disagreements over lead and inventory ownership, and the need to reconsider accepted but potentially outdated practices.",
+  "decisions": [
+    {
+      "description": "To acknowledge that the company does not have to continually accept old practices.",
+      "decidedBy": ["Jason Branham", "Michael Donovan"],
+      "topic": "process-improvement",
+      "confidence": "firm"
+    }
+  ],
+  "actionItems": [],
+  "topicsDiscussed": [
+    "lead-management",
+    "dealer-setup",
+    "lead-ownership",
+    "internal-processes",
+    "process-improvement"
+  ],
+  "tensions": [
+    "Internal conflicts among General Managers about lead assignments for neighboring Lexus dealerships.",
+    "Disputes over lead and inventory ownership, especially for popular models like GXs."
+  ],
+  "referencesToPast": [
+    "Discussion of a previous centralized website approach at Sid Dylan with multiple points."
+  ]
+}

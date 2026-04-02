@@ -1,0 +1,205 @@
+[
+  {
+    "id": "michael-donovan",
+    "name": "Michael Donovan",
+    "aliases": [],
+    "meetingCount": 53,
+    "department": "leadership"
+  },
+  {
+    "id": "joe-furnari",
+    "name": "Joe Furnari",
+    "aliases": [],
+    "meetingCount": 36,
+    "department": "leadership"
+  },
+  {
+    "id": "vinnie-micciche",
+    "name": "Vinnie Micciche",
+    "aliases": [],
+    "meetingCount": 27,
+    "department": "leadership"
+  },
+  {
+    "id": "jason-branham",
+    "name": "Jason Branham",
+    "aliases": [],
+    "meetingCount": 27,
+    "department": "leadership"
+  },
+  {
+    "id": "matt-watson",
+    "name": "Matt Watson",
+    "aliases": [],
+    "meetingCount": 24,
+    "department": "leadership"
+  },
+  {
+    "id": "thomas-howe",
+    "name": "Thomas Howe",
+    "aliases": [],
+    "meetingCount": 22,
+    "department": "leadership"
+  },
+  {
+    "id": "kevin-breen",
+    "name": "Kevin Breen",
+    "aliases": [],
+    "meetingCount": 17,
+    "department": "leadership"
+  },
+  {
+    "id": "harinder-bhinder",
+    "name": "Harinder Bhinder",
+    "aliases": [],
+    "meetingCount": 15,
+    "department": "leadership"
+  },
+  {
+    "id": "shawna-behen",
+    "name": "Shawna Behen",
+    "aliases": [],
+    "meetingCount": 13,
+    "department": "leadership"
+  },
+  {
+    "id": "ziad-al-khatib",
+    "name": "Ziad Al Khatib",
+    "aliases": [],
+    "meetingCount": 12,
+    "department": "marketing"
+  },
+  {
+    "id": "sergey-lyapustin",
+    "name": "Sergey Lyapustin",
+    "aliases": [],
+    "meetingCount": 12,
+    "department": "leadership"
+  },
+  {
+    "id": "paulo-trovao",
+    "name": "Paulo Trovao",
+    "aliases": [],
+    "meetingCount": 10,
+    "department": "marketing"
+  },
+  {
+    "id": "vin-micciche",
+    "name": "Vin Micciche",
+    "aliases": [],
+    "meetingCount": 6,
+    "department": "leadership"
+  },
+  {
+    "id": "mike-sullivan",
+    "name": "Mike Sullivan",
+    "aliases": [],
+    "meetingCount": 5,
+    "department": "leadership"
+  },
+  {
+    "id": "ken-herron",
+    "name": "Ken Herron",
+    "aliases": [],
+    "meetingCount": 4,
+    "department": "product"
+  },
+  {
+    "id": "kristina-cvitko",
+    "name": "Kristina Cvitko",
+    "aliases": [],
+    "meetingCount": 3,
+    "department": "product"
+  },
+  {
+    "id": "jason-branham-strolid-com",
+    "name": "jason.branham@strolid.com",
+    "aliases": [],
+    "meetingCount": 3,
+    "department": "leadership"
+  },
+  {
+    "id": "david-walsh",
+    "name": "David Walsh",
+    "aliases": [],
+    "meetingCount": 2,
+    "department": "product"
+  },
+  {
+    "id": "michael-mirabile",
+    "name": "Michael Mirabile",
+    "aliases": [],
+    "meetingCount": 2,
+    "department": "product"
+  },
+  {
+    "id": "perry-evans",
+    "name": "Perry Evans",
+    "aliases": [],
+    "meetingCount": 2,
+    "department": "marketing"
+  },
+  {
+    "id": "holly-meyerhofer",
+    "name": "Holly Meyerhofer",
+    "aliases": [],
+    "meetingCount": 2,
+    "department": "cross-functional"
+  },
+  {
+    "id": "sunaina-khan",
+    "name": "Sunaina Khan",
+    "aliases": [],
+    "meetingCount": 2,
+    "department": "cross-functional"
+  },
+  {
+    "id": "scott-henshaw",
+    "name": "Scott Henshaw",
+    "aliases": [],
+    "meetingCount": 2,
+    "department": "cross-functional"
+  },
+  {
+    "id": "pavan-kumar",
+    "name": "Pavan Kumar",
+    "aliases": [],
+    "meetingCount": 2,
+    "department": "cross-functional"
+  },
+  {
+    "id": "chris-celiberti",
+    "name": "Chris Celiberti",
+    "aliases": [],
+    "meetingCount": 2,
+    "department": "cross-functional"
+  },
+  {
+    "id": "audrey-hayn",
+    "name": "Audrey Hayn",
+    "aliases": [],
+    "meetingCount": 1,
+    "department": "product"
+  },
+  {
+    "id": "claude-hayn",
+    "name": "Claude Hayn",
+    "aliases": [],
+    "meetingCount": 1,
+    "department": "product"
+  },
+  {
+    "id": "christina",
+    "name": "Christina",
+    "aliases": [],
+    "meetingCount": 1,
+    "department": "marketing"
+  },
+  {
+    "id": "-",
+    "name": "+1 781--84",
+    "aliases": [],
+    "meetingCount": 1,
+    "department": "cross-functional"
+  }
+]

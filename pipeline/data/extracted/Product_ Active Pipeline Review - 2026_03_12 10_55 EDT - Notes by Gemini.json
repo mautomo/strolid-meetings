@@ -1,0 +1,189 @@
+{
+  "meetingId": "active-pipeline-review-2026-03-12",
+  "title": "Product: Active Pipeline Review",
+  "date": "2026-03-12",
+  "series": "Product: Active Pipeline Review",
+  "type": "product",
+  "attendees": [
+    "Thomas Howe",
+    "Vinnie Micciche",
+    "Shawna Behen",
+    "Matt Watson",
+    "Ken Herron",
+    "Joe Furnari",
+    "Jason Branham",
+    "Michael Donovan",
+    "Harinder Bhinder",
+    "Sergey Lyapustin",
+    "Kevin Breen"
+  ],
+  "summary": "The meeting covered project updates for Lovable reporting and the Sophia campaign, focusing on low customer engagement. Lovable report sharing is ready for external integration with existing dealer ID security, and the BDC analytics dashboard passed internal security checks. The Sophia campaign's engagement rate decline from 15% to 11% is a concern, prompting investigation into lead quality and potential calling window adjustments, prioritizing internal fine-tuning before external sales integration.",
+  "decisions": [
+    {
+      "description": "Reschedule meeting between Michael Donovan and Jason Branham for the following day between 11:00 AM and 11:30 AM.",
+      "decidedBy": ["Michael Donovan", "Jason Branham"],
+      "topic": "meeting-scheduling",
+      "confidence": "firm"
+    },
+    {
+      "description": "Reports created in Lovable by Kevin will be loaded into the portal's back end, similar to current Metabase reports, using the same dealer ID method for row-level security.",
+      "decidedBy": ["Sergey Lyapustin", "Matt Watson", "Kevin Breen"],
+      "topic": "lovable-reporting",
+      "confidence": "firm"
+    },
+    {
+      "description": "Deploy the BDC analytics dashboard internally first to run tests and look for potential issues before moving forward with dealer embeddings.",
+      "decidedBy": ["Sergey Lyapustin", "Matt Watson", "Kevin Breen"],
+      "topic": "security-testing",
+      "confidence": "firm"
+    },
+    {
+      "description": "Continue the current Sophia outbound sales campaign until the following week.",
+      "decidedBy": ["Shawna Behen", "Sergey Lyapustin"],
+      "topic": "sophia-campaign",
+      "confidence": "firm"
+    },
+    {
+      "description": "The immediate goal for Sophia is to get the current system humming internally and fine-tune it before deciding on external sales and integrations.",
+      "decidedBy": ["Vinnie Micciche", "Matt Watson"],
+      "topic": "sophia-deployment",
+      "confidence": "firm"
+    },
+    {
+      "description": "Address the save-a-deal reporting with new AI capabilities using GPT prompts to generate comprehensive, quantitative reports; Scott will address this.",
+      "decidedBy": ["Matt Watson", "Scott"],
+      "topic": "reporting-improvements",
+      "confidence": "firm"
+    },
+    {
+      "description": "Shift Sophia's calling window to 2:00 PM to 8:00 PM to align with when customers are more likely to pick up.",
+      "decidedBy": ["Vinnie Micciche", "Michael Donovan", "Shawna Behen"],
+      "topic": "calling-schedule",
+      "confidence": "tentative"
+    },
+    {
+      "description": "Project plan must include a step to evaluate prompts before going live.",
+      "decidedBy": ["Harinder Bhinder"],
+      "topic": "prompt-evaluation",
+      "confidence": "firm"
+    },
+    {
+      "description": "Prioritize which customer-generated prompts to accept, as some may be too \"out there\" to handle.",
+      "decidedBy": ["Matt Watson"],
+      "topic": "prompt-management",
+      "confidence": "firm"
+    }
+  ],
+  "actionItems": [
+    {
+      "task": "Reschedule the meeting with Michael Donovan for 11:00 AM to 11:30 AM tomorrow.",
+      "owner": "Jason Branham",
+      "deadline": "2026-03-13",
+      "expectedOutcome": {
+        "system": "calendar",
+        "description": "Meeting invite sent for the specified time."
+      }
+    },
+    {
+      "task": "Provide Vinnie Micciche with the slide information and data for Sophia call backs from October through January for tomorrow's call review.",
+      "owner": "Kevin Breen",
+      "deadline": "2026-03-13",
+      "expectedOutcome": {
+        "system": "email",
+        "description": "Vinnie receives the requested data and slides."
+      }
+    },
+    {
+      "task": "Point the callback numbers to Frank's follow-up team to have them answer.",
+      "owner": "Shawna Behen",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "other",
+        "description": "Callback numbers are routed to Frank's follow-up team."
+      }
+    },
+    {
+      "task": "Review the data query, looking into lead source quality, and analyzing the impact of phone screeners.",
+      "owner": "Sergey Lyapustin",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "crm",
+        "description": "Analysis report on lead source quality and impact of phone screeners is available."
+      }
+    },
+    {
+      "task": "Address the 'save a deal' prompt issue and develop a GPT-based application for comprehensive reporting.",
+      "owner": "Scott",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "codebase",
+        "description": "Functioning 'save a deal' application with improved reporting capabilities."
+      }
+    },
+    {
+      "task": "Analyze patterns and similarities between customers calling back and not calling back, considering lead source and time of day.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "crm",
+        "description": "Report outlining key patterns and similarities in customer call-back behavior."
+      }
+    },
+    {
+      "task": "Determine human performance metrics prior to Sophia's implementation (call backs).",
+      "owner": "Unassigned",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "crm",
+        "description": "Baseline of human follow-up performance metrics is established."
+      }
+    },
+    {
+      "task": "Evaluate staffing options for evening shift to support potential calling window shift to 2:00 PM to 8:00 PM.",
+      "owner": "Shawna Behen",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "other",
+        "description": "Staffing plan prepared to accommodate the proposed call-time change."
+      }
+    }
+  ],
+  "topicsDiscussed": [
+    "lovable-reporting",
+    "security-testing",
+    "sophia-campaign",
+    "sophia-deployment",
+    "market-valuation",
+    "revenue-streams",
+    "engagement-rates",
+    "value-proposition",
+    "product-improvement",
+    "call-analysis",
+    "quantitative-reporting",
+    "data-accuracy",
+    "calling-schedule",
+    "co-pilot-implementation",
+    "staffing-replacements",
+    "prompt-evaluation",
+    "customer-interaction",
+    "language-model-security",
+    "data-analysis",
+    "ai-tools",
+    "reporting-improvements"
+  ],
+  "tensions": [
+    "Concerns about the declining engagement rate of the Sophia outbound sales campaign.",
+    "Vinnie Micciche's lack of confidence in the accuracy of current reporting data.",
+    "Debate on whether to prioritize efficiency or ROI when selling AI tools to dealers.",
+    "Potential staffing challenges related to shifting Sophia's calling window to later hours.",
+    "Concern about the quality of leads as new dealers are introduced to Sophia.",
+    "Disagreement on how much the market impacted drop in engagement rates.",
+    "Potential costs of AI usage."
+  ],
+  "referencesToPast": [
+    "Reschedule of a meeting from the previous day with Jason Branham.",
+    "Discussion of old and new data related to Sophia's performance compared to earlier months (October-January).",
+    "Reference to previous discussions on Voli replacement as a service BDC platform.",
+    "Mention of previous QA work done for Front Line for 211."
+  ]
+}

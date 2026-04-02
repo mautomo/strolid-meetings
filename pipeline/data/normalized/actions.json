@@ -1,0 +1,2861 @@
+[
+  {
+    "id": "a-001",
+    "task": "Create engaging training and outreach materials for the sales and client success teams.",
+    "owner": "Unassigned",
+    "meetingId": "product-roadmap-planning-2025-01-28",
+    "meetingDate": "2025-01-28",
+    "status": "done",
+    "expectedOutcome": {
+      "system": "other",
+      "description": "Improved understanding of the portal's value and demo capabilities among sales and client success teams."
+    },
+    "resolvedInMeeting": "marketing-2026-03-13"
+  },
+  {
+    "id": "a-002",
+    "task": "Conduct pilot programs with a select group of dealers to test and improve GPT.",
+    "owner": "Vinnie Micciche",
+    "meetingId": "product-roadmap-planning-2025-01-28",
+    "meetingDate": "2025-01-28",
+    "status": "abandoned",
+    "expectedOutcome": {
+      "system": "other",
+      "description": "Identified areas for improvement in GPT functionality and dealer training."
+    }
+  },
+  {
+    "id": "a-003",
+    "task": "Improve data collection and analysis to measure the impact of implemented changes.",
+    "owner": "Matt Watson",
+    "meetingId": "product-roadmap-planning-2025-01-28",
+    "meetingDate": "2025-01-28",
+    "status": "abandoned",
+    "expectedOutcome": {
+      "system": "google-analytics",
+      "description": "Establish baselines and track user engagement metrics to assess the effectiveness of changes."
+    }
+  },
+  {
+    "id": "a-004",
+    "task": "Conduct a gap analysis to determine the necessary level of effort and associated costs for achieving project timelines.",
+    "owner": "Joe Furnari",
+    "meetingId": "product-roadmap-planning-2025-02-04",
+    "meetingDate": "2025-02-04",
+    "status": "abandoned",
+    "expectedOutcome": {
+      "system": "other",
+      "description": "A clear understanding of the required effort and costs associated with project timelines."
+    }
+  },
+  {
+    "id": "a-005",
+    "task": "Reconcile June's data and perform a 90-day review of ad spend.",
+    "owner": "Michael Donovan",
+    "meetingId": "1-on-1-joe-and-michael-2025-07-01",
+    "meetingDate": "2025-07-01",
+    "status": "abandoned",
+    "expectedOutcome": {
+      "system": "other",
+      "description": "Analysis of ad spend and performance metrics."
+    }
+  },
+  {
+    "id": "a-006",
+    "task": "Outline the objectives for the CRM project kickoff meeting.",
+    "owner": "Joe Furnari",
+    "meetingId": "1-on-1-joe-and-michael-2025-07-01",
+    "meetingDate": "2025-07-01",
+    "status": "abandoned",
+    "expectedOutcome": {
+      "system": "google-docs",
+      "description": "Document outlining CRM project goals and deliverables."
+    }
+  },
+  {
+    "id": "a-007",
+    "task": "Set up a meeting with Michael Donovan and Jason for Tuesday or Wednesday next week to kickoff the CRM project and define the workflow.",
+    "owner": "Joe Furnari",
+    "meetingId": "1-on-1-joe-and-michael-2025-07-01",
+    "meetingDate": "2025-07-01",
+    "status": "done",
+    "expectedOutcome": {
+      "system": "calendar",
+      "description": "Scheduled meeting with Michael and Jason."
+    },
+    "resolvedInMeeting": "jason-michael-2025-09-16"
+  },
+  {
+    "id": "a-008",
+    "task": "Put Zoho Sales IQ documentation together and discuss it with Jason on a call before the 12:30 call.",
+    "owner": "Michael Donovan",
+    "meetingId": "1-on-1-joe-and-michael-2025-07-01",
+    "meetingDate": "2025-07-01",
+    "status": "done",
+    "expectedOutcome": {
+      "system": "google-docs",
+      "description": "Documentation outlining Zoho Sales IQ functionality."
+    },
+    "resolvedInMeeting": "jason-michael-2025-09-16"
+  },
+  {
+    "id": "a-009",
+    "task": "Review and clean up the format of the CRM documentation and share it with Joe Furnari and Jason.",
+    "owner": "Michael Donovan",
+    "meetingId": "1-on-1-joe-and-michael-2025-07-01",
+    "meetingDate": "2025-07-01",
+    "status": "recurring",
+    "expectedOutcome": {
+      "system": "google-docs",
+      "description": "Formatted CRM documentation shared with relevant stakeholders."
+    }
+  },
+  {
+    "id": "a-010",
+    "task": "Have a conversation with Vinnie regarding bonus payments and concerns about job security.",
+    "owner": "Joe Furnari",
+    "meetingId": "1-on-1-joe-and-michael-2025-07-01",
+    "meetingDate": "2025-07-01",
+    "status": "recurring",
+    "expectedOutcome": {
+      "system": "other",
+      "description": "Resolution of concerns about bonus payments and job security."
+    }
+  },
+  {
+    "id": "a-011",
+    "task": "Complete the session after work tonight to fix the BDC app.",
+    "owner": "Michael Donovan",
+    "meetingId": "jason-michael-2025-09-16",
+    "meetingDate": "2025-09-16",
+    "deadline": "2025-09-16",
+    "status": "abandoned",
+    "expectedOutcome": {
+      "system": "other",
+      "description": "The BDC app is functional with capabilities to scan a market and create email campaigns."
+    }
+  },
+  {
+    "id": "a-012",
+    "task": "Send an invite from the BDC app to Jason Branham.",
+    "owner": "Michael Donovan",
+    "meetingId": "jason-michael-2025-09-16",
+    "meetingDate": "2025-09-16",
+    "deadline": "2025-09-16",
+    "status": "abandoned",
+    "expectedOutcome": {
+      "system": "email",
+      "description": "Jason Branham receives an invitation to access the BDC app."
+    }
+  },
+  {
+    "id": "a-013",
+    "task": "Get with Reed to get the tag manager done for the Rainbow store.",
+    "owner": "Michael Donovan",
+    "meetingId": "jason-michael-2025-09-16",
+    "meetingDate": "2025-09-16",
+    "deadline": "2025-09-16",
+    "status": "abandoned",
+    "expectedOutcome": {
+      "system": "codebase",
+      "description": "Tag manager implemented for Rainbow store."
+    }
+  },
+  {
+    "id": "a-014",
+    "task": "Inform everyone regarding the next steps for analysis and automation.",
+    "owner": "Michael Donovan",
+    "meetingId": "jason-michael-2025-09-16",
+    "meetingDate": "2025-09-16",
+    "status": "abandoned",
+    "expectedOutcome": {
+      "system": "slack",
+      "description": "Team members are aware of the next steps for analysis and automation"
+    }
+  },
+  {
+    "id": "a-015",
+    "task": "Create a task list to document projects and tasks.",
+    "owner": "Michael Donovan",
+    "meetingId": "homepage-hero-session-2025-09-23",
+    "meetingDate": "2025-09-23",
+    "status": "abandoned",
+    "expectedOutcome": {
+      "system": "other",
+      "description": "A usable task list with fields for concepts, messages, due dates, and linked files."
+    }
+  },
+  {
+    "id": "a-016",
+    "task": "Share the agenda for the marketing meeting with Ziad Al Khatib.",
+    "owner": "Michael Donovan",
+    "meetingId": "homepage-hero-session-2025-09-23",
+    "meetingDate": "2025-09-23",
+    "status": "abandoned",
+    "expectedOutcome": {
+      "system": "other",
+      "description": "Ziad has the agenda for the marketing meeting."
+    }
+  },
+  {
+    "id": "a-017",
+    "task": "Share historical documents with Ziad Al Khatib.",
+    "owner": "Michael Donovan",
+    "meetingId": "homepage-hero-session-2025-09-23",
+    "meetingDate": "2025-09-23",
+    "status": "abandoned",
+    "expectedOutcome": {
+      "system": "other",
+      "description": "Ziad has historical design documents for reference."
+    }
+  },
+  {
+    "id": "a-018",
+    "task": "Share the corporate identity brand guidelines for Strawid, including the white logo versions, with Ziad Al Khatib.",
+    "owner": "Michael Donovan",
+    "meetingId": "homepage-hero-session-2025-09-23",
+    "meetingDate": "2025-09-23",
+    "status": "abandoned",
+    "expectedOutcome": {
+      "system": "google-docs",
+      "description": "Ziad has access to the Strawid brand guidelines including logo usage and color palettes."
+    }
+  },
+  {
+    "id": "a-019",
+    "task": "Send Michael Donovan the click path and prompt used for Gemini images.",
+    "owner": "Ziad Al Khatib",
+    "meetingId": "homepage-hero-session-2025-09-23",
+    "meetingDate": "2025-09-23",
+    "status": "done",
+    "expectedOutcome": {
+      "system": "email",
+      "description": "Michael Donovan understands how Ziad Al Khatib is using Gemini for image creation."
+    },
+    "resolvedInMeeting": "active-pipeline-review-2026-03-12"
+  },
+  {
+    "id": "a-020",
+    "task": "Watch Karate Kid, Goonies, and 16 Candles.",
+    "owner": "Ziad Al Khatib",
+    "meetingId": "homepage-hero-session-2025-09-23",
+    "meetingDate": "2025-09-23",
+    "deadline": "2025-09-24",
+    "status": "abandoned",
+    "expectedOutcome": {
+      "system": "other",
+      "description": "Ziad Al Khatib has watched the movies and is ready to discuss them."
+    }
+  },
+  {
+    "id": "a-021",
+    "task": "Do independent research.",
+    "owner": "Ziad Al Khatib",
+    "meetingId": "homepage-hero-session-2025-09-23",
+    "meetingDate": "2025-09-23",
+    "status": "abandoned",
+    "expectedOutcome": {
+      "system": "website",
+      "description": "Ziad Al Khatib has researched modern web trends and examples of hero images."
+    }
+  },
+  {
+    "id": "a-022",
+    "task": "Request examples from invado or award-winning websites from 2025.",
+    "owner": "Ziad Al Khatib",
+    "meetingId": "homepage-hero-session-2025-09-23",
+    "meetingDate": "2025-09-23",
+    "status": "abandoned",
+    "expectedOutcome": {
+      "system": "website",
+      "description": "Ziad Al Khatib has specific examples of desired design styles."
+    }
+  },
+  {
+    "id": "a-023",
+    "task": "Take some time to get the design dialed in to their standard and show Michael Donovan what that is.",
+    "owner": "Ziad Al Khatib",
+    "meetingId": "homepage-hero-session-2025-09-23",
+    "meetingDate": "2025-09-23",
+    "status": "recurring",
+    "expectedOutcome": {
+      "system": "other",
+      "description": "Michael Donovan understands Ziad Al Khatib's design aesthetic."
+    }
+  },
+  {
+    "id": "a-024",
+    "task": "Deploy the marketing automation platform.",
+    "owner": "Michael Donovan",
+    "meetingId": "tech-process-and-product-review-2025-09-24",
+    "meetingDate": "2025-09-24",
+    "status": "abandoned",
+    "expectedOutcome": {
+      "system": "other",
+      "description": "Functional and accessible marketing automation platform."
+    }
+  },
+  {
+    "id": "a-025",
+    "task": "Explore the marketing automation platform provided by Michael Donovan as a closed beta resource.",
+    "owner": "Audrey Hayn",
+    "meetingId": "tech-process-and-product-review-2025-09-24",
+    "meetingDate": "2025-09-24",
+    "status": "done",
+    "expectedOutcome": {
+      "system": "other",
+      "description": "Familiarization with the features and potential uses of the platform."
+    },
+    "resolvedInMeeting": "the-marketing-meeting-2026-01-06"
+  },
+  {
+    "id": "a-026",
+    "task": "Explore the marketing automation platform provided by Michael Donovan as a closed beta resource.",
+    "owner": "Claude Hayn",
+    "meetingId": "tech-process-and-product-review-2025-09-24",
+    "meetingDate": "2025-09-24",
+    "status": "done",
+    "expectedOutcome": {
+      "system": "other",
+      "description": "Familiarization with the features and potential uses of the platform."
+    },
+    "resolvedInMeeting": "the-marketing-meeting-2026-01-06"
+  },
+  {
+    "id": "a-027",
+    "task": "Send a link to documentation on how the marketing automation platform environment is designed.",
+    "owner": "Michael Donovan",
+    "meetingId": "tech-process-and-product-review-2025-09-24",
+    "meetingDate": "2025-09-24",
+    "status": "abandoned",
+    "expectedOutcome": {
+      "system": "google-docs",
+      "description": "Accessible documentation detailing the design of the platform."
+    }
+  },
+  {
+    "id": "a-028",
+    "task": "Provide login credentials for the marketing automation platform.",
+    "owner": "Michael Donovan",
+    "meetingId": "tech-process-and-product-review-2025-09-24",
+    "meetingDate": "2025-09-24",
+    "deadline": "2025-09-29",
+    "status": "abandoned",
+    "expectedOutcome": {
+      "system": "other",
+      "description": "Audrey and Claude Hayn gain access to the closed beta platform."
+    }
+  },
+  {
+    "id": "a-029",
+    "task": "Look into the 30% API failure rate for notes not pushing.",
+    "owner": "Sergey Lyapustin",
+    "meetingId": "active-pipeline-review-2025-10-02",
+    "meetingDate": "2025-10-02",
+    "status": "abandoned",
+    "expectedOutcome": {
+      "system": "crm",
+      "description": "Identify the root cause of the high API failure rate and implement a solution to reduce it."
+    }
+  },
+  {
+    "id": "a-030",
+    "task": "Test out the VIN Solutions API push notes in one store.",
+    "owner": "Shawna Behen",
+    "meetingId": "active-pipeline-review-2025-10-02",
+    "meetingDate": "2025-10-02",
+    "status": "abandoned",
+    "expectedOutcome": {
+      "system": "crm",
+      "description": "Verify that call notes are successfully pushed to VIN Solutions and the portal link is clickable."
+    }
+  },
+  {
+    "id": "a-031",
+    "task": "Continue working with Holly to get the list of users for system access review.",
+    "owner": "Harinder Bhinder",
+    "meetingId": "active-pipeline-review-2025-10-02",
+    "meetingDate": "2025-10-02",
+    "status": "abandoned",
+    "expectedOutcome": {
+      "system": "other",
+      "description": "Obtain a complete list of users with system access for security review."
+    }
+  },
+  {
+    "id": "a-032",
+    "task": "Work on the onboarding flow for new people to the portal.",
+    "owner": "Sergey Lyapustin",
+    "meetingId": "active-pipeline-review-2025-10-02",
+    "meetingDate": "2025-10-02",
+    "status": "abandoned",
+    "expectedOutcome": {
+      "system": "portal",
+      "description": "Implement a streamlined onboarding process for new portal users."
+    }
+  },
+  {
+    "id": "a-033",
+    "task": "Add call notes evaluation to Holly's CRM evaluation process.",
+    "owner": "Matt Watson",
+    "meetingId": "active-pipeline-review-2025-10-02",
+    "meetingDate": "2025-10-02",
+    "status": "abandoned",
+    "expectedOutcome": {
+      "system": "other",
+      "description": "Holly's evaluation checklist includes if the CRM is able to receive call notes from our system."
+    }
+  },
+  {
+    "id": "a-034",
+    "task": "Review the item Michael Donovan shared.",
+    "owner": "Vinnie Micciche",
+    "meetingId": "the-marketing-meeting-2025-10-21",
+    "meetingDate": "2025-10-21",
+    "status": "recurring",
+    "expectedOutcome": {
+      "system": "other",
+      "description": "Provide feedback and approval on the shared content."
+    }
+  },
+  {
+    "id": "a-035",
+    "task": "Send a link to the staging version of the website, including the homepage, four product pages, leadership, and about page.",
+    "owner": "Michael Donovan",
+    "meetingId": "vconic-priority-content-update-2025-10-24",
+    "meetingDate": "2025-10-24",
+    "deadline": "2025-10-24",
+    "status": "done",
+    "expectedOutcome": {
+      "system": "email",
+      "description": "Perry Evans receives a link to the staging website."
+    },
+    "resolvedInMeeting": "the-marketing-meeting-2026-01-06"
+  },
+  {
+    "id": "a-036",
+    "task": "Publish the draft website behind a firewall or password protected for review.",
+    "owner": "Michael Donovan",
+    "meetingId": "vconic-priority-content-update-2025-10-24",
+    "meetingDate": "2025-10-24",
+    "status": "abandoned",
+    "expectedOutcome": {
+      "system": "website",
+      "description": "Perry Evans can access and view the draft website."
+    }
+  },
+  {
+    "id": "a-037",
+    "task": "Focus on hero images, profile banners, and post templates to define the look and feel of LinkedIn content.",
+    "owner": "Michael Donovan",
+    "meetingId": "vconic-priority-content-update-2025-10-24",
+    "meetingDate": "2025-10-24",
+    "status": "done",
+    "expectedOutcome": {
+      "system": "linkedin",
+      "description": "Templates and design language established for upcoming LinkedIn posts."
+    },
+    "resolvedInMeeting": "marketing-2026-03-13"
+  },
+  {
+    "id": "a-038",
+    "task": "Send out a link to the Viconic site along with direct links to the different homepage options via email.",
+    "owner": "Michael Donovan",
+    "meetingId": "the-marketing-meeting-2025-10-28",
+    "meetingDate": "2025-10-28",
+    "deadline": "2025-10-28",
+    "status": "abandoned",
+    "expectedOutcome": {
+      "system": "email",
+      "description": "Email sent with link to Viconic site and options for approval."
+    }
+  },
+  {
+    "id": "a-039",
+    "task": "Go through all the carousel posts that Michael Donovan will send and give feedback.",
+    "owner": "Vinnie Micciche",
+    "meetingId": "the-marketing-meeting-2025-10-28",
+    "meetingDate": "2025-10-28",
+    "status": "recurring",
+    "expectedOutcome": {
+      "system": "email",
+      "description": "Feedback provided on carousel posts."
+    }
+  },
+  {
+    "id": "a-040",
+    "task": "Research the highest value keyword for the Viconic link on the Strolid site.",
+    "owner": "Michael Donovan",
+    "meetingId": "the-marketing-meeting-2025-10-28",
+    "meetingDate": "2025-10-28",
+    "status": "abandoned",
+    "expectedOutcome": {
+      "system": "other",
+      "description": "Identify and recommend the highest value keyword."
+    }
+  },
+  {
+    "id": "a-041",
+    "task": "Select and import the previous creative posts and send them to Michael Donovan in a PDF format.",
+    "owner": "Ziad Al Khatib",
+    "meetingId": "weekly-marketing-planning-goals-2025-11-10",
+    "meetingDate": "2025-11-10",
+    "status": "done",
+    "expectedOutcome": {
+      "system": "email",
+      "description": "Michael Donovan receives a PDF containing the past creative posts."
+    },
+    "resolvedInMeeting": "the-marketing-meeting-2026-01-06"
+  },
+  {
+    "id": "a-042",
+    "task": "Put together the revised social media posts and share them with Vinnie Micciche.",
+    "owner": "Michael Donovan",
+    "meetingId": "the-marketing-meeting-2025-11-11",
+    "meetingDate": "2025-11-11",
+    "deadline": "2025-11-12",
+    "status": "done",
+    "expectedOutcome": {
+      "system": "google-docs",
+      "description": "Vinnie Micciche receives a document with revised social media posts incorporating feedback."
+    },
+    "resolvedInMeeting": "the-marketing-meeting-2026-01-06"
+  },
+  {
+    "id": "a-043",
+    "task": "Find and send research about where leads are going.",
+    "owner": "Vinnie Micciche",
+    "meetingId": "the-marketing-meeting-2025-11-11",
+    "meetingDate": "2025-11-11",
+    "status": "abandoned",
+    "expectedOutcome": {
+      "system": "email",
+      "description": "Team receives email with data on future lead origination."
+    }
+  },
+  {
+    "id": "a-044",
+    "task": "Review and provide feedback on updated creatives.",
+    "owner": "Vinnie Micciche",
+    "meetingId": "the-marketing-meeting-2025-11-11",
+    "meetingDate": "2025-11-11",
+    "status": "recurring",
+    "expectedOutcome": {
+      "system": "google-docs",
+      "description": "Ziad Al Khatib receives feedback on the updated creatives."
+    }
+  },
+  {
+    "id": "a-045",
+    "task": "Put the outline material together and send it over to Vinnie Micciche.",
+    "owner": "Michael Donovan",
+    "meetingId": "the-marketing-meeting-2025-11-11",
+    "meetingDate": "2025-11-11",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "google-docs",
+      "description": "Vinnie Micciche receives outline material for the content strategy."
+    }
+  },
+  {
+    "id": "a-046",
+    "task": "Improve the document to ensure Vinnie Micciche has the whole post in view, including the title on the graphic, copy, and caption hashtags.",
+    "owner": "Michael Donovan",
+    "meetingId": "the-marketing-meeting-2025-11-11",
+    "meetingDate": "2025-11-11",
+    "status": "recurring",
+    "expectedOutcome": {
+      "system": "google-docs",
+      "description": "Vinnie Micciche can easily review full social media posts in the document."
+    }
+  },
+  {
+    "id": "a-047",
+    "task": "Share the updated document with the reran control content with Vinnie Micciche.",
+    "owner": "Michael Donovan",
+    "meetingId": "the-marketing-meeting-2025-11-11",
+    "meetingDate": "2025-11-11",
+    "status": "done",
+    "expectedOutcome": {
+      "system": "google-docs",
+      "description": "Vinnie Micciche receives the updated document with control content for review."
+    },
+    "resolvedInMeeting": "the-marketing-meeting-2026-01-06"
+  },
+  {
+    "id": "a-048",
+    "task": "Find a video person in Denver to capture B-roll, including bringing Thomas out for a day of shooting.",
+    "owner": "Perry Evans",
+    "meetingId": "vconic-site-content-2025-11-20",
+    "meetingDate": "2025-11-20",
+    "status": "abandoned",
+    "expectedOutcome": {
+      "system": "other",
+      "description": "Identification of a video production partner in Denver."
+    }
+  },
+  {
+    "id": "a-049",
+    "task": "Work on the visualization mapping, focusing on animating the check and fading the full logo, finding two or three placeholder videos, and developing concepts for a derivative logo for Viconic Open Labs or Viconic Labs.",
+    "owner": "Michael Donovan",
+    "meetingId": "vconic-site-content-2025-11-20",
+    "meetingDate": "2025-11-20",
+    "status": "abandoned",
+    "expectedOutcome": {
+      "system": "google-docs",
+      "description": "Visualization mapping document with video and animation concepts, including logo variations."
+    }
+  },
+  {
+    "id": "a-050",
+    "task": "Shortlist video production partners and queue up a meeting for Michael Donovan and Perry Evans to review the list and select the right team member.",
+    "owner": "Perry Evans",
+    "meetingId": "vconic-site-content-2025-11-20",
+    "meetingDate": "2025-11-20",
+    "status": "done",
+    "expectedOutcome": {
+      "system": "google-docs",
+      "description": "A shortlist of video production partners with a scheduled meeting for review."
+    },
+    "resolvedInMeeting": "the-marketing-meeting-2026-01-06"
+  },
+  {
+    "id": "a-051",
+    "task": "Develop subtext for the Viconic Labs content and edit the content document.",
+    "owner": "Perry Evans",
+    "meetingId": "vconic-site-content-2025-11-20",
+    "meetingDate": "2025-11-20",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "google-docs",
+      "description": "Refined Viconic Labs content document with compelling subtext."
+    }
+  },
+  {
+    "id": "a-052",
+    "task": "Provide a strong example of leveraging vector scroll animations that are clean, tasteful, and provide a sense of movement beyond basic parallax.",
+    "owner": "Michael Donovan",
+    "meetingId": "vconic-site-content-2025-11-20",
+    "meetingDate": "2025-11-20",
+    "status": "abandoned",
+    "expectedOutcome": {
+      "system": "website",
+      "description": "Examples or implementation of vector scroll animations on the website."
+    }
+  },
+  {
+    "id": "a-053",
+    "task": "Resurrect a person to work with on the video side that understands the concept of an integrated look and feel to a series of explainer videos and tools that we can work from.",
+    "owner": "Perry Evans",
+    "meetingId": "vconic-site-content-2025-11-20",
+    "meetingDate": "2025-11-20",
+    "status": "abandoned",
+    "expectedOutcome": {
+      "system": "other",
+      "description": "Engagement of a video production resource with experience in integrated video content."
+    }
+  },
+  {
+    "id": "a-054",
+    "task": "Build out the template for the sales deck so that the group can utilize it.",
+    "owner": "Michael Donovan",
+    "meetingId": "the-marketing-meeting-2025-11-25",
+    "meetingDate": "2025-11-25",
+    "status": "abandoned",
+    "expectedOutcome": {
+      "system": "google-docs",
+      "description": "A template document is available for others to create sales decks that align with the company's aesthetic and messaging."
+    }
+  },
+  {
+    "id": "a-055",
+    "task": "Finish updates on the Looker Studio report, consolidating all social media, Google Analytics, and Google Ads data.",
+    "owner": "Michael Donovan",
+    "meetingId": "the-marketing-meeting-2025-11-25",
+    "meetingDate": "2025-11-25",
+    "status": "recurring",
+    "expectedOutcome": {
+      "system": "google-docs",
+      "description": "A comprehensive Looker Studio dashboard is available that provides a single view of all marketing data."
+    }
+  },
+  {
+    "id": "a-056",
+    "task": "Provide the restructured website content to Vinnie Micciche so they can review it.",
+    "owner": "Michael Donovan",
+    "meetingId": "the-marketing-meeting-2025-11-25",
+    "meetingDate": "2025-11-25",
+    "status": "done",
+    "expectedOutcome": {
+      "system": "google-docs",
+      "description": "Vinnie Micciche will review and approve the restructured website content."
+    },
+    "resolvedInMeeting": "the-marketing-meeting-2026-01-06"
+  },
+  {
+    "id": "a-057",
+    "task": "Look into the direct traffic source issue for Google Analytics.",
+    "owner": "Michael Donovan",
+    "meetingId": "the-marketing-meeting-2025-11-25",
+    "meetingDate": "2025-11-25",
+    "status": "abandoned",
+    "expectedOutcome": {
+      "system": "google-docs",
+      "description": "The source of the high direct traffic in Google Analytics is identified and documented."
+    }
+  },
+  {
+    "id": "a-058",
+    "task": "Double-check the Google Tag Manager setup for any tagging issues causing traffic misattribution.",
+    "owner": "Michael Donovan",
+    "meetingId": "the-marketing-meeting-2025-11-25",
+    "meetingDate": "2025-11-25",
+    "status": "abandoned",
+    "expectedOutcome": {
+      "system": "google-docs",
+      "description": "Google Tag Manager is correctly configured to accurately track website traffic."
+    }
+  },
+  {
+    "id": "a-059",
+    "task": "Coordinate time to refine the updated aesthetic sales deck using the 2025 sales deck V1 as a basis, to ensure it aligns with Jason Branham's word tracks and flow.",
+    "owner": "Michael Donovan",
+    "meetingId": "the-marketing-meeting-2025-11-25",
+    "meetingDate": "2025-11-25",
+    "status": "done",
+    "expectedOutcome": {
+      "system": "google-docs",
+      "description": "A refined sales deck is created that aligns with the new website aesthetic and Jason Branham's messaging."
+    },
+    "resolvedInMeeting": "active-pipeline-review-2026-03-12"
+  },
+  {
+    "id": "a-060",
+    "task": "Provide the created, recreated, or reconstructed content so Vinnie Micciche can review it and feel comfortable with what will be presented.",
+    "owner": "Michael Donovan",
+    "meetingId": "the-marketing-meeting-2025-11-25",
+    "meetingDate": "2025-11-25",
+    "status": "done",
+    "expectedOutcome": {
+      "system": "google-docs",
+      "description": "Vinnie Micciche reviews the content."
+    },
+    "resolvedInMeeting": "the-marketing-meeting-2026-01-06"
+  },
+  {
+    "id": "a-061",
+    "task": "Work with Christina directly for now to ensure social posts are flowing and social media activity is maintained.",
+    "owner": "Vinnie Micciche",
+    "meetingId": "the-marketing-meeting-2025-12-02",
+    "meetingDate": "2025-12-02",
+    "status": "recurring",
+    "expectedOutcome": {
+      "system": "social-media",
+      "description": "Consistent and timely social media posts."
+    }
+  },
+  {
+    "id": "a-062",
+    "task": "Be accountable for everything that comes and branches off of the social post topic, including putting the brief together and continuing the workflow.",
+    "owner": "Michael Donovan",
+    "meetingId": "the-marketing-meeting-2025-12-02",
+    "meetingDate": "2025-12-02",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "google-docs",
+      "description": "A well-defined brief and workflow for social media posts."
+    }
+  },
+  {
+    "id": "a-063",
+    "task": "Schedule time with Kevin Breen to discuss resources, data, and piping relevant to marketing.",
+    "owner": "Michael Donovan",
+    "meetingId": "the-marketing-meeting-2025-12-02",
+    "meetingDate": "2025-12-02",
+    "status": "done",
+    "expectedOutcome": {
+      "system": "calendar",
+      "description": "A meeting scheduled with Kevin Breen to discuss marketing resources and data."
+    },
+    "resolvedInMeeting": "active-pipeline-review-2026-03-12"
+  },
+  {
+    "id": "a-064",
+    "task": "Finish the connection from Sanity's AI to our content lake.",
+    "owner": "Michael Donovan",
+    "meetingId": "the-marketing-meeting-2025-12-02",
+    "meetingDate": "2025-12-02",
+    "status": "abandoned",
+    "expectedOutcome": {
+      "system": "codebase",
+      "description": "Successful integration of Sanity's AI with the content lake."
+    }
+  },
+  {
+    "id": "a-065",
+    "task": "Offer Christina an agency-style arrangement, asking for a price quote for three landing pages and the newsletter.",
+    "owner": "Vinnie Micciche",
+    "meetingId": "the-marketing-meeting-2025-12-02",
+    "meetingDate": "2025-12-02",
+    "status": "abandoned",
+    "expectedOutcome": {
+      "system": "email",
+      "description": "Price quote received from Christina for the requested work."
+    }
+  },
+  {
+    "id": "a-066",
+    "task": "Tone down the messaging to be less complex and more direct for the target audience of car guys.",
+    "owner": "Michael Donovan",
+    "meetingId": "michael-and-vin-continuation-2025-12-03",
+    "meetingDate": "2025-12-03",
+    "status": "abandoned",
+    "expectedOutcome": {
+      "system": "social-media",
+      "description": "Messaging resonates with 'car guys' and attracts dealer groups."
+    }
+  },
+  {
+    "id": "a-067",
+    "task": "Refine social media post designs to be more in-your-face and low-funnel for lead generation.",
+    "owner": "Michael Donovan",
+    "meetingId": "michael-and-vin-continuation-2025-12-03",
+    "meetingDate": "2025-12-03",
+    "status": "abandoned",
+    "expectedOutcome": {
+      "system": "social-media",
+      "description": "Social media posts effectively generate leads."
+    }
+  },
+  {
+    "id": "a-068",
+    "task": "Circle back with Perry regarding the Viconic site.",
+    "owner": "Michael Donovan",
+    "meetingId": "michael-and-vin-continuation-2025-12-03",
+    "meetingDate": "2025-12-03",
+    "status": "abandoned",
+    "expectedOutcome": {
+      "system": "website",
+      "description": "Progress on the Viconic website is assessed and next steps are defined."
+    }
+  },
+  {
+    "id": "a-069",
+    "task": "Work on some content ideas and send them to Michael Donovan for posting.",
+    "owner": "Vinnie Micciche",
+    "meetingId": "michael-and-vin-continuation-2025-12-03",
+    "meetingDate": "2025-12-03",
+    "deadline": "2025-12-04",
+    "status": "done",
+    "expectedOutcome": {
+      "system": "email",
+      "description": "Michael Donovan receives content ideas from Vinnie Micciche."
+    },
+    "resolvedInMeeting": "the-marketing-meeting-2026-01-06"
+  },
+  {
+    "id": "a-070",
+    "task": "Ensure new social media posts are sent out immediately to maintain posting frequency.",
+    "owner": "Michael Donovan",
+    "meetingId": "michael-and-vin-continuation-2025-12-03",
+    "meetingDate": "2025-12-03",
+    "status": "recurring",
+    "expectedOutcome": {
+      "system": "social-media",
+      "description": "Consistent and timely posting of content on social media platforms."
+    }
+  },
+  {
+    "id": "a-071",
+    "task": "Prepare a document outlining a timeline of all the changes Perry has requested for the Viconic site.",
+    "owner": "Michael Donovan",
+    "meetingId": "vin-and-michael-2025-12-03",
+    "meetingDate": "2025-12-03",
+    "status": "abandoned",
+    "expectedOutcome": {
+      "system": "google-docs",
+      "description": "A timeline documenting all changes to the Viconic website requested by Perry."
+    }
+  },
+  {
+    "id": "a-072",
+    "task": "Send the social posts to Vinnie Micciche for review with the captions in a Google doc.",
+    "owner": "Michael Donovan",
+    "meetingId": "vin-and-michael-2025-12-03",
+    "meetingDate": "2025-12-03",
+    "status": "recurring",
+    "expectedOutcome": {
+      "system": "google-docs",
+      "description": "Google doc containing social media posts and captions for review."
+    }
+  },
+  {
+    "id": "a-073",
+    "task": "Provide an estimated timeframe for deliverables for the website pages design and build.",
+    "owner": "Michael Donovan",
+    "meetingId": "vin-and-michael-2025-12-03",
+    "meetingDate": "2025-12-03",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "other",
+      "description": "Estimated timeline for the completion of website page design and build."
+    }
+  },
+  {
+    "id": "a-074",
+    "task": "Work something up to help Vinnie Micciche with the rest of the stuff he is doing so Vinnie Micciche can move on.",
+    "owner": "Michael Donovan",
+    "meetingId": "vin-and-michael-2025-12-03",
+    "meetingDate": "2025-12-03",
+    "status": "done",
+    "expectedOutcome": {
+      "system": "other",
+      "description": "Plan to transition responsibilities to allow Vinnie to move on from current projects."
+    },
+    "resolvedInMeeting": "the-marketing-meeting-2026-01-06"
+  },
+  {
+    "id": "a-075",
+    "task": "Find the documents that Vinnie sent for the social posts.",
+    "owner": "Joe Furnari",
+    "meetingId": "joe-and-michael-catch-up-2025-12-04",
+    "meetingDate": "2025-12-04",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "google-docs",
+      "description": "Locate the original document from Vinnie for creating social posts."
+    }
+  },
+  {
+    "id": "a-076",
+    "task": "Work with Mindy to put the Google account and other services on her corporate card.",
+    "owner": "Michael Donovan",
+    "meetingId": "joe-and-michael-catch-up-2025-12-04",
+    "meetingDate": "2025-12-04",
+    "status": "abandoned",
+    "expectedOutcome": {
+      "system": "other",
+      "description": "Migrate accounts to the corporate card to resolve payment issues."
+    }
+  },
+  {
+    "id": "a-077",
+    "task": "Create posts using Vinnie Micciche's clear and simple messaging, focusing on what makes Straw different and exciting.",
+    "owner": "Michael Donovan",
+    "meetingId": "call-with-michael-2025-12-05",
+    "meetingDate": "2025-12-05",
+    "status": "done",
+    "expectedOutcome": {
+      "system": "linkedin",
+      "description": "Posts that clearly and concisely communicate Straw's value proposition and differentiate it from competitors."
+    },
+    "resolvedInMeeting": "the-marketing-meeting-2026-01-06"
+  },
+  {
+    "id": "a-078",
+    "task": "Share the link to the Perplexity tool.",
+    "owner": "Michael Donovan",
+    "meetingId": "call-with-michael-2025-12-05",
+    "meetingDate": "2025-12-05",
+    "status": "abandoned",
+    "expectedOutcome": {
+      "system": "slack",
+      "description": "Vinnie Micciche to receive the link to the Perplexity tool."
+    }
+  },
+  {
+    "id": "a-079",
+    "task": "Compile verbatim marketing hooks with short captions and post them for a month.",
+    "owner": "Michael Donovan",
+    "meetingId": "call-with-michael-2025-12-05",
+    "meetingDate": "2025-12-05",
+    "status": "abandoned",
+    "expectedOutcome": {
+      "system": "linkedin",
+      "description": "A series of marketing posts that uses the approved hooks and captions."
+    }
+  },
+  {
+    "id": "a-080",
+    "task": "Go through the three documents and provide additional comments.",
+    "owner": "Joe Furnari",
+    "meetingId": "the-marketing-meeting-2025-12-10",
+    "meetingDate": "2025-12-10",
+    "deadline": "2025-12-10",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "google-docs",
+      "description": "Joe Furnari will have added comments to the three documents, providing feedback on content and messaging."
+    }
+  },
+  {
+    "id": "a-081",
+    "task": "Confirm the workflow of automated appointment booking on the DMA website.",
+    "owner": "Sergey Lyapustin",
+    "meetingId": "strolid-leadership-call-2025-12-15",
+    "meetingDate": "2025-12-15",
+    "status": "abandoned",
+    "expectedOutcome": {
+      "system": "other",
+      "description": "Verification that Vita can fully automate appointment booking."
+    }
+  },
+  {
+    "id": "a-082",
+    "task": "Request David Rosenberg to help raise money, and share the last deck with Mike Sullivan.",
+    "owner": "Vin Micciche",
+    "meetingId": "strolid-leadership-call-2025-12-15",
+    "meetingDate": "2025-12-15",
+    "status": "abandoned",
+    "expectedOutcome": {
+      "system": "email",
+      "description": "Attempt to secure Rosenberg's assistance in fundraising, deck shared with Mike Sullivan."
+    }
+  },
+  {
+    "id": "a-083",
+    "task": "Put together an advisory board by listing, interviewing, and figuring out an approach for potential candidates like Dave Spizac, Steve Greenfield, and Phil Batista.",
+    "owner": "Vin Micciche",
+    "meetingId": "strolid-leadership-call-2025-12-15",
+    "meetingDate": "2025-12-15",
+    "status": "abandoned",
+    "expectedOutcome": {
+      "system": "google-docs",
+      "description": "List of potential advisory board candidates with documented approaches."
+    }
+  },
+  {
+    "id": "a-084",
+    "task": "Look at the Sophia data to determine which dealers specifically benefited from the converted appointments to create a case study.",
+    "owner": "Kevin Breen",
+    "meetingId": "strolid-leadership-call-2025-12-15",
+    "meetingDate": "2025-12-15",
+    "status": "done",
+    "expectedOutcome": {
+      "system": "google-docs",
+      "description": "Case study document outlining specific dealer benefits from Sophia."
+    },
+    "resolvedInMeeting": "active-pipeline-review-2026-03-12"
+  },
+  {
+    "id": "a-085",
+    "task": "Grant everybody access to GPT.",
+    "owner": "Matt Watson",
+    "meetingId": "strolid-leadership-call-2025-12-15",
+    "meetingDate": "2025-12-15",
+    "deadline": "2025-12-16",
+    "status": "abandoned",
+    "expectedOutcome": {
+      "system": "other",
+      "description": "All agents have access to GPT in the portal/dialer."
+    }
+  },
+  {
+    "id": "a-086",
+    "task": "Build the widget for the website and improve the organization of information on the dialer.",
+    "owner": "Sergey Lyapustin",
+    "meetingId": "strolid-leadership-call-2025-12-15",
+    "meetingDate": "2025-12-15",
+    "status": "abandoned",
+    "expectedOutcome": {
+      "system": "website",
+      "description": "Functional website widget and improved dialer information structure."
+    }
+  },
+  {
+    "id": "a-087",
+    "task": "Start working on go-to-market ideas for Sophia and ask dealers for feedback on their willingness to pay.",
+    "owner": "Vin Micciche",
+    "meetingId": "strolid-leadership-call-2025-12-15",
+    "meetingDate": "2025-12-15",
+    "status": "abandoned",
+    "expectedOutcome": {
+      "system": "google-docs",
+      "description": "Go-to-market plan for Sophia with dealer feedback on pricing."
+    }
+  },
+  {
+    "id": "a-088",
+    "task": "Get the data right on Sophia.",
+    "owner": "Kevin Breen",
+    "meetingId": "strolid-leadership-call-2025-12-15",
+    "meetingDate": "2025-12-15",
+    "status": "abandoned",
+    "expectedOutcome": {
+      "system": "crm",
+      "description": "Accurate data regarding Sophia's performance."
+    }
+  },
+  {
+    "id": "a-089",
+    "task": "Write a check for Jake's wisdom teeth surgery.",
+    "owner": "Vin Micciche",
+    "meetingId": "strolid-leadership-call-2025-12-15",
+    "meetingDate": "2025-12-15",
+    "status": "abandoned",
+    "expectedOutcome": {
+      "system": "other",
+      "description": "Payment made for Jake's surgery."
+    }
+  },
+  {
+    "id": "a-090",
+    "task": "Have a one-on-one meeting.",
+    "owner": "Thomas Howe",
+    "meetingId": "strolid-leadership-call-2025-12-15",
+    "meetingDate": "2025-12-15",
+    "status": "abandoned",
+    "expectedOutcome": {
+      "system": "calendar",
+      "description": "Scheduled and completed one-on-one meeting."
+    }
+  },
+  {
+    "id": "a-091",
+    "task": "Have a one-on-one meeting.",
+    "owner": "Harinder Bhinder",
+    "meetingId": "strolid-leadership-call-2025-12-15",
+    "meetingDate": "2025-12-15",
+    "status": "abandoned",
+    "expectedOutcome": {
+      "system": "calendar",
+      "description": "Scheduled and completed one-on-one meeting."
+    }
+  },
+  {
+    "id": "a-092",
+    "task": "Provide Vinnie Micciche with the login information for the V20 marketplace.",
+    "owner": "Jason Branham",
+    "meetingId": "the-marketing-meeting-2025-12-16",
+    "meetingDate": "2025-12-16",
+    "status": "done",
+    "expectedOutcome": {
+      "system": "email",
+      "description": "Vinnie Micciche has access to the V20 marketplace profile page to make updates."
+    },
+    "resolvedInMeeting": "the-marketing-meeting-2026-01-06"
+  },
+  {
+    "id": "a-093",
+    "task": "Review the V20 marketplace profile page, add content with appropriate messaging (focusing on BDC and new AI capabilities), and get a general understanding of all the different stuff that can be added.",
+    "owner": "Vinnie Micciche",
+    "meetingId": "the-marketing-meeting-2025-12-16",
+    "meetingDate": "2025-12-16",
+    "status": "done",
+    "expectedOutcome": {
+      "system": "v20-marketplace",
+      "description": "The company profile on the V20 marketplace is updated with relevant content and highlights the company's AI capabilities."
+    },
+    "resolvedInMeeting": "the-marketing-meeting-2026-01-06"
+  },
+  {
+    "id": "a-094",
+    "task": "Connect with Michael Donovan to discuss an idea related to the website plan and progression.",
+    "owner": "Joe Furnari",
+    "meetingId": "the-marketing-meeting-2025-12-16",
+    "meetingDate": "2025-12-16",
+    "status": "done",
+    "expectedOutcome": {
+      "system": "calendar",
+      "description": "A meeting is scheduled between Joe Furnari and Michael Donovan to discuss the website plan."
+    },
+    "resolvedInMeeting": "the-marketing-meeting-2026-01-06"
+  },
+  {
+    "id": "a-095",
+    "task": "Work on the plan for the website based on the information Vinnie Micciche sent on Friday and come up with deadlines, expectations, and timelines to start executing on some of the content for the website.",
+    "owner": "Michael Donovan",
+    "meetingId": "the-marketing-meeting-2025-12-16",
+    "meetingDate": "2025-12-16",
+    "status": "done",
+    "expectedOutcome": {
+      "system": "google-docs",
+      "description": "A detailed website plan document exists, outlining deadlines, expectations, and timelines for content execution."
+    },
+    "resolvedInMeeting": "the-marketing-meeting-2026-01-06"
+  },
+  {
+    "id": "a-096",
+    "task": "Vinnie Micciche to share all three marketing documents again for collective review with Michael Donovan and Joe Furnari.",
+    "owner": "Vinnie Micciche",
+    "meetingId": "marketing-90-day-prioritization-2025-12-23",
+    "meetingDate": "2025-12-23",
+    "status": "done",
+    "expectedOutcome": {
+      "system": "google-docs",
+      "description": "Michael and Joe will have the opportunity to collaboratively review the content and messaging"
+    },
+    "resolvedInMeeting": "the-marketing-meeting-2026-01-06"
+  },
+  {
+    "id": "a-097",
+    "task": "Jason and Vinnie to work on pricing and integration for the Sophia outbound capabilities to facilitate sales.",
+    "owner": "Jason Branham",
+    "meetingId": "marketing-90-day-prioritization-2025-12-23",
+    "meetingDate": "2025-12-23",
+    "status": "done",
+    "expectedOutcome": {
+      "system": "other",
+      "description": "Develop a sales strategy and pricing structure for the Sophia outbound capabilities."
+    },
+    "resolvedInMeeting": "active-pipeline-review-2026-03-12"
+  },
+  {
+    "id": "a-098",
+    "task": "Set up the Slack automation for the first contributor content request.",
+    "owner": "Michael Donovan",
+    "meetingId": "website-planning-session-2025-12-29",
+    "meetingDate": "2025-12-29",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "slack",
+      "description": "Automated reminders sent to content contributors."
+    }
+  },
+  {
+    "id": "a-099",
+    "task": "Share the January newsletter dates with Kristina Cvitko for review and feedback on the timeline.",
+    "owner": "Michael Donovan",
+    "meetingId": "website-planning-session-2025-12-29",
+    "meetingDate": "2025-12-29",
+    "status": "recurring",
+    "expectedOutcome": {
+      "system": "email",
+      "description": "Kristina provides feedback on the feasibility of the proposed newsletter schedule."
+    }
+  },
+  {
+    "id": "a-100",
+    "task": "Use the time that would have been spent on three pages for the month to help Michael Donovan with the new WordPress site build and address plugins.",
+    "owner": "Kristina Cvitko",
+    "meetingId": "website-planning-session-2025-12-29",
+    "meetingDate": "2025-12-29",
+    "status": "done",
+    "expectedOutcome": {
+      "system": "wordpress",
+      "description": "Kristina assists in the WordPress site build, contributing to plugins and overall site improvement."
+    },
+    "resolvedInMeeting": "the-marketing-meeting-2026-01-06"
+  },
+  {
+    "id": "a-101",
+    "task": "Create a new instance in WP Engine, apply a new theme, and use Docker's local inference to structure new content into new pages, including a lead magnet page, a product page, and an article/cornerstone page.",
+    "owner": "Michael Donovan",
+    "meetingId": "website-planning-session-2025-12-29",
+    "meetingDate": "2025-12-29",
+    "status": "abandoned",
+    "expectedOutcome": {
+      "system": "wp-engine",
+      "description": "New website instance with a theme and the content migrated."
+    }
+  },
+  {
+    "id": "a-102",
+    "task": "Put everything together and lay out the phases for tackling the website redesign and fixing the new site and loop Vin in on the plan.",
+    "owner": "Michael Donovan",
+    "meetingId": "website-planning-session-2025-12-29",
+    "meetingDate": "2025-12-29",
+    "status": "abandoned",
+    "expectedOutcome": {
+      "system": "google-docs",
+      "description": "Document outlining the phased approach and Vin's awareness of the plan."
+    }
+  },
+  {
+    "id": "a-103",
+    "task": "Do some research to figure out where to interject in the phases for tackling the website redesign and fixing the new site.",
+    "owner": "Kristina Cvitko",
+    "meetingId": "website-planning-session-2025-12-29",
+    "meetingDate": "2025-12-29",
+    "status": "abandoned",
+    "expectedOutcome": {
+      "system": "google-docs",
+      "description": "Kristina identifies areas where she can contribute during the website redesign process."
+    }
+  },
+  {
+    "id": "a-104",
+    "task": "Send the Lighthouse report to Kristina Cvitko.",
+    "owner": "Michael Donovan",
+    "meetingId": "website-planning-session-2025-12-29",
+    "meetingDate": "2025-12-29",
+    "status": "abandoned",
+    "expectedOutcome": {
+      "system": "email",
+      "description": "Kristina receives the Lighthouse report with performance metrics."
+    }
+  },
+  {
+    "id": "a-105",
+    "task": "Create five new pages by Friday, or at least one or two pages, and send examples/ideas to Joe Furnari.",
+    "owner": "Michael Donovan",
+    "meetingId": "joe-and-michael-reconnect-2025-12-30",
+    "meetingDate": "2025-12-30",
+    "deadline": "2026-01-02",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "email",
+      "description": "Completed draft pages sent to Joe for review and feedback."
+    }
+  },
+  {
+    "id": "a-106",
+    "task": "Develop three core messages based on Michael Donovan's input.",
+    "owner": "Vinnie Micciche",
+    "meetingId": "the-marketing-meeting-2025-12-30",
+    "meetingDate": "2025-12-30",
+    "status": "recurring",
+    "expectedOutcome": {
+      "system": "other",
+      "description": "Three clearly defined core messages that align with the three-lane marketing approach."
+    }
+  },
+  {
+    "id": "a-107",
+    "task": "Share the three decks for the V20 group for review and feedback.",
+    "owner": "Vinnie Micciche",
+    "meetingId": "the-marketing-meeting-2025-12-30",
+    "meetingDate": "2025-12-30",
+    "status": "recurring",
+    "expectedOutcome": {
+      "system": "email",
+      "description": "Shared decks accessible to the team for review."
+    }
+  },
+  {
+    "id": "a-108",
+    "task": "Put a visual together to explain the three lanes, the core messaging, and the features.",
+    "owner": "Joe Furnari",
+    "meetingId": "the-marketing-meeting-2025-12-30",
+    "meetingDate": "2025-12-30",
+    "status": "abandoned",
+    "expectedOutcome": {
+      "system": "google-docs",
+      "description": "A visual representation that clearly outlines the three lanes, their core messaging, and related features."
+    }
+  },
+  {
+    "id": "a-109",
+    "task": "Read through, critique, and provide feedback on Vinnie Micciche's shared decks, noting what is missing.",
+    "owner": "Unassigned",
+    "meetingId": "the-marketing-meeting-2025-12-30",
+    "meetingDate": "2025-12-30",
+    "status": "recurring",
+    "expectedOutcome": {
+      "system": "email",
+      "description": "Feedback provided on the V20 decks, highlighting any gaps or areas for improvement."
+    }
+  },
+  {
+    "id": "a-110",
+    "task": "Throw a canvas together for Slack to drop ideas for visual inspiration for the website.",
+    "owner": "Michael Donovan",
+    "meetingId": "the-marketing-meeting-2026-01-06",
+    "meetingDate": "2026-01-06",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "slack",
+      "description": "A dedicated Slack channel or canvas filled with visual inspiration for the website design, covering BDC, service, and AI aspects."
+    }
+  },
+  {
+    "id": "a-111",
+    "task": "Work on the social posts and email blast to generate business.",
+    "owner": "Michael Donovan",
+    "meetingId": "the-marketing-meeting-2026-01-06",
+    "meetingDate": "2026-01-06",
+    "status": "recurring",
+    "expectedOutcome": {
+      "system": "other",
+      "description": "Scheduled social media posts and email campaigns designed to attract new business and generate leads."
+    }
+  },
+  {
+    "id": "a-112",
+    "task": "Build the website exactly with the content that Vinnie Micciche shared.",
+    "owner": "Michael Donovan",
+    "meetingId": "the-marketing-meeting-2026-01-06",
+    "meetingDate": "2026-01-06",
+    "status": "recurring",
+    "expectedOutcome": {
+      "system": "website",
+      "description": "The website is updated with the exact content provided by Vinnie Micciche, reflecting the intended messaging and product differentiation."
+    }
+  },
+  {
+    "id": "a-113",
+    "task": "Put something together if there is a scope of work that Joe Furnari would like.",
+    "owner": "Michael Donovan",
+    "meetingId": "the-marketing-meeting-2026-01-06",
+    "meetingDate": "2026-01-06",
+    "status": "abandoned",
+    "expectedOutcome": {
+      "system": "google-docs",
+      "description": "A document outlining the proposed scope of work, including specific tasks, deadlines, and responsibilities."
+    }
+  },
+  {
+    "id": "a-114",
+    "task": "Send links to the updated pages/content",
+    "owner": "Michael Donovan",
+    "meetingId": "regroup-on-website-refresh-initiative-2026-01-09",
+    "meetingDate": "2026-01-09",
+    "deadline": "2026-01-12",
+    "status": "abandoned",
+    "expectedOutcome": {
+      "system": "email",
+      "description": "Joe Furnari will receive links to two or three updated pages/content before Monday."
+    }
+  },
+  {
+    "id": "a-115",
+    "task": "Review the links and pages sent by Michael Donovan and provide feedback.",
+    "owner": "Joe Furnari",
+    "meetingId": "regroup-on-website-refresh-initiative-2026-01-09",
+    "meetingDate": "2026-01-09",
+    "status": "recurring",
+    "expectedOutcome": {
+      "system": "email",
+      "description": "Joe Furnari will be prepared to discuss the updated content with Vinnie and provide feedback to Michael Donovan after the Monday staff meeting."
+    }
+  },
+  {
+    "id": "a-116",
+    "task": "Send the link to the proposed staging environment website to Vinnie Micciche for review.",
+    "owner": "Michael Donovan",
+    "meetingId": "the-marketing-meeting-2026-01-13",
+    "meetingDate": "2026-01-13",
+    "deadline": "2026-01-13",
+    "status": "recurring",
+    "expectedOutcome": {
+      "system": "email",
+      "description": "Vinnie Micciche receives the link to the staging environment."
+    }
+  },
+  {
+    "id": "a-117",
+    "task": "Outline how Vinnie Micciche should organize and submit revisions for the staged website (e.g., screenshot markup, list, Slack canvas).",
+    "owner": "Michael Donovan",
+    "meetingId": "the-marketing-meeting-2026-01-13",
+    "meetingDate": "2026-01-13",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "email",
+      "description": "Vinnie Micciche receives instructions on how to submit revisions."
+    }
+  },
+  {
+    "id": "a-118",
+    "task": "Set up and send a file to Vinnie Micciche to build into Lovable as a theme with all the variables, so Vinnie Micciche can easily add content to the website.",
+    "owner": "Michael Donovan",
+    "meetingId": "the-marketing-meeting-2026-01-13",
+    "meetingDate": "2026-01-13",
+    "status": "recurring",
+    "expectedOutcome": {
+      "system": "email",
+      "description": "Vinnie Micciche receives a file/theme that allows for easy website content updates."
+    }
+  },
+  {
+    "id": "a-119",
+    "task": "Reverse the order of the badges on the website to display 'Human and AI', with 'Human' first.",
+    "owner": "Michael Donovan",
+    "meetingId": "the-marketing-meeting-2026-01-13",
+    "meetingDate": "2026-01-13",
+    "status": "abandoned",
+    "expectedOutcome": {
+      "system": "website",
+      "description": "The website displays 'Human and AI' badge."
+    }
+  },
+  {
+    "id": "a-120",
+    "task": "Update the page in the staging environment that currently has white-on-white text for links on the live site.",
+    "owner": "Michael Donovan",
+    "meetingId": "the-marketing-meeting-2026-01-13",
+    "meetingDate": "2026-01-13",
+    "status": "abandoned",
+    "expectedOutcome": {
+      "system": "website",
+      "description": "The staging environment no longer has white-on-white text for links."
+    }
+  },
+  {
+    "id": "a-121",
+    "task": "Change 'Industry Insights' to 'Resources and Dealer Insights' on the website, which will become the blog section.",
+    "owner": "Michael Donovan",
+    "meetingId": "the-marketing-meeting-2026-01-13",
+    "meetingDate": "2026-01-13",
+    "status": "abandoned",
+    "expectedOutcome": {
+      "system": "website",
+      "description": "The website displays 'Resources and Dealer Insights' as the blog section title."
+    }
+  },
+  {
+    "id": "a-122",
+    "task": "Reposition resources and lead sources to other categories.",
+    "owner": "Michael Donovan",
+    "meetingId": "joe-and-michael-touch-base-2026-01-20",
+    "meetingDate": "2026-01-20",
+    "status": "abandoned",
+    "expectedOutcome": {
+      "system": "website",
+      "description": "Resources and Lead Sources categories are removed from their current location in the navigation and moved elsewhere."
+    }
+  },
+  {
+    "id": "a-123",
+    "task": "Consolidate the 22 pages under insights and the five pages under resources.",
+    "owner": "Michael Donovan",
+    "meetingId": "joe-and-michael-touch-base-2026-01-20",
+    "meetingDate": "2026-01-20",
+    "status": "abandoned",
+    "expectedOutcome": {
+      "system": "website",
+      "description": "The 22 insights pages and 5 resource pages are merged under the consolidated \"Insights and Resources\" navigation item."
+    }
+  },
+  {
+    "id": "a-124",
+    "task": "Send Vinnie the FAQs to get confirmation on whether he wants the new content versus the old content and highlight that the existing FAQ was already built.",
+    "owner": "Joe Furnari",
+    "meetingId": "joe-and-michael-touch-base-2026-01-20",
+    "meetingDate": "2026-01-20",
+    "deadline": "2026-01-21",
+    "status": "recurring",
+    "expectedOutcome": {
+      "system": "email",
+      "description": "Confirmation from Vinnie regarding which FAQ content (new or old) should be used on the website."
+    }
+  },
+  {
+    "id": "a-125",
+    "task": "Share the link to the original FAQ page with Joe Furnari via Slack.",
+    "owner": "Michael Donovan",
+    "meetingId": "joe-and-michael-touch-base-2026-01-20",
+    "meetingDate": "2026-01-20",
+    "status": "abandoned",
+    "expectedOutcome": {
+      "system": "slack",
+      "description": "Joe receives a link to the document containing the original FAQ content."
+    }
+  },
+  {
+    "id": "a-126",
+    "task": "Review the FAQ content for spelling issues and to ensure it makes sense.",
+    "owner": "Joe Furnari",
+    "meetingId": "joe-and-michael-touch-base-2026-01-20",
+    "meetingDate": "2026-01-20",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "google-docs",
+      "description": "The FAQ content is free of spelling errors and is easily understandable."
+    }
+  },
+  {
+    "id": "a-127",
+    "task": "Connect with Michael Donovan mid-morning tomorrow.",
+    "owner": "Joe Furnari",
+    "meetingId": "joe-and-michael-touch-base-2026-01-20",
+    "meetingDate": "2026-01-20",
+    "deadline": "2026-01-21",
+    "status": "done",
+    "expectedOutcome": {
+      "system": "calendar",
+      "description": "A follow-up conversation between Joe and Michael takes place to discuss progress."
+    },
+    "resolvedInMeeting": "marketing-2026-03-13"
+  },
+  {
+    "id": "a-128",
+    "task": "Create a list of two or three priorities with estimated cost and time frame and develop a framework for the strategy.",
+    "owner": "Michael Donovan",
+    "meetingId": "joe-and-michael-regroup-2026-02-12",
+    "meetingDate": "2026-02-12",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "google-docs",
+      "description": "Document outlining priorities, costs, timelines, and strategy framework for Vinnie's review."
+    }
+  },
+  {
+    "id": "a-129",
+    "task": "Talk to Vinnie about Michael's compensation plan and the plan for building out the team.",
+    "owner": "Joe Furnari",
+    "meetingId": "joe-and-michael-regroup-2026-02-12",
+    "meetingDate": "2026-02-12",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "other",
+      "description": "Vinnie's feedback and decisions regarding compensation and team structure."
+    }
+  },
+  {
+    "id": "a-130",
+    "task": "Give Vinnie an update on Monday regarding the marketing team and strategy conversation.",
+    "owner": "Joe Furnari",
+    "meetingId": "joe-and-michael-regroup-2026-02-12",
+    "meetingDate": "2026-02-12",
+    "status": "done",
+    "expectedOutcome": {
+      "system": "other",
+      "description": "Vinnie is updated on the team strategy"
+    },
+    "resolvedInMeeting": "marketing-2026-03-13"
+  },
+  {
+    "id": "a-131",
+    "task": "Look up the GMs from Hyundai, Gulfport, Chevy, Meteory, and Berles, Nissan.",
+    "owner": "Michael Donovan",
+    "meetingId": "joe-and-michael-regroup-2026-02-12",
+    "meetingDate": "2026-02-12",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "crm",
+      "description": "List of GMs from target dealerships added to the CRM."
+    }
+  },
+  {
+    "id": "a-132",
+    "task": "Finalize the lead magnet self-assessment tool and send it to Vinnie Micciche for review.",
+    "owner": "Michael Donovan",
+    "meetingId": "marketing-flow-and-alignment-2026-02-13",
+    "meetingDate": "2026-02-13",
+    "deadline": "2026-02-17",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "email",
+      "description": "Vinnie Micciche reviews and approves the lead magnet."
+    }
+  },
+  {
+    "id": "a-133",
+    "task": "Work on rolling out the three pillars: quick, not fast or urgent, proactive, and relationships, for internal messaging.",
+    "owner": "Vinnie Micciche",
+    "meetingId": "marketing-flow-and-alignment-2026-02-13",
+    "meetingDate": "2026-02-13",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "internal-communication",
+      "description": "All departments aligned on the three core pillars."
+    }
+  },
+  {
+    "id": "a-134",
+    "task": "Work on a full hygiene of the email database and establish a leveraging flow, which will be discussed on Tuesday.",
+    "owner": "Michael Donovan",
+    "meetingId": "marketing-flow-and-alignment-2026-02-13",
+    "meetingDate": "2026-02-13",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "crm",
+      "description": "Cleaned and enriched email database with automated leveraging flow."
+    }
+  },
+  {
+    "id": "a-135",
+    "task": "Gather content from his drive, place it in a folder, and share it with Michael Donovan.",
+    "owner": "Vinnie Micciche",
+    "meetingId": "marketing-flow-and-alignment-2026-02-13",
+    "meetingDate": "2026-02-13",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "google-docs",
+      "description": "Michael Donovan has access to relevant content for content creation."
+    }
+  },
+  {
+    "id": "a-136",
+    "task": "Follow up on the BDS contract to get it signed.",
+    "owner": "Joe Furnari",
+    "meetingId": "strolid-leadership-call-2026-02-16",
+    "meetingDate": "2026-02-16",
+    "deadline": "2026-02-22",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "email",
+      "description": "Signed BDS contract."
+    }
+  },
+  {
+    "id": "a-137",
+    "task": "Meet with Vin Micciche to discuss 'talk two stuff' and get an answer on the auditor contract.",
+    "owner": "Joe Furnari",
+    "meetingId": "strolid-leadership-call-2026-02-16",
+    "meetingDate": "2026-02-16",
+    "deadline": "2026-02-16",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "email",
+      "description": "Approval on the auditor contract"
+    }
+  },
+  {
+    "id": "a-138",
+    "task": "Build an engagement report.",
+    "owner": "Kevin Breen",
+    "meetingId": "strolid-leadership-call-2026-02-16",
+    "meetingDate": "2026-02-16",
+    "deadline": "2026-02-22",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "other",
+      "description": "Completed engagement report with internal visibility, dealer health, and agent performance."
+    }
+  },
+  {
+    "id": "a-139",
+    "task": "Push the VA rollout and resolve issues.",
+    "owner": "Sergey Lyapustin",
+    "meetingId": "strolid-leadership-call-2026-02-16",
+    "meetingDate": "2026-02-16",
+    "deadline": "2026-02-22",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "other",
+      "description": "VA rollout ready to deploy with the first couple of dealers."
+    }
+  },
+  {
+    "id": "a-140",
+    "task": "Conduct a deep dive into the service and follow-up teams, especially the service side.",
+    "owner": "Shawna Behen",
+    "meetingId": "strolid-leadership-call-2026-02-16",
+    "meetingDate": "2026-02-16",
+    "deadline": "2026-02-22",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "other",
+      "description": "Assessment of staffing levels and process efficiency in service and follow-up teams."
+    }
+  },
+  {
+    "id": "a-141",
+    "task": "Hold expectation meetings with operations managers.",
+    "owner": "Shawna Behen",
+    "meetingId": "strolid-leadership-call-2026-02-16",
+    "meetingDate": "2026-02-16",
+    "deadline": "2026-02-17",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "other",
+      "description": "Documented expectations and agreements with operations managers."
+    }
+  },
+  {
+    "id": "a-142",
+    "task": "Get the auditor to sign the contract.",
+    "owner": "Harinder Bhinder",
+    "meetingId": "strolid-leadership-call-2026-02-16",
+    "meetingDate": "2026-02-16",
+    "deadline": "2026-02-22",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "google-docs",
+      "description": "Signed auditor contract."
+    }
+  },
+  {
+    "id": "a-143",
+    "task": "Continue to go through the engage program and make a minimum of 30 cold calls every week.",
+    "owner": "Jason Branham",
+    "meetingId": "strolid-leadership-call-2026-02-16",
+    "meetingDate": "2026-02-16",
+    "deadline": "2026-02-22",
+    "status": "done",
+    "expectedOutcome": {
+      "system": "crm",
+      "description": "Increased leads and sales from cold calls."
+    },
+    "resolvedInMeeting": "active-pipeline-review-2026-03-12"
+  },
+  {
+    "id": "a-144",
+    "task": "Generate more marketing activity and content.",
+    "owner": "Michael Donovan",
+    "meetingId": "strolid-leadership-call-2026-02-16",
+    "meetingDate": "2026-02-16",
+    "deadline": "2026-02-22",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "website",
+      "description": "Increased number of leads generated from marketing efforts."
+    }
+  },
+  {
+    "id": "a-145",
+    "task": "Push Jason to provide feedback on the social media posts.",
+    "owner": "Joe Furnari",
+    "meetingId": "catch-up-on-marketing-activities-2026-02-20",
+    "meetingDate": "2026-02-20",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "email",
+      "description": "Jason to provide feedback to the marketing team for future improvements."
+    }
+  },
+  {
+    "id": "a-146",
+    "task": "Push Vinnie to determine what reporting can be obtained from the external ABM firm and to get more information on the firm.",
+    "owner": "Joe Furnari",
+    "meetingId": "catch-up-on-marketing-activities-2026-02-20",
+    "meetingDate": "2026-02-20",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "email",
+      "description": "Shared reporting on markets, dealers, and groups being targeted by the ABM firm to prevent conflicting efforts and messaging."
+    }
+  },
+  {
+    "id": "a-147",
+    "task": "Send Michael Donovan the outline of his concerns and recommendations regarding the other firm.",
+    "owner": "Joe Furnari",
+    "meetingId": "catch-up-on-marketing-activities-2026-02-20",
+    "meetingDate": "2026-02-20",
+    "status": "done",
+    "expectedOutcome": {
+      "system": "email",
+      "description": "Michael understands the constraints imposed by the engagement with the external ABM firm."
+    },
+    "resolvedInMeeting": "marketing-2026-03-13"
+  },
+  {
+    "id": "a-148",
+    "task": "Put together a two-week plan focused on email, social media, landing pages, and driving leads, then reassess with Joe Furnari.",
+    "owner": "Michael Donovan",
+    "meetingId": "catch-up-on-marketing-activities-2026-02-20",
+    "meetingDate": "2026-02-20",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "google-docs",
+      "description": "A documented plan mapping out the workflow and a calendar view for the two-week campaign, aiming to generate leads."
+    }
+  },
+  {
+    "id": "a-149",
+    "task": "Charge the monthly subscription for the model or platform to his credit card.",
+    "owner": "Michael Donovan",
+    "meetingId": "catch-up-on-marketing-activities-2026-02-20",
+    "meetingDate": "2026-02-20",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "crm",
+      "description": "Successful payment of the monthly subscription fee."
+    }
+  },
+  {
+    "id": "a-150",
+    "task": "Update the P&L piece for the critical meeting, specifically addressing the 2026 outlook.",
+    "owner": "Joe Furnari",
+    "meetingId": "the-marketing-meeting-2026-02-24",
+    "meetingDate": "2026-02-24",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "google-docs",
+      "description": "Updated P&L document with 2026 outlook."
+    }
+  },
+  {
+    "id": "a-151",
+    "task": "Provide Vinnie Micciche with the list of technical subscriptions that have been canceled.",
+    "owner": "Joe Furnari",
+    "meetingId": "the-marketing-meeting-2026-02-24",
+    "meetingDate": "2026-02-24",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "email",
+      "description": "Email sent to Vinnie Micciche containing list of cancelled subscriptions."
+    }
+  },
+  {
+    "id": "a-152",
+    "task": "Launch the email distribution ASAP using the cleaned contact list.",
+    "owner": "Michael Donovan",
+    "meetingId": "the-marketing-meeting-2026-02-24",
+    "meetingDate": "2026-02-24",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "email",
+      "description": "Initial email campaign sent to the cleaned contact list."
+    }
+  },
+  {
+    "id": "a-153",
+    "task": "Launch the email distribution ASAP using the cleaned contact list.",
+    "owner": "Paulo Trovao",
+    "meetingId": "the-marketing-meeting-2026-02-24",
+    "meetingDate": "2026-02-24",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "email",
+      "description": "Initial email campaign sent to the cleaned contact list."
+    }
+  },
+  {
+    "id": "a-154",
+    "task": "Work on the initial data cleansing and enrichment using Clay, with an initial budget of $2000 for launch.",
+    "owner": "Michael Donovan",
+    "meetingId": "the-marketing-meeting-2026-02-24",
+    "meetingDate": "2026-02-24",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "other",
+      "description": "Cleaned and enriched contact data in Clay."
+    }
+  },
+  {
+    "id": "a-155",
+    "task": "Work on the initial data cleansing and enrichment using Clay, with an initial budget of $2000 for launch.",
+    "owner": "Paulo Trovao",
+    "meetingId": "the-marketing-meeting-2026-02-24",
+    "meetingDate": "2026-02-24",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "other",
+      "description": "Cleaned and enriched contact data in Clay."
+    }
+  },
+  {
+    "id": "a-156",
+    "task": "Perform a sample email campaign on the 25,000 records in Zoho to assess the bounce rate and data inaccuracy, and then reconcile the list so that irrelevant contacts are set as inactive.",
+    "owner": "Michael Donovan",
+    "meetingId": "the-marketing-meeting-2026-02-24",
+    "meetingDate": "2026-02-24",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "crm",
+      "description": "Updated contact list in Zoho with irrelevant contacts set as inactive after bounce rate assessment."
+    }
+  },
+  {
+    "id": "a-157",
+    "task": "Perform a sample email campaign on the 25,000 records in Zoho to assess the bounce rate and data inaccuracy, and then reconcile the list so that irrelevant contacts are set as inactive.",
+    "owner": "Paulo Trovao",
+    "meetingId": "the-marketing-meeting-2026-02-24",
+    "meetingDate": "2026-02-24",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "crm",
+      "description": "Updated contact list in Zoho with irrelevant contacts set as inactive after bounce rate assessment."
+    }
+  },
+  {
+    "id": "a-158",
+    "task": "Document everything and send out brief milestone updates to Vinnie Micciche.",
+    "owner": "Michael Donovan",
+    "meetingId": "the-marketing-meeting-2026-02-24",
+    "meetingDate": "2026-02-24",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "email",
+      "description": "Regular email updates sent to Vinnie Micciche detailing project milestones."
+    }
+  },
+  {
+    "id": "a-159",
+    "task": "Create the ICP profile from the seven automotive groups.",
+    "owner": "Michael Donovan",
+    "meetingId": "the-marketing-meeting-2026-02-24",
+    "meetingDate": "2026-02-24",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "google-docs",
+      "description": "Documented ICP profile based on the seven automotive groups."
+    }
+  },
+  {
+    "id": "a-160",
+    "task": "Create the ICP profile from the seven automotive groups.",
+    "owner": "Paulo Trovao",
+    "meetingId": "the-marketing-meeting-2026-02-24",
+    "meetingDate": "2026-02-24",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "google-docs",
+      "description": "Documented ICP profile based on the seven automotive groups."
+    }
+  },
+  {
+    "id": "a-161",
+    "task": "Use Apollo for email distribution temporarily until Zoho is dialed in.",
+    "owner": "Michael Donovan",
+    "meetingId": "the-marketing-meeting-2026-02-24",
+    "meetingDate": "2026-02-24",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "email",
+      "description": "Email campaigns are being sent via Apollo."
+    }
+  },
+  {
+    "id": "a-162",
+    "task": "Use Apollo for email distribution temporarily until Zoho is dialed in.",
+    "owner": "Paulo Trovao",
+    "meetingId": "the-marketing-meeting-2026-02-24",
+    "meetingDate": "2026-02-24",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "email",
+      "description": "Email campaigns are being sent via Apollo."
+    }
+  },
+  {
+    "id": "a-163",
+    "task": "Involve the client success team to audit and update active customer files in Zoho.",
+    "owner": "Unassigned",
+    "meetingId": "the-marketing-meeting-2026-02-24",
+    "meetingDate": "2026-02-24",
+    "status": "done",
+    "expectedOutcome": {
+      "system": "crm",
+      "description": "Active customer files in Zoho are audited and updated by the client success team."
+    },
+    "resolvedInMeeting": "marketing-2026-03-13"
+  },
+  {
+    "id": "a-164",
+    "task": "Address the ad spend billing issue by migrating the billing away from the external association or creating a new shell account.",
+    "owner": "Michael Donovan",
+    "meetingId": "the-marketing-meeting-2026-03-03",
+    "meetingDate": "2026-03-03",
+    "status": "done",
+    "expectedOutcome": {
+      "system": "google-docs",
+      "description": "Ad spend billing is correctly allocated and not charged to the external backup card associated with Daniel Parker's organization."
+    },
+    "resolvedInMeeting": "active-pipeline-review-2026-03-12"
+  },
+  {
+    "id": "a-165",
+    "task": "Share the video from Notebook LM, cut into short clips, for feedback.",
+    "owner": "Michael Donovan",
+    "meetingId": "the-marketing-meeting-2026-03-03",
+    "meetingDate": "2026-03-03",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "email",
+      "description": "Team provides feedback on the video content."
+    }
+  },
+  {
+    "id": "a-166",
+    "task": "Put together a list of Lithia dealers.",
+    "owner": "Unassigned",
+    "meetingId": "the-marketing-meeting-2026-03-03",
+    "meetingDate": "2026-03-03",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "google-docs",
+      "description": "A comprehensive list of Lithia dealers is compiled."
+    }
+  },
+  {
+    "id": "a-167",
+    "task": "Sign a contract with the auditors for the SOC 2 audit.",
+    "owner": "Harinder Bhinder",
+    "meetingId": "strolid-leadership-call-2026-03-09",
+    "meetingDate": "2026-03-09",
+    "deadline": "2026-03-09",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "other",
+      "description": "A signed contract with the auditors for the SOC 2 audit."
+    }
+  },
+  {
+    "id": "a-168",
+    "task": "Talk to Joe Furnari to move forward with the SOC 2 audit process.",
+    "owner": "Harinder Bhinder",
+    "meetingId": "strolid-leadership-call-2026-03-09",
+    "meetingDate": "2026-03-09",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "other",
+      "description": "The SOC 2 audit process is moving forward smoothly."
+    }
+  },
+  {
+    "id": "a-169",
+    "task": "Check calendar again for the invite to the meeting with Call Review's CEO and CIO.",
+    "owner": "Joe Furnari",
+    "meetingId": "strolid-leadership-call-2026-03-09",
+    "meetingDate": "2026-03-09",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "calendar",
+      "description": "Confirmation that the meeting invite has been received."
+    }
+  },
+  {
+    "id": "a-170",
+    "task": "Talk to Vinnie Micciche to (1) understand the distinction and complexity of the SOC 2 audit regarding VCONIC and the parent company structure, and (2) share the status of the SOC 2 audit.",
+    "owner": "Harinder Bhinder",
+    "meetingId": "strolid-leadership-call-2026-03-09",
+    "meetingDate": "2026-03-09",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "other",
+      "description": "Vinnie Micciche has a clearer understanding of the SOC 2 audit process and its implications."
+    }
+  },
+  {
+    "id": "a-171",
+    "task": "Validate the 100% of emails for the ICP and specific groups.",
+    "owner": "Michael Donovan",
+    "meetingId": "strolid-leadership-call-2026-03-09",
+    "meetingDate": "2026-03-09",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "other",
+      "description": "Confirmation that the emails for the ICP and specific groups are valid."
+    }
+  },
+  {
+    "id": "a-172",
+    "task": "Work on fixes to adjust Sophia to handle service calls more smoothly, addressing the feedback on awkward silence during weekend calls.",
+    "owner": "Sergey Lyapustin",
+    "meetingId": "strolid-leadership-call-2026-03-09",
+    "meetingDate": "2026-03-09",
+    "status": "done",
+    "expectedOutcome": {
+      "system": "other",
+      "description": "Sophia AI is handling service calls more effectively with reduced awkward silences."
+    },
+    "resolvedInMeeting": "active-pipeline-review-2026-03-12"
+  },
+  {
+    "id": "a-173",
+    "task": "Be kept in the loop regarding the progress as the due diligence process runs through Call Review.",
+    "owner": "Thomas Howe",
+    "meetingId": "strolid-leadership-call-2026-03-09",
+    "meetingDate": "2026-03-09",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "email",
+      "description": "Regular updates on the progress of the Call Review due diligence process."
+    }
+  },
+  {
+    "id": "a-174",
+    "task": "Follow up on the invite list for the 11:00 a.m. call and ping the contact if Joe Furnari does not receive the email invite within a few more hours.",
+    "owner": "Vinnie Micciche",
+    "meetingId": "strolid-leadership-call-2026-03-09",
+    "meetingDate": "2026-03-09",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "calendar",
+      "description": "All invited attendees have received the calendar invite for the 11:00 a.m. call."
+    }
+  },
+  {
+    "id": "a-175",
+    "task": "Kevin Breen will verify the metabase Volley numbers against Volley.",
+    "owner": "Kevin Breen",
+    "meetingId": "strolid-leadership-call-2026-03-09",
+    "meetingDate": "2026-03-09",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "other",
+      "description": "Verified numbers"
+    }
+  },
+  {
+    "id": "a-176",
+    "task": "Set up a new Slack channel to receive alerts when a customer is detected answering during a voicemail drop.",
+    "owner": "Scott Henshaw",
+    "meetingId": "scrum-standup-daily-update-2026-03-10",
+    "meetingDate": "2026-03-10",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "slack",
+      "description": "A new Slack channel exists for voicemail answering alerts."
+    }
+  },
+  {
+    "id": "a-177",
+    "task": "Create a card for the new Slack channel and include a list of individuals who should be added to it, starting with Frank.",
+    "owner": "Matt Watson",
+    "meetingId": "scrum-standup-daily-update-2026-03-10",
+    "meetingDate": "2026-03-10",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "other",
+      "description": "A card exists with a list of people (starting with Frank) to add to the Slack channel."
+    }
+  },
+  {
+    "id": "a-178",
+    "task": "Seek approval on the new chat widget styling from Holly Meyerhofer via a screenshot on Slack or a direct website visit.",
+    "owner": "Holly Meyerhofer",
+    "meetingId": "scrum-standup-daily-update-2026-03-10",
+    "meetingDate": "2026-03-10",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "slack",
+      "description": "Approval of chat widget styling confirmed by Holly Meyerhofer."
+    }
+  },
+  {
+    "id": "a-179",
+    "task": "Re-run the security scan for the Lovable dashboard and address any concerns before wider deployment.",
+    "owner": "Sergey Lyapustin",
+    "meetingId": "scrum-standup-daily-update-2026-03-10",
+    "meetingDate": "2026-03-10",
+    "status": "done",
+    "expectedOutcome": {
+      "system": "other",
+      "description": "Security scan rerun, and any vulnerabilities addressed in the Lovable dashboard."
+    },
+    "resolvedInMeeting": "active-pipeline-review-2026-03-12"
+  },
+  {
+    "id": "a-180",
+    "task": "Seek feedback on the Lovable dashboard's design and concepts from Anthony and Derek before rolling it out to other managers.",
+    "owner": "Kevin Breen",
+    "meetingId": "scrum-standup-daily-update-2026-03-10",
+    "meetingDate": "2026-03-10",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "other",
+      "description": "Feedback received from Anthony and Derek on the Lovable dashboard design and concepts."
+    }
+  },
+  {
+    "id": "a-181",
+    "task": "Complete the current pipeline and scoring model.",
+    "owner": "Jason Branham",
+    "meetingId": "the-marketing-meeting-2026-03-10",
+    "meetingDate": "2026-03-10",
+    "deadline": "2026-03-10",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "other",
+      "description": "A completed pipeline and scoring model based on lifetime accounts and associated lifetime value data."
+    }
+  },
+  {
+    "id": "a-182",
+    "task": "Provide Vinnie Micciche and Jason Branham with two or three themes for the weekly email campaigns.",
+    "owner": "Michael Donovan",
+    "meetingId": "the-marketing-meeting-2026-03-10",
+    "meetingDate": "2026-03-10",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "email",
+      "description": "Shared themes to guide content creation for the email campaigns."
+    }
+  },
+  {
+    "id": "a-183",
+    "task": "Provide content for the email campaigns based on the themes Michael Donovan provides.",
+    "owner": "Vinnie Micciche",
+    "meetingId": "the-marketing-meeting-2026-03-10",
+    "meetingDate": "2026-03-10",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "email",
+      "description": "Completed content aligned with the agreed-upon themes for the email campaigns."
+    }
+  },
+  {
+    "id": "a-184",
+    "task": "Show Matt Watson the context regarding the required database access, particularly the dealer groups, CLTV, average lifetime revenue, tenure, active/cancelled dealers, and churn information.",
+    "owner": "Michael Donovan",
+    "meetingId": "product-marketing-alignment-2026-03-11",
+    "meetingDate": "2026-03-11",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "other",
+      "description": "Matt has necessary context for database access needs."
+    }
+  },
+  {
+    "id": "a-185",
+    "task": "Experiment with Snowflake intelligence and build a basic data set/table of dealer facts from the CXM (rooftops section), including dealer ID, name, dealer group, inventory count, and historical data.",
+    "owner": "Matt Watson",
+    "meetingId": "product-marketing-alignment-2026-03-11",
+    "meetingDate": "2026-03-11",
+    "status": "done",
+    "expectedOutcome": {
+      "system": "snowflake",
+      "description": "Basic dealer data table available in Snowflake."
+    },
+    "resolvedInMeeting": "active-pipeline-review-2026-03-12"
+  },
+  {
+    "id": "a-186",
+    "task": "Reschedule the meeting with Michael Donovan for 11:00 AM to 11:30 AM tomorrow.",
+    "owner": "Jason Branham",
+    "meetingId": "active-pipeline-review-2026-03-12",
+    "meetingDate": "2026-03-12",
+    "deadline": "2026-03-13",
+    "status": "done",
+    "expectedOutcome": {
+      "system": "calendar",
+      "description": "Meeting invite sent for the specified time."
+    },
+    "resolvedInMeeting": "marketing-2026-03-13"
+  },
+  {
+    "id": "a-187",
+    "task": "Provide Vinnie Micciche with the slide information and data for Sophia call backs from October through January for tomorrow's call review.",
+    "owner": "Kevin Breen",
+    "meetingId": "active-pipeline-review-2026-03-12",
+    "meetingDate": "2026-03-12",
+    "deadline": "2026-03-13",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "email",
+      "description": "Vinnie receives the requested data and slides."
+    }
+  },
+  {
+    "id": "a-188",
+    "task": "Point the callback numbers to Frank's follow-up team to have them answer.",
+    "owner": "Shawna Behen",
+    "meetingId": "active-pipeline-review-2026-03-12",
+    "meetingDate": "2026-03-12",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "other",
+      "description": "Callback numbers are routed to Frank's follow-up team."
+    }
+  },
+  {
+    "id": "a-189",
+    "task": "Review the data query, looking into lead source quality, and analyzing the impact of phone screeners.",
+    "owner": "Sergey Lyapustin",
+    "meetingId": "active-pipeline-review-2026-03-12",
+    "meetingDate": "2026-03-12",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "crm",
+      "description": "Analysis report on lead source quality and impact of phone screeners is available."
+    }
+  },
+  {
+    "id": "a-190",
+    "task": "Address the 'save a deal' prompt issue and develop a GPT-based application for comprehensive reporting.",
+    "owner": "Scott",
+    "meetingId": "active-pipeline-review-2026-03-12",
+    "meetingDate": "2026-03-12",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "codebase",
+      "description": "Functioning 'save a deal' application with improved reporting capabilities."
+    }
+  },
+  {
+    "id": "a-191",
+    "task": "Analyze patterns and similarities between customers calling back and not calling back, considering lead source and time of day.",
+    "owner": "Michael Donovan",
+    "meetingId": "active-pipeline-review-2026-03-12",
+    "meetingDate": "2026-03-12",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "crm",
+      "description": "Report outlining key patterns and similarities in customer call-back behavior."
+    }
+  },
+  {
+    "id": "a-192",
+    "task": "Determine human performance metrics prior to Sophia's implementation (call backs).",
+    "owner": "Unassigned",
+    "meetingId": "active-pipeline-review-2026-03-12",
+    "meetingDate": "2026-03-12",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "crm",
+      "description": "Baseline of human follow-up performance metrics is established."
+    }
+  },
+  {
+    "id": "a-193",
+    "task": "Evaluate staffing options for evening shift to support potential calling window shift to 2:00 PM to 8:00 PM.",
+    "owner": "Shawna Behen",
+    "meetingId": "active-pipeline-review-2026-03-12",
+    "meetingDate": "2026-03-12",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "other",
+      "description": "Staffing plan prepared to accommodate the proposed call-time change."
+    }
+  },
+  {
+    "id": "a-194",
+    "task": "Provide Jason Branham with the \"phase zero\" lookalike list derived from the ICP data.",
+    "owner": "Michael Donovan",
+    "meetingId": "marketing-2026-03-13",
+    "meetingDate": "2026-03-13",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "email",
+      "description": "Jason Branham receives the list of leads with LinkedIn profiles for the sales team to connect with."
+    }
+  },
+  {
+    "id": "a-195",
+    "task": "Use the lookalike list to start sending out connection requests on LinkedIn to test the results.",
+    "owner": "Jason Branham",
+    "meetingId": "marketing-2026-03-13",
+    "meetingDate": "2026-03-13",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "linkedin",
+      "description": "Sales team members connect with leads on the list."
+    }
+  },
+  {
+    "id": "a-196",
+    "task": "Create a shortlist of Augusta merchandise items for Matt Watson.",
+    "owner": "Jason Branham",
+    "meetingId": "strolid-leadership-call-2026-03-23",
+    "meetingDate": "2026-03-23",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "email",
+      "description": "A concise list of available Augusta merchandise options will be provided to Matt Watson."
+    }
+  },
+  {
+    "id": "a-197",
+    "task": "Spend time thinking through potential challenges with the Performance Manager structure.",
+    "owner": "Vinnie Micciche",
+    "meetingId": "strolid-leadership-call-2026-03-23",
+    "meetingDate": "2026-03-23",
+    "deadline": "2026-03-23",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "other",
+      "description": "A clearer understanding of the challenges and mitigation strategies for the new Performance Manager structure."
+    }
+  },
+  {
+    "id": "a-198",
+    "task": "Reach out to Jamie to connect Joe Furnari and Jamie regarding Call Review.",
+    "owner": "Vinnie Micciche",
+    "meetingId": "strolid-leadership-call-2026-03-23",
+    "meetingDate": "2026-03-23",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "email",
+      "description": "Facilitate a discussion between Joe Furnari and Jamie to address potential items regarding Call Review."
+    }
+  },
+  {
+    "id": "a-199",
+    "task": "Review Kevin Breen's Lovable report and authorize sharing it with the internal team.",
+    "owner": "Vinnie Micciche",
+    "meetingId": "strolid-leadership-call-2026-03-23",
+    "meetingDate": "2026-03-23",
+    "deadline": "2026-03-23",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "other",
+      "description": "The Lovable report will be distributed internally for feedback and potential integration."
+    }
+  },
+  {
+    "id": "a-200",
+    "task": "Spend more time with Sergey Lyapustin and Scott on guardrails for the AI tools.",
+    "owner": "Vinnie Micciche",
+    "meetingId": "strolid-leadership-call-2026-03-23",
+    "meetingDate": "2026-03-23",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "other",
+      "description": "Establish clear guidelines and limitations for AI tool access and usage."
+    }
+  },
+  {
+    "id": "a-201",
+    "task": "Discuss creating a budget for the extensive use of AI.",
+    "owner": "Harinder Bhinder",
+    "meetingId": "strolid-leadership-call-2026-03-23",
+    "meetingDate": "2026-03-23",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "budget",
+      "description": "A defined budget allocation for AI usage and associated costs."
+    }
+  },
+  {
+    "id": "a-202",
+    "task": "Share a more concrete SOC auditor roadmap.",
+    "owner": "Harinder Bhinder",
+    "meetingId": "strolid-leadership-call-2026-03-23",
+    "meetingDate": "2026-03-23",
+    "deadline": "2026-03-31",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "google-docs",
+      "description": "A detailed plan outlining the steps and timelines for the SOC audit process."
+    }
+  },
+  {
+    "id": "a-203",
+    "task": "Discuss setting a flexible and variable AI budget and share cost information with Joe Furnari.",
+    "owner": "Harinder Bhinder",
+    "meetingId": "strolid-leadership-call-2026-03-23",
+    "meetingDate": "2026-03-23",
+    "deadline": "2026-03-23",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "budget",
+      "description": "Agreement on a budgeting approach for AI usage that accounts for variability in costs. The information will be included in future budget projections."
+    }
+  },
+  {
+    "id": "a-204",
+    "task": "Compile and send the different secret shop requirements to Sergey Lyapustin.",
+    "owner": "Shawna Behen",
+    "meetingId": "scrum-standup-daily-update-2026-03-30",
+    "meetingDate": "2026-03-30",
+    "deadline": "2026-03-30",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "email",
+      "description": "Sergey will receive documentation outlining all requirements from the manufacturer for the secret shop task."
+    }
+  },
+  {
+    "id": "a-205",
+    "task": "Schedule a conversation with the momentum API team about their API topic.",
+    "owner": "Sergey Lyapustin",
+    "meetingId": "scrum-standup-daily-update-2026-03-30",
+    "meetingDate": "2026-03-30",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "calendar",
+      "description": "A meeting will be scheduled with the momentum API team for tomorrow or Wednesday morning."
+    }
+  },
+  {
+    "id": "a-206",
+    "task": "Schedule a call with John to review the infrastructure and potentially test one more integration with the elite weekly task.",
+    "owner": "Scott Henshaw",
+    "meetingId": "scrum-standup-daily-update-2026-03-30",
+    "meetingDate": "2026-03-30",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "calendar",
+      "description": "A call will be scheduled with John tomorrow morning to review the infrastructure and test the elite weekly task integration."
+    }
+  },
+  {
+    "id": "a-207",
+    "task": "Deploy the conserver side to production and test it for the finished feature in the portal for the conditional tags.",
+    "owner": "Scott Henshaw",
+    "meetingId": "scrum-standup-daily-update-2026-03-30",
+    "meetingDate": "2026-03-30",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "codebase",
+      "description": "The conserver side will be deployed to production, and the conditional tags feature will be fully tested."
+    }
+  },
+  {
+    "id": "a-208",
+    "task": "Rewrite the tag for detecting when an agent starts to leave a voicemail and the customer answers, ensuring it is valid before setting up any alerting on those calls.",
+    "owner": "Scott Henshaw",
+    "meetingId": "scrum-standup-daily-update-2026-03-30",
+    "meetingDate": "2026-03-30",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "codebase",
+      "description": "The voicemail tag will be rewritten to be more accurate, and its validity will be confirmed before alerting is set up."
+    }
+  },
+  {
+    "id": "a-209",
+    "task": "Bring up the issue of 'unknown last name' being included in the voicemail to Kan Sing to see if they can use LLM to filter out those names.",
+    "owner": "Sergey Lyapustin",
+    "meetingId": "scrum-standup-daily-update-2026-03-30",
+    "meetingDate": "2026-03-30",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "other",
+      "description": "Kan Sing will evaluate the possibility of using LLM to filter out 'unknown' last names from voicemails."
+    }
+  },
+  {
+    "id": "a-210",
+    "task": "Listen to a few voicemails from last week to see if the return telephone number appearance issue has gotten better.",
+    "owner": "Kevin Breen",
+    "meetingId": "scrum-standup-daily-update-2026-03-30",
+    "meetingDate": "2026-03-30",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "other",
+      "description": "Kevin will verify if the return telephone number speed issue in voicemails has been resolved based on recent calls."
+    }
+  },
+  {
+    "id": "a-211",
+    "task": "Make some quick research to get to evaluate the real-time text-to-speech cost for generating voicemails.",
+    "owner": "Sergey Lyapustin",
+    "meetingId": "scrum-standup-daily-update-2026-03-30",
+    "meetingDate": "2026-03-30",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "other",
+      "description": "Sergey will conduct quick research on estimating the real-time text-to-speech generation costs."
+    }
+  },
+  {
+    "id": "a-212",
+    "task": "Send Vinnie an email to inform him about the potential reschedule to tomorrow or Wednesday.",
+    "owner": "Joe Furnari",
+    "meetingId": "strolid-leadership-call-2026-03-30",
+    "meetingDate": "2026-03-30",
+    "deadline": "2026-03-30",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "email",
+      "description": "Vinnie is informed about rescheduling options."
+    }
+  },
+  {
+    "id": "a-213",
+    "task": "Send an email to Jason Branham and Joe Furnari with the list of Lithia dealers and a snapshot of Edwin's previous work.",
+    "owner": "Shawna Behen",
+    "meetingId": "strolid-leadership-call-2026-03-30",
+    "meetingDate": "2026-03-30",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "email",
+      "description": "Jason and Joe receive necessary information to prepare for the Lithia presentation."
+    }
+  },
+  {
+    "id": "a-214",
+    "task": "Work on a presentation deck for Mara (Lithia) covering Q1 2026 and Q4 2025 dealer performance.",
+    "owner": "Shawna Behen",
+    "meetingId": "strolid-leadership-call-2026-03-30",
+    "meetingDate": "2026-03-30",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "google-docs",
+      "description": "Completed presentation deck ready for the call with Lithia."
+    }
+  },
+  {
+    "id": "a-215",
+    "task": "Get the framework together for the presentation overview for the conversation with Lithia.",
+    "owner": "Shawna Behen",
+    "meetingId": "strolid-leadership-call-2026-03-30",
+    "meetingDate": "2026-03-30",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "google-docs",
+      "description": "A structured presentation framework for the Lithia conversation."
+    }
+  },
+  {
+    "id": "a-216",
+    "task": "Continue putting together AI resources and compiling a marketplace with sub agents/skills and plugins.",
+    "owner": "Michael Donovan",
+    "meetingId": "strolid-leadership-call-2026-03-30",
+    "meetingDate": "2026-03-30",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "codebase",
+      "description": "AI resource marketplace with sub-agents, skills, and plugins is developed and functional."
+    }
+  },
+  {
+    "id": "a-217",
+    "task": "Continue putting together AI resources and compiling a marketplace with sub agents/skills and plugins.",
+    "owner": "Sergey Lyapustin",
+    "meetingId": "strolid-leadership-call-2026-03-30",
+    "meetingDate": "2026-03-30",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "codebase",
+      "description": "AI resource marketplace with sub-agents, skills, and plugins is developed and functional."
+    }
+  },
+  {
+    "id": "a-218",
+    "task": "Upload existing contact lists; classify as MQLs.",
+    "owner": "Unassigned",
+    "meetingId": "weekly-1-on-1-with-michael-d-and-joe-f-2026-03-30",
+    "meetingDate": "2026-03-30",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "crm",
+      "description": "Existing contact lists are added to the CRM and correctly classified as MQLs."
+    }
+  },
+  {
+    "id": "a-219",
+    "task": "Speak with Vinnie about better approaches for CRM coordination.",
+    "owner": "Joe Furnari",
+    "meetingId": "weekly-1-on-1-with-michael-d-and-joe-f-2026-03-30",
+    "meetingDate": "2026-03-30",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "other",
+      "description": "Vinnie is aligned on a coordinated approach for CRM improvements."
+    }
+  },
+  {
+    "id": "a-220",
+    "task": "Present the proposed CRM foundational fixes to Vinnie. Include a reasonable timeline for required completion.",
+    "owner": "Michael Donovan",
+    "meetingId": "weekly-1-on-1-with-michael-d-and-joe-f-2026-03-30",
+    "meetingDate": "2026-03-30",
+    "deadline": "2026-03-31",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "other",
+      "description": "Vinnie understands the importance of the CRM fixes and agrees with the proposed timeline."
+    }
+  },
+  {
+    "id": "a-221",
+    "task": "Balance and finalize the proposed recap format against the initial carousel idea.",
+    "owner": "Unassigned",
+    "meetingId": "weekly-1-on-1-with-michael-d-and-joe-f-2026-03-30",
+    "meetingDate": "2026-03-30",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "other",
+      "description": "A final decision on the recap format is made."
+    }
+  },
+  {
+    "id": "a-222",
+    "task": "Confirm Vinnie's attendance for the meeting tomorrow.",
+    "owner": "Joe Furnari",
+    "meetingId": "weekly-1-on-1-with-michael-d-and-joe-f-2026-03-30",
+    "meetingDate": "2026-03-30",
+    "deadline": "2026-03-31",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "calendar",
+      "description": "Vinnie's attendance is confirmed."
+    }
+  },
+  {
+    "id": "a-223",
+    "task": "Create new GitHub repository for organization skills. Include basic structure and placeholder files.",
+    "owner": "Sergey Lyapustin",
+    "meetingId": "michael-sergey-2026-03-31",
+    "meetingDate": "2026-03-31",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "github",
+      "description": "A new repository exists with a defined structure for organization skills."
+    }
+  },
+  {
+    "id": "a-224",
+    "task": "Spin up new project for all Straw work. Migrate related settings and skills.",
+    "owner": "Michael Donovan",
+    "meetingId": "michael-sergey-2026-03-31",
+    "meetingDate": "2026-03-31",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "other",
+      "description": "New project created with Straw work migrated."
+    }
+  },
+  {
+    "id": "a-225",
+    "task": "Contact Harinder regarding current account limitations. Investigate obtaining more resources for the limited account.",
+    "owner": "Michael Donovan",
+    "meetingId": "michael-sergey-2026-03-31",
+    "meetingDate": "2026-03-31",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "email",
+      "description": "Increased account resources or clarification on current limits."
+    }
+  },
+  {
+    "id": "a-226",
+    "task": "Share LinkedIn Ads: Deliver paid LinkedIn ad assets for group review and approval prior to activation in April.",
+    "owner": "Michael Donovan",
+    "meetingId": "the-marketing-meeting-2026-03-31",
+    "meetingDate": "2026-03-31",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "email",
+      "description": "LinkedIn ad assets are approved by the team and ready for activation in April."
+    }
+  },
+  {
+    "id": "a-227",
+    "task": "Draft Content Outline: Send a fill-in-the-blank Yes/No outline of proposed value propositions and content ideas to Vinnie.",
+    "owner": "Michael Donovan",
+    "meetingId": "the-marketing-meeting-2026-03-31",
+    "meetingDate": "2026-03-31",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "email",
+      "description": "Vinnie approves content outline."
+    }
+  },
+  {
+    "id": "a-228",
+    "task": "Review Social Posts: Review the new weekly social media posts shared by Paulo to ensure the adapted voice matches previous edits.",
+    "owner": "Vinnie Micciche",
+    "meetingId": "the-marketing-meeting-2026-03-31",
+    "meetingDate": "2026-03-31",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "slack",
+      "description": "Social media posts are aligned with previous edits and ready for publishing."
+    }
+  },
+  {
+    "id": "a-229",
+    "task": "Secure Email Approval: Ensure the email intended for Paul is secured for final approval.",
+    "owner": "Paulo Trovao",
+    "meetingId": "the-marketing-meeting-2026-03-31",
+    "meetingDate": "2026-03-31",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "email",
+      "description": "Email is approved for distribution."
+    }
+  },
+  {
+    "id": "a-230",
+    "task": "Send Dealer Data: Export and send the Zoho forms entries data containing dealer challenge feedback to Vinnie.",
+    "owner": "Michael Donovan",
+    "meetingId": "the-marketing-meeting-2026-03-31",
+    "meetingDate": "2026-03-31",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "email",
+      "description": "Vinnie receives data on dealer challenges."
+    }
+  },
+  {
+    "id": "a-231",
+    "task": "Implement well-defined agents that can evaluate nuances before any auto-response or automation occurs.",
+    "owner": "Matt Watson",
+    "meetingId": "product-marketing-alignment-2026-04-01",
+    "meetingDate": "2026-04-01",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "codebase",
+      "description": "A personal OS side project that ingests signals from multiple sources to categorize and automate actions, intended to scale to an organizational-level conversational CRM."
+    }
+  },
+  {
+    "id": "a-232",
+    "task": "Define agents with specific jobs so that tasks are executed as desired, with appropriate tooling and restricted access.",
+    "owner": "Matt Watson",
+    "meetingId": "product-marketing-alignment-2026-04-01",
+    "meetingDate": "2026-04-01",
+    "status": "open",
+    "expectedOutcome": {
+      "system": "codebase",
+      "description": "Orchestrator will spawn parallel sub-agents to perform specific tasks, which are ephemeral workers and can communicate, but not spawn further sub-agents."
+    }
+  }
+]

@@ -1,0 +1,127 @@
+{
+  "meetingId": "the-marketing-meeting-2025-11-11",
+  "title": "The Marketing Meeting",
+  "date": "2025-11-11",
+  "series": "The Marketing Meeting",
+  "type": "marketing",
+  "attendees": [
+    "Thomas Howe",
+    "Vinnie Micciche",
+    "Joe Furnari",
+    "Michael Donovan",
+    "Ziad Al Khatib",
+    "Jason Branham",
+    "Matt Watson",
+    "Kevin Breen"
+  ],
+  "summary": "Michael Donovan and Vinnie Micciche discussed LLMs, with Thomas Howe noting agent models bypass data cut-off dates. They covered social content strategy and lead generation, emphasizing dealer-centric messaging. The team agreed to accelerate development, improve content for lead generation, and prioritize features aligning with the people, dealers, customer experience framework.",
+  "decisions": [
+    {
+      "description": "Incorporate Vinnie Micciche's feedback on tone into subsequent social media posts.",
+      "decidedBy": ["Michael Donovan", "Ziad Al Khatib"],
+      "topic": "social-media-content",
+      "confidence": "firm"
+    },
+    {
+      "description": "Automate all leads overnight to improve lead handling and address OEM shop lead requirements.",
+      "decidedBy": ["Vinnie Micciche"],
+      "topic": "lead-automation",
+      "confidence": "tentative"
+    },
+    {
+      "description": "Prioritize features for the dealer portal that affect the company's people, the dealers, and the customer experience.",
+      "decidedBy": ["Vinnie Micciche"],
+      "topic": "dealer-portal-development",
+      "confidence": "firm"
+    }
+  ],
+  "actionItems": [
+    {
+      "task": "Put together the revised social media posts and share them with Vinnie Micciche.",
+      "owner": "Michael Donovan",
+      "deadline": "2025-11-12",
+      "expectedOutcome": {
+        "system": "google-docs",
+        "description": "Vinnie Micciche receives a document with revised social media posts incorporating feedback."
+      }
+    },
+    {
+      "task": "Find and send research about where leads are going.",
+      "owner": "Vinnie Micciche",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "email",
+        "description": "Team receives email with data on future lead origination."
+      }
+    },
+    {
+      "task": "Review and provide feedback on updated creatives.",
+      "owner": "Vinnie Micciche",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "google-docs",
+        "description": "Ziad Al Khatib receives feedback on the updated creatives."
+      }
+    },
+    {
+      "task": "Put the outline material together and send it over to Vinnie Micciche.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "google-docs",
+        "description": "Vinnie Micciche receives outline material for the content strategy."
+      }
+    },
+    {
+      "task": "Improve the document to ensure Vinnie Micciche has the whole post in view, including the title on the graphic, copy, and caption hashtags.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "google-docs",
+        "description": "Vinnie Micciche can easily review full social media posts in the document."
+      }
+    },
+    {
+      "task": "Share the updated document with the reran control content with Vinnie Micciche.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "google-docs",
+        "description": "Vinnie Micciche receives the updated document with control content for review."
+      }
+    }
+  ],
+  "topicsDiscussed": [
+    "llm-exploration",
+    "internet-traffic-bots",
+    "social-content-strategy",
+    "lead-generation",
+    "messaging-strategy",
+    "dealer-centric-perspective",
+    "digital-retailing-future",
+    "pace-of-development",
+    "data-utilization",
+    "development-tools-productivity",
+    "lead-automation",
+    "value-driven-dashboards",
+    "portal-development",
+    "reporting-future",
+    "visuals-messaging",
+    "brand-consistency",
+    "website-performance"
+  ],
+  "tensions": [
+    "Vinnie Micciche expressed frustration with the pace of development and the length of planning/roadmapping.",
+    "Vinnie Micciche interrupted Michael Donovan's explanation, emphasizing the need to accelerate and stay focused.",
+    "Vinnie Micciche questioned the need for dashboards, suggesting a shift towards narrative-based reporting.",
+    "Vinnie Micciche pushed back on using NADA data on social posts because they don't mean anything",
+    "Vinnie Micciche expressed concern about future leads given developments in LLMs."
+  ],
+  "referencesToPast": [
+    "Reference to previous discussions on dealers taking control back.",
+    "Mention of a rebuilt dashboard at UMDO and its high adoption.",
+    "Reference to content that was discussed with Lena in May or June about why we would even need a blog.",
+    "Vinnie Micciche referred to previous content created for social media",
+    "Vinnie Micciche referred to Herinda's assessment of the coding copilot/cursor"
+  ]
+}

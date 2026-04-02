@@ -1,0 +1,179 @@
+{
+  "meetingId": "strolid-leadership-call-2026-03-09",
+  "title": "Strolid Leadership Call",
+  "date": "2026-03-09",
+  "series": "Strolid Leadership Call",
+  "type": "leadership",
+  "attendees": [
+    "Matt Watson",
+    "Shawna Behen",
+    "Vin Micciche",
+    "Thomas Howe",
+    "jason.branham@strolid.com",
+    "Joe Furnari",
+    "Michael Donovan",
+    "Mike Sullivan",
+    "Harinder Bhinder",
+    "Sergey Lyapustin",
+    "Kevin Breen"
+  ],
+  "summary": "The Strolid Leadership Call covered progress on key initiatives like real-time VCON, Sophia AI, and SOC 2 compliance. Thomas Howe offered due diligence expertise for the Call Review process, which is expected to reach a decision within 30 days, while Joe Furnari is preparing the data room and financial outlook for Call Review. The team also discussed sales strategies, emphasizing live demos and transparency.",
+  "decisions": [
+    {
+      "description": "Joe Furnari will set up the data room and prepare historical financial data and a three-year outlook for Call Review.",
+      "decidedBy": ["Joe Furnari"],
+      "topic": "due-diligence",
+      "confidence": "firm"
+    },
+    {
+      "description": "Thomas Howe and Sergey Lyapustin will attend the upcoming meeting with Call Review's technical and product team.",
+      "decidedBy": ["Thomas Howe", "Sergey Lyapustin", "Vinnie Micciche"],
+      "topic": "call-review-meeting",
+      "confidence": "firm"
+    },
+    {
+      "description": "The SOC 2 audit target completion date is set for September, slightly delayed due to the decision to run two separate SOC audits.",
+      "decidedBy": ["Harinder Bhinder", "Joe Furnari"],
+      "topic": "soc-2-audit",
+      "confidence": "firm"
+    },
+    {
+      "description": "The team will run two separate SOC audits to separate VCON and the parent company downstream.",
+      "decidedBy": ["Harinder Bhinder", "Joe Furnari"],
+      "topic": "soc-2-audit",
+      "confidence": "firm"
+    },
+    {
+      "description": "Sales team will get deep into understanding the business operations",
+      "decidedBy": ["Vinnie Micciche"],
+      "topic": "sales-team-training",
+      "confidence": "firm"
+    }
+  ],
+  "actionItems": [
+    {
+      "task": "Sign a contract with the auditors for the SOC 2 audit.",
+      "owner": "Harinder Bhinder",
+      "deadline": "2026-03-09",
+      "expectedOutcome": {
+        "system": "other",
+        "description": "A signed contract with the auditors for the SOC 2 audit."
+      }
+    },
+    {
+      "task": "Talk to Joe Furnari to move forward with the SOC 2 audit process.",
+      "owner": "Harinder Bhinder",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "other",
+        "description": "The SOC 2 audit process is moving forward smoothly."
+      }
+    },
+    {
+      "task": "Check calendar again for the invite to the meeting with Call Review's CEO and CIO.",
+      "owner": "Joe Furnari",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "calendar",
+        "description": "Confirmation that the meeting invite has been received."
+      }
+    },
+    {
+      "task": "Talk to Vinnie Micciche to (1) understand the distinction and complexity of the SOC 2 audit regarding VCONIC and the parent company structure, and (2) share the status of the SOC 2 audit.",
+      "owner": "Harinder Bhinder",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "other",
+        "description": "Vinnie Micciche has a clearer understanding of the SOC 2 audit process and its implications."
+      }
+    },
+    {
+      "task": "Validate the 100% of emails for the ICP and specific groups.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "other",
+        "description": "Confirmation that the emails for the ICP and specific groups are valid."
+      }
+    },
+    {
+      "task": "Work on fixes to adjust Sophia to handle service calls more smoothly, addressing the feedback on awkward silence during weekend calls.",
+      "owner": "Sergey Lyapustin",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "other",
+        "description": "Sophia AI is handling service calls more effectively with reduced awkward silences."
+      }
+    },
+    {
+      "task": "Be kept in the loop regarding the progress as the due diligence process runs through Call Review.",
+      "owner": "Thomas Howe",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "email",
+        "description": "Regular updates on the progress of the Call Review due diligence process."
+      }
+    },
+    {
+      "task": "Follow up on the invite list for the 11:00 a.m. call and ping the contact if Joe Furnari does not receive the email invite within a few more hours.",
+      "owner": "Vinnie Micciche",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "calendar",
+        "description": "All invited attendees have received the calendar invite for the 11:00 a.m. call."
+      }
+    },
+    {
+      "task": "Kevin Breen will verify the metabase Volley numbers against Volley.",
+      "owner": "Kevin Breen",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "other",
+        "description": "Verified numbers"
+      }
+    }
+  ],
+  "topicsDiscussed": [
+    "vcon-schema-versions",
+    "technical-due-diligence",
+    "participant-check-ins",
+    "healthcare-systems",
+    "call-review-document",
+    "due-diligence-timeline",
+    "call-review-meeting",
+    "financial-outlook",
+    "lithia-compliance-survey",
+    "soc-2-audit",
+    "acquisition-strategy",
+    "sales-deck-feedback",
+    "live-demos",
+    "solutions-focus",
+    "internal-training",
+    "real-time-vcon",
+    "ai-impact",
+    "sophia-testing",
+    "ai-model-selection",
+    "outbound-sophia-testing",
+    "call-handling-monitoring",
+    "customer-call-adjustments",
+    "volley-number-validation",
+    "meeting-scheduling",
+    "buyer-targeting",
+    "sales-enablement",
+    "product-marketing"
+  ],
+  "tensions": [
+    "Thomas Howe dismissed questions about VCON schema versions as a \"red herring\".",
+    "Sergey Lyapustin reported that internal testing occurred under ideal conditions with no background noise, which contrasts with actual customer calls that included background noise like a TV, causing the system to become \"really confused\".",
+    "Matt Watson cautioned that switching models would require retesting everything.",
+    "Vinnie Micciche's feedback to Michael Donovan regarding his sales deck was critical."
+  ],
+  "referencesToPast": [
+    "Discussion refers to a document created and reviewed by Matt Watson and Sergey Lyapustin regarding VCON schema.",
+    "Reference to a Boston VCON meetup.",
+    "Reference to the Straw Life Cycle Center concept developed two or three years ago.",
+    "Mention of previous discussions with Jason on the pipeline call.",
+    "Reference to a previous discussion about an August target for SOC 2 compliance.",
+    "Mention of a previous demo for call review"
+  ]
+}

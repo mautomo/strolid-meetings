@@ -1,0 +1,132 @@
+{
+  "meetingId": "vconic-site-content-2025-11-20",
+  "title": "Vconic site / content",
+  "date": "2025-11-20",
+  "series": "Vconic site / content",
+  "type": "marketing",
+  "attendees": ["Perry Evans", "Michael Donovan"],
+  "summary": "Michael Donovan provided a health update, and Perry Evans discussed VConic's content generation using OpenAI and the challenge of positioning VConic's compliance focus against BPO's cost-saving automation. They decided to focus on agentic AI observability, accelerate the VCon standard, refine VConic's messaging and visual design, prioritize the BPO market, and create explainer video content, with Michael Donovan focusing on visualization mapping and Perry Evans leading video production partner acquisition and VConic Labs content development.",
+  "decisions": [
+    {
+      "description": "Focus on agentic AI observability, tracking human-bot conversations.",
+      "decidedBy": ["Perry Evans", "Michael Donovan"],
+      "topic": "agentic-ai-observability",
+      "confidence": "firm"
+    },
+    {
+      "description": "Accelerate the VCon standard through engagement with Anthropic, IETF, J, and Joe Hildebrand.",
+      "decidedBy": ["Perry Evans"],
+      "topic": "vcon-standard",
+      "confidence": "firm"
+    },
+    {
+      "description": "Refine hero messaging to ensure VConic is recognized as the creator and educator of VCon.",
+      "decidedBy": ["Perry Evans"],
+      "topic": "messaging-strategy",
+      "confidence": "firm"
+    },
+    {
+      "description": "Prioritize the BPO market over the telecom opportunity.",
+      "decidedBy": ["Perry Evans", "Michael Donovan"],
+      "topic": "market-prioritization",
+      "confidence": "firm"
+    },
+    {
+      "description": "Create explainer video content, framing it around a hero's journey where the BPO is the 'Skywalker' and VConic is the mentor.",
+      "decidedBy": ["Perry Evans"],
+      "topic": "video-content",
+      "confidence": "firm"
+    },
+    {
+      "description": "Pursue a clean white style for the website to align with the \"hygiene theme of the business.\"",
+      "decidedBy": ["Perry Evans"],
+      "topic": "visual-design",
+      "confidence": "tentative"
+    },
+    {
+      "description": "Establish VConic Labs as a distinct space to house open-source activities and a partner program, separate from the enterprise story.",
+      "decidedBy": ["Perry Evans", "Michael Donovan"],
+      "topic": "vconic-labs",
+      "confidence": "firm"
+    }
+  ],
+  "actionItems": [
+    {
+      "task": "Find a video person in Denver to capture B-roll, including bringing Thomas out for a day of shooting.",
+      "owner": "Perry Evans",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "other",
+        "description": "Identification of a video production partner in Denver."
+      }
+    },
+    {
+      "task": "Work on the visualization mapping, focusing on animating the check and fading the full logo, finding two or three placeholder videos, and developing concepts for a derivative logo for Viconic Open Labs or Viconic Labs.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "google-docs",
+        "description": "Visualization mapping document with video and animation concepts, including logo variations."
+      }
+    },
+    {
+      "task": "Shortlist video production partners and queue up a meeting for Michael Donovan and Perry Evans to review the list and select the right team member.",
+      "owner": "Perry Evans",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "google-docs",
+        "description": "A shortlist of video production partners with a scheduled meeting for review."
+      }
+    },
+    {
+      "task": "Develop subtext for the Viconic Labs content and edit the content document.",
+      "owner": "Perry Evans",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "google-docs",
+        "description": "Refined Viconic Labs content document with compelling subtext."
+      }
+    },
+    {
+      "task": "Provide a strong example of leveraging vector scroll animations that are clean, tasteful, and provide a sense of movement beyond basic parallax.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "website",
+        "description": "Examples or implementation of vector scroll animations on the website."
+      }
+    },
+    {
+      "task": "Resurrect a person to work with on the video side that understands the concept of an integrated look and feel to a series of explainer videos and tools that we can work from.",
+      "owner": "Perry Evans",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "other",
+        "description": "Engagement of a video production resource with experience in integrated video content."
+      }
+    }
+  ],
+  "topicsDiscussed": [
+    "health-update",
+    "content-generation",
+    "ideal-customer-profile",
+    "agentic-ai-observability",
+    "vcon-standard",
+    "bpo-engagement",
+    "video-content",
+    "visualization",
+    "messaging-strategy",
+    "visual-design",
+    "elevator-pitch",
+    "market-prioritization",
+    "vconic-labs",
+    "open-source"
+  ],
+  "tensions": [
+    "Pushback from BPO executives focused on agentic automation for cost savings, making it challenging to establish a 'why now' argument for VConic's compliance story.",
+    "Debate on whether the website is 'too dark' from a visual design perspective."
+  ],
+  "referencesToPast": [
+    "Current content on the site was created quickly after Michael Donovan had to rebuild the previous, broken version of the site in six days."
+  ]
+}

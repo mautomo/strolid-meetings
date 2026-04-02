@@ -1,0 +1,92 @@
+{
+  "meetingId": "the-marketing-meeting-2025-10-21",
+  "title": "The Marketing Meeting",
+  "date": "2025-10-21",
+  "series": "The Marketing Meeting",
+  "type": "marketing",
+  "attendees": [
+    "Vinnie Micciche",
+    "Joe Furnari",
+    "Michael Donovan",
+    "Ziad Al Khatib",
+    "Jason Branham",
+    "Matt Watson",
+    "Thomas Howe"
+  ],
+  "summary": "The meeting focused on refining the content strategy, emphasizing a \"human-led, AI-assisted\" approach for sales, and initiating a LinkedIn pilot program featuring Reed and Gus to leverage personal connections. Participants discussed concerns about lead equity among team members, maximizing reach through shared content, and the need for validated, timely content to address immediate visibility and engagement goals. Matt Watson offered to create a visual write-up regarding portal access to call records for Jason Branham's team.",
+  "decisions": [
+    {
+      "description": "Matt Watson will create a visual write-up for Jason Branham's team regarding portal access to call records.",
+      "decidedBy": ["Matt Watson"],
+      "topic": "call-records-portal-access",
+      "confidence": "firm"
+    },
+    {
+      "description": "Initiate a pilot program for LinkedIn posts featuring Reed and Gus, publishing two posts per week for three weeks, focusing on human-centric interactions in sales.",
+      "decidedBy": ["Michael Donovan"],
+      "topic": "linkedin-pilot-program",
+      "confidence": "firm"
+    },
+    {
+      "description": "Team members should share, like, or comment on each other's LinkedIn posts instead of direct duplication.",
+      "decidedBy": ["Michael Donovan"],
+      "topic": "linkedin-post-engagement",
+      "confidence": "tentative"
+    },
+    {
+      "description": "Develop a chatbot to assist car dealerships in answering customer inquiries, with human intervention for complex questions, using a \"human-led, AI-assisted\" approach.",
+      "decidedBy": ["Vinnie Micciche", "Michael Donovan"],
+      "topic": "chatbot-development",
+      "confidence": "firm"
+    },
+    {
+      "description": "Michael Donovan will change the wording on messaging topic number three to reflect focusing on 'new car buyers' or 'new car customers ready to buy' instead of 'new car shoppers'.",
+      "decidedBy": ["Michael Donovan"],
+      "topic": "messaging-refinement",
+      "confidence": "firm"
+    },
+    {
+      "description": "Set the weekly meeting between Michael and Joe back to 10:00 AM ongoing.",
+      "decidedBy": ["Michael Donovan"],
+      "topic": "meeting-schedule",
+      "confidence": "firm"
+    }
+  ],
+  "actionItems": [
+    {
+      "task": "Review the item Michael Donovan shared.",
+      "owner": "Vinnie Micciche",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "other",
+        "description": "Provide feedback and approval on the shared content."
+      }
+    }
+  ],
+  "topicsDiscussed": [
+    "call-records-portal-access",
+    "social-media-strategy",
+    "human-centric-content",
+    "content-sourcing-timing",
+    "team-involvement-lead-attribution",
+    "maximizing-reach-engagement",
+    "attribution-models-analytics",
+    "content-strategy-website-updates",
+    "short-term-vs-medium-term-goals",
+    "messaging-content-review",
+    "chatbot-for-car-dealerships",
+    "human-vs-ai-in-sales",
+    "bot-limitations-human-involvement",
+    "future-development-strategy"
+  ],
+  "tensions": [
+    "Jason Branham raised concerns about potential internal equity issues if some team members receive more leads from LinkedIn posts than others.",
+    "Joe Furnari questioned Michael Donovan's approach, suggesting a need to balance building long-term technological solutions with achieving short-term wins and momentum, particularly given current churn and a thin sales pipeline.",
+    "Michael Donovan expressed a desire to prioritize data-driven decisions on messaging rather than relying solely on subjective opinions.",
+    "Joe Furnari urged Michael Donovan to prioritize getting validated content out quickly to address Vinnie Micciche's immediate need for increased visibility and engagement."
+  ],
+  "referencesToPast": [
+    "The discussion about messaging from last week.",
+    "Offsite meeting two weeks ago where Gus expressed he doesn't want to delegate leads."
+  ]
+}

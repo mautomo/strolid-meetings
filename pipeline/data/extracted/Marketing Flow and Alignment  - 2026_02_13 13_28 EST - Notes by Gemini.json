@@ -1,0 +1,109 @@
+{
+  "meetingId": "marketing-flow-and-alignment-2026-02-13",
+  "title": "Marketing Flow and Alignment",
+  "date": "2026-02-13",
+  "series": "Marketing Flow and Alignment",
+  "type": "marketing",
+  "attendees": ["Vinnie Micciche", "Paulo Trovao", "Michael Donovan"],
+  "summary": "Michael, Paulo, and Vinnie discussed aligning content strategy with a refined ICP, emphasizing AI in dealerships while keeping the human element crucial. Vinnie stressed that all company decisions and messaging are based on three core pillars: employee satisfaction, dealer satisfaction, and customer experience, focusing on improving efficiency, reviewing pricing, and generating leads. Michael will provide a content calendar for review, incorporating video suggestions and addressing database hygiene.",
+  "decisions": [
+    {
+      "description": "All company decisions, marketing, and messaging will be based on three core pillars: employee satisfaction, dealer satisfaction, and customer experience.",
+      "decidedBy": ["Vinnie Micciche"],
+      "topic": "company-priorities",
+      "confidence": "firm"
+    },
+    {
+      "description": "Michael Donovan and Paulo Trovao will create a content calendar outlining social posts, emails, and new pages for Vinnie Micciche to review and approve.",
+      "decidedBy": ["Michael Donovan", "Paulo Trovao"],
+      "topic": "content-calendar",
+      "confidence": "firm"
+    },
+    {
+      "description": "Michael Donovan will send Vinnie Micciche the Anthropic and Claude commercials.",
+      "decidedBy": ["Michael Donovan"],
+      "topic": "reference-materials",
+      "confidence": "firm"
+    },
+    {
+      "description": "They will test out a couple of bots.",
+      "decidedBy": ["Vinnie Micciche"],
+      "topic": "ai-bots",
+      "confidence": "tentative"
+    },
+    {
+      "description": "Vinnie Micciche will dedicate a 30-minute weekly slot for \"Tik Tok time,\" proposing a simple setup to call dealers.",
+      "decidedBy": ["Vinnie Micciche"],
+      "topic": "tik-tok-content",
+      "confidence": "tentative"
+    }
+  ],
+  "actionItems": [
+    {
+      "task": "Finalize the lead magnet self-assessment tool and send it to Vinnie Micciche for review.",
+      "owner": "Michael Donovan",
+      "deadline": "2026-02-17",
+      "expectedOutcome": {
+        "system": "email",
+        "description": "Vinnie Micciche reviews and approves the lead magnet."
+      }
+    },
+    {
+      "task": "Work on rolling out the three pillars: quick, not fast or urgent, proactive, and relationships, for internal messaging.",
+      "owner": "Vinnie Micciche",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "internal-communication",
+        "description": "All departments aligned on the three core pillars."
+      }
+    },
+    {
+      "task": "Work on a full hygiene of the email database and establish a leveraging flow, which will be discussed on Tuesday.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "crm",
+        "description": "Cleaned and enriched email database with automated leveraging flow."
+      }
+    },
+    {
+      "task": "Gather content from his drive, place it in a folder, and share it with Michael Donovan.",
+      "owner": "Vinnie Micciche",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "google-docs",
+        "description": "Michael Donovan has access to relevant content for content creation."
+      }
+    }
+  ],
+  "topicsDiscussed": [
+    "ideal-customer-profile",
+    "content-strategy",
+    "ai-in-dealerships",
+    "employee-satisfaction",
+    "dealer-satisfaction",
+    "customer-experience",
+    "pricing-review",
+    "lead-generation",
+    "database-hygiene",
+    "email-marketing",
+    "messaging-strategy",
+    "video-content",
+    "digital-retailing",
+    "organizational-blindness",
+    "market-dynamics",
+    "economic-outlook"
+  ],
+  "tensions": [
+    "Concerns about internal adoption of the portal appearing flaky.",
+    "Need to balance human and AI elements in messaging.",
+    "Previous content efforts sometimes took Vinnie's input too literally, missing the intent.",
+    "Vinnie Micciche wants the company's messaging to be reassuring regarding AI and not scare dealers.",
+    "Vinnie Micciche needs linear and specific requests about content and actions needed."
+  ],
+  "referencesToPast": [
+    "Discussion of a recent meeting with Matt, noting the transcript was conceptually very similar to the current discussion.",
+    "Reference to past podcast work with Sean.",
+    "Vinnie Micciche raised concerns about the hygiene of their email database, noting a past instance with Zoom Info where a costly list service was underutilized."
+  ]
+}

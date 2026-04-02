@@ -1,0 +1,109 @@
+{
+  "meetingId": "tech-process-and-product-review-2025-09-24",
+  "title": "Tech Process and Product Review",
+  "date": "2025-09-24",
+  "series": "Tech Process and Product Review",
+  "type": "product",
+  "attendees": ["Audrey Hayn", "Michael Donovan", "Claude Hayn"],
+  "summary": "Michael Donovan shared insights on AI applications, demonstrated Google Sites for hosting AI-generated content, and presented his marketing automation platform. Claude and Audrey Hayn discussed their focus on small to medium enterprises (HVAC), emphasizing solution-selling and integrating their website with Michael's platform and Fonoster. The group explored ways to collaborate, with Michael offering a beta access to his platform in exchange for data and feedback.",
+  "decisions": [
+    {
+      "description": "Claude Hayn plans to integrate their current website into a new communication suite, migrating off WordPress.",
+      "decidedBy": ["Claude Hayn"],
+      "topic": "website-integration",
+      "confidence": "firm"
+    },
+    {
+      "description": "Claude Hayn will integrate Michael Donovan's marketing platform capabilities into their communication suite.",
+      "decidedBy": ["Claude Hayn"],
+      "topic": "marketing-platform-integration",
+      "confidence": "firm"
+    },
+    {
+      "description": "Claude Hayn plans to integrate Fonoster into their communication suite.",
+      "decidedBy": ["Claude Hayn"],
+      "topic": "fonoster-integration",
+      "confidence": "firm"
+    },
+    {
+      "description": "Audrey and Claude Hayn will explore Michael Donovan's marketing automation platform as a closed beta resource.",
+      "decidedBy": ["Audrey Hayn", "Claude Hayn"],
+      "topic": "platform-exploration",
+      "confidence": "firm"
+    }
+  ],
+  "actionItems": [
+    {
+      "task": "Deploy the marketing automation platform.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "other",
+        "description": "Functional and accessible marketing automation platform."
+      }
+    },
+    {
+      "task": "Explore the marketing automation platform provided by Michael Donovan as a closed beta resource.",
+      "owner": "Audrey Hayn",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "other",
+        "description": "Familiarization with the features and potential uses of the platform."
+      }
+    },
+    {
+      "task": "Explore the marketing automation platform provided by Michael Donovan as a closed beta resource.",
+      "owner": "Claude Hayn",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "other",
+        "description": "Familiarization with the features and potential uses of the platform."
+      }
+    },
+    {
+      "task": "Send a link to documentation on how the marketing automation platform environment is designed.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "google-docs",
+        "description": "Accessible documentation detailing the design of the platform."
+      }
+    },
+    {
+      "task": "Provide login credentials for the marketing automation platform.",
+      "owner": "Michael Donovan",
+      "deadline": "2025-09-29",
+      "expectedOutcome": {
+        "system": "other",
+        "description": "Audrey and Claude Hayn gain access to the closed beta platform."
+      }
+    }
+  ],
+  "topicsDiscussed": [
+    "developer-engagement",
+    "market-segments",
+    "selling-solutions",
+    "attribution-model",
+    "ai-research-visualization",
+    "google-sites",
+    "development-tools",
+    "marketing-automation",
+    "ai-assisted-development",
+    "collaboration-proposal",
+    "communication-suite",
+    "fonoster-integration",
+    "automotive-crm",
+    "market-analysis",
+    "team-approach",
+    "content-creation",
+    "business-development"
+  ],
+  "tensions": [
+    "Audrey Hayn's company struggles to implement AI effectively due to a lack of understanding.",
+    "Concerns about VCON alone lacking high value without being paired with practical solutions."
+  ],
+  "referencesToPast": [
+    "Michael Donovan's agency's experience with attribution models for car dealerships in 2015-2016.",
+    "Claude Hayn's past demos with Thomas where technology was over-emphasized."
+  ]
+}

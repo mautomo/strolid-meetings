@@ -1,0 +1,122 @@
+{
+  "meetingId": "1-on-1-joe-and-michael-2025-07-01",
+  "title": "1-on-1 Joe and Michael",
+  "date": "2025-07-01",
+  "series": "1-on-1 Joe and Michael",
+  "type": "one-on-one",
+  "attendees": ["Joe Furnari", "Michael Donovan"],
+  "summary": "Joe and Michael discussed CRM strategy alignment, leadership approach to Vinnie, sales pipeline discrepancies, and Vinnie's communication style. Michael is now leading the CRM project. They will present a unified leadership recommendation for the CRM design to Vinnie and strategize how to manage Vinnie's communication style.",
+  "decisions": [
+    {
+      "description": "Michael Donovan is now leading the CRM project.",
+      "decidedBy": ["Joe Furnari", "Michael Donovan"],
+      "topic": "crm-project-leadership",
+      "confidence": "firm"
+    },
+    {
+      "description": "Present a unified leadership approach and recommendation for the CRM design to Vinnie.",
+      "decidedBy": ["Joe Furnari", "Michael Donovan"],
+      "topic": "crm-design-presentation",
+      "confidence": "firm"
+    },
+    {
+      "description": "Joe will schedule a recurring weekly meeting to maintain momentum on the CRM project, with the first kickoff meeting outlining project objectives before the call with Zoho.",
+      "decidedBy": ["Joe Furnari"],
+      "topic": "crm-project-meetings",
+      "confidence": "firm"
+    },
+    {
+      "description": "Michael Donovan will prepare CRM documentation and discuss the Zoho Sales IQ feature with Jason before their joint meeting.",
+      "decidedBy": ["Michael Donovan"],
+      "topic": "crm-documentation",
+      "confidence": "firm"
+    }
+  ],
+  "actionItems": [
+    {
+      "task": "Reconcile June's data and perform a 90-day review of ad spend.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "other",
+        "description": "Analysis of ad spend and performance metrics."
+      }
+    },
+    {
+      "task": "Outline the objectives for the CRM project kickoff meeting.",
+      "owner": "Joe Furnari",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "google-docs",
+        "description": "Document outlining CRM project goals and deliverables."
+      }
+    },
+    {
+      "task": "Set up a meeting with Michael Donovan and Jason for Tuesday or Wednesday next week to kickoff the CRM project and define the workflow.",
+      "owner": "Joe Furnari",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "calendar",
+        "description": "Scheduled meeting with Michael and Jason."
+      }
+    },
+    {
+      "task": "Put Zoho Sales IQ documentation together and discuss it with Jason on a call before the 12:30 call.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "google-docs",
+        "description": "Documentation outlining Zoho Sales IQ functionality."
+      }
+    },
+    {
+      "task": "Review and clean up the format of the CRM documentation and share it with Joe Furnari and Jason.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "google-docs",
+        "description": "Formatted CRM documentation shared with relevant stakeholders."
+      }
+    },
+    {
+      "task": "Have a conversation with Vinnie regarding bonus payments and concerns about job security.",
+      "owner": "Joe Furnari",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "other",
+        "description": "Resolution of concerns about bonus payments and job security."
+      }
+    }
+  ],
+  "topicsDiscussed": [
+    "crm-strategy",
+    "leadership-alignment",
+    "sales-pipeline",
+    "communication-style",
+    "crm-documentation",
+    "marketing-performance",
+    "seo-performance",
+    "company-culture",
+    "expenses",
+    "zoho-sales-iq",
+    "ad-spend",
+    "bonus-payments",
+    "job-security"
+  ],
+  "tensions": [
+    "Joe's concern about not being fully aligned with Jason on the CRM strategy.",
+    "Jason's defensiveness and disagreement with Michael's points.",
+    "Michael's frustration over past marketing issues and the performance of Honest SEO.",
+    "Michael's concern about Vinnie's aggressive communication style and job threats.",
+    "Michael's frustration with the manual lead source report and its impact on bonus payments.",
+    "Disagreement about appropriate level of process and simplicity for the CRM."
+  ],
+  "referencesToPast": [
+    "Mention of previous points made by Michael Donovan that Jason disagreed with.",
+    "Reference to a marketing standup meeting on May 20th.",
+    "Mention of previous conversation about Honest SEO being a revenue source.",
+    "Reference to a sales call/pipeline call on Monday.",
+    "Discussion of leads brought up last week.",
+    "The YouTube video view counts and the performance of Honest SEO (mentioned in the summary)."
+  ]
+}

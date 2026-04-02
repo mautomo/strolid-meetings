@@ -1,0 +1,97 @@
+{
+  "meetingId": "the-marketing-meeting-2026-03-31",
+  "title": "The Marketing Meeting",
+  "date": "2026-03-31",
+  "series": "The Marketing Meeting",
+  "type": "marketing",
+  "attendees": [
+    "Vinnie Micciche",
+    "Joe Furnari",
+    "Michael Donovan",
+    "Jason Branham",
+    "Paulo Trovao"
+  ],
+  "summary": "The team reviewed B2B buyer landscape shifts and their impact on marketing initiatives. The marketing team was directed to align messaging with current dealer challenges, leveraging data from form entries to develop campaigns, and to provide clear plans of action given frustration regarding lead generation pace.",
+  "decisions": [
+    {
+      "description": "The marketing team must align messaging with current dealer challenges (high turnover, response time), leveraging data from form entries to develop campaigns.",
+      "decidedBy": ["Vinnie Micciche", "Michael Donovan"],
+      "topic": "messaging-strategy",
+      "confidence": "firm"
+    },
+    {
+      "description": "Michael Donovan to create an outline for proposed value propositions, using a simple \"Yes or No\" approval format to ensure alignment.",
+      "decidedBy": ["Vinnie Micciche", "Michael Donovan"],
+      "topic": "content-creation",
+      "confidence": "firm"
+    }
+  ],
+  "actionItems": [
+    {
+      "task": "Share LinkedIn Ads: Deliver paid LinkedIn ad assets for group review and approval prior to activation in April.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "email",
+        "description": "LinkedIn ad assets are approved by the team and ready for activation in April."
+      }
+    },
+    {
+      "task": "Draft Content Outline: Send a fill-in-the-blank Yes/No outline of proposed value propositions and content ideas to Vinnie.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "email",
+        "description": "Vinnie approves content outline."
+      }
+    },
+    {
+      "task": "Review Social Posts: Review the new weekly social media posts shared by Paulo to ensure the adapted voice matches previous edits.",
+      "owner": "Vinnie Micciche",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "slack",
+        "description": "Social media posts are aligned with previous edits and ready for publishing."
+      }
+    },
+    {
+      "task": "Secure Email Approval: Ensure the email intended for Paul is secured for final approval.",
+      "owner": "Paulo Trovao",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "email",
+        "description": "Email is approved for distribution."
+      }
+    },
+    {
+      "task": "Send Dealer Data: Export and send the Zoho forms entries data containing dealer challenge feedback to Vinnie.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "email",
+        "description": "Vinnie receives data on dealer challenges."
+      }
+    }
+  ],
+  "topicsDiscussed": [
+    "b2b-buyer-behavior",
+    "customer-matching",
+    "linkedin-marketing",
+    "google-ads",
+    "account-based-marketing",
+    "lead-generation",
+    "content-creation",
+    "roi-calculator",
+    "value-proposition",
+    "dealer-challenges",
+    "messaging-strategy",
+    "lead-nurturing"
+  ],
+  "tensions": [
+    "Vinnie expressed frustration about the slow pace of lead generation.",
+    "Vinnie expressed concern that the content presented by Michael did not align with what had been shared over previous months."
+  ],
+  "referencesToPast": [
+    "Concern that content presented did not align with what had been shared over previous months."
+  ]
+}

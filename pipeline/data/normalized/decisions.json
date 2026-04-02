@@ -1,0 +1,2135 @@
+[
+  {
+    "id": "d-001",
+    "description": "Focus on the \"why\" behind portal usage to drive dealer adoption.",
+    "decidedBy": ["Vinnie Micciche"],
+    "meetingId": "product-roadmap-planning-2025-01-28",
+    "meetingDate": "2025-01-28",
+    "topic": "portal-user-engagement",
+    "confidence": "firm",
+    "supersededBy": "d-002"
+  },
+  {
+    "id": "d-002",
+    "description": "Leverage the diffusion of innovation theory to incentivize participation.",
+    "decidedBy": ["Michael Donovan"],
+    "meetingId": "product-roadmap-planning-2025-01-28",
+    "meetingDate": "2025-01-28",
+    "topic": "portal-user-engagement",
+    "confidence": "firm",
+    "supersedes": "d-001"
+  },
+  {
+    "id": "d-003",
+    "description": "Focus on improved onboarding and marketing campaigns.",
+    "decidedBy": ["Matt Watson"],
+    "meetingId": "product-roadmap-planning-2025-01-28",
+    "meetingDate": "2025-01-28",
+    "topic": "user-onboarding",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-004",
+    "description": "Explore product improvements to increase inherent value.",
+    "decidedBy": ["Matt Watson"],
+    "meetingId": "product-roadmap-planning-2025-01-28",
+    "meetingDate": "2025-01-28",
+    "topic": "product-improvement",
+    "confidence": "exploratory"
+  },
+  {
+    "id": "d-005",
+    "description": "Implement a pilot program with a small group of dealers to test and improve GPT.",
+    "decidedBy": ["Vinnie Micciche"],
+    "meetingId": "product-roadmap-planning-2025-01-28",
+    "meetingDate": "2025-01-28",
+    "topic": "gpt-pilot-program",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-006",
+    "description": "Use a \"karate school\" approach to training, where initial experts train more people.",
+    "decidedBy": ["Thomas Howe"],
+    "meetingId": "product-roadmap-planning-2025-01-28",
+    "meetingDate": "2025-01-28",
+    "topic": "internal-team-training",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-007",
+    "description": "Incorporate daily prompts that help managers track their daily tasks to improve usage and retention.",
+    "decidedBy": ["Thomas Howe"],
+    "meetingId": "product-roadmap-planning-2025-01-28",
+    "meetingDate": "2025-01-28",
+    "topic": "portal-usage",
+    "confidence": "tentative"
+  },
+  {
+    "id": "d-008",
+    "description": "Finalize the phone system transition by February 28th (pending contract).",
+    "decidedBy": ["Matt Watson", "Vinnie Micciche"],
+    "meetingId": "product-roadmap-planning-2025-02-04",
+    "meetingDate": "2025-02-04",
+    "topic": "phone-system-transition",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-009",
+    "description": "Integrate Crescendo (dependent on contract).",
+    "decidedBy": ["Matt Watson"],
+    "meetingId": "product-roadmap-planning-2025-02-04",
+    "meetingDate": "2025-02-04",
+    "topic": "crescendo-integration",
+    "confidence": "tentative"
+  },
+  {
+    "id": "d-010",
+    "description": "Prioritize dealer GPT feedback.",
+    "decidedBy": ["Matt Watson", "Vinnie Micciche"],
+    "meetingId": "product-roadmap-planning-2025-02-04",
+    "meetingDate": "2025-02-04",
+    "topic": "dealer-gpt-feedback",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-011",
+    "description": "Increase Sergey's hours.",
+    "decidedBy": ["Vinnie Micciche"],
+    "meetingId": "product-roadmap-planning-2025-02-04",
+    "meetingDate": "2025-02-04",
+    "topic": "resource-allocation",
+    "confidence": "tentative"
+  },
+  {
+    "id": "d-012",
+    "description": "Michael Donovan is now leading the CRM project.",
+    "decidedBy": ["Joe Furnari", "Michael Donovan"],
+    "meetingId": "1-on-1-joe-and-michael-2025-07-01",
+    "meetingDate": "2025-07-01",
+    "topic": "crm-project-leadership",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-013",
+    "description": "Present a unified leadership approach and recommendation for the CRM design to Vinnie.",
+    "decidedBy": ["Joe Furnari", "Michael Donovan"],
+    "meetingId": "1-on-1-joe-and-michael-2025-07-01",
+    "meetingDate": "2025-07-01",
+    "topic": "crm-design-presentation",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-014",
+    "description": "Joe will schedule a recurring weekly meeting to maintain momentum on the CRM project, with the first kickoff meeting outlining project objectives before the call with Zoho.",
+    "decidedBy": ["Joe Furnari"],
+    "meetingId": "1-on-1-joe-and-michael-2025-07-01",
+    "meetingDate": "2025-07-01",
+    "topic": "crm-project-meetings",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-015",
+    "description": "Michael Donovan will prepare CRM documentation and discuss the Zoho Sales IQ feature with Jason before their joint meeting.",
+    "decidedBy": ["Michael Donovan"],
+    "meetingId": "1-on-1-joe-and-michael-2025-07-01",
+    "meetingDate": "2025-07-01",
+    "topic": "crm-documentation",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-016",
+    "description": "Integrate Strolid AI with Viconic for an AI show in Amsterdam, with plans to eventually bring Strolid AI fully into the Strolid brand.",
+    "decidedBy": ["Michael Donovan"],
+    "meetingId": "jason-michael-2025-09-16",
+    "meetingDate": "2025-09-16",
+    "topic": "strolid-ai-integration",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-017",
+    "description": "Rebuild the Strolid marketing team with a focus on data-driven approaches and transparency.",
+    "decidedBy": ["Michael Donovan"],
+    "meetingId": "jason-michael-2025-09-16",
+    "meetingDate": "2025-09-16",
+    "topic": "marketing-team-rebuild",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-018",
+    "description": "Align marketing and sales to transition from lead generation to account-based marketing and experience.",
+    "decidedBy": ["Michael Donovan"],
+    "meetingId": "jason-michael-2025-09-16",
+    "meetingDate": "2025-09-16",
+    "topic": "marketing-sales-alignment",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-019",
+    "description": "Use the BDC app as an olive branch to Edwin.",
+    "decidedBy": ["Michael Donovan"],
+    "meetingId": "jason-michael-2025-09-16",
+    "meetingDate": "2025-09-16",
+    "topic": "bdc-app-edwin",
+    "confidence": "tentative"
+  },
+  {
+    "id": "d-020",
+    "description": "Proceed with dashboards, including one for service.",
+    "decidedBy": ["Michael Donovan", "Jason Branham"],
+    "meetingId": "jason-michael-2025-09-16",
+    "meetingDate": "2025-09-16",
+    "topic": "service-dashboards",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-021",
+    "description": "Michael Donovan will get with Reed to get the tag manager done for the Rainbow store.",
+    "decidedBy": ["Michael Donovan"],
+    "meetingId": "jason-michael-2025-09-16",
+    "meetingDate": "2025-09-16",
+    "topic": "tag-manager-setup",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-022",
+    "description": "Use a simple task list for project documentation instead of a complex workflow, including details like concepts, messages, due dates, and linked files.",
+    "decidedBy": ["Michael Donovan"],
+    "meetingId": "homepage-hero-session-2025-09-23",
+    "meetingDate": "2025-09-23",
+    "topic": "project-documentation",
+    "confidence": "firm",
+    "supersededBy": "d-023"
+  },
+  {
+    "id": "d-023",
+    "description": "Michael Donovan will set Ziad Al Khatib as the default for multiple selections in the task list.",
+    "decidedBy": ["Michael Donovan"],
+    "meetingId": "homepage-hero-session-2025-09-23",
+    "meetingDate": "2025-09-23",
+    "topic": "project-documentation",
+    "confidence": "firm",
+    "supersedes": "d-022"
+  },
+  {
+    "id": "d-024",
+    "description": "Ziad Al Khatib will send Michael Donovan the click path and prompt used for Gemini images.",
+    "decidedBy": ["Ziad Al Khatib"],
+    "meetingId": "homepage-hero-session-2025-09-23",
+    "meetingDate": "2025-09-23",
+    "topic": "image-generation",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-025",
+    "description": "Explore modern web trends, hero backgrounds, and gradients to find starting points for visual design.",
+    "decidedBy": ["Michael Donovan", "Ziad Al Khatib"],
+    "meetingId": "homepage-hero-session-2025-09-23",
+    "meetingDate": "2025-09-23",
+    "topic": "design-research",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-026",
+    "description": "Ziad Al Khatib will do independent research and then request examples from Invado or award-winning websites from 2025.",
+    "decidedBy": ["Ziad Al Khatib"],
+    "meetingId": "homepage-hero-session-2025-09-23",
+    "meetingDate": "2025-09-23",
+    "topic": "design-inspiration",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-027",
+    "description": "Ziad Al Khatib will take some time to get the design dialed in to their standard and show Michael Donovan what that is.",
+    "decidedBy": ["Ziad Al Khatib"],
+    "meetingId": "homepage-hero-session-2025-09-23",
+    "meetingDate": "2025-09-23",
+    "topic": "design-standards",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-028",
+    "description": "Claude Hayn plans to integrate their current website into a new communication suite, migrating off WordPress.",
+    "decidedBy": ["Claude Hayn"],
+    "meetingId": "tech-process-and-product-review-2025-09-24",
+    "meetingDate": "2025-09-24",
+    "topic": "website-integration",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-029",
+    "description": "Claude Hayn will integrate Michael Donovan's marketing platform capabilities into their communication suite.",
+    "decidedBy": ["Claude Hayn"],
+    "meetingId": "tech-process-and-product-review-2025-09-24",
+    "meetingDate": "2025-09-24",
+    "topic": "marketing-platform-integration",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-030",
+    "description": "Claude Hayn plans to integrate Fonoster into their communication suite.",
+    "decidedBy": ["Claude Hayn"],
+    "meetingId": "tech-process-and-product-review-2025-09-24",
+    "meetingDate": "2025-09-24",
+    "topic": "fonoster-integration",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-031",
+    "description": "Audrey and Claude Hayn will explore Michael Donovan's marketing automation platform as a closed beta resource.",
+    "decidedBy": ["Audrey Hayn", "Claude Hayn"],
+    "meetingId": "tech-process-and-product-review-2025-09-24",
+    "meetingDate": "2025-09-24",
+    "topic": "platform-exploration",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-032",
+    "description": "Follow up on the call note pushing capability for Drive Centric CRM integration.",
+    "decidedBy": ["Matt Watson"],
+    "meetingId": "active-pipeline-review-2025-10-02",
+    "meetingDate": "2025-10-02",
+    "topic": "crm-integration",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-033",
+    "description": "Moved the portal link from the bottom to the top of the note within the VIN Solutions CRM to make it clickable.",
+    "decidedBy": ["Sergey Lyapustin"],
+    "meetingId": "active-pipeline-review-2025-10-02",
+    "meetingDate": "2025-10-02",
+    "topic": "vin-solutions-integration",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-034",
+    "description": "Create a bot to scrape OEM call notes data directly from Dealer Socket CRM.",
+    "decidedBy": ["Matt Watson", "Polly's team"],
+    "meetingId": "active-pipeline-review-2025-10-02",
+    "meetingDate": "2025-10-02",
+    "topic": "dealer-socket-integration",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-035",
+    "description": "Notify the client success person when a dealer user without a portal login attempts to access the portal through a call note link.",
+    "decidedBy": ["Matt Watson"],
+    "meetingId": "active-pipeline-review-2025-10-02",
+    "meetingDate": "2025-10-02",
+    "topic": "portal-onboarding",
+    "confidence": "tentative",
+    "supersededBy": "d-036"
+  },
+  {
+    "id": "d-036",
+    "description": "Prioritize building an onboarding flow for new portal users.",
+    "decidedBy": ["Sergey Lyapustin", "Matt Watson"],
+    "meetingId": "active-pipeline-review-2025-10-02",
+    "meetingDate": "2025-10-02",
+    "topic": "portal-onboarding",
+    "confidence": "firm",
+    "supersedes": "d-035"
+  },
+  {
+    "id": "d-037",
+    "description": "Matt Watson will create a visual write-up for Jason Branham's team regarding portal access to call records.",
+    "decidedBy": ["Matt Watson"],
+    "meetingId": "the-marketing-meeting-2025-10-21",
+    "meetingDate": "2025-10-21",
+    "topic": "call-records-portal-access",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-038",
+    "description": "Initiate a pilot program for LinkedIn posts featuring Reed and Gus, publishing two posts per week for three weeks, focusing on human-centric interactions in sales.",
+    "decidedBy": ["Michael Donovan"],
+    "meetingId": "the-marketing-meeting-2025-10-21",
+    "meetingDate": "2025-10-21",
+    "topic": "linkedin-pilot-program",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-039",
+    "description": "Team members should share, like, or comment on each other's LinkedIn posts instead of direct duplication.",
+    "decidedBy": ["Michael Donovan"],
+    "meetingId": "the-marketing-meeting-2025-10-21",
+    "meetingDate": "2025-10-21",
+    "topic": "linkedin-post-engagement",
+    "confidence": "tentative"
+  },
+  {
+    "id": "d-040",
+    "description": "Develop a chatbot to assist car dealerships in answering customer inquiries, with human intervention for complex questions, using a \"human-led, AI-assisted\" approach.",
+    "decidedBy": ["Vinnie Micciche", "Michael Donovan"],
+    "meetingId": "the-marketing-meeting-2025-10-21",
+    "meetingDate": "2025-10-21",
+    "topic": "chatbot-development",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-041",
+    "description": "Michael Donovan will change the wording on messaging topic number three to reflect focusing on 'new car buyers' or 'new car customers ready to buy' instead of 'new car shoppers'.",
+    "decidedBy": ["Michael Donovan"],
+    "meetingId": "the-marketing-meeting-2025-10-21",
+    "meetingDate": "2025-10-21",
+    "topic": "messaging-refinement",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-042",
+    "description": "Set the weekly meeting between Michael and Joe back to 10:00 AM ongoing.",
+    "decidedBy": ["Michael Donovan"],
+    "meetingId": "the-marketing-meeting-2025-10-21",
+    "meetingDate": "2025-10-21",
+    "topic": "meeting-schedule",
+    "confidence": "firm",
+    "supersededBy": "d-206"
+  },
+  {
+    "id": "d-043",
+    "description": "Michael Donovan will provide a visual, password-protected staging version of the website for Perry Evans to review.",
+    "decidedBy": ["Michael Donovan"],
+    "meetingId": "vconic-priority-content-update-2025-10-24",
+    "meetingDate": "2025-10-24",
+    "topic": "website-development",
+    "confidence": "firm",
+    "supersededBy": "d-044"
+  },
+  {
+    "id": "d-044",
+    "description": "Perry Evans will assess the staging website version and decide whether to dedicate three weeks to the website with a focus on LinkedIn, or spend the next week iterating on the website for a refined draft.",
+    "decidedBy": ["Perry Evans"],
+    "meetingId": "vconic-priority-content-update-2025-10-24",
+    "meetingDate": "2025-10-24",
+    "topic": "website-development",
+    "confidence": "tentative",
+    "supersedes": "d-043"
+  },
+  {
+    "id": "d-045",
+    "description": "Michael Donovan will have LinkedIn assets ready to align with Vinnie's priority for immediate launch and social media development.",
+    "decidedBy": ["Michael Donovan"],
+    "meetingId": "vconic-priority-content-update-2025-10-24",
+    "meetingDate": "2025-10-24",
+    "topic": "linkedin-strategy",
+    "confidence": "firm",
+    "supersededBy": "d-046"
+  },
+  {
+    "id": "d-046",
+    "description": "LinkedIn project is put in a secondary stage, focusing on hero images, profile banners, and post templates.",
+    "decidedBy": ["Perry Evans", "Michael Donovan"],
+    "meetingId": "vconic-priority-content-update-2025-10-24",
+    "meetingDate": "2025-10-24",
+    "topic": "linkedin-strategy",
+    "confidence": "firm",
+    "supersedes": "d-045",
+    "supersededBy": "d-069"
+  },
+  {
+    "id": "d-047",
+    "description": "To wait a few minutes for Vinnie Micciche to join the meeting.",
+    "decidedBy": ["Joe Furnari", "Michael Donovan"],
+    "meetingId": "the-marketing-meeting-2025-10-28",
+    "meetingDate": "2025-10-28",
+    "topic": "meeting-rescheduling",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-048",
+    "description": "To include \"a Strolid adventure\" in the footer of the Viconic site and anchor it with a high-value keyword like \"conversational data\".",
+    "decidedBy": ["Michael Donovan", "Vinnie Micciche"],
+    "meetingId": "the-marketing-meeting-2025-10-28",
+    "meetingDate": "2025-10-28",
+    "topic": "viconic-site-integration",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-049",
+    "description": "To not include competitive analysis with pricing details in marketing content.",
+    "decidedBy": ["Vinnie Micciche"],
+    "meetingId": "the-marketing-meeting-2025-10-28",
+    "meetingDate": "2025-10-28",
+    "topic": "competitive-analysis-messaging",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-050",
+    "description": "Michael Donovan will send Vinnie Micciche all the carousel posts for review and feedback.",
+    "decidedBy": ["Michael Donovan", "Joe Furnari"],
+    "meetingId": "the-marketing-meeting-2025-10-28",
+    "meetingDate": "2025-10-28",
+    "topic": "marketing-content-review",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-051",
+    "description": "Content requirements should include \"fact check quantitative metrics and statistics\" and \"Punchy lines\".",
+    "decidedBy": ["Michael Donovan", "Ziad Al Khatib"],
+    "meetingId": "weekly-marketing-planning-goals-2025-11-10",
+    "meetingDate": "2025-11-10",
+    "topic": "content-requirements",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-052",
+    "description": "Content length for Facebook should optionally include a limit of 250 characters.",
+    "decidedBy": ["Michael Donovan", "Ziad Al Khatib"],
+    "meetingId": "weekly-marketing-planning-goals-2025-11-10",
+    "meetingDate": "2025-11-10",
+    "topic": "content-length",
+    "confidence": "tentative"
+  },
+  {
+    "id": "d-053",
+    "description": "Remove the example output to reduce the file size.",
+    "decidedBy": ["Michael Donovan"],
+    "meetingId": "weekly-marketing-planning-goals-2025-11-10",
+    "meetingDate": "2025-11-10",
+    "topic": "file-size-reduction",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-054",
+    "description": "Past creative posts to be provided in PDF format.",
+    "decidedBy": ["Michael Donovan"],
+    "meetingId": "weekly-marketing-planning-goals-2025-11-10",
+    "meetingDate": "2025-11-10",
+    "topic": "document-format",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-055",
+    "description": "Incorporate Vinnie Micciche's feedback on tone into subsequent social media posts.",
+    "decidedBy": ["Michael Donovan", "Ziad Al Khatib"],
+    "meetingId": "the-marketing-meeting-2025-11-11",
+    "meetingDate": "2025-11-11",
+    "topic": "social-media-content",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-056",
+    "description": "Automate all leads overnight to improve lead handling and address OEM shop lead requirements.",
+    "decidedBy": ["Vinnie Micciche"],
+    "meetingId": "the-marketing-meeting-2025-11-11",
+    "meetingDate": "2025-11-11",
+    "topic": "lead-automation",
+    "confidence": "tentative"
+  },
+  {
+    "id": "d-057",
+    "description": "Prioritize features for the dealer portal that affect the company's people, the dealers, and the customer experience.",
+    "decidedBy": ["Vinnie Micciche"],
+    "meetingId": "the-marketing-meeting-2025-11-11",
+    "meetingDate": "2025-11-11",
+    "topic": "dealer-portal-development",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-058",
+    "description": "Focus on agentic AI observability, tracking human-bot conversations.",
+    "decidedBy": ["Perry Evans", "Michael Donovan"],
+    "meetingId": "vconic-site-content-2025-11-20",
+    "meetingDate": "2025-11-20",
+    "topic": "agentic-ai-observability",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-059",
+    "description": "Accelerate the VCon standard through engagement with Anthropic, IETF, J, and Joe Hildebrand.",
+    "decidedBy": ["Perry Evans"],
+    "meetingId": "vconic-site-content-2025-11-20",
+    "meetingDate": "2025-11-20",
+    "topic": "vcon-standard",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-060",
+    "description": "Refine hero messaging to ensure VConic is recognized as the creator and educator of VCon.",
+    "decidedBy": ["Perry Evans"],
+    "meetingId": "vconic-site-content-2025-11-20",
+    "meetingDate": "2025-11-20",
+    "topic": "messaging-strategy",
+    "confidence": "firm",
+    "supersededBy": "d-079"
+  },
+  {
+    "id": "d-061",
+    "description": "Prioritize the BPO market over the telecom opportunity.",
+    "decidedBy": ["Perry Evans", "Michael Donovan"],
+    "meetingId": "vconic-site-content-2025-11-20",
+    "meetingDate": "2025-11-20",
+    "topic": "market-prioritization",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-062",
+    "description": "Create explainer video content, framing it around a hero's journey where the BPO is the 'Skywalker' and VConic is the mentor.",
+    "decidedBy": ["Perry Evans"],
+    "meetingId": "vconic-site-content-2025-11-20",
+    "meetingDate": "2025-11-20",
+    "topic": "video-content",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-063",
+    "description": "Pursue a clean white style for the website to align with the \"hygiene theme of the business.\"",
+    "decidedBy": ["Perry Evans"],
+    "meetingId": "vconic-site-content-2025-11-20",
+    "meetingDate": "2025-11-20",
+    "topic": "visual-design",
+    "confidence": "tentative"
+  },
+  {
+    "id": "d-064",
+    "description": "Establish VConic Labs as a distinct space to house open-source activities and a partner program, separate from the enterprise story.",
+    "decidedBy": ["Perry Evans", "Michael Donovan"],
+    "meetingId": "vconic-site-content-2025-11-20",
+    "meetingDate": "2025-11-20",
+    "topic": "vconic-labs",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-065",
+    "description": "Michael Donovan will schedule time with Jason Branham to review and align the updated sales deck with a more modern aesthetic.",
+    "decidedBy": ["Michael Donovan", "Jason Branham"],
+    "meetingId": "the-marketing-meeting-2025-11-25",
+    "meetingDate": "2025-11-25",
+    "topic": "sales-deck-update",
+    "confidence": "firm",
+    "supersededBy": "d-066"
+  },
+  {
+    "id": "d-066",
+    "description": "Michael Donovan will build out the template for the updated aesthetic sales deck so that the team can utilize it.",
+    "decidedBy": ["Michael Donovan"],
+    "meetingId": "the-marketing-meeting-2025-11-25",
+    "meetingDate": "2025-11-25",
+    "topic": "sales-deck-update",
+    "confidence": "firm",
+    "supersedes": "d-065"
+  },
+  {
+    "id": "d-067",
+    "description": "Michael Donovan will prioritize optimizing the landing page for both paid and social traffic as part of the new, more adaptive site.",
+    "decidedBy": ["Michael Donovan"],
+    "meetingId": "the-marketing-meeting-2025-11-25",
+    "meetingDate": "2025-11-25",
+    "topic": "landing-page-optimization",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-068",
+    "description": "Michael Donovan will examine the data from November 10th, identified as the best efficiency day.",
+    "decidedBy": ["Michael Donovan"],
+    "meetingId": "the-marketing-meeting-2025-11-25",
+    "meetingDate": "2025-11-25",
+    "topic": "efficiency-analysis",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-069",
+    "description": "Increase the frequency of carousel posts on LinkedIn from once a week to potentially twice a week.",
+    "decidedBy": ["Michael Donovan"],
+    "meetingId": "the-marketing-meeting-2025-11-25",
+    "meetingDate": "2025-11-25",
+    "topic": "linkedin-strategy",
+    "confidence": "tentative",
+    "supersedes": "d-046",
+    "supersededBy": "d-197"
+  },
+  {
+    "id": "d-070",
+    "description": "Team will develop a strong lead magnet, aimed at low-funnel or problem-solving mode users, offering value in exchange for contact information.",
+    "decidedBy": ["Michael Donovan", "Matt Watson", "Jason Branham"],
+    "meetingId": "the-marketing-meeting-2025-11-25",
+    "meetingDate": "2025-11-25",
+    "topic": "lead-magnet-creation",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-071",
+    "description": "The team will explore a \"lead provider scorecard\" as a potential lead magnet content.",
+    "decidedBy": ["Matt Watson", "Jason Branham"],
+    "meetingId": "the-marketing-meeting-2025-11-25",
+    "meetingDate": "2025-11-25",
+    "topic": "lead-magnet-content",
+    "confidence": "exploratory"
+  },
+  {
+    "id": "d-072",
+    "description": "Michael Donovan will address multiple critical things simultaneously, working on improving website traffic quality (via negative keywords) and developing a compelling lead magnet in parallel.",
+    "decidedBy": ["Michael Donovan"],
+    "meetingId": "the-marketing-meeting-2025-11-25",
+    "meetingDate": "2025-11-25",
+    "topic": "marketing-priorities",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-073",
+    "description": "Vinnie Micciche will review the restructured website content first before meeting to discuss it.",
+    "decidedBy": ["Vinnie Micciche"],
+    "meetingId": "the-marketing-meeting-2025-11-25",
+    "meetingDate": "2025-11-25",
+    "topic": "content-review",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-074",
+    "description": "Z was terminated from the organization due to a lack of alignment on capabilities and knowledge, and unsustainable content production.",
+    "decidedBy": ["Michael Donovan", "Vinnie Micciche"],
+    "meetingId": "the-marketing-meeting-2025-12-02",
+    "meetingDate": "2025-12-02",
+    "topic": "employee-termination",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-075",
+    "description": "Christina will be brought in temporarily to help with marketing.",
+    "decidedBy": ["Vinnie Micciche"],
+    "meetingId": "the-marketing-meeting-2025-12-02",
+    "meetingDate": "2025-12-02",
+    "topic": "temporary-staffing",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-076",
+    "description": "Christina's scope of work will include the newsletter, Slack updates, and landing pages.",
+    "decidedBy": ["Michael Donovan", "Vinnie Micciche"],
+    "meetingId": "the-marketing-meeting-2025-12-02",
+    "meetingDate": "2025-12-02",
+    "topic": "christina-role",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-077",
+    "description": "Content strategy will focus on new technology and the company's shift toward automation.",
+    "decidedBy": ["Vinnie Micciche"],
+    "meetingId": "the-marketing-meeting-2025-12-02",
+    "meetingDate": "2025-12-02",
+    "topic": "content-strategy",
+    "confidence": "firm",
+    "supersededBy": "d-092"
+  },
+  {
+    "id": "d-078",
+    "description": "Repost top-performing content from the last 60-90 days or from quarters 1 & 2 as a short-term solution for social posts.",
+    "decidedBy": ["Michael Donovan"],
+    "meetingId": "the-marketing-meeting-2025-12-02",
+    "meetingDate": "2025-12-02",
+    "topic": "social-post-strategy",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-079",
+    "description": "Michael Donovan will refine social posts to be more in-your-face and low-funnel for lead generation.",
+    "decidedBy": ["Michael Donovan"],
+    "meetingId": "michael-and-vin-continuation-2025-12-03",
+    "meetingDate": "2025-12-03",
+    "topic": "messaging-strategy",
+    "confidence": "firm",
+    "supersedes": "d-060",
+    "supersededBy": "d-082"
+  },
+  {
+    "id": "d-080",
+    "description": "Michael Donovan will contact Perry regarding the Viconic website progress.",
+    "decidedBy": ["Michael Donovan", "Vinnie Micciche"],
+    "meetingId": "michael-and-vin-continuation-2025-12-03",
+    "meetingDate": "2025-12-03",
+    "topic": "website-refresh",
+    "confidence": "firm",
+    "supersededBy": "d-117"
+  },
+  {
+    "id": "d-081",
+    "description": "Vinnie Micciche will send content ideas to Michael Donovan for posting on Wednesday or Thursday.",
+    "decidedBy": ["Vinnie Micciche"],
+    "meetingId": "michael-and-vin-continuation-2025-12-03",
+    "meetingDate": "2025-12-03",
+    "topic": "content-creation",
+    "confidence": "firm",
+    "supersededBy": "d-087"
+  },
+  {
+    "id": "d-082",
+    "description": "Marketing should translate ideas into messaging, focusing on velocity, brand guidelines, messaging, and leads.",
+    "decidedBy": ["Vinnie Micciche"],
+    "meetingId": "michael-and-vin-continuation-2025-12-03",
+    "meetingDate": "2025-12-03",
+    "topic": "messaging-strategy",
+    "confidence": "firm",
+    "supersedes": "d-079",
+    "supersededBy": "d-083"
+  },
+  {
+    "id": "d-083",
+    "description": "Messaging must be relevant to the company's direction.",
+    "decidedBy": ["Vinnie Micciche"],
+    "meetingId": "michael-and-vin-continuation-2025-12-03",
+    "meetingDate": "2025-12-03",
+    "topic": "messaging-strategy",
+    "confidence": "firm",
+    "supersedes": "d-082",
+    "supersededBy": "d-084"
+  },
+  {
+    "id": "d-084",
+    "description": "Michael Donovan will immediately refine social posts to be more in-your-face and low-funnel.",
+    "decidedBy": ["Michael Donovan"],
+    "meetingId": "michael-and-vin-continuation-2025-12-03",
+    "meetingDate": "2025-12-03",
+    "topic": "messaging-strategy",
+    "confidence": "firm",
+    "supersedes": "d-083",
+    "supersededBy": "d-086"
+  },
+  {
+    "id": "d-085",
+    "description": "Michael Donovan should focus on lead generation rather than building the marketing 'engine'.",
+    "decidedBy": ["Vinnie Micciche"],
+    "meetingId": "michael-and-vin-continuation-2025-12-03",
+    "meetingDate": "2025-12-03",
+    "topic": "lead-generation",
+    "confidence": "firm",
+    "supersededBy": "d-138"
+  },
+  {
+    "id": "d-086",
+    "description": "Michael Donovan will \"tone down\" the marketing messaging to be less complex and more direct for the target audience of \"car guys.\"",
+    "decidedBy": ["Michael Donovan", "Vinnie Micciche"],
+    "meetingId": "michael-and-vin-continuation-2025-12-03",
+    "meetingDate": "2025-12-03",
+    "topic": "messaging-strategy",
+    "confidence": "firm",
+    "supersedes": "d-084",
+    "supersededBy": "d-094"
+  },
+  {
+    "id": "d-087",
+    "description": "Michael Donovan will send out whatever posts they have immediately, emphasizing the need for speed.",
+    "decidedBy": ["Michael Donovan"],
+    "meetingId": "michael-and-vin-continuation-2025-12-03",
+    "meetingDate": "2025-12-03",
+    "topic": "content-creation",
+    "confidence": "firm",
+    "supersedes": "d-081",
+    "supersededBy": "d-220"
+  },
+  {
+    "id": "d-088",
+    "description": "Michael Donovan agrees with Christina's proposed flat fee for newsletter work.",
+    "decidedBy": ["Michael Donovan"],
+    "meetingId": "vin-and-michael-2025-12-03",
+    "meetingDate": "2025-12-03",
+    "topic": "newsletter-proposal",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-089",
+    "description": "Michael Donovan to stop working on the Viconic website until Perry gives very clear direction.",
+    "decidedBy": ["Vinnie Micciche"],
+    "meetingId": "vin-and-michael-2025-12-03",
+    "meetingDate": "2025-12-03",
+    "topic": "viconic-website",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-090",
+    "description": "Vinnie Micciche suggests separating and offers Michael Donovan a consulting role.",
+    "decidedBy": ["Vinnie Micciche"],
+    "meetingId": "vin-and-michael-2025-12-03",
+    "meetingDate": "2025-12-03",
+    "topic": "employment-separation",
+    "confidence": "tentative"
+  },
+  {
+    "id": "d-091",
+    "description": "Michael Donovan temporarily paid the $40 charge for Perplexity to resolve the immediate lockout.",
+    "decidedBy": ["Michael Donovan"],
+    "meetingId": "joe-and-michael-catch-up-2025-12-04",
+    "meetingDate": "2025-12-04",
+    "topic": "perplexity-payment",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-092",
+    "description": "Focus on one big content idea per month.",
+    "decidedBy": ["Michael Donovan"],
+    "meetingId": "joe-and-michael-catch-up-2025-12-04",
+    "meetingDate": "2025-12-04",
+    "topic": "content-strategy",
+    "confidence": "firm",
+    "supersedes": "d-077"
+  },
+  {
+    "id": "d-093",
+    "description": "Adopt the term \"automotive co-pilot\" to describe the technology, emphasizing the AI coaching human approach.",
+    "decidedBy": ["Vin Micciche", "Michael Donovan", "Jason Branham"],
+    "meetingId": "call-with-michael-2025-12-05",
+    "meetingDate": "2025-12-05",
+    "topic": "technology-terminology",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-094",
+    "description": "Adopt Vinnie Micciche's messaging focused on speed, efficiency, and advanced technology for marketing content.",
+    "decidedBy": ["Vin Micciche", "Michael Donovan"],
+    "meetingId": "call-with-michael-2025-12-05",
+    "meetingDate": "2025-12-05",
+    "topic": "messaging-strategy",
+    "confidence": "firm",
+    "supersedes": "d-086",
+    "supersededBy": "d-097"
+  },
+  {
+    "id": "d-095",
+    "description": "Shift business focus to larger dealer groups and OEMs to secure more stable, long-term contracts.",
+    "decidedBy": ["Vin Micciche"],
+    "meetingId": "call-with-michael-2025-12-05",
+    "meetingDate": "2025-12-05",
+    "topic": "buyer-targeting",
+    "confidence": "firm",
+    "supersededBy": "d-171"
+  },
+  {
+    "id": "d-096",
+    "description": "Generate two weeks' worth of social media posts for review before proceeding with automation.",
+    "decidedBy": ["Joe Furnari", "Vinnie Micciche"],
+    "meetingId": "the-marketing-meeting-2025-12-10",
+    "meetingDate": "2025-12-10",
+    "topic": "content-review-approval",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-097",
+    "description": "Focus messaging on helping dealers who don't know how to use AI, positioning Strawid as the expert.",
+    "decidedBy": ["Thomas Howe", "Vinnie Micciche"],
+    "meetingId": "the-marketing-meeting-2025-12-10",
+    "meetingDate": "2025-12-10",
+    "topic": "messaging-strategy",
+    "confidence": "firm",
+    "supersedes": "d-094",
+    "supersededBy": "d-105"
+  },
+  {
+    "id": "d-098",
+    "description": "Immediately grant agents access to GPT in the portal/dialer.",
+    "decidedBy": ["Vin Micciche", "Shawna Behen", "Don"],
+    "meetingId": "strolid-leadership-call-2025-12-15",
+    "meetingDate": "2025-12-15",
+    "topic": "agent-access-to-gpt",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-099",
+    "description": "Focus key development priorities on finishing Sophia reporting, implementing VA, and building the website widget.",
+    "decidedBy": ["Vin Micciche"],
+    "meetingId": "strolid-leadership-call-2025-12-15",
+    "meetingDate": "2025-12-15",
+    "topic": "development-priorities",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-100",
+    "description": "Marketing messaging will emphasize the company's AI capabilities.",
+    "decidedBy": ["Vin Micciche"],
+    "meetingId": "strolid-leadership-call-2025-12-15",
+    "meetingDate": "2025-12-15",
+    "topic": "marketing-messaging-strategy",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-101",
+    "description": "Vinnie Micciche will review and update the company's profile page on the V20 marketplace, focusing on BDC and new AI capabilities.",
+    "decidedBy": ["Vinnie Micciche"],
+    "meetingId": "the-marketing-meeting-2025-12-16",
+    "meetingDate": "2025-12-16",
+    "topic": "v20-marketplace-update",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-102",
+    "description": "Promote capabilities of new and future AI products (e.g., inbound and outbound Sophia) even if not fully ready, to attract customers and communicate the product roadmap.",
+    "decidedBy": ["Vinnie Micciche", "Jason Branham", "Harinder Bhinder"],
+    "meetingId": "the-marketing-meeting-2025-12-16",
+    "meetingDate": "2025-12-16",
+    "topic": "ai-roadmap-promotion",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-103",
+    "description": "Enhance the existing website content related to inbound (Vita), outbound (Sophia), the co-pilot/bot chat, and conversational AI/analytics.",
+    "decidedBy": ["Vinnie Micciche"],
+    "meetingId": "marketing-90-day-prioritization-2025-12-23",
+    "meetingDate": "2025-12-23",
+    "topic": "website-content-update",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-104",
+    "description": "Focus on adding more content to the existing website instead of waiting for the new website launch due to the upcoming NAEDC event.",
+    "decidedBy": ["Vinnie Micciche"],
+    "meetingId": "marketing-90-day-prioritization-2025-12-23",
+    "meetingDate": "2025-12-23",
+    "topic": "website-strategy",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-105",
+    "description": "Structure the marketing messaging into three lanes: dealer visibility/operational clarity; speed/flow/follow-up engineering; and AI/human co-pilot/dealer brain.",
+    "decidedBy": ["Michael Donovan"],
+    "meetingId": "marketing-90-day-prioritization-2025-12-23",
+    "meetingDate": "2025-12-23",
+    "topic": "messaging-strategy",
+    "confidence": "tentative",
+    "supersedes": "d-097",
+    "supersededBy": "d-121"
+  },
+  {
+    "id": "d-106",
+    "description": "The four core building blocks/differentiators for messaging will be: inbound (Vita), outbound (Sophia), the co-pilot/bot chat, and conversational AI/analytics.",
+    "decidedBy": ["Joe Furnari", "Vinnie Micciche"],
+    "meetingId": "marketing-90-day-prioritization-2025-12-23",
+    "meetingDate": "2025-12-23",
+    "topic": "messaging-framework",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-107",
+    "description": "Automate the newsletter content request via Slack.",
+    "decidedBy": ["Michael Donovan", "Kristina Cvitko"],
+    "meetingId": "website-planning-session-2025-12-29",
+    "meetingDate": "2025-12-29",
+    "topic": "newsletter-process",
+    "confidence": "firm",
+    "supersededBy": "d-108"
+  },
+  {
+    "id": "d-108",
+    "description": "Use a huddle format for the newsletter team (Natalie, Kristina, Michael) to confirm deadlines and discuss progress.",
+    "decidedBy": ["Michael Donovan", "Kristina Cvitko"],
+    "meetingId": "website-planning-session-2025-12-29",
+    "meetingDate": "2025-12-29",
+    "topic": "newsletter-process",
+    "confidence": "firm",
+    "supersedes": "d-107",
+    "supersededBy": "d-109"
+  },
+  {
+    "id": "d-109",
+    "description": "Obtain final newsletter approval from Vin or Shauna.",
+    "decidedBy": ["Michael Donovan", "Kristina Cvitko"],
+    "meetingId": "website-planning-session-2025-12-29",
+    "meetingDate": "2025-12-29",
+    "topic": "newsletter-process",
+    "confidence": "firm",
+    "supersedes": "d-108"
+  },
+  {
+    "id": "d-110",
+    "description": "Implement a \"fresh start\" for the website, installing only necessary plugins and extensions.",
+    "decidedBy": ["Michael Donovan"],
+    "meetingId": "website-planning-session-2025-12-29",
+    "meetingDate": "2025-12-29",
+    "topic": "website-redesign",
+    "confidence": "firm",
+    "supersededBy": "d-111"
+  },
+  {
+    "id": "d-111",
+    "description": "Kristina Cvitko will dedicate the time typically spent on her three monthly pages (lead magnet, product, article) to assist with the WordPress site redesign, plugins, and overall improvement.",
+    "decidedBy": ["Kristina Cvitko"],
+    "meetingId": "website-planning-session-2025-12-29",
+    "meetingDate": "2025-12-29",
+    "topic": "website-redesign",
+    "confidence": "firm",
+    "supersedes": "d-110",
+    "supersededBy": "d-112"
+  },
+  {
+    "id": "d-112",
+    "description": "Create a new staging environment for the website.",
+    "decidedBy": ["Michael Donovan", "Kristina Cvitko"],
+    "meetingId": "website-planning-session-2025-12-29",
+    "meetingDate": "2025-12-29",
+    "topic": "website-redesign",
+    "confidence": "firm",
+    "supersedes": "d-111",
+    "supersededBy": "d-113"
+  },
+  {
+    "id": "d-113",
+    "description": "Install a new, reputable theme for the website.",
+    "decidedBy": ["Michael Donovan", "Kristina Cvitko"],
+    "meetingId": "website-planning-session-2025-12-29",
+    "meetingDate": "2025-12-29",
+    "topic": "website-redesign",
+    "confidence": "firm",
+    "supersedes": "d-112",
+    "supersededBy": "d-114"
+  },
+  {
+    "id": "d-114",
+    "description": "Migrate existing website content using a local Docker instance with a Claude plugin.",
+    "decidedBy": ["Michael Donovan"],
+    "meetingId": "website-planning-session-2025-12-29",
+    "meetingDate": "2025-12-29",
+    "topic": "website-redesign",
+    "confidence": "firm",
+    "supersedes": "d-113",
+    "supersededBy": "d-116"
+  },
+  {
+    "id": "d-115",
+    "description": "Aim for a performance score of 90 plus on the redesigned website.",
+    "decidedBy": ["Michael Donovan"],
+    "meetingId": "website-planning-session-2025-12-29",
+    "meetingDate": "2025-12-29",
+    "topic": "website-performance",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-116",
+    "description": "Loop Vin in on the website redesign plan.",
+    "decidedBy": ["Michael Donovan", "Kristina Cvitko"],
+    "meetingId": "website-planning-session-2025-12-29",
+    "meetingDate": "2025-12-29",
+    "topic": "website-redesign",
+    "confidence": "firm",
+    "supersedes": "d-114"
+  },
+  {
+    "id": "d-117",
+    "description": "Michael Donovan will approach website development in two phases: a quick refresh for Vinnie and a strategic buildout for Michael's infrastructure plan.",
+    "decidedBy": ["Joe Furnari", "Michael Donovan"],
+    "meetingId": "joe-and-michael-reconnect-2025-12-30",
+    "meetingDate": "2025-12-30",
+    "topic": "website-refresh",
+    "confidence": "firm",
+    "supersedes": "d-080",
+    "supersededBy": "d-126"
+  },
+  {
+    "id": "d-118",
+    "description": "Michael Donovan will focus on creating five core new pages or refreshes by Friday, anchored to the 11-page PowerPoint Vinnie had sent.",
+    "decidedBy": ["Joe Furnari", "Michael Donovan"],
+    "meetingId": "joe-and-michael-reconnect-2025-12-30",
+    "meetingDate": "2025-12-30",
+    "topic": "website-content",
+    "confidence": "firm",
+    "supersededBy": "d-124"
+  },
+  {
+    "id": "d-119",
+    "description": "Joe Furnari will respond to the email about Vinnie's comments later tonight.",
+    "decidedBy": ["Joe Furnari"],
+    "meetingId": "joe-and-michael-reconnect-2025-12-30",
+    "meetingDate": "2025-12-30",
+    "topic": "email-response",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-120",
+    "description": "Joe Furnari and Michael Donovan will position a call with Vinnie on Monday, or whatever day they are available, after Michael Donovan has created the pages.",
+    "decidedBy": ["Joe Furnari", "Michael Donovan"],
+    "meetingId": "joe-and-michael-reconnect-2025-12-30",
+    "meetingDate": "2025-12-30",
+    "topic": "vinnie-meeting",
+    "confidence": "tentative"
+  },
+  {
+    "id": "d-121",
+    "description": "Use the three lanes (Truth, Control, Vision) as an architecture to anchor strategic outcomes of trust, belief, and preference.",
+    "decidedBy": [
+      "Michael Donovan",
+      "Vinnie Micciche",
+      "Joe Furnari",
+      "Jason Branham",
+      "Matt Watson",
+      "Harinder Bhinder"
+    ],
+    "meetingId": "the-marketing-meeting-2025-12-30",
+    "meetingDate": "2025-12-30",
+    "topic": "messaging-strategy",
+    "confidence": "firm",
+    "supersedes": "d-105",
+    "supersededBy": "d-122"
+  },
+  {
+    "id": "d-122",
+    "description": "Define the core message of Lane One (Truth) as \"you can't manage what you can't see.\"",
+    "decidedBy": ["Michael Donovan"],
+    "meetingId": "the-marketing-meeting-2025-12-30",
+    "meetingDate": "2025-12-30",
+    "topic": "messaging-strategy",
+    "confidence": "firm",
+    "supersedes": "d-121",
+    "supersededBy": "d-123"
+  },
+  {
+    "id": "d-123",
+    "description": "Implement website content with a \"human first or AI first\" message.",
+    "decidedBy": ["Vinnie Micciche"],
+    "meetingId": "the-marketing-meeting-2026-01-06",
+    "meetingDate": "2026-01-06",
+    "topic": "messaging-strategy",
+    "confidence": "firm",
+    "supersedes": "d-122",
+    "supersededBy": "d-219"
+  },
+  {
+    "id": "d-124",
+    "description": "Build the website with the content provided by Vinnie Micciche.",
+    "decidedBy": ["Vinnie Micciche"],
+    "meetingId": "the-marketing-meeting-2026-01-06",
+    "meetingDate": "2026-01-06",
+    "topic": "website-content",
+    "confidence": "firm",
+    "supersedes": "d-118",
+    "supersededBy": "d-134"
+  },
+  {
+    "id": "d-125",
+    "description": "Reconnect tomorrow to discuss the scope of work.",
+    "decidedBy": ["Michael Donovan", "Joe Furnari"],
+    "meetingId": "the-marketing-meeting-2026-01-06",
+    "meetingDate": "2026-01-06",
+    "topic": "scope-of-work",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-126",
+    "description": "Focus on refreshing the existing website for a quick win.",
+    "decidedBy": ["Joe Furnari", "Vinnie Micciche"],
+    "meetingId": "the-marketing-meeting-2026-01-06",
+    "meetingDate": "2026-01-06",
+    "topic": "website-refresh",
+    "confidence": "tentative",
+    "supersedes": "d-117"
+  },
+  {
+    "id": "d-127",
+    "description": "Michael Donovan will update only four or five pages of new content on the existing WordPress site, focusing on Vinnie's directive.",
+    "decidedBy": ["Joe Furnari"],
+    "meetingId": "regroup-on-website-refresh-initiative-2026-01-09",
+    "meetingDate": "2026-01-09",
+    "topic": "website-content-update-scope",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-128",
+    "description": "Michael Donovan will send links to the updated pages/content to Joe Furnari before Monday.",
+    "decidedBy": ["Michael Donovan"],
+    "meetingId": "regroup-on-website-refresh-initiative-2026-01-09",
+    "meetingDate": "2026-01-09",
+    "topic": "content-delivery",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-129",
+    "description": "The new website build will not be shared with Vinnie.",
+    "decidedBy": ["Joe Furnari"],
+    "meetingId": "regroup-on-website-refresh-initiative-2026-01-09",
+    "meetingDate": "2026-01-09",
+    "topic": "new-website-sharing",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-130",
+    "description": "Refine AI messaging to focus on dealer outcomes rather than \"human plus AI\" feature.",
+    "decidedBy": ["Vinnie Micciche", "Michael Donovan"],
+    "meetingId": "the-marketing-meeting-2026-01-13",
+    "meetingDate": "2026-01-13",
+    "topic": "ai-messaging",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-131",
+    "description": "Reverse the \"AI + Human\" badge to \"Human + AI\".",
+    "decidedBy": ["Vinnie Micciche", "Michael Donovan"],
+    "meetingId": "the-marketing-meeting-2026-01-13",
+    "meetingDate": "2026-01-13",
+    "topic": "website-badge",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-132",
+    "description": "Change \"Industry Insights\" to \"Resources and Dealer Insights\" for the blog.",
+    "decidedBy": ["Vinnie Micciche", "Michael Donovan"],
+    "meetingId": "the-marketing-meeting-2026-01-13",
+    "meetingDate": "2026-01-13",
+    "topic": "blog-title",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-133",
+    "description": "Set up a mirrored file/theme for rapid website content updates (up to four times a month).",
+    "decidedBy": ["Michael Donovan"],
+    "meetingId": "the-marketing-meeting-2026-01-13",
+    "meetingDate": "2026-01-13",
+    "topic": "website-content-updates",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-134",
+    "description": "Focus on creating updates and swapping out pages rather than refreshing every legacy page.",
+    "decidedBy": ["Joe Furnari", "Michael Donovan"],
+    "meetingId": "joe-and-michael-touch-base-2026-01-20",
+    "meetingDate": "2026-01-20",
+    "topic": "website-content",
+    "confidence": "firm",
+    "supersedes": "d-124"
+  },
+  {
+    "id": "d-135",
+    "description": "Michael to surface a list of 30 legacy pages for Vinnie's validation by the end of next week to clean up the website.",
+    "decidedBy": ["Joe Furnari", "Michael Donovan"],
+    "meetingId": "joe-and-michael-touch-base-2026-01-20",
+    "meetingDate": "2026-01-20",
+    "topic": "website-cleanup",
+    "confidence": "tentative"
+  },
+  {
+    "id": "d-136",
+    "description": "Remove 'resources' and 'lead sources' from the Solutions section and move them to other categories.",
+    "decidedBy": ["Joe Furnari", "Michael Donovan"],
+    "meetingId": "joe-and-michael-touch-base-2026-01-20",
+    "meetingDate": "2026-01-20",
+    "topic": "website-navigation",
+    "confidence": "firm",
+    "supersededBy": "d-137"
+  },
+  {
+    "id": "d-137",
+    "description": "Potentially move \"AI intelligent engine\" under \"BDC solutions\" to create two stacks instead of three to maintain symmetry in the navigation.",
+    "decidedBy": ["Joe Furnari", "Michael Donovan"],
+    "meetingId": "joe-and-michael-touch-base-2026-01-20",
+    "meetingDate": "2026-01-20",
+    "topic": "website-navigation",
+    "confidence": "tentative",
+    "supersedes": "d-136",
+    "supersededBy": "d-140"
+  },
+  {
+    "id": "d-138",
+    "description": "Rely on a form for leads in the short term, removing \"leads\" and \"lead magnets\".",
+    "decidedBy": ["Michael Donovan"],
+    "meetingId": "joe-and-michael-touch-base-2026-01-20",
+    "meetingDate": "2026-01-20",
+    "topic": "lead-generation",
+    "confidence": "firm",
+    "supersedes": "d-085"
+  },
+  {
+    "id": "d-139",
+    "description": "Michael should replace the previously built FAQ section with Vinnie's new list of eight questions.",
+    "decidedBy": ["Joe Furnari"],
+    "meetingId": "joe-and-michael-touch-base-2026-01-20",
+    "meetingDate": "2026-01-20",
+    "topic": "faq-section",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-140",
+    "description": "Combine \"Insights\" and \"Resources\" in the navigation, resulting in three drop-downs: \"Solutions,\" \"Insights and Resources,\" and \"About Us\".",
+    "decidedBy": ["Joe Furnari", "Michael Donovan"],
+    "meetingId": "joe-and-michael-touch-base-2026-01-20",
+    "meetingDate": "2026-01-20",
+    "topic": "website-navigation",
+    "confidence": "firm",
+    "supersedes": "d-137"
+  },
+  {
+    "id": "d-141",
+    "description": "Do not launch a new website before the NADA event.",
+    "decidedBy": ["Joe Furnari"],
+    "meetingId": "joe-and-michael-touch-base-2026-01-20",
+    "meetingDate": "2026-01-20",
+    "topic": "website-launch",
+    "confidence": "firm",
+    "supersededBy": "d-142"
+  },
+  {
+    "id": "d-142",
+    "description": "Aim for an \"awesome splash\" and momentum-building launch of the new site after the NADA event.",
+    "decidedBy": ["Joe Furnari"],
+    "meetingId": "joe-and-michael-touch-base-2026-01-20",
+    "meetingDate": "2026-01-20",
+    "topic": "website-launch",
+    "confidence": "firm",
+    "supersedes": "d-141"
+  },
+  {
+    "id": "d-143",
+    "description": "Michael will develop a list of two or three priorities with associated costs and timelines for budget approval.",
+    "decidedBy": ["Joe Furnari", "Michael Donovan"],
+    "meetingId": "joe-and-michael-regroup-2026-02-12",
+    "meetingDate": "2026-02-12",
+    "topic": "budget-priorities",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-144",
+    "description": "Michael will provide Vinnie with an endpoint for the assessment lead magnet quickly if Matt provides it.",
+    "decidedBy": ["Michael Donovan"],
+    "meetingId": "joe-and-michael-regroup-2026-02-12",
+    "meetingDate": "2026-02-12",
+    "topic": "assessment-lead-magnet",
+    "confidence": "tentative"
+  },
+  {
+    "id": "d-145",
+    "description": "Focus on database hygiene to improve email campaign results, requiring financial resources for tools and processes.",
+    "decidedBy": ["Michael Donovan"],
+    "meetingId": "joe-and-michael-regroup-2026-02-12",
+    "meetingDate": "2026-02-12",
+    "topic": "database-hygiene",
+    "confidence": "tentative"
+  },
+  {
+    "id": "d-146",
+    "description": "Michael will identify and look up contacts (GMs) from Burles Nissan, Matt Bowers Hyundai Gulfport, Matt Bowers Chevy Metairie, and Northway Toyota.",
+    "decidedBy": ["Michael Donovan"],
+    "meetingId": "joe-and-michael-regroup-2026-02-12",
+    "meetingDate": "2026-02-12",
+    "topic": "target-account-identification",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-147",
+    "description": "Use a 50% closing rate from SQLs for projections.",
+    "decidedBy": ["Joe Furnari", "Michael Donovan"],
+    "meetingId": "joe-and-michael-regroup-2026-02-12",
+    "meetingDate": "2026-02-12",
+    "topic": "sales-conversion-rate",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-148",
+    "description": "All company decisions, marketing, and messaging will be based on three core pillars: employee satisfaction, dealer satisfaction, and customer experience.",
+    "decidedBy": ["Vinnie Micciche"],
+    "meetingId": "marketing-flow-and-alignment-2026-02-13",
+    "meetingDate": "2026-02-13",
+    "topic": "company-priorities",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-149",
+    "description": "Michael Donovan and Paulo Trovao will create a content calendar outlining social posts, emails, and new pages for Vinnie Micciche to review and approve.",
+    "decidedBy": ["Michael Donovan", "Paulo Trovao"],
+    "meetingId": "marketing-flow-and-alignment-2026-02-13",
+    "meetingDate": "2026-02-13",
+    "topic": "content-calendar",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-150",
+    "description": "Michael Donovan will send Vinnie Micciche the Anthropic and Claude commercials.",
+    "decidedBy": ["Michael Donovan"],
+    "meetingId": "marketing-flow-and-alignment-2026-02-13",
+    "meetingDate": "2026-02-13",
+    "topic": "reference-materials",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-151",
+    "description": "They will test out a couple of bots.",
+    "decidedBy": ["Vinnie Micciche"],
+    "meetingId": "marketing-flow-and-alignment-2026-02-13",
+    "meetingDate": "2026-02-13",
+    "topic": "ai-bots",
+    "confidence": "tentative"
+  },
+  {
+    "id": "d-152",
+    "description": "Vinnie Micciche will dedicate a 30-minute weekly slot for \"Tik Tok time,\" proposing a simple setup to call dealers.",
+    "decidedBy": ["Vinnie Micciche"],
+    "meetingId": "marketing-flow-and-alignment-2026-02-13",
+    "meetingDate": "2026-02-13",
+    "topic": "tik-tok-content",
+    "confidence": "tentative"
+  },
+  {
+    "id": "d-153",
+    "description": "New meeting format focused on weekly deliverables and execution.",
+    "decidedBy": ["Vin Micciche"],
+    "meetingId": "strolid-leadership-call-2026-02-16",
+    "meetingDate": "2026-02-16",
+    "topic": "meeting-format",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-154",
+    "description": "Joe Furnari will follow up and do whatever is needed to get the BDS contract signed this week.",
+    "decidedBy": ["Joe Furnari"],
+    "meetingId": "strolid-leadership-call-2026-02-16",
+    "meetingDate": "2026-02-16",
+    "topic": "bds-contract",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-155",
+    "description": "Look into a bridge loan or line of credit due to high Vonic expenses.",
+    "decidedBy": ["Vin Micciche"],
+    "meetingId": "strolid-leadership-call-2026-02-16",
+    "meetingDate": "2026-02-16",
+    "topic": "financing",
+    "confidence": "tentative"
+  },
+  {
+    "id": "d-156",
+    "description": "Kevin Breen will build an engagement report this week, collaborating with Matt Watson.",
+    "decidedBy": ["Kevin Breen"],
+    "meetingId": "strolid-leadership-call-2026-02-16",
+    "meetingDate": "2026-02-16",
+    "topic": "engagement-report",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-157",
+    "description": "Sales team will commit to a minimum of 30 cold calls weekly until sales increase.",
+    "decidedBy": ["Jason Branham"],
+    "meetingId": "strolid-leadership-call-2026-02-16",
+    "meetingDate": "2026-02-16",
+    "topic": "sales-activity",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-158",
+    "description": "Shawna Behen will hold expectation meetings with operations managers tomorrow.",
+    "decidedBy": ["Shawna Behen"],
+    "meetingId": "strolid-leadership-call-2026-02-16",
+    "meetingDate": "2026-02-16",
+    "topic": "operations-management",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-159",
+    "description": "Focus on low-hanging fruit to sign up clients, prioritizing those willing to write a check.",
+    "decidedBy": ["Vin Micciche"],
+    "meetingId": "strolid-leadership-call-2026-02-16",
+    "meetingDate": "2026-02-16",
+    "topic": "sales-strategy",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-160",
+    "description": "Approved a $349 monthly subscription for automated ICP development.",
+    "decidedBy": ["Joe Furnari"],
+    "meetingId": "catch-up-on-marketing-activities-2026-02-20",
+    "meetingDate": "2026-02-20",
+    "topic": "icp-automation",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-161",
+    "description": "Committed to push Vinnie for details on the external ABM firm's targets.",
+    "decidedBy": ["Joe Furnari"],
+    "meetingId": "catch-up-on-marketing-activities-2026-02-20",
+    "meetingDate": "2026-02-20",
+    "topic": "abm-firm-alignment",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-162",
+    "description": "To fully integrate the self-assessment lead magnet into the current site and social rotation.",
+    "decidedBy": ["Michael Donovan"],
+    "meetingId": "catch-up-on-marketing-activities-2026-02-20",
+    "meetingDate": "2026-02-20",
+    "topic": "lead-magnet-integration",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-163",
+    "description": "Joe will send Michael an email regarding the payment.",
+    "decidedBy": ["Joe Furnari"],
+    "meetingId": "catch-up-on-marketing-activities-2026-02-20",
+    "meetingDate": "2026-02-20",
+    "topic": "expense-reporting",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-164",
+    "description": "Simplify contact segmentation into current customers, past customers, and cold leads.",
+    "decidedBy": ["Vinnie Micciche"],
+    "meetingId": "the-marketing-meeting-2026-02-24",
+    "meetingDate": "2026-02-24",
+    "topic": "customer-segmentation",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-165",
+    "description": "Approve an immediate spend of $2,000 for data cleansing and lead enrichment tools like Clay and Apollo.",
+    "decidedBy": ["Vinnie Micciche"],
+    "meetingId": "the-marketing-meeting-2026-02-24",
+    "meetingDate": "2026-02-24",
+    "topic": "tool-budget",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-166",
+    "description": "Proceed with email and ad campaigns, prioritizing deployment.",
+    "decidedBy": ["Michael Donovan"],
+    "meetingId": "the-marketing-meeting-2026-03-03",
+    "meetingDate": "2026-03-03",
+    "topic": "campaign-deployment",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-167",
+    "description": "Remove McGovern from the initial target list due to an existing negative relationship.",
+    "decidedBy": ["The team"],
+    "meetingId": "the-marketing-meeting-2026-03-03",
+    "meetingDate": "2026-03-03",
+    "topic": "target-candidate-exclusion",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-168",
+    "description": "Focus on running campaigns for the defined ideal customer profile (ICP) roles to establish conversions and bounce rates.",
+    "decidedBy": ["Vinnie Micciche", "Michael Donovan"],
+    "meetingId": "the-marketing-meeting-2026-03-03",
+    "meetingDate": "2026-03-03",
+    "topic": "ideal-customer-profile",
+    "confidence": "firm",
+    "supersededBy": "d-196"
+  },
+  {
+    "id": "d-169",
+    "description": "Segment campaigns into three areas: current customers, conquest, and past/cold customers, all requiring different messaging.",
+    "decidedBy": ["Vinnie Micciche"],
+    "meetingId": "the-marketing-meeting-2026-03-03",
+    "meetingDate": "2026-03-03",
+    "topic": "campaign-segmentation",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-170",
+    "description": "Start with existing data to establish a baseline through campaigns before enriching the data using XP exe.",
+    "decidedBy": ["Vinnie Micciche"],
+    "meetingId": "the-marketing-meeting-2026-03-03",
+    "meetingDate": "2026-03-03",
+    "topic": "data-enrichment",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-171",
+    "description": "Target dealer principals, corporate staff, and owners as the primary audience.",
+    "decidedBy": ["The team"],
+    "meetingId": "the-marketing-meeting-2026-03-03",
+    "meetingDate": "2026-03-03",
+    "topic": "buyer-targeting",
+    "confidence": "firm",
+    "supersedes": "d-095",
+    "supersededBy": "d-182"
+  },
+  {
+    "id": "d-172",
+    "description": "Joe Furnari will set up the data room and prepare historical financial data and a three-year outlook for Call Review.",
+    "decidedBy": ["Joe Furnari"],
+    "meetingId": "strolid-leadership-call-2026-03-09",
+    "meetingDate": "2026-03-09",
+    "topic": "due-diligence",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-173",
+    "description": "Thomas Howe and Sergey Lyapustin will attend the upcoming meeting with Call Review's technical and product team.",
+    "decidedBy": ["Thomas Howe", "Sergey Lyapustin", "Vinnie Micciche"],
+    "meetingId": "strolid-leadership-call-2026-03-09",
+    "meetingDate": "2026-03-09",
+    "topic": "call-review-meeting",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-174",
+    "description": "The SOC 2 audit target completion date is set for September, slightly delayed due to the decision to run two separate SOC audits.",
+    "decidedBy": ["Harinder Bhinder", "Joe Furnari"],
+    "meetingId": "strolid-leadership-call-2026-03-09",
+    "meetingDate": "2026-03-09",
+    "topic": "soc-2-audit",
+    "confidence": "firm",
+    "supersededBy": "d-175"
+  },
+  {
+    "id": "d-175",
+    "description": "The team will run two separate SOC audits to separate VCON and the parent company downstream.",
+    "decidedBy": ["Harinder Bhinder", "Joe Furnari"],
+    "meetingId": "strolid-leadership-call-2026-03-09",
+    "meetingDate": "2026-03-09",
+    "topic": "soc-2-audit",
+    "confidence": "firm",
+    "supersedes": "d-174"
+  },
+  {
+    "id": "d-176",
+    "description": "Sales team will get deep into understanding the business operations",
+    "decidedBy": ["Vinnie Micciche"],
+    "meetingId": "strolid-leadership-call-2026-03-09",
+    "meetingDate": "2026-03-09",
+    "topic": "sales-team-training",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-177",
+    "description": "Implement an alert system to flag when a human answers during a voicemail drop, prompting a callback.",
+    "decidedBy": ["+1 781--84", "Matt Watson", "Scott Henshaw"],
+    "meetingId": "scrum-standup-daily-update-2026-03-10",
+    "meetingDate": "2026-03-10",
+    "topic": "voicemail-drop-alert",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-178",
+    "description": "Implement a fix that cuts off the audio from the previous call as soon as another call is initiated.",
+    "decidedBy": ["Scott Henshaw"],
+    "meetingId": "scrum-standup-daily-update-2026-03-10",
+    "meetingDate": "2026-03-10",
+    "topic": "audio-cutoff-new-call",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-179",
+    "description": "Prioritize data collection by setting up an alert system to gauge the magnitude of the voicemail drop problem over one week before deciding on a more comprehensive solution.",
+    "decidedBy": [
+      "Sergey Lyapustin",
+      "Matt Watson",
+      "Scott Henshaw",
+      "+1 781--84"
+    ],
+    "meetingId": "scrum-standup-daily-update-2026-03-10",
+    "meetingDate": "2026-03-10",
+    "topic": "voicemail-drop-data-collection",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-180",
+    "description": "Silence the dealer socket pull messages scraper alert in Sentry unless failures exceed 20 times in an hour.",
+    "decidedBy": ["Scott Henshaw"],
+    "meetingId": "scrum-standup-daily-update-2026-03-10",
+    "meetingDate": "2026-03-10",
+    "topic": "scraper-alert-threshold",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-181",
+    "description": "Publish the Lovable dashboard publicly while sharing the link only with internal users, due to Google authentication.",
+    "decidedBy": ["Matt Watson", "Scott Henshaw"],
+    "meetingId": "scrum-standup-daily-update-2026-03-10",
+    "meetingDate": "2026-03-10",
+    "topic": "dashboard-publication",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-182",
+    "description": "ICP groups were identified using seed customers based on analyzed technology usage and staffing levels to create a defined target audience.",
+    "decidedBy": ["Michael Donovan"],
+    "meetingId": "the-marketing-meeting-2026-03-10",
+    "meetingDate": "2026-03-10",
+    "topic": "buyer-targeting",
+    "confidence": "firm",
+    "supersedes": "d-171"
+  },
+  {
+    "id": "d-183",
+    "description": "Dashboard simplification was confirmed and historical revenue data was confirmed to originate from the invoice tracker.",
+    "decidedBy": ["Michael Donovan"],
+    "meetingId": "the-marketing-meeting-2026-03-10",
+    "meetingDate": "2026-03-10",
+    "topic": "dashboard-simplification",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-184",
+    "description": "Simplified campaign implementation was committed to, foregoing video content initially.",
+    "decidedBy": [
+      "Joe Furnari",
+      "Vinnie Micciche",
+      "Michael Donovan",
+      "Jason Branham"
+    ],
+    "meetingId": "the-marketing-meeting-2026-03-10",
+    "meetingDate": "2026-03-10",
+    "topic": "campaign-implementation",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-185",
+    "description": "2 or 3 draft email themes will be shared for content modification.",
+    "decidedBy": ["Joe Furnari", "Michael Donovan"],
+    "meetingId": "the-marketing-meeting-2026-03-10",
+    "meetingDate": "2026-03-10",
+    "topic": "email-campaign-content",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-186",
+    "description": "Build a basic Snowflake table containing Dealer ID, name, dealer group, and key CXM fields like inventory count.",
+    "decidedBy": ["Matt Watson"],
+    "meetingId": "product-marketing-alignment-2026-03-11",
+    "meetingDate": "2026-03-11",
+    "topic": "dealer-data-set",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-187",
+    "description": "Reschedule meeting between Michael Donovan and Jason Branham for the following day between 11:00 AM and 11:30 AM.",
+    "decidedBy": ["Michael Donovan", "Jason Branham"],
+    "meetingId": "active-pipeline-review-2026-03-12",
+    "meetingDate": "2026-03-12",
+    "topic": "meeting-scheduling",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-188",
+    "description": "Reports created in Lovable by Kevin will be loaded into the portal's back end, similar to current Metabase reports, using the same dealer ID method for row-level security.",
+    "decidedBy": ["Sergey Lyapustin", "Matt Watson", "Kevin Breen"],
+    "meetingId": "active-pipeline-review-2026-03-12",
+    "meetingDate": "2026-03-12",
+    "topic": "lovable-reporting",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-189",
+    "description": "Deploy the BDC analytics dashboard internally first to run tests and look for potential issues before moving forward with dealer embeddings.",
+    "decidedBy": ["Sergey Lyapustin", "Matt Watson", "Kevin Breen"],
+    "meetingId": "active-pipeline-review-2026-03-12",
+    "meetingDate": "2026-03-12",
+    "topic": "security-testing",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-190",
+    "description": "Continue the current Sophia outbound sales campaign until the following week.",
+    "decidedBy": ["Shawna Behen", "Sergey Lyapustin"],
+    "meetingId": "active-pipeline-review-2026-03-12",
+    "meetingDate": "2026-03-12",
+    "topic": "sophia-campaign",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-191",
+    "description": "The immediate goal for Sophia is to get the current system humming internally and fine-tune it before deciding on external sales and integrations.",
+    "decidedBy": ["Vinnie Micciche", "Matt Watson"],
+    "meetingId": "active-pipeline-review-2026-03-12",
+    "meetingDate": "2026-03-12",
+    "topic": "sophia-deployment",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-192",
+    "description": "Address the save-a-deal reporting with new AI capabilities using GPT prompts to generate comprehensive, quantitative reports; Scott will address this.",
+    "decidedBy": ["Matt Watson", "Scott"],
+    "meetingId": "active-pipeline-review-2026-03-12",
+    "meetingDate": "2026-03-12",
+    "topic": "reporting-improvements",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-193",
+    "description": "Shift Sophia's calling window to 2:00 PM to 8:00 PM to align with when customers are more likely to pick up.",
+    "decidedBy": ["Vinnie Micciche", "Michael Donovan", "Shawna Behen"],
+    "meetingId": "active-pipeline-review-2026-03-12",
+    "meetingDate": "2026-03-12",
+    "topic": "calling-schedule",
+    "confidence": "tentative"
+  },
+  {
+    "id": "d-194",
+    "description": "Project plan must include a step to evaluate prompts before going live.",
+    "decidedBy": ["Harinder Bhinder"],
+    "meetingId": "active-pipeline-review-2026-03-12",
+    "meetingDate": "2026-03-12",
+    "topic": "prompt-evaluation",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-195",
+    "description": "Prioritize which customer-generated prompts to accept, as some may be too \"out there\" to handle.",
+    "decidedBy": ["Matt Watson"],
+    "meetingId": "active-pipeline-review-2026-03-12",
+    "meetingDate": "2026-03-12",
+    "topic": "prompt-management",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-196",
+    "description": "The sales and client success teams will proceed with the presented Ideal Customer Profile (ICP) definition, as presented by Michael Donovan's team.",
+    "decidedBy": ["Jason Branham"],
+    "meetingId": "marketing-2026-03-13",
+    "meetingDate": "2026-03-13",
+    "topic": "ideal-customer-profile",
+    "confidence": "firm",
+    "supersedes": "d-168"
+  },
+  {
+    "id": "d-197",
+    "description": "The sales team will begin sending out connection requests on LinkedIn using the \"phase zero\" lookalike list, as part of a multi-channel strategy.",
+    "decidedBy": ["Jason Branham"],
+    "meetingId": "marketing-2026-03-13",
+    "meetingDate": "2026-03-13",
+    "topic": "linkedin-strategy",
+    "confidence": "tentative",
+    "supersedes": "d-069"
+  },
+  {
+    "id": "d-198",
+    "description": "Place Performance Managers under the Operational Directors, who report to Shawna Behen, to reduce churn and support sales and operational teams.",
+    "decidedBy": ["Vinnie Micciche"],
+    "meetingId": "strolid-leadership-call-2026-03-23",
+    "meetingDate": "2026-03-23",
+    "topic": "operational-structure",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-199",
+    "description": "Joe Furnari will respond to the remaining items about the BDS deal, with the aim to send the response back to Better Dead Solutions today.",
+    "decidedBy": ["Joe Furnari"],
+    "meetingId": "strolid-leadership-call-2026-03-23",
+    "meetingDate": "2026-03-23",
+    "topic": "bds-deal",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-200",
+    "description": "Review the link Kevin Breen provided for the Lovable project and then authorize sharing it with the internal team for feedback, focusing on integrating the most important data points like a Sophia call addition.",
+    "decidedBy": ["Vinnie Micciche"],
+    "meetingId": "strolid-leadership-call-2026-03-23",
+    "meetingDate": "2026-03-23",
+    "topic": "lovable-integration",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-201",
+    "description": "To acknowledge that the company does not have to continually accept old practices.",
+    "decidedBy": ["Jason Branham", "Michael Donovan"],
+    "meetingId": "michael-jason-2026-03-27",
+    "meetingDate": "2026-03-27",
+    "topic": "process-improvement",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-202",
+    "description": "Start the meeting after waiting a couple more minutes for Matt Watson and Herender.",
+    "decidedBy": ["Scott Henshaw"],
+    "meetingId": "scrum-standup-daily-update-2026-03-30",
+    "meetingDate": "2026-03-30",
+    "topic": "meeting-start-time",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-203",
+    "description": "Spike out the real-time text-to-speech generation approach for the personalized voicemail feature to avoid generating unnecessary recordings and to handle updated customer names.",
+    "decidedBy": [
+      "Scott Henshaw",
+      "Sergey Lyapustin",
+      "Matt Watson",
+      "Shawna Behen"
+    ],
+    "meetingId": "scrum-standup-daily-update-2026-03-30",
+    "meetingDate": "2026-03-30",
+    "topic": "voicemail-generation-approach",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-204",
+    "description": "Evaluate real-time generation options and incorporate the evaluation as a subtask in the current card.",
+    "decidedBy": ["Scott Henshaw", "Sergey Lyapustin"],
+    "meetingId": "scrum-standup-daily-update-2026-03-30",
+    "meetingDate": "2026-03-30",
+    "topic": "realtime-generation-evaluation",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-205",
+    "description": "Discuss whether to cancel the Thursday standup during tomorrow's or Wednesday's meeting when more participants are present.",
+    "decidedBy": ["Scott Henshaw", "Sergey Lyapustin"],
+    "meetingId": "scrum-standup-daily-update-2026-03-30",
+    "meetingDate": "2026-03-30",
+    "topic": "standup-cancellation",
+    "confidence": "tentative"
+  },
+  {
+    "id": "d-206",
+    "description": "Reschedule the meeting to later in the week due to Vinnie's absence if no one has any immediate critical topics.",
+    "decidedBy": ["Joe Furnari"],
+    "meetingId": "strolid-leadership-call-2026-03-30",
+    "meetingDate": "2026-03-30",
+    "topic": "meeting-schedule",
+    "confidence": "tentative",
+    "supersedes": "d-042"
+  },
+  {
+    "id": "d-207",
+    "description": "Shawna Behen will prepare a presentation deck for a call with Lithia's Mara, detailing Q1 2026 and Q4 2025 results.",
+    "decidedBy": ["Shawna Behen"],
+    "meetingId": "strolid-leadership-call-2026-03-30",
+    "meetingDate": "2026-03-30",
+    "topic": "lithia-presentation",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-208",
+    "description": "The presentation must address past inconsistencies when onboarding Lithia dealers.",
+    "decidedBy": ["Joe Furnari", "Shawna Behen"],
+    "meetingId": "strolid-leadership-call-2026-03-30",
+    "meetingDate": "2026-03-30",
+    "topic": "lithia-presentation-content",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-209",
+    "description": "Shawna Behen and Jason Branham will lead the effort to prepare the \"best overview\" presentation for Lithia.",
+    "decidedBy": ["Joe Furnari"],
+    "meetingId": "strolid-leadership-call-2026-03-30",
+    "meetingDate": "2026-03-30",
+    "topic": "lithia-presentation-responsibility",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-210",
+    "description": "Michael Donovan and Sergey Lyapustin will continue developing the AI resource marketplace.",
+    "decidedBy": ["Michael Donovan", "Sergey Lyapustin"],
+    "meetingId": "strolid-leadership-call-2026-03-30",
+    "meetingDate": "2026-03-30",
+    "topic": "ai-marketplace-development",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-211",
+    "description": "Foundational CRM work is required before proceeding with other CRM improvements.",
+    "decidedBy": ["Joe Furnari", "Michael Donovan"],
+    "meetingId": "weekly-1-on-1-with-michael-d-and-joe-f-2026-03-30",
+    "meetingDate": "2026-03-30",
+    "topic": "crm-foundational-fixes",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-212",
+    "description": "Michael Donovan will prioritize and present necessary CRM foundational fixes to Vinnie.",
+    "decidedBy": ["Joe Furnari"],
+    "meetingId": "weekly-1-on-1-with-michael-d-and-joe-f-2026-03-30",
+    "meetingDate": "2026-03-30",
+    "topic": "crm-foundational-fixes-presentation",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-213",
+    "description": "All email campaigns and social posts will be delivered in a structured manner.",
+    "decidedBy": ["Michael Donovan"],
+    "meetingId": "weekly-1-on-1-with-michael-d-and-joe-f-2026-03-30",
+    "meetingDate": "2026-03-30",
+    "topic": "email-campaign-structure",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-214",
+    "description": "Fixed email campaign schedules will be subject to change based on data.",
+    "decidedBy": ["Michael Donovan"],
+    "meetingId": "weekly-1-on-1-with-michael-d-and-joe-f-2026-03-30",
+    "meetingDate": "2026-03-30",
+    "topic": "email-campaign-scheduling",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-215",
+    "description": "Develop a minimal branding skill defining basic guidelines like names and colors for organizational deployment via the Anthropic account.",
+    "decidedBy": ["Sergey Lyapustin"],
+    "meetingId": "michael-sergey-2026-03-31",
+    "meetingDate": "2026-03-31",
+    "topic": "branding-skill-development",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-216",
+    "description": "Create a new GitHub repository for organization skills with basic structure and placeholder files.",
+    "decidedBy": ["Sergey Lyapustin"],
+    "meetingId": "michael-sergey-2026-03-31",
+    "meetingDate": "2026-03-31",
+    "topic": "skills-repository",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-217",
+    "description": "Michael will spin up a new project for all Straw work and migrate related settings and skills.",
+    "decidedBy": ["Michael Donovan"],
+    "meetingId": "michael-sergey-2026-03-31",
+    "meetingDate": "2026-03-31",
+    "topic": "work-setup-migration",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-218",
+    "description": "Michael will contact Harinder to investigate obtaining more resources for the limited account.",
+    "decidedBy": ["Michael Donovan"],
+    "meetingId": "michael-sergey-2026-03-31",
+    "meetingDate": "2026-03-31",
+    "topic": "account-limits",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-219",
+    "description": "The marketing team must align messaging with current dealer challenges (high turnover, response time), leveraging data from form entries to develop campaigns.",
+    "decidedBy": ["Vinnie Micciche", "Michael Donovan"],
+    "meetingId": "the-marketing-meeting-2026-03-31",
+    "meetingDate": "2026-03-31",
+    "topic": "messaging-strategy",
+    "confidence": "firm",
+    "supersedes": "d-123"
+  },
+  {
+    "id": "d-220",
+    "description": "Michael Donovan to create an outline for proposed value propositions, using a simple \"Yes or No\" approval format to ensure alignment.",
+    "decidedBy": ["Vinnie Micciche", "Michael Donovan"],
+    "meetingId": "the-marketing-meeting-2026-03-31",
+    "meetingDate": "2026-03-31",
+    "topic": "content-creation",
+    "confidence": "firm",
+    "supersedes": "d-087"
+  },
+  {
+    "id": "d-221",
+    "description": "Matt will pass on the warning about the Axios Trojan to their development channels.",
+    "decidedBy": ["Matt Watson"],
+    "meetingId": "product-marketing-alignment-2026-04-01",
+    "meetingDate": "2026-04-01",
+    "topic": "security-vulnerabilities",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-222",
+    "description": "Matt will check with Herenda for updates on the team account and premium access.",
+    "decidedBy": ["Matt Watson"],
+    "meetingId": "product-marketing-alignment-2026-04-01",
+    "meetingDate": "2026-04-01",
+    "topic": "team-account-status",
+    "confidence": "tentative"
+  },
+  {
+    "id": "d-223",
+    "description": "Paulo will check with Sergey regarding Snowflake access unblocking.",
+    "decidedBy": ["Paulo Trovao"],
+    "meetingId": "product-marketing-alignment-2026-04-01",
+    "meetingDate": "2026-04-01",
+    "topic": "snowflake-access",
+    "confidence": "tentative"
+  },
+  {
+    "id": "d-224",
+    "description": "The new website restructuring project will hydrate from a content lake powered by a Groq database, processing around 120 articles clustered by topics like BDC performance and lead management.",
+    "decidedBy": ["Michael Donovan"],
+    "meetingId": "product-marketing-alignment-2026-04-01",
+    "meetingDate": "2026-04-01",
+    "topic": "website-restructuring",
+    "confidence": "firm"
+  },
+  {
+    "id": "d-225",
+    "description": "Migrate current Docker-intensive local development over to a Mac Mini to run the processes locally.",
+    "decidedBy": ["Matt Watson"],
+    "meetingId": "product-marketing-alignment-2026-04-01",
+    "meetingDate": "2026-04-01",
+    "topic": "local-development-environment",
+    "confidence": "firm"
+  }
+]

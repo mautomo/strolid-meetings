@@ -1,0 +1,105 @@
+{
+  "meetingId": "catch-up-on-marketing-activities-2026-02-20",
+  "title": "Catch Up on Marketing Activities",
+  "date": "2026-02-20",
+  "series": "Catch Up on Marketing Activities",
+  "type": "marketing",
+  "attendees": ["Joe Furnari", "Paulo Trovao", "Michael Donovan"],
+  "summary": "Joe, Michael, and Paulo discussed social media feedback, strategy clarity, and content development. Michael presented work on the Ideal Customer Profile (ICP) which led to Joe approving a $349 monthly subscription for automation. Joe relayed Vinnie's decision to hire an external ABM firm and raised concerns, while Michael presented a BDC self-assessment app as a lead magnet with a two-week plan focused on lead generation through email and social campaigns.",
+  "decisions": [
+    {
+      "description": "Approved a $349 monthly subscription for automated ICP development.",
+      "decidedBy": ["Joe Furnari"],
+      "topic": "icp-automation",
+      "confidence": "firm"
+    },
+    {
+      "description": "Committed to push Vinnie for details on the external ABM firm's targets.",
+      "decidedBy": ["Joe Furnari"],
+      "topic": "abm-firm-alignment",
+      "confidence": "firm"
+    },
+    {
+      "description": "To fully integrate the self-assessment lead magnet into the current site and social rotation.",
+      "decidedBy": ["Michael Donovan"],
+      "topic": "lead-magnet-integration",
+      "confidence": "firm"
+    },
+    {
+      "description": "Joe will send Michael an email regarding the payment.",
+      "decidedBy": ["Joe Furnari"],
+      "topic": "expense-reporting",
+      "confidence": "firm"
+    }
+  ],
+  "actionItems": [
+    {
+      "task": "Push Jason to provide feedback on the social media posts.",
+      "owner": "Joe Furnari",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "email",
+        "description": "Jason to provide feedback to the marketing team for future improvements."
+      }
+    },
+    {
+      "task": "Push Vinnie to determine what reporting can be obtained from the external ABM firm and to get more information on the firm.",
+      "owner": "Joe Furnari",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "email",
+        "description": "Shared reporting on markets, dealers, and groups being targeted by the ABM firm to prevent conflicting efforts and messaging."
+      }
+    },
+    {
+      "task": "Send Michael Donovan the outline of his concerns and recommendations regarding the other firm.",
+      "owner": "Joe Furnari",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "email",
+        "description": "Michael understands the constraints imposed by the engagement with the external ABM firm."
+      }
+    },
+    {
+      "task": "Put together a two-week plan focused on email, social media, landing pages, and driving leads, then reassess with Joe Furnari.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "google-docs",
+        "description": "A documented plan mapping out the workflow and a calendar view for the two-week campaign, aiming to generate leads."
+      }
+    },
+    {
+      "task": "Charge the monthly subscription for the model or platform to his credit card.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "crm",
+        "description": "Successful payment of the monthly subscription fee."
+      }
+    }
+  ],
+  "topicsDiscussed": [
+    "social-media-feedback",
+    "content-strategy",
+    "ideal-customer-profile",
+    "abm-strategy",
+    "lead-generation",
+    "bdc-assessment-app",
+    "team-alignment",
+    "lead-magnet-integration",
+    "expense-reporting"
+  ],
+  "tensions": [
+    "Joe's concerns about channel conflict and data attribution due to Vinnie's decision to hire an external ABM firm.",
+    "Vinnie's refusal to entertain a unified strategy between the internal team and the external ABM firm.",
+    "Disagreement between Michael and Joe on the timeline to integrate the BDC assessment tool.",
+    "Joe's concerns that Michael's timelines are unrealistic.",
+    "Jason may be uncomfortable with the ABM's firm lead engagement process."
+  ],
+  "referencesToPast": [
+    "Satisfying Vinnie's earlier requests.",
+    "Mention of previous discussion on map hours and contact enrichment.",
+    "Mentioned they talked about these groups last week."
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "meetingId": "vin-and-michael-2025-12-03",
+  "title": "Vin and Michael",
+  "date": "2025-12-03",
+  "series": "Vin and Michael",
+  "type": "one-on-one",
+  "attendees": ["Vinnie Micciche", "Michael Donovan"],
+  "summary": "Vinnie Micciche and Michael Donovan discussed Christina's newsletter proposal, with Michael approving the flat fee. Vinnie expressed frustration with Michael's lack of task completion and communication, particularly regarding the Viconic website, instructing Michael to halt work on it until Perry provides clear direction. The discussion escalated, leading Vinnie to suggest separating and offering Michael a consulting role.",
+  "decisions": [
+    {
+      "description": "Michael Donovan agrees with Christina's proposed flat fee for newsletter work.",
+      "decidedBy": ["Michael Donovan"],
+      "topic": "newsletter-proposal",
+      "confidence": "firm"
+    },
+    {
+      "description": "Michael Donovan to stop working on the Viconic website until Perry gives very clear direction.",
+      "decidedBy": ["Vinnie Micciche"],
+      "topic": "viconic-website",
+      "confidence": "firm"
+    },
+    {
+      "description": "Vinnie Micciche suggests separating and offers Michael Donovan a consulting role.",
+      "decidedBy": ["Vinnie Micciche"],
+      "topic": "employment-separation",
+      "confidence": "tentative"
+    }
+  ],
+  "actionItems": [
+    {
+      "task": "Prepare a document outlining a timeline of all the changes Perry has requested for the Viconic site.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "google-docs",
+        "description": "A timeline documenting all changes to the Viconic website requested by Perry."
+      }
+    },
+    {
+      "task": "Send the social posts to Vinnie Micciche for review with the captions in a Google doc.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "google-docs",
+        "description": "Google doc containing social media posts and captions for review."
+      }
+    },
+    {
+      "task": "Provide an estimated timeframe for deliverables for the website pages design and build.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "other",
+        "description": "Estimated timeline for the completion of website page design and build."
+      }
+    },
+    {
+      "task": "Work something up to help Vinnie Micciche with the rest of the stuff he is doing so Vinnie Micciche can move on.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "other",
+        "description": "Plan to transition responsibilities to allow Vinnie to move on from current projects."
+      }
+    }
+  ],
+  "topicsDiscussed": [
+    "newsletter-proposal",
+    "task-completion",
+    "communication-issues",
+    "health-issues",
+    "viconic-website",
+    "project-management",
+    "delivery-expectations",
+    "execution",
+    "social-media-strategy",
+    "team-management",
+    "employee-expectations",
+    "workload-management",
+    "trust-and-confidence",
+    "timeline-deliverables",
+    "employment-separation"
+  ],
+  "tensions": [
+    "Vinnie's frustration with Michael's lack of task completion.",
+    "Michael's health issues impacting work and communication.",
+    "Michael's perceived lack of focus and prioritization.",
+    "Michael's feeling of being 'painted into a corner' by Vinnie.",
+    "Vinnie's questioning of Michael's marketing knowledge.",
+    "Michael feeling excluded from the newsletter strategy.",
+    "Michael's feeling that Vinnie does not trust his skills or knowledge.",
+    "Vinnie's concern about the lack of quick progress on the marketing side.",
+    "Z blaming Michael for not getting work done.",
+    "Michael's perspective that Vinnie's perception of time is off."
+  ],
+  "referencesToPast": [
+    "Previous conversations with Z about task completion.",
+    "Past website built by Vinnie Micciche taking only an hour.",
+    "Previous situation with Z being fired.",
+    "Previous conversations with Perry about the Viconic website since August.",
+    "Previous offsite meeting."
+  ]
+}

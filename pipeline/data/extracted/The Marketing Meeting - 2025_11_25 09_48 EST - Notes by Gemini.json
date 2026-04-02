@@ -1,0 +1,166 @@
+{
+  "meetingId": "the-marketing-meeting-2025-11-25",
+  "title": "The Marketing Meeting",
+  "date": "2025-11-25",
+  "series": "The Marketing Meeting",
+  "type": "marketing",
+  "attendees": [
+    "Thomas Howe",
+    "Vinnie Micciche",
+    "Joe Furnari",
+    "Michael Donovan",
+    "Ziad Al Khatib",
+    "Jason Branham",
+    "Matt Watson",
+    "Kevin Breen"
+  ],
+  "summary": "The marketing team reviewed website traffic, lead quality, and advertising costs, expressing concerns over bounce rates and high CPC. There was disagreement between Michael Donovan and Vinnie Micciche regarding the priority of a lead magnet versus fixing website analytics. Ultimately, the team agreed to focus on both improving website traffic and developing a compelling lead magnet to attract better quality leads.",
+  "decisions": [
+    {
+      "description": "Michael Donovan will schedule time with Jason Branham to review and align the updated sales deck with a more modern aesthetic.",
+      "decidedBy": ["Michael Donovan", "Jason Branham"],
+      "topic": "sales-deck-update",
+      "confidence": "firm"
+    },
+    {
+      "description": "Michael Donovan will build out the template for the updated aesthetic sales deck so that the team can utilize it.",
+      "decidedBy": ["Michael Donovan"],
+      "topic": "sales-deck-update",
+      "confidence": "firm"
+    },
+    {
+      "description": "Michael Donovan will prioritize optimizing the landing page for both paid and social traffic as part of the new, more adaptive site.",
+      "decidedBy": ["Michael Donovan"],
+      "topic": "landing-page-optimization",
+      "confidence": "firm"
+    },
+    {
+      "description": "Michael Donovan will examine the data from November 10th, identified as the best efficiency day.",
+      "decidedBy": ["Michael Donovan"],
+      "topic": "efficiency-analysis",
+      "confidence": "firm"
+    },
+    {
+      "description": "Increase the frequency of carousel posts on LinkedIn from once a week to potentially twice a week.",
+      "decidedBy": ["Michael Donovan"],
+      "topic": "linkedin-strategy",
+      "confidence": "tentative"
+    },
+    {
+      "description": "Team will develop a strong lead magnet, aimed at low-funnel or problem-solving mode users, offering value in exchange for contact information.",
+      "decidedBy": ["Michael Donovan", "Matt Watson", "Jason Branham"],
+      "topic": "lead-magnet-creation",
+      "confidence": "firm"
+    },
+    {
+      "description": "The team will explore a \"lead provider scorecard\" as a potential lead magnet content.",
+      "decidedBy": ["Matt Watson", "Jason Branham"],
+      "topic": "lead-magnet-content",
+      "confidence": "exploratory"
+    },
+    {
+      "description": "Michael Donovan will address multiple critical things simultaneously, working on improving website traffic quality (via negative keywords) and developing a compelling lead magnet in parallel.",
+      "decidedBy": ["Michael Donovan"],
+      "topic": "marketing-priorities",
+      "confidence": "firm"
+    },
+    {
+      "description": "Vinnie Micciche will review the restructured website content first before meeting to discuss it.",
+      "decidedBy": ["Vinnie Micciche"],
+      "topic": "content-review",
+      "confidence": "firm"
+    }
+  ],
+  "actionItems": [
+    {
+      "task": "Build out the template for the sales deck so that the group can utilize it.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "google-docs",
+        "description": "A template document is available for others to create sales decks that align with the company's aesthetic and messaging."
+      }
+    },
+    {
+      "task": "Finish updates on the Looker Studio report, consolidating all social media, Google Analytics, and Google Ads data.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "google-docs",
+        "description": "A comprehensive Looker Studio dashboard is available that provides a single view of all marketing data."
+      }
+    },
+    {
+      "task": "Provide the restructured website content to Vinnie Micciche so they can review it.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "google-docs",
+        "description": "Vinnie Micciche will review and approve the restructured website content."
+      }
+    },
+    {
+      "task": "Look into the direct traffic source issue for Google Analytics.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "google-docs",
+        "description": "The source of the high direct traffic in Google Analytics is identified and documented."
+      }
+    },
+    {
+      "task": "Double-check the Google Tag Manager setup for any tagging issues causing traffic misattribution.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "google-docs",
+        "description": "Google Tag Manager is correctly configured to accurately track website traffic."
+      }
+    },
+    {
+      "task": "Coordinate time to refine the updated aesthetic sales deck using the 2025 sales deck V1 as a basis, to ensure it aligns with Jason Branham's word tracks and flow.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "google-docs",
+        "description": "A refined sales deck is created that aligns with the new website aesthetic and Jason Branham's messaging."
+      }
+    },
+    {
+      "task": "Provide the created, recreated, or reconstructed content so Vinnie Micciche can review it and feel comfortable with what will be presented.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "google-docs",
+        "description": "Vinnie Micciche reviews the content."
+      }
+    }
+  ],
+  "topicsDiscussed": [
+    "sales-deck-update",
+    "website-traffic-analysis",
+    "lead-quality",
+    "bounce-rate",
+    "cost-per-click",
+    "google-ads",
+    "linkedin-engagement",
+    "lead-magnet-creation",
+    "google-tag-manager",
+    "seo-strategy",
+    "content-marketing",
+    "ai-messaging",
+    "product-development",
+    "website-content-restructuring"
+  ],
+  "tensions": [
+    "Disagreement between Michael Donovan and Vinnie Micciche on the priority of focusing on website analytics versus developing a lead magnet.",
+    "Vinnie Micciche feeling 'blindsided' by the lead magnet discussion and unprepared to provide ideas on the spot.",
+    "Vinnie Micciche expressing concerns that Michael Donovan's current marketing approach 'isn't working' due to a lack of leads."
+  ],
+  "referencesToPast": [
+    "Mention of a sales deck that Michael Donovan created almost a year ago.",
+    "Reference to the previous SEO company and content they produced, including content that is still on the website.",
+    "Mention of previous discussions about an assessment form as a lead magnet.",
+    "Reference to organic traffic levels from March of last year."
+  ]
+}

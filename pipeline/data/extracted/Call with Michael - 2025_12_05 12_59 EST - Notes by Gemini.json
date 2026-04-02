@@ -1,0 +1,81 @@
+{
+  "meetingId": "call-with-michael-2025-12-05",
+  "title": "Call with Michael",
+  "date": "2025-12-05",
+  "series": "Call with Michael",
+  "type": "one-on-one",
+  "attendees": ["Vin Micciche", "Michael Donovan", "Jason Branham"],
+  "summary": "Vinnie, Michael, and Jason discussed marketing hooks, content flow, and terminology, deciding to rebrand technology features as \"automotive co-pilots\" to emphasize their AI-human hybrid approach. Vinnie shared data on Sophia's success as a potential standalone product and stressed the importance of clear messaging focused on Straw's speed, efficiency, and advanced technology. Michael agreed to use Vinnie's content verbatim for marketing to ensure consistency and impact.",
+  "decisions": [
+    {
+      "description": "Adopt the term \"automotive co-pilot\" to describe the technology, emphasizing the AI coaching human approach.",
+      "decidedBy": ["Vin Micciche", "Michael Donovan", "Jason Branham"],
+      "topic": "technology-terminology",
+      "confidence": "firm"
+    },
+    {
+      "description": "Adopt Vinnie Micciche's messaging focused on speed, efficiency, and advanced technology for marketing content.",
+      "decidedBy": ["Vin Micciche", "Michael Donovan"],
+      "topic": "messaging-strategy",
+      "confidence": "firm"
+    },
+    {
+      "description": "Shift business focus to larger dealer groups and OEMs to secure more stable, long-term contracts.",
+      "decidedBy": ["Vin Micciche"],
+      "topic": "buyer-targeting",
+      "confidence": "firm"
+    }
+  ],
+  "actionItems": [
+    {
+      "task": "Create posts using Vinnie Micciche's clear and simple messaging, focusing on what makes Straw different and exciting.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "linkedin",
+        "description": "Posts that clearly and concisely communicate Straw's value proposition and differentiate it from competitors."
+      }
+    },
+    {
+      "task": "Share the link to the Perplexity tool.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "slack",
+        "description": "Vinnie Micciche to receive the link to the Perplexity tool."
+      }
+    },
+    {
+      "task": "Compile verbatim marketing hooks with short captions and post them for a month.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "linkedin",
+        "description": "A series of marketing posts that uses the approved hooks and captions."
+      }
+    }
+  ],
+  "topicsDiscussed": [
+    "marketing-hooks",
+    "content-flow",
+    "messaging-strategy",
+    "technology-terminology",
+    "dealer-personas",
+    "lead-generation",
+    "website-development",
+    "financial-needs",
+    "product-development",
+    "buyer-targeting",
+    "sophia-technology"
+  ],
+  "tensions": [
+    "Vinnie Micciche's frustration with Michael Donovan's prior messaging and content strategy, which he found unclear and outdated.",
+    "Vinnie Micciche's concern about the complexity of Michael Donovan's marketing workflow.",
+    "Vinnie Micciche's concern about the relevance of current website content."
+  ],
+  "referencesToPast": [
+    "Vinnie Micciche mentioned their prior frustration when a colleague chose content they did not prefer.",
+    "Vinnie Micciche shared a historical example of seeing market needs (equity mining tools) and being frustrated that Group One would not develop them.",
+    "Existing content pages are unsure who built them and if they are relevant to their goals, particularly if they are just copies of the old site's content."
+  ]
+}

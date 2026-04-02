@@ -1,0 +1,65 @@
+{
+  "meetingId": "weekly-marketing-planning-goals-2025-11-10",
+  "title": "Weekly Marketing Planning & Goals",
+  "date": "2025-11-10",
+  "series": "Weekly Marketing Planning & Goals",
+  "type": "marketing",
+  "attendees": ["Ziad Al Khatib", "Michael Donovan"],
+  "summary": "Ziad presented advertising content, and Michael raised concerns about factual accuracy, emphasizing the need for system checks on quantitative metrics. They discussed content strategy, agreeing on a character limit for Facebook content and addressing technical issues. Michael requested past creative posts in PDF format and examined an AI-generated output, questioning its data connections.",
+  "decisions": [
+    {
+      "description": "Content requirements should include \"fact check quantitative metrics and statistics\" and \"Punchy lines\".",
+      "decidedBy": ["Michael Donovan", "Ziad Al Khatib"],
+      "topic": "content-requirements",
+      "confidence": "firm"
+    },
+    {
+      "description": "Content length for Facebook should optionally include a limit of 250 characters.",
+      "decidedBy": ["Michael Donovan", "Ziad Al Khatib"],
+      "topic": "content-length",
+      "confidence": "tentative"
+    },
+    {
+      "description": "Remove the example output to reduce the file size.",
+      "decidedBy": ["Michael Donovan"],
+      "topic": "file-size-reduction",
+      "confidence": "firm"
+    },
+    {
+      "description": "Past creative posts to be provided in PDF format.",
+      "decidedBy": ["Michael Donovan"],
+      "topic": "document-format",
+      "confidence": "firm"
+    }
+  ],
+  "actionItems": [
+    {
+      "task": "Select and import the previous creative posts and send them to Michael Donovan in a PDF format.",
+      "owner": "Ziad Al Khatib",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "email",
+        "description": "Michael Donovan receives a PDF containing the past creative posts."
+      }
+    }
+  ],
+  "topicsDiscussed": [
+    "visual-advertising-content",
+    "perplexity-setup",
+    "content-strategy",
+    "content-length",
+    "social-media-optimization",
+    "technical-issues",
+    "project-file-management",
+    "content-performance",
+    "document-strategy",
+    "ai-functionality",
+    "ai-content-structure"
+  ],
+  "tensions": [
+    "Questioning the factual accuracy of the \"9 hours to 5 minutes\" statistic.",
+    "Concerns about AI's data connections and relevance of certain outputs.",
+    "Image produced by AI was not the right orientation."
+  ],
+  "referencesToPast": ["Previous creative posts", "previous topics"]
+}

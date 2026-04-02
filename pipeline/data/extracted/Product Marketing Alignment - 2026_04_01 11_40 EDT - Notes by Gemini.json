@@ -1,0 +1,81 @@
+{
+  "meetingId": "product-marketing-alignment-2026-04-01",
+  "title": "Product Marketing Alignment",
+  "date": "2026-04-01",
+  "series": "Product Marketing Alignment",
+  "type": "marketing",
+  "attendees": ["Michael Donovan", "Matt Watson", "Paulo Trovao"],
+  "summary": "The meeting covered developer plugins, internal account issues, third-party security concerns (specifically a Trojan in Axios), and website restructuring project updates. Matt detailed a personal automation project aimed at scaling to an organizational-level conversational CRM, and the team discussed agent architecture and orchestration for efficient data processing.",
+  "decisions": [
+    {
+      "description": "Matt will pass on the warning about the Axios Trojan to their development channels.",
+      "decidedBy": ["Matt Watson"],
+      "topic": "security-vulnerabilities",
+      "confidence": "firm"
+    },
+    {
+      "description": "Matt will check with Herenda for updates on the team account and premium access.",
+      "decidedBy": ["Matt Watson"],
+      "topic": "team-account-status",
+      "confidence": "tentative"
+    },
+    {
+      "description": "Paulo will check with Sergey regarding Snowflake access unblocking.",
+      "decidedBy": ["Paulo Trovao"],
+      "topic": "snowflake-access",
+      "confidence": "tentative"
+    },
+    {
+      "description": "The new website restructuring project will hydrate from a content lake powered by a Groq database, processing around 120 articles clustered by topics like BDC performance and lead management.",
+      "decidedBy": ["Michael Donovan"],
+      "topic": "website-restructuring",
+      "confidence": "firm"
+    },
+    {
+      "description": "Migrate current Docker-intensive local development over to a Mac Mini to run the processes locally.",
+      "decidedBy": ["Matt Watson"],
+      "topic": "local-development-environment",
+      "confidence": "firm"
+    }
+  ],
+  "actionItems": [
+    {
+      "task": "Implement well-defined agents that can evaluate nuances before any auto-response or automation occurs.",
+      "owner": "Matt Watson",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "codebase",
+        "description": "A personal OS side project that ingests signals from multiple sources to categorize and automate actions, intended to scale to an organizational-level conversational CRM."
+      }
+    },
+    {
+      "task": "Define agents with specific jobs so that tasks are executed as desired, with appropriate tooling and restricted access.",
+      "owner": "Matt Watson",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "codebase",
+        "description": "Orchestrator will spawn parallel sub-agents to perform specific tasks, which are ephemeral workers and can communicate, but not spawn further sub-agents."
+      }
+    }
+  ],
+  "topicsDiscussed": [
+    "developer-plugins",
+    "team-account-status",
+    "snowflake-access",
+    "security-vulnerabilities",
+    "risk-governance",
+    "website-restructuring",
+    "performance-metrics",
+    "personal-automation-project",
+    "agent-architecture",
+    "data-evaluation",
+    "monetization-strategy",
+    "hardware-setup",
+    "local-development-environment"
+  ],
+  "tensions": [
+    "Confusion about trusting large models like Sonnet or Opus to architect the agent system correctly during a brainstorming session.",
+    "Paulo questioned the monetization strategy for the Conserver given that the technology is open source."
+  ],
+  "referencesToPast": []
+}

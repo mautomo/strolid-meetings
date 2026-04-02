@@ -1,0 +1,78 @@
+{
+  "meetingId": "marketing-90-day-prioritization-2025-12-23",
+  "title": "Marketing 90-day Prioritization",
+  "date": "2025-12-23",
+  "series": "Marketing 90-day Prioritization",
+  "type": "marketing",
+  "attendees": ["Vinnie Micciche", "Joe Furnari", "Michael Donovan"],
+  "summary": "Michael Donovan presented a 90-day game plan, and Vinnie Micciche expressed frustration about messaging not reflecting the company's evolution toward AI and automations, emphasizing the need for collaborative content review. The team agreed on four core messaging building blocks and decided to enhance the existing website content before launching a new site, especially with the NAEDC event approaching.",
+  "decisions": [
+    {
+      "description": "Enhance the existing website content related to inbound (Vita), outbound (Sophia), the co-pilot/bot chat, and conversational AI/analytics.",
+      "decidedBy": ["Vinnie Micciche"],
+      "topic": "website-content-update",
+      "confidence": "firm"
+    },
+    {
+      "description": "Focus on adding more content to the existing website instead of waiting for the new website launch due to the upcoming NAEDC event.",
+      "decidedBy": ["Vinnie Micciche"],
+      "topic": "website-strategy",
+      "confidence": "firm"
+    },
+    {
+      "description": "Structure the marketing messaging into three lanes: dealer visibility/operational clarity; speed/flow/follow-up engineering; and AI/human co-pilot/dealer brain.",
+      "decidedBy": ["Michael Donovan"],
+      "topic": "messaging-strategy",
+      "confidence": "tentative"
+    },
+    {
+      "description": "The four core building blocks/differentiators for messaging will be: inbound (Vita), outbound (Sophia), the co-pilot/bot chat, and conversational AI/analytics.",
+      "decidedBy": ["Joe Furnari", "Vinnie Micciche"],
+      "topic": "messaging-framework",
+      "confidence": "firm"
+    }
+  ],
+  "actionItems": [
+    {
+      "task": "Vinnie Micciche to share all three marketing documents again for collective review with Michael Donovan and Joe Furnari.",
+      "owner": "Vinnie Micciche",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "google-docs",
+        "description": "Michael and Joe will have the opportunity to collaboratively review the content and messaging"
+      }
+    },
+    {
+      "task": "Jason and Vinnie to work on pricing and integration for the Sophia outbound capabilities to facilitate sales.",
+      "owner": "Jason",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "other",
+        "description": "Develop a sales strategy and pricing structure for the Sophia outbound capabilities."
+      }
+    }
+  ],
+  "topicsDiscussed": [
+    "90-day-game-plan",
+    "messaging-priorities",
+    "website-content-update",
+    "ai-automation",
+    "content-creation-process",
+    "messaging-strategy",
+    "lead-generation",
+    "naedc-event",
+    "messaging-framework"
+  ],
+  "tensions": [
+    "Vinnie Micciche's frustration that shared content and vision are not being fully understood or collaboratively reviewed.",
+    "Vinnie Micciche's disagreement with the characterization of the strategic shift as a 'new motion' instead of an 'evolution'.",
+    "Michael Donovan accused of taking the 'top one' or first line of a document for posting without critical thought.",
+    "Concern that the 140 pages of content developed by Michael lacks a user interface and cannot be easily shared."
+  ],
+  "referencesToPast": [
+    "Mention of a leadership call where Shauna noted Vinnie throwing lots of ideas out there.",
+    "Reference to previous marketing meetings where Vinnie emphasized focus on messaging.",
+    "Past collaboration on 'never miss' messaging 3-4 years ago.",
+    "Mention of sharing three marketing documents with Michael previously."
+  ]
+}

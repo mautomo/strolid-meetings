@@ -1,0 +1,22 @@
+{
+  "name": "meeting-intelligence",
+  "version": "1.0.0",
+  "description": "Meeting notes extraction, normalization, and baseline reporting pipeline",
+  "type": "module",
+  "scripts": {
+    "extract": "tsx src/extract.ts",
+    "normalize": "tsx src/normalize.ts",
+    "report": "tsx src/report.ts",
+    "pipeline": "tsx src/extract.ts && tsx src/normalize.ts && tsx src/report.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "@google/generative-ai": "^0.24.1",
+    "mammoth": "^1.8.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}

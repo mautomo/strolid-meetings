@@ -1,0 +1,106 @@
+{
+  "meetingId": "the-marketing-meeting-2026-01-13",
+  "title": "The Marketing Meeting",
+  "date": "2026-01-13",
+  "series": "The Marketing Meeting",
+  "type": "marketing",
+  "attendees": ["Vinnie Micciche", "Joe Furnari", "Michael Donovan"],
+  "summary": "The meeting focused on reviewing updated website content in a staging environment. Vinnie Micciche suggested refining the AI messaging to focus on dealer outcomes and emphasizing human involvement, data governance, and professionalism. Michael Donovan and Joe Furnari discussed a process for Vinnie to submit revisions, and Michael agreed to set up a mirrored file/theme for rapid content updates.",
+  "decisions": [
+    {
+      "description": "Refine AI messaging to focus on dealer outcomes rather than \"human plus AI\" feature.",
+      "decidedBy": ["Vinnie Micciche", "Michael Donovan"],
+      "topic": "ai-messaging",
+      "confidence": "firm"
+    },
+    {
+      "description": "Reverse the \"AI + Human\" badge to \"Human + AI\".",
+      "decidedBy": ["Vinnie Micciche", "Michael Donovan"],
+      "topic": "website-badge",
+      "confidence": "firm"
+    },
+    {
+      "description": "Change \"Industry Insights\" to \"Resources and Dealer Insights\" for the blog.",
+      "decidedBy": ["Vinnie Micciche", "Michael Donovan"],
+      "topic": "blog-title",
+      "confidence": "firm"
+    },
+    {
+      "description": "Set up a mirrored file/theme for rapid website content updates (up to four times a month).",
+      "decidedBy": ["Michael Donovan"],
+      "topic": "website-content-updates",
+      "confidence": "firm"
+    }
+  ],
+  "actionItems": [
+    {
+      "task": "Send the link to the proposed staging environment website to Vinnie Micciche for review.",
+      "owner": "Michael Donovan",
+      "deadline": "2026-01-13",
+      "expectedOutcome": {
+        "system": "email",
+        "description": "Vinnie Micciche receives the link to the staging environment."
+      }
+    },
+    {
+      "task": "Outline how Vinnie Micciche should organize and submit revisions for the staged website (e.g., screenshot markup, list, Slack canvas).",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "email",
+        "description": "Vinnie Micciche receives instructions on how to submit revisions."
+      }
+    },
+    {
+      "task": "Set up and send a file to Vinnie Micciche to build into Lovable as a theme with all the variables, so Vinnie Micciche can easily add content to the website.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "email",
+        "description": "Vinnie Micciche receives a file/theme that allows for easy website content updates."
+      }
+    },
+    {
+      "task": "Reverse the order of the badges on the website to display 'Human and AI', with 'Human' first.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "website",
+        "description": "The website displays 'Human and AI' badge."
+      }
+    },
+    {
+      "task": "Update the page in the staging environment that currently has white-on-white text for links on the live site.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "website",
+        "description": "The staging environment no longer has white-on-white text for links."
+      }
+    },
+    {
+      "task": "Change 'Industry Insights' to 'Resources and Dealer Insights' on the website, which will become the blog section.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "website",
+        "description": "The website displays 'Resources and Dealer Insights' as the blog section title."
+      }
+    }
+  ],
+  "topicsDiscussed": [
+    "website-staging-environment",
+    "ai-messaging",
+    "human-involvement",
+    "data-governance",
+    "professionalism",
+    "website-revisions",
+    "content-strategy",
+    "website-adaptability",
+    "website-security"
+  ],
+  "tensions": [],
+  "referencesToPast": [
+    "Existing website had quirky issues with navigation and security that Michael Donovan has made progress in fixing."
+  ]
+}

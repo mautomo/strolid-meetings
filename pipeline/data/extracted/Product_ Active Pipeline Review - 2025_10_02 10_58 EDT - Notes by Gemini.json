@@ -1,0 +1,126 @@
+{
+  "meetingId": "active-pipeline-review-2025-10-02",
+  "title": "Product: Active Pipeline Review",
+  "date": "2025-10-02",
+  "series": "Product: Active Pipeline Review",
+  "type": "product",
+  "attendees": [
+    "Thomas Howe",
+    "Vinnie Micciche",
+    "Shawna Behen",
+    "Matt Watson",
+    "Ken Herron",
+    "Joe Furnari",
+    "Jason Branham",
+    "Michael Donovan",
+    "Harinder Bhinder",
+    "Sergey Lyapustin"
+  ],
+  "summary": "The team reviewed the active pipeline, discussing past engagement with Epilito Auto Group and updates on transcription and optimization fixes. Concerns were raised regarding pushing call notes to Drive Centric CRM, while issues with e-leads and VIN Solutions call note hyperlinks were addressed. Live production-level redaction for Frontline and automated call evaluations were highlighted as valuable features.",
+  "decisions": [
+    {
+      "description": "Follow up on the call note pushing capability for Drive Centric CRM integration.",
+      "decidedBy": ["Matt Watson"],
+      "topic": "crm-integration",
+      "confidence": "firm"
+    },
+    {
+      "description": "Moved the portal link from the bottom to the top of the note within the VIN Solutions CRM to make it clickable.",
+      "decidedBy": ["Sergey Lyapustin"],
+      "topic": "vin-solutions-integration",
+      "confidence": "firm"
+    },
+    {
+      "description": "Create a bot to scrape OEM call notes data directly from Dealer Socket CRM.",
+      "decidedBy": ["Matt Watson", "Polly's team"],
+      "topic": "dealer-socket-integration",
+      "confidence": "firm"
+    },
+    {
+      "description": "Notify the client success person when a dealer user without a portal login attempts to access the portal through a call note link.",
+      "decidedBy": ["Matt Watson"],
+      "topic": "portal-onboarding",
+      "confidence": "tentative"
+    },
+    {
+      "description": "Prioritize building an onboarding flow for new portal users.",
+      "decidedBy": ["Sergey Lyapustin", "Matt Watson"],
+      "topic": "portal-onboarding",
+      "confidence": "firm"
+    }
+  ],
+  "actionItems": [
+    {
+      "task": "Look into the 30% API failure rate for notes not pushing.",
+      "owner": "Sergey Lyapustin",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "crm",
+        "description": "Identify the root cause of the high API failure rate and implement a solution to reduce it."
+      }
+    },
+    {
+      "task": "Test out the VIN Solutions API push notes in one store.",
+      "owner": "Shawna Behen",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "crm",
+        "description": "Verify that call notes are successfully pushed to VIN Solutions and the portal link is clickable."
+      }
+    },
+    {
+      "task": "Continue working with Holly to get the list of users for system access review.",
+      "owner": "Harinder Bhinder",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "other",
+        "description": "Obtain a complete list of users with system access for security review."
+      }
+    },
+    {
+      "task": "Work on the onboarding flow for new people to the portal.",
+      "owner": "Sergey Lyapustin",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "portal",
+        "description": "Implement a streamlined onboarding process for new portal users."
+      }
+    },
+    {
+      "task": "Add call notes evaluation to Holly's CRM evaluation process.",
+      "owner": "Matt Watson",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "other",
+        "description": "Holly's evaluation checklist includes if the CRM is able to receive call notes from our system."
+      }
+    }
+  ],
+  "topicsDiscussed": [
+    "epilito-auto-group",
+    "conserver-transcription",
+    "crm-integration",
+    "portal-updates",
+    "voicemail-improvements",
+    "e-lead-improvements",
+    "api-failure-rate",
+    "vin-solutions-integration",
+    "dealer-socket-integration",
+    "click-to-call-transcripts",
+    "future-development",
+    "security-efforts",
+    "frontline-conserver-pilot",
+    "redaction-features",
+    "call-evaluation-features",
+    "bpo-focus"
+  ],
+  "tensions": [
+    "Concerns about the strength of the API connection for pushing call notes to dealers using Drive Centric CRM.",
+    "Doubt expressed by Shawna Behen regarding the reported 30% API failure rate for leads, feeling that such a high percentage of note failures would be noticed by her team.",
+    "Challenges with users adapting to AI LLM tools in the Frontline conserver pilot."
+  ],
+  "referencesToPast": [
+    "Previous engagement with Epilito Auto Group and their interest in a hybrid model for outbound service.",
+    "Past issues with call notes refusal on Drive Centric CRM."
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "meetingId": "joe-and-michael-regroup-2026-02-12",
+  "title": "Joe and Michael Regroup",
+  "date": "2026-02-12",
+  "series": "Joe and Michael Regroup",
+  "type": "one-on-one",
+  "attendees": ["Joe Furnari", "Michael Donovan"],
+  "summary": "Joe and Michael discussed leveraging a document Vinnie liked for content deliverables and timelines for budget acquisition. They also addressed database hygiene and financial resources. Joe conveyed Vinnie's preference for a dedicated in-house team, which conflicted with Michael's commitments, leading to a discussion about his employment agreement and compensation.",
+  "decisions": [
+    {
+      "description": "Michael will develop a list of two or three priorities with associated costs and timelines for budget approval.",
+      "decidedBy": ["Joe Furnari", "Michael Donovan"],
+      "topic": "budget-priorities",
+      "confidence": "firm"
+    },
+    {
+      "description": "Michael will provide Vinnie with an endpoint for the assessment lead magnet quickly if Matt provides it.",
+      "decidedBy": ["Michael Donovan"],
+      "topic": "assessment-lead-magnet",
+      "confidence": "tentative"
+    },
+    {
+      "description": "Focus on database hygiene to improve email campaign results, requiring financial resources for tools and processes.",
+      "decidedBy": ["Michael Donovan"],
+      "topic": "database-hygiene",
+      "confidence": "tentative"
+    },
+    {
+      "description": "Michael will identify and look up contacts (GMs) from Burles Nissan, Matt Bowers Hyundai Gulfport, Matt Bowers Chevy Metairie, and Northway Toyota.",
+      "decidedBy": ["Michael Donovan"],
+      "topic": "target-account-identification",
+      "confidence": "firm"
+    },
+    {
+      "description": "Use a 50% closing rate from SQLs for projections.",
+      "decidedBy": ["Joe Furnari", "Michael Donovan"],
+      "topic": "sales-conversion-rate",
+      "confidence": "firm"
+    }
+  ],
+  "actionItems": [
+    {
+      "task": "Create a list of two or three priorities with estimated cost and time frame and develop a framework for the strategy.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "google-docs",
+        "description": "Document outlining priorities, costs, timelines, and strategy framework for Vinnie's review."
+      }
+    },
+    {
+      "task": "Talk to Vinnie about Michael's compensation plan and the plan for building out the team.",
+      "owner": "Joe Furnari",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "other",
+        "description": "Vinnie's feedback and decisions regarding compensation and team structure."
+      }
+    },
+    {
+      "task": "Give Vinnie an update on Monday regarding the marketing team and strategy conversation.",
+      "owner": "Joe Furnari",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "other",
+        "description": "Vinnie is updated on the team strategy"
+      }
+    },
+    {
+      "task": "Look up the GMs from Hyundai, Gulfport, Chevy, Meteory, and Berles, Nissan.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "crm",
+        "description": "List of GMs from target dealerships added to the CRM."
+      }
+    }
+  ],
+  "topicsDiscussed": [
+    "document-feedback",
+    "content-deliverables",
+    "budget-allocation",
+    "demand-generation",
+    "flywheel-strategy",
+    "blog-content",
+    "podcast-material",
+    "timeline-for-deliverables",
+    "google-ads-performance",
+    "database-hygiene",
+    "segmented-list",
+    "target-accounts",
+    "segmentation",
+    "financial-strategy",
+    "marketing-infrastructure",
+    "reporting-portal",
+    "organizational-structure",
+    "employment-agreement",
+    "compensation-plan"
+  ],
+  "tensions": [
+    "Vinnie's preference for a fully dedicated in-house marketing team conflicting with Michael's existing commitments.",
+    "Michael's dissatisfaction with their compensation plan.",
+    "Joe and Michael disagreeing on the origin of Michael's employment agreement.",
+    "Concerns about data contamination within Zoho.",
+    "Conflicting information received by Michael from Vinnie."
+  ],
+  "referencesToPast": [
+    "Unsuccessful call with Front Line.",
+    "Positive feedback Vinnie provided on information sent by Paulo.",
+    "Prior materials leveraged for blog content and podcasts.",
+    "Previous conversations about database hygiene.",
+    "Review of SQL data from previous months and years.",
+    "Reference to report Michael shared many months ago",
+    "Mention of previous month's team changes with Sergey and Matt."
+  ]
+}

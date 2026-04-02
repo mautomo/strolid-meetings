@@ -1,0 +1,57 @@
+{
+  "meetingId": "product-marketing-alignment-2026-03-11",
+  "title": "Product Marketing Alignment",
+  "date": "2026-03-11",
+  "series": "Product Marketing Alignment",
+  "type": "marketing",
+  "attendees": ["Michael Donovan", "Matt Watson", "Paulo Trovao"],
+  "summary": "The team discussed improved database access for Snowflake Intelligence to aid in creating data models and look-alike scoring, leading to a commitment from Matt to build a basic dealer data set containing dealer ID, name, group, and key CXM fields like inventory. They also reviewed the current data strategy and scoring model for targeting dealers, including the challenges of data acquisition due to high turnover in the auto industry.",
+  "decisions": [
+    {
+      "description": "Build a basic Snowflake table containing Dealer ID, name, dealer group, and key CXM fields like inventory count.",
+      "decidedBy": ["Matt Watson"],
+      "topic": "dealer-data-set",
+      "confidence": "firm"
+    }
+  ],
+  "actionItems": [
+    {
+      "task": "Show Matt Watson the context regarding the required database access, particularly the dealer groups, CLTV, average lifetime revenue, tenure, active/cancelled dealers, and churn information.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "other",
+        "description": "Matt has necessary context for database access needs."
+      }
+    },
+    {
+      "task": "Experiment with Snowflake intelligence and build a basic data set/table of dealer facts from the CXM (rooftops section), including dealer ID, name, dealer group, inventory count, and historical data.",
+      "owner": "Matt Watson",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "snowflake",
+        "description": "Basic dealer data table available in Snowflake."
+      }
+    }
+  ],
+  "topicsDiscussed": [
+    "database-access",
+    "snowflake-intelligence",
+    "data-modeling",
+    "data-strategy",
+    "scoring-model",
+    "dealer-targeting",
+    "data-acquisition",
+    "cxm-data",
+    "lead-handling"
+  ],
+  "tensions": [
+    "Challenges in acquiring accurate dealer data due to high turnover in the auto industry.",
+    "Difficulty in obtaining granular data points, like rooftop numbers and revenue, which are scattered across different systems.",
+    "Concerns about the usefulness and complexity of existing systems like Clay."
+  ],
+  "referencesToPast": [
+    "Discussion about database access from last week's meeting.",
+    "Past use of ZoomInfo for contacts and emails."
+  ]
+}

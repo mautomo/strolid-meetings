@@ -1,0 +1,141 @@
+{
+  "meetingId": "strolid-leadership-call-2026-03-23",
+  "title": "Strolid Leadership Call",
+  "date": "2026-03-23",
+  "series": "Strolid Leadership Call",
+  "type": "leadership",
+  "attendees": [
+    "Matt Watson",
+    "Shawna Behen",
+    "Vinnie Micciche",
+    "Thomas Howe",
+    "Jason Branham",
+    "Joe Furnari",
+    "Michael Donovan",
+    "Harinder Bhinder",
+    "Sergey Lyapustin",
+    "Kevin Breen"
+  ],
+  "summary": "The meeting covered Q1 financial performance, revealing lower bookings and declining revenue, leading to discussions about organizational restructuring with new Performance Manager roles reporting to Operational Directors under Shawna Behen. Strategic updates included AI capabilities for improving data validation and controlling the narrative around the Call Review acquisition, emphasizing conversational intelligence.",
+  "decisions": [
+    {
+      "description": "Place Performance Managers under the Operational Directors, who report to Shawna Behen, to reduce churn and support sales and operational teams.",
+      "decidedBy": ["Vinnie Micciche"],
+      "topic": "operational-structure",
+      "confidence": "firm"
+    },
+    {
+      "description": "Joe Furnari will respond to the remaining items about the BDS deal, with the aim to send the response back to Better Dead Solutions today.",
+      "decidedBy": ["Joe Furnari"],
+      "topic": "bds-deal",
+      "confidence": "firm"
+    },
+    {
+      "description": "Review the link Kevin Breen provided for the Lovable project and then authorize sharing it with the internal team for feedback, focusing on integrating the most important data points like a Sophia call addition.",
+      "decidedBy": ["Vinnie Micciche"],
+      "topic": "lovable-integration",
+      "confidence": "firm"
+    }
+  ],
+  "actionItems": [
+    {
+      "task": "Create a shortlist of Augusta merchandise items for Matt Watson.",
+      "owner": "Jason Branham",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "email",
+        "description": "A concise list of available Augusta merchandise options will be provided to Matt Watson."
+      }
+    },
+    {
+      "task": "Spend time thinking through potential challenges with the Performance Manager structure.",
+      "owner": "Vinnie Micciche",
+      "deadline": "2026-03-23",
+      "expectedOutcome": {
+        "system": "other",
+        "description": "A clearer understanding of the challenges and mitigation strategies for the new Performance Manager structure."
+      }
+    },
+    {
+      "task": "Reach out to Jamie to connect Joe Furnari and Jamie regarding Call Review.",
+      "owner": "Vinnie Micciche",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "email",
+        "description": "Facilitate a discussion between Joe Furnari and Jamie to address potential items regarding Call Review."
+      }
+    },
+    {
+      "task": "Review Kevin Breen's Lovable report and authorize sharing it with the internal team.",
+      "owner": "Vinnie Micciche",
+      "deadline": "2026-03-23",
+      "expectedOutcome": {
+        "system": "other",
+        "description": "The Lovable report will be distributed internally for feedback and potential integration."
+      }
+    },
+    {
+      "task": "Spend more time with Sergey Lyapustin and Scott on guardrails for the AI tools.",
+      "owner": "Vinnie Micciche",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "other",
+        "description": "Establish clear guidelines and limitations for AI tool access and usage."
+      }
+    },
+    {
+      "task": "Discuss creating a budget for the extensive use of AI.",
+      "owner": "Harinder Bhinder",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "budget",
+        "description": "A defined budget allocation for AI usage and associated costs."
+      }
+    },
+    {
+      "task": "Share a more concrete SOC auditor roadmap.",
+      "owner": "Harinder Bhinder",
+      "deadline": "2026-03-31",
+      "expectedOutcome": {
+        "system": "google-docs",
+        "description": "A detailed plan outlining the steps and timelines for the SOC audit process."
+      }
+    },
+    {
+      "task": "Discuss setting a flexible and variable AI budget and share cost information with Joe Furnari.",
+      "owner": "Harinder Bhinder",
+      "deadline": "2026-03-23",
+      "expectedOutcome": {
+        "system": "budget",
+        "description": "Agreement on a budgeting approach for AI usage that accounts for variability in costs. The information will be included in future budget projections."
+      }
+    }
+  ],
+  "topicsDiscussed": [
+    "q1-financial-recap",
+    "full-year-targets",
+    "churn-reduction",
+    "pipeline-update",
+    "operational-structure",
+    "performance-manager-role",
+    "ai-agent-capabilities",
+    "sophia-engagement-report",
+    "personalization-crm-roadmap",
+    "call-review-acquisition",
+    "ai-budgeting",
+    "soc-auditors-contract",
+    "better-dead-solutions-deal"
+  ],
+  "tensions": [
+    "Ensuring performance managers have enough time with Jason Branham for upselling and outbound campaigns.",
+    "Uneasiness about how the performance manager role will play out.",
+    "Need for improved personalization in customer communication and addressing Rosenberg's concerns about generic email templates.",
+    "Need to limit access to the AI tool to prevent accidental issues and data governance concerns."
+  ],
+  "referencesToPast": [
+    "Discussion of operational structure from the previous week's meeting.",
+    "Mention of goals set last year for churn reduction.",
+    "Reference to Q1 2025 bookings performance.",
+    "Revenue decline due to lower bookings since October of the previous year."
+  ]
+}

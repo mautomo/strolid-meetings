@@ -1,0 +1,92 @@
+{
+  "meetingId": "the-marketing-meeting-2025-10-28",
+  "title": "The Marketing Meeting",
+  "date": "2025-10-28",
+  "series": "The Marketing Meeting",
+  "type": "marketing",
+  "attendees": [
+    "Thomas Howe",
+    "Vinnie Micciche",
+    "Joe Furnari",
+    "Michael Donovan",
+    "Ziad Al Khatib",
+    "Jason Branham",
+    "Matt Watson"
+  ],
+  "summary": "The meeting focused on website progress updates, addressing issues with a former agency, and concerns about marketing messaging. Michael Donovan reported progress on the Viconic and Strolid websites, while Vinnie Micciche raised concerns about social media posts and pricing-focused messaging. The team emphasized the importance of control and transparency in marketing to dealers, as well as urgent execution and visibility.",
+  "decisions": [
+    {
+      "description": "To wait a few minutes for Vinnie Micciche to join the meeting.",
+      "decidedBy": ["Joe Furnari", "Michael Donovan"],
+      "topic": "meeting-rescheduling",
+      "confidence": "firm"
+    },
+    {
+      "description": "To include \"a Strolid adventure\" in the footer of the Viconic site and anchor it with a high-value keyword like \"conversational data\".",
+      "decidedBy": ["Michael Donovan", "Vinnie Micciche"],
+      "topic": "viconic-site-integration",
+      "confidence": "firm"
+    },
+    {
+      "description": "To not include competitive analysis with pricing details in marketing content.",
+      "decidedBy": ["Vinnie Micciche"],
+      "topic": "competitive-analysis-messaging",
+      "confidence": "firm"
+    },
+    {
+      "description": "Michael Donovan will send Vinnie Micciche all the carousel posts for review and feedback.",
+      "decidedBy": ["Michael Donovan", "Joe Furnari"],
+      "topic": "marketing-content-review",
+      "confidence": "firm"
+    }
+  ],
+  "actionItems": [
+    {
+      "task": "Send out a link to the Viconic site along with direct links to the different homepage options via email.",
+      "owner": "Michael Donovan",
+      "deadline": "2025-10-28",
+      "expectedOutcome": {
+        "system": "email",
+        "description": "Email sent with link to Viconic site and options for approval."
+      }
+    },
+    {
+      "task": "Go through all the carousel posts that Michael Donovan will send and give feedback.",
+      "owner": "Vinnie Micciche",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "email",
+        "description": "Feedback provided on carousel posts."
+      }
+    },
+    {
+      "task": "Research the highest value keyword for the Viconic link on the Strolid site.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "other",
+        "description": "Identify and recommend the highest value keyword."
+      }
+    }
+  ],
+  "topicsDiscussed": [
+    "meeting-rescheduling",
+    "website-development",
+    "google-ads-integration",
+    "viconic-site-integration",
+    "social-media-marketing",
+    "marketing-messaging",
+    "dealer-bdc-control",
+    "competitive-analysis-messaging",
+    "data-mismanagement-dealerships",
+    "marketing-content-review"
+  ],
+  "tensions": [
+    "Vinnie Micciche expressed concern over the lack of social media posts for Strolid.",
+    "Vinnie Micciche strongly disagreed with pricing-focused messaging.",
+    "Vinnie Micciche and Jason Branham critiqued the inclusion of pricing in competitive analysis.",
+    "Vinnie Micciche emphasized the urgency of execution in marketing, highlighting the need to get things done and maintain visibility, especially with recent cancellations.",
+    "Vinnie Micciche expressed that dealers are reluctant to outsource BDC services due to a perceived loss of control, but that Strolid actually offers more control and transparency through its processes and portal."
+  ],
+  "referencesToPast": ["Reference to last week's meeting and its duration."]
+}
