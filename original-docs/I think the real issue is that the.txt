@@ -1,0 +1,156 @@
+I think the real issue is that the expectations set a year ago have been forgotten.
+
+Filling gaps within a team on any aspect of marketing is what I would consider rolling my sleeves up, and putting my hands in the dirt looks like.
+
+Being a single person marketing team is way out of bounds. 
+
+Here's the snapshot of 2025 from the perspective of an industry veteran, revenue generator, who ranked in the top-50 salespeople nationally
+Arrival - marketing was abysmal, lacking clarity
+Functioning like a dealership, or B2C
+losing Avis, an $80k/MRR hit
+Jason -> Michael weekly
+Leads to feed sales
+Sales improve, AI is creeping in to Google
+Honest SEO concerns
+April Zoho report broken
+"Only 2 leads" repeatedly
+Zoho Lead Source fixed
+Bonuses withheld, framed as "extended" 
+Heated conversations begin, revolving around bonus
+Podcasts stop
+Literally mocked directly to my face with less than 1 hour remaining at the off-site
+Zero respect
+Zero reinvestment in marketing
+Attempted to hire fourth team member
+Team crumbles, reactive rapid hire
+New hire - Michael recommends termination after skill and capability assessment ~3-4 weeks
+Termination recommendation overridden
+Assigned "coaching" role to new hire
+New hire terminated 9-10 weeks in
+Resource exploration: replacing new hire
+VP of Marketing: Single man team, no resources being provided
+
+There is no upside. I thrive when I am part of a team, making contributions. The situation is unfair, and instead of providing resources and making adjustments to the bleeding of capital to a non-revenue generating business, the decision to cut-off marketing has been made. 
+
+Burning bridges vs torching ships. 
+My position has been significantly altered, putting chat GPT in the driver seat through proxy. It seems that a significant amount of blind trust has been placed on an AI resource.  I think the realm of safety and potentially legality has been forgotten.
+- AI does not have my experience, nor my wisdom
+- Frontier models are designed to engage and acknowledge - "You're right! That's true, I can show you the way to make this [blank]..."
+- Storing dealership customer information, conversations, and recording far beyond the end of the contract without permission seems like it would break some sort of law before adding in the international layer, and lack of governance. 
+- Action --> outcome: Have you ever noticed the excessive talking? Repeating the same thing over and over. Then asking if anyone has anything to add, only to get no response. You wear people out, and create a culture of dominance rooted in what I can only guess is your sub-conscious insecurity.
+- If AI does something fast, and anyone can do it then it's not worth much. Literally anyone can do what you just did. Step back, research, anchor in experience, expertise and make sure you solve a problem. Creating more random thoughts full of em dashes is not more work.
+
+
+After building two companies from nothing, I understood what your vantage point was. The kicker was that I was relatively confident I wouldn't make a good employee. I was confident that I could build solutions to the problems. 
+
+That's what I was doing. That all changed when you and I didn't see eye to eye on an earned bonus in May. Podcasting stopped. Aggression became more prevalent. You literally mocked me to my face at the off-site about selling to dealers. Funny thing with that is you apparently don't know who you're talking to in that context.
+I've been in this industry since 2005.
+
+ that I am going to do everything that you want, even if that falls so far out of the scope of what my role, position, and title are. 
+
+A team of 3 people that could have built redundancy and efficiency has been reduced to a single person.
+
+Resources aren't being provided. You feel the need to target me, shoot every idea and concept down. I spend time reading endless docs that are full of "great ideas".
+
+I'm concerned for you. Sincerely, authentically, and in a no bullshit kind of manner
+
+On Tue, Dec 30, 2025 at 2:19 PM Michael Donovan <michael.donovan@strolid.com> wrote:
+Vin, I was giving you feedback. The lanes we discussed were listed in the content, which was not the intent.
+
+Let's roll with your content. I'm going to switch gears on the issues at hand.
+
+All set, thanks.
+
+On Tue, Dec 30, 2025 at 2:16 PM Vinnie Micciche <vinnie@strolid.com> wrote:
+Michael, 
+
+Why are we complicating this? The website should be simple. What we do, who it’s for, the problems we solve, and the proof. Let’s strip the abstraction and make it obvious. I am getting very tired of complex, abstract thoughts. We need action. 
+
+Your email reads like an internal positioning memo, not a simple plan and I like simple. It says what’s wrong but doesn’t give you the clear replacement  of headline hierarchy, page structure, proof points, where products go, what the CTA is, etc. 
+
+It adds another “architecture” layer which we do not need and proposes a working session & visuals, which can turn into an endless loop and more meetings and more meetings and ugh! We don't need more meetings, we need execution. 
+
+It’s heavy on emotion/strategic ideas and light on the concrete dealer story you can actually publish like missed calls, response time, appointments, sales, service RO, staffing, transparency, proof.
+
+Please do what I ask. I was looking for feedback on the content from everyone. Once we agree I want it built. Can you do that? 
+
+_____________________________________________________________
+Vincent A. Micciche
+Founder & CEO
+Strolid, Inc
+www.strolid.com
+https://calendly.com/vinnie-dwc
+855-787-6543 ext 2101
+
+
+On Tue, Dec 30, 2025 at 1:09 PM Michael Donovan <michael.donovan@strolid.com> wrote:
+Vin,
+
+I want to level-set on the Strolid Website doc you provided and how it connects, or more accurately does not connect, to the brand architecture I've been building with Joe around Strolid.
+
+At a high level, the issue isn’t effort or intent. The opportunity we have is alignment.
+
+The “three lanes” concept was treated very literally in the document, almost as a content taxonomy, rather than as a strategic framework designed to guide how we position Strolid in the mind of a dealer. As a result, the lanes became labels instead of lenses. They describe what we want to say, but not why a dealer should care.
+
+More importantly, the content largely skips over the lived pain of our ICP. Our buyers are not looking for conceptual clarity or abstract frameworks. They are dealing with missed calls after hours, inconsistent follow-up, rising payroll, BDC turnover, service no-shows, and a growing stack of tools that don’t talk to each other. When those pains are not clearly acknowledged, the message feels theoretical instead of earned.
+
+From a brand architecture standpoint, this creates three gaps:
+The content does not meet the dealer where they are emotionally. There is little recognition of frustration, skepticism, or fatigue with vendor promises. Without that, we lose trust before we ever get to differentiation.
+The lanes are not functioning as a progression. They should move a reader from “I feel this problem” to “this is solvable” to “this is the best solution for the future growth of my dealership.” Currently, they read as parallel ideas rather than a journey, which is a missed opportunity, especially for taking a stance at NADA.
+The content does not clearly set up Strolid as the obvious answer to the current market confusion around AI tools, outsourced BDCs, and point solutions. We are in a moment where dealers are overwhelmed by choice. Our architecture should simplify that decision, not add another layer of abstraction.
+The upside is significant.
+
+This is not a teardown. I see a collaboration opportunity that will set a trajectory for 2026, and far beyond. We have the right ingredients:
+three-lane framework
+deep ICP understanding
+products that solve real operational problems
+
+My function is to bring a tighter integration between strategy and execution.
+
+If we realign the content to:
+Lead with dealer pain and operational reality: problems, outcomes/results
+Use the three lanes as strategic progression, not categories: I can provide you with what I have outlined, just let me know
+Explicitly anchor messaging to sales, service, and group-level outcomes: Kevin may have some new data, and you and Jason likely have direct connections to high-performing dealers 
+Position the website as a decision-making asset, not abstract, thin brand statements
+This brings a stable foundation for the website update to be the growth lever, not a refresh.
+
+I’d recommend a working session where we walk through the architecture together. I'll put some visuals to show you how the lanes map directly to ICP pain points, buying stages, and product proof. That will give us a shared north star and allow everyone involved to build toward the same outcome.
+
+Let's create a narrative that matches where Strolid is going, building on the great work and accomplishments that have been achieved.
+
+Thank you,
+
+Michael
+
+On Tue, Dec 30, 2025 at 11:16 AM Vinnie Micciche (via Google Docs) <drive-shares-dm-noreply@google.com> wrote:
+Vinnie Micciche shared a document
+Header profile photo
+Vinnie Micciche (vinnie@strolid.com) has invited you to edit the following document:
+Michael, I took your direction on the pillars and combined it with all of the content I have been creating and came up with this. Let me know what you think and I urge everyone to review and add notes. Thank you and Happy New Year!
+Strolid Website
+Open
+Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA
+You have received this email because vinnie@strolid.com shared a document with you from Google Docs.	Google
+
+
+--
+Michael Donovan
+Never Miss with Strolid!
++1 (518) 951-4185
+LinkedIn
+
+
+
+--
+Michael Donovan
+Never Miss with Strolid!
++1 (518) 951-4185
+LinkedIn
+
+
+
+--
+Michael Donovan
+Never Miss with Strolid!
++1 (518) 951-4185
+LinkedIn
