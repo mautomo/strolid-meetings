@@ -4,1301 +4,2965 @@
     "severity": "high",
     "title": "Recurring: \"Review and clean up the format of the CRM documentation and ...\"",
     "description": "Assigned to Michael Donovan, keeps reappearing across meetings without resolution.",
-    "meetingRefs": ["1-on-1-joe-and-michael-2025-07-01"],
-    "dates": ["2025-07-01"],
-    "relatedEntities": ["Michael Donovan"]
+    "meetingRefs": [
+      "1-on-1-joe-and-michael-2025-07-01"
+    ],
+    "dates": [
+      "2025-07-01"
+    ],
+    "relatedEntities": [
+      "Michael Donovan"
+    ]
   },
   {
     "type": "recurring_unresolved",
     "severity": "high",
     "title": "Recurring: \"Have a conversation with Vinnie regarding bonus payments and...\"",
     "description": "Assigned to Joe Furnari, keeps reappearing across meetings without resolution.",
-    "meetingRefs": ["1-on-1-joe-and-michael-2025-07-01"],
-    "dates": ["2025-07-01"],
-    "relatedEntities": ["Joe Furnari"]
+    "meetingRefs": [
+      "1-on-1-joe-and-michael-2025-07-01"
+    ],
+    "dates": [
+      "2025-07-01"
+    ],
+    "relatedEntities": [
+      "Joe Furnari"
+    ]
   },
   {
     "type": "recurring_unresolved",
     "severity": "high",
     "title": "Recurring: \"Take some time to get the design dialed in to their standard...\"",
     "description": "Assigned to Ziad Al Khatib, keeps reappearing across meetings without resolution.",
-    "meetingRefs": ["homepage-hero-session-2025-09-23"],
-    "dates": ["2025-09-23"],
-    "relatedEntities": ["Ziad Al Khatib"]
+    "meetingRefs": [
+      "homepage-hero-session-2025-09-23"
+    ],
+    "dates": [
+      "2025-09-23"
+    ],
+    "relatedEntities": [
+      "Ziad Al Khatib"
+    ]
   },
   {
     "type": "recurring_unresolved",
     "severity": "high",
     "title": "Recurring: \"Review the item Michael Donovan shared....\"",
     "description": "Assigned to Vinnie Micciche, keeps reappearing across meetings without resolution.",
-    "meetingRefs": ["the-marketing-meeting-2025-10-21"],
-    "dates": ["2025-10-21"],
-    "relatedEntities": ["Vinnie Micciche"]
+    "meetingRefs": [
+      "the-marketing-meeting-2025-10-21"
+    ],
+    "dates": [
+      "2025-10-21"
+    ],
+    "relatedEntities": [
+      "Vinnie Micciche"
+    ]
   },
   {
     "type": "recurring_unresolved",
     "severity": "high",
     "title": "Recurring: \"Go through all the carousel posts that Michael Donovan will ...\"",
     "description": "Assigned to Vinnie Micciche, keeps reappearing across meetings without resolution.",
-    "meetingRefs": ["the-marketing-meeting-2025-10-28"],
-    "dates": ["2025-10-28"],
-    "relatedEntities": ["Vinnie Micciche"]
+    "meetingRefs": [
+      "the-marketing-meeting-2025-10-28"
+    ],
+    "dates": [
+      "2025-10-28"
+    ],
+    "relatedEntities": [
+      "Vinnie Micciche"
+    ]
   },
   {
     "type": "recurring_unresolved",
     "severity": "high",
     "title": "Recurring: \"Review and provide feedback on updated creatives....\"",
     "description": "Assigned to Vinnie Micciche, keeps reappearing across meetings without resolution.",
-    "meetingRefs": ["the-marketing-meeting-2025-11-11"],
-    "dates": ["2025-11-11"],
-    "relatedEntities": ["Vinnie Micciche"]
+    "meetingRefs": [
+      "the-marketing-meeting-2025-11-11"
+    ],
+    "dates": [
+      "2025-11-11"
+    ],
+    "relatedEntities": [
+      "Vinnie Micciche"
+    ]
   },
   {
     "type": "recurring_unresolved",
     "severity": "high",
     "title": "Recurring: \"Improve the document to ensure Vinnie Micciche has the whole...\"",
     "description": "Assigned to Michael Donovan, keeps reappearing across meetings without resolution.",
-    "meetingRefs": ["the-marketing-meeting-2025-11-11"],
-    "dates": ["2025-11-11"],
-    "relatedEntities": ["Michael Donovan"]
+    "meetingRefs": [
+      "the-marketing-meeting-2025-11-11"
+    ],
+    "dates": [
+      "2025-11-11"
+    ],
+    "relatedEntities": [
+      "Michael Donovan"
+    ]
   },
   {
     "type": "recurring_unresolved",
     "severity": "high",
     "title": "Recurring: \"Finish updates on the Looker Studio report, consolidating al...\"",
     "description": "Assigned to Michael Donovan, keeps reappearing across meetings without resolution.",
-    "meetingRefs": ["the-marketing-meeting-2025-11-25"],
-    "dates": ["2025-11-25"],
-    "relatedEntities": ["Michael Donovan"]
+    "meetingRefs": [
+      "the-marketing-meeting-2025-11-25"
+    ],
+    "dates": [
+      "2025-11-25"
+    ],
+    "relatedEntities": [
+      "Michael Donovan"
+    ]
   },
   {
     "type": "recurring_unresolved",
     "severity": "high",
     "title": "Recurring: \"Work with Christina directly for now to ensure social posts ...\"",
     "description": "Assigned to Vinnie Micciche, keeps reappearing across meetings without resolution.",
-    "meetingRefs": ["the-marketing-meeting-2025-12-02"],
-    "dates": ["2025-12-02"],
-    "relatedEntities": ["Vinnie Micciche"]
+    "meetingRefs": [
+      "the-marketing-meeting-2025-12-02"
+    ],
+    "dates": [
+      "2025-12-02"
+    ],
+    "relatedEntities": [
+      "Vinnie Micciche"
+    ]
   },
   {
     "type": "recurring_unresolved",
     "severity": "high",
     "title": "Recurring: \"Ensure new social media posts are sent out immediately to ma...\"",
     "description": "Assigned to Michael Donovan, keeps reappearing across meetings without resolution.",
-    "meetingRefs": ["michael-and-vin-continuation-2025-12-03"],
-    "dates": ["2025-12-03"],
-    "relatedEntities": ["Michael Donovan"]
+    "meetingRefs": [
+      "michael-and-vin-continuation-2025-12-03"
+    ],
+    "dates": [
+      "2025-12-03"
+    ],
+    "relatedEntities": [
+      "Michael Donovan"
+    ]
   },
   {
     "type": "recurring_unresolved",
     "severity": "high",
     "title": "Recurring: \"Send the social posts to Vinnie Micciche for review with the...\"",
     "description": "Assigned to Michael Donovan, keeps reappearing across meetings without resolution.",
-    "meetingRefs": ["vin-and-michael-2025-12-03"],
-    "dates": ["2025-12-03"],
-    "relatedEntities": ["Michael Donovan"]
+    "meetingRefs": [
+      "vin-and-michael-2025-12-03"
+    ],
+    "dates": [
+      "2025-12-03"
+    ],
+    "relatedEntities": [
+      "Michael Donovan"
+    ]
   },
   {
     "type": "recurring_unresolved",
     "severity": "high",
     "title": "Recurring: \"Share the January newsletter dates with Kristina Cvitko for ...\"",
     "description": "Assigned to Michael Donovan, keeps reappearing across meetings without resolution.",
-    "meetingRefs": ["website-planning-session-2025-12-29"],
-    "dates": ["2025-12-29"],
-    "relatedEntities": ["Michael Donovan"]
+    "meetingRefs": [
+      "website-planning-session-2025-12-29"
+    ],
+    "dates": [
+      "2025-12-29"
+    ],
+    "relatedEntities": [
+      "Michael Donovan"
+    ]
   },
   {
     "type": "recurring_unresolved",
     "severity": "high",
     "title": "Recurring: \"Develop three core messages based on Michael Donovan's input...\"",
     "description": "Assigned to Vinnie Micciche, keeps reappearing across meetings without resolution.",
-    "meetingRefs": ["the-marketing-meeting-2025-12-30"],
-    "dates": ["2025-12-30"],
-    "relatedEntities": ["Vinnie Micciche"]
+    "meetingRefs": [
+      "the-marketing-meeting-2025-12-30"
+    ],
+    "dates": [
+      "2025-12-30"
+    ],
+    "relatedEntities": [
+      "Vinnie Micciche"
+    ]
   },
   {
     "type": "recurring_unresolved",
     "severity": "high",
     "title": "Recurring: \"Share the three decks for the V20 group for review and feedb...\"",
     "description": "Assigned to Vinnie Micciche, keeps reappearing across meetings without resolution.",
-    "meetingRefs": ["the-marketing-meeting-2025-12-30"],
-    "dates": ["2025-12-30"],
-    "relatedEntities": ["Vinnie Micciche"]
+    "meetingRefs": [
+      "the-marketing-meeting-2025-12-30"
+    ],
+    "dates": [
+      "2025-12-30"
+    ],
+    "relatedEntities": [
+      "Vinnie Micciche"
+    ]
   },
   {
     "type": "recurring_unresolved",
     "severity": "high",
     "title": "Recurring: \"Read through, critique, and provide feedback on Vinnie Micci...\"",
     "description": "Assigned to Unassigned, keeps reappearing across meetings without resolution.",
-    "meetingRefs": ["the-marketing-meeting-2025-12-30"],
-    "dates": ["2025-12-30"],
-    "relatedEntities": ["Unassigned"]
+    "meetingRefs": [
+      "the-marketing-meeting-2025-12-30"
+    ],
+    "dates": [
+      "2025-12-30"
+    ],
+    "relatedEntities": [
+      "Unassigned"
+    ]
   },
   {
     "type": "recurring_unresolved",
     "severity": "high",
     "title": "Recurring: \"Work on the social posts and email blast to generate busines...\"",
     "description": "Assigned to Michael Donovan, keeps reappearing across meetings without resolution.",
-    "meetingRefs": ["the-marketing-meeting-2026-01-06"],
-    "dates": ["2026-01-06"],
-    "relatedEntities": ["Michael Donovan"]
+    "meetingRefs": [
+      "the-marketing-meeting-2026-01-06"
+    ],
+    "dates": [
+      "2026-01-06"
+    ],
+    "relatedEntities": [
+      "Michael Donovan"
+    ]
   },
   {
     "type": "recurring_unresolved",
     "severity": "high",
     "title": "Recurring: \"Build the website exactly with the content that Vinnie Micci...\"",
     "description": "Assigned to Michael Donovan, keeps reappearing across meetings without resolution.",
-    "meetingRefs": ["the-marketing-meeting-2026-01-06"],
-    "dates": ["2026-01-06"],
-    "relatedEntities": ["Michael Donovan"]
+    "meetingRefs": [
+      "the-marketing-meeting-2026-01-06"
+    ],
+    "dates": [
+      "2026-01-06"
+    ],
+    "relatedEntities": [
+      "Michael Donovan"
+    ]
   },
   {
     "type": "recurring_unresolved",
     "severity": "high",
     "title": "Recurring: \"Review the links and pages sent by Michael Donovan and provi...\"",
     "description": "Assigned to Joe Furnari, keeps reappearing across meetings without resolution.",
-    "meetingRefs": ["regroup-on-website-refresh-initiative-2026-01-09"],
-    "dates": ["2026-01-09"],
-    "relatedEntities": ["Joe Furnari"]
+    "meetingRefs": [
+      "regroup-on-website-refresh-initiative-2026-01-09"
+    ],
+    "dates": [
+      "2026-01-09"
+    ],
+    "relatedEntities": [
+      "Joe Furnari"
+    ]
   },
   {
     "type": "recurring_unresolved",
     "severity": "high",
     "title": "Recurring: \"Send the link to the proposed staging environment website to...\"",
     "description": "Assigned to Michael Donovan, keeps reappearing across meetings without resolution.",
-    "meetingRefs": ["the-marketing-meeting-2026-01-13"],
-    "dates": ["2026-01-13"],
-    "relatedEntities": ["Michael Donovan"]
+    "meetingRefs": [
+      "the-marketing-meeting-2026-01-13"
+    ],
+    "dates": [
+      "2026-01-13"
+    ],
+    "relatedEntities": [
+      "Michael Donovan"
+    ]
   },
   {
     "type": "recurring_unresolved",
     "severity": "high",
     "title": "Recurring: \"Set up and send a file to Vinnie Micciche to build into Lova...\"",
     "description": "Assigned to Michael Donovan, keeps reappearing across meetings without resolution.",
-    "meetingRefs": ["the-marketing-meeting-2026-01-13"],
-    "dates": ["2026-01-13"],
-    "relatedEntities": ["Michael Donovan"]
+    "meetingRefs": [
+      "the-marketing-meeting-2026-01-13"
+    ],
+    "dates": [
+      "2026-01-13"
+    ],
+    "relatedEntities": [
+      "Michael Donovan"
+    ]
   },
   {
     "type": "recurring_unresolved",
     "severity": "high",
     "title": "Recurring: \"Send Vinnie the FAQs to get confirmation on whether he wants...\"",
     "description": "Assigned to Joe Furnari, keeps reappearing across meetings without resolution.",
-    "meetingRefs": ["joe-and-michael-touch-base-2026-01-20"],
-    "dates": ["2026-01-20"],
-    "relatedEntities": ["Joe Furnari"]
+    "meetingRefs": [
+      "joe-and-michael-touch-base-2026-01-20"
+    ],
+    "dates": [
+      "2026-01-20"
+    ],
+    "relatedEntities": [
+      "Joe Furnari"
+    ]
+  },
+  {
+    "type": "recurring_unresolved",
+    "severity": "high",
+    "title": "Recurring: \"Finalize the lead magnet self-assessment tool and send it to...\"",
+    "description": "Assigned to Michael Donovan, keeps reappearing across meetings without resolution.",
+    "meetingRefs": [
+      "marketing-flow-and-alignment-2026-02-13"
+    ],
+    "dates": [
+      "2026-02-13"
+    ],
+    "relatedEntities": [
+      "Michael Donovan"
+    ]
+  },
+  {
+    "type": "recurring_unresolved",
+    "severity": "high",
+    "title": "Recurring: \"Provide Vinnie Micciche with the list of technical subscript...\"",
+    "description": "Assigned to Joe Furnari, keeps reappearing across meetings without resolution.",
+    "meetingRefs": [
+      "the-marketing-meeting-2026-02-24"
+    ],
+    "dates": [
+      "2026-02-24"
+    ],
+    "relatedEntities": [
+      "Joe Furnari"
+    ]
+  },
+  {
+    "type": "recurring_unresolved",
+    "severity": "high",
+    "title": "Recurring: \"Provide Vinnie Micciche and Jason Branham with two or three ...\"",
+    "description": "Assigned to Michael Donovan, keeps reappearing across meetings without resolution.",
+    "meetingRefs": [
+      "the-marketing-meeting-2026-03-10"
+    ],
+    "dates": [
+      "2026-03-10"
+    ],
+    "relatedEntities": [
+      "Michael Donovan"
+    ]
   },
   {
     "type": "direction_change",
     "severity": "high",
     "title": "Direction change on \"portal-user-engagement\" after 0 days",
-    "description": "\"Focus on the \"why\" behind portal usage to drive dealer adoption.\" → \"Leverage the diffusion of innovation theory to incentivize participation.\"",
+    "description": "\"Focus on the \"why\" behind portal usage to drive dealer adoption.\" \u2192 \"Leverage the diffusion of innovation theory to incentivize participation.\"",
     "meetingRefs": [
       "product-roadmap-planning-2025-01-28",
       "product-roadmap-planning-2025-01-28"
     ],
-    "dates": ["2025-01-28", "2025-01-28"],
-    "relatedEntities": ["portal-user-engagement"]
+    "dates": [
+      "2025-01-28",
+      "2025-01-28"
+    ],
+    "relatedEntities": [
+      "portal-user-engagement"
+    ]
   },
   {
     "type": "direction_change",
     "severity": "high",
     "title": "Direction change on \"project-documentation\" after 0 days",
-    "description": "\"Use a simple task list for project documentation instead of a complex workflow, \" → \"Michael Donovan will set Ziad Al Khatib as the default for multiple selections i\"",
+    "description": "\"Use a simple task list for project documentation instead of a complex workflow, \" \u2192 \"Michael Donovan will set Ziad Al Khatib as the default for multiple selections i\"",
     "meetingRefs": [
       "homepage-hero-session-2025-09-23",
       "homepage-hero-session-2025-09-23"
     ],
-    "dates": ["2025-09-23", "2025-09-23"],
-    "relatedEntities": ["project-documentation"]
+    "dates": [
+      "2025-09-23",
+      "2025-09-23"
+    ],
+    "relatedEntities": [
+      "project-documentation"
+    ]
   },
   {
     "type": "direction_change",
     "severity": "high",
     "title": "Direction change on \"portal-onboarding\" after 0 days",
-    "description": "\"Notify the client success person when a dealer user without a portal login attem\" → \"Prioritize building an onboarding flow for new portal users.\"",
+    "description": "\"Notify the client success person when a dealer user without a portal login attem\" \u2192 \"Prioritize building an onboarding flow for new portal users.\"",
     "meetingRefs": [
       "active-pipeline-review-2025-10-02",
       "active-pipeline-review-2025-10-02"
     ],
-    "dates": ["2025-10-02", "2025-10-02"],
-    "relatedEntities": ["portal-onboarding"]
+    "dates": [
+      "2025-10-02",
+      "2025-10-02"
+    ],
+    "relatedEntities": [
+      "portal-onboarding"
+    ]
   },
   {
     "type": "direction_change",
     "severity": "high",
     "title": "Direction change on \"website-development\" after 0 days",
-    "description": "\"Michael Donovan will provide a visual, password-protected staging version of the\" → \"Perry Evans will assess the staging website version and decide whether to dedica\"",
+    "description": "\"Michael Donovan will provide a visual, password-protected staging version of the\" \u2192 \"Perry Evans will assess the staging website version and decide whether to dedica\"",
     "meetingRefs": [
       "vconic-priority-content-update-2025-10-24",
       "vconic-priority-content-update-2025-10-24"
     ],
-    "dates": ["2025-10-24", "2025-10-24"],
-    "relatedEntities": ["website-development"]
+    "dates": [
+      "2025-10-24",
+      "2025-10-24"
+    ],
+    "relatedEntities": [
+      "website-development"
+    ]
   },
   {
     "type": "direction_change",
     "severity": "high",
     "title": "Direction change on \"linkedin-strategy\" after 0 days",
-    "description": "\"Michael Donovan will have LinkedIn assets ready to align with Vinnie's priority \" → \"LinkedIn project is put in a secondary stage, focusing on hero images, profile b\"",
+    "description": "\"Michael Donovan will have LinkedIn assets ready to align with Vinnie's priority \" \u2192 \"LinkedIn project is put in a secondary stage, focusing on hero images, profile b\"",
     "meetingRefs": [
       "vconic-priority-content-update-2025-10-24",
       "vconic-priority-content-update-2025-10-24"
     ],
-    "dates": ["2025-10-24", "2025-10-24"],
-    "relatedEntities": ["linkedin-strategy"]
+    "dates": [
+      "2025-10-24",
+      "2025-10-24"
+    ],
+    "relatedEntities": [
+      "linkedin-strategy"
+    ]
   },
   {
     "type": "direction_change",
     "severity": "high",
     "title": "Direction change on \"sales-deck-update\" after 0 days",
-    "description": "\"Michael Donovan will schedule time with Jason Branham to review and align the up\" → \"Michael Donovan will build out the template for the updated aesthetic sales deck\"",
+    "description": "\"Michael Donovan will schedule time with Jason Branham to review and align the up\" \u2192 \"Michael Donovan will build out the template for the updated aesthetic sales deck\"",
     "meetingRefs": [
       "the-marketing-meeting-2025-11-25",
       "the-marketing-meeting-2025-11-25"
     ],
-    "dates": ["2025-11-25", "2025-11-25"],
-    "relatedEntities": ["sales-deck-update"]
+    "dates": [
+      "2025-11-25",
+      "2025-11-25"
+    ],
+    "relatedEntities": [
+      "sales-deck-update"
+    ]
   },
   {
     "type": "direction_change",
     "severity": "high",
     "title": "Direction change on \"messaging-strategy\" after 13 days",
-    "description": "\"Refine hero messaging to ensure VConic is recognized as the creator and educator\" → \"Michael Donovan will refine social posts to be more in-your-face and low-funnel \"",
+    "description": "\"Refine hero messaging to ensure VConic is recognized as the creator and educator\" \u2192 \"Michael Donovan will refine social posts to be more in-your-face and low-funnel \"",
     "meetingRefs": [
       "vconic-site-content-2025-11-20",
       "michael-and-vin-continuation-2025-12-03"
     ],
-    "dates": ["2025-11-20", "2025-12-03"],
-    "relatedEntities": ["messaging-strategy"]
+    "dates": [
+      "2025-11-20",
+      "2025-12-03"
+    ],
+    "relatedEntities": [
+      "messaging-strategy"
+    ]
   },
   {
     "type": "direction_change",
     "severity": "high",
     "title": "Direction change on \"messaging-strategy\" after 0 days",
-    "description": "\"Michael Donovan will refine social posts to be more in-your-face and low-funnel \" → \"Marketing should translate ideas into messaging, focusing on velocity, brand gui\"",
+    "description": "\"Michael Donovan will refine social posts to be more in-your-face and low-funnel \" \u2192 \"Marketing should translate ideas into messaging, focusing on velocity, brand gui\"",
     "meetingRefs": [
       "michael-and-vin-continuation-2025-12-03",
       "michael-and-vin-continuation-2025-12-03"
     ],
-    "dates": ["2025-12-03", "2025-12-03"],
-    "relatedEntities": ["messaging-strategy"]
+    "dates": [
+      "2025-12-03",
+      "2025-12-03"
+    ],
+    "relatedEntities": [
+      "messaging-strategy"
+    ]
   },
   {
     "type": "direction_change",
     "severity": "high",
     "title": "Direction change on \"messaging-strategy\" after 0 days",
-    "description": "\"Marketing should translate ideas into messaging, focusing on velocity, brand gui\" → \"Messaging must be relevant to the company's direction.\"",
+    "description": "\"Marketing should translate ideas into messaging, focusing on velocity, brand gui\" \u2192 \"Messaging must be relevant to the company's direction.\"",
     "meetingRefs": [
       "michael-and-vin-continuation-2025-12-03",
       "michael-and-vin-continuation-2025-12-03"
     ],
-    "dates": ["2025-12-03", "2025-12-03"],
-    "relatedEntities": ["messaging-strategy"]
+    "dates": [
+      "2025-12-03",
+      "2025-12-03"
+    ],
+    "relatedEntities": [
+      "messaging-strategy"
+    ]
   },
   {
     "type": "direction_change",
     "severity": "high",
     "title": "Direction change on \"messaging-strategy\" after 0 days",
-    "description": "\"Messaging must be relevant to the company's direction.\" → \"Michael Donovan will immediately refine social posts to be more in-your-face and\"",
+    "description": "\"Messaging must be relevant to the company's direction.\" \u2192 \"Michael Donovan will immediately refine social posts to be more in-your-face and\"",
     "meetingRefs": [
       "michael-and-vin-continuation-2025-12-03",
       "michael-and-vin-continuation-2025-12-03"
     ],
-    "dates": ["2025-12-03", "2025-12-03"],
-    "relatedEntities": ["messaging-strategy"]
+    "dates": [
+      "2025-12-03",
+      "2025-12-03"
+    ],
+    "relatedEntities": [
+      "messaging-strategy"
+    ]
   },
   {
     "type": "direction_change",
     "severity": "high",
     "title": "Direction change on \"messaging-strategy\" after 0 days",
-    "description": "\"Michael Donovan will immediately refine social posts to be more in-your-face and\" → \"Michael Donovan will \"tone down\" the marketing messaging to be less complex and \"",
+    "description": "\"Michael Donovan will immediately refine social posts to be more in-your-face and\" \u2192 \"Michael Donovan will \"tone down\" the marketing messaging to be less complex and \"",
     "meetingRefs": [
       "michael-and-vin-continuation-2025-12-03",
       "michael-and-vin-continuation-2025-12-03"
     ],
-    "dates": ["2025-12-03", "2025-12-03"],
-    "relatedEntities": ["messaging-strategy"]
+    "dates": [
+      "2025-12-03",
+      "2025-12-03"
+    ],
+    "relatedEntities": [
+      "messaging-strategy"
+    ]
   },
   {
     "type": "direction_change",
     "severity": "high",
     "title": "Direction change on \"content-creation\" after 0 days",
-    "description": "\"Vinnie Micciche will send content ideas to Michael Donovan for posting on Wednes\" → \"Michael Donovan will send out whatever posts they have immediately, emphasizing \"",
+    "description": "\"Vinnie Micciche will send content ideas to Michael Donovan for posting on Wednes\" \u2192 \"Michael Donovan will send out whatever posts they have immediately, emphasizing \"",
     "meetingRefs": [
       "michael-and-vin-continuation-2025-12-03",
       "michael-and-vin-continuation-2025-12-03"
     ],
-    "dates": ["2025-12-03", "2025-12-03"],
-    "relatedEntities": ["content-creation"]
+    "dates": [
+      "2025-12-03",
+      "2025-12-03"
+    ],
+    "relatedEntities": [
+      "content-creation"
+    ]
   },
   {
     "type": "direction_change",
     "severity": "high",
     "title": "Direction change on \"content-strategy\" after 2 days",
-    "description": "\"Content strategy will focus on new technology and the company's shift toward aut\" → \"Focus on one big content idea per month.\"",
+    "description": "\"Content strategy will focus on new technology and the company's shift toward aut\" \u2192 \"Focus on one big content idea per month.\"",
     "meetingRefs": [
       "the-marketing-meeting-2025-12-02",
       "joe-and-michael-catch-up-2025-12-04"
     ],
-    "dates": ["2025-12-02", "2025-12-04"],
-    "relatedEntities": ["content-strategy"]
+    "dates": [
+      "2025-12-02",
+      "2025-12-04"
+    ],
+    "relatedEntities": [
+      "content-strategy"
+    ]
   },
   {
     "type": "direction_change",
     "severity": "high",
     "title": "Direction change on \"messaging-strategy\" after 2 days",
-    "description": "\"Michael Donovan will \"tone down\" the marketing messaging to be less complex and \" → \"Adopt Vinnie Micciche's messaging focused on speed, efficiency, and advanced tec\"",
+    "description": "\"Michael Donovan will \"tone down\" the marketing messaging to be less complex and \" \u2192 \"Adopt Vinnie Micciche's messaging focused on speed, efficiency, and advanced tec\"",
     "meetingRefs": [
       "michael-and-vin-continuation-2025-12-03",
       "call-with-michael-2025-12-05"
     ],
-    "dates": ["2025-12-03", "2025-12-05"],
-    "relatedEntities": ["messaging-strategy"]
+    "dates": [
+      "2025-12-03",
+      "2025-12-05"
+    ],
+    "relatedEntities": [
+      "messaging-strategy"
+    ]
   },
   {
     "type": "direction_change",
     "severity": "high",
     "title": "Direction change on \"messaging-strategy\" after 5 days",
-    "description": "\"Adopt Vinnie Micciche's messaging focused on speed, efficiency, and advanced tec\" → \"Focus messaging on helping dealers who don't know how to use AI, positioning Str\"",
+    "description": "\"Adopt Vinnie Micciche's messaging focused on speed, efficiency, and advanced tec\" \u2192 \"Focus messaging on helping dealers who don't know how to use AI, positioning Str\"",
     "meetingRefs": [
       "call-with-michael-2025-12-05",
       "the-marketing-meeting-2025-12-10"
     ],
-    "dates": ["2025-12-05", "2025-12-10"],
-    "relatedEntities": ["messaging-strategy"]
+    "dates": [
+      "2025-12-05",
+      "2025-12-10"
+    ],
+    "relatedEntities": [
+      "messaging-strategy"
+    ]
   },
   {
     "type": "direction_change",
     "severity": "high",
     "title": "Direction change on \"messaging-strategy\" after 13 days",
-    "description": "\"Focus messaging on helping dealers who don't know how to use AI, positioning Str\" → \"Structure the marketing messaging into three lanes: dealer visibility/operationa\"",
+    "description": "\"Focus messaging on helping dealers who don't know how to use AI, positioning Str\" \u2192 \"Structure the marketing messaging into three lanes: dealer visibility/operationa\"",
     "meetingRefs": [
       "the-marketing-meeting-2025-12-10",
       "marketing-90-day-prioritization-2025-12-23"
     ],
-    "dates": ["2025-12-10", "2025-12-23"],
-    "relatedEntities": ["messaging-strategy"]
+    "dates": [
+      "2025-12-10",
+      "2025-12-23"
+    ],
+    "relatedEntities": [
+      "messaging-strategy"
+    ]
   },
   {
     "type": "direction_change",
     "severity": "high",
     "title": "Direction change on \"newsletter-process\" after 0 days",
-    "description": "\"Automate the newsletter content request via Slack.\" → \"Use a huddle format for the newsletter team (Natalie, Kristina, Michael) to conf\"",
+    "description": "\"Automate the newsletter content request via Slack.\" \u2192 \"Use a huddle format for the newsletter team (Natalie, Kristina, Michael) to conf\"",
     "meetingRefs": [
       "website-planning-session-2025-12-29",
       "website-planning-session-2025-12-29"
     ],
-    "dates": ["2025-12-29", "2025-12-29"],
-    "relatedEntities": ["newsletter-process"]
+    "dates": [
+      "2025-12-29",
+      "2025-12-29"
+    ],
+    "relatedEntities": [
+      "newsletter-process"
+    ]
   },
   {
     "type": "direction_change",
     "severity": "high",
     "title": "Direction change on \"newsletter-process\" after 0 days",
-    "description": "\"Use a huddle format for the newsletter team (Natalie, Kristina, Michael) to conf\" → \"Obtain final newsletter approval from Vin or Shauna.\"",
+    "description": "\"Use a huddle format for the newsletter team (Natalie, Kristina, Michael) to conf\" \u2192 \"Obtain final newsletter approval from Vin or Shauna.\"",
     "meetingRefs": [
       "website-planning-session-2025-12-29",
       "website-planning-session-2025-12-29"
     ],
-    "dates": ["2025-12-29", "2025-12-29"],
-    "relatedEntities": ["newsletter-process"]
+    "dates": [
+      "2025-12-29",
+      "2025-12-29"
+    ],
+    "relatedEntities": [
+      "newsletter-process"
+    ]
   },
   {
     "type": "direction_change",
     "severity": "high",
     "title": "Direction change on \"website-redesign\" after 0 days",
-    "description": "\"Implement a \"fresh start\" for the website, installing only necessary plugins and\" → \"Kristina Cvitko will dedicate the time typically spent on her three monthly page\"",
+    "description": "\"Implement a \"fresh start\" for the website, installing only necessary plugins and\" \u2192 \"Kristina Cvitko will dedicate the time typically spent on her three monthly page\"",
     "meetingRefs": [
       "website-planning-session-2025-12-29",
       "website-planning-session-2025-12-29"
     ],
-    "dates": ["2025-12-29", "2025-12-29"],
-    "relatedEntities": ["website-redesign"]
+    "dates": [
+      "2025-12-29",
+      "2025-12-29"
+    ],
+    "relatedEntities": [
+      "website-redesign"
+    ]
   },
   {
     "type": "direction_change",
     "severity": "high",
     "title": "Direction change on \"website-redesign\" after 0 days",
-    "description": "\"Kristina Cvitko will dedicate the time typically spent on her three monthly page\" → \"Create a new staging environment for the website.\"",
+    "description": "\"Kristina Cvitko will dedicate the time typically spent on her three monthly page\" \u2192 \"Create a new staging environment for the website.\"",
     "meetingRefs": [
       "website-planning-session-2025-12-29",
       "website-planning-session-2025-12-29"
     ],
-    "dates": ["2025-12-29", "2025-12-29"],
-    "relatedEntities": ["website-redesign"]
+    "dates": [
+      "2025-12-29",
+      "2025-12-29"
+    ],
+    "relatedEntities": [
+      "website-redesign"
+    ]
   },
   {
     "type": "direction_change",
     "severity": "high",
     "title": "Direction change on \"website-redesign\" after 0 days",
-    "description": "\"Create a new staging environment for the website.\" → \"Install a new, reputable theme for the website.\"",
+    "description": "\"Create a new staging environment for the website.\" \u2192 \"Install a new, reputable theme for the website.\"",
     "meetingRefs": [
       "website-planning-session-2025-12-29",
       "website-planning-session-2025-12-29"
     ],
-    "dates": ["2025-12-29", "2025-12-29"],
-    "relatedEntities": ["website-redesign"]
+    "dates": [
+      "2025-12-29",
+      "2025-12-29"
+    ],
+    "relatedEntities": [
+      "website-redesign"
+    ]
   },
   {
     "type": "direction_change",
     "severity": "high",
     "title": "Direction change on \"website-redesign\" after 0 days",
-    "description": "\"Install a new, reputable theme for the website.\" → \"Migrate existing website content using a local Docker instance with a Claude plu\"",
+    "description": "\"Install a new, reputable theme for the website.\" \u2192 \"Migrate existing website content using a local Docker instance with a Claude plu\"",
     "meetingRefs": [
       "website-planning-session-2025-12-29",
       "website-planning-session-2025-12-29"
     ],
-    "dates": ["2025-12-29", "2025-12-29"],
-    "relatedEntities": ["website-redesign"]
+    "dates": [
+      "2025-12-29",
+      "2025-12-29"
+    ],
+    "relatedEntities": [
+      "website-redesign"
+    ]
   },
   {
     "type": "direction_change",
     "severity": "high",
     "title": "Direction change on \"website-redesign\" after 0 days",
-    "description": "\"Migrate existing website content using a local Docker instance with a Claude plu\" → \"Loop Vin in on the website redesign plan.\"",
+    "description": "\"Migrate existing website content using a local Docker instance with a Claude plu\" \u2192 \"Loop Vin in on the website redesign plan.\"",
     "meetingRefs": [
       "website-planning-session-2025-12-29",
       "website-planning-session-2025-12-29"
     ],
-    "dates": ["2025-12-29", "2025-12-29"],
-    "relatedEntities": ["website-redesign"]
+    "dates": [
+      "2025-12-29",
+      "2025-12-29"
+    ],
+    "relatedEntities": [
+      "website-redesign"
+    ]
   },
   {
     "type": "direction_change",
     "severity": "high",
     "title": "Direction change on \"messaging-strategy\" after 7 days",
-    "description": "\"Structure the marketing messaging into three lanes: dealer visibility/operationa\" → \"Use the three lanes (Truth, Control, Vision) as an architecture to anchor strate\"",
+    "description": "\"Structure the marketing messaging into three lanes: dealer visibility/operationa\" \u2192 \"Use the three lanes (Truth, Control, Vision) as an architecture to anchor strate\"",
     "meetingRefs": [
       "marketing-90-day-prioritization-2025-12-23",
       "the-marketing-meeting-2025-12-30"
     ],
-    "dates": ["2025-12-23", "2025-12-30"],
-    "relatedEntities": ["messaging-strategy"]
+    "dates": [
+      "2025-12-23",
+      "2025-12-30"
+    ],
+    "relatedEntities": [
+      "messaging-strategy"
+    ]
   },
   {
     "type": "direction_change",
     "severity": "high",
     "title": "Direction change on \"messaging-strategy\" after 0 days",
-    "description": "\"Use the three lanes (Truth, Control, Vision) as an architecture to anchor strate\" → \"Define the core message of Lane One (Truth) as \"you can't manage what you can't \"",
+    "description": "\"Use the three lanes (Truth, Control, Vision) as an architecture to anchor strate\" \u2192 \"Define the core message of Lane One (Truth) as \"you can't manage what you can't \"",
     "meetingRefs": [
       "the-marketing-meeting-2025-12-30",
       "the-marketing-meeting-2025-12-30"
     ],
-    "dates": ["2025-12-30", "2025-12-30"],
-    "relatedEntities": ["messaging-strategy"]
+    "dates": [
+      "2025-12-30",
+      "2025-12-30"
+    ],
+    "relatedEntities": [
+      "messaging-strategy"
+    ]
   },
   {
     "type": "direction_change",
     "severity": "high",
     "title": "Direction change on \"website-refresh\" after 27 days",
-    "description": "\"Michael Donovan will contact Perry regarding the Viconic website progress.\" → \"Michael Donovan will approach website development in two phases: a quick refresh\"",
+    "description": "\"Michael Donovan will contact Perry regarding the Viconic website progress.\" \u2192 \"Michael Donovan will approach website development in two phases: a quick refresh\"",
     "meetingRefs": [
       "michael-and-vin-continuation-2025-12-03",
       "joe-and-michael-reconnect-2025-12-30"
     ],
-    "dates": ["2025-12-03", "2025-12-30"],
-    "relatedEntities": ["website-refresh"]
+    "dates": [
+      "2025-12-03",
+      "2025-12-30"
+    ],
+    "relatedEntities": [
+      "website-refresh"
+    ]
   },
   {
     "type": "direction_change",
     "severity": "high",
     "title": "Direction change on \"messaging-strategy\" after 7 days",
-    "description": "\"Define the core message of Lane One (Truth) as \"you can't manage what you can't \" → \"Implement website content with a \"human first or AI first\" message.\"",
+    "description": "\"Define the core message of Lane One (Truth) as \"you can't manage what you can't \" \u2192 \"Implement website content with a \"human first or AI first\" message.\"",
     "meetingRefs": [
       "the-marketing-meeting-2025-12-30",
       "the-marketing-meeting-2026-01-06"
     ],
-    "dates": ["2025-12-30", "2026-01-06"],
-    "relatedEntities": ["messaging-strategy"]
+    "dates": [
+      "2025-12-30",
+      "2026-01-06"
+    ],
+    "relatedEntities": [
+      "messaging-strategy"
+    ]
   },
   {
     "type": "direction_change",
     "severity": "high",
     "title": "Direction change on \"website-refresh\" after 7 days",
-    "description": "\"Michael Donovan will approach website development in two phases: a quick refresh\" → \"Focus on refreshing the existing website for a quick win.\"",
+    "description": "\"Michael Donovan will approach website development in two phases: a quick refresh\" \u2192 \"Focus on refreshing the existing website for a quick win.\"",
     "meetingRefs": [
       "joe-and-michael-reconnect-2025-12-30",
       "the-marketing-meeting-2026-01-06"
     ],
-    "dates": ["2025-12-30", "2026-01-06"],
-    "relatedEntities": ["website-refresh"]
+    "dates": [
+      "2025-12-30",
+      "2026-01-06"
+    ],
+    "relatedEntities": [
+      "website-refresh"
+    ]
   },
   {
     "type": "direction_change",
     "severity": "high",
     "title": "Direction change on \"website-content\" after 7 days",
-    "description": "\"Michael Donovan will focus on creating five core new pages or refreshes by Frida\" → \"Build the website with the content provided by Vinnie Micciche.\"",
+    "description": "\"Michael Donovan will focus on creating five core new pages or refreshes by Frida\" \u2192 \"Build the website with the content provided by Vinnie Micciche.\"",
     "meetingRefs": [
       "joe-and-michael-reconnect-2025-12-30",
       "the-marketing-meeting-2026-01-06"
     ],
-    "dates": ["2025-12-30", "2026-01-06"],
-    "relatedEntities": ["website-content"]
+    "dates": [
+      "2025-12-30",
+      "2026-01-06"
+    ],
+    "relatedEntities": [
+      "website-content"
+    ]
   },
   {
     "type": "direction_change",
     "severity": "high",
     "title": "Direction change on \"website-content\" after 14 days",
-    "description": "\"Build the website with the content provided by Vinnie Micciche.\" → \"Focus on creating updates and swapping out pages rather than refreshing every le\"",
+    "description": "\"Build the website with the content provided by Vinnie Micciche.\" \u2192 \"Focus on creating updates and swapping out pages rather than refreshing every le\"",
     "meetingRefs": [
       "the-marketing-meeting-2026-01-06",
       "joe-and-michael-touch-base-2026-01-20"
     ],
-    "dates": ["2026-01-06", "2026-01-20"],
-    "relatedEntities": ["website-content"]
+    "dates": [
+      "2026-01-06",
+      "2026-01-20"
+    ],
+    "relatedEntities": [
+      "website-content"
+    ]
   },
   {
     "type": "direction_change",
     "severity": "high",
     "title": "Direction change on \"website-navigation\" after 0 days",
-    "description": "\"Remove 'resources' and 'lead sources' from the Solutions section and move them t\" → \"Potentially move \"AI intelligent engine\" under \"BDC solutions\" to create two sta\"",
+    "description": "\"Remove 'resources' and 'lead sources' from the Solutions section and move them t\" \u2192 \"Potentially move \"AI intelligent engine\" under \"BDC solutions\" to create two sta\"",
     "meetingRefs": [
       "joe-and-michael-touch-base-2026-01-20",
       "joe-and-michael-touch-base-2026-01-20"
     ],
-    "dates": ["2026-01-20", "2026-01-20"],
-    "relatedEntities": ["website-navigation"]
+    "dates": [
+      "2026-01-20",
+      "2026-01-20"
+    ],
+    "relatedEntities": [
+      "website-navigation"
+    ]
   },
   {
     "type": "direction_change",
     "severity": "high",
     "title": "Direction change on \"website-navigation\" after 0 days",
-    "description": "\"Potentially move \"AI intelligent engine\" under \"BDC solutions\" to create two sta\" → \"Combine \"Insights\" and \"Resources\" in the navigation, resulting in three drop-do\"",
+    "description": "\"Potentially move \"AI intelligent engine\" under \"BDC solutions\" to create two sta\" \u2192 \"Combine \"Insights\" and \"Resources\" in the navigation, resulting in three drop-do\"",
     "meetingRefs": [
       "joe-and-michael-touch-base-2026-01-20",
       "joe-and-michael-touch-base-2026-01-20"
     ],
-    "dates": ["2026-01-20", "2026-01-20"],
-    "relatedEntities": ["website-navigation"]
+    "dates": [
+      "2026-01-20",
+      "2026-01-20"
+    ],
+    "relatedEntities": [
+      "website-navigation"
+    ]
   },
   {
     "type": "direction_change",
     "severity": "high",
     "title": "Direction change on \"website-launch\" after 0 days",
-    "description": "\"Do not launch a new website before the NADA event.\" → \"Aim for an \"awesome splash\" and momentum-building launch of the new site after t\"",
+    "description": "\"Do not launch a new website before the NADA event.\" \u2192 \"Aim for an \"awesome splash\" and momentum-building launch of the new site after t\"",
     "meetingRefs": [
       "joe-and-michael-touch-base-2026-01-20",
       "joe-and-michael-touch-base-2026-01-20"
     ],
-    "dates": ["2026-01-20", "2026-01-20"],
-    "relatedEntities": ["website-launch"]
+    "dates": [
+      "2026-01-20",
+      "2026-01-20"
+    ],
+    "relatedEntities": [
+      "website-launch"
+    ]
   },
   {
     "type": "direction_change",
     "severity": "high",
     "title": "Direction change on \"soc-2-audit\" after 0 days",
-    "description": "\"The SOC 2 audit target completion date is set for September, slightly delayed du\" → \"The team will run two separate SOC audits to separate VCON and the parent compan\"",
+    "description": "\"The SOC 2 audit target completion date is set for September, slightly delayed du\" \u2192 \"The team will run two separate SOC audits to separate VCON and the parent compan\"",
     "meetingRefs": [
       "strolid-leadership-call-2026-03-09",
       "strolid-leadership-call-2026-03-09"
     ],
-    "dates": ["2026-03-09", "2026-03-09"],
-    "relatedEntities": ["soc-2-audit"]
+    "dates": [
+      "2026-03-09",
+      "2026-03-09"
+    ],
+    "relatedEntities": [
+      "soc-2-audit"
+    ]
   },
   {
     "type": "direction_change",
     "severity": "high",
     "title": "Direction change on \"buyer-targeting\" after 7 days",
-    "description": "\"Target dealer principals, corporate staff, and owners as the primary audience.\" → \"ICP groups were identified using seed customers based on analyzed technology usa\"",
+    "description": "\"Target dealer principals, corporate staff, and owners as the primary audience.\" \u2192 \"ICP groups were identified using seed customers based on analyzed technology usa\"",
     "meetingRefs": [
       "the-marketing-meeting-2026-03-03",
       "the-marketing-meeting-2026-03-10"
     ],
-    "dates": ["2026-03-03", "2026-03-10"],
-    "relatedEntities": ["buyer-targeting"]
+    "dates": [
+      "2026-03-03",
+      "2026-03-10"
+    ],
+    "relatedEntities": [
+      "buyer-targeting"
+    ]
   },
   {
     "type": "direction_change",
     "severity": "high",
     "title": "Direction change on \"ideal-customer-profile\" after 10 days",
-    "description": "\"Focus on running campaigns for the defined ideal customer profile (ICP) roles to\" → \"The sales and client success teams will proceed with the presented Ideal Custome\"",
-    "meetingRefs": ["the-marketing-meeting-2026-03-03", "marketing-2026-03-13"],
-    "dates": ["2026-03-03", "2026-03-13"],
-    "relatedEntities": ["ideal-customer-profile"]
+    "description": "\"Focus on running campaigns for the defined ideal customer profile (ICP) roles to\" \u2192 \"The sales and client success teams will proceed with the presented Ideal Custome\"",
+    "meetingRefs": [
+      "the-marketing-meeting-2026-03-03",
+      "marketing-2026-03-13"
+    ],
+    "dates": [
+      "2026-03-03",
+      "2026-03-13"
+    ],
+    "relatedEntities": [
+      "ideal-customer-profile"
+    ]
   },
   {
     "type": "orphan_action",
     "severity": "medium",
     "title": "Abandoned: \"Conduct pilot programs with a select group of dealers to tes...\"",
     "description": "Assigned to Vinnie Micciche on 2025-01-28, never referenced in any later meeting.",
-    "meetingRefs": ["product-roadmap-planning-2025-01-28"],
-    "dates": ["2025-01-28"],
-    "relatedEntities": ["Vinnie Micciche"]
+    "meetingRefs": [
+      "product-roadmap-planning-2025-01-28"
+    ],
+    "dates": [
+      "2025-01-28"
+    ],
+    "relatedEntities": [
+      "Vinnie Micciche"
+    ]
   },
   {
     "type": "orphan_action",
     "severity": "medium",
     "title": "Abandoned: \"Improve data collection and analysis to measure the impact o...\"",
     "description": "Assigned to Matt Watson on 2025-01-28, never referenced in any later meeting.",
-    "meetingRefs": ["product-roadmap-planning-2025-01-28"],
-    "dates": ["2025-01-28"],
-    "relatedEntities": ["Matt Watson"]
+    "meetingRefs": [
+      "product-roadmap-planning-2025-01-28"
+    ],
+    "dates": [
+      "2025-01-28"
+    ],
+    "relatedEntities": [
+      "Matt Watson"
+    ]
   },
   {
     "type": "orphan_action",
     "severity": "medium",
     "title": "Abandoned: \"Conduct a gap analysis to determine the necessary level of e...\"",
     "description": "Assigned to Joe Furnari on 2025-02-04, never referenced in any later meeting.",
-    "meetingRefs": ["product-roadmap-planning-2025-02-04"],
-    "dates": ["2025-02-04"],
-    "relatedEntities": ["Joe Furnari"]
+    "meetingRefs": [
+      "product-roadmap-planning-2025-02-04"
+    ],
+    "dates": [
+      "2025-02-04"
+    ],
+    "relatedEntities": [
+      "Joe Furnari"
+    ]
   },
   {
     "type": "orphan_action",
     "severity": "medium",
     "title": "Abandoned: \"Reconcile June's data and perform a 90-day review of ad spen...\"",
     "description": "Assigned to Michael Donovan on 2025-07-01, never referenced in any later meeting.",
-    "meetingRefs": ["1-on-1-joe-and-michael-2025-07-01"],
-    "dates": ["2025-07-01"],
-    "relatedEntities": ["Michael Donovan"]
+    "meetingRefs": [
+      "1-on-1-joe-and-michael-2025-07-01"
+    ],
+    "dates": [
+      "2025-07-01"
+    ],
+    "relatedEntities": [
+      "Michael Donovan"
+    ]
   },
   {
     "type": "orphan_action",
     "severity": "medium",
     "title": "Abandoned: \"Outline the objectives for the CRM project kickoff meeting....\"",
     "description": "Assigned to Joe Furnari on 2025-07-01, never referenced in any later meeting.",
-    "meetingRefs": ["1-on-1-joe-and-michael-2025-07-01"],
-    "dates": ["2025-07-01"],
-    "relatedEntities": ["Joe Furnari"]
+    "meetingRefs": [
+      "1-on-1-joe-and-michael-2025-07-01"
+    ],
+    "dates": [
+      "2025-07-01"
+    ],
+    "relatedEntities": [
+      "Joe Furnari"
+    ]
   },
   {
     "type": "orphan_action",
     "severity": "medium",
     "title": "Abandoned: \"Complete the session after work tonight to fix the BDC app....\"",
     "description": "Assigned to Michael Donovan on 2025-09-16, never referenced in any later meeting.",
-    "meetingRefs": ["jason-michael-2025-09-16"],
-    "dates": ["2025-09-16"],
-    "relatedEntities": ["Michael Donovan"]
+    "meetingRefs": [
+      "jason-michael-2025-09-16"
+    ],
+    "dates": [
+      "2025-09-16"
+    ],
+    "relatedEntities": [
+      "Michael Donovan"
+    ]
   },
   {
     "type": "orphan_action",
     "severity": "medium",
     "title": "Abandoned: \"Send an invite from the BDC app to Jason Branham....\"",
     "description": "Assigned to Michael Donovan on 2025-09-16, never referenced in any later meeting.",
-    "meetingRefs": ["jason-michael-2025-09-16"],
-    "dates": ["2025-09-16"],
-    "relatedEntities": ["Michael Donovan"]
+    "meetingRefs": [
+      "jason-michael-2025-09-16"
+    ],
+    "dates": [
+      "2025-09-16"
+    ],
+    "relatedEntities": [
+      "Michael Donovan"
+    ]
   },
   {
     "type": "orphan_action",
     "severity": "medium",
     "title": "Abandoned: \"Get with Reed to get the tag manager done for the Rainbow st...\"",
     "description": "Assigned to Michael Donovan on 2025-09-16, never referenced in any later meeting.",
-    "meetingRefs": ["jason-michael-2025-09-16"],
-    "dates": ["2025-09-16"],
-    "relatedEntities": ["Michael Donovan"]
+    "meetingRefs": [
+      "jason-michael-2025-09-16"
+    ],
+    "dates": [
+      "2025-09-16"
+    ],
+    "relatedEntities": [
+      "Michael Donovan"
+    ]
   },
   {
     "type": "orphan_action",
     "severity": "medium",
     "title": "Abandoned: \"Inform everyone regarding the next steps for analysis and au...\"",
     "description": "Assigned to Michael Donovan on 2025-09-16, never referenced in any later meeting.",
-    "meetingRefs": ["jason-michael-2025-09-16"],
-    "dates": ["2025-09-16"],
-    "relatedEntities": ["Michael Donovan"]
+    "meetingRefs": [
+      "jason-michael-2025-09-16"
+    ],
+    "dates": [
+      "2025-09-16"
+    ],
+    "relatedEntities": [
+      "Michael Donovan"
+    ]
   },
   {
     "type": "orphan_action",
     "severity": "medium",
     "title": "Abandoned: \"Create a task list to document projects and tasks....\"",
     "description": "Assigned to Michael Donovan on 2025-09-23, never referenced in any later meeting.",
-    "meetingRefs": ["homepage-hero-session-2025-09-23"],
-    "dates": ["2025-09-23"],
-    "relatedEntities": ["Michael Donovan"]
+    "meetingRefs": [
+      "homepage-hero-session-2025-09-23"
+    ],
+    "dates": [
+      "2025-09-23"
+    ],
+    "relatedEntities": [
+      "Michael Donovan"
+    ]
   },
   {
     "type": "orphan_action",
     "severity": "medium",
     "title": "Abandoned: \"Share the agenda for the marketing meeting with Ziad Al Khat...\"",
     "description": "Assigned to Michael Donovan on 2025-09-23, never referenced in any later meeting.",
-    "meetingRefs": ["homepage-hero-session-2025-09-23"],
-    "dates": ["2025-09-23"],
-    "relatedEntities": ["Michael Donovan"]
+    "meetingRefs": [
+      "homepage-hero-session-2025-09-23"
+    ],
+    "dates": [
+      "2025-09-23"
+    ],
+    "relatedEntities": [
+      "Michael Donovan"
+    ]
   },
   {
     "type": "orphan_action",
     "severity": "medium",
     "title": "Abandoned: \"Share historical documents with Ziad Al Khatib....\"",
     "description": "Assigned to Michael Donovan on 2025-09-23, never referenced in any later meeting.",
-    "meetingRefs": ["homepage-hero-session-2025-09-23"],
-    "dates": ["2025-09-23"],
-    "relatedEntities": ["Michael Donovan"]
+    "meetingRefs": [
+      "homepage-hero-session-2025-09-23"
+    ],
+    "dates": [
+      "2025-09-23"
+    ],
+    "relatedEntities": [
+      "Michael Donovan"
+    ]
   },
   {
     "type": "orphan_action",
     "severity": "medium",
     "title": "Abandoned: \"Share the corporate identity brand guidelines for Strawid, i...\"",
     "description": "Assigned to Michael Donovan on 2025-09-23, never referenced in any later meeting.",
-    "meetingRefs": ["homepage-hero-session-2025-09-23"],
-    "dates": ["2025-09-23"],
-    "relatedEntities": ["Michael Donovan"]
+    "meetingRefs": [
+      "homepage-hero-session-2025-09-23"
+    ],
+    "dates": [
+      "2025-09-23"
+    ],
+    "relatedEntities": [
+      "Michael Donovan"
+    ]
   },
   {
     "type": "orphan_action",
     "severity": "medium",
     "title": "Abandoned: \"Watch Karate Kid, Goonies, and 16 Candles....\"",
     "description": "Assigned to Ziad Al Khatib on 2025-09-23, never referenced in any later meeting.",
-    "meetingRefs": ["homepage-hero-session-2025-09-23"],
-    "dates": ["2025-09-23"],
-    "relatedEntities": ["Ziad Al Khatib"]
+    "meetingRefs": [
+      "homepage-hero-session-2025-09-23"
+    ],
+    "dates": [
+      "2025-09-23"
+    ],
+    "relatedEntities": [
+      "Ziad Al Khatib"
+    ]
   },
   {
     "type": "orphan_action",
     "severity": "medium",
     "title": "Abandoned: \"Do independent research....\"",
     "description": "Assigned to Ziad Al Khatib on 2025-09-23, never referenced in any later meeting.",
-    "meetingRefs": ["homepage-hero-session-2025-09-23"],
-    "dates": ["2025-09-23"],
-    "relatedEntities": ["Ziad Al Khatib"]
+    "meetingRefs": [
+      "homepage-hero-session-2025-09-23"
+    ],
+    "dates": [
+      "2025-09-23"
+    ],
+    "relatedEntities": [
+      "Ziad Al Khatib"
+    ]
   },
   {
     "type": "orphan_action",
     "severity": "medium",
     "title": "Abandoned: \"Request examples from invado or award-winning websites from ...\"",
     "description": "Assigned to Ziad Al Khatib on 2025-09-23, never referenced in any later meeting.",
-    "meetingRefs": ["homepage-hero-session-2025-09-23"],
-    "dates": ["2025-09-23"],
-    "relatedEntities": ["Ziad Al Khatib"]
+    "meetingRefs": [
+      "homepage-hero-session-2025-09-23"
+    ],
+    "dates": [
+      "2025-09-23"
+    ],
+    "relatedEntities": [
+      "Ziad Al Khatib"
+    ]
   },
   {
     "type": "orphan_action",
     "severity": "medium",
     "title": "Abandoned: \"Deploy the marketing automation platform....\"",
     "description": "Assigned to Michael Donovan on 2025-09-24, never referenced in any later meeting.",
-    "meetingRefs": ["tech-process-and-product-review-2025-09-24"],
-    "dates": ["2025-09-24"],
-    "relatedEntities": ["Michael Donovan"]
+    "meetingRefs": [
+      "tech-process-and-product-review-2025-09-24"
+    ],
+    "dates": [
+      "2025-09-24"
+    ],
+    "relatedEntities": [
+      "Michael Donovan"
+    ]
   },
   {
     "type": "orphan_action",
     "severity": "medium",
     "title": "Abandoned: \"Send a link to documentation on how the marketing automation...\"",
     "description": "Assigned to Michael Donovan on 2025-09-24, never referenced in any later meeting.",
-    "meetingRefs": ["tech-process-and-product-review-2025-09-24"],
-    "dates": ["2025-09-24"],
-    "relatedEntities": ["Michael Donovan"]
+    "meetingRefs": [
+      "tech-process-and-product-review-2025-09-24"
+    ],
+    "dates": [
+      "2025-09-24"
+    ],
+    "relatedEntities": [
+      "Michael Donovan"
+    ]
   },
   {
     "type": "orphan_action",
     "severity": "medium",
     "title": "Abandoned: \"Provide login credentials for the marketing automation platf...\"",
     "description": "Assigned to Michael Donovan on 2025-09-24, never referenced in any later meeting.",
-    "meetingRefs": ["tech-process-and-product-review-2025-09-24"],
-    "dates": ["2025-09-24"],
-    "relatedEntities": ["Michael Donovan"]
+    "meetingRefs": [
+      "tech-process-and-product-review-2025-09-24"
+    ],
+    "dates": [
+      "2025-09-24"
+    ],
+    "relatedEntities": [
+      "Michael Donovan"
+    ]
   },
   {
     "type": "orphan_action",
     "severity": "medium",
     "title": "Abandoned: \"Look into the 30% API failure rate for notes not pushing....\"",
     "description": "Assigned to Sergey Lyapustin on 2025-10-02, never referenced in any later meeting.",
-    "meetingRefs": ["active-pipeline-review-2025-10-02"],
-    "dates": ["2025-10-02"],
-    "relatedEntities": ["Sergey Lyapustin"]
+    "meetingRefs": [
+      "active-pipeline-review-2025-10-02"
+    ],
+    "dates": [
+      "2025-10-02"
+    ],
+    "relatedEntities": [
+      "Sergey Lyapustin"
+    ]
   },
   {
     "type": "orphan_action",
     "severity": "medium",
     "title": "Abandoned: \"Test out the VIN Solutions API push notes in one store....\"",
     "description": "Assigned to Shawna Behen on 2025-10-02, never referenced in any later meeting.",
-    "meetingRefs": ["active-pipeline-review-2025-10-02"],
-    "dates": ["2025-10-02"],
-    "relatedEntities": ["Shawna Behen"]
+    "meetingRefs": [
+      "active-pipeline-review-2025-10-02"
+    ],
+    "dates": [
+      "2025-10-02"
+    ],
+    "relatedEntities": [
+      "Shawna Behen"
+    ]
   },
   {
     "type": "orphan_action",
     "severity": "medium",
     "title": "Abandoned: \"Continue working with Holly to get the list of users for sys...\"",
     "description": "Assigned to Harinder Bhinder on 2025-10-02, never referenced in any later meeting.",
-    "meetingRefs": ["active-pipeline-review-2025-10-02"],
-    "dates": ["2025-10-02"],
-    "relatedEntities": ["Harinder Bhinder"]
+    "meetingRefs": [
+      "active-pipeline-review-2025-10-02"
+    ],
+    "dates": [
+      "2025-10-02"
+    ],
+    "relatedEntities": [
+      "Harinder Bhinder"
+    ]
   },
   {
     "type": "orphan_action",
     "severity": "medium",
     "title": "Abandoned: \"Work on the onboarding flow for new people to the portal....\"",
     "description": "Assigned to Sergey Lyapustin on 2025-10-02, never referenced in any later meeting.",
-    "meetingRefs": ["active-pipeline-review-2025-10-02"],
-    "dates": ["2025-10-02"],
-    "relatedEntities": ["Sergey Lyapustin"]
+    "meetingRefs": [
+      "active-pipeline-review-2025-10-02"
+    ],
+    "dates": [
+      "2025-10-02"
+    ],
+    "relatedEntities": [
+      "Sergey Lyapustin"
+    ]
   },
   {
     "type": "orphan_action",
     "severity": "medium",
     "title": "Abandoned: \"Add call notes evaluation to Holly's CRM evaluation process....\"",
     "description": "Assigned to Matt Watson on 2025-10-02, never referenced in any later meeting.",
-    "meetingRefs": ["active-pipeline-review-2025-10-02"],
-    "dates": ["2025-10-02"],
-    "relatedEntities": ["Matt Watson"]
+    "meetingRefs": [
+      "active-pipeline-review-2025-10-02"
+    ],
+    "dates": [
+      "2025-10-02"
+    ],
+    "relatedEntities": [
+      "Matt Watson"
+    ]
   },
   {
     "type": "orphan_action",
     "severity": "medium",
     "title": "Abandoned: \"Publish the draft website behind a firewall or password prot...\"",
     "description": "Assigned to Michael Donovan on 2025-10-24, never referenced in any later meeting.",
-    "meetingRefs": ["vconic-priority-content-update-2025-10-24"],
-    "dates": ["2025-10-24"],
-    "relatedEntities": ["Michael Donovan"]
+    "meetingRefs": [
+      "vconic-priority-content-update-2025-10-24"
+    ],
+    "dates": [
+      "2025-10-24"
+    ],
+    "relatedEntities": [
+      "Michael Donovan"
+    ]
   },
   {
     "type": "orphan_action",
     "severity": "medium",
     "title": "Abandoned: \"Send out a link to the Viconic site along with direct links ...\"",
     "description": "Assigned to Michael Donovan on 2025-10-28, never referenced in any later meeting.",
-    "meetingRefs": ["the-marketing-meeting-2025-10-28"],
-    "dates": ["2025-10-28"],
-    "relatedEntities": ["Michael Donovan"]
+    "meetingRefs": [
+      "the-marketing-meeting-2025-10-28"
+    ],
+    "dates": [
+      "2025-10-28"
+    ],
+    "relatedEntities": [
+      "Michael Donovan"
+    ]
   },
   {
     "type": "orphan_action",
     "severity": "medium",
     "title": "Abandoned: \"Research the highest value keyword for the Viconic link on t...\"",
     "description": "Assigned to Michael Donovan on 2025-10-28, never referenced in any later meeting.",
-    "meetingRefs": ["the-marketing-meeting-2025-10-28"],
-    "dates": ["2025-10-28"],
-    "relatedEntities": ["Michael Donovan"]
+    "meetingRefs": [
+      "the-marketing-meeting-2025-10-28"
+    ],
+    "dates": [
+      "2025-10-28"
+    ],
+    "relatedEntities": [
+      "Michael Donovan"
+    ]
   },
   {
     "type": "orphan_action",
     "severity": "medium",
     "title": "Abandoned: \"Find and send research about where leads are going....\"",
     "description": "Assigned to Vinnie Micciche on 2025-11-11, never referenced in any later meeting.",
-    "meetingRefs": ["the-marketing-meeting-2025-11-11"],
-    "dates": ["2025-11-11"],
-    "relatedEntities": ["Vinnie Micciche"]
+    "meetingRefs": [
+      "the-marketing-meeting-2025-11-11"
+    ],
+    "dates": [
+      "2025-11-11"
+    ],
+    "relatedEntities": [
+      "Vinnie Micciche"
+    ]
   },
   {
     "type": "orphan_action",
     "severity": "medium",
     "title": "Abandoned: \"Find a video person in Denver to capture B-roll, including b...\"",
     "description": "Assigned to Perry Evans on 2025-11-20, never referenced in any later meeting.",
-    "meetingRefs": ["vconic-site-content-2025-11-20"],
-    "dates": ["2025-11-20"],
-    "relatedEntities": ["Perry Evans"]
+    "meetingRefs": [
+      "vconic-site-content-2025-11-20"
+    ],
+    "dates": [
+      "2025-11-20"
+    ],
+    "relatedEntities": [
+      "Perry Evans"
+    ]
   },
   {
     "type": "orphan_action",
     "severity": "medium",
     "title": "Abandoned: \"Work on the visualization mapping, focusing on animating the...\"",
     "description": "Assigned to Michael Donovan on 2025-11-20, never referenced in any later meeting.",
-    "meetingRefs": ["vconic-site-content-2025-11-20"],
-    "dates": ["2025-11-20"],
-    "relatedEntities": ["Michael Donovan"]
+    "meetingRefs": [
+      "vconic-site-content-2025-11-20"
+    ],
+    "dates": [
+      "2025-11-20"
+    ],
+    "relatedEntities": [
+      "Michael Donovan"
+    ]
   },
   {
     "type": "orphan_action",
     "severity": "medium",
     "title": "Abandoned: \"Provide a strong example of leveraging vector scroll animati...\"",
     "description": "Assigned to Michael Donovan on 2025-11-20, never referenced in any later meeting.",
-    "meetingRefs": ["vconic-site-content-2025-11-20"],
-    "dates": ["2025-11-20"],
-    "relatedEntities": ["Michael Donovan"]
+    "meetingRefs": [
+      "vconic-site-content-2025-11-20"
+    ],
+    "dates": [
+      "2025-11-20"
+    ],
+    "relatedEntities": [
+      "Michael Donovan"
+    ]
   },
   {
     "type": "orphan_action",
     "severity": "medium",
     "title": "Abandoned: \"Resurrect a person to work with on the video side that under...\"",
     "description": "Assigned to Perry Evans on 2025-11-20, never referenced in any later meeting.",
-    "meetingRefs": ["vconic-site-content-2025-11-20"],
-    "dates": ["2025-11-20"],
-    "relatedEntities": ["Perry Evans"]
+    "meetingRefs": [
+      "vconic-site-content-2025-11-20"
+    ],
+    "dates": [
+      "2025-11-20"
+    ],
+    "relatedEntities": [
+      "Perry Evans"
+    ]
   },
   {
     "type": "orphan_action",
     "severity": "medium",
     "title": "Abandoned: \"Build out the template for the sales deck so that the group ...\"",
     "description": "Assigned to Michael Donovan on 2025-11-25, never referenced in any later meeting.",
-    "meetingRefs": ["the-marketing-meeting-2025-11-25"],
-    "dates": ["2025-11-25"],
-    "relatedEntities": ["Michael Donovan"]
+    "meetingRefs": [
+      "the-marketing-meeting-2025-11-25"
+    ],
+    "dates": [
+      "2025-11-25"
+    ],
+    "relatedEntities": [
+      "Michael Donovan"
+    ]
   },
   {
     "type": "orphan_action",
     "severity": "medium",
     "title": "Abandoned: \"Look into the direct traffic source issue for Google Analyti...\"",
     "description": "Assigned to Michael Donovan on 2025-11-25, never referenced in any later meeting.",
-    "meetingRefs": ["the-marketing-meeting-2025-11-25"],
-    "dates": ["2025-11-25"],
-    "relatedEntities": ["Michael Donovan"]
+    "meetingRefs": [
+      "the-marketing-meeting-2025-11-25"
+    ],
+    "dates": [
+      "2025-11-25"
+    ],
+    "relatedEntities": [
+      "Michael Donovan"
+    ]
   },
   {
     "type": "orphan_action",
     "severity": "medium",
     "title": "Abandoned: \"Double-check the Google Tag Manager setup for any tagging is...\"",
     "description": "Assigned to Michael Donovan on 2025-11-25, never referenced in any later meeting.",
-    "meetingRefs": ["the-marketing-meeting-2025-11-25"],
-    "dates": ["2025-11-25"],
-    "relatedEntities": ["Michael Donovan"]
+    "meetingRefs": [
+      "the-marketing-meeting-2025-11-25"
+    ],
+    "dates": [
+      "2025-11-25"
+    ],
+    "relatedEntities": [
+      "Michael Donovan"
+    ]
   },
   {
     "type": "orphan_action",
     "severity": "medium",
     "title": "Abandoned: \"Finish the connection from Sanity's AI to our content lake....\"",
     "description": "Assigned to Michael Donovan on 2025-12-02, never referenced in any later meeting.",
-    "meetingRefs": ["the-marketing-meeting-2025-12-02"],
-    "dates": ["2025-12-02"],
-    "relatedEntities": ["Michael Donovan"]
+    "meetingRefs": [
+      "the-marketing-meeting-2025-12-02"
+    ],
+    "dates": [
+      "2025-12-02"
+    ],
+    "relatedEntities": [
+      "Michael Donovan"
+    ]
   },
   {
     "type": "orphan_action",
     "severity": "medium",
     "title": "Abandoned: \"Offer Christina an agency-style arrangement, asking for a pr...\"",
     "description": "Assigned to Vinnie Micciche on 2025-12-02, never referenced in any later meeting.",
-    "meetingRefs": ["the-marketing-meeting-2025-12-02"],
-    "dates": ["2025-12-02"],
-    "relatedEntities": ["Vinnie Micciche"]
+    "meetingRefs": [
+      "the-marketing-meeting-2025-12-02"
+    ],
+    "dates": [
+      "2025-12-02"
+    ],
+    "relatedEntities": [
+      "Vinnie Micciche"
+    ]
   },
   {
     "type": "orphan_action",
     "severity": "medium",
     "title": "Abandoned: \"Tone down the messaging to be less complex and more direct f...\"",
     "description": "Assigned to Michael Donovan on 2025-12-03, never referenced in any later meeting.",
-    "meetingRefs": ["michael-and-vin-continuation-2025-12-03"],
-    "dates": ["2025-12-03"],
-    "relatedEntities": ["Michael Donovan"]
+    "meetingRefs": [
+      "michael-and-vin-continuation-2025-12-03"
+    ],
+    "dates": [
+      "2025-12-03"
+    ],
+    "relatedEntities": [
+      "Michael Donovan"
+    ]
   },
   {
     "type": "orphan_action",
     "severity": "medium",
     "title": "Abandoned: \"Refine social media post designs to be more in-your-face and...\"",
     "description": "Assigned to Michael Donovan on 2025-12-03, never referenced in any later meeting.",
-    "meetingRefs": ["michael-and-vin-continuation-2025-12-03"],
-    "dates": ["2025-12-03"],
-    "relatedEntities": ["Michael Donovan"]
+    "meetingRefs": [
+      "michael-and-vin-continuation-2025-12-03"
+    ],
+    "dates": [
+      "2025-12-03"
+    ],
+    "relatedEntities": [
+      "Michael Donovan"
+    ]
   },
   {
     "type": "orphan_action",
     "severity": "medium",
     "title": "Abandoned: \"Circle back with Perry regarding the Viconic site....\"",
     "description": "Assigned to Michael Donovan on 2025-12-03, never referenced in any later meeting.",
-    "meetingRefs": ["michael-and-vin-continuation-2025-12-03"],
-    "dates": ["2025-12-03"],
-    "relatedEntities": ["Michael Donovan"]
+    "meetingRefs": [
+      "michael-and-vin-continuation-2025-12-03"
+    ],
+    "dates": [
+      "2025-12-03"
+    ],
+    "relatedEntities": [
+      "Michael Donovan"
+    ]
   },
   {
     "type": "orphan_action",
     "severity": "medium",
     "title": "Abandoned: \"Prepare a document outlining a timeline of all the changes P...\"",
     "description": "Assigned to Michael Donovan on 2025-12-03, never referenced in any later meeting.",
-    "meetingRefs": ["vin-and-michael-2025-12-03"],
-    "dates": ["2025-12-03"],
-    "relatedEntities": ["Michael Donovan"]
+    "meetingRefs": [
+      "vin-and-michael-2025-12-03"
+    ],
+    "dates": [
+      "2025-12-03"
+    ],
+    "relatedEntities": [
+      "Michael Donovan"
+    ]
   },
   {
     "type": "orphan_action",
     "severity": "medium",
     "title": "Abandoned: \"Work with Mindy to put the Google account and other services...\"",
     "description": "Assigned to Michael Donovan on 2025-12-04, never referenced in any later meeting.",
-    "meetingRefs": ["joe-and-michael-catch-up-2025-12-04"],
-    "dates": ["2025-12-04"],
-    "relatedEntities": ["Michael Donovan"]
+    "meetingRefs": [
+      "joe-and-michael-catch-up-2025-12-04"
+    ],
+    "dates": [
+      "2025-12-04"
+    ],
+    "relatedEntities": [
+      "Michael Donovan"
+    ]
   },
   {
     "type": "orphan_action",
     "severity": "medium",
     "title": "Abandoned: \"Share the link to the Perplexity tool....\"",
     "description": "Assigned to Michael Donovan on 2025-12-05, never referenced in any later meeting.",
-    "meetingRefs": ["call-with-michael-2025-12-05"],
-    "dates": ["2025-12-05"],
-    "relatedEntities": ["Michael Donovan"]
+    "meetingRefs": [
+      "call-with-michael-2025-12-05"
+    ],
+    "dates": [
+      "2025-12-05"
+    ],
+    "relatedEntities": [
+      "Michael Donovan"
+    ]
   },
   {
     "type": "orphan_action",
     "severity": "medium",
     "title": "Abandoned: \"Compile verbatim marketing hooks with short captions and pos...\"",
     "description": "Assigned to Michael Donovan on 2025-12-05, never referenced in any later meeting.",
-    "meetingRefs": ["call-with-michael-2025-12-05"],
-    "dates": ["2025-12-05"],
-    "relatedEntities": ["Michael Donovan"]
+    "meetingRefs": [
+      "call-with-michael-2025-12-05"
+    ],
+    "dates": [
+      "2025-12-05"
+    ],
+    "relatedEntities": [
+      "Michael Donovan"
+    ]
   },
   {
     "type": "orphan_action",
     "severity": "medium",
     "title": "Abandoned: \"Confirm the workflow of automated appointment booking on the...\"",
     "description": "Assigned to Sergey Lyapustin on 2025-12-15, never referenced in any later meeting.",
-    "meetingRefs": ["strolid-leadership-call-2025-12-15"],
-    "dates": ["2025-12-15"],
-    "relatedEntities": ["Sergey Lyapustin"]
+    "meetingRefs": [
+      "strolid-leadership-call-2025-12-15"
+    ],
+    "dates": [
+      "2025-12-15"
+    ],
+    "relatedEntities": [
+      "Sergey Lyapustin"
+    ]
   },
   {
     "type": "orphan_action",
     "severity": "medium",
     "title": "Abandoned: \"Request David Rosenberg to help raise money, and share the l...\"",
     "description": "Assigned to Vin Micciche on 2025-12-15, never referenced in any later meeting.",
-    "meetingRefs": ["strolid-leadership-call-2025-12-15"],
-    "dates": ["2025-12-15"],
-    "relatedEntities": ["Vin Micciche"]
+    "meetingRefs": [
+      "strolid-leadership-call-2025-12-15"
+    ],
+    "dates": [
+      "2025-12-15"
+    ],
+    "relatedEntities": [
+      "Vin Micciche"
+    ]
   },
   {
     "type": "orphan_action",
     "severity": "medium",
     "title": "Abandoned: \"Put together an advisory board by listing, interviewing, and...\"",
     "description": "Assigned to Vin Micciche on 2025-12-15, never referenced in any later meeting.",
-    "meetingRefs": ["strolid-leadership-call-2025-12-15"],
-    "dates": ["2025-12-15"],
-    "relatedEntities": ["Vin Micciche"]
+    "meetingRefs": [
+      "strolid-leadership-call-2025-12-15"
+    ],
+    "dates": [
+      "2025-12-15"
+    ],
+    "relatedEntities": [
+      "Vin Micciche"
+    ]
   },
   {
     "type": "orphan_action",
     "severity": "medium",
     "title": "Abandoned: \"Grant everybody access to GPT....\"",
     "description": "Assigned to Matt Watson on 2025-12-15, never referenced in any later meeting.",
-    "meetingRefs": ["strolid-leadership-call-2025-12-15"],
-    "dates": ["2025-12-15"],
-    "relatedEntities": ["Matt Watson"]
+    "meetingRefs": [
+      "strolid-leadership-call-2025-12-15"
+    ],
+    "dates": [
+      "2025-12-15"
+    ],
+    "relatedEntities": [
+      "Matt Watson"
+    ]
   },
   {
     "type": "orphan_action",
     "severity": "medium",
     "title": "Abandoned: \"Build the widget for the website and improve the organizatio...\"",
     "description": "Assigned to Sergey Lyapustin on 2025-12-15, never referenced in any later meeting.",
-    "meetingRefs": ["strolid-leadership-call-2025-12-15"],
-    "dates": ["2025-12-15"],
-    "relatedEntities": ["Sergey Lyapustin"]
+    "meetingRefs": [
+      "strolid-leadership-call-2025-12-15"
+    ],
+    "dates": [
+      "2025-12-15"
+    ],
+    "relatedEntities": [
+      "Sergey Lyapustin"
+    ]
   },
   {
     "type": "orphan_action",
     "severity": "medium",
     "title": "Abandoned: \"Start working on go-to-market ideas for Sophia and ask deale...\"",
     "description": "Assigned to Vin Micciche on 2025-12-15, never referenced in any later meeting.",
-    "meetingRefs": ["strolid-leadership-call-2025-12-15"],
-    "dates": ["2025-12-15"],
-    "relatedEntities": ["Vin Micciche"]
+    "meetingRefs": [
+      "strolid-leadership-call-2025-12-15"
+    ],
+    "dates": [
+      "2025-12-15"
+    ],
+    "relatedEntities": [
+      "Vin Micciche"
+    ]
   },
   {
     "type": "orphan_action",
     "severity": "medium",
     "title": "Abandoned: \"Get the data right on Sophia....\"",
     "description": "Assigned to Kevin Breen on 2025-12-15, never referenced in any later meeting.",
-    "meetingRefs": ["strolid-leadership-call-2025-12-15"],
-    "dates": ["2025-12-15"],
-    "relatedEntities": ["Kevin Breen"]
+    "meetingRefs": [
+      "strolid-leadership-call-2025-12-15"
+    ],
+    "dates": [
+      "2025-12-15"
+    ],
+    "relatedEntities": [
+      "Kevin Breen"
+    ]
   },
   {
     "type": "orphan_action",
     "severity": "medium",
     "title": "Abandoned: \"Write a check for Jake's wisdom teeth surgery....\"",
     "description": "Assigned to Vin Micciche on 2025-12-15, never referenced in any later meeting.",
-    "meetingRefs": ["strolid-leadership-call-2025-12-15"],
-    "dates": ["2025-12-15"],
-    "relatedEntities": ["Vin Micciche"]
+    "meetingRefs": [
+      "strolid-leadership-call-2025-12-15"
+    ],
+    "dates": [
+      "2025-12-15"
+    ],
+    "relatedEntities": [
+      "Vin Micciche"
+    ]
   },
   {
     "type": "orphan_action",
     "severity": "medium",
     "title": "Abandoned: \"Have a one-on-one meeting....\"",
     "description": "Assigned to Thomas Howe on 2025-12-15, never referenced in any later meeting.",
-    "meetingRefs": ["strolid-leadership-call-2025-12-15"],
-    "dates": ["2025-12-15"],
-    "relatedEntities": ["Thomas Howe"]
+    "meetingRefs": [
+      "strolid-leadership-call-2025-12-15"
+    ],
+    "dates": [
+      "2025-12-15"
+    ],
+    "relatedEntities": [
+      "Thomas Howe"
+    ]
   },
   {
     "type": "orphan_action",
     "severity": "medium",
     "title": "Abandoned: \"Have a one-on-one meeting....\"",
     "description": "Assigned to Harinder Bhinder on 2025-12-15, never referenced in any later meeting.",
-    "meetingRefs": ["strolid-leadership-call-2025-12-15"],
-    "dates": ["2025-12-15"],
-    "relatedEntities": ["Harinder Bhinder"]
+    "meetingRefs": [
+      "strolid-leadership-call-2025-12-15"
+    ],
+    "dates": [
+      "2025-12-15"
+    ],
+    "relatedEntities": [
+      "Harinder Bhinder"
+    ]
   },
   {
     "type": "orphan_action",
     "severity": "medium",
     "title": "Abandoned: \"Create a new instance in WP Engine, apply a new theme, and u...\"",
     "description": "Assigned to Michael Donovan on 2025-12-29, never referenced in any later meeting.",
-    "meetingRefs": ["website-planning-session-2025-12-29"],
-    "dates": ["2025-12-29"],
-    "relatedEntities": ["Michael Donovan"]
+    "meetingRefs": [
+      "website-planning-session-2025-12-29"
+    ],
+    "dates": [
+      "2025-12-29"
+    ],
+    "relatedEntities": [
+      "Michael Donovan"
+    ]
   },
   {
     "type": "orphan_action",
     "severity": "medium",
     "title": "Abandoned: \"Put everything together and lay out the phases for tackling ...\"",
     "description": "Assigned to Michael Donovan on 2025-12-29, never referenced in any later meeting.",
-    "meetingRefs": ["website-planning-session-2025-12-29"],
-    "dates": ["2025-12-29"],
-    "relatedEntities": ["Michael Donovan"]
+    "meetingRefs": [
+      "website-planning-session-2025-12-29"
+    ],
+    "dates": [
+      "2025-12-29"
+    ],
+    "relatedEntities": [
+      "Michael Donovan"
+    ]
   },
   {
     "type": "orphan_action",
     "severity": "medium",
     "title": "Abandoned: \"Do some research to figure out where to interject in the pha...\"",
     "description": "Assigned to Kristina Cvitko on 2025-12-29, never referenced in any later meeting.",
-    "meetingRefs": ["website-planning-session-2025-12-29"],
-    "dates": ["2025-12-29"],
-    "relatedEntities": ["Kristina Cvitko"]
+    "meetingRefs": [
+      "website-planning-session-2025-12-29"
+    ],
+    "dates": [
+      "2025-12-29"
+    ],
+    "relatedEntities": [
+      "Kristina Cvitko"
+    ]
   },
   {
     "type": "orphan_action",
     "severity": "medium",
     "title": "Abandoned: \"Send the Lighthouse report to Kristina Cvitko....\"",
     "description": "Assigned to Michael Donovan on 2025-12-29, never referenced in any later meeting.",
-    "meetingRefs": ["website-planning-session-2025-12-29"],
-    "dates": ["2025-12-29"],
-    "relatedEntities": ["Michael Donovan"]
+    "meetingRefs": [
+      "website-planning-session-2025-12-29"
+    ],
+    "dates": [
+      "2025-12-29"
+    ],
+    "relatedEntities": [
+      "Michael Donovan"
+    ]
   },
   {
     "type": "orphan_action",
     "severity": "medium",
     "title": "Abandoned: \"Put a visual together to explain the three lanes, the core m...\"",
     "description": "Assigned to Joe Furnari on 2025-12-30, never referenced in any later meeting.",
-    "meetingRefs": ["the-marketing-meeting-2025-12-30"],
-    "dates": ["2025-12-30"],
-    "relatedEntities": ["Joe Furnari"]
+    "meetingRefs": [
+      "the-marketing-meeting-2025-12-30"
+    ],
+    "dates": [
+      "2025-12-30"
+    ],
+    "relatedEntities": [
+      "Joe Furnari"
+    ]
   },
   {
     "type": "orphan_action",
     "severity": "medium",
     "title": "Abandoned: \"Put something together if there is a scope of work that Joe ...\"",
     "description": "Assigned to Michael Donovan on 2026-01-06, never referenced in any later meeting.",
-    "meetingRefs": ["the-marketing-meeting-2026-01-06"],
-    "dates": ["2026-01-06"],
-    "relatedEntities": ["Michael Donovan"]
+    "meetingRefs": [
+      "the-marketing-meeting-2026-01-06"
+    ],
+    "dates": [
+      "2026-01-06"
+    ],
+    "relatedEntities": [
+      "Michael Donovan"
+    ]
   },
   {
     "type": "orphan_action",
     "severity": "medium",
     "title": "Abandoned: \"Send links to the updated pages/content...\"",
     "description": "Assigned to Michael Donovan on 2026-01-09, never referenced in any later meeting.",
-    "meetingRefs": ["regroup-on-website-refresh-initiative-2026-01-09"],
-    "dates": ["2026-01-09"],
-    "relatedEntities": ["Michael Donovan"]
+    "meetingRefs": [
+      "regroup-on-website-refresh-initiative-2026-01-09"
+    ],
+    "dates": [
+      "2026-01-09"
+    ],
+    "relatedEntities": [
+      "Michael Donovan"
+    ]
   },
   {
     "type": "orphan_action",
     "severity": "medium",
     "title": "Abandoned: \"Reverse the order of the badges on the website to display 'H...\"",
     "description": "Assigned to Michael Donovan on 2026-01-13, never referenced in any later meeting.",
-    "meetingRefs": ["the-marketing-meeting-2026-01-13"],
-    "dates": ["2026-01-13"],
-    "relatedEntities": ["Michael Donovan"]
+    "meetingRefs": [
+      "the-marketing-meeting-2026-01-13"
+    ],
+    "dates": [
+      "2026-01-13"
+    ],
+    "relatedEntities": [
+      "Michael Donovan"
+    ]
   },
   {
     "type": "orphan_action",
     "severity": "medium",
     "title": "Abandoned: \"Update the page in the staging environment that currently ha...\"",
     "description": "Assigned to Michael Donovan on 2026-01-13, never referenced in any later meeting.",
-    "meetingRefs": ["the-marketing-meeting-2026-01-13"],
-    "dates": ["2026-01-13"],
-    "relatedEntities": ["Michael Donovan"]
+    "meetingRefs": [
+      "the-marketing-meeting-2026-01-13"
+    ],
+    "dates": [
+      "2026-01-13"
+    ],
+    "relatedEntities": [
+      "Michael Donovan"
+    ]
   },
   {
     "type": "orphan_action",
     "severity": "medium",
     "title": "Abandoned: \"Change 'Industry Insights' to 'Resources and Dealer Insights...\"",
     "description": "Assigned to Michael Donovan on 2026-01-13, never referenced in any later meeting.",
-    "meetingRefs": ["the-marketing-meeting-2026-01-13"],
-    "dates": ["2026-01-13"],
-    "relatedEntities": ["Michael Donovan"]
+    "meetingRefs": [
+      "the-marketing-meeting-2026-01-13"
+    ],
+    "dates": [
+      "2026-01-13"
+    ],
+    "relatedEntities": [
+      "Michael Donovan"
+    ]
   },
   {
     "type": "orphan_action",
     "severity": "medium",
     "title": "Abandoned: \"Reposition resources and lead sources to other categories....\"",
     "description": "Assigned to Michael Donovan on 2026-01-20, never referenced in any later meeting.",
-    "meetingRefs": ["joe-and-michael-touch-base-2026-01-20"],
-    "dates": ["2026-01-20"],
-    "relatedEntities": ["Michael Donovan"]
+    "meetingRefs": [
+      "joe-and-michael-touch-base-2026-01-20"
+    ],
+    "dates": [
+      "2026-01-20"
+    ],
+    "relatedEntities": [
+      "Michael Donovan"
+    ]
   },
   {
     "type": "orphan_action",
     "severity": "medium",
     "title": "Abandoned: \"Consolidate the 22 pages under insights and the five pages u...\"",
     "description": "Assigned to Michael Donovan on 2026-01-20, never referenced in any later meeting.",
-    "meetingRefs": ["joe-and-michael-touch-base-2026-01-20"],
-    "dates": ["2026-01-20"],
-    "relatedEntities": ["Michael Donovan"]
+    "meetingRefs": [
+      "joe-and-michael-touch-base-2026-01-20"
+    ],
+    "dates": [
+      "2026-01-20"
+    ],
+    "relatedEntities": [
+      "Michael Donovan"
+    ]
   },
   {
     "type": "orphan_action",
     "severity": "medium",
     "title": "Abandoned: \"Share the link to the original FAQ page with Joe Furnari via...\"",
     "description": "Assigned to Michael Donovan on 2026-01-20, never referenced in any later meeting.",
-    "meetingRefs": ["joe-and-michael-touch-base-2026-01-20"],
-    "dates": ["2026-01-20"],
-    "relatedEntities": ["Michael Donovan"]
+    "meetingRefs": [
+      "joe-and-michael-touch-base-2026-01-20"
+    ],
+    "dates": [
+      "2026-01-20"
+    ],
+    "relatedEntities": [
+      "Michael Donovan"
+    ]
+  },
+  {
+    "type": "orphan_action",
+    "severity": "medium",
+    "title": "Abandoned: \"Create a list of two or three priorities with estimated cost...\"",
+    "description": "Assigned to Michael Donovan on 2026-02-12, never referenced in any later meeting.",
+    "meetingRefs": [
+      "joe-and-michael-regroup-2026-02-12"
+    ],
+    "dates": [
+      "2026-02-12"
+    ],
+    "relatedEntities": [
+      "Michael Donovan"
+    ]
+  },
+  {
+    "type": "orphan_action",
+    "severity": "medium",
+    "title": "Abandoned: \"Talk to Vinnie about Michael's compensation plan and the pla...\"",
+    "description": "Assigned to Joe Furnari on 2026-02-12, never referenced in any later meeting.",
+    "meetingRefs": [
+      "joe-and-michael-regroup-2026-02-12"
+    ],
+    "dates": [
+      "2026-02-12"
+    ],
+    "relatedEntities": [
+      "Joe Furnari"
+    ]
+  },
+  {
+    "type": "orphan_action",
+    "severity": "medium",
+    "title": "Abandoned: \"Look up the GMs from Hyundai, Gulfport, Chevy, Meteory, and ...\"",
+    "description": "Assigned to Michael Donovan on 2026-02-12, never referenced in any later meeting.",
+    "meetingRefs": [
+      "joe-and-michael-regroup-2026-02-12"
+    ],
+    "dates": [
+      "2026-02-12"
+    ],
+    "relatedEntities": [
+      "Michael Donovan"
+    ]
+  },
+  {
+    "type": "orphan_action",
+    "severity": "medium",
+    "title": "Abandoned: \"Work on rolling out the three pillars: quick, not fast or ur...\"",
+    "description": "Assigned to Vinnie Micciche on 2026-02-13, never referenced in any later meeting.",
+    "meetingRefs": [
+      "marketing-flow-and-alignment-2026-02-13"
+    ],
+    "dates": [
+      "2026-02-13"
+    ],
+    "relatedEntities": [
+      "Vinnie Micciche"
+    ]
+  },
+  {
+    "type": "orphan_action",
+    "severity": "medium",
+    "title": "Abandoned: \"Work on a full hygiene of the email database and establish a...\"",
+    "description": "Assigned to Michael Donovan on 2026-02-13, never referenced in any later meeting.",
+    "meetingRefs": [
+      "marketing-flow-and-alignment-2026-02-13"
+    ],
+    "dates": [
+      "2026-02-13"
+    ],
+    "relatedEntities": [
+      "Michael Donovan"
+    ]
+  },
+  {
+    "type": "orphan_action",
+    "severity": "medium",
+    "title": "Abandoned: \"Gather content from his drive, place it in a folder, and sha...\"",
+    "description": "Assigned to Vinnie Micciche on 2026-02-13, never referenced in any later meeting.",
+    "meetingRefs": [
+      "marketing-flow-and-alignment-2026-02-13"
+    ],
+    "dates": [
+      "2026-02-13"
+    ],
+    "relatedEntities": [
+      "Vinnie Micciche"
+    ]
+  },
+  {
+    "type": "orphan_action",
+    "severity": "medium",
+    "title": "Abandoned: \"Follow up on the BDS contract to get it signed....\"",
+    "description": "Assigned to Joe Furnari on 2026-02-16, never referenced in any later meeting.",
+    "meetingRefs": [
+      "strolid-leadership-call-2026-02-16"
+    ],
+    "dates": [
+      "2026-02-16"
+    ],
+    "relatedEntities": [
+      "Joe Furnari"
+    ]
+  },
+  {
+    "type": "orphan_action",
+    "severity": "medium",
+    "title": "Abandoned: \"Meet with Vin Micciche to discuss 'talk two stuff' and get a...\"",
+    "description": "Assigned to Joe Furnari on 2026-02-16, never referenced in any later meeting.",
+    "meetingRefs": [
+      "strolid-leadership-call-2026-02-16"
+    ],
+    "dates": [
+      "2026-02-16"
+    ],
+    "relatedEntities": [
+      "Joe Furnari"
+    ]
+  },
+  {
+    "type": "orphan_action",
+    "severity": "medium",
+    "title": "Abandoned: \"Build an engagement report....\"",
+    "description": "Assigned to Kevin Breen on 2026-02-16, never referenced in any later meeting.",
+    "meetingRefs": [
+      "strolid-leadership-call-2026-02-16"
+    ],
+    "dates": [
+      "2026-02-16"
+    ],
+    "relatedEntities": [
+      "Kevin Breen"
+    ]
+  },
+  {
+    "type": "orphan_action",
+    "severity": "medium",
+    "title": "Abandoned: \"Push the VA rollout and resolve issues....\"",
+    "description": "Assigned to Sergey Lyapustin on 2026-02-16, never referenced in any later meeting.",
+    "meetingRefs": [
+      "strolid-leadership-call-2026-02-16"
+    ],
+    "dates": [
+      "2026-02-16"
+    ],
+    "relatedEntities": [
+      "Sergey Lyapustin"
+    ]
+  },
+  {
+    "type": "orphan_action",
+    "severity": "medium",
+    "title": "Abandoned: \"Conduct a deep dive into the service and follow-up teams, es...\"",
+    "description": "Assigned to Shawna Behen on 2026-02-16, never referenced in any later meeting.",
+    "meetingRefs": [
+      "strolid-leadership-call-2026-02-16"
+    ],
+    "dates": [
+      "2026-02-16"
+    ],
+    "relatedEntities": [
+      "Shawna Behen"
+    ]
+  },
+  {
+    "type": "orphan_action",
+    "severity": "medium",
+    "title": "Abandoned: \"Hold expectation meetings with operations managers....\"",
+    "description": "Assigned to Shawna Behen on 2026-02-16, never referenced in any later meeting.",
+    "meetingRefs": [
+      "strolid-leadership-call-2026-02-16"
+    ],
+    "dates": [
+      "2026-02-16"
+    ],
+    "relatedEntities": [
+      "Shawna Behen"
+    ]
+  },
+  {
+    "type": "orphan_action",
+    "severity": "medium",
+    "title": "Abandoned: \"Get the auditor to sign the contract....\"",
+    "description": "Assigned to Harinder Bhinder on 2026-02-16, never referenced in any later meeting.",
+    "meetingRefs": [
+      "strolid-leadership-call-2026-02-16"
+    ],
+    "dates": [
+      "2026-02-16"
+    ],
+    "relatedEntities": [
+      "Harinder Bhinder"
+    ]
+  },
+  {
+    "type": "orphan_action",
+    "severity": "medium",
+    "title": "Abandoned: \"Generate more marketing activity and content....\"",
+    "description": "Assigned to Michael Donovan on 2026-02-16, never referenced in any later meeting.",
+    "meetingRefs": [
+      "strolid-leadership-call-2026-02-16"
+    ],
+    "dates": [
+      "2026-02-16"
+    ],
+    "relatedEntities": [
+      "Michael Donovan"
+    ]
+  },
+  {
+    "type": "orphan_action",
+    "severity": "medium",
+    "title": "Abandoned: \"Put together a two-week plan focused on email, social media,...\"",
+    "description": "Assigned to Michael Donovan on 2026-02-20, never referenced in any later meeting.",
+    "meetingRefs": [
+      "catch-up-on-marketing-activities-2026-02-20"
+    ],
+    "dates": [
+      "2026-02-20"
+    ],
+    "relatedEntities": [
+      "Michael Donovan"
+    ]
+  },
+  {
+    "type": "orphan_action",
+    "severity": "medium",
+    "title": "Abandoned: \"Charge the monthly subscription for the model or platform to...\"",
+    "description": "Assigned to Michael Donovan on 2026-02-20, never referenced in any later meeting.",
+    "meetingRefs": [
+      "catch-up-on-marketing-activities-2026-02-20"
+    ],
+    "dates": [
+      "2026-02-20"
+    ],
+    "relatedEntities": [
+      "Michael Donovan"
+    ]
+  },
+  {
+    "type": "orphan_action",
+    "severity": "medium",
+    "title": "Abandoned: \"Update the P&L piece for the critical meeting, specifically ...\"",
+    "description": "Assigned to Joe Furnari on 2026-02-24, never referenced in any later meeting.",
+    "meetingRefs": [
+      "the-marketing-meeting-2026-02-24"
+    ],
+    "dates": [
+      "2026-02-24"
+    ],
+    "relatedEntities": [
+      "Joe Furnari"
+    ]
+  },
+  {
+    "type": "orphan_action",
+    "severity": "medium",
+    "title": "Abandoned: \"Launch the email distribution ASAP using the cleaned contact...\"",
+    "description": "Assigned to Michael Donovan on 2026-02-24, never referenced in any later meeting.",
+    "meetingRefs": [
+      "the-marketing-meeting-2026-02-24"
+    ],
+    "dates": [
+      "2026-02-24"
+    ],
+    "relatedEntities": [
+      "Michael Donovan"
+    ]
+  },
+  {
+    "type": "orphan_action",
+    "severity": "medium",
+    "title": "Abandoned: \"Launch the email distribution ASAP using the cleaned contact...\"",
+    "description": "Assigned to Paulo Trovao on 2026-02-24, never referenced in any later meeting.",
+    "meetingRefs": [
+      "the-marketing-meeting-2026-02-24"
+    ],
+    "dates": [
+      "2026-02-24"
+    ],
+    "relatedEntities": [
+      "Paulo Trovao"
+    ]
+  },
+  {
+    "type": "orphan_action",
+    "severity": "medium",
+    "title": "Abandoned: \"Work on the initial data cleansing and enrichment using Clay...\"",
+    "description": "Assigned to Michael Donovan on 2026-02-24, never referenced in any later meeting.",
+    "meetingRefs": [
+      "the-marketing-meeting-2026-02-24"
+    ],
+    "dates": [
+      "2026-02-24"
+    ],
+    "relatedEntities": [
+      "Michael Donovan"
+    ]
+  },
+  {
+    "type": "orphan_action",
+    "severity": "medium",
+    "title": "Abandoned: \"Work on the initial data cleansing and enrichment using Clay...\"",
+    "description": "Assigned to Paulo Trovao on 2026-02-24, never referenced in any later meeting.",
+    "meetingRefs": [
+      "the-marketing-meeting-2026-02-24"
+    ],
+    "dates": [
+      "2026-02-24"
+    ],
+    "relatedEntities": [
+      "Paulo Trovao"
+    ]
+  },
+  {
+    "type": "orphan_action",
+    "severity": "medium",
+    "title": "Abandoned: \"Perform a sample email campaign on the 25,000 records in Zoh...\"",
+    "description": "Assigned to Michael Donovan on 2026-02-24, never referenced in any later meeting.",
+    "meetingRefs": [
+      "the-marketing-meeting-2026-02-24"
+    ],
+    "dates": [
+      "2026-02-24"
+    ],
+    "relatedEntities": [
+      "Michael Donovan"
+    ]
+  },
+  {
+    "type": "orphan_action",
+    "severity": "medium",
+    "title": "Abandoned: \"Perform a sample email campaign on the 25,000 records in Zoh...\"",
+    "description": "Assigned to Paulo Trovao on 2026-02-24, never referenced in any later meeting.",
+    "meetingRefs": [
+      "the-marketing-meeting-2026-02-24"
+    ],
+    "dates": [
+      "2026-02-24"
+    ],
+    "relatedEntities": [
+      "Paulo Trovao"
+    ]
+  },
+  {
+    "type": "orphan_action",
+    "severity": "medium",
+    "title": "Abandoned: \"Document everything and send out brief milestone updates to ...\"",
+    "description": "Assigned to Michael Donovan on 2026-02-24, never referenced in any later meeting.",
+    "meetingRefs": [
+      "the-marketing-meeting-2026-02-24"
+    ],
+    "dates": [
+      "2026-02-24"
+    ],
+    "relatedEntities": [
+      "Michael Donovan"
+    ]
+  },
+  {
+    "type": "orphan_action",
+    "severity": "medium",
+    "title": "Abandoned: \"Create the ICP profile from the seven automotive groups....\"",
+    "description": "Assigned to Michael Donovan on 2026-02-24, never referenced in any later meeting.",
+    "meetingRefs": [
+      "the-marketing-meeting-2026-02-24"
+    ],
+    "dates": [
+      "2026-02-24"
+    ],
+    "relatedEntities": [
+      "Michael Donovan"
+    ]
+  },
+  {
+    "type": "orphan_action",
+    "severity": "medium",
+    "title": "Abandoned: \"Create the ICP profile from the seven automotive groups....\"",
+    "description": "Assigned to Paulo Trovao on 2026-02-24, never referenced in any later meeting.",
+    "meetingRefs": [
+      "the-marketing-meeting-2026-02-24"
+    ],
+    "dates": [
+      "2026-02-24"
+    ],
+    "relatedEntities": [
+      "Paulo Trovao"
+    ]
+  },
+  {
+    "type": "orphan_action",
+    "severity": "medium",
+    "title": "Abandoned: \"Use Apollo for email distribution temporarily until Zoho is ...\"",
+    "description": "Assigned to Michael Donovan on 2026-02-24, never referenced in any later meeting.",
+    "meetingRefs": [
+      "the-marketing-meeting-2026-02-24"
+    ],
+    "dates": [
+      "2026-02-24"
+    ],
+    "relatedEntities": [
+      "Michael Donovan"
+    ]
+  },
+  {
+    "type": "orphan_action",
+    "severity": "medium",
+    "title": "Abandoned: \"Use Apollo for email distribution temporarily until Zoho is ...\"",
+    "description": "Assigned to Paulo Trovao on 2026-02-24, never referenced in any later meeting.",
+    "meetingRefs": [
+      "the-marketing-meeting-2026-02-24"
+    ],
+    "dates": [
+      "2026-02-24"
+    ],
+    "relatedEntities": [
+      "Paulo Trovao"
+    ]
+  },
+  {
+    "type": "orphan_action",
+    "severity": "medium",
+    "title": "Abandoned: \"Share the video from Notebook LM, cut into short clips, for ...\"",
+    "description": "Assigned to Michael Donovan on 2026-03-03, never referenced in any later meeting.",
+    "meetingRefs": [
+      "the-marketing-meeting-2026-03-03"
+    ],
+    "dates": [
+      "2026-03-03"
+    ],
+    "relatedEntities": [
+      "Michael Donovan"
+    ]
+  },
+  {
+    "type": "orphan_action",
+    "severity": "medium",
+    "title": "Abandoned: \"Put together a list of Lithia dealers....\"",
+    "description": "Assigned to Unassigned on 2026-03-03, never referenced in any later meeting.",
+    "meetingRefs": [
+      "the-marketing-meeting-2026-03-03"
+    ],
+    "dates": [
+      "2026-03-03"
+    ],
+    "relatedEntities": [
+      "Unassigned"
+    ]
+  },
+  {
+    "type": "orphan_action",
+    "severity": "medium",
+    "title": "Abandoned: \"Sign a contract with the auditors for the SOC 2 audit....\"",
+    "description": "Assigned to Harinder Bhinder on 2026-03-09, never referenced in any later meeting.",
+    "meetingRefs": [
+      "strolid-leadership-call-2026-03-09"
+    ],
+    "dates": [
+      "2026-03-09"
+    ],
+    "relatedEntities": [
+      "Harinder Bhinder"
+    ]
+  },
+  {
+    "type": "orphan_action",
+    "severity": "medium",
+    "title": "Abandoned: \"Talk to Joe Furnari to move forward with the SOC 2 audit pro...\"",
+    "description": "Assigned to Harinder Bhinder on 2026-03-09, never referenced in any later meeting.",
+    "meetingRefs": [
+      "strolid-leadership-call-2026-03-09"
+    ],
+    "dates": [
+      "2026-03-09"
+    ],
+    "relatedEntities": [
+      "Harinder Bhinder"
+    ]
+  },
+  {
+    "type": "orphan_action",
+    "severity": "medium",
+    "title": "Abandoned: \"Check calendar again for the invite to the meeting with Call...\"",
+    "description": "Assigned to Joe Furnari on 2026-03-09, never referenced in any later meeting.",
+    "meetingRefs": [
+      "strolid-leadership-call-2026-03-09"
+    ],
+    "dates": [
+      "2026-03-09"
+    ],
+    "relatedEntities": [
+      "Joe Furnari"
+    ]
+  },
+  {
+    "type": "orphan_action",
+    "severity": "medium",
+    "title": "Abandoned: \"Validate the 100% of emails for the ICP and specific groups....\"",
+    "description": "Assigned to Michael Donovan on 2026-03-09, never referenced in any later meeting.",
+    "meetingRefs": [
+      "strolid-leadership-call-2026-03-09"
+    ],
+    "dates": [
+      "2026-03-09"
+    ],
+    "relatedEntities": [
+      "Michael Donovan"
+    ]
+  },
+  {
+    "type": "orphan_action",
+    "severity": "medium",
+    "title": "Abandoned: \"Follow up on the invite list for the 11:00 a.m. call and pin...\"",
+    "description": "Assigned to Vinnie Micciche on 2026-03-09, never referenced in any later meeting.",
+    "meetingRefs": [
+      "strolid-leadership-call-2026-03-09"
+    ],
+    "dates": [
+      "2026-03-09"
+    ],
+    "relatedEntities": [
+      "Vinnie Micciche"
+    ]
+  },
+  {
+    "type": "orphan_action",
+    "severity": "medium",
+    "title": "Abandoned: \"Kevin Breen will verify the metabase Volley numbers against ...\"",
+    "description": "Assigned to Kevin Breen on 2026-03-09, never referenced in any later meeting.",
+    "meetingRefs": [
+      "strolid-leadership-call-2026-03-09"
+    ],
+    "dates": [
+      "2026-03-09"
+    ],
+    "relatedEntities": [
+      "Kevin Breen"
+    ]
+  },
+  {
+    "type": "orphan_action",
+    "severity": "medium",
+    "title": "Abandoned: \"Set up a new Slack channel to receive alerts when a customer...\"",
+    "description": "Assigned to Scott Henshaw on 2026-03-10, never referenced in any later meeting.",
+    "meetingRefs": [
+      "scrum-standup-daily-update-2026-03-10"
+    ],
+    "dates": [
+      "2026-03-10"
+    ],
+    "relatedEntities": [
+      "Scott Henshaw"
+    ]
+  },
+  {
+    "type": "orphan_action",
+    "severity": "medium",
+    "title": "Abandoned: \"Create a card for the new Slack channel and include a list o...\"",
+    "description": "Assigned to Matt Watson on 2026-03-10, never referenced in any later meeting.",
+    "meetingRefs": [
+      "scrum-standup-daily-update-2026-03-10"
+    ],
+    "dates": [
+      "2026-03-10"
+    ],
+    "relatedEntities": [
+      "Matt Watson"
+    ]
+  },
+  {
+    "type": "orphan_action",
+    "severity": "medium",
+    "title": "Abandoned: \"Seek approval on the new chat widget styling from Holly Meye...\"",
+    "description": "Assigned to Holly Meyerhofer on 2026-03-10, never referenced in any later meeting.",
+    "meetingRefs": [
+      "scrum-standup-daily-update-2026-03-10"
+    ],
+    "dates": [
+      "2026-03-10"
+    ],
+    "relatedEntities": [
+      "Holly Meyerhofer"
+    ]
+  },
+  {
+    "type": "orphan_action",
+    "severity": "medium",
+    "title": "Abandoned: \"Seek feedback on the Lovable dashboard's design and concepts...\"",
+    "description": "Assigned to Kevin Breen on 2026-03-10, never referenced in any later meeting.",
+    "meetingRefs": [
+      "scrum-standup-daily-update-2026-03-10"
+    ],
+    "dates": [
+      "2026-03-10"
+    ],
+    "relatedEntities": [
+      "Kevin Breen"
+    ]
+  },
+  {
+    "type": "orphan_action",
+    "severity": "medium",
+    "title": "Abandoned: \"Complete the current pipeline and scoring model....\"",
+    "description": "Assigned to Jason Branham on 2026-03-10, never referenced in any later meeting.",
+    "meetingRefs": [
+      "the-marketing-meeting-2026-03-10"
+    ],
+    "dates": [
+      "2026-03-10"
+    ],
+    "relatedEntities": [
+      "Jason Branham"
+    ]
+  },
+  {
+    "type": "orphan_action",
+    "severity": "medium",
+    "title": "Abandoned: \"Show Matt Watson the context regarding the required database...\"",
+    "description": "Assigned to Michael Donovan on 2026-03-11, never referenced in any later meeting.",
+    "meetingRefs": [
+      "product-marketing-alignment-2026-03-11"
+    ],
+    "dates": [
+      "2026-03-11"
+    ],
+    "relatedEntities": [
+      "Michael Donovan"
+    ]
+  },
+  {
+    "type": "orphan_action",
+    "severity": "medium",
+    "title": "Abandoned: \"Point the callback numbers to Frank's follow-up team to have...\"",
+    "description": "Assigned to Shawna Behen on 2026-03-12, never referenced in any later meeting.",
+    "meetingRefs": [
+      "active-pipeline-review-2026-03-12"
+    ],
+    "dates": [
+      "2026-03-12"
+    ],
+    "relatedEntities": [
+      "Shawna Behen"
+    ]
+  },
+  {
+    "type": "orphan_action",
+    "severity": "medium",
+    "title": "Abandoned: \"Review the data query, looking into lead source quality, and...\"",
+    "description": "Assigned to Sergey Lyapustin on 2026-03-12, never referenced in any later meeting.",
+    "meetingRefs": [
+      "active-pipeline-review-2026-03-12"
+    ],
+    "dates": [
+      "2026-03-12"
+    ],
+    "relatedEntities": [
+      "Sergey Lyapustin"
+    ]
+  },
+  {
+    "type": "orphan_action",
+    "severity": "medium",
+    "title": "Abandoned: \"Address the 'save a deal' prompt issue and develop a GPT-bas...\"",
+    "description": "Assigned to Scott on 2026-03-12, never referenced in any later meeting.",
+    "meetingRefs": [
+      "active-pipeline-review-2026-03-12"
+    ],
+    "dates": [
+      "2026-03-12"
+    ],
+    "relatedEntities": [
+      "Scott"
+    ]
+  },
+  {
+    "type": "orphan_action",
+    "severity": "medium",
+    "title": "Abandoned: \"Analyze patterns and similarities between customers calling ...\"",
+    "description": "Assigned to Michael Donovan on 2026-03-12, never referenced in any later meeting.",
+    "meetingRefs": [
+      "active-pipeline-review-2026-03-12"
+    ],
+    "dates": [
+      "2026-03-12"
+    ],
+    "relatedEntities": [
+      "Michael Donovan"
+    ]
+  },
+  {
+    "type": "orphan_action",
+    "severity": "medium",
+    "title": "Abandoned: \"Determine human performance metrics prior to Sophia's implem...\"",
+    "description": "Assigned to Unassigned on 2026-03-12, never referenced in any later meeting.",
+    "meetingRefs": [
+      "active-pipeline-review-2026-03-12"
+    ],
+    "dates": [
+      "2026-03-12"
+    ],
+    "relatedEntities": [
+      "Unassigned"
+    ]
+  },
+  {
+    "type": "orphan_action",
+    "severity": "medium",
+    "title": "Abandoned: \"Evaluate staffing options for evening shift to support poten...\"",
+    "description": "Assigned to Shawna Behen on 2026-03-12, never referenced in any later meeting.",
+    "meetingRefs": [
+      "active-pipeline-review-2026-03-12"
+    ],
+    "dates": [
+      "2026-03-12"
+    ],
+    "relatedEntities": [
+      "Shawna Behen"
+    ]
+  },
+  {
+    "type": "orphan_action",
+    "severity": "medium",
+    "title": "Abandoned: \"Provide Jason Branham with the \"phase zero\" lookalike list d...\"",
+    "description": "Assigned to Michael Donovan on 2026-03-13, never referenced in any later meeting.",
+    "meetingRefs": [
+      "marketing-2026-03-13"
+    ],
+    "dates": [
+      "2026-03-13"
+    ],
+    "relatedEntities": [
+      "Michael Donovan"
+    ]
+  },
+  {
+    "type": "orphan_action",
+    "severity": "medium",
+    "title": "Abandoned: \"Use the lookalike list to start sending out connection reque...\"",
+    "description": "Assigned to Jason Branham on 2026-03-13, never referenced in any later meeting.",
+    "meetingRefs": [
+      "marketing-2026-03-13"
+    ],
+    "dates": [
+      "2026-03-13"
+    ],
+    "relatedEntities": [
+      "Jason Branham"
+    ]
+  },
+  {
+    "type": "orphan_action",
+    "severity": "medium",
+    "title": "Abandoned: \"Create a shortlist of Augusta merchandise items for Matt Wat...\"",
+    "description": "Assigned to Jason Branham on 2026-03-23, never referenced in any later meeting.",
+    "meetingRefs": [
+      "strolid-leadership-call-2026-03-23"
+    ],
+    "dates": [
+      "2026-03-23"
+    ],
+    "relatedEntities": [
+      "Jason Branham"
+    ]
+  },
+  {
+    "type": "orphan_action",
+    "severity": "medium",
+    "title": "Abandoned: \"Spend time thinking through potential challenges with the Pe...\"",
+    "description": "Assigned to Vinnie Micciche on 2026-03-23, never referenced in any later meeting.",
+    "meetingRefs": [
+      "strolid-leadership-call-2026-03-23"
+    ],
+    "dates": [
+      "2026-03-23"
+    ],
+    "relatedEntities": [
+      "Vinnie Micciche"
+    ]
+  },
+  {
+    "type": "orphan_action",
+    "severity": "medium",
+    "title": "Abandoned: \"Reach out to Jamie to connect Joe Furnari and Jamie regardin...\"",
+    "description": "Assigned to Vinnie Micciche on 2026-03-23, never referenced in any later meeting.",
+    "meetingRefs": [
+      "strolid-leadership-call-2026-03-23"
+    ],
+    "dates": [
+      "2026-03-23"
+    ],
+    "relatedEntities": [
+      "Vinnie Micciche"
+    ]
+  },
+  {
+    "type": "orphan_action",
+    "severity": "medium",
+    "title": "Abandoned: \"Review Kevin Breen's Lovable report and authorize sharing it...\"",
+    "description": "Assigned to Vinnie Micciche on 2026-03-23, never referenced in any later meeting.",
+    "meetingRefs": [
+      "strolid-leadership-call-2026-03-23"
+    ],
+    "dates": [
+      "2026-03-23"
+    ],
+    "relatedEntities": [
+      "Vinnie Micciche"
+    ]
+  },
+  {
+    "type": "orphan_action",
+    "severity": "medium",
+    "title": "Abandoned: \"Spend more time with Sergey Lyapustin and Scott on guardrail...\"",
+    "description": "Assigned to Vinnie Micciche on 2026-03-23, never referenced in any later meeting.",
+    "meetingRefs": [
+      "strolid-leadership-call-2026-03-23"
+    ],
+    "dates": [
+      "2026-03-23"
+    ],
+    "relatedEntities": [
+      "Vinnie Micciche"
+    ]
+  },
+  {
+    "type": "orphan_action",
+    "severity": "medium",
+    "title": "Abandoned: \"Discuss creating a budget for the extensive use of AI....\"",
+    "description": "Assigned to Harinder Bhinder on 2026-03-23, never referenced in any later meeting.",
+    "meetingRefs": [
+      "strolid-leadership-call-2026-03-23"
+    ],
+    "dates": [
+      "2026-03-23"
+    ],
+    "relatedEntities": [
+      "Harinder Bhinder"
+    ]
+  },
+  {
+    "type": "orphan_action",
+    "severity": "medium",
+    "title": "Abandoned: \"Share a more concrete SOC auditor roadmap....\"",
+    "description": "Assigned to Harinder Bhinder on 2026-03-23, never referenced in any later meeting.",
+    "meetingRefs": [
+      "strolid-leadership-call-2026-03-23"
+    ],
+    "dates": [
+      "2026-03-23"
+    ],
+    "relatedEntities": [
+      "Harinder Bhinder"
+    ]
+  },
+  {
+    "type": "orphan_action",
+    "severity": "medium",
+    "title": "Abandoned: \"Discuss setting a flexible and variable AI budget and share ...\"",
+    "description": "Assigned to Harinder Bhinder on 2026-03-23, never referenced in any later meeting.",
+    "meetingRefs": [
+      "strolid-leadership-call-2026-03-23"
+    ],
+    "dates": [
+      "2026-03-23"
+    ],
+    "relatedEntities": [
+      "Harinder Bhinder"
+    ]
   },
   {
     "type": "direction_change",
     "severity": "medium",
     "title": "Direction change on \"linkedin-strategy\" after 32 days",
-    "description": "\"LinkedIn project is put in a secondary stage, focusing on hero images, profile b\" → \"Increase the frequency of carousel posts on LinkedIn from once a week to potenti\"",
+    "description": "\"LinkedIn project is put in a secondary stage, focusing on hero images, profile b\" \u2192 \"Increase the frequency of carousel posts on LinkedIn from once a week to potenti\"",
     "meetingRefs": [
       "vconic-priority-content-update-2025-10-24",
       "the-marketing-meeting-2025-11-25"
     ],
-    "dates": ["2025-10-24", "2025-11-25"],
-    "relatedEntities": ["linkedin-strategy"]
+    "dates": [
+      "2025-10-24",
+      "2025-11-25"
+    ],
+    "relatedEntities": [
+      "linkedin-strategy"
+    ]
   },
   {
     "type": "direction_change",
     "severity": "medium",
     "title": "Direction change on \"lead-generation\" after 48 days",
-    "description": "\"Michael Donovan should focus on lead generation rather than building the marketi\" → \"Rely on a form for leads in the short term, removing \"leads\" and \"lead magnets\".\"",
+    "description": "\"Michael Donovan should focus on lead generation rather than building the marketi\" \u2192 \"Rely on a form for leads in the short term, removing \"leads\" and \"lead magnets\".\"",
     "meetingRefs": [
       "michael-and-vin-continuation-2025-12-03",
       "joe-and-michael-touch-base-2026-01-20"
     ],
-    "dates": ["2025-12-03", "2026-01-20"],
-    "relatedEntities": ["lead-generation"]
+    "dates": [
+      "2025-12-03",
+      "2026-01-20"
+    ],
+    "relatedEntities": [
+      "lead-generation"
+    ]
   },
   {
     "type": "direction_change",
     "severity": "medium",
     "title": "Direction change on \"buyer-targeting\" after 88 days",
-    "description": "\"Shift business focus to larger dealer groups and OEMs to secure more stable, lon\" → \"Target dealer principals, corporate staff, and owners as the primary audience.\"",
+    "description": "\"Shift business focus to larger dealer groups and OEMs to secure more stable, lon\" \u2192 \"Target dealer principals, corporate staff, and owners as the primary audience.\"",
     "meetingRefs": [
       "call-with-michael-2025-12-05",
       "the-marketing-meeting-2026-03-03"
     ],
-    "dates": ["2025-12-05", "2026-03-03"],
-    "relatedEntities": ["buyer-targeting"]
+    "dates": [
+      "2025-12-05",
+      "2026-03-03"
+    ],
+    "relatedEntities": [
+      "buyer-targeting"
+    ]
   },
   {
     "type": "direction_change",
     "severity": "medium",
     "title": "Direction change on \"linkedin-strategy\" after 108 days",
-    "description": "\"Increase the frequency of carousel posts on LinkedIn from once a week to potenti\" → \"The sales team will begin sending out connection requests on LinkedIn using the \"",
-    "meetingRefs": ["the-marketing-meeting-2025-11-25", "marketing-2026-03-13"],
-    "dates": ["2025-11-25", "2026-03-13"],
-    "relatedEntities": ["linkedin-strategy"]
+    "description": "\"Increase the frequency of carousel posts on LinkedIn from once a week to potenti\" \u2192 \"The sales team will begin sending out connection requests on LinkedIn using the \"",
+    "meetingRefs": [
+      "the-marketing-meeting-2025-11-25",
+      "marketing-2026-03-13"
+    ],
+    "dates": [
+      "2025-11-25",
+      "2026-03-13"
+    ],
+    "relatedEntities": [
+      "linkedin-strategy"
+    ]
   },
   {
     "type": "direction_change",
     "severity": "medium",
     "title": "Direction change on \"meeting-schedule\" after 160 days",
-    "description": "\"Set the weekly meeting between Michael and Joe back to 10:00 AM ongoing.\" → \"Reschedule the meeting to later in the week due to Vinnie's absence if no one ha\"",
+    "description": "\"Set the weekly meeting between Michael and Joe back to 10:00 AM ongoing.\" \u2192 \"Reschedule the meeting to later in the week due to Vinnie's absence if no one ha\"",
     "meetingRefs": [
       "the-marketing-meeting-2025-10-21",
       "strolid-leadership-call-2026-03-30"
     ],
-    "dates": ["2025-10-21", "2026-03-30"],
-    "relatedEntities": ["meeting-schedule"]
+    "dates": [
+      "2025-10-21",
+      "2026-03-30"
+    ],
+    "relatedEntities": [
+      "meeting-schedule"
+    ]
   },
   {
     "type": "direction_change",
     "severity": "medium",
     "title": "Direction change on \"messaging-strategy\" after 84 days",
-    "description": "\"Implement website content with a \"human first or AI first\" message.\" → \"The marketing team must align messaging with current dealer challenges (high tur\"",
+    "description": "\"Implement website content with a \"human first or AI first\" message.\" \u2192 \"The marketing team must align messaging with current dealer challenges (high tur\"",
     "meetingRefs": [
       "the-marketing-meeting-2026-01-06",
       "the-marketing-meeting-2026-03-31"
     ],
-    "dates": ["2026-01-06", "2026-03-31"],
-    "relatedEntities": ["messaging-strategy"]
+    "dates": [
+      "2026-01-06",
+      "2026-03-31"
+    ],
+    "relatedEntities": [
+      "messaging-strategy"
+    ]
   },
   {
     "type": "direction_change",
     "severity": "medium",
     "title": "Direction change on \"content-creation\" after 118 days",
-    "description": "\"Michael Donovan will send out whatever posts they have immediately, emphasizing \" → \"Michael Donovan to create an outline for proposed value propositions, using a si\"",
+    "description": "\"Michael Donovan will send out whatever posts they have immediately, emphasizing \" \u2192 \"Michael Donovan to create an outline for proposed value propositions, using a si\"",
     "meetingRefs": [
       "michael-and-vin-continuation-2025-12-03",
       "the-marketing-meeting-2026-03-31"
     ],
-    "dates": ["2025-12-03", "2026-03-31"],
-    "relatedEntities": ["content-creation"]
+    "dates": [
+      "2025-12-03",
+      "2026-03-31"
+    ],
+    "relatedEntities": [
+      "content-creation"
+    ]
   }
 ]

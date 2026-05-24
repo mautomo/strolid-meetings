@@ -1,3 +1,8 @@
 node_modules/
 nul
 .omc/
+.venv/
+venv/
+__pycache__/
+*.pyc
+adk_sessions.db
