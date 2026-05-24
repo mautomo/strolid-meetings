@@ -1,0 +1,23 @@
+[project]
+name = "strolid-meetings-intelligence"
+version = "0.1.0"
+description = "Strolid Meetings Intelligence Platform using ADK 2.0, BigQuery, and RAG"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "google-adk[a2a]>=2.0.0",
+    "google-genai>=0.24.0",
+    "python-docx>=1.1.0",
+    "pypdf>=4.2.0",
+    "rapidfuzz>=3.9.0",
+    "pandas>=2.2.0",
+    "db-dtypes>=1.2.0",
+    "google-cloud-bigquery>=3.20.0",
+    "google-cloud-storage>=2.16.0",
+    "fastapi>=0.110.0",
+    "uvicorn>=0.28.0",
+    "python-dotenv>=1.0.1",
+    "sqlalchemy>=2.0.0",
+    "pydantic>=2.6.0",
+    "firebase-admin>=6.5.0",
+]

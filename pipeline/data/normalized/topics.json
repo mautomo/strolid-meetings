@@ -18,7 +18,10 @@
       "weekly-1-on-1-with-michael-d-and-joe-f-2026-03-30",
       "the-marketing-meeting-2026-03-31"
     ],
-    "decisionRefs": ["d-085", "d-138"],
+    "decisionRefs": [
+      "d-085",
+      "d-138"
+    ],
     "mentionCount": 12
   },
   {
@@ -69,7 +72,10 @@
       "the-marketing-meeting-2026-03-10",
       "marketing-2026-03-13"
     ],
-    "decisionRefs": ["d-168", "d-196"],
+    "decisionRefs": [
+      "d-168",
+      "d-196"
+    ],
     "mentionCount": 7
   },
   {
@@ -85,7 +91,10 @@
       "marketing-flow-and-alignment-2026-02-13",
       "catch-up-on-marketing-activities-2026-02-20"
     ],
-    "decisionRefs": ["d-077", "d-092"],
+    "decisionRefs": [
+      "d-077",
+      "d-092"
+    ],
     "mentionCount": 6
   },
   {
@@ -99,7 +108,11 @@
       "michael-and-vin-continuation-2025-12-03",
       "the-marketing-meeting-2026-03-31"
     ],
-    "decisionRefs": ["d-081", "d-087", "d-220"],
+    "decisionRefs": [
+      "d-081",
+      "d-087",
+      "d-220"
+    ],
     "mentionCount": 4
   },
   {
@@ -113,7 +126,10 @@
       "call-with-michael-2025-12-05",
       "the-marketing-meeting-2026-01-06"
     ],
-    "decisionRefs": ["d-043", "d-044"],
+    "decisionRefs": [
+      "d-043",
+      "d-044"
+    ],
     "mentionCount": 4
   },
   {
@@ -127,7 +143,11 @@
       "the-marketing-meeting-2026-01-06",
       "regroup-on-website-refresh-initiative-2026-01-09"
     ],
-    "decisionRefs": ["d-080", "d-117", "d-126"],
+    "decisionRefs": [
+      "d-080",
+      "d-117",
+      "d-126"
+    ],
     "mentionCount": 4
   },
   {
@@ -140,7 +160,9 @@
       "vconic-priority-content-update-2025-10-24",
       "the-marketing-meeting-2026-01-06"
     ],
-    "decisionRefs": ["d-011"],
+    "decisionRefs": [
+      "d-011"
+    ],
     "mentionCount": 3
   },
   {
@@ -153,7 +175,9 @@
       "website-planning-session-2025-12-29",
       "weekly-1-on-1-with-michael-d-and-joe-f-2026-03-30"
     ],
-    "decisionRefs": ["d-115"],
+    "decisionRefs": [
+      "d-115"
+    ],
     "mentionCount": 3
   },
   {
@@ -166,7 +190,9 @@
       "the-marketing-meeting-2025-12-10",
       "the-marketing-meeting-2026-01-13"
     ],
-    "decisionRefs": ["d-130"],
+    "decisionRefs": [
+      "d-130"
+    ],
     "mentionCount": 3
   },
   {
@@ -179,7 +205,11 @@
       "the-marketing-meeting-2026-03-03",
       "strolid-leadership-call-2026-03-09"
     ],
-    "decisionRefs": ["d-095", "d-171", "d-182"],
+    "decisionRefs": [
+      "d-095",
+      "d-171",
+      "d-182"
+    ],
     "mentionCount": 3
   },
   {
@@ -216,7 +246,9 @@
       "product-roadmap-planning-2025-01-28",
       "active-pipeline-review-2026-03-12"
     ],
-    "decisionRefs": ["d-004"],
+    "decisionRefs": [
+      "d-004"
+    ],
     "mentionCount": 2
   },
   {
@@ -228,7 +260,9 @@
       "product-roadmap-planning-2025-01-28",
       "product-roadmap-planning-2025-02-04"
     ],
-    "decisionRefs": ["d-005"],
+    "decisionRefs": [
+      "d-005"
+    ],
     "mentionCount": 2
   },
   {
@@ -300,7 +334,9 @@
       "homepage-hero-session-2025-09-23",
       "vconic-site-content-2025-11-20"
     ],
-    "decisionRefs": ["d-063"],
+    "decisionRefs": [
+      "d-063"
+    ],
     "mentionCount": 2
   },
   {
@@ -336,7 +372,12 @@
       "vconic-priority-content-update-2025-10-24",
       "marketing-2026-03-13"
     ],
-    "decisionRefs": ["d-045", "d-046", "d-069", "d-197"],
+    "decisionRefs": [
+      "d-045",
+      "d-046",
+      "d-069",
+      "d-197"
+    ],
     "mentionCount": 2
   },
   {
@@ -396,7 +437,9 @@
       "vconic-site-content-2025-11-20",
       "marketing-flow-and-alignment-2026-02-13"
     ],
-    "decisionRefs": ["d-062"],
+    "decisionRefs": [
+      "d-062"
+    ],
     "mentionCount": 2
   },
   {
@@ -444,7 +487,9 @@
       "michael-and-vin-continuation-2025-12-03",
       "vin-and-michael-2025-12-03"
     ],
-    "decisionRefs": ["d-089"],
+    "decisionRefs": [
+      "d-089"
+    ],
     "mentionCount": 2
   },
   {
@@ -468,7 +513,14 @@
       "website-planning-session-2025-12-29",
       "the-marketing-meeting-2026-01-06"
     ],
-    "decisionRefs": ["d-110", "d-111", "d-112", "d-113", "d-114", "d-116"],
+    "decisionRefs": [
+      "d-110",
+      "d-111",
+      "d-112",
+      "d-113",
+      "d-114",
+      "d-116"
+    ],
     "mentionCount": 2
   },
   {
@@ -504,7 +556,9 @@
       "joe-and-michael-regroup-2026-02-12",
       "marketing-flow-and-alignment-2026-02-13"
     ],
-    "decisionRefs": ["d-145"],
+    "decisionRefs": [
+      "d-145"
+    ],
     "mentionCount": 2
   },
   {
@@ -548,8 +602,13 @@
     "label": "portal-user-engagement",
     "firstMentioned": "2025-01-28",
     "lastMentioned": "2025-01-28",
-    "meetingRefs": ["product-roadmap-planning-2025-01-28"],
-    "decisionRefs": ["d-001", "d-002"],
+    "meetingRefs": [
+      "product-roadmap-planning-2025-01-28"
+    ],
+    "decisionRefs": [
+      "d-001",
+      "d-002"
+    ],
     "mentionCount": 1
   },
   {
@@ -557,7 +616,9 @@
     "label": "product-led-growth",
     "firstMentioned": "2025-01-28",
     "lastMentioned": "2025-01-28",
-    "meetingRefs": ["product-roadmap-planning-2025-01-28"],
+    "meetingRefs": [
+      "product-roadmap-planning-2025-01-28"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -566,8 +627,12 @@
     "label": "user-onboarding",
     "firstMentioned": "2025-01-28",
     "lastMentioned": "2025-01-28",
-    "meetingRefs": ["product-roadmap-planning-2025-01-28"],
-    "decisionRefs": ["d-003"],
+    "meetingRefs": [
+      "product-roadmap-planning-2025-01-28"
+    ],
+    "decisionRefs": [
+      "d-003"
+    ],
     "mentionCount": 1
   },
   {
@@ -575,7 +640,9 @@
     "label": "communication-strategy",
     "firstMentioned": "2025-01-28",
     "lastMentioned": "2025-01-28",
-    "meetingRefs": ["product-roadmap-planning-2025-01-28"],
+    "meetingRefs": [
+      "product-roadmap-planning-2025-01-28"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -584,8 +651,12 @@
     "label": "internal-team-training",
     "firstMentioned": "2025-01-28",
     "lastMentioned": "2025-01-28",
-    "meetingRefs": ["product-roadmap-planning-2025-01-28"],
-    "decisionRefs": ["d-006"],
+    "meetingRefs": [
+      "product-roadmap-planning-2025-01-28"
+    ],
+    "decisionRefs": [
+      "d-006"
+    ],
     "mentionCount": 1
   },
   {
@@ -593,7 +664,9 @@
     "label": "data-collection",
     "firstMentioned": "2025-01-28",
     "lastMentioned": "2025-01-28",
-    "meetingRefs": ["product-roadmap-planning-2025-01-28"],
+    "meetingRefs": [
+      "product-roadmap-planning-2025-01-28"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -602,7 +675,9 @@
     "label": "usage-metrics",
     "firstMentioned": "2025-01-28",
     "lastMentioned": "2025-01-28",
-    "meetingRefs": ["product-roadmap-planning-2025-01-28"],
+    "meetingRefs": [
+      "product-roadmap-planning-2025-01-28"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -611,7 +686,9 @@
     "label": "dealer-adoption",
     "firstMentioned": "2025-01-28",
     "lastMentioned": "2025-01-28",
-    "meetingRefs": ["product-roadmap-planning-2025-01-28"],
+    "meetingRefs": [
+      "product-roadmap-planning-2025-01-28"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -620,7 +697,9 @@
     "label": "diffusion-of-innovation",
     "firstMentioned": "2025-01-28",
     "lastMentioned": "2025-01-28",
-    "meetingRefs": ["product-roadmap-planning-2025-01-28"],
+    "meetingRefs": [
+      "product-roadmap-planning-2025-01-28"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -629,7 +708,9 @@
     "label": "q1-roadmap",
     "firstMentioned": "2025-02-04",
     "lastMentioned": "2025-02-04",
-    "meetingRefs": ["product-roadmap-planning-2025-02-04"],
+    "meetingRefs": [
+      "product-roadmap-planning-2025-02-04"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -638,7 +719,9 @@
     "label": "gpt-deployment",
     "firstMentioned": "2025-02-04",
     "lastMentioned": "2025-02-04",
-    "meetingRefs": ["product-roadmap-planning-2025-02-04"],
+    "meetingRefs": [
+      "product-roadmap-planning-2025-02-04"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -647,8 +730,12 @@
     "label": "phone-system-transition",
     "firstMentioned": "2025-02-04",
     "lastMentioned": "2025-02-04",
-    "meetingRefs": ["product-roadmap-planning-2025-02-04"],
-    "decisionRefs": ["d-008"],
+    "meetingRefs": [
+      "product-roadmap-planning-2025-02-04"
+    ],
+    "decisionRefs": [
+      "d-008"
+    ],
     "mentionCount": 1
   },
   {
@@ -656,8 +743,12 @@
     "label": "crescendo-integration",
     "firstMentioned": "2025-02-04",
     "lastMentioned": "2025-02-04",
-    "meetingRefs": ["product-roadmap-planning-2025-02-04"],
-    "decisionRefs": ["d-009"],
+    "meetingRefs": [
+      "product-roadmap-planning-2025-02-04"
+    ],
+    "decisionRefs": [
+      "d-009"
+    ],
     "mentionCount": 1
   },
   {
@@ -665,7 +756,9 @@
     "label": "llm-development",
     "firstMentioned": "2025-02-04",
     "lastMentioned": "2025-02-04",
-    "meetingRefs": ["product-roadmap-planning-2025-02-04"],
+    "meetingRefs": [
+      "product-roadmap-planning-2025-02-04"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -674,7 +767,9 @@
     "label": "crm-strategy",
     "firstMentioned": "2025-07-01",
     "lastMentioned": "2025-07-01",
-    "meetingRefs": ["1-on-1-joe-and-michael-2025-07-01"],
+    "meetingRefs": [
+      "1-on-1-joe-and-michael-2025-07-01"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -683,7 +778,9 @@
     "label": "leadership-alignment",
     "firstMentioned": "2025-07-01",
     "lastMentioned": "2025-07-01",
-    "meetingRefs": ["1-on-1-joe-and-michael-2025-07-01"],
+    "meetingRefs": [
+      "1-on-1-joe-and-michael-2025-07-01"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -692,7 +789,9 @@
     "label": "sales-pipeline",
     "firstMentioned": "2025-07-01",
     "lastMentioned": "2025-07-01",
-    "meetingRefs": ["1-on-1-joe-and-michael-2025-07-01"],
+    "meetingRefs": [
+      "1-on-1-joe-and-michael-2025-07-01"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -701,8 +800,12 @@
     "label": "crm-documentation",
     "firstMentioned": "2025-07-01",
     "lastMentioned": "2025-07-01",
-    "meetingRefs": ["1-on-1-joe-and-michael-2025-07-01"],
-    "decisionRefs": ["d-015"],
+    "meetingRefs": [
+      "1-on-1-joe-and-michael-2025-07-01"
+    ],
+    "decisionRefs": [
+      "d-015"
+    ],
     "mentionCount": 1
   },
   {
@@ -710,7 +813,9 @@
     "label": "marketing-performance",
     "firstMentioned": "2025-07-01",
     "lastMentioned": "2025-07-01",
-    "meetingRefs": ["1-on-1-joe-and-michael-2025-07-01"],
+    "meetingRefs": [
+      "1-on-1-joe-and-michael-2025-07-01"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -719,7 +824,9 @@
     "label": "seo-performance",
     "firstMentioned": "2025-07-01",
     "lastMentioned": "2025-07-01",
-    "meetingRefs": ["1-on-1-joe-and-michael-2025-07-01"],
+    "meetingRefs": [
+      "1-on-1-joe-and-michael-2025-07-01"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -728,7 +835,9 @@
     "label": "company-culture",
     "firstMentioned": "2025-07-01",
     "lastMentioned": "2025-07-01",
-    "meetingRefs": ["1-on-1-joe-and-michael-2025-07-01"],
+    "meetingRefs": [
+      "1-on-1-joe-and-michael-2025-07-01"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -737,7 +846,9 @@
     "label": "expenses",
     "firstMentioned": "2025-07-01",
     "lastMentioned": "2025-07-01",
-    "meetingRefs": ["1-on-1-joe-and-michael-2025-07-01"],
+    "meetingRefs": [
+      "1-on-1-joe-and-michael-2025-07-01"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -746,7 +857,9 @@
     "label": "zoho-sales-iq",
     "firstMentioned": "2025-07-01",
     "lastMentioned": "2025-07-01",
-    "meetingRefs": ["1-on-1-joe-and-michael-2025-07-01"],
+    "meetingRefs": [
+      "1-on-1-joe-and-michael-2025-07-01"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -755,7 +868,9 @@
     "label": "ad-spend",
     "firstMentioned": "2025-07-01",
     "lastMentioned": "2025-07-01",
-    "meetingRefs": ["1-on-1-joe-and-michael-2025-07-01"],
+    "meetingRefs": [
+      "1-on-1-joe-and-michael-2025-07-01"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -764,7 +879,9 @@
     "label": "bonus-payments",
     "firstMentioned": "2025-07-01",
     "lastMentioned": "2025-07-01",
-    "meetingRefs": ["1-on-1-joe-and-michael-2025-07-01"],
+    "meetingRefs": [
+      "1-on-1-joe-and-michael-2025-07-01"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -773,7 +890,9 @@
     "label": "job-security",
     "firstMentioned": "2025-07-01",
     "lastMentioned": "2025-07-01",
-    "meetingRefs": ["1-on-1-joe-and-michael-2025-07-01"],
+    "meetingRefs": [
+      "1-on-1-joe-and-michael-2025-07-01"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -782,8 +901,12 @@
     "label": "strolid-ai-integration",
     "firstMentioned": "2025-09-16",
     "lastMentioned": "2025-09-16",
-    "meetingRefs": ["jason-michael-2025-09-16"],
-    "decisionRefs": ["d-016"],
+    "meetingRefs": [
+      "jason-michael-2025-09-16"
+    ],
+    "decisionRefs": [
+      "d-016"
+    ],
     "mentionCount": 1
   },
   {
@@ -791,7 +914,9 @@
     "label": "chatbot-engagement",
     "firstMentioned": "2025-09-16",
     "lastMentioned": "2025-09-16",
-    "meetingRefs": ["jason-michael-2025-09-16"],
+    "meetingRefs": [
+      "jason-michael-2025-09-16"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -800,8 +925,12 @@
     "label": "marketing-team-rebuild",
     "firstMentioned": "2025-09-16",
     "lastMentioned": "2025-09-16",
-    "meetingRefs": ["jason-michael-2025-09-16"],
-    "decisionRefs": ["d-017"],
+    "meetingRefs": [
+      "jason-michael-2025-09-16"
+    ],
+    "decisionRefs": [
+      "d-017"
+    ],
     "mentionCount": 1
   },
   {
@@ -809,7 +938,9 @@
     "label": "bdc-app",
     "firstMentioned": "2025-09-16",
     "lastMentioned": "2025-09-16",
-    "meetingRefs": ["jason-michael-2025-09-16"],
+    "meetingRefs": [
+      "jason-michael-2025-09-16"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -818,7 +949,9 @@
     "label": "dealer-campaigns",
     "firstMentioned": "2025-09-16",
     "lastMentioned": "2025-09-16",
-    "meetingRefs": ["jason-michael-2025-09-16"],
+    "meetingRefs": [
+      "jason-michael-2025-09-16"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -827,7 +960,9 @@
     "label": "market-scanning",
     "firstMentioned": "2025-09-16",
     "lastMentioned": "2025-09-16",
-    "meetingRefs": ["jason-michael-2025-09-16"],
+    "meetingRefs": [
+      "jason-michael-2025-09-16"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -836,8 +971,12 @@
     "label": "tag-manager-setup",
     "firstMentioned": "2025-09-16",
     "lastMentioned": "2025-09-16",
-    "meetingRefs": ["jason-michael-2025-09-16"],
-    "decisionRefs": ["d-021"],
+    "meetingRefs": [
+      "jason-michael-2025-09-16"
+    ],
+    "decisionRefs": [
+      "d-021"
+    ],
     "mentionCount": 1
   },
   {
@@ -845,7 +984,9 @@
     "label": "customer-relationship-management",
     "firstMentioned": "2025-09-16",
     "lastMentioned": "2025-09-16",
-    "meetingRefs": ["jason-michael-2025-09-16"],
+    "meetingRefs": [
+      "jason-michael-2025-09-16"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -854,8 +995,13 @@
     "label": "project-documentation",
     "firstMentioned": "2025-09-23",
     "lastMentioned": "2025-09-23",
-    "meetingRefs": ["homepage-hero-session-2025-09-23"],
-    "decisionRefs": ["d-022", "d-023"],
+    "meetingRefs": [
+      "homepage-hero-session-2025-09-23"
+    ],
+    "decisionRefs": [
+      "d-022",
+      "d-023"
+    ],
     "mentionCount": 1
   },
   {
@@ -863,7 +1009,9 @@
     "label": "design-tools",
     "firstMentioned": "2025-09-23",
     "lastMentioned": "2025-09-23",
-    "meetingRefs": ["homepage-hero-session-2025-09-23"],
+    "meetingRefs": [
+      "homepage-hero-session-2025-09-23"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -872,7 +1020,9 @@
     "label": "brand-guidelines",
     "firstMentioned": "2025-09-23",
     "lastMentioned": "2025-09-23",
-    "meetingRefs": ["homepage-hero-session-2025-09-23"],
+    "meetingRefs": [
+      "homepage-hero-session-2025-09-23"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -881,7 +1031,9 @@
     "label": "team-capabilities",
     "firstMentioned": "2025-09-23",
     "lastMentioned": "2025-09-23",
-    "meetingRefs": ["homepage-hero-session-2025-09-23"],
+    "meetingRefs": [
+      "homepage-hero-session-2025-09-23"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -890,7 +1042,9 @@
     "label": "brand-identity",
     "firstMentioned": "2025-09-23",
     "lastMentioned": "2025-09-23",
-    "meetingRefs": ["homepage-hero-session-2025-09-23"],
+    "meetingRefs": [
+      "homepage-hero-session-2025-09-23"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -899,8 +1053,12 @@
     "label": "design-research",
     "firstMentioned": "2025-09-23",
     "lastMentioned": "2025-09-23",
-    "meetingRefs": ["homepage-hero-session-2025-09-23"],
-    "decisionRefs": ["d-025"],
+    "meetingRefs": [
+      "homepage-hero-session-2025-09-23"
+    ],
+    "decisionRefs": [
+      "d-025"
+    ],
     "mentionCount": 1
   },
   {
@@ -908,7 +1066,9 @@
     "label": "hero-design",
     "firstMentioned": "2025-09-23",
     "lastMentioned": "2025-09-23",
-    "meetingRefs": ["homepage-hero-session-2025-09-23"],
+    "meetingRefs": [
+      "homepage-hero-session-2025-09-23"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -917,7 +1077,9 @@
     "label": "task-management",
     "firstMentioned": "2025-09-23",
     "lastMentioned": "2025-09-23",
-    "meetingRefs": ["homepage-hero-session-2025-09-23"],
+    "meetingRefs": [
+      "homepage-hero-session-2025-09-23"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -926,7 +1088,9 @@
     "label": "adobe-express",
     "firstMentioned": "2025-09-23",
     "lastMentioned": "2025-09-23",
-    "meetingRefs": ["homepage-hero-session-2025-09-23"],
+    "meetingRefs": [
+      "homepage-hero-session-2025-09-23"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -935,7 +1099,9 @@
     "label": "canva",
     "firstMentioned": "2025-09-23",
     "lastMentioned": "2025-09-23",
-    "meetingRefs": ["homepage-hero-session-2025-09-23"],
+    "meetingRefs": [
+      "homepage-hero-session-2025-09-23"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -944,8 +1110,12 @@
     "label": "image-generation",
     "firstMentioned": "2025-09-23",
     "lastMentioned": "2025-09-23",
-    "meetingRefs": ["homepage-hero-session-2025-09-23"],
-    "decisionRefs": ["d-024"],
+    "meetingRefs": [
+      "homepage-hero-session-2025-09-23"
+    ],
+    "decisionRefs": [
+      "d-024"
+    ],
     "mentionCount": 1
   },
   {
@@ -953,7 +1123,9 @@
     "label": "developer-engagement",
     "firstMentioned": "2025-09-24",
     "lastMentioned": "2025-09-24",
-    "meetingRefs": ["tech-process-and-product-review-2025-09-24"],
+    "meetingRefs": [
+      "tech-process-and-product-review-2025-09-24"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -962,7 +1134,9 @@
     "label": "market-segments",
     "firstMentioned": "2025-09-24",
     "lastMentioned": "2025-09-24",
-    "meetingRefs": ["tech-process-and-product-review-2025-09-24"],
+    "meetingRefs": [
+      "tech-process-and-product-review-2025-09-24"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -971,7 +1145,9 @@
     "label": "selling-solutions",
     "firstMentioned": "2025-09-24",
     "lastMentioned": "2025-09-24",
-    "meetingRefs": ["tech-process-and-product-review-2025-09-24"],
+    "meetingRefs": [
+      "tech-process-and-product-review-2025-09-24"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -980,7 +1156,9 @@
     "label": "attribution-model",
     "firstMentioned": "2025-09-24",
     "lastMentioned": "2025-09-24",
-    "meetingRefs": ["tech-process-and-product-review-2025-09-24"],
+    "meetingRefs": [
+      "tech-process-and-product-review-2025-09-24"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -989,7 +1167,9 @@
     "label": "ai-research-visualization",
     "firstMentioned": "2025-09-24",
     "lastMentioned": "2025-09-24",
-    "meetingRefs": ["tech-process-and-product-review-2025-09-24"],
+    "meetingRefs": [
+      "tech-process-and-product-review-2025-09-24"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -998,7 +1178,9 @@
     "label": "google-sites",
     "firstMentioned": "2025-09-24",
     "lastMentioned": "2025-09-24",
-    "meetingRefs": ["tech-process-and-product-review-2025-09-24"],
+    "meetingRefs": [
+      "tech-process-and-product-review-2025-09-24"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1007,7 +1189,9 @@
     "label": "development-tools",
     "firstMentioned": "2025-09-24",
     "lastMentioned": "2025-09-24",
-    "meetingRefs": ["tech-process-and-product-review-2025-09-24"],
+    "meetingRefs": [
+      "tech-process-and-product-review-2025-09-24"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1016,7 +1200,9 @@
     "label": "ai-assisted-development",
     "firstMentioned": "2025-09-24",
     "lastMentioned": "2025-09-24",
-    "meetingRefs": ["tech-process-and-product-review-2025-09-24"],
+    "meetingRefs": [
+      "tech-process-and-product-review-2025-09-24"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1025,7 +1211,9 @@
     "label": "collaboration-proposal",
     "firstMentioned": "2025-09-24",
     "lastMentioned": "2025-09-24",
-    "meetingRefs": ["tech-process-and-product-review-2025-09-24"],
+    "meetingRefs": [
+      "tech-process-and-product-review-2025-09-24"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1034,7 +1222,9 @@
     "label": "communication-suite",
     "firstMentioned": "2025-09-24",
     "lastMentioned": "2025-09-24",
-    "meetingRefs": ["tech-process-and-product-review-2025-09-24"],
+    "meetingRefs": [
+      "tech-process-and-product-review-2025-09-24"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1043,8 +1233,12 @@
     "label": "fonoster-integration",
     "firstMentioned": "2025-09-24",
     "lastMentioned": "2025-09-24",
-    "meetingRefs": ["tech-process-and-product-review-2025-09-24"],
-    "decisionRefs": ["d-030"],
+    "meetingRefs": [
+      "tech-process-and-product-review-2025-09-24"
+    ],
+    "decisionRefs": [
+      "d-030"
+    ],
     "mentionCount": 1
   },
   {
@@ -1052,7 +1246,9 @@
     "label": "automotive-crm",
     "firstMentioned": "2025-09-24",
     "lastMentioned": "2025-09-24",
-    "meetingRefs": ["tech-process-and-product-review-2025-09-24"],
+    "meetingRefs": [
+      "tech-process-and-product-review-2025-09-24"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1061,7 +1257,9 @@
     "label": "market-analysis",
     "firstMentioned": "2025-09-24",
     "lastMentioned": "2025-09-24",
-    "meetingRefs": ["tech-process-and-product-review-2025-09-24"],
+    "meetingRefs": [
+      "tech-process-and-product-review-2025-09-24"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1070,7 +1268,9 @@
     "label": "team-approach",
     "firstMentioned": "2025-09-24",
     "lastMentioned": "2025-09-24",
-    "meetingRefs": ["tech-process-and-product-review-2025-09-24"],
+    "meetingRefs": [
+      "tech-process-and-product-review-2025-09-24"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1079,7 +1279,9 @@
     "label": "business-development",
     "firstMentioned": "2025-09-24",
     "lastMentioned": "2025-09-24",
-    "meetingRefs": ["tech-process-and-product-review-2025-09-24"],
+    "meetingRefs": [
+      "tech-process-and-product-review-2025-09-24"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1088,7 +1290,9 @@
     "label": "epilito-auto-group",
     "firstMentioned": "2025-10-02",
     "lastMentioned": "2025-10-02",
-    "meetingRefs": ["active-pipeline-review-2025-10-02"],
+    "meetingRefs": [
+      "active-pipeline-review-2025-10-02"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1097,7 +1301,9 @@
     "label": "conserver-transcription",
     "firstMentioned": "2025-10-02",
     "lastMentioned": "2025-10-02",
-    "meetingRefs": ["active-pipeline-review-2025-10-02"],
+    "meetingRefs": [
+      "active-pipeline-review-2025-10-02"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1106,8 +1312,12 @@
     "label": "crm-integration",
     "firstMentioned": "2025-10-02",
     "lastMentioned": "2025-10-02",
-    "meetingRefs": ["active-pipeline-review-2025-10-02"],
-    "decisionRefs": ["d-032"],
+    "meetingRefs": [
+      "active-pipeline-review-2025-10-02"
+    ],
+    "decisionRefs": [
+      "d-032"
+    ],
     "mentionCount": 1
   },
   {
@@ -1115,7 +1325,9 @@
     "label": "portal-updates",
     "firstMentioned": "2025-10-02",
     "lastMentioned": "2025-10-02",
-    "meetingRefs": ["active-pipeline-review-2025-10-02"],
+    "meetingRefs": [
+      "active-pipeline-review-2025-10-02"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1124,7 +1336,9 @@
     "label": "voicemail-improvements",
     "firstMentioned": "2025-10-02",
     "lastMentioned": "2025-10-02",
-    "meetingRefs": ["active-pipeline-review-2025-10-02"],
+    "meetingRefs": [
+      "active-pipeline-review-2025-10-02"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1133,7 +1347,9 @@
     "label": "e-lead-improvements",
     "firstMentioned": "2025-10-02",
     "lastMentioned": "2025-10-02",
-    "meetingRefs": ["active-pipeline-review-2025-10-02"],
+    "meetingRefs": [
+      "active-pipeline-review-2025-10-02"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1142,7 +1358,9 @@
     "label": "api-failure-rate",
     "firstMentioned": "2025-10-02",
     "lastMentioned": "2025-10-02",
-    "meetingRefs": ["active-pipeline-review-2025-10-02"],
+    "meetingRefs": [
+      "active-pipeline-review-2025-10-02"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1151,8 +1369,12 @@
     "label": "vin-solutions-integration",
     "firstMentioned": "2025-10-02",
     "lastMentioned": "2025-10-02",
-    "meetingRefs": ["active-pipeline-review-2025-10-02"],
-    "decisionRefs": ["d-033"],
+    "meetingRefs": [
+      "active-pipeline-review-2025-10-02"
+    ],
+    "decisionRefs": [
+      "d-033"
+    ],
     "mentionCount": 1
   },
   {
@@ -1160,8 +1382,12 @@
     "label": "dealer-socket-integration",
     "firstMentioned": "2025-10-02",
     "lastMentioned": "2025-10-02",
-    "meetingRefs": ["active-pipeline-review-2025-10-02"],
-    "decisionRefs": ["d-034"],
+    "meetingRefs": [
+      "active-pipeline-review-2025-10-02"
+    ],
+    "decisionRefs": [
+      "d-034"
+    ],
     "mentionCount": 1
   },
   {
@@ -1169,7 +1395,9 @@
     "label": "click-to-call-transcripts",
     "firstMentioned": "2025-10-02",
     "lastMentioned": "2025-10-02",
-    "meetingRefs": ["active-pipeline-review-2025-10-02"],
+    "meetingRefs": [
+      "active-pipeline-review-2025-10-02"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1178,7 +1406,9 @@
     "label": "future-development",
     "firstMentioned": "2025-10-02",
     "lastMentioned": "2025-10-02",
-    "meetingRefs": ["active-pipeline-review-2025-10-02"],
+    "meetingRefs": [
+      "active-pipeline-review-2025-10-02"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1187,7 +1417,9 @@
     "label": "security-efforts",
     "firstMentioned": "2025-10-02",
     "lastMentioned": "2025-10-02",
-    "meetingRefs": ["active-pipeline-review-2025-10-02"],
+    "meetingRefs": [
+      "active-pipeline-review-2025-10-02"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1196,7 +1428,9 @@
     "label": "frontline-conserver-pilot",
     "firstMentioned": "2025-10-02",
     "lastMentioned": "2025-10-02",
-    "meetingRefs": ["active-pipeline-review-2025-10-02"],
+    "meetingRefs": [
+      "active-pipeline-review-2025-10-02"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1205,7 +1439,9 @@
     "label": "redaction-features",
     "firstMentioned": "2025-10-02",
     "lastMentioned": "2025-10-02",
-    "meetingRefs": ["active-pipeline-review-2025-10-02"],
+    "meetingRefs": [
+      "active-pipeline-review-2025-10-02"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1214,7 +1450,9 @@
     "label": "call-evaluation-features",
     "firstMentioned": "2025-10-02",
     "lastMentioned": "2025-10-02",
-    "meetingRefs": ["active-pipeline-review-2025-10-02"],
+    "meetingRefs": [
+      "active-pipeline-review-2025-10-02"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1223,7 +1461,9 @@
     "label": "bpo-focus",
     "firstMentioned": "2025-10-02",
     "lastMentioned": "2025-10-02",
-    "meetingRefs": ["active-pipeline-review-2025-10-02"],
+    "meetingRefs": [
+      "active-pipeline-review-2025-10-02"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1232,8 +1472,12 @@
     "label": "call-records-portal-access",
     "firstMentioned": "2025-10-21",
     "lastMentioned": "2025-10-21",
-    "meetingRefs": ["the-marketing-meeting-2025-10-21"],
-    "decisionRefs": ["d-037"],
+    "meetingRefs": [
+      "the-marketing-meeting-2025-10-21"
+    ],
+    "decisionRefs": [
+      "d-037"
+    ],
     "mentionCount": 1
   },
   {
@@ -1241,7 +1485,9 @@
     "label": "human-centric-content",
     "firstMentioned": "2025-10-21",
     "lastMentioned": "2025-10-21",
-    "meetingRefs": ["the-marketing-meeting-2025-10-21"],
+    "meetingRefs": [
+      "the-marketing-meeting-2025-10-21"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1250,7 +1496,9 @@
     "label": "content-sourcing-timing",
     "firstMentioned": "2025-10-21",
     "lastMentioned": "2025-10-21",
-    "meetingRefs": ["the-marketing-meeting-2025-10-21"],
+    "meetingRefs": [
+      "the-marketing-meeting-2025-10-21"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1259,7 +1507,9 @@
     "label": "team-involvement-lead-attribution",
     "firstMentioned": "2025-10-21",
     "lastMentioned": "2025-10-21",
-    "meetingRefs": ["the-marketing-meeting-2025-10-21"],
+    "meetingRefs": [
+      "the-marketing-meeting-2025-10-21"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1268,7 +1518,9 @@
     "label": "maximizing-reach-engagement",
     "firstMentioned": "2025-10-21",
     "lastMentioned": "2025-10-21",
-    "meetingRefs": ["the-marketing-meeting-2025-10-21"],
+    "meetingRefs": [
+      "the-marketing-meeting-2025-10-21"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1277,7 +1529,9 @@
     "label": "attribution-models-analytics",
     "firstMentioned": "2025-10-21",
     "lastMentioned": "2025-10-21",
-    "meetingRefs": ["the-marketing-meeting-2025-10-21"],
+    "meetingRefs": [
+      "the-marketing-meeting-2025-10-21"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1286,7 +1540,9 @@
     "label": "content-strategy-website-updates",
     "firstMentioned": "2025-10-21",
     "lastMentioned": "2025-10-21",
-    "meetingRefs": ["the-marketing-meeting-2025-10-21"],
+    "meetingRefs": [
+      "the-marketing-meeting-2025-10-21"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1295,7 +1551,9 @@
     "label": "short-term-vs-medium-term-goals",
     "firstMentioned": "2025-10-21",
     "lastMentioned": "2025-10-21",
-    "meetingRefs": ["the-marketing-meeting-2025-10-21"],
+    "meetingRefs": [
+      "the-marketing-meeting-2025-10-21"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1304,7 +1562,9 @@
     "label": "messaging-content-review",
     "firstMentioned": "2025-10-21",
     "lastMentioned": "2025-10-21",
-    "meetingRefs": ["the-marketing-meeting-2025-10-21"],
+    "meetingRefs": [
+      "the-marketing-meeting-2025-10-21"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1313,7 +1573,9 @@
     "label": "chatbot-for-car-dealerships",
     "firstMentioned": "2025-10-21",
     "lastMentioned": "2025-10-21",
-    "meetingRefs": ["the-marketing-meeting-2025-10-21"],
+    "meetingRefs": [
+      "the-marketing-meeting-2025-10-21"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1322,7 +1584,9 @@
     "label": "human-vs-ai-in-sales",
     "firstMentioned": "2025-10-21",
     "lastMentioned": "2025-10-21",
-    "meetingRefs": ["the-marketing-meeting-2025-10-21"],
+    "meetingRefs": [
+      "the-marketing-meeting-2025-10-21"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1331,7 +1595,9 @@
     "label": "bot-limitations-human-involvement",
     "firstMentioned": "2025-10-21",
     "lastMentioned": "2025-10-21",
-    "meetingRefs": ["the-marketing-meeting-2025-10-21"],
+    "meetingRefs": [
+      "the-marketing-meeting-2025-10-21"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1340,7 +1606,9 @@
     "label": "future-development-strategy",
     "firstMentioned": "2025-10-21",
     "lastMentioned": "2025-10-21",
-    "meetingRefs": ["the-marketing-meeting-2025-10-21"],
+    "meetingRefs": [
+      "the-marketing-meeting-2025-10-21"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1349,7 +1617,9 @@
     "label": "user-experience",
     "firstMentioned": "2025-10-24",
     "lastMentioned": "2025-10-24",
-    "meetingRefs": ["vconic-priority-content-update-2025-10-24"],
+    "meetingRefs": [
+      "vconic-priority-content-update-2025-10-24"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1358,7 +1628,9 @@
     "label": "communication-breakdown",
     "firstMentioned": "2025-10-24",
     "lastMentioned": "2025-10-24",
-    "meetingRefs": ["vconic-priority-content-update-2025-10-24"],
+    "meetingRefs": [
+      "vconic-priority-content-update-2025-10-24"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1367,7 +1639,9 @@
     "label": "strategic-priorities",
     "firstMentioned": "2025-10-24",
     "lastMentioned": "2025-10-24",
-    "meetingRefs": ["vconic-priority-content-update-2025-10-24"],
+    "meetingRefs": [
+      "vconic-priority-content-update-2025-10-24"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1376,8 +1650,12 @@
     "label": "meeting-rescheduling",
     "firstMentioned": "2025-10-28",
     "lastMentioned": "2025-10-28",
-    "meetingRefs": ["the-marketing-meeting-2025-10-28"],
-    "decisionRefs": ["d-047"],
+    "meetingRefs": [
+      "the-marketing-meeting-2025-10-28"
+    ],
+    "decisionRefs": [
+      "d-047"
+    ],
     "mentionCount": 1
   },
   {
@@ -1385,7 +1663,9 @@
     "label": "google-ads-integration",
     "firstMentioned": "2025-10-28",
     "lastMentioned": "2025-10-28",
-    "meetingRefs": ["the-marketing-meeting-2025-10-28"],
+    "meetingRefs": [
+      "the-marketing-meeting-2025-10-28"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1394,8 +1674,12 @@
     "label": "viconic-site-integration",
     "firstMentioned": "2025-10-28",
     "lastMentioned": "2025-10-28",
-    "meetingRefs": ["the-marketing-meeting-2025-10-28"],
-    "decisionRefs": ["d-048"],
+    "meetingRefs": [
+      "the-marketing-meeting-2025-10-28"
+    ],
+    "decisionRefs": [
+      "d-048"
+    ],
     "mentionCount": 1
   },
   {
@@ -1403,7 +1687,9 @@
     "label": "social-media-marketing",
     "firstMentioned": "2025-10-28",
     "lastMentioned": "2025-10-28",
-    "meetingRefs": ["the-marketing-meeting-2025-10-28"],
+    "meetingRefs": [
+      "the-marketing-meeting-2025-10-28"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1412,7 +1698,9 @@
     "label": "dealer-bdc-control",
     "firstMentioned": "2025-10-28",
     "lastMentioned": "2025-10-28",
-    "meetingRefs": ["the-marketing-meeting-2025-10-28"],
+    "meetingRefs": [
+      "the-marketing-meeting-2025-10-28"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1421,8 +1709,12 @@
     "label": "competitive-analysis-messaging",
     "firstMentioned": "2025-10-28",
     "lastMentioned": "2025-10-28",
-    "meetingRefs": ["the-marketing-meeting-2025-10-28"],
-    "decisionRefs": ["d-049"],
+    "meetingRefs": [
+      "the-marketing-meeting-2025-10-28"
+    ],
+    "decisionRefs": [
+      "d-049"
+    ],
     "mentionCount": 1
   },
   {
@@ -1430,7 +1722,9 @@
     "label": "data-mismanagement-dealerships",
     "firstMentioned": "2025-10-28",
     "lastMentioned": "2025-10-28",
-    "meetingRefs": ["the-marketing-meeting-2025-10-28"],
+    "meetingRefs": [
+      "the-marketing-meeting-2025-10-28"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1439,8 +1733,12 @@
     "label": "marketing-content-review",
     "firstMentioned": "2025-10-28",
     "lastMentioned": "2025-10-28",
-    "meetingRefs": ["the-marketing-meeting-2025-10-28"],
-    "decisionRefs": ["d-050"],
+    "meetingRefs": [
+      "the-marketing-meeting-2025-10-28"
+    ],
+    "decisionRefs": [
+      "d-050"
+    ],
     "mentionCount": 1
   },
   {
@@ -1448,7 +1746,9 @@
     "label": "visual-advertising-content",
     "firstMentioned": "2025-11-10",
     "lastMentioned": "2025-11-10",
-    "meetingRefs": ["weekly-marketing-planning-goals-2025-11-10"],
+    "meetingRefs": [
+      "weekly-marketing-planning-goals-2025-11-10"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1457,7 +1757,9 @@
     "label": "perplexity-setup",
     "firstMentioned": "2025-11-10",
     "lastMentioned": "2025-11-10",
-    "meetingRefs": ["weekly-marketing-planning-goals-2025-11-10"],
+    "meetingRefs": [
+      "weekly-marketing-planning-goals-2025-11-10"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1466,8 +1768,12 @@
     "label": "content-length",
     "firstMentioned": "2025-11-10",
     "lastMentioned": "2025-11-10",
-    "meetingRefs": ["weekly-marketing-planning-goals-2025-11-10"],
-    "decisionRefs": ["d-052"],
+    "meetingRefs": [
+      "weekly-marketing-planning-goals-2025-11-10"
+    ],
+    "decisionRefs": [
+      "d-052"
+    ],
     "mentionCount": 1
   },
   {
@@ -1475,7 +1781,9 @@
     "label": "social-media-optimization",
     "firstMentioned": "2025-11-10",
     "lastMentioned": "2025-11-10",
-    "meetingRefs": ["weekly-marketing-planning-goals-2025-11-10"],
+    "meetingRefs": [
+      "weekly-marketing-planning-goals-2025-11-10"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1484,7 +1792,9 @@
     "label": "project-file-management",
     "firstMentioned": "2025-11-10",
     "lastMentioned": "2025-11-10",
-    "meetingRefs": ["weekly-marketing-planning-goals-2025-11-10"],
+    "meetingRefs": [
+      "weekly-marketing-planning-goals-2025-11-10"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1493,7 +1803,9 @@
     "label": "document-strategy",
     "firstMentioned": "2025-11-10",
     "lastMentioned": "2025-11-10",
-    "meetingRefs": ["weekly-marketing-planning-goals-2025-11-10"],
+    "meetingRefs": [
+      "weekly-marketing-planning-goals-2025-11-10"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1502,7 +1814,9 @@
     "label": "ai-functionality",
     "firstMentioned": "2025-11-10",
     "lastMentioned": "2025-11-10",
-    "meetingRefs": ["weekly-marketing-planning-goals-2025-11-10"],
+    "meetingRefs": [
+      "weekly-marketing-planning-goals-2025-11-10"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1511,7 +1825,9 @@
     "label": "ai-content-structure",
     "firstMentioned": "2025-11-10",
     "lastMentioned": "2025-11-10",
-    "meetingRefs": ["weekly-marketing-planning-goals-2025-11-10"],
+    "meetingRefs": [
+      "weekly-marketing-planning-goals-2025-11-10"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1520,7 +1836,9 @@
     "label": "llm-exploration",
     "firstMentioned": "2025-11-11",
     "lastMentioned": "2025-11-11",
-    "meetingRefs": ["the-marketing-meeting-2025-11-11"],
+    "meetingRefs": [
+      "the-marketing-meeting-2025-11-11"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1529,7 +1847,9 @@
     "label": "internet-traffic-bots",
     "firstMentioned": "2025-11-11",
     "lastMentioned": "2025-11-11",
-    "meetingRefs": ["the-marketing-meeting-2025-11-11"],
+    "meetingRefs": [
+      "the-marketing-meeting-2025-11-11"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1538,7 +1858,9 @@
     "label": "social-content-strategy",
     "firstMentioned": "2025-11-11",
     "lastMentioned": "2025-11-11",
-    "meetingRefs": ["the-marketing-meeting-2025-11-11"],
+    "meetingRefs": [
+      "the-marketing-meeting-2025-11-11"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1547,7 +1869,9 @@
     "label": "dealer-centric-perspective",
     "firstMentioned": "2025-11-11",
     "lastMentioned": "2025-11-11",
-    "meetingRefs": ["the-marketing-meeting-2025-11-11"],
+    "meetingRefs": [
+      "the-marketing-meeting-2025-11-11"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1556,7 +1880,9 @@
     "label": "digital-retailing-future",
     "firstMentioned": "2025-11-11",
     "lastMentioned": "2025-11-11",
-    "meetingRefs": ["the-marketing-meeting-2025-11-11"],
+    "meetingRefs": [
+      "the-marketing-meeting-2025-11-11"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1565,7 +1891,9 @@
     "label": "pace-of-development",
     "firstMentioned": "2025-11-11",
     "lastMentioned": "2025-11-11",
-    "meetingRefs": ["the-marketing-meeting-2025-11-11"],
+    "meetingRefs": [
+      "the-marketing-meeting-2025-11-11"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1574,7 +1902,9 @@
     "label": "data-utilization",
     "firstMentioned": "2025-11-11",
     "lastMentioned": "2025-11-11",
-    "meetingRefs": ["the-marketing-meeting-2025-11-11"],
+    "meetingRefs": [
+      "the-marketing-meeting-2025-11-11"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1583,7 +1913,9 @@
     "label": "development-tools-productivity",
     "firstMentioned": "2025-11-11",
     "lastMentioned": "2025-11-11",
-    "meetingRefs": ["the-marketing-meeting-2025-11-11"],
+    "meetingRefs": [
+      "the-marketing-meeting-2025-11-11"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1592,8 +1924,12 @@
     "label": "lead-automation",
     "firstMentioned": "2025-11-11",
     "lastMentioned": "2025-11-11",
-    "meetingRefs": ["the-marketing-meeting-2025-11-11"],
-    "decisionRefs": ["d-056"],
+    "meetingRefs": [
+      "the-marketing-meeting-2025-11-11"
+    ],
+    "decisionRefs": [
+      "d-056"
+    ],
     "mentionCount": 1
   },
   {
@@ -1601,7 +1937,9 @@
     "label": "value-driven-dashboards",
     "firstMentioned": "2025-11-11",
     "lastMentioned": "2025-11-11",
-    "meetingRefs": ["the-marketing-meeting-2025-11-11"],
+    "meetingRefs": [
+      "the-marketing-meeting-2025-11-11"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1610,7 +1948,9 @@
     "label": "portal-development",
     "firstMentioned": "2025-11-11",
     "lastMentioned": "2025-11-11",
-    "meetingRefs": ["the-marketing-meeting-2025-11-11"],
+    "meetingRefs": [
+      "the-marketing-meeting-2025-11-11"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1619,7 +1959,9 @@
     "label": "reporting-future",
     "firstMentioned": "2025-11-11",
     "lastMentioned": "2025-11-11",
-    "meetingRefs": ["the-marketing-meeting-2025-11-11"],
+    "meetingRefs": [
+      "the-marketing-meeting-2025-11-11"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1628,7 +1970,9 @@
     "label": "visuals-messaging",
     "firstMentioned": "2025-11-11",
     "lastMentioned": "2025-11-11",
-    "meetingRefs": ["the-marketing-meeting-2025-11-11"],
+    "meetingRefs": [
+      "the-marketing-meeting-2025-11-11"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1637,7 +1981,9 @@
     "label": "brand-consistency",
     "firstMentioned": "2025-11-11",
     "lastMentioned": "2025-11-11",
-    "meetingRefs": ["the-marketing-meeting-2025-11-11"],
+    "meetingRefs": [
+      "the-marketing-meeting-2025-11-11"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1646,7 +1992,9 @@
     "label": "health-update",
     "firstMentioned": "2025-11-20",
     "lastMentioned": "2025-11-20",
-    "meetingRefs": ["vconic-site-content-2025-11-20"],
+    "meetingRefs": [
+      "vconic-site-content-2025-11-20"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1655,7 +2003,9 @@
     "label": "content-generation",
     "firstMentioned": "2025-11-20",
     "lastMentioned": "2025-11-20",
-    "meetingRefs": ["vconic-site-content-2025-11-20"],
+    "meetingRefs": [
+      "vconic-site-content-2025-11-20"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1664,8 +2014,12 @@
     "label": "agentic-ai-observability",
     "firstMentioned": "2025-11-20",
     "lastMentioned": "2025-11-20",
-    "meetingRefs": ["vconic-site-content-2025-11-20"],
-    "decisionRefs": ["d-058"],
+    "meetingRefs": [
+      "vconic-site-content-2025-11-20"
+    ],
+    "decisionRefs": [
+      "d-058"
+    ],
     "mentionCount": 1
   },
   {
@@ -1673,8 +2027,12 @@
     "label": "vcon-standard",
     "firstMentioned": "2025-11-20",
     "lastMentioned": "2025-11-20",
-    "meetingRefs": ["vconic-site-content-2025-11-20"],
-    "decisionRefs": ["d-059"],
+    "meetingRefs": [
+      "vconic-site-content-2025-11-20"
+    ],
+    "decisionRefs": [
+      "d-059"
+    ],
     "mentionCount": 1
   },
   {
@@ -1682,7 +2040,9 @@
     "label": "bpo-engagement",
     "firstMentioned": "2025-11-20",
     "lastMentioned": "2025-11-20",
-    "meetingRefs": ["vconic-site-content-2025-11-20"],
+    "meetingRefs": [
+      "vconic-site-content-2025-11-20"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1691,7 +2051,9 @@
     "label": "visualization",
     "firstMentioned": "2025-11-20",
     "lastMentioned": "2025-11-20",
-    "meetingRefs": ["vconic-site-content-2025-11-20"],
+    "meetingRefs": [
+      "vconic-site-content-2025-11-20"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1700,7 +2062,9 @@
     "label": "elevator-pitch",
     "firstMentioned": "2025-11-20",
     "lastMentioned": "2025-11-20",
-    "meetingRefs": ["vconic-site-content-2025-11-20"],
+    "meetingRefs": [
+      "vconic-site-content-2025-11-20"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1709,8 +2073,12 @@
     "label": "market-prioritization",
     "firstMentioned": "2025-11-20",
     "lastMentioned": "2025-11-20",
-    "meetingRefs": ["vconic-site-content-2025-11-20"],
-    "decisionRefs": ["d-061"],
+    "meetingRefs": [
+      "vconic-site-content-2025-11-20"
+    ],
+    "decisionRefs": [
+      "d-061"
+    ],
     "mentionCount": 1
   },
   {
@@ -1718,8 +2086,12 @@
     "label": "vconic-labs",
     "firstMentioned": "2025-11-20",
     "lastMentioned": "2025-11-20",
-    "meetingRefs": ["vconic-site-content-2025-11-20"],
-    "decisionRefs": ["d-064"],
+    "meetingRefs": [
+      "vconic-site-content-2025-11-20"
+    ],
+    "decisionRefs": [
+      "d-064"
+    ],
     "mentionCount": 1
   },
   {
@@ -1727,7 +2099,9 @@
     "label": "open-source",
     "firstMentioned": "2025-11-20",
     "lastMentioned": "2025-11-20",
-    "meetingRefs": ["vconic-site-content-2025-11-20"],
+    "meetingRefs": [
+      "vconic-site-content-2025-11-20"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1736,8 +2110,13 @@
     "label": "sales-deck-update",
     "firstMentioned": "2025-11-25",
     "lastMentioned": "2025-11-25",
-    "meetingRefs": ["the-marketing-meeting-2025-11-25"],
-    "decisionRefs": ["d-065", "d-066"],
+    "meetingRefs": [
+      "the-marketing-meeting-2025-11-25"
+    ],
+    "decisionRefs": [
+      "d-065",
+      "d-066"
+    ],
     "mentionCount": 1
   },
   {
@@ -1745,7 +2124,9 @@
     "label": "website-traffic-analysis",
     "firstMentioned": "2025-11-25",
     "lastMentioned": "2025-11-25",
-    "meetingRefs": ["the-marketing-meeting-2025-11-25"],
+    "meetingRefs": [
+      "the-marketing-meeting-2025-11-25"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1754,7 +2135,9 @@
     "label": "bounce-rate",
     "firstMentioned": "2025-11-25",
     "lastMentioned": "2025-11-25",
-    "meetingRefs": ["the-marketing-meeting-2025-11-25"],
+    "meetingRefs": [
+      "the-marketing-meeting-2025-11-25"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1763,7 +2146,9 @@
     "label": "cost-per-click",
     "firstMentioned": "2025-11-25",
     "lastMentioned": "2025-11-25",
-    "meetingRefs": ["the-marketing-meeting-2025-11-25"],
+    "meetingRefs": [
+      "the-marketing-meeting-2025-11-25"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1772,7 +2157,9 @@
     "label": "linkedin-engagement",
     "firstMentioned": "2025-11-25",
     "lastMentioned": "2025-11-25",
-    "meetingRefs": ["the-marketing-meeting-2025-11-25"],
+    "meetingRefs": [
+      "the-marketing-meeting-2025-11-25"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1781,8 +2168,12 @@
     "label": "lead-magnet-creation",
     "firstMentioned": "2025-11-25",
     "lastMentioned": "2025-11-25",
-    "meetingRefs": ["the-marketing-meeting-2025-11-25"],
-    "decisionRefs": ["d-070"],
+    "meetingRefs": [
+      "the-marketing-meeting-2025-11-25"
+    ],
+    "decisionRefs": [
+      "d-070"
+    ],
     "mentionCount": 1
   },
   {
@@ -1790,7 +2181,9 @@
     "label": "google-tag-manager",
     "firstMentioned": "2025-11-25",
     "lastMentioned": "2025-11-25",
-    "meetingRefs": ["the-marketing-meeting-2025-11-25"],
+    "meetingRefs": [
+      "the-marketing-meeting-2025-11-25"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1799,7 +2192,9 @@
     "label": "seo-strategy",
     "firstMentioned": "2025-11-25",
     "lastMentioned": "2025-11-25",
-    "meetingRefs": ["the-marketing-meeting-2025-11-25"],
+    "meetingRefs": [
+      "the-marketing-meeting-2025-11-25"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1808,7 +2203,9 @@
     "label": "content-marketing",
     "firstMentioned": "2025-11-25",
     "lastMentioned": "2025-11-25",
-    "meetingRefs": ["the-marketing-meeting-2025-11-25"],
+    "meetingRefs": [
+      "the-marketing-meeting-2025-11-25"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1817,7 +2214,9 @@
     "label": "website-content-restructuring",
     "firstMentioned": "2025-11-25",
     "lastMentioned": "2025-11-25",
-    "meetingRefs": ["the-marketing-meeting-2025-11-25"],
+    "meetingRefs": [
+      "the-marketing-meeting-2025-11-25"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1826,7 +2225,9 @@
     "label": "hierarchy",
     "firstMentioned": "2025-11-26",
     "lastMentioned": "2025-11-26",
-    "meetingRefs": ["hierarchy-and-direct-supervisor-discussion-2025-11-26"],
+    "meetingRefs": [
+      "hierarchy-and-direct-supervisor-discussion-2025-11-26"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1835,7 +2236,9 @@
     "label": "direct-supervisors",
     "firstMentioned": "2025-11-26",
     "lastMentioned": "2025-11-26",
-    "meetingRefs": ["hierarchy-and-direct-supervisor-discussion-2025-11-26"],
+    "meetingRefs": [
+      "hierarchy-and-direct-supervisor-discussion-2025-11-26"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1844,8 +2247,12 @@
     "label": "employee-termination",
     "firstMentioned": "2025-12-02",
     "lastMentioned": "2025-12-02",
-    "meetingRefs": ["the-marketing-meeting-2025-12-02"],
-    "decisionRefs": ["d-074"],
+    "meetingRefs": [
+      "the-marketing-meeting-2025-12-02"
+    ],
+    "decisionRefs": [
+      "d-074"
+    ],
     "mentionCount": 1
   },
   {
@@ -1853,7 +2260,9 @@
     "label": "marketing-staffing",
     "firstMentioned": "2025-12-02",
     "lastMentioned": "2025-12-02",
-    "meetingRefs": ["the-marketing-meeting-2025-12-02"],
+    "meetingRefs": [
+      "the-marketing-meeting-2025-12-02"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1862,8 +2271,12 @@
     "label": "temporary-staffing",
     "firstMentioned": "2025-12-02",
     "lastMentioned": "2025-12-02",
-    "meetingRefs": ["the-marketing-meeting-2025-12-02"],
-    "decisionRefs": ["d-075"],
+    "meetingRefs": [
+      "the-marketing-meeting-2025-12-02"
+    ],
+    "decisionRefs": [
+      "d-075"
+    ],
     "mentionCount": 1
   },
   {
@@ -1871,8 +2284,12 @@
     "label": "christina-role",
     "firstMentioned": "2025-12-02",
     "lastMentioned": "2025-12-02",
-    "meetingRefs": ["the-marketing-meeting-2025-12-02"],
-    "decisionRefs": ["d-076"],
+    "meetingRefs": [
+      "the-marketing-meeting-2025-12-02"
+    ],
+    "decisionRefs": [
+      "d-076"
+    ],
     "mentionCount": 1
   },
   {
@@ -1880,8 +2297,12 @@
     "label": "social-post-strategy",
     "firstMentioned": "2025-12-02",
     "lastMentioned": "2025-12-02",
-    "meetingRefs": ["the-marketing-meeting-2025-12-02"],
-    "decisionRefs": ["d-078"],
+    "meetingRefs": [
+      "the-marketing-meeting-2025-12-02"
+    ],
+    "decisionRefs": [
+      "d-078"
+    ],
     "mentionCount": 1
   },
   {
@@ -1889,7 +2310,9 @@
     "label": "ai-content-generation",
     "firstMentioned": "2025-12-02",
     "lastMentioned": "2025-12-02",
-    "meetingRefs": ["the-marketing-meeting-2025-12-02"],
+    "meetingRefs": [
+      "the-marketing-meeting-2025-12-02"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1898,7 +2321,9 @@
     "label": "market-conditions",
     "firstMentioned": "2025-12-02",
     "lastMentioned": "2025-12-02",
-    "meetingRefs": ["the-marketing-meeting-2025-12-02"],
+    "meetingRefs": [
+      "the-marketing-meeting-2025-12-02"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1907,7 +2332,9 @@
     "label": "work-expectations",
     "firstMentioned": "2025-12-03",
     "lastMentioned": "2025-12-03",
-    "meetingRefs": ["michael-and-vin-continuation-2025-12-03"],
+    "meetingRefs": [
+      "michael-and-vin-continuation-2025-12-03"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1916,7 +2343,9 @@
     "label": "mortgage-industry-background",
     "firstMentioned": "2025-12-03",
     "lastMentioned": "2025-12-03",
-    "meetingRefs": ["michael-and-vin-continuation-2025-12-03"],
+    "meetingRefs": [
+      "michael-and-vin-continuation-2025-12-03"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1925,7 +2354,9 @@
     "label": "automotive-industry-transition",
     "firstMentioned": "2025-12-03",
     "lastMentioned": "2025-12-03",
-    "meetingRefs": ["michael-and-vin-continuation-2025-12-03"],
+    "meetingRefs": [
+      "michael-and-vin-continuation-2025-12-03"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1934,7 +2365,9 @@
     "label": "actionable-marketing-opportunities",
     "firstMentioned": "2025-12-03",
     "lastMentioned": "2025-12-03",
-    "meetingRefs": ["michael-and-vin-continuation-2025-12-03"],
+    "meetingRefs": [
+      "michael-and-vin-continuation-2025-12-03"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1943,7 +2376,9 @@
     "label": "revenue-generation",
     "firstMentioned": "2025-12-03",
     "lastMentioned": "2025-12-03",
-    "meetingRefs": ["michael-and-vin-continuation-2025-12-03"],
+    "meetingRefs": [
+      "michael-and-vin-continuation-2025-12-03"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1952,7 +2387,9 @@
     "label": "dealer-group-focus",
     "firstMentioned": "2025-12-03",
     "lastMentioned": "2025-12-03",
-    "meetingRefs": ["michael-and-vin-continuation-2025-12-03"],
+    "meetingRefs": [
+      "michael-and-vin-continuation-2025-12-03"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1961,7 +2398,9 @@
     "label": "scalability",
     "firstMentioned": "2025-12-03",
     "lastMentioned": "2025-12-03",
-    "meetingRefs": ["michael-and-vin-continuation-2025-12-03"],
+    "meetingRefs": [
+      "michael-and-vin-continuation-2025-12-03"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1970,7 +2409,9 @@
     "label": "collaboration",
     "firstMentioned": "2025-12-03",
     "lastMentioned": "2025-12-03",
-    "meetingRefs": ["michael-and-vin-continuation-2025-12-03"],
+    "meetingRefs": [
+      "michael-and-vin-continuation-2025-12-03"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1979,7 +2420,9 @@
     "label": "prioritization",
     "firstMentioned": "2025-12-03",
     "lastMentioned": "2025-12-03",
-    "meetingRefs": ["michael-and-vin-continuation-2025-12-03"],
+    "meetingRefs": [
+      "michael-and-vin-continuation-2025-12-03"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1988,7 +2431,9 @@
     "label": "management-priorities",
     "firstMentioned": "2025-12-03",
     "lastMentioned": "2025-12-03",
-    "meetingRefs": ["michael-and-vin-continuation-2025-12-03"],
+    "meetingRefs": [
+      "michael-and-vin-continuation-2025-12-03"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -1997,8 +2442,12 @@
     "label": "marketing-priorities",
     "firstMentioned": "2025-12-03",
     "lastMentioned": "2025-12-03",
-    "meetingRefs": ["michael-and-vin-continuation-2025-12-03"],
-    "decisionRefs": ["d-072"],
+    "meetingRefs": [
+      "michael-and-vin-continuation-2025-12-03"
+    ],
+    "decisionRefs": [
+      "d-072"
+    ],
     "mentionCount": 1
   },
   {
@@ -2006,7 +2455,9 @@
     "label": "audience-engagement",
     "firstMentioned": "2025-12-03",
     "lastMentioned": "2025-12-03",
-    "meetingRefs": ["michael-and-vin-continuation-2025-12-03"],
+    "meetingRefs": [
+      "michael-and-vin-continuation-2025-12-03"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2015,7 +2466,9 @@
     "label": "middleware-idea",
     "firstMentioned": "2025-12-03",
     "lastMentioned": "2025-12-03",
-    "meetingRefs": ["michael-and-vin-continuation-2025-12-03"],
+    "meetingRefs": [
+      "michael-and-vin-continuation-2025-12-03"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2024,7 +2477,9 @@
     "label": "paradigm-shifts",
     "firstMentioned": "2025-12-03",
     "lastMentioned": "2025-12-03",
-    "meetingRefs": ["michael-and-vin-continuation-2025-12-03"],
+    "meetingRefs": [
+      "michael-and-vin-continuation-2025-12-03"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2033,7 +2488,9 @@
     "label": "content-strategy-critique",
     "firstMentioned": "2025-12-03",
     "lastMentioned": "2025-12-03",
-    "meetingRefs": ["michael-and-vin-continuation-2025-12-03"],
+    "meetingRefs": [
+      "michael-and-vin-continuation-2025-12-03"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2042,7 +2499,9 @@
     "label": "pace-and-velocity",
     "firstMentioned": "2025-12-03",
     "lastMentioned": "2025-12-03",
-    "meetingRefs": ["michael-and-vin-continuation-2025-12-03"],
+    "meetingRefs": [
+      "michael-and-vin-continuation-2025-12-03"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2051,7 +2510,9 @@
     "label": "ai-utilization",
     "firstMentioned": "2025-12-03",
     "lastMentioned": "2025-12-03",
-    "meetingRefs": ["michael-and-vin-continuation-2025-12-03"],
+    "meetingRefs": [
+      "michael-and-vin-continuation-2025-12-03"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2060,7 +2521,9 @@
     "label": "decisive-action",
     "firstMentioned": "2025-12-03",
     "lastMentioned": "2025-12-03",
-    "meetingRefs": ["michael-and-vin-continuation-2025-12-03"],
+    "meetingRefs": [
+      "michael-and-vin-continuation-2025-12-03"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2069,7 +2532,9 @@
     "label": "accountability",
     "firstMentioned": "2025-12-03",
     "lastMentioned": "2025-12-03",
-    "meetingRefs": ["michael-and-vin-continuation-2025-12-03"],
+    "meetingRefs": [
+      "michael-and-vin-continuation-2025-12-03"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2078,7 +2543,9 @@
     "label": "content-output",
     "firstMentioned": "2025-12-03",
     "lastMentioned": "2025-12-03",
-    "meetingRefs": ["michael-and-vin-continuation-2025-12-03"],
+    "meetingRefs": [
+      "michael-and-vin-continuation-2025-12-03"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2087,7 +2554,9 @@
     "label": "content-quality",
     "firstMentioned": "2025-12-03",
     "lastMentioned": "2025-12-03",
-    "meetingRefs": ["michael-and-vin-continuation-2025-12-03"],
+    "meetingRefs": [
+      "michael-and-vin-continuation-2025-12-03"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2096,7 +2565,9 @@
     "label": "social-media",
     "firstMentioned": "2025-12-03",
     "lastMentioned": "2025-12-03",
-    "meetingRefs": ["michael-and-vin-continuation-2025-12-03"],
+    "meetingRefs": [
+      "michael-and-vin-continuation-2025-12-03"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2105,8 +2576,12 @@
     "label": "newsletter-proposal",
     "firstMentioned": "2025-12-03",
     "lastMentioned": "2025-12-03",
-    "meetingRefs": ["vin-and-michael-2025-12-03"],
-    "decisionRefs": ["d-088"],
+    "meetingRefs": [
+      "vin-and-michael-2025-12-03"
+    ],
+    "decisionRefs": [
+      "d-088"
+    ],
     "mentionCount": 1
   },
   {
@@ -2114,7 +2589,9 @@
     "label": "task-completion",
     "firstMentioned": "2025-12-03",
     "lastMentioned": "2025-12-03",
-    "meetingRefs": ["vin-and-michael-2025-12-03"],
+    "meetingRefs": [
+      "vin-and-michael-2025-12-03"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2123,7 +2600,9 @@
     "label": "communication-issues",
     "firstMentioned": "2025-12-03",
     "lastMentioned": "2025-12-03",
-    "meetingRefs": ["vin-and-michael-2025-12-03"],
+    "meetingRefs": [
+      "vin-and-michael-2025-12-03"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2132,7 +2611,9 @@
     "label": "health-issues",
     "firstMentioned": "2025-12-03",
     "lastMentioned": "2025-12-03",
-    "meetingRefs": ["vin-and-michael-2025-12-03"],
+    "meetingRefs": [
+      "vin-and-michael-2025-12-03"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2141,7 +2622,9 @@
     "label": "delivery-expectations",
     "firstMentioned": "2025-12-03",
     "lastMentioned": "2025-12-03",
-    "meetingRefs": ["vin-and-michael-2025-12-03"],
+    "meetingRefs": [
+      "vin-and-michael-2025-12-03"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2150,7 +2633,9 @@
     "label": "execution",
     "firstMentioned": "2025-12-03",
     "lastMentioned": "2025-12-03",
-    "meetingRefs": ["vin-and-michael-2025-12-03"],
+    "meetingRefs": [
+      "vin-and-michael-2025-12-03"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2159,7 +2644,9 @@
     "label": "team-management",
     "firstMentioned": "2025-12-03",
     "lastMentioned": "2025-12-03",
-    "meetingRefs": ["vin-and-michael-2025-12-03"],
+    "meetingRefs": [
+      "vin-and-michael-2025-12-03"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2168,7 +2655,9 @@
     "label": "employee-expectations",
     "firstMentioned": "2025-12-03",
     "lastMentioned": "2025-12-03",
-    "meetingRefs": ["vin-and-michael-2025-12-03"],
+    "meetingRefs": [
+      "vin-and-michael-2025-12-03"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2177,7 +2666,9 @@
     "label": "workload-management",
     "firstMentioned": "2025-12-03",
     "lastMentioned": "2025-12-03",
-    "meetingRefs": ["vin-and-michael-2025-12-03"],
+    "meetingRefs": [
+      "vin-and-michael-2025-12-03"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2186,7 +2677,9 @@
     "label": "trust-and-confidence",
     "firstMentioned": "2025-12-03",
     "lastMentioned": "2025-12-03",
-    "meetingRefs": ["vin-and-michael-2025-12-03"],
+    "meetingRefs": [
+      "vin-and-michael-2025-12-03"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2195,7 +2688,9 @@
     "label": "timeline-deliverables",
     "firstMentioned": "2025-12-03",
     "lastMentioned": "2025-12-03",
-    "meetingRefs": ["vin-and-michael-2025-12-03"],
+    "meetingRefs": [
+      "vin-and-michael-2025-12-03"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2204,8 +2699,12 @@
     "label": "employment-separation",
     "firstMentioned": "2025-12-03",
     "lastMentioned": "2025-12-03",
-    "meetingRefs": ["vin-and-michael-2025-12-03"],
-    "decisionRefs": ["d-090"],
+    "meetingRefs": [
+      "vin-and-michael-2025-12-03"
+    ],
+    "decisionRefs": [
+      "d-090"
+    ],
     "mentionCount": 1
   },
   {
@@ -2213,7 +2712,9 @@
     "label": "vinnie-management-style",
     "firstMentioned": "2025-12-04",
     "lastMentioned": "2025-12-04",
-    "meetingRefs": ["joe-and-michael-catch-up-2025-12-04"],
+    "meetingRefs": [
+      "joe-and-michael-catch-up-2025-12-04"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2222,8 +2723,12 @@
     "label": "perplexity-payment",
     "firstMentioned": "2025-12-04",
     "lastMentioned": "2025-12-04",
-    "meetingRefs": ["joe-and-michael-catch-up-2025-12-04"],
-    "decisionRefs": ["d-091"],
+    "meetingRefs": [
+      "joe-and-michael-catch-up-2025-12-04"
+    ],
+    "decisionRefs": [
+      "d-091"
+    ],
     "mentionCount": 1
   },
   {
@@ -2231,7 +2736,9 @@
     "label": "social-post-workflow",
     "firstMentioned": "2025-12-04",
     "lastMentioned": "2025-12-04",
-    "meetingRefs": ["joe-and-michael-catch-up-2025-12-04"],
+    "meetingRefs": [
+      "joe-and-michael-catch-up-2025-12-04"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2240,7 +2747,9 @@
     "label": "source-documentation",
     "firstMentioned": "2025-12-04",
     "lastMentioned": "2025-12-04",
-    "meetingRefs": ["joe-and-michael-catch-up-2025-12-04"],
+    "meetingRefs": [
+      "joe-and-michael-catch-up-2025-12-04"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2249,7 +2758,9 @@
     "label": "marketing-hooks",
     "firstMentioned": "2025-12-05",
     "lastMentioned": "2025-12-05",
-    "meetingRefs": ["call-with-michael-2025-12-05"],
+    "meetingRefs": [
+      "call-with-michael-2025-12-05"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2258,7 +2769,9 @@
     "label": "content-flow",
     "firstMentioned": "2025-12-05",
     "lastMentioned": "2025-12-05",
-    "meetingRefs": ["call-with-michael-2025-12-05"],
+    "meetingRefs": [
+      "call-with-michael-2025-12-05"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2267,8 +2780,12 @@
     "label": "technology-terminology",
     "firstMentioned": "2025-12-05",
     "lastMentioned": "2025-12-05",
-    "meetingRefs": ["call-with-michael-2025-12-05"],
-    "decisionRefs": ["d-093"],
+    "meetingRefs": [
+      "call-with-michael-2025-12-05"
+    ],
+    "decisionRefs": [
+      "d-093"
+    ],
     "mentionCount": 1
   },
   {
@@ -2276,7 +2793,9 @@
     "label": "dealer-personas",
     "firstMentioned": "2025-12-05",
     "lastMentioned": "2025-12-05",
-    "meetingRefs": ["call-with-michael-2025-12-05"],
+    "meetingRefs": [
+      "call-with-michael-2025-12-05"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2285,7 +2804,9 @@
     "label": "financial-needs",
     "firstMentioned": "2025-12-05",
     "lastMentioned": "2025-12-05",
-    "meetingRefs": ["call-with-michael-2025-12-05"],
+    "meetingRefs": [
+      "call-with-michael-2025-12-05"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2294,7 +2815,9 @@
     "label": "sophia-technology",
     "firstMentioned": "2025-12-05",
     "lastMentioned": "2025-12-05",
-    "meetingRefs": ["call-with-michael-2025-12-05"],
+    "meetingRefs": [
+      "call-with-michael-2025-12-05"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2303,7 +2826,9 @@
     "label": "design-system",
     "firstMentioned": "2025-12-10",
     "lastMentioned": "2025-12-10",
-    "meetingRefs": ["the-marketing-meeting-2025-12-10"],
+    "meetingRefs": [
+      "the-marketing-meeting-2025-12-10"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2312,8 +2837,12 @@
     "label": "content-review-approval",
     "firstMentioned": "2025-12-10",
     "lastMentioned": "2025-12-10",
-    "meetingRefs": ["the-marketing-meeting-2025-12-10"],
-    "decisionRefs": ["d-096"],
+    "meetingRefs": [
+      "the-marketing-meeting-2025-12-10"
+    ],
+    "decisionRefs": [
+      "d-096"
+    ],
     "mentionCount": 1
   },
   {
@@ -2321,7 +2850,9 @@
     "label": "product-priorities",
     "firstMentioned": "2025-12-15",
     "lastMentioned": "2025-12-15",
-    "meetingRefs": ["strolid-leadership-call-2025-12-15"],
+    "meetingRefs": [
+      "strolid-leadership-call-2025-12-15"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2330,7 +2861,9 @@
     "label": "vita-mvp-launch",
     "firstMentioned": "2025-12-15",
     "lastMentioned": "2025-12-15",
-    "meetingRefs": ["strolid-leadership-call-2025-12-15"],
+    "meetingRefs": [
+      "strolid-leadership-call-2025-12-15"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2339,7 +2872,9 @@
     "label": "fundraising",
     "firstMentioned": "2025-12-15",
     "lastMentioned": "2025-12-15",
-    "meetingRefs": ["strolid-leadership-call-2025-12-15"],
+    "meetingRefs": [
+      "strolid-leadership-call-2025-12-15"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2348,7 +2883,9 @@
     "label": "advisory-board-strategy",
     "firstMentioned": "2025-12-15",
     "lastMentioned": "2025-12-15",
-    "meetingRefs": ["strolid-leadership-call-2025-12-15"],
+    "meetingRefs": [
+      "strolid-leadership-call-2025-12-15"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2357,7 +2894,9 @@
     "label": "vconic-platform",
     "firstMentioned": "2025-12-15",
     "lastMentioned": "2025-12-15",
-    "meetingRefs": ["strolid-leadership-call-2025-12-15"],
+    "meetingRefs": [
+      "strolid-leadership-call-2025-12-15"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2366,7 +2905,9 @@
     "label": "sales-marketing-messaging",
     "firstMentioned": "2025-12-15",
     "lastMentioned": "2025-12-15",
-    "meetingRefs": ["strolid-leadership-call-2025-12-15"],
+    "meetingRefs": [
+      "strolid-leadership-call-2025-12-15"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2375,7 +2916,9 @@
     "label": "communication-process",
     "firstMentioned": "2025-12-15",
     "lastMentioned": "2025-12-15",
-    "meetingRefs": ["strolid-leadership-call-2025-12-15"],
+    "meetingRefs": [
+      "strolid-leadership-call-2025-12-15"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2384,7 +2927,9 @@
     "label": "product-development-prioritization",
     "firstMentioned": "2025-12-15",
     "lastMentioned": "2025-12-15",
-    "meetingRefs": ["strolid-leadership-call-2025-12-15"],
+    "meetingRefs": [
+      "strolid-leadership-call-2025-12-15"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2393,8 +2938,12 @@
     "label": "agent-access-to-gpt",
     "firstMentioned": "2025-12-15",
     "lastMentioned": "2025-12-15",
-    "meetingRefs": ["strolid-leadership-call-2025-12-15"],
-    "decisionRefs": ["d-098"],
+    "meetingRefs": [
+      "strolid-leadership-call-2025-12-15"
+    ],
+    "decisionRefs": [
+      "d-098"
+    ],
     "mentionCount": 1
   },
   {
@@ -2402,8 +2951,12 @@
     "label": "development-priorities",
     "firstMentioned": "2025-12-15",
     "lastMentioned": "2025-12-15",
-    "meetingRefs": ["strolid-leadership-call-2025-12-15"],
-    "decisionRefs": ["d-099"],
+    "meetingRefs": [
+      "strolid-leadership-call-2025-12-15"
+    ],
+    "decisionRefs": [
+      "d-099"
+    ],
     "mentionCount": 1
   },
   {
@@ -2411,7 +2964,9 @@
     "label": "operational-improvements",
     "firstMentioned": "2025-12-15",
     "lastMentioned": "2025-12-15",
-    "meetingRefs": ["strolid-leadership-call-2025-12-15"],
+    "meetingRefs": [
+      "strolid-leadership-call-2025-12-15"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2420,7 +2975,9 @@
     "label": "ai-human-differentiation",
     "firstMentioned": "2025-12-15",
     "lastMentioned": "2025-12-15",
-    "meetingRefs": ["strolid-leadership-call-2025-12-15"],
+    "meetingRefs": [
+      "strolid-leadership-call-2025-12-15"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2429,7 +2986,9 @@
     "label": "competitive-strategy",
     "firstMentioned": "2025-12-15",
     "lastMentioned": "2025-12-15",
-    "meetingRefs": ["strolid-leadership-call-2025-12-15"],
+    "meetingRefs": [
+      "strolid-leadership-call-2025-12-15"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2438,7 +2997,9 @@
     "label": "ai-tools-sharing",
     "firstMentioned": "2025-12-16",
     "lastMentioned": "2025-12-16",
-    "meetingRefs": ["the-marketing-meeting-2025-12-16"],
+    "meetingRefs": [
+      "the-marketing-meeting-2025-12-16"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2447,7 +3008,9 @@
     "label": "content-development",
     "firstMentioned": "2025-12-16",
     "lastMentioned": "2025-12-16",
-    "meetingRefs": ["the-marketing-meeting-2025-12-16"],
+    "meetingRefs": [
+      "the-marketing-meeting-2025-12-16"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2456,7 +3019,9 @@
     "label": "strallet-ai-capabilities",
     "firstMentioned": "2025-12-16",
     "lastMentioned": "2025-12-16",
-    "meetingRefs": ["the-marketing-meeting-2025-12-16"],
+    "meetingRefs": [
+      "the-marketing-meeting-2025-12-16"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2465,7 +3030,9 @@
     "label": "outbound-follow-up",
     "firstMentioned": "2025-12-16",
     "lastMentioned": "2025-12-16",
-    "meetingRefs": ["the-marketing-meeting-2025-12-16"],
+    "meetingRefs": [
+      "the-marketing-meeting-2025-12-16"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2474,7 +3041,9 @@
     "label": "internal-product-messaging",
     "firstMentioned": "2025-12-16",
     "lastMentioned": "2025-12-16",
-    "meetingRefs": ["the-marketing-meeting-2025-12-16"],
+    "meetingRefs": [
+      "the-marketing-meeting-2025-12-16"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2483,7 +3052,9 @@
     "label": "website-development-plan",
     "firstMentioned": "2025-12-16",
     "lastMentioned": "2025-12-16",
-    "meetingRefs": ["the-marketing-meeting-2025-12-16"],
+    "meetingRefs": [
+      "the-marketing-meeting-2025-12-16"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2492,7 +3063,9 @@
     "label": "website-migration-challenges",
     "firstMentioned": "2025-12-16",
     "lastMentioned": "2025-12-16",
-    "meetingRefs": ["the-marketing-meeting-2025-12-16"],
+    "meetingRefs": [
+      "the-marketing-meeting-2025-12-16"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2501,8 +3074,12 @@
     "label": "v20-marketplace-update",
     "firstMentioned": "2025-12-16",
     "lastMentioned": "2025-12-16",
-    "meetingRefs": ["the-marketing-meeting-2025-12-16"],
-    "decisionRefs": ["d-101"],
+    "meetingRefs": [
+      "the-marketing-meeting-2025-12-16"
+    ],
+    "decisionRefs": [
+      "d-101"
+    ],
     "mentionCount": 1
   },
   {
@@ -2510,8 +3087,12 @@
     "label": "ai-roadmap-promotion",
     "firstMentioned": "2025-12-16",
     "lastMentioned": "2025-12-16",
-    "meetingRefs": ["the-marketing-meeting-2025-12-16"],
-    "decisionRefs": ["d-102"],
+    "meetingRefs": [
+      "the-marketing-meeting-2025-12-16"
+    ],
+    "decisionRefs": [
+      "d-102"
+    ],
     "mentionCount": 1
   },
   {
@@ -2519,7 +3100,9 @@
     "label": "future-ai-product-vision",
     "firstMentioned": "2025-12-16",
     "lastMentioned": "2025-12-16",
-    "meetingRefs": ["the-marketing-meeting-2025-12-16"],
+    "meetingRefs": [
+      "the-marketing-meeting-2025-12-16"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2528,7 +3111,9 @@
     "label": "tools-development-efficiency",
     "firstMentioned": "2025-12-16",
     "lastMentioned": "2025-12-16",
-    "meetingRefs": ["the-marketing-meeting-2025-12-16"],
+    "meetingRefs": [
+      "the-marketing-meeting-2025-12-16"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2537,7 +3122,9 @@
     "label": "website-content-alignment",
     "firstMentioned": "2025-12-16",
     "lastMentioned": "2025-12-16",
-    "meetingRefs": ["the-marketing-meeting-2025-12-16"],
+    "meetingRefs": [
+      "the-marketing-meeting-2025-12-16"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2546,7 +3133,9 @@
     "label": "90-day-game-plan",
     "firstMentioned": "2025-12-23",
     "lastMentioned": "2025-12-23",
-    "meetingRefs": ["marketing-90-day-prioritization-2025-12-23"],
+    "meetingRefs": [
+      "marketing-90-day-prioritization-2025-12-23"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2555,7 +3144,9 @@
     "label": "messaging-priorities",
     "firstMentioned": "2025-12-23",
     "lastMentioned": "2025-12-23",
-    "meetingRefs": ["marketing-90-day-prioritization-2025-12-23"],
+    "meetingRefs": [
+      "marketing-90-day-prioritization-2025-12-23"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2564,8 +3155,12 @@
     "label": "website-content-update",
     "firstMentioned": "2025-12-23",
     "lastMentioned": "2025-12-23",
-    "meetingRefs": ["marketing-90-day-prioritization-2025-12-23"],
-    "decisionRefs": ["d-103"],
+    "meetingRefs": [
+      "marketing-90-day-prioritization-2025-12-23"
+    ],
+    "decisionRefs": [
+      "d-103"
+    ],
     "mentionCount": 1
   },
   {
@@ -2573,7 +3168,9 @@
     "label": "ai-automation",
     "firstMentioned": "2025-12-23",
     "lastMentioned": "2025-12-23",
-    "meetingRefs": ["marketing-90-day-prioritization-2025-12-23"],
+    "meetingRefs": [
+      "marketing-90-day-prioritization-2025-12-23"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2582,7 +3179,9 @@
     "label": "content-creation-process",
     "firstMentioned": "2025-12-23",
     "lastMentioned": "2025-12-23",
-    "meetingRefs": ["marketing-90-day-prioritization-2025-12-23"],
+    "meetingRefs": [
+      "marketing-90-day-prioritization-2025-12-23"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2591,7 +3190,9 @@
     "label": "naedc-event",
     "firstMentioned": "2025-12-23",
     "lastMentioned": "2025-12-23",
-    "meetingRefs": ["marketing-90-day-prioritization-2025-12-23"],
+    "meetingRefs": [
+      "marketing-90-day-prioritization-2025-12-23"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2600,8 +3201,12 @@
     "label": "messaging-framework",
     "firstMentioned": "2025-12-23",
     "lastMentioned": "2025-12-23",
-    "meetingRefs": ["marketing-90-day-prioritization-2025-12-23"],
-    "decisionRefs": ["d-106"],
+    "meetingRefs": [
+      "marketing-90-day-prioritization-2025-12-23"
+    ],
+    "decisionRefs": [
+      "d-106"
+    ],
     "mentionCount": 1
   },
   {
@@ -2609,8 +3214,14 @@
     "label": "newsletter-process",
     "firstMentioned": "2025-12-29",
     "lastMentioned": "2025-12-29",
-    "meetingRefs": ["website-planning-session-2025-12-29"],
-    "decisionRefs": ["d-107", "d-108", "d-109"],
+    "meetingRefs": [
+      "website-planning-session-2025-12-29"
+    ],
+    "decisionRefs": [
+      "d-107",
+      "d-108",
+      "d-109"
+    ],
     "mentionCount": 1
   },
   {
@@ -2618,7 +3229,9 @@
     "label": "content-migration",
     "firstMentioned": "2025-12-29",
     "lastMentioned": "2025-12-29",
-    "meetingRefs": ["website-planning-session-2025-12-29"],
+    "meetingRefs": [
+      "website-planning-session-2025-12-29"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2627,7 +3240,9 @@
     "label": "wordpress-plugins",
     "firstMentioned": "2025-12-29",
     "lastMentioned": "2025-12-29",
-    "meetingRefs": ["website-planning-session-2025-12-29"],
+    "meetingRefs": [
+      "website-planning-session-2025-12-29"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2636,7 +3251,9 @@
     "label": "creative-brief",
     "firstMentioned": "2025-12-29",
     "lastMentioned": "2025-12-29",
-    "meetingRefs": ["website-planning-session-2025-12-29"],
+    "meetingRefs": [
+      "website-planning-session-2025-12-29"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2645,7 +3262,9 @@
     "label": "marketing-brief",
     "firstMentioned": "2025-12-29",
     "lastMentioned": "2025-12-29",
-    "meetingRefs": ["website-planning-session-2025-12-29"],
+    "meetingRefs": [
+      "website-planning-session-2025-12-29"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2654,7 +3273,9 @@
     "label": "design-tokens",
     "firstMentioned": "2025-12-29",
     "lastMentioned": "2025-12-29",
-    "meetingRefs": ["website-planning-session-2025-12-29"],
+    "meetingRefs": [
+      "website-planning-session-2025-12-29"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2663,7 +3284,9 @@
     "label": "marketing-team",
     "firstMentioned": "2025-12-30",
     "lastMentioned": "2025-12-30",
-    "meetingRefs": ["joe-and-michael-reconnect-2025-12-30"],
+    "meetingRefs": [
+      "joe-and-michael-reconnect-2025-12-30"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2672,7 +3295,9 @@
     "label": "role-definition",
     "firstMentioned": "2025-12-30",
     "lastMentioned": "2025-12-30",
-    "meetingRefs": ["joe-and-michael-reconnect-2025-12-30"],
+    "meetingRefs": [
+      "joe-and-michael-reconnect-2025-12-30"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2681,7 +3306,9 @@
     "label": "vinnie-communication",
     "firstMentioned": "2025-12-30",
     "lastMentioned": "2025-12-30",
-    "meetingRefs": ["joe-and-michael-reconnect-2025-12-30"],
+    "meetingRefs": [
+      "joe-and-michael-reconnect-2025-12-30"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2690,7 +3317,9 @@
     "label": "quick-wins",
     "firstMentioned": "2025-12-30",
     "lastMentioned": "2025-12-30",
-    "meetingRefs": ["joe-and-michael-reconnect-2025-12-30"],
+    "meetingRefs": [
+      "joe-and-michael-reconnect-2025-12-30"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2699,7 +3328,9 @@
     "label": "website-complexity",
     "firstMentioned": "2025-12-30",
     "lastMentioned": "2025-12-30",
-    "meetingRefs": ["joe-and-michael-reconnect-2025-12-30"],
+    "meetingRefs": [
+      "joe-and-michael-reconnect-2025-12-30"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2708,7 +3339,9 @@
     "label": "resource-constraints",
     "firstMentioned": "2025-12-30",
     "lastMentioned": "2025-12-30",
-    "meetingRefs": ["joe-and-michael-reconnect-2025-12-30"],
+    "meetingRefs": [
+      "joe-and-michael-reconnect-2025-12-30"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2717,7 +3350,9 @@
     "label": "ai-usage",
     "firstMentioned": "2025-12-30",
     "lastMentioned": "2025-12-30",
-    "meetingRefs": ["joe-and-michael-reconnect-2025-12-30"],
+    "meetingRefs": [
+      "joe-and-michael-reconnect-2025-12-30"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2726,7 +3361,9 @@
     "label": "job-satisfaction",
     "firstMentioned": "2025-12-30",
     "lastMentioned": "2025-12-30",
-    "meetingRefs": ["joe-and-michael-reconnect-2025-12-30"],
+    "meetingRefs": [
+      "joe-and-michael-reconnect-2025-12-30"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2735,7 +3372,9 @@
     "label": "extreme-weather",
     "firstMentioned": "2025-12-30",
     "lastMentioned": "2025-12-30",
-    "meetingRefs": ["the-marketing-meeting-2025-12-30"],
+    "meetingRefs": [
+      "the-marketing-meeting-2025-12-30"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2744,7 +3383,9 @@
     "label": "three-lane-marketing-approach",
     "firstMentioned": "2025-12-30",
     "lastMentioned": "2025-12-30",
-    "meetingRefs": ["the-marketing-meeting-2025-12-30"],
+    "meetingRefs": [
+      "the-marketing-meeting-2025-12-30"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2753,7 +3394,9 @@
     "label": "dealer-visibility",
     "firstMentioned": "2025-12-30",
     "lastMentioned": "2025-12-30",
-    "meetingRefs": ["the-marketing-meeting-2025-12-30"],
+    "meetingRefs": [
+      "the-marketing-meeting-2025-12-30"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2762,7 +3405,9 @@
     "label": "content-structure",
     "firstMentioned": "2025-12-30",
     "lastMentioned": "2025-12-30",
-    "meetingRefs": ["the-marketing-meeting-2025-12-30"],
+    "meetingRefs": [
+      "the-marketing-meeting-2025-12-30"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2771,7 +3416,9 @@
     "label": "buyer-motion",
     "firstMentioned": "2025-12-30",
     "lastMentioned": "2025-12-30",
-    "meetingRefs": ["the-marketing-meeting-2025-12-30"],
+    "meetingRefs": [
+      "the-marketing-meeting-2025-12-30"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2780,7 +3427,9 @@
     "label": "strategic-outcomes",
     "firstMentioned": "2025-12-30",
     "lastMentioned": "2025-12-30",
-    "meetingRefs": ["the-marketing-meeting-2025-12-30"],
+    "meetingRefs": [
+      "the-marketing-meeting-2025-12-30"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2789,7 +3438,9 @@
     "label": "website-progress",
     "firstMentioned": "2026-01-06",
     "lastMentioned": "2026-01-06",
-    "meetingRefs": ["the-marketing-meeting-2026-01-06"],
+    "meetingRefs": [
+      "the-marketing-meeting-2026-01-06"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2798,7 +3449,9 @@
     "label": "product-differentiation",
     "firstMentioned": "2026-01-06",
     "lastMentioned": "2026-01-06",
-    "meetingRefs": ["the-marketing-meeting-2026-01-06"],
+    "meetingRefs": [
+      "the-marketing-meeting-2026-01-06"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2807,7 +3460,9 @@
     "label": "website-visuals",
     "firstMentioned": "2026-01-06",
     "lastMentioned": "2026-01-06",
-    "meetingRefs": ["the-marketing-meeting-2026-01-06"],
+    "meetingRefs": [
+      "the-marketing-meeting-2026-01-06"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2816,7 +3471,9 @@
     "label": "website-momentum",
     "firstMentioned": "2026-01-06",
     "lastMentioned": "2026-01-06",
-    "meetingRefs": ["the-marketing-meeting-2026-01-06"],
+    "meetingRefs": [
+      "the-marketing-meeting-2026-01-06"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2825,7 +3482,9 @@
     "label": "timeline-to-nada",
     "firstMentioned": "2026-01-06",
     "lastMentioned": "2026-01-06",
-    "meetingRefs": ["the-marketing-meeting-2026-01-06"],
+    "meetingRefs": [
+      "the-marketing-meeting-2026-01-06"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2834,7 +3493,9 @@
     "label": "content-implementation",
     "firstMentioned": "2026-01-06",
     "lastMentioned": "2026-01-06",
-    "meetingRefs": ["the-marketing-meeting-2026-01-06"],
+    "meetingRefs": [
+      "the-marketing-meeting-2026-01-06"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2843,7 +3504,9 @@
     "label": "dealer-websites",
     "firstMentioned": "2026-01-06",
     "lastMentioned": "2026-01-06",
-    "meetingRefs": ["the-marketing-meeting-2026-01-06"],
+    "meetingRefs": [
+      "the-marketing-meeting-2026-01-06"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2852,8 +3515,12 @@
     "label": "scope-of-work",
     "firstMentioned": "2026-01-06",
     "lastMentioned": "2026-01-06",
-    "meetingRefs": ["the-marketing-meeting-2026-01-06"],
-    "decisionRefs": ["d-125"],
+    "meetingRefs": [
+      "the-marketing-meeting-2026-01-06"
+    ],
+    "decisionRefs": [
+      "d-125"
+    ],
     "mentionCount": 1
   },
   {
@@ -2861,7 +3528,9 @@
     "label": "wordpress-platform",
     "firstMentioned": "2026-01-09",
     "lastMentioned": "2026-01-09",
-    "meetingRefs": ["regroup-on-website-refresh-initiative-2026-01-09"],
+    "meetingRefs": [
+      "regroup-on-website-refresh-initiative-2026-01-09"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2870,7 +3539,9 @@
     "label": "content-messaging",
     "firstMentioned": "2026-01-09",
     "lastMentioned": "2026-01-09",
-    "meetingRefs": ["regroup-on-website-refresh-initiative-2026-01-09"],
+    "meetingRefs": [
+      "regroup-on-website-refresh-initiative-2026-01-09"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2879,7 +3550,9 @@
     "label": "navigation-structure",
     "firstMentioned": "2026-01-09",
     "lastMentioned": "2026-01-09",
-    "meetingRefs": ["regroup-on-website-refresh-initiative-2026-01-09"],
+    "meetingRefs": [
+      "regroup-on-website-refresh-initiative-2026-01-09"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2888,7 +3561,9 @@
     "label": "technical-debt",
     "firstMentioned": "2026-01-09",
     "lastMentioned": "2026-01-09",
-    "meetingRefs": ["regroup-on-website-refresh-initiative-2026-01-09"],
+    "meetingRefs": [
+      "regroup-on-website-refresh-initiative-2026-01-09"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2897,7 +3572,9 @@
     "label": "alternative-website-solution",
     "firstMentioned": "2026-01-09",
     "lastMentioned": "2026-01-09",
-    "meetingRefs": ["regroup-on-website-refresh-initiative-2026-01-09"],
+    "meetingRefs": [
+      "regroup-on-website-refresh-initiative-2026-01-09"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2906,7 +3583,9 @@
     "label": "website-staging-environment",
     "firstMentioned": "2026-01-13",
     "lastMentioned": "2026-01-13",
-    "meetingRefs": ["the-marketing-meeting-2026-01-13"],
+    "meetingRefs": [
+      "the-marketing-meeting-2026-01-13"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2915,7 +3594,9 @@
     "label": "human-involvement",
     "firstMentioned": "2026-01-13",
     "lastMentioned": "2026-01-13",
-    "meetingRefs": ["the-marketing-meeting-2026-01-13"],
+    "meetingRefs": [
+      "the-marketing-meeting-2026-01-13"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2924,7 +3605,9 @@
     "label": "data-governance",
     "firstMentioned": "2026-01-13",
     "lastMentioned": "2026-01-13",
-    "meetingRefs": ["the-marketing-meeting-2026-01-13"],
+    "meetingRefs": [
+      "the-marketing-meeting-2026-01-13"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2933,7 +3616,9 @@
     "label": "professionalism",
     "firstMentioned": "2026-01-13",
     "lastMentioned": "2026-01-13",
-    "meetingRefs": ["the-marketing-meeting-2026-01-13"],
+    "meetingRefs": [
+      "the-marketing-meeting-2026-01-13"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2942,7 +3627,9 @@
     "label": "website-revisions",
     "firstMentioned": "2026-01-13",
     "lastMentioned": "2026-01-13",
-    "meetingRefs": ["the-marketing-meeting-2026-01-13"],
+    "meetingRefs": [
+      "the-marketing-meeting-2026-01-13"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2951,7 +3638,9 @@
     "label": "website-adaptability",
     "firstMentioned": "2026-01-13",
     "lastMentioned": "2026-01-13",
-    "meetingRefs": ["the-marketing-meeting-2026-01-13"],
+    "meetingRefs": [
+      "the-marketing-meeting-2026-01-13"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2960,7 +3649,9 @@
     "label": "website-security",
     "firstMentioned": "2026-01-13",
     "lastMentioned": "2026-01-13",
-    "meetingRefs": ["the-marketing-meeting-2026-01-13"],
+    "meetingRefs": [
+      "the-marketing-meeting-2026-01-13"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -2969,8 +3660,14 @@
     "label": "website-content",
     "firstMentioned": "2026-01-20",
     "lastMentioned": "2026-01-20",
-    "meetingRefs": ["joe-and-michael-touch-base-2026-01-20"],
-    "decisionRefs": ["d-118", "d-124", "d-134"],
+    "meetingRefs": [
+      "joe-and-michael-touch-base-2026-01-20"
+    ],
+    "decisionRefs": [
+      "d-118",
+      "d-124",
+      "d-134"
+    ],
     "mentionCount": 1
   },
   {
@@ -2978,8 +3675,12 @@
     "label": "website-cleanup",
     "firstMentioned": "2026-01-20",
     "lastMentioned": "2026-01-20",
-    "meetingRefs": ["joe-and-michael-touch-base-2026-01-20"],
-    "decisionRefs": ["d-135"],
+    "meetingRefs": [
+      "joe-and-michael-touch-base-2026-01-20"
+    ],
+    "decisionRefs": [
+      "d-135"
+    ],
     "mentionCount": 1
   },
   {
@@ -2987,8 +3688,14 @@
     "label": "website-navigation",
     "firstMentioned": "2026-01-20",
     "lastMentioned": "2026-01-20",
-    "meetingRefs": ["joe-and-michael-touch-base-2026-01-20"],
-    "decisionRefs": ["d-136", "d-137", "d-140"],
+    "meetingRefs": [
+      "joe-and-michael-touch-base-2026-01-20"
+    ],
+    "decisionRefs": [
+      "d-136",
+      "d-137",
+      "d-140"
+    ],
     "mentionCount": 1
   },
   {
@@ -2996,8 +3703,12 @@
     "label": "faq-section",
     "firstMentioned": "2026-01-20",
     "lastMentioned": "2026-01-20",
-    "meetingRefs": ["joe-and-michael-touch-base-2026-01-20"],
-    "decisionRefs": ["d-139"],
+    "meetingRefs": [
+      "joe-and-michael-touch-base-2026-01-20"
+    ],
+    "decisionRefs": [
+      "d-139"
+    ],
     "mentionCount": 1
   },
   {
@@ -3005,8 +3716,13 @@
     "label": "website-launch",
     "firstMentioned": "2026-01-20",
     "lastMentioned": "2026-01-20",
-    "meetingRefs": ["joe-and-michael-touch-base-2026-01-20"],
-    "decisionRefs": ["d-141", "d-142"],
+    "meetingRefs": [
+      "joe-and-michael-touch-base-2026-01-20"
+    ],
+    "decisionRefs": [
+      "d-141",
+      "d-142"
+    ],
     "mentionCount": 1
   },
   {
@@ -3014,7 +3730,9 @@
     "label": "nada-event",
     "firstMentioned": "2026-01-20",
     "lastMentioned": "2026-01-20",
-    "meetingRefs": ["joe-and-michael-touch-base-2026-01-20"],
+    "meetingRefs": [
+      "joe-and-michael-touch-base-2026-01-20"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3023,7 +3741,9 @@
     "label": "document-feedback",
     "firstMentioned": "2026-02-12",
     "lastMentioned": "2026-02-12",
-    "meetingRefs": ["joe-and-michael-regroup-2026-02-12"],
+    "meetingRefs": [
+      "joe-and-michael-regroup-2026-02-12"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3032,7 +3752,9 @@
     "label": "content-deliverables",
     "firstMentioned": "2026-02-12",
     "lastMentioned": "2026-02-12",
-    "meetingRefs": ["joe-and-michael-regroup-2026-02-12"],
+    "meetingRefs": [
+      "joe-and-michael-regroup-2026-02-12"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3041,7 +3763,9 @@
     "label": "demand-generation",
     "firstMentioned": "2026-02-12",
     "lastMentioned": "2026-02-12",
-    "meetingRefs": ["joe-and-michael-regroup-2026-02-12"],
+    "meetingRefs": [
+      "joe-and-michael-regroup-2026-02-12"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3050,7 +3774,9 @@
     "label": "flywheel-strategy",
     "firstMentioned": "2026-02-12",
     "lastMentioned": "2026-02-12",
-    "meetingRefs": ["joe-and-michael-regroup-2026-02-12"],
+    "meetingRefs": [
+      "joe-and-michael-regroup-2026-02-12"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3059,7 +3785,9 @@
     "label": "blog-content",
     "firstMentioned": "2026-02-12",
     "lastMentioned": "2026-02-12",
-    "meetingRefs": ["joe-and-michael-regroup-2026-02-12"],
+    "meetingRefs": [
+      "joe-and-michael-regroup-2026-02-12"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3068,7 +3796,9 @@
     "label": "podcast-material",
     "firstMentioned": "2026-02-12",
     "lastMentioned": "2026-02-12",
-    "meetingRefs": ["joe-and-michael-regroup-2026-02-12"],
+    "meetingRefs": [
+      "joe-and-michael-regroup-2026-02-12"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3077,7 +3807,9 @@
     "label": "timeline-for-deliverables",
     "firstMentioned": "2026-02-12",
     "lastMentioned": "2026-02-12",
-    "meetingRefs": ["joe-and-michael-regroup-2026-02-12"],
+    "meetingRefs": [
+      "joe-and-michael-regroup-2026-02-12"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3086,7 +3818,9 @@
     "label": "google-ads-performance",
     "firstMentioned": "2026-02-12",
     "lastMentioned": "2026-02-12",
-    "meetingRefs": ["joe-and-michael-regroup-2026-02-12"],
+    "meetingRefs": [
+      "joe-and-michael-regroup-2026-02-12"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3095,7 +3829,9 @@
     "label": "segmented-list",
     "firstMentioned": "2026-02-12",
     "lastMentioned": "2026-02-12",
-    "meetingRefs": ["joe-and-michael-regroup-2026-02-12"],
+    "meetingRefs": [
+      "joe-and-michael-regroup-2026-02-12"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3104,7 +3840,9 @@
     "label": "target-accounts",
     "firstMentioned": "2026-02-12",
     "lastMentioned": "2026-02-12",
-    "meetingRefs": ["joe-and-michael-regroup-2026-02-12"],
+    "meetingRefs": [
+      "joe-and-michael-regroup-2026-02-12"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3113,7 +3851,9 @@
     "label": "segmentation",
     "firstMentioned": "2026-02-12",
     "lastMentioned": "2026-02-12",
-    "meetingRefs": ["joe-and-michael-regroup-2026-02-12"],
+    "meetingRefs": [
+      "joe-and-michael-regroup-2026-02-12"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3122,7 +3862,9 @@
     "label": "financial-strategy",
     "firstMentioned": "2026-02-12",
     "lastMentioned": "2026-02-12",
-    "meetingRefs": ["joe-and-michael-regroup-2026-02-12"],
+    "meetingRefs": [
+      "joe-and-michael-regroup-2026-02-12"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3131,7 +3873,9 @@
     "label": "marketing-infrastructure",
     "firstMentioned": "2026-02-12",
     "lastMentioned": "2026-02-12",
-    "meetingRefs": ["joe-and-michael-regroup-2026-02-12"],
+    "meetingRefs": [
+      "joe-and-michael-regroup-2026-02-12"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3140,7 +3884,9 @@
     "label": "reporting-portal",
     "firstMentioned": "2026-02-12",
     "lastMentioned": "2026-02-12",
-    "meetingRefs": ["joe-and-michael-regroup-2026-02-12"],
+    "meetingRefs": [
+      "joe-and-michael-regroup-2026-02-12"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3149,7 +3895,9 @@
     "label": "organizational-structure",
     "firstMentioned": "2026-02-12",
     "lastMentioned": "2026-02-12",
-    "meetingRefs": ["joe-and-michael-regroup-2026-02-12"],
+    "meetingRefs": [
+      "joe-and-michael-regroup-2026-02-12"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3158,7 +3906,9 @@
     "label": "employment-agreement",
     "firstMentioned": "2026-02-12",
     "lastMentioned": "2026-02-12",
-    "meetingRefs": ["joe-and-michael-regroup-2026-02-12"],
+    "meetingRefs": [
+      "joe-and-michael-regroup-2026-02-12"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3167,7 +3917,9 @@
     "label": "compensation-plan",
     "firstMentioned": "2026-02-12",
     "lastMentioned": "2026-02-12",
-    "meetingRefs": ["joe-and-michael-regroup-2026-02-12"],
+    "meetingRefs": [
+      "joe-and-michael-regroup-2026-02-12"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3176,7 +3928,9 @@
     "label": "ai-in-dealerships",
     "firstMentioned": "2026-02-13",
     "lastMentioned": "2026-02-13",
-    "meetingRefs": ["marketing-flow-and-alignment-2026-02-13"],
+    "meetingRefs": [
+      "marketing-flow-and-alignment-2026-02-13"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3185,7 +3939,9 @@
     "label": "employee-satisfaction",
     "firstMentioned": "2026-02-13",
     "lastMentioned": "2026-02-13",
-    "meetingRefs": ["marketing-flow-and-alignment-2026-02-13"],
+    "meetingRefs": [
+      "marketing-flow-and-alignment-2026-02-13"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3194,7 +3950,9 @@
     "label": "dealer-satisfaction",
     "firstMentioned": "2026-02-13",
     "lastMentioned": "2026-02-13",
-    "meetingRefs": ["marketing-flow-and-alignment-2026-02-13"],
+    "meetingRefs": [
+      "marketing-flow-and-alignment-2026-02-13"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3203,7 +3961,9 @@
     "label": "customer-experience",
     "firstMentioned": "2026-02-13",
     "lastMentioned": "2026-02-13",
-    "meetingRefs": ["marketing-flow-and-alignment-2026-02-13"],
+    "meetingRefs": [
+      "marketing-flow-and-alignment-2026-02-13"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3212,7 +3972,9 @@
     "label": "pricing-review",
     "firstMentioned": "2026-02-13",
     "lastMentioned": "2026-02-13",
-    "meetingRefs": ["marketing-flow-and-alignment-2026-02-13"],
+    "meetingRefs": [
+      "marketing-flow-and-alignment-2026-02-13"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3221,7 +3983,9 @@
     "label": "email-marketing",
     "firstMentioned": "2026-02-13",
     "lastMentioned": "2026-02-13",
-    "meetingRefs": ["marketing-flow-and-alignment-2026-02-13"],
+    "meetingRefs": [
+      "marketing-flow-and-alignment-2026-02-13"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3230,7 +3994,9 @@
     "label": "digital-retailing",
     "firstMentioned": "2026-02-13",
     "lastMentioned": "2026-02-13",
-    "meetingRefs": ["marketing-flow-and-alignment-2026-02-13"],
+    "meetingRefs": [
+      "marketing-flow-and-alignment-2026-02-13"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3239,7 +4005,9 @@
     "label": "organizational-blindness",
     "firstMentioned": "2026-02-13",
     "lastMentioned": "2026-02-13",
-    "meetingRefs": ["marketing-flow-and-alignment-2026-02-13"],
+    "meetingRefs": [
+      "marketing-flow-and-alignment-2026-02-13"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3248,7 +4016,9 @@
     "label": "market-dynamics",
     "firstMentioned": "2026-02-13",
     "lastMentioned": "2026-02-13",
-    "meetingRefs": ["marketing-flow-and-alignment-2026-02-13"],
+    "meetingRefs": [
+      "marketing-flow-and-alignment-2026-02-13"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3257,7 +4027,9 @@
     "label": "economic-outlook",
     "firstMentioned": "2026-02-13",
     "lastMentioned": "2026-02-13",
-    "meetingRefs": ["marketing-flow-and-alignment-2026-02-13"],
+    "meetingRefs": [
+      "marketing-flow-and-alignment-2026-02-13"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3266,8 +4038,12 @@
     "label": "meeting-format",
     "firstMentioned": "2026-02-16",
     "lastMentioned": "2026-02-16",
-    "meetingRefs": ["strolid-leadership-call-2026-02-16"],
-    "decisionRefs": ["d-153"],
+    "meetingRefs": [
+      "strolid-leadership-call-2026-02-16"
+    ],
+    "decisionRefs": [
+      "d-153"
+    ],
     "mentionCount": 1
   },
   {
@@ -3275,8 +4051,12 @@
     "label": "bds-contract",
     "firstMentioned": "2026-02-16",
     "lastMentioned": "2026-02-16",
-    "meetingRefs": ["strolid-leadership-call-2026-02-16"],
-    "decisionRefs": ["d-154"],
+    "meetingRefs": [
+      "strolid-leadership-call-2026-02-16"
+    ],
+    "decisionRefs": [
+      "d-154"
+    ],
     "mentionCount": 1
   },
   {
@@ -3284,8 +4064,12 @@
     "label": "financing",
     "firstMentioned": "2026-02-16",
     "lastMentioned": "2026-02-16",
-    "meetingRefs": ["strolid-leadership-call-2026-02-16"],
-    "decisionRefs": ["d-155"],
+    "meetingRefs": [
+      "strolid-leadership-call-2026-02-16"
+    ],
+    "decisionRefs": [
+      "d-155"
+    ],
     "mentionCount": 1
   },
   {
@@ -3293,7 +4077,9 @@
     "label": "stralled-reporting",
     "firstMentioned": "2026-02-16",
     "lastMentioned": "2026-02-16",
-    "meetingRefs": ["strolid-leadership-call-2026-02-16"],
+    "meetingRefs": [
+      "strolid-leadership-call-2026-02-16"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3302,7 +4088,9 @@
     "label": "bonic-bds",
     "firstMentioned": "2026-02-16",
     "lastMentioned": "2026-02-16",
-    "meetingRefs": ["strolid-leadership-call-2026-02-16"],
+    "meetingRefs": [
+      "strolid-leadership-call-2026-02-16"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3311,8 +4099,12 @@
     "label": "engagement-report",
     "firstMentioned": "2026-02-16",
     "lastMentioned": "2026-02-16",
-    "meetingRefs": ["strolid-leadership-call-2026-02-16"],
-    "decisionRefs": ["d-156"],
+    "meetingRefs": [
+      "strolid-leadership-call-2026-02-16"
+    ],
+    "decisionRefs": [
+      "d-156"
+    ],
     "mentionCount": 1
   },
   {
@@ -3320,7 +4112,9 @@
     "label": "va-rollout",
     "firstMentioned": "2026-02-16",
     "lastMentioned": "2026-02-16",
-    "meetingRefs": ["strolid-leadership-call-2026-02-16"],
+    "meetingRefs": [
+      "strolid-leadership-call-2026-02-16"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3329,7 +4123,9 @@
     "label": "service-team-assessment",
     "firstMentioned": "2026-02-16",
     "lastMentioned": "2026-02-16",
-    "meetingRefs": ["strolid-leadership-call-2026-02-16"],
+    "meetingRefs": [
+      "strolid-leadership-call-2026-02-16"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3338,8 +4134,12 @@
     "label": "operations-management",
     "firstMentioned": "2026-02-16",
     "lastMentioned": "2026-02-16",
-    "meetingRefs": ["strolid-leadership-call-2026-02-16"],
-    "decisionRefs": ["d-158"],
+    "meetingRefs": [
+      "strolid-leadership-call-2026-02-16"
+    ],
+    "decisionRefs": [
+      "d-158"
+    ],
     "mentionCount": 1
   },
   {
@@ -3347,7 +4147,9 @@
     "label": "infrastructure-progress",
     "firstMentioned": "2026-02-16",
     "lastMentioned": "2026-02-16",
-    "meetingRefs": ["strolid-leadership-call-2026-02-16"],
+    "meetingRefs": [
+      "strolid-leadership-call-2026-02-16"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3356,7 +4158,9 @@
     "label": "auditor-contract",
     "firstMentioned": "2026-02-16",
     "lastMentioned": "2026-02-16",
-    "meetingRefs": ["strolid-leadership-call-2026-02-16"],
+    "meetingRefs": [
+      "strolid-leadership-call-2026-02-16"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3365,8 +4169,12 @@
     "label": "sales-activity",
     "firstMentioned": "2026-02-16",
     "lastMentioned": "2026-02-16",
-    "meetingRefs": ["strolid-leadership-call-2026-02-16"],
-    "decisionRefs": ["d-157"],
+    "meetingRefs": [
+      "strolid-leadership-call-2026-02-16"
+    ],
+    "decisionRefs": [
+      "d-157"
+    ],
     "mentionCount": 1
   },
   {
@@ -3374,7 +4182,9 @@
     "label": "marketing-content",
     "firstMentioned": "2026-02-16",
     "lastMentioned": "2026-02-16",
-    "meetingRefs": ["strolid-leadership-call-2026-02-16"],
+    "meetingRefs": [
+      "strolid-leadership-call-2026-02-16"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3383,7 +4193,9 @@
     "label": "bci-sales",
     "firstMentioned": "2026-02-16",
     "lastMentioned": "2026-02-16",
-    "meetingRefs": ["strolid-leadership-call-2026-02-16"],
+    "meetingRefs": [
+      "strolid-leadership-call-2026-02-16"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3392,8 +4204,12 @@
     "label": "sales-strategy",
     "firstMentioned": "2026-02-16",
     "lastMentioned": "2026-02-16",
-    "meetingRefs": ["strolid-leadership-call-2026-02-16"],
-    "decisionRefs": ["d-159"],
+    "meetingRefs": [
+      "strolid-leadership-call-2026-02-16"
+    ],
+    "decisionRefs": [
+      "d-159"
+    ],
     "mentionCount": 1
   },
   {
@@ -3401,7 +4217,9 @@
     "label": "social-media-feedback",
     "firstMentioned": "2026-02-20",
     "lastMentioned": "2026-02-20",
-    "meetingRefs": ["catch-up-on-marketing-activities-2026-02-20"],
+    "meetingRefs": [
+      "catch-up-on-marketing-activities-2026-02-20"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3410,7 +4228,9 @@
     "label": "abm-strategy",
     "firstMentioned": "2026-02-20",
     "lastMentioned": "2026-02-20",
-    "meetingRefs": ["catch-up-on-marketing-activities-2026-02-20"],
+    "meetingRefs": [
+      "catch-up-on-marketing-activities-2026-02-20"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3419,7 +4239,9 @@
     "label": "bdc-assessment-app",
     "firstMentioned": "2026-02-20",
     "lastMentioned": "2026-02-20",
-    "meetingRefs": ["catch-up-on-marketing-activities-2026-02-20"],
+    "meetingRefs": [
+      "catch-up-on-marketing-activities-2026-02-20"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3428,7 +4250,9 @@
     "label": "team-alignment",
     "firstMentioned": "2026-02-20",
     "lastMentioned": "2026-02-20",
-    "meetingRefs": ["catch-up-on-marketing-activities-2026-02-20"],
+    "meetingRefs": [
+      "catch-up-on-marketing-activities-2026-02-20"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3437,8 +4261,12 @@
     "label": "lead-magnet-integration",
     "firstMentioned": "2026-02-20",
     "lastMentioned": "2026-02-20",
-    "meetingRefs": ["catch-up-on-marketing-activities-2026-02-20"],
-    "decisionRefs": ["d-162"],
+    "meetingRefs": [
+      "catch-up-on-marketing-activities-2026-02-20"
+    ],
+    "decisionRefs": [
+      "d-162"
+    ],
     "mentionCount": 1
   },
   {
@@ -3446,8 +4274,12 @@
     "label": "expense-reporting",
     "firstMentioned": "2026-02-20",
     "lastMentioned": "2026-02-20",
-    "meetingRefs": ["catch-up-on-marketing-activities-2026-02-20"],
-    "decisionRefs": ["d-163"],
+    "meetingRefs": [
+      "catch-up-on-marketing-activities-2026-02-20"
+    ],
+    "decisionRefs": [
+      "d-163"
+    ],
     "mentionCount": 1
   },
   {
@@ -3455,7 +4287,9 @@
     "label": "cost-of-computer-components",
     "firstMentioned": "2026-02-24",
     "lastMentioned": "2026-02-24",
-    "meetingRefs": ["the-marketing-meeting-2026-02-24"],
+    "meetingRefs": [
+      "the-marketing-meeting-2026-02-24"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3464,7 +4298,9 @@
     "label": "p-and-l-update",
     "firstMentioned": "2026-02-24",
     "lastMentioned": "2026-02-24",
-    "meetingRefs": ["the-marketing-meeting-2026-02-24"],
+    "meetingRefs": [
+      "the-marketing-meeting-2026-02-24"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3473,7 +4309,9 @@
     "label": "contact-list-cleansing",
     "firstMentioned": "2026-02-24",
     "lastMentioned": "2026-02-24",
-    "meetingRefs": ["the-marketing-meeting-2026-02-24"],
+    "meetingRefs": [
+      "the-marketing-meeting-2026-02-24"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3482,8 +4320,12 @@
     "label": "customer-segmentation",
     "firstMentioned": "2026-02-24",
     "lastMentioned": "2026-02-24",
-    "meetingRefs": ["the-marketing-meeting-2026-02-24"],
-    "decisionRefs": ["d-164"],
+    "meetingRefs": [
+      "the-marketing-meeting-2026-02-24"
+    ],
+    "decisionRefs": [
+      "d-164"
+    ],
     "mentionCount": 1
   },
   {
@@ -3491,7 +4333,9 @@
     "label": "tool-evaluation",
     "firstMentioned": "2026-02-24",
     "lastMentioned": "2026-02-24",
-    "meetingRefs": ["the-marketing-meeting-2026-02-24"],
+    "meetingRefs": [
+      "the-marketing-meeting-2026-02-24"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3500,7 +4344,9 @@
     "label": "data-cleansing-plan",
     "firstMentioned": "2026-02-24",
     "lastMentioned": "2026-02-24",
-    "meetingRefs": ["the-marketing-meeting-2026-02-24"],
+    "meetingRefs": [
+      "the-marketing-meeting-2026-02-24"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3509,8 +4355,12 @@
     "label": "data-enrichment",
     "firstMentioned": "2026-03-03",
     "lastMentioned": "2026-03-03",
-    "meetingRefs": ["the-marketing-meeting-2026-03-03"],
-    "decisionRefs": ["d-170"],
+    "meetingRefs": [
+      "the-marketing-meeting-2026-03-03"
+    ],
+    "decisionRefs": [
+      "d-170"
+    ],
     "mentionCount": 1
   },
   {
@@ -3518,8 +4368,12 @@
     "label": "campaign-deployment",
     "firstMentioned": "2026-03-03",
     "lastMentioned": "2026-03-03",
-    "meetingRefs": ["the-marketing-meeting-2026-03-03"],
-    "decisionRefs": ["d-166"],
+    "meetingRefs": [
+      "the-marketing-meeting-2026-03-03"
+    ],
+    "decisionRefs": [
+      "d-166"
+    ],
     "mentionCount": 1
   },
   {
@@ -3527,8 +4381,12 @@
     "label": "campaign-segmentation",
     "firstMentioned": "2026-03-03",
     "lastMentioned": "2026-03-03",
-    "meetingRefs": ["the-marketing-meeting-2026-03-03"],
-    "decisionRefs": ["d-169"],
+    "meetingRefs": [
+      "the-marketing-meeting-2026-03-03"
+    ],
+    "decisionRefs": [
+      "d-169"
+    ],
     "mentionCount": 1
   },
   {
@@ -3536,7 +4394,9 @@
     "label": "lithia-partnership",
     "firstMentioned": "2026-03-03",
     "lastMentioned": "2026-03-03",
-    "meetingRefs": ["the-marketing-meeting-2026-03-03"],
+    "meetingRefs": [
+      "the-marketing-meeting-2026-03-03"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3545,7 +4405,9 @@
     "label": "active-customer-tracking",
     "firstMentioned": "2026-03-03",
     "lastMentioned": "2026-03-03",
-    "meetingRefs": ["the-marketing-meeting-2026-03-03"],
+    "meetingRefs": [
+      "the-marketing-meeting-2026-03-03"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3554,7 +4416,9 @@
     "label": "data-ownership",
     "firstMentioned": "2026-03-03",
     "lastMentioned": "2026-03-03",
-    "meetingRefs": ["the-marketing-meeting-2026-03-03"],
+    "meetingRefs": [
+      "the-marketing-meeting-2026-03-03"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3563,7 +4427,9 @@
     "label": "video-content-feedback",
     "firstMentioned": "2026-03-03",
     "lastMentioned": "2026-03-03",
-    "meetingRefs": ["the-marketing-meeting-2026-03-03"],
+    "meetingRefs": [
+      "the-marketing-meeting-2026-03-03"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3572,7 +4438,9 @@
     "label": "ad-spend-billing",
     "firstMentioned": "2026-03-03",
     "lastMentioned": "2026-03-03",
-    "meetingRefs": ["the-marketing-meeting-2026-03-03"],
+    "meetingRefs": [
+      "the-marketing-meeting-2026-03-03"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3581,7 +4449,9 @@
     "label": "vcon-schema-versions",
     "firstMentioned": "2026-03-09",
     "lastMentioned": "2026-03-09",
-    "meetingRefs": ["strolid-leadership-call-2026-03-09"],
+    "meetingRefs": [
+      "strolid-leadership-call-2026-03-09"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3590,7 +4460,9 @@
     "label": "technical-due-diligence",
     "firstMentioned": "2026-03-09",
     "lastMentioned": "2026-03-09",
-    "meetingRefs": ["strolid-leadership-call-2026-03-09"],
+    "meetingRefs": [
+      "strolid-leadership-call-2026-03-09"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3599,7 +4471,9 @@
     "label": "participant-check-ins",
     "firstMentioned": "2026-03-09",
     "lastMentioned": "2026-03-09",
-    "meetingRefs": ["strolid-leadership-call-2026-03-09"],
+    "meetingRefs": [
+      "strolid-leadership-call-2026-03-09"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3608,7 +4482,9 @@
     "label": "healthcare-systems",
     "firstMentioned": "2026-03-09",
     "lastMentioned": "2026-03-09",
-    "meetingRefs": ["strolid-leadership-call-2026-03-09"],
+    "meetingRefs": [
+      "strolid-leadership-call-2026-03-09"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3617,7 +4493,9 @@
     "label": "call-review-document",
     "firstMentioned": "2026-03-09",
     "lastMentioned": "2026-03-09",
-    "meetingRefs": ["strolid-leadership-call-2026-03-09"],
+    "meetingRefs": [
+      "strolid-leadership-call-2026-03-09"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3626,7 +4504,9 @@
     "label": "due-diligence-timeline",
     "firstMentioned": "2026-03-09",
     "lastMentioned": "2026-03-09",
-    "meetingRefs": ["strolid-leadership-call-2026-03-09"],
+    "meetingRefs": [
+      "strolid-leadership-call-2026-03-09"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3635,8 +4515,12 @@
     "label": "call-review-meeting",
     "firstMentioned": "2026-03-09",
     "lastMentioned": "2026-03-09",
-    "meetingRefs": ["strolid-leadership-call-2026-03-09"],
-    "decisionRefs": ["d-173"],
+    "meetingRefs": [
+      "strolid-leadership-call-2026-03-09"
+    ],
+    "decisionRefs": [
+      "d-173"
+    ],
     "mentionCount": 1
   },
   {
@@ -3644,7 +4528,9 @@
     "label": "lithia-compliance-survey",
     "firstMentioned": "2026-03-09",
     "lastMentioned": "2026-03-09",
-    "meetingRefs": ["strolid-leadership-call-2026-03-09"],
+    "meetingRefs": [
+      "strolid-leadership-call-2026-03-09"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3653,8 +4539,13 @@
     "label": "soc-2-audit",
     "firstMentioned": "2026-03-09",
     "lastMentioned": "2026-03-09",
-    "meetingRefs": ["strolid-leadership-call-2026-03-09"],
-    "decisionRefs": ["d-174", "d-175"],
+    "meetingRefs": [
+      "strolid-leadership-call-2026-03-09"
+    ],
+    "decisionRefs": [
+      "d-174",
+      "d-175"
+    ],
     "mentionCount": 1
   },
   {
@@ -3662,7 +4553,9 @@
     "label": "acquisition-strategy",
     "firstMentioned": "2026-03-09",
     "lastMentioned": "2026-03-09",
-    "meetingRefs": ["strolid-leadership-call-2026-03-09"],
+    "meetingRefs": [
+      "strolid-leadership-call-2026-03-09"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3671,7 +4564,9 @@
     "label": "sales-deck-feedback",
     "firstMentioned": "2026-03-09",
     "lastMentioned": "2026-03-09",
-    "meetingRefs": ["strolid-leadership-call-2026-03-09"],
+    "meetingRefs": [
+      "strolid-leadership-call-2026-03-09"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3680,7 +4575,9 @@
     "label": "live-demos",
     "firstMentioned": "2026-03-09",
     "lastMentioned": "2026-03-09",
-    "meetingRefs": ["strolid-leadership-call-2026-03-09"],
+    "meetingRefs": [
+      "strolid-leadership-call-2026-03-09"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3689,7 +4586,9 @@
     "label": "solutions-focus",
     "firstMentioned": "2026-03-09",
     "lastMentioned": "2026-03-09",
-    "meetingRefs": ["strolid-leadership-call-2026-03-09"],
+    "meetingRefs": [
+      "strolid-leadership-call-2026-03-09"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3698,7 +4597,9 @@
     "label": "internal-training",
     "firstMentioned": "2026-03-09",
     "lastMentioned": "2026-03-09",
-    "meetingRefs": ["strolid-leadership-call-2026-03-09"],
+    "meetingRefs": [
+      "strolid-leadership-call-2026-03-09"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3707,7 +4608,9 @@
     "label": "real-time-vcon",
     "firstMentioned": "2026-03-09",
     "lastMentioned": "2026-03-09",
-    "meetingRefs": ["strolid-leadership-call-2026-03-09"],
+    "meetingRefs": [
+      "strolid-leadership-call-2026-03-09"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3716,7 +4619,9 @@
     "label": "ai-impact",
     "firstMentioned": "2026-03-09",
     "lastMentioned": "2026-03-09",
-    "meetingRefs": ["strolid-leadership-call-2026-03-09"],
+    "meetingRefs": [
+      "strolid-leadership-call-2026-03-09"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3725,7 +4630,9 @@
     "label": "sophia-testing",
     "firstMentioned": "2026-03-09",
     "lastMentioned": "2026-03-09",
-    "meetingRefs": ["strolid-leadership-call-2026-03-09"],
+    "meetingRefs": [
+      "strolid-leadership-call-2026-03-09"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3734,7 +4641,9 @@
     "label": "ai-model-selection",
     "firstMentioned": "2026-03-09",
     "lastMentioned": "2026-03-09",
-    "meetingRefs": ["strolid-leadership-call-2026-03-09"],
+    "meetingRefs": [
+      "strolid-leadership-call-2026-03-09"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3743,7 +4652,9 @@
     "label": "outbound-sophia-testing",
     "firstMentioned": "2026-03-09",
     "lastMentioned": "2026-03-09",
-    "meetingRefs": ["strolid-leadership-call-2026-03-09"],
+    "meetingRefs": [
+      "strolid-leadership-call-2026-03-09"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3752,7 +4663,9 @@
     "label": "call-handling-monitoring",
     "firstMentioned": "2026-03-09",
     "lastMentioned": "2026-03-09",
-    "meetingRefs": ["strolid-leadership-call-2026-03-09"],
+    "meetingRefs": [
+      "strolid-leadership-call-2026-03-09"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3761,7 +4674,9 @@
     "label": "customer-call-adjustments",
     "firstMentioned": "2026-03-09",
     "lastMentioned": "2026-03-09",
-    "meetingRefs": ["strolid-leadership-call-2026-03-09"],
+    "meetingRefs": [
+      "strolid-leadership-call-2026-03-09"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3770,7 +4685,9 @@
     "label": "volley-number-validation",
     "firstMentioned": "2026-03-09",
     "lastMentioned": "2026-03-09",
-    "meetingRefs": ["strolid-leadership-call-2026-03-09"],
+    "meetingRefs": [
+      "strolid-leadership-call-2026-03-09"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3779,8 +4696,12 @@
     "label": "meeting-scheduling",
     "firstMentioned": "2026-03-09",
     "lastMentioned": "2026-03-09",
-    "meetingRefs": ["strolid-leadership-call-2026-03-09"],
-    "decisionRefs": ["d-187"],
+    "meetingRefs": [
+      "strolid-leadership-call-2026-03-09"
+    ],
+    "decisionRefs": [
+      "d-187"
+    ],
     "mentionCount": 1
   },
   {
@@ -3788,7 +4709,9 @@
     "label": "voicemail-drop-issue",
     "firstMentioned": "2026-03-10",
     "lastMentioned": "2026-03-10",
-    "meetingRefs": ["scrum-standup-daily-update-2026-03-10"],
+    "meetingRefs": [
+      "scrum-standup-daily-update-2026-03-10"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3797,7 +4720,9 @@
     "label": "agent-alerts",
     "firstMentioned": "2026-03-10",
     "lastMentioned": "2026-03-10",
-    "meetingRefs": ["scrum-standup-daily-update-2026-03-10"],
+    "meetingRefs": [
+      "scrum-standup-daily-update-2026-03-10"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3806,7 +4731,9 @@
     "label": "audio-issue",
     "firstMentioned": "2026-03-10",
     "lastMentioned": "2026-03-10",
-    "meetingRefs": ["scrum-standup-daily-update-2026-03-10"],
+    "meetingRefs": [
+      "scrum-standup-daily-update-2026-03-10"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3815,7 +4742,9 @@
     "label": "voicemail-issue-magnitude",
     "firstMentioned": "2026-03-10",
     "lastMentioned": "2026-03-10",
-    "meetingRefs": ["scrum-standup-daily-update-2026-03-10"],
+    "meetingRefs": [
+      "scrum-standup-daily-update-2026-03-10"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3824,7 +4753,9 @@
     "label": "chat-widget-updates",
     "firstMentioned": "2026-03-10",
     "lastMentioned": "2026-03-10",
-    "meetingRefs": ["scrum-standup-daily-update-2026-03-10"],
+    "meetingRefs": [
+      "scrum-standup-daily-update-2026-03-10"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3833,7 +4764,9 @@
     "label": "dealer-socket-scraper-alerts",
     "firstMentioned": "2026-03-10",
     "lastMentioned": "2026-03-10",
-    "meetingRefs": ["scrum-standup-daily-update-2026-03-10"],
+    "meetingRefs": [
+      "scrum-standup-daily-update-2026-03-10"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3842,7 +4775,9 @@
     "label": "security-updates",
     "firstMentioned": "2026-03-10",
     "lastMentioned": "2026-03-10",
-    "meetingRefs": ["scrum-standup-daily-update-2026-03-10"],
+    "meetingRefs": [
+      "scrum-standup-daily-update-2026-03-10"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3851,7 +4786,9 @@
     "label": "reply-parser",
     "firstMentioned": "2026-03-10",
     "lastMentioned": "2026-03-10",
-    "meetingRefs": ["scrum-standup-daily-update-2026-03-10"],
+    "meetingRefs": [
+      "scrum-standup-daily-update-2026-03-10"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3860,7 +4797,9 @@
     "label": "outbound-campaign",
     "firstMentioned": "2026-03-10",
     "lastMentioned": "2026-03-10",
-    "meetingRefs": ["scrum-standup-daily-update-2026-03-10"],
+    "meetingRefs": [
+      "scrum-standup-daily-update-2026-03-10"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3869,7 +4808,9 @@
     "label": "lovable-dashboard",
     "firstMentioned": "2026-03-10",
     "lastMentioned": "2026-03-10",
-    "meetingRefs": ["scrum-standup-daily-update-2026-03-10"],
+    "meetingRefs": [
+      "scrum-standup-daily-update-2026-03-10"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3878,7 +4819,9 @@
     "label": "dashboard-design",
     "firstMentioned": "2026-03-10",
     "lastMentioned": "2026-03-10",
-    "meetingRefs": ["scrum-standup-daily-update-2026-03-10"],
+    "meetingRefs": [
+      "scrum-standup-daily-update-2026-03-10"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3887,7 +4830,9 @@
     "label": "dashboard-security",
     "firstMentioned": "2026-03-10",
     "lastMentioned": "2026-03-10",
-    "meetingRefs": ["scrum-standup-daily-update-2026-03-10"],
+    "meetingRefs": [
+      "scrum-standup-daily-update-2026-03-10"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3896,7 +4841,9 @@
     "label": "ai-vcon-analysis",
     "firstMentioned": "2026-03-10",
     "lastMentioned": "2026-03-10",
-    "meetingRefs": ["scrum-standup-daily-update-2026-03-10"],
+    "meetingRefs": [
+      "scrum-standup-daily-update-2026-03-10"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3905,7 +4852,9 @@
     "label": "customer-comments",
     "firstMentioned": "2026-03-10",
     "lastMentioned": "2026-03-10",
-    "meetingRefs": ["scrum-standup-daily-update-2026-03-10"],
+    "meetingRefs": [
+      "scrum-standup-daily-update-2026-03-10"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3914,7 +4863,9 @@
     "label": "serverful-redeployement",
     "firstMentioned": "2026-03-10",
     "lastMentioned": "2026-03-10",
-    "meetingRefs": ["scrum-standup-daily-update-2026-03-10"],
+    "meetingRefs": [
+      "scrum-standup-daily-update-2026-03-10"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3923,7 +4874,9 @@
     "label": "retro-planning",
     "firstMentioned": "2026-03-10",
     "lastMentioned": "2026-03-10",
-    "meetingRefs": ["scrum-standup-daily-update-2026-03-10"],
+    "meetingRefs": [
+      "scrum-standup-daily-update-2026-03-10"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3932,7 +4885,9 @@
     "label": "technical-review",
     "firstMentioned": "2026-03-10",
     "lastMentioned": "2026-03-10",
-    "meetingRefs": ["the-marketing-meeting-2026-03-10"],
+    "meetingRefs": [
+      "the-marketing-meeting-2026-03-10"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3941,7 +4896,9 @@
     "label": "icp-scoring",
     "firstMentioned": "2026-03-10",
     "lastMentioned": "2026-03-10",
-    "meetingRefs": ["the-marketing-meeting-2026-03-10"],
+    "meetingRefs": [
+      "the-marketing-meeting-2026-03-10"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3950,7 +4907,9 @@
     "label": "content-validity",
     "firstMentioned": "2026-03-10",
     "lastMentioned": "2026-03-10",
-    "meetingRefs": ["the-marketing-meeting-2026-03-10"],
+    "meetingRefs": [
+      "the-marketing-meeting-2026-03-10"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3959,7 +4918,9 @@
     "label": "messaging-authority",
     "firstMentioned": "2026-03-10",
     "lastMentioned": "2026-03-10",
-    "meetingRefs": ["the-marketing-meeting-2026-03-10"],
+    "meetingRefs": [
+      "the-marketing-meeting-2026-03-10"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3968,7 +4929,9 @@
     "label": "content-simplification",
     "firstMentioned": "2026-03-10",
     "lastMentioned": "2026-03-10",
-    "meetingRefs": ["the-marketing-meeting-2026-03-10"],
+    "meetingRefs": [
+      "the-marketing-meeting-2026-03-10"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3977,7 +4940,9 @@
     "label": "theme-focus",
     "firstMentioned": "2026-03-10",
     "lastMentioned": "2026-03-10",
-    "meetingRefs": ["the-marketing-meeting-2026-03-10"],
+    "meetingRefs": [
+      "the-marketing-meeting-2026-03-10"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -3986,8 +4951,12 @@
     "label": "dashboard-simplification",
     "firstMentioned": "2026-03-10",
     "lastMentioned": "2026-03-10",
-    "meetingRefs": ["the-marketing-meeting-2026-03-10"],
-    "decisionRefs": ["d-183"],
+    "meetingRefs": [
+      "the-marketing-meeting-2026-03-10"
+    ],
+    "decisionRefs": [
+      "d-183"
+    ],
     "mentionCount": 1
   },
   {
@@ -3995,7 +4964,9 @@
     "label": "historical-revenue-data",
     "firstMentioned": "2026-03-10",
     "lastMentioned": "2026-03-10",
-    "meetingRefs": ["the-marketing-meeting-2026-03-10"],
+    "meetingRefs": [
+      "the-marketing-meeting-2026-03-10"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -4004,7 +4975,9 @@
     "label": "campaign-launch",
     "firstMentioned": "2026-03-10",
     "lastMentioned": "2026-03-10",
-    "meetingRefs": ["the-marketing-meeting-2026-03-10"],
+    "meetingRefs": [
+      "the-marketing-meeting-2026-03-10"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -4013,8 +4986,12 @@
     "label": "campaign-implementation",
     "firstMentioned": "2026-03-10",
     "lastMentioned": "2026-03-10",
-    "meetingRefs": ["the-marketing-meeting-2026-03-10"],
-    "decisionRefs": ["d-184"],
+    "meetingRefs": [
+      "the-marketing-meeting-2026-03-10"
+    ],
+    "decisionRefs": [
+      "d-184"
+    ],
     "mentionCount": 1
   },
   {
@@ -4022,7 +4999,9 @@
     "label": "roi-analysis",
     "firstMentioned": "2026-03-10",
     "lastMentioned": "2026-03-10",
-    "meetingRefs": ["the-marketing-meeting-2026-03-10"],
+    "meetingRefs": [
+      "the-marketing-meeting-2026-03-10"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -4031,7 +5010,9 @@
     "label": "database-access",
     "firstMentioned": "2026-03-11",
     "lastMentioned": "2026-03-11",
-    "meetingRefs": ["product-marketing-alignment-2026-03-11"],
+    "meetingRefs": [
+      "product-marketing-alignment-2026-03-11"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -4040,7 +5021,9 @@
     "label": "snowflake-intelligence",
     "firstMentioned": "2026-03-11",
     "lastMentioned": "2026-03-11",
-    "meetingRefs": ["product-marketing-alignment-2026-03-11"],
+    "meetingRefs": [
+      "product-marketing-alignment-2026-03-11"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -4049,7 +5032,9 @@
     "label": "data-modeling",
     "firstMentioned": "2026-03-11",
     "lastMentioned": "2026-03-11",
-    "meetingRefs": ["product-marketing-alignment-2026-03-11"],
+    "meetingRefs": [
+      "product-marketing-alignment-2026-03-11"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -4058,7 +5043,9 @@
     "label": "scoring-model",
     "firstMentioned": "2026-03-11",
     "lastMentioned": "2026-03-11",
-    "meetingRefs": ["product-marketing-alignment-2026-03-11"],
+    "meetingRefs": [
+      "product-marketing-alignment-2026-03-11"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -4067,7 +5054,9 @@
     "label": "dealer-targeting",
     "firstMentioned": "2026-03-11",
     "lastMentioned": "2026-03-11",
-    "meetingRefs": ["product-marketing-alignment-2026-03-11"],
+    "meetingRefs": [
+      "product-marketing-alignment-2026-03-11"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -4076,7 +5065,9 @@
     "label": "data-acquisition",
     "firstMentioned": "2026-03-11",
     "lastMentioned": "2026-03-11",
-    "meetingRefs": ["product-marketing-alignment-2026-03-11"],
+    "meetingRefs": [
+      "product-marketing-alignment-2026-03-11"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -4085,7 +5076,9 @@
     "label": "cxm-data",
     "firstMentioned": "2026-03-11",
     "lastMentioned": "2026-03-11",
-    "meetingRefs": ["product-marketing-alignment-2026-03-11"],
+    "meetingRefs": [
+      "product-marketing-alignment-2026-03-11"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -4094,7 +5087,9 @@
     "label": "lead-handling",
     "firstMentioned": "2026-03-11",
     "lastMentioned": "2026-03-11",
-    "meetingRefs": ["product-marketing-alignment-2026-03-11"],
+    "meetingRefs": [
+      "product-marketing-alignment-2026-03-11"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -4103,8 +5098,12 @@
     "label": "lovable-reporting",
     "firstMentioned": "2026-03-12",
     "lastMentioned": "2026-03-12",
-    "meetingRefs": ["active-pipeline-review-2026-03-12"],
-    "decisionRefs": ["d-188"],
+    "meetingRefs": [
+      "active-pipeline-review-2026-03-12"
+    ],
+    "decisionRefs": [
+      "d-188"
+    ],
     "mentionCount": 1
   },
   {
@@ -4112,8 +5111,12 @@
     "label": "security-testing",
     "firstMentioned": "2026-03-12",
     "lastMentioned": "2026-03-12",
-    "meetingRefs": ["active-pipeline-review-2026-03-12"],
-    "decisionRefs": ["d-189"],
+    "meetingRefs": [
+      "active-pipeline-review-2026-03-12"
+    ],
+    "decisionRefs": [
+      "d-189"
+    ],
     "mentionCount": 1
   },
   {
@@ -4121,8 +5124,12 @@
     "label": "sophia-campaign",
     "firstMentioned": "2026-03-12",
     "lastMentioned": "2026-03-12",
-    "meetingRefs": ["active-pipeline-review-2026-03-12"],
-    "decisionRefs": ["d-190"],
+    "meetingRefs": [
+      "active-pipeline-review-2026-03-12"
+    ],
+    "decisionRefs": [
+      "d-190"
+    ],
     "mentionCount": 1
   },
   {
@@ -4130,8 +5137,12 @@
     "label": "sophia-deployment",
     "firstMentioned": "2026-03-12",
     "lastMentioned": "2026-03-12",
-    "meetingRefs": ["active-pipeline-review-2026-03-12"],
-    "decisionRefs": ["d-191"],
+    "meetingRefs": [
+      "active-pipeline-review-2026-03-12"
+    ],
+    "decisionRefs": [
+      "d-191"
+    ],
     "mentionCount": 1
   },
   {
@@ -4139,7 +5150,9 @@
     "label": "market-valuation",
     "firstMentioned": "2026-03-12",
     "lastMentioned": "2026-03-12",
-    "meetingRefs": ["active-pipeline-review-2026-03-12"],
+    "meetingRefs": [
+      "active-pipeline-review-2026-03-12"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -4148,7 +5161,9 @@
     "label": "revenue-streams",
     "firstMentioned": "2026-03-12",
     "lastMentioned": "2026-03-12",
-    "meetingRefs": ["active-pipeline-review-2026-03-12"],
+    "meetingRefs": [
+      "active-pipeline-review-2026-03-12"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -4157,7 +5172,9 @@
     "label": "engagement-rates",
     "firstMentioned": "2026-03-12",
     "lastMentioned": "2026-03-12",
-    "meetingRefs": ["active-pipeline-review-2026-03-12"],
+    "meetingRefs": [
+      "active-pipeline-review-2026-03-12"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -4166,7 +5183,9 @@
     "label": "call-analysis",
     "firstMentioned": "2026-03-12",
     "lastMentioned": "2026-03-12",
-    "meetingRefs": ["active-pipeline-review-2026-03-12"],
+    "meetingRefs": [
+      "active-pipeline-review-2026-03-12"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -4175,7 +5194,9 @@
     "label": "quantitative-reporting",
     "firstMentioned": "2026-03-12",
     "lastMentioned": "2026-03-12",
-    "meetingRefs": ["active-pipeline-review-2026-03-12"],
+    "meetingRefs": [
+      "active-pipeline-review-2026-03-12"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -4184,8 +5205,12 @@
     "label": "calling-schedule",
     "firstMentioned": "2026-03-12",
     "lastMentioned": "2026-03-12",
-    "meetingRefs": ["active-pipeline-review-2026-03-12"],
-    "decisionRefs": ["d-193"],
+    "meetingRefs": [
+      "active-pipeline-review-2026-03-12"
+    ],
+    "decisionRefs": [
+      "d-193"
+    ],
     "mentionCount": 1
   },
   {
@@ -4193,7 +5218,9 @@
     "label": "co-pilot-implementation",
     "firstMentioned": "2026-03-12",
     "lastMentioned": "2026-03-12",
-    "meetingRefs": ["active-pipeline-review-2026-03-12"],
+    "meetingRefs": [
+      "active-pipeline-review-2026-03-12"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -4202,7 +5229,9 @@
     "label": "staffing-replacements",
     "firstMentioned": "2026-03-12",
     "lastMentioned": "2026-03-12",
-    "meetingRefs": ["active-pipeline-review-2026-03-12"],
+    "meetingRefs": [
+      "active-pipeline-review-2026-03-12"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -4211,8 +5240,12 @@
     "label": "prompt-evaluation",
     "firstMentioned": "2026-03-12",
     "lastMentioned": "2026-03-12",
-    "meetingRefs": ["active-pipeline-review-2026-03-12"],
-    "decisionRefs": ["d-194"],
+    "meetingRefs": [
+      "active-pipeline-review-2026-03-12"
+    ],
+    "decisionRefs": [
+      "d-194"
+    ],
     "mentionCount": 1
   },
   {
@@ -4220,7 +5253,9 @@
     "label": "customer-interaction",
     "firstMentioned": "2026-03-12",
     "lastMentioned": "2026-03-12",
-    "meetingRefs": ["active-pipeline-review-2026-03-12"],
+    "meetingRefs": [
+      "active-pipeline-review-2026-03-12"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -4229,7 +5264,9 @@
     "label": "language-model-security",
     "firstMentioned": "2026-03-12",
     "lastMentioned": "2026-03-12",
-    "meetingRefs": ["active-pipeline-review-2026-03-12"],
+    "meetingRefs": [
+      "active-pipeline-review-2026-03-12"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -4238,7 +5275,9 @@
     "label": "ai-tools",
     "firstMentioned": "2026-03-12",
     "lastMentioned": "2026-03-12",
-    "meetingRefs": ["active-pipeline-review-2026-03-12"],
+    "meetingRefs": [
+      "active-pipeline-review-2026-03-12"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -4247,8 +5286,12 @@
     "label": "reporting-improvements",
     "firstMentioned": "2026-03-12",
     "lastMentioned": "2026-03-12",
-    "meetingRefs": ["active-pipeline-review-2026-03-12"],
-    "decisionRefs": ["d-192"],
+    "meetingRefs": [
+      "active-pipeline-review-2026-03-12"
+    ],
+    "decisionRefs": [
+      "d-192"
+    ],
     "mentionCount": 1
   },
   {
@@ -4256,7 +5299,9 @@
     "label": "lead-scoring",
     "firstMentioned": "2026-03-13",
     "lastMentioned": "2026-03-13",
-    "meetingRefs": ["marketing-2026-03-13"],
+    "meetingRefs": [
+      "marketing-2026-03-13"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -4265,7 +5310,9 @@
     "label": "multi-channel-marketing",
     "firstMentioned": "2026-03-13",
     "lastMentioned": "2026-03-13",
-    "meetingRefs": ["marketing-2026-03-13"],
+    "meetingRefs": [
+      "marketing-2026-03-13"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -4274,7 +5321,9 @@
     "label": "q1-financial-recap",
     "firstMentioned": "2026-03-23",
     "lastMentioned": "2026-03-23",
-    "meetingRefs": ["strolid-leadership-call-2026-03-23"],
+    "meetingRefs": [
+      "strolid-leadership-call-2026-03-23"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -4283,7 +5332,9 @@
     "label": "full-year-targets",
     "firstMentioned": "2026-03-23",
     "lastMentioned": "2026-03-23",
-    "meetingRefs": ["strolid-leadership-call-2026-03-23"],
+    "meetingRefs": [
+      "strolid-leadership-call-2026-03-23"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -4292,7 +5343,9 @@
     "label": "churn-reduction",
     "firstMentioned": "2026-03-23",
     "lastMentioned": "2026-03-23",
-    "meetingRefs": ["strolid-leadership-call-2026-03-23"],
+    "meetingRefs": [
+      "strolid-leadership-call-2026-03-23"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -4301,7 +5354,9 @@
     "label": "pipeline-update",
     "firstMentioned": "2026-03-23",
     "lastMentioned": "2026-03-23",
-    "meetingRefs": ["strolid-leadership-call-2026-03-23"],
+    "meetingRefs": [
+      "strolid-leadership-call-2026-03-23"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -4310,8 +5365,12 @@
     "label": "operational-structure",
     "firstMentioned": "2026-03-23",
     "lastMentioned": "2026-03-23",
-    "meetingRefs": ["strolid-leadership-call-2026-03-23"],
-    "decisionRefs": ["d-198"],
+    "meetingRefs": [
+      "strolid-leadership-call-2026-03-23"
+    ],
+    "decisionRefs": [
+      "d-198"
+    ],
     "mentionCount": 1
   },
   {
@@ -4319,7 +5378,9 @@
     "label": "performance-manager-role",
     "firstMentioned": "2026-03-23",
     "lastMentioned": "2026-03-23",
-    "meetingRefs": ["strolid-leadership-call-2026-03-23"],
+    "meetingRefs": [
+      "strolid-leadership-call-2026-03-23"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -4328,7 +5389,9 @@
     "label": "ai-agent-capabilities",
     "firstMentioned": "2026-03-23",
     "lastMentioned": "2026-03-23",
-    "meetingRefs": ["strolid-leadership-call-2026-03-23"],
+    "meetingRefs": [
+      "strolid-leadership-call-2026-03-23"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -4337,7 +5400,9 @@
     "label": "sophia-engagement-report",
     "firstMentioned": "2026-03-23",
     "lastMentioned": "2026-03-23",
-    "meetingRefs": ["strolid-leadership-call-2026-03-23"],
+    "meetingRefs": [
+      "strolid-leadership-call-2026-03-23"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -4346,7 +5411,9 @@
     "label": "personalization-crm-roadmap",
     "firstMentioned": "2026-03-23",
     "lastMentioned": "2026-03-23",
-    "meetingRefs": ["strolid-leadership-call-2026-03-23"],
+    "meetingRefs": [
+      "strolid-leadership-call-2026-03-23"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -4355,7 +5422,9 @@
     "label": "call-review-acquisition",
     "firstMentioned": "2026-03-23",
     "lastMentioned": "2026-03-23",
-    "meetingRefs": ["strolid-leadership-call-2026-03-23"],
+    "meetingRefs": [
+      "strolid-leadership-call-2026-03-23"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -4364,7 +5433,9 @@
     "label": "ai-budgeting",
     "firstMentioned": "2026-03-23",
     "lastMentioned": "2026-03-23",
-    "meetingRefs": ["strolid-leadership-call-2026-03-23"],
+    "meetingRefs": [
+      "strolid-leadership-call-2026-03-23"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -4373,7 +5444,9 @@
     "label": "soc-auditors-contract",
     "firstMentioned": "2026-03-23",
     "lastMentioned": "2026-03-23",
-    "meetingRefs": ["strolid-leadership-call-2026-03-23"],
+    "meetingRefs": [
+      "strolid-leadership-call-2026-03-23"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -4382,7 +5455,9 @@
     "label": "better-dead-solutions-deal",
     "firstMentioned": "2026-03-23",
     "lastMentioned": "2026-03-23",
-    "meetingRefs": ["strolid-leadership-call-2026-03-23"],
+    "meetingRefs": [
+      "strolid-leadership-call-2026-03-23"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -4391,7 +5466,9 @@
     "label": "lead-management",
     "firstMentioned": "2026-03-27",
     "lastMentioned": "2026-03-27",
-    "meetingRefs": ["michael-jason-2026-03-27"],
+    "meetingRefs": [
+      "michael-jason-2026-03-27"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -4400,7 +5477,9 @@
     "label": "dealer-setup",
     "firstMentioned": "2026-03-27",
     "lastMentioned": "2026-03-27",
-    "meetingRefs": ["michael-jason-2026-03-27"],
+    "meetingRefs": [
+      "michael-jason-2026-03-27"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -4409,7 +5488,9 @@
     "label": "lead-ownership",
     "firstMentioned": "2026-03-27",
     "lastMentioned": "2026-03-27",
-    "meetingRefs": ["michael-jason-2026-03-27"],
+    "meetingRefs": [
+      "michael-jason-2026-03-27"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -4418,7 +5499,9 @@
     "label": "internal-processes",
     "firstMentioned": "2026-03-27",
     "lastMentioned": "2026-03-27",
-    "meetingRefs": ["michael-jason-2026-03-27"],
+    "meetingRefs": [
+      "michael-jason-2026-03-27"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -4427,8 +5510,12 @@
     "label": "process-improvement",
     "firstMentioned": "2026-03-27",
     "lastMentioned": "2026-03-27",
-    "meetingRefs": ["michael-jason-2026-03-27"],
-    "decisionRefs": ["d-201"],
+    "meetingRefs": [
+      "michael-jason-2026-03-27"
+    ],
+    "decisionRefs": [
+      "d-201"
+    ],
     "mentionCount": 1
   },
   {
@@ -4436,7 +5523,9 @@
     "label": "dealer-email-issues",
     "firstMentioned": "2026-03-30",
     "lastMentioned": "2026-03-30",
-    "meetingRefs": ["scrum-standup-daily-update-2026-03-30"],
+    "meetingRefs": [
+      "scrum-standup-daily-update-2026-03-30"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -4445,7 +5534,9 @@
     "label": "copilot-updates",
     "firstMentioned": "2026-03-30",
     "lastMentioned": "2026-03-30",
-    "meetingRefs": ["scrum-standup-daily-update-2026-03-30"],
+    "meetingRefs": [
+      "scrum-standup-daily-update-2026-03-30"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -4454,7 +5545,9 @@
     "label": "personalized-voicemail-feature",
     "firstMentioned": "2026-03-30",
     "lastMentioned": "2026-03-30",
-    "meetingRefs": ["scrum-standup-daily-update-2026-03-30"],
+    "meetingRefs": [
+      "scrum-standup-daily-update-2026-03-30"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -4463,7 +5556,9 @@
     "label": "conditional-tags-feature",
     "firstMentioned": "2026-03-30",
     "lastMentioned": "2026-03-30",
-    "meetingRefs": ["scrum-standup-daily-update-2026-03-30"],
+    "meetingRefs": [
+      "scrum-standup-daily-update-2026-03-30"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -4472,7 +5567,9 @@
     "label": "silent-line-call-reports",
     "firstMentioned": "2026-03-30",
     "lastMentioned": "2026-03-30",
-    "meetingRefs": ["scrum-standup-daily-update-2026-03-30"],
+    "meetingRefs": [
+      "scrum-standup-daily-update-2026-03-30"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -4481,7 +5578,9 @@
     "label": "portal-gpt-evaluation-feature",
     "firstMentioned": "2026-03-30",
     "lastMentioned": "2026-03-30",
-    "meetingRefs": ["scrum-standup-daily-update-2026-03-30"],
+    "meetingRefs": [
+      "scrum-standup-daily-update-2026-03-30"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -4490,7 +5589,9 @@
     "label": "momentum-api",
     "firstMentioned": "2026-03-30",
     "lastMentioned": "2026-03-30",
-    "meetingRefs": ["scrum-standup-daily-update-2026-03-30"],
+    "meetingRefs": [
+      "scrum-standup-daily-update-2026-03-30"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -4499,7 +5600,9 @@
     "label": "serverless-infrastructure",
     "firstMentioned": "2026-03-30",
     "lastMentioned": "2026-03-30",
-    "meetingRefs": ["scrum-standup-daily-update-2026-03-30"],
+    "meetingRefs": [
+      "scrum-standup-daily-update-2026-03-30"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -4508,7 +5611,9 @@
     "label": "automated-voicemail-issues",
     "firstMentioned": "2026-03-30",
     "lastMentioned": "2026-03-30",
-    "meetingRefs": ["scrum-standup-daily-update-2026-03-30"],
+    "meetingRefs": [
+      "scrum-standup-daily-update-2026-03-30"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -4517,7 +5622,9 @@
     "label": "advanced-llm-workflow",
     "firstMentioned": "2026-03-30",
     "lastMentioned": "2026-03-30",
-    "meetingRefs": ["scrum-standup-daily-update-2026-03-30"],
+    "meetingRefs": [
+      "scrum-standup-daily-update-2026-03-30"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -4526,7 +5633,9 @@
     "label": "agent-orchestration",
     "firstMentioned": "2026-03-30",
     "lastMentioned": "2026-03-30",
-    "meetingRefs": ["scrum-standup-daily-update-2026-03-30"],
+    "meetingRefs": [
+      "scrum-standup-daily-update-2026-03-30"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -4535,8 +5644,13 @@
     "label": "meeting-schedule",
     "firstMentioned": "2026-03-30",
     "lastMentioned": "2026-03-30",
-    "meetingRefs": ["strolid-leadership-call-2026-03-30"],
-    "decisionRefs": ["d-042", "d-206"],
+    "meetingRefs": [
+      "strolid-leadership-call-2026-03-30"
+    ],
+    "decisionRefs": [
+      "d-042",
+      "d-206"
+    ],
     "mentionCount": 1
   },
   {
@@ -4544,8 +5658,12 @@
     "label": "lithia-presentation",
     "firstMentioned": "2026-03-30",
     "lastMentioned": "2026-03-30",
-    "meetingRefs": ["strolid-leadership-call-2026-03-30"],
-    "decisionRefs": ["d-207"],
+    "meetingRefs": [
+      "strolid-leadership-call-2026-03-30"
+    ],
+    "decisionRefs": [
+      "d-207"
+    ],
     "mentionCount": 1
   },
   {
@@ -4553,7 +5671,9 @@
     "label": "dealer-onboarding",
     "firstMentioned": "2026-03-30",
     "lastMentioned": "2026-03-30",
-    "meetingRefs": ["strolid-leadership-call-2026-03-30"],
+    "meetingRefs": [
+      "strolid-leadership-call-2026-03-30"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -4562,8 +5682,12 @@
     "label": "ai-marketplace-development",
     "firstMentioned": "2026-03-30",
     "lastMentioned": "2026-03-30",
-    "meetingRefs": ["strolid-leadership-call-2026-03-30"],
-    "decisionRefs": ["d-210"],
+    "meetingRefs": [
+      "strolid-leadership-call-2026-03-30"
+    ],
+    "decisionRefs": [
+      "d-210"
+    ],
     "mentionCount": 1
   },
   {
@@ -4571,7 +5695,9 @@
     "label": "data-presentation",
     "firstMentioned": "2026-03-30",
     "lastMentioned": "2026-03-30",
-    "meetingRefs": ["strolid-leadership-call-2026-03-30"],
+    "meetingRefs": [
+      "strolid-leadership-call-2026-03-30"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -4580,7 +5706,9 @@
     "label": "presentation-framework",
     "firstMentioned": "2026-03-30",
     "lastMentioned": "2026-03-30",
-    "meetingRefs": ["strolid-leadership-call-2026-03-30"],
+    "meetingRefs": [
+      "strolid-leadership-call-2026-03-30"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -4589,7 +5717,9 @@
     "label": "crm-visualization",
     "firstMentioned": "2026-03-30",
     "lastMentioned": "2026-03-30",
-    "meetingRefs": ["weekly-1-on-1-with-michael-d-and-joe-f-2026-03-30"],
+    "meetingRefs": [
+      "weekly-1-on-1-with-michael-d-and-joe-f-2026-03-30"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -4598,7 +5728,9 @@
     "label": "relational-database",
     "firstMentioned": "2026-03-30",
     "lastMentioned": "2026-03-30",
-    "meetingRefs": ["weekly-1-on-1-with-michael-d-and-joe-f-2026-03-30"],
+    "meetingRefs": [
+      "weekly-1-on-1-with-michael-d-and-joe-f-2026-03-30"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -4607,8 +5739,12 @@
     "label": "crm-foundational-fixes",
     "firstMentioned": "2026-03-30",
     "lastMentioned": "2026-03-30",
-    "meetingRefs": ["weekly-1-on-1-with-michael-d-and-joe-f-2026-03-30"],
-    "decisionRefs": ["d-211"],
+    "meetingRefs": [
+      "weekly-1-on-1-with-michael-d-and-joe-f-2026-03-30"
+    ],
+    "decisionRefs": [
+      "d-211"
+    ],
     "mentionCount": 1
   },
   {
@@ -4616,7 +5752,9 @@
     "label": "marketing-strategy",
     "firstMentioned": "2026-03-30",
     "lastMentioned": "2026-03-30",
-    "meetingRefs": ["weekly-1-on-1-with-michael-d-and-joe-f-2026-03-30"],
+    "meetingRefs": [
+      "weekly-1-on-1-with-michael-d-and-joe-f-2026-03-30"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -4625,7 +5763,9 @@
     "label": "email-campaigns",
     "firstMentioned": "2026-03-30",
     "lastMentioned": "2026-03-30",
-    "meetingRefs": ["weekly-1-on-1-with-michael-d-and-joe-f-2026-03-30"],
+    "meetingRefs": [
+      "weekly-1-on-1-with-michael-d-and-joe-f-2026-03-30"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -4634,7 +5774,9 @@
     "label": "process-adherence",
     "firstMentioned": "2026-03-30",
     "lastMentioned": "2026-03-30",
-    "meetingRefs": ["weekly-1-on-1-with-michael-d-and-joe-f-2026-03-30"],
+    "meetingRefs": [
+      "weekly-1-on-1-with-michael-d-and-joe-f-2026-03-30"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -4643,7 +5785,9 @@
     "label": "zoho-crm",
     "firstMentioned": "2026-03-31",
     "lastMentioned": "2026-03-31",
-    "meetingRefs": ["michael-sergey-2026-03-31"],
+    "meetingRefs": [
+      "michael-sergey-2026-03-31"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -4652,7 +5796,9 @@
     "label": "database-model",
     "firstMentioned": "2026-03-31",
     "lastMentioned": "2026-03-31",
-    "meetingRefs": ["michael-sergey-2026-03-31"],
+    "meetingRefs": [
+      "michael-sergey-2026-03-31"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -4661,7 +5807,9 @@
     "label": "internal-marketplace",
     "firstMentioned": "2026-03-31",
     "lastMentioned": "2026-03-31",
-    "meetingRefs": ["michael-sergey-2026-03-31"],
+    "meetingRefs": [
+      "michael-sergey-2026-03-31"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -4670,7 +5818,9 @@
     "label": "skills",
     "firstMentioned": "2026-03-31",
     "lastMentioned": "2026-03-31",
-    "meetingRefs": ["michael-sergey-2026-03-31"],
+    "meetingRefs": [
+      "michael-sergey-2026-03-31"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -4679,8 +5829,12 @@
     "label": "account-limits",
     "firstMentioned": "2026-03-31",
     "lastMentioned": "2026-03-31",
-    "meetingRefs": ["michael-sergey-2026-03-31"],
-    "decisionRefs": ["d-218"],
+    "meetingRefs": [
+      "michael-sergey-2026-03-31"
+    ],
+    "decisionRefs": [
+      "d-218"
+    ],
     "mentionCount": 1
   },
   {
@@ -4688,7 +5842,9 @@
     "label": "skill-deployment",
     "firstMentioned": "2026-03-31",
     "lastMentioned": "2026-03-31",
-    "meetingRefs": ["michael-sergey-2026-03-31"],
+    "meetingRefs": [
+      "michael-sergey-2026-03-31"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -4697,7 +5853,9 @@
     "label": "permissions",
     "firstMentioned": "2026-03-31",
     "lastMentioned": "2026-03-31",
-    "meetingRefs": ["michael-sergey-2026-03-31"],
+    "meetingRefs": [
+      "michael-sergey-2026-03-31"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -4706,7 +5864,9 @@
     "label": "configuration",
     "firstMentioned": "2026-03-31",
     "lastMentioned": "2026-03-31",
-    "meetingRefs": ["michael-sergey-2026-03-31"],
+    "meetingRefs": [
+      "michael-sergey-2026-03-31"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -4715,7 +5875,9 @@
     "label": "b2b-buyer-behavior",
     "firstMentioned": "2026-03-31",
     "lastMentioned": "2026-03-31",
-    "meetingRefs": ["the-marketing-meeting-2026-03-31"],
+    "meetingRefs": [
+      "the-marketing-meeting-2026-03-31"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -4724,7 +5886,9 @@
     "label": "customer-matching",
     "firstMentioned": "2026-03-31",
     "lastMentioned": "2026-03-31",
-    "meetingRefs": ["the-marketing-meeting-2026-03-31"],
+    "meetingRefs": [
+      "the-marketing-meeting-2026-03-31"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -4733,7 +5897,9 @@
     "label": "linkedin-marketing",
     "firstMentioned": "2026-03-31",
     "lastMentioned": "2026-03-31",
-    "meetingRefs": ["the-marketing-meeting-2026-03-31"],
+    "meetingRefs": [
+      "the-marketing-meeting-2026-03-31"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -4742,7 +5908,9 @@
     "label": "roi-calculator",
     "firstMentioned": "2026-03-31",
     "lastMentioned": "2026-03-31",
-    "meetingRefs": ["the-marketing-meeting-2026-03-31"],
+    "meetingRefs": [
+      "the-marketing-meeting-2026-03-31"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -4751,7 +5919,9 @@
     "label": "dealer-challenges",
     "firstMentioned": "2026-03-31",
     "lastMentioned": "2026-03-31",
-    "meetingRefs": ["the-marketing-meeting-2026-03-31"],
+    "meetingRefs": [
+      "the-marketing-meeting-2026-03-31"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -4760,7 +5930,9 @@
     "label": "lead-nurturing",
     "firstMentioned": "2026-03-31",
     "lastMentioned": "2026-03-31",
-    "meetingRefs": ["the-marketing-meeting-2026-03-31"],
+    "meetingRefs": [
+      "the-marketing-meeting-2026-03-31"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -4769,7 +5941,9 @@
     "label": "developer-plugins",
     "firstMentioned": "2026-04-01",
     "lastMentioned": "2026-04-01",
-    "meetingRefs": ["product-marketing-alignment-2026-04-01"],
+    "meetingRefs": [
+      "product-marketing-alignment-2026-04-01"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -4778,8 +5952,12 @@
     "label": "team-account-status",
     "firstMentioned": "2026-04-01",
     "lastMentioned": "2026-04-01",
-    "meetingRefs": ["product-marketing-alignment-2026-04-01"],
-    "decisionRefs": ["d-222"],
+    "meetingRefs": [
+      "product-marketing-alignment-2026-04-01"
+    ],
+    "decisionRefs": [
+      "d-222"
+    ],
     "mentionCount": 1
   },
   {
@@ -4787,8 +5965,12 @@
     "label": "snowflake-access",
     "firstMentioned": "2026-04-01",
     "lastMentioned": "2026-04-01",
-    "meetingRefs": ["product-marketing-alignment-2026-04-01"],
-    "decisionRefs": ["d-223"],
+    "meetingRefs": [
+      "product-marketing-alignment-2026-04-01"
+    ],
+    "decisionRefs": [
+      "d-223"
+    ],
     "mentionCount": 1
   },
   {
@@ -4796,8 +5978,12 @@
     "label": "security-vulnerabilities",
     "firstMentioned": "2026-04-01",
     "lastMentioned": "2026-04-01",
-    "meetingRefs": ["product-marketing-alignment-2026-04-01"],
-    "decisionRefs": ["d-221"],
+    "meetingRefs": [
+      "product-marketing-alignment-2026-04-01"
+    ],
+    "decisionRefs": [
+      "d-221"
+    ],
     "mentionCount": 1
   },
   {
@@ -4805,7 +5991,9 @@
     "label": "risk-governance",
     "firstMentioned": "2026-04-01",
     "lastMentioned": "2026-04-01",
-    "meetingRefs": ["product-marketing-alignment-2026-04-01"],
+    "meetingRefs": [
+      "product-marketing-alignment-2026-04-01"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -4814,8 +6002,12 @@
     "label": "website-restructuring",
     "firstMentioned": "2026-04-01",
     "lastMentioned": "2026-04-01",
-    "meetingRefs": ["product-marketing-alignment-2026-04-01"],
-    "decisionRefs": ["d-224"],
+    "meetingRefs": [
+      "product-marketing-alignment-2026-04-01"
+    ],
+    "decisionRefs": [
+      "d-224"
+    ],
     "mentionCount": 1
   },
   {
@@ -4823,7 +6015,9 @@
     "label": "performance-metrics",
     "firstMentioned": "2026-04-01",
     "lastMentioned": "2026-04-01",
-    "meetingRefs": ["product-marketing-alignment-2026-04-01"],
+    "meetingRefs": [
+      "product-marketing-alignment-2026-04-01"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -4832,7 +6026,9 @@
     "label": "personal-automation-project",
     "firstMentioned": "2026-04-01",
     "lastMentioned": "2026-04-01",
-    "meetingRefs": ["product-marketing-alignment-2026-04-01"],
+    "meetingRefs": [
+      "product-marketing-alignment-2026-04-01"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -4841,7 +6037,9 @@
     "label": "agent-architecture",
     "firstMentioned": "2026-04-01",
     "lastMentioned": "2026-04-01",
-    "meetingRefs": ["product-marketing-alignment-2026-04-01"],
+    "meetingRefs": [
+      "product-marketing-alignment-2026-04-01"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -4850,7 +6048,9 @@
     "label": "data-evaluation",
     "firstMentioned": "2026-04-01",
     "lastMentioned": "2026-04-01",
-    "meetingRefs": ["product-marketing-alignment-2026-04-01"],
+    "meetingRefs": [
+      "product-marketing-alignment-2026-04-01"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -4859,7 +6059,9 @@
     "label": "monetization-strategy",
     "firstMentioned": "2026-04-01",
     "lastMentioned": "2026-04-01",
-    "meetingRefs": ["product-marketing-alignment-2026-04-01"],
+    "meetingRefs": [
+      "product-marketing-alignment-2026-04-01"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -4868,7 +6070,9 @@
     "label": "hardware-setup",
     "firstMentioned": "2026-04-01",
     "lastMentioned": "2026-04-01",
-    "meetingRefs": ["product-marketing-alignment-2026-04-01"],
+    "meetingRefs": [
+      "product-marketing-alignment-2026-04-01"
+    ],
     "decisionRefs": [],
     "mentionCount": 1
   },
@@ -4877,8 +6081,12 @@
     "label": "local-development-environment",
     "firstMentioned": "2026-04-01",
     "lastMentioned": "2026-04-01",
-    "meetingRefs": ["product-marketing-alignment-2026-04-01"],
-    "decisionRefs": ["d-225"],
+    "meetingRefs": [
+      "product-marketing-alignment-2026-04-01"
+    ],
+    "decisionRefs": [
+      "d-225"
+    ],
     "mentionCount": 1
   }
 ]

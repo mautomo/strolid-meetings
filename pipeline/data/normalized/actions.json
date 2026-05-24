@@ -5,12 +5,13 @@
     "owner": "Unassigned",
     "meetingId": "product-roadmap-planning-2025-01-28",
     "meetingDate": "2025-01-28",
+    "deadline": null,
     "status": "done",
+    "resolvedInMeeting": "marketing-2026-03-13",
     "expectedOutcome": {
       "system": "other",
       "description": "Improved understanding of the portal's value and demo capabilities among sales and client success teams."
-    },
-    "resolvedInMeeting": "marketing-2026-03-13"
+    }
   },
   {
     "id": "a-002",
@@ -18,7 +19,9 @@
     "owner": "Vinnie Micciche",
     "meetingId": "product-roadmap-planning-2025-01-28",
     "meetingDate": "2025-01-28",
+    "deadline": null,
     "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "other",
       "description": "Identified areas for improvement in GPT functionality and dealer training."
@@ -30,7 +33,9 @@
     "owner": "Matt Watson",
     "meetingId": "product-roadmap-planning-2025-01-28",
     "meetingDate": "2025-01-28",
+    "deadline": null,
     "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "google-analytics",
       "description": "Establish baselines and track user engagement metrics to assess the effectiveness of changes."
@@ -42,7 +47,9 @@
     "owner": "Joe Furnari",
     "meetingId": "product-roadmap-planning-2025-02-04",
     "meetingDate": "2025-02-04",
+    "deadline": null,
     "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "other",
       "description": "A clear understanding of the required effort and costs associated with project timelines."
@@ -54,7 +61,9 @@
     "owner": "Michael Donovan",
     "meetingId": "1-on-1-joe-and-michael-2025-07-01",
     "meetingDate": "2025-07-01",
+    "deadline": null,
     "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "other",
       "description": "Analysis of ad spend and performance metrics."
@@ -66,7 +75,9 @@
     "owner": "Joe Furnari",
     "meetingId": "1-on-1-joe-and-michael-2025-07-01",
     "meetingDate": "2025-07-01",
+    "deadline": null,
     "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "google-docs",
       "description": "Document outlining CRM project goals and deliverables."
@@ -78,12 +89,13 @@
     "owner": "Joe Furnari",
     "meetingId": "1-on-1-joe-and-michael-2025-07-01",
     "meetingDate": "2025-07-01",
+    "deadline": null,
     "status": "done",
+    "resolvedInMeeting": "jason-michael-2025-09-16",
     "expectedOutcome": {
       "system": "calendar",
       "description": "Scheduled meeting with Michael and Jason."
-    },
-    "resolvedInMeeting": "jason-michael-2025-09-16"
+    }
   },
   {
     "id": "a-008",
@@ -91,12 +103,13 @@
     "owner": "Michael Donovan",
     "meetingId": "1-on-1-joe-and-michael-2025-07-01",
     "meetingDate": "2025-07-01",
+    "deadline": null,
     "status": "done",
+    "resolvedInMeeting": "jason-michael-2025-09-16",
     "expectedOutcome": {
       "system": "google-docs",
       "description": "Documentation outlining Zoho Sales IQ functionality."
-    },
-    "resolvedInMeeting": "jason-michael-2025-09-16"
+    }
   },
   {
     "id": "a-009",
@@ -104,7 +117,9 @@
     "owner": "Michael Donovan",
     "meetingId": "1-on-1-joe-and-michael-2025-07-01",
     "meetingDate": "2025-07-01",
+    "deadline": null,
     "status": "recurring",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "google-docs",
       "description": "Formatted CRM documentation shared with relevant stakeholders."
@@ -116,7 +131,9 @@
     "owner": "Joe Furnari",
     "meetingId": "1-on-1-joe-and-michael-2025-07-01",
     "meetingDate": "2025-07-01",
+    "deadline": null,
     "status": "recurring",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "other",
       "description": "Resolution of concerns about bonus payments and job security."
@@ -130,6 +147,7 @@
     "meetingDate": "2025-09-16",
     "deadline": "2025-09-16",
     "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "other",
       "description": "The BDC app is functional with capabilities to scan a market and create email campaigns."
@@ -143,6 +161,7 @@
     "meetingDate": "2025-09-16",
     "deadline": "2025-09-16",
     "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "email",
       "description": "Jason Branham receives an invitation to access the BDC app."
@@ -156,6 +175,7 @@
     "meetingDate": "2025-09-16",
     "deadline": "2025-09-16",
     "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "codebase",
       "description": "Tag manager implemented for Rainbow store."
@@ -167,7 +187,9 @@
     "owner": "Michael Donovan",
     "meetingId": "jason-michael-2025-09-16",
     "meetingDate": "2025-09-16",
+    "deadline": null,
     "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "slack",
       "description": "Team members are aware of the next steps for analysis and automation"
@@ -179,7 +201,9 @@
     "owner": "Michael Donovan",
     "meetingId": "homepage-hero-session-2025-09-23",
     "meetingDate": "2025-09-23",
+    "deadline": null,
     "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "other",
       "description": "A usable task list with fields for concepts, messages, due dates, and linked files."
@@ -191,7 +215,9 @@
     "owner": "Michael Donovan",
     "meetingId": "homepage-hero-session-2025-09-23",
     "meetingDate": "2025-09-23",
+    "deadline": null,
     "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "other",
       "description": "Ziad has the agenda for the marketing meeting."
@@ -203,7 +229,9 @@
     "owner": "Michael Donovan",
     "meetingId": "homepage-hero-session-2025-09-23",
     "meetingDate": "2025-09-23",
+    "deadline": null,
     "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "other",
       "description": "Ziad has historical design documents for reference."
@@ -215,7 +243,9 @@
     "owner": "Michael Donovan",
     "meetingId": "homepage-hero-session-2025-09-23",
     "meetingDate": "2025-09-23",
+    "deadline": null,
     "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "google-docs",
       "description": "Ziad has access to the Strawid brand guidelines including logo usage and color palettes."
@@ -227,12 +257,13 @@
     "owner": "Ziad Al Khatib",
     "meetingId": "homepage-hero-session-2025-09-23",
     "meetingDate": "2025-09-23",
+    "deadline": null,
     "status": "done",
+    "resolvedInMeeting": "active-pipeline-review-2026-03-12",
     "expectedOutcome": {
       "system": "email",
       "description": "Michael Donovan understands how Ziad Al Khatib is using Gemini for image creation."
-    },
-    "resolvedInMeeting": "active-pipeline-review-2026-03-12"
+    }
   },
   {
     "id": "a-020",
@@ -242,6 +273,7 @@
     "meetingDate": "2025-09-23",
     "deadline": "2025-09-24",
     "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "other",
       "description": "Ziad Al Khatib has watched the movies and is ready to discuss them."
@@ -253,7 +285,9 @@
     "owner": "Ziad Al Khatib",
     "meetingId": "homepage-hero-session-2025-09-23",
     "meetingDate": "2025-09-23",
+    "deadline": null,
     "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "website",
       "description": "Ziad Al Khatib has researched modern web trends and examples of hero images."
@@ -265,7 +299,9 @@
     "owner": "Ziad Al Khatib",
     "meetingId": "homepage-hero-session-2025-09-23",
     "meetingDate": "2025-09-23",
+    "deadline": null,
     "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "website",
       "description": "Ziad Al Khatib has specific examples of desired design styles."
@@ -277,7 +313,9 @@
     "owner": "Ziad Al Khatib",
     "meetingId": "homepage-hero-session-2025-09-23",
     "meetingDate": "2025-09-23",
+    "deadline": null,
     "status": "recurring",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "other",
       "description": "Michael Donovan understands Ziad Al Khatib's design aesthetic."
@@ -289,7 +327,9 @@
     "owner": "Michael Donovan",
     "meetingId": "tech-process-and-product-review-2025-09-24",
     "meetingDate": "2025-09-24",
+    "deadline": null,
     "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "other",
       "description": "Functional and accessible marketing automation platform."
@@ -301,12 +341,13 @@
     "owner": "Audrey Hayn",
     "meetingId": "tech-process-and-product-review-2025-09-24",
     "meetingDate": "2025-09-24",
+    "deadline": null,
     "status": "done",
+    "resolvedInMeeting": "the-marketing-meeting-2026-01-06",
     "expectedOutcome": {
       "system": "other",
       "description": "Familiarization with the features and potential uses of the platform."
-    },
-    "resolvedInMeeting": "the-marketing-meeting-2026-01-06"
+    }
   },
   {
     "id": "a-026",
@@ -314,12 +355,13 @@
     "owner": "Claude Hayn",
     "meetingId": "tech-process-and-product-review-2025-09-24",
     "meetingDate": "2025-09-24",
+    "deadline": null,
     "status": "done",
+    "resolvedInMeeting": "the-marketing-meeting-2026-01-06",
     "expectedOutcome": {
       "system": "other",
       "description": "Familiarization with the features and potential uses of the platform."
-    },
-    "resolvedInMeeting": "the-marketing-meeting-2026-01-06"
+    }
   },
   {
     "id": "a-027",
@@ -327,7 +369,9 @@
     "owner": "Michael Donovan",
     "meetingId": "tech-process-and-product-review-2025-09-24",
     "meetingDate": "2025-09-24",
+    "deadline": null,
     "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "google-docs",
       "description": "Accessible documentation detailing the design of the platform."
@@ -341,6 +385,7 @@
     "meetingDate": "2025-09-24",
     "deadline": "2025-09-29",
     "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "other",
       "description": "Audrey and Claude Hayn gain access to the closed beta platform."
@@ -352,7 +397,9 @@
     "owner": "Sergey Lyapustin",
     "meetingId": "active-pipeline-review-2025-10-02",
     "meetingDate": "2025-10-02",
+    "deadline": null,
     "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "crm",
       "description": "Identify the root cause of the high API failure rate and implement a solution to reduce it."
@@ -364,7 +411,9 @@
     "owner": "Shawna Behen",
     "meetingId": "active-pipeline-review-2025-10-02",
     "meetingDate": "2025-10-02",
+    "deadline": null,
     "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "crm",
       "description": "Verify that call notes are successfully pushed to VIN Solutions and the portal link is clickable."
@@ -376,7 +425,9 @@
     "owner": "Harinder Bhinder",
     "meetingId": "active-pipeline-review-2025-10-02",
     "meetingDate": "2025-10-02",
+    "deadline": null,
     "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "other",
       "description": "Obtain a complete list of users with system access for security review."
@@ -388,7 +439,9 @@
     "owner": "Sergey Lyapustin",
     "meetingId": "active-pipeline-review-2025-10-02",
     "meetingDate": "2025-10-02",
+    "deadline": null,
     "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "portal",
       "description": "Implement a streamlined onboarding process for new portal users."
@@ -400,7 +453,9 @@
     "owner": "Matt Watson",
     "meetingId": "active-pipeline-review-2025-10-02",
     "meetingDate": "2025-10-02",
+    "deadline": null,
     "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "other",
       "description": "Holly's evaluation checklist includes if the CRM is able to receive call notes from our system."
@@ -412,7 +467,9 @@
     "owner": "Vinnie Micciche",
     "meetingId": "the-marketing-meeting-2025-10-21",
     "meetingDate": "2025-10-21",
+    "deadline": null,
     "status": "recurring",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "other",
       "description": "Provide feedback and approval on the shared content."
@@ -426,11 +483,11 @@
     "meetingDate": "2025-10-24",
     "deadline": "2025-10-24",
     "status": "done",
+    "resolvedInMeeting": "the-marketing-meeting-2026-01-06",
     "expectedOutcome": {
       "system": "email",
       "description": "Perry Evans receives a link to the staging website."
-    },
-    "resolvedInMeeting": "the-marketing-meeting-2026-01-06"
+    }
   },
   {
     "id": "a-036",
@@ -438,7 +495,9 @@
     "owner": "Michael Donovan",
     "meetingId": "vconic-priority-content-update-2025-10-24",
     "meetingDate": "2025-10-24",
+    "deadline": null,
     "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "website",
       "description": "Perry Evans can access and view the draft website."
@@ -450,12 +509,13 @@
     "owner": "Michael Donovan",
     "meetingId": "vconic-priority-content-update-2025-10-24",
     "meetingDate": "2025-10-24",
+    "deadline": null,
     "status": "done",
+    "resolvedInMeeting": "marketing-2026-03-13",
     "expectedOutcome": {
       "system": "linkedin",
       "description": "Templates and design language established for upcoming LinkedIn posts."
-    },
-    "resolvedInMeeting": "marketing-2026-03-13"
+    }
   },
   {
     "id": "a-038",
@@ -465,6 +525,7 @@
     "meetingDate": "2025-10-28",
     "deadline": "2025-10-28",
     "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "email",
       "description": "Email sent with link to Viconic site and options for approval."
@@ -476,7 +537,9 @@
     "owner": "Vinnie Micciche",
     "meetingId": "the-marketing-meeting-2025-10-28",
     "meetingDate": "2025-10-28",
+    "deadline": null,
     "status": "recurring",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "email",
       "description": "Feedback provided on carousel posts."
@@ -488,7 +551,9 @@
     "owner": "Michael Donovan",
     "meetingId": "the-marketing-meeting-2025-10-28",
     "meetingDate": "2025-10-28",
+    "deadline": null,
     "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "other",
       "description": "Identify and recommend the highest value keyword."
@@ -500,12 +565,13 @@
     "owner": "Ziad Al Khatib",
     "meetingId": "weekly-marketing-planning-goals-2025-11-10",
     "meetingDate": "2025-11-10",
+    "deadline": null,
     "status": "done",
+    "resolvedInMeeting": "the-marketing-meeting-2026-01-06",
     "expectedOutcome": {
       "system": "email",
       "description": "Michael Donovan receives a PDF containing the past creative posts."
-    },
-    "resolvedInMeeting": "the-marketing-meeting-2026-01-06"
+    }
   },
   {
     "id": "a-042",
@@ -515,11 +581,11 @@
     "meetingDate": "2025-11-11",
     "deadline": "2025-11-12",
     "status": "done",
+    "resolvedInMeeting": "the-marketing-meeting-2026-01-06",
     "expectedOutcome": {
       "system": "google-docs",
       "description": "Vinnie Micciche receives a document with revised social media posts incorporating feedback."
-    },
-    "resolvedInMeeting": "the-marketing-meeting-2026-01-06"
+    }
   },
   {
     "id": "a-043",
@@ -527,7 +593,9 @@
     "owner": "Vinnie Micciche",
     "meetingId": "the-marketing-meeting-2025-11-11",
     "meetingDate": "2025-11-11",
+    "deadline": null,
     "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "email",
       "description": "Team receives email with data on future lead origination."
@@ -539,7 +607,9 @@
     "owner": "Vinnie Micciche",
     "meetingId": "the-marketing-meeting-2025-11-11",
     "meetingDate": "2025-11-11",
+    "deadline": null,
     "status": "recurring",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "google-docs",
       "description": "Ziad Al Khatib receives feedback on the updated creatives."
@@ -551,7 +621,9 @@
     "owner": "Michael Donovan",
     "meetingId": "the-marketing-meeting-2025-11-11",
     "meetingDate": "2025-11-11",
+    "deadline": null,
     "status": "open",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "google-docs",
       "description": "Vinnie Micciche receives outline material for the content strategy."
@@ -563,7 +635,9 @@
     "owner": "Michael Donovan",
     "meetingId": "the-marketing-meeting-2025-11-11",
     "meetingDate": "2025-11-11",
+    "deadline": null,
     "status": "recurring",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "google-docs",
       "description": "Vinnie Micciche can easily review full social media posts in the document."
@@ -575,12 +649,13 @@
     "owner": "Michael Donovan",
     "meetingId": "the-marketing-meeting-2025-11-11",
     "meetingDate": "2025-11-11",
+    "deadline": null,
     "status": "done",
+    "resolvedInMeeting": "the-marketing-meeting-2026-01-06",
     "expectedOutcome": {
       "system": "google-docs",
       "description": "Vinnie Micciche receives the updated document with control content for review."
-    },
-    "resolvedInMeeting": "the-marketing-meeting-2026-01-06"
+    }
   },
   {
     "id": "a-048",
@@ -588,7 +663,9 @@
     "owner": "Perry Evans",
     "meetingId": "vconic-site-content-2025-11-20",
     "meetingDate": "2025-11-20",
+    "deadline": null,
     "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "other",
       "description": "Identification of a video production partner in Denver."
@@ -600,7 +677,9 @@
     "owner": "Michael Donovan",
     "meetingId": "vconic-site-content-2025-11-20",
     "meetingDate": "2025-11-20",
+    "deadline": null,
     "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "google-docs",
       "description": "Visualization mapping document with video and animation concepts, including logo variations."
@@ -612,12 +691,13 @@
     "owner": "Perry Evans",
     "meetingId": "vconic-site-content-2025-11-20",
     "meetingDate": "2025-11-20",
+    "deadline": null,
     "status": "done",
+    "resolvedInMeeting": "the-marketing-meeting-2026-01-06",
     "expectedOutcome": {
       "system": "google-docs",
       "description": "A shortlist of video production partners with a scheduled meeting for review."
-    },
-    "resolvedInMeeting": "the-marketing-meeting-2026-01-06"
+    }
   },
   {
     "id": "a-051",
@@ -625,7 +705,9 @@
     "owner": "Perry Evans",
     "meetingId": "vconic-site-content-2025-11-20",
     "meetingDate": "2025-11-20",
+    "deadline": null,
     "status": "open",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "google-docs",
       "description": "Refined Viconic Labs content document with compelling subtext."
@@ -637,7 +719,9 @@
     "owner": "Michael Donovan",
     "meetingId": "vconic-site-content-2025-11-20",
     "meetingDate": "2025-11-20",
+    "deadline": null,
     "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "website",
       "description": "Examples or implementation of vector scroll animations on the website."
@@ -649,7 +733,9 @@
     "owner": "Perry Evans",
     "meetingId": "vconic-site-content-2025-11-20",
     "meetingDate": "2025-11-20",
+    "deadline": null,
     "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "other",
       "description": "Engagement of a video production resource with experience in integrated video content."
@@ -661,7 +747,9 @@
     "owner": "Michael Donovan",
     "meetingId": "the-marketing-meeting-2025-11-25",
     "meetingDate": "2025-11-25",
+    "deadline": null,
     "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "google-docs",
       "description": "A template document is available for others to create sales decks that align with the company's aesthetic and messaging."
@@ -673,7 +761,9 @@
     "owner": "Michael Donovan",
     "meetingId": "the-marketing-meeting-2025-11-25",
     "meetingDate": "2025-11-25",
+    "deadline": null,
     "status": "recurring",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "google-docs",
       "description": "A comprehensive Looker Studio dashboard is available that provides a single view of all marketing data."
@@ -685,12 +775,13 @@
     "owner": "Michael Donovan",
     "meetingId": "the-marketing-meeting-2025-11-25",
     "meetingDate": "2025-11-25",
+    "deadline": null,
     "status": "done",
+    "resolvedInMeeting": "the-marketing-meeting-2026-01-06",
     "expectedOutcome": {
       "system": "google-docs",
       "description": "Vinnie Micciche will review and approve the restructured website content."
-    },
-    "resolvedInMeeting": "the-marketing-meeting-2026-01-06"
+    }
   },
   {
     "id": "a-057",
@@ -698,7 +789,9 @@
     "owner": "Michael Donovan",
     "meetingId": "the-marketing-meeting-2025-11-25",
     "meetingDate": "2025-11-25",
+    "deadline": null,
     "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "google-docs",
       "description": "The source of the high direct traffic in Google Analytics is identified and documented."
@@ -710,7 +803,9 @@
     "owner": "Michael Donovan",
     "meetingId": "the-marketing-meeting-2025-11-25",
     "meetingDate": "2025-11-25",
+    "deadline": null,
     "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "google-docs",
       "description": "Google Tag Manager is correctly configured to accurately track website traffic."
@@ -722,12 +817,13 @@
     "owner": "Michael Donovan",
     "meetingId": "the-marketing-meeting-2025-11-25",
     "meetingDate": "2025-11-25",
+    "deadline": null,
     "status": "done",
+    "resolvedInMeeting": "active-pipeline-review-2026-03-12",
     "expectedOutcome": {
       "system": "google-docs",
       "description": "A refined sales deck is created that aligns with the new website aesthetic and Jason Branham's messaging."
-    },
-    "resolvedInMeeting": "active-pipeline-review-2026-03-12"
+    }
   },
   {
     "id": "a-060",
@@ -735,12 +831,13 @@
     "owner": "Michael Donovan",
     "meetingId": "the-marketing-meeting-2025-11-25",
     "meetingDate": "2025-11-25",
+    "deadline": null,
     "status": "done",
+    "resolvedInMeeting": "the-marketing-meeting-2026-01-06",
     "expectedOutcome": {
       "system": "google-docs",
       "description": "Vinnie Micciche reviews the content."
-    },
-    "resolvedInMeeting": "the-marketing-meeting-2026-01-06"
+    }
   },
   {
     "id": "a-061",
@@ -748,7 +845,9 @@
     "owner": "Vinnie Micciche",
     "meetingId": "the-marketing-meeting-2025-12-02",
     "meetingDate": "2025-12-02",
+    "deadline": null,
     "status": "recurring",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "social-media",
       "description": "Consistent and timely social media posts."
@@ -760,7 +859,9 @@
     "owner": "Michael Donovan",
     "meetingId": "the-marketing-meeting-2025-12-02",
     "meetingDate": "2025-12-02",
+    "deadline": null,
     "status": "open",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "google-docs",
       "description": "A well-defined brief and workflow for social media posts."
@@ -772,12 +873,13 @@
     "owner": "Michael Donovan",
     "meetingId": "the-marketing-meeting-2025-12-02",
     "meetingDate": "2025-12-02",
+    "deadline": null,
     "status": "done",
+    "resolvedInMeeting": "active-pipeline-review-2026-03-12",
     "expectedOutcome": {
       "system": "calendar",
       "description": "A meeting scheduled with Kevin Breen to discuss marketing resources and data."
-    },
-    "resolvedInMeeting": "active-pipeline-review-2026-03-12"
+    }
   },
   {
     "id": "a-064",
@@ -785,7 +887,9 @@
     "owner": "Michael Donovan",
     "meetingId": "the-marketing-meeting-2025-12-02",
     "meetingDate": "2025-12-02",
+    "deadline": null,
     "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "codebase",
       "description": "Successful integration of Sanity's AI with the content lake."
@@ -797,7 +901,9 @@
     "owner": "Vinnie Micciche",
     "meetingId": "the-marketing-meeting-2025-12-02",
     "meetingDate": "2025-12-02",
+    "deadline": null,
     "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "email",
       "description": "Price quote received from Christina for the requested work."
@@ -809,7 +915,9 @@
     "owner": "Michael Donovan",
     "meetingId": "michael-and-vin-continuation-2025-12-03",
     "meetingDate": "2025-12-03",
+    "deadline": null,
     "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "social-media",
       "description": "Messaging resonates with 'car guys' and attracts dealer groups."
@@ -821,7 +929,9 @@
     "owner": "Michael Donovan",
     "meetingId": "michael-and-vin-continuation-2025-12-03",
     "meetingDate": "2025-12-03",
+    "deadline": null,
     "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "social-media",
       "description": "Social media posts effectively generate leads."
@@ -833,7 +943,9 @@
     "owner": "Michael Donovan",
     "meetingId": "michael-and-vin-continuation-2025-12-03",
     "meetingDate": "2025-12-03",
+    "deadline": null,
     "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "website",
       "description": "Progress on the Viconic website is assessed and next steps are defined."
@@ -847,11 +959,11 @@
     "meetingDate": "2025-12-03",
     "deadline": "2025-12-04",
     "status": "done",
+    "resolvedInMeeting": "the-marketing-meeting-2026-01-06",
     "expectedOutcome": {
       "system": "email",
       "description": "Michael Donovan receives content ideas from Vinnie Micciche."
-    },
-    "resolvedInMeeting": "the-marketing-meeting-2026-01-06"
+    }
   },
   {
     "id": "a-070",
@@ -859,7 +971,9 @@
     "owner": "Michael Donovan",
     "meetingId": "michael-and-vin-continuation-2025-12-03",
     "meetingDate": "2025-12-03",
+    "deadline": null,
     "status": "recurring",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "social-media",
       "description": "Consistent and timely posting of content on social media platforms."
@@ -871,7 +985,9 @@
     "owner": "Michael Donovan",
     "meetingId": "vin-and-michael-2025-12-03",
     "meetingDate": "2025-12-03",
+    "deadline": null,
     "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "google-docs",
       "description": "A timeline documenting all changes to the Viconic website requested by Perry."
@@ -883,7 +999,9 @@
     "owner": "Michael Donovan",
     "meetingId": "vin-and-michael-2025-12-03",
     "meetingDate": "2025-12-03",
+    "deadline": null,
     "status": "recurring",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "google-docs",
       "description": "Google doc containing social media posts and captions for review."
@@ -895,7 +1013,9 @@
     "owner": "Michael Donovan",
     "meetingId": "vin-and-michael-2025-12-03",
     "meetingDate": "2025-12-03",
+    "deadline": null,
     "status": "open",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "other",
       "description": "Estimated timeline for the completion of website page design and build."
@@ -907,12 +1027,13 @@
     "owner": "Michael Donovan",
     "meetingId": "vin-and-michael-2025-12-03",
     "meetingDate": "2025-12-03",
+    "deadline": null,
     "status": "done",
+    "resolvedInMeeting": "the-marketing-meeting-2026-01-06",
     "expectedOutcome": {
       "system": "other",
       "description": "Plan to transition responsibilities to allow Vinnie to move on from current projects."
-    },
-    "resolvedInMeeting": "the-marketing-meeting-2026-01-06"
+    }
   },
   {
     "id": "a-075",
@@ -920,7 +1041,9 @@
     "owner": "Joe Furnari",
     "meetingId": "joe-and-michael-catch-up-2025-12-04",
     "meetingDate": "2025-12-04",
+    "deadline": null,
     "status": "open",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "google-docs",
       "description": "Locate the original document from Vinnie for creating social posts."
@@ -932,7 +1055,9 @@
     "owner": "Michael Donovan",
     "meetingId": "joe-and-michael-catch-up-2025-12-04",
     "meetingDate": "2025-12-04",
+    "deadline": null,
     "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "other",
       "description": "Migrate accounts to the corporate card to resolve payment issues."
@@ -944,12 +1069,13 @@
     "owner": "Michael Donovan",
     "meetingId": "call-with-michael-2025-12-05",
     "meetingDate": "2025-12-05",
+    "deadline": null,
     "status": "done",
+    "resolvedInMeeting": "the-marketing-meeting-2026-01-06",
     "expectedOutcome": {
       "system": "linkedin",
       "description": "Posts that clearly and concisely communicate Straw's value proposition and differentiate it from competitors."
-    },
-    "resolvedInMeeting": "the-marketing-meeting-2026-01-06"
+    }
   },
   {
     "id": "a-078",
@@ -957,7 +1083,9 @@
     "owner": "Michael Donovan",
     "meetingId": "call-with-michael-2025-12-05",
     "meetingDate": "2025-12-05",
+    "deadline": null,
     "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "slack",
       "description": "Vinnie Micciche to receive the link to the Perplexity tool."
@@ -969,7 +1097,9 @@
     "owner": "Michael Donovan",
     "meetingId": "call-with-michael-2025-12-05",
     "meetingDate": "2025-12-05",
+    "deadline": null,
     "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "linkedin",
       "description": "A series of marketing posts that uses the approved hooks and captions."
@@ -983,6 +1113,7 @@
     "meetingDate": "2025-12-10",
     "deadline": "2025-12-10",
     "status": "open",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "google-docs",
       "description": "Joe Furnari will have added comments to the three documents, providing feedback on content and messaging."
@@ -994,7 +1125,9 @@
     "owner": "Sergey Lyapustin",
     "meetingId": "strolid-leadership-call-2025-12-15",
     "meetingDate": "2025-12-15",
+    "deadline": null,
     "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "other",
       "description": "Verification that Vita can fully automate appointment booking."
@@ -1006,7 +1139,9 @@
     "owner": "Vin Micciche",
     "meetingId": "strolid-leadership-call-2025-12-15",
     "meetingDate": "2025-12-15",
+    "deadline": null,
     "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "email",
       "description": "Attempt to secure Rosenberg's assistance in fundraising, deck shared with Mike Sullivan."
@@ -1018,7 +1153,9 @@
     "owner": "Vin Micciche",
     "meetingId": "strolid-leadership-call-2025-12-15",
     "meetingDate": "2025-12-15",
+    "deadline": null,
     "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "google-docs",
       "description": "List of potential advisory board candidates with documented approaches."
@@ -1030,12 +1167,13 @@
     "owner": "Kevin Breen",
     "meetingId": "strolid-leadership-call-2025-12-15",
     "meetingDate": "2025-12-15",
+    "deadline": null,
     "status": "done",
+    "resolvedInMeeting": "active-pipeline-review-2026-03-12",
     "expectedOutcome": {
       "system": "google-docs",
       "description": "Case study document outlining specific dealer benefits from Sophia."
-    },
-    "resolvedInMeeting": "active-pipeline-review-2026-03-12"
+    }
   },
   {
     "id": "a-085",
@@ -1045,6 +1183,7 @@
     "meetingDate": "2025-12-15",
     "deadline": "2025-12-16",
     "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "other",
       "description": "All agents have access to GPT in the portal/dialer."
@@ -1056,7 +1195,9 @@
     "owner": "Sergey Lyapustin",
     "meetingId": "strolid-leadership-call-2025-12-15",
     "meetingDate": "2025-12-15",
+    "deadline": null,
     "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "website",
       "description": "Functional website widget and improved dialer information structure."
@@ -1068,7 +1209,9 @@
     "owner": "Vin Micciche",
     "meetingId": "strolid-leadership-call-2025-12-15",
     "meetingDate": "2025-12-15",
+    "deadline": null,
     "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "google-docs",
       "description": "Go-to-market plan for Sophia with dealer feedback on pricing."
@@ -1080,7 +1223,9 @@
     "owner": "Kevin Breen",
     "meetingId": "strolid-leadership-call-2025-12-15",
     "meetingDate": "2025-12-15",
+    "deadline": null,
     "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "crm",
       "description": "Accurate data regarding Sophia's performance."
@@ -1092,7 +1237,9 @@
     "owner": "Vin Micciche",
     "meetingId": "strolid-leadership-call-2025-12-15",
     "meetingDate": "2025-12-15",
+    "deadline": null,
     "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "other",
       "description": "Payment made for Jake's surgery."
@@ -1104,7 +1251,9 @@
     "owner": "Thomas Howe",
     "meetingId": "strolid-leadership-call-2025-12-15",
     "meetingDate": "2025-12-15",
+    "deadline": null,
     "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "calendar",
       "description": "Scheduled and completed one-on-one meeting."
@@ -1116,7 +1265,9 @@
     "owner": "Harinder Bhinder",
     "meetingId": "strolid-leadership-call-2025-12-15",
     "meetingDate": "2025-12-15",
+    "deadline": null,
     "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "calendar",
       "description": "Scheduled and completed one-on-one meeting."
@@ -1128,12 +1279,13 @@
     "owner": "Jason Branham",
     "meetingId": "the-marketing-meeting-2025-12-16",
     "meetingDate": "2025-12-16",
+    "deadline": null,
     "status": "done",
+    "resolvedInMeeting": "the-marketing-meeting-2026-01-06",
     "expectedOutcome": {
       "system": "email",
       "description": "Vinnie Micciche has access to the V20 marketplace profile page to make updates."
-    },
-    "resolvedInMeeting": "the-marketing-meeting-2026-01-06"
+    }
   },
   {
     "id": "a-093",
@@ -1141,12 +1293,13 @@
     "owner": "Vinnie Micciche",
     "meetingId": "the-marketing-meeting-2025-12-16",
     "meetingDate": "2025-12-16",
+    "deadline": null,
     "status": "done",
+    "resolvedInMeeting": "the-marketing-meeting-2026-01-06",
     "expectedOutcome": {
       "system": "v20-marketplace",
       "description": "The company profile on the V20 marketplace is updated with relevant content and highlights the company's AI capabilities."
-    },
-    "resolvedInMeeting": "the-marketing-meeting-2026-01-06"
+    }
   },
   {
     "id": "a-094",
@@ -1154,12 +1307,13 @@
     "owner": "Joe Furnari",
     "meetingId": "the-marketing-meeting-2025-12-16",
     "meetingDate": "2025-12-16",
+    "deadline": null,
     "status": "done",
+    "resolvedInMeeting": "the-marketing-meeting-2026-01-06",
     "expectedOutcome": {
       "system": "calendar",
       "description": "A meeting is scheduled between Joe Furnari and Michael Donovan to discuss the website plan."
-    },
-    "resolvedInMeeting": "the-marketing-meeting-2026-01-06"
+    }
   },
   {
     "id": "a-095",
@@ -1167,12 +1321,13 @@
     "owner": "Michael Donovan",
     "meetingId": "the-marketing-meeting-2025-12-16",
     "meetingDate": "2025-12-16",
+    "deadline": null,
     "status": "done",
+    "resolvedInMeeting": "the-marketing-meeting-2026-01-06",
     "expectedOutcome": {
       "system": "google-docs",
       "description": "A detailed website plan document exists, outlining deadlines, expectations, and timelines for content execution."
-    },
-    "resolvedInMeeting": "the-marketing-meeting-2026-01-06"
+    }
   },
   {
     "id": "a-096",
@@ -1180,12 +1335,13 @@
     "owner": "Vinnie Micciche",
     "meetingId": "marketing-90-day-prioritization-2025-12-23",
     "meetingDate": "2025-12-23",
+    "deadline": null,
     "status": "done",
+    "resolvedInMeeting": "the-marketing-meeting-2026-01-06",
     "expectedOutcome": {
       "system": "google-docs",
       "description": "Michael and Joe will have the opportunity to collaboratively review the content and messaging"
-    },
-    "resolvedInMeeting": "the-marketing-meeting-2026-01-06"
+    }
   },
   {
     "id": "a-097",
@@ -1193,12 +1349,13 @@
     "owner": "Jason Branham",
     "meetingId": "marketing-90-day-prioritization-2025-12-23",
     "meetingDate": "2025-12-23",
+    "deadline": null,
     "status": "done",
+    "resolvedInMeeting": "active-pipeline-review-2026-03-12",
     "expectedOutcome": {
       "system": "other",
       "description": "Develop a sales strategy and pricing structure for the Sophia outbound capabilities."
-    },
-    "resolvedInMeeting": "active-pipeline-review-2026-03-12"
+    }
   },
   {
     "id": "a-098",
@@ -1206,7 +1363,9 @@
     "owner": "Michael Donovan",
     "meetingId": "website-planning-session-2025-12-29",
     "meetingDate": "2025-12-29",
+    "deadline": null,
     "status": "open",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "slack",
       "description": "Automated reminders sent to content contributors."
@@ -1218,7 +1377,9 @@
     "owner": "Michael Donovan",
     "meetingId": "website-planning-session-2025-12-29",
     "meetingDate": "2025-12-29",
+    "deadline": null,
     "status": "recurring",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "email",
       "description": "Kristina provides feedback on the feasibility of the proposed newsletter schedule."
@@ -1230,12 +1391,13 @@
     "owner": "Kristina Cvitko",
     "meetingId": "website-planning-session-2025-12-29",
     "meetingDate": "2025-12-29",
+    "deadline": null,
     "status": "done",
+    "resolvedInMeeting": "the-marketing-meeting-2026-01-06",
     "expectedOutcome": {
       "system": "wordpress",
       "description": "Kristina assists in the WordPress site build, contributing to plugins and overall site improvement."
-    },
-    "resolvedInMeeting": "the-marketing-meeting-2026-01-06"
+    }
   },
   {
     "id": "a-101",
@@ -1243,7 +1405,9 @@
     "owner": "Michael Donovan",
     "meetingId": "website-planning-session-2025-12-29",
     "meetingDate": "2025-12-29",
+    "deadline": null,
     "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "wp-engine",
       "description": "New website instance with a theme and the content migrated."
@@ -1255,7 +1419,9 @@
     "owner": "Michael Donovan",
     "meetingId": "website-planning-session-2025-12-29",
     "meetingDate": "2025-12-29",
+    "deadline": null,
     "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "google-docs",
       "description": "Document outlining the phased approach and Vin's awareness of the plan."
@@ -1267,7 +1433,9 @@
     "owner": "Kristina Cvitko",
     "meetingId": "website-planning-session-2025-12-29",
     "meetingDate": "2025-12-29",
+    "deadline": null,
     "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "google-docs",
       "description": "Kristina identifies areas where she can contribute during the website redesign process."
@@ -1279,7 +1447,9 @@
     "owner": "Michael Donovan",
     "meetingId": "website-planning-session-2025-12-29",
     "meetingDate": "2025-12-29",
+    "deadline": null,
     "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "email",
       "description": "Kristina receives the Lighthouse report with performance metrics."
@@ -1293,6 +1463,7 @@
     "meetingDate": "2025-12-30",
     "deadline": "2026-01-02",
     "status": "open",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "email",
       "description": "Completed draft pages sent to Joe for review and feedback."
@@ -1304,7 +1475,9 @@
     "owner": "Vinnie Micciche",
     "meetingId": "the-marketing-meeting-2025-12-30",
     "meetingDate": "2025-12-30",
+    "deadline": null,
     "status": "recurring",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "other",
       "description": "Three clearly defined core messages that align with the three-lane marketing approach."
@@ -1316,7 +1489,9 @@
     "owner": "Vinnie Micciche",
     "meetingId": "the-marketing-meeting-2025-12-30",
     "meetingDate": "2025-12-30",
+    "deadline": null,
     "status": "recurring",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "email",
       "description": "Shared decks accessible to the team for review."
@@ -1328,7 +1503,9 @@
     "owner": "Joe Furnari",
     "meetingId": "the-marketing-meeting-2025-12-30",
     "meetingDate": "2025-12-30",
+    "deadline": null,
     "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "google-docs",
       "description": "A visual representation that clearly outlines the three lanes, their core messaging, and related features."
@@ -1340,7 +1517,9 @@
     "owner": "Unassigned",
     "meetingId": "the-marketing-meeting-2025-12-30",
     "meetingDate": "2025-12-30",
+    "deadline": null,
     "status": "recurring",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "email",
       "description": "Feedback provided on the V20 decks, highlighting any gaps or areas for improvement."
@@ -1352,7 +1531,9 @@
     "owner": "Michael Donovan",
     "meetingId": "the-marketing-meeting-2026-01-06",
     "meetingDate": "2026-01-06",
+    "deadline": null,
     "status": "open",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "slack",
       "description": "A dedicated Slack channel or canvas filled with visual inspiration for the website design, covering BDC, service, and AI aspects."
@@ -1364,7 +1545,9 @@
     "owner": "Michael Donovan",
     "meetingId": "the-marketing-meeting-2026-01-06",
     "meetingDate": "2026-01-06",
+    "deadline": null,
     "status": "recurring",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "other",
       "description": "Scheduled social media posts and email campaigns designed to attract new business and generate leads."
@@ -1376,7 +1559,9 @@
     "owner": "Michael Donovan",
     "meetingId": "the-marketing-meeting-2026-01-06",
     "meetingDate": "2026-01-06",
+    "deadline": null,
     "status": "recurring",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "website",
       "description": "The website is updated with the exact content provided by Vinnie Micciche, reflecting the intended messaging and product differentiation."
@@ -1388,7 +1573,9 @@
     "owner": "Michael Donovan",
     "meetingId": "the-marketing-meeting-2026-01-06",
     "meetingDate": "2026-01-06",
+    "deadline": null,
     "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "google-docs",
       "description": "A document outlining the proposed scope of work, including specific tasks, deadlines, and responsibilities."
@@ -1402,6 +1589,7 @@
     "meetingDate": "2026-01-09",
     "deadline": "2026-01-12",
     "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "email",
       "description": "Joe Furnari will receive links to two or three updated pages/content before Monday."
@@ -1413,7 +1601,9 @@
     "owner": "Joe Furnari",
     "meetingId": "regroup-on-website-refresh-initiative-2026-01-09",
     "meetingDate": "2026-01-09",
+    "deadline": null,
     "status": "recurring",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "email",
       "description": "Joe Furnari will be prepared to discuss the updated content with Vinnie and provide feedback to Michael Donovan after the Monday staff meeting."
@@ -1427,6 +1617,7 @@
     "meetingDate": "2026-01-13",
     "deadline": "2026-01-13",
     "status": "recurring",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "email",
       "description": "Vinnie Micciche receives the link to the staging environment."
@@ -1438,7 +1629,9 @@
     "owner": "Michael Donovan",
     "meetingId": "the-marketing-meeting-2026-01-13",
     "meetingDate": "2026-01-13",
+    "deadline": null,
     "status": "open",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "email",
       "description": "Vinnie Micciche receives instructions on how to submit revisions."
@@ -1450,7 +1643,9 @@
     "owner": "Michael Donovan",
     "meetingId": "the-marketing-meeting-2026-01-13",
     "meetingDate": "2026-01-13",
+    "deadline": null,
     "status": "recurring",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "email",
       "description": "Vinnie Micciche receives a file/theme that allows for easy website content updates."
@@ -1462,7 +1657,9 @@
     "owner": "Michael Donovan",
     "meetingId": "the-marketing-meeting-2026-01-13",
     "meetingDate": "2026-01-13",
+    "deadline": null,
     "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "website",
       "description": "The website displays 'Human and AI' badge."
@@ -1474,7 +1671,9 @@
     "owner": "Michael Donovan",
     "meetingId": "the-marketing-meeting-2026-01-13",
     "meetingDate": "2026-01-13",
+    "deadline": null,
     "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "website",
       "description": "The staging environment no longer has white-on-white text for links."
@@ -1486,7 +1685,9 @@
     "owner": "Michael Donovan",
     "meetingId": "the-marketing-meeting-2026-01-13",
     "meetingDate": "2026-01-13",
+    "deadline": null,
     "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "website",
       "description": "The website displays 'Resources and Dealer Insights' as the blog section title."
@@ -1498,7 +1699,9 @@
     "owner": "Michael Donovan",
     "meetingId": "joe-and-michael-touch-base-2026-01-20",
     "meetingDate": "2026-01-20",
+    "deadline": null,
     "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "website",
       "description": "Resources and Lead Sources categories are removed from their current location in the navigation and moved elsewhere."
@@ -1510,7 +1713,9 @@
     "owner": "Michael Donovan",
     "meetingId": "joe-and-michael-touch-base-2026-01-20",
     "meetingDate": "2026-01-20",
+    "deadline": null,
     "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "website",
       "description": "The 22 insights pages and 5 resource pages are merged under the consolidated \"Insights and Resources\" navigation item."
@@ -1524,6 +1729,7 @@
     "meetingDate": "2026-01-20",
     "deadline": "2026-01-21",
     "status": "recurring",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "email",
       "description": "Confirmation from Vinnie regarding which FAQ content (new or old) should be used on the website."
@@ -1535,7 +1741,9 @@
     "owner": "Michael Donovan",
     "meetingId": "joe-and-michael-touch-base-2026-01-20",
     "meetingDate": "2026-01-20",
+    "deadline": null,
     "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "slack",
       "description": "Joe receives a link to the document containing the original FAQ content."
@@ -1547,7 +1755,9 @@
     "owner": "Joe Furnari",
     "meetingId": "joe-and-michael-touch-base-2026-01-20",
     "meetingDate": "2026-01-20",
+    "deadline": null,
     "status": "open",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "google-docs",
       "description": "The FAQ content is free of spelling errors and is easily understandable."
@@ -1561,11 +1771,11 @@
     "meetingDate": "2026-01-20",
     "deadline": "2026-01-21",
     "status": "done",
+    "resolvedInMeeting": "marketing-2026-03-13",
     "expectedOutcome": {
       "system": "calendar",
       "description": "A follow-up conversation between Joe and Michael takes place to discuss progress."
-    },
-    "resolvedInMeeting": "marketing-2026-03-13"
+    }
   },
   {
     "id": "a-128",
@@ -1573,7 +1783,9 @@
     "owner": "Michael Donovan",
     "meetingId": "joe-and-michael-regroup-2026-02-12",
     "meetingDate": "2026-02-12",
-    "status": "open",
+    "deadline": null,
+    "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "google-docs",
       "description": "Document outlining priorities, costs, timelines, and strategy framework for Vinnie's review."
@@ -1585,7 +1797,9 @@
     "owner": "Joe Furnari",
     "meetingId": "joe-and-michael-regroup-2026-02-12",
     "meetingDate": "2026-02-12",
-    "status": "open",
+    "deadline": null,
+    "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "other",
       "description": "Vinnie's feedback and decisions regarding compensation and team structure."
@@ -1597,12 +1811,13 @@
     "owner": "Joe Furnari",
     "meetingId": "joe-and-michael-regroup-2026-02-12",
     "meetingDate": "2026-02-12",
+    "deadline": null,
     "status": "done",
+    "resolvedInMeeting": "marketing-2026-03-13",
     "expectedOutcome": {
       "system": "other",
       "description": "Vinnie is updated on the team strategy"
-    },
-    "resolvedInMeeting": "marketing-2026-03-13"
+    }
   },
   {
     "id": "a-131",
@@ -1610,7 +1825,9 @@
     "owner": "Michael Donovan",
     "meetingId": "joe-and-michael-regroup-2026-02-12",
     "meetingDate": "2026-02-12",
-    "status": "open",
+    "deadline": null,
+    "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "crm",
       "description": "List of GMs from target dealerships added to the CRM."
@@ -1623,7 +1840,8 @@
     "meetingId": "marketing-flow-and-alignment-2026-02-13",
     "meetingDate": "2026-02-13",
     "deadline": "2026-02-17",
-    "status": "open",
+    "status": "recurring",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "email",
       "description": "Vinnie Micciche reviews and approves the lead magnet."
@@ -1635,7 +1853,9 @@
     "owner": "Vinnie Micciche",
     "meetingId": "marketing-flow-and-alignment-2026-02-13",
     "meetingDate": "2026-02-13",
-    "status": "open",
+    "deadline": null,
+    "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "internal-communication",
       "description": "All departments aligned on the three core pillars."
@@ -1647,7 +1867,9 @@
     "owner": "Michael Donovan",
     "meetingId": "marketing-flow-and-alignment-2026-02-13",
     "meetingDate": "2026-02-13",
-    "status": "open",
+    "deadline": null,
+    "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "crm",
       "description": "Cleaned and enriched email database with automated leveraging flow."
@@ -1659,7 +1881,9 @@
     "owner": "Vinnie Micciche",
     "meetingId": "marketing-flow-and-alignment-2026-02-13",
     "meetingDate": "2026-02-13",
-    "status": "open",
+    "deadline": null,
+    "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "google-docs",
       "description": "Michael Donovan has access to relevant content for content creation."
@@ -1672,7 +1896,8 @@
     "meetingId": "strolid-leadership-call-2026-02-16",
     "meetingDate": "2026-02-16",
     "deadline": "2026-02-22",
-    "status": "open",
+    "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "email",
       "description": "Signed BDS contract."
@@ -1685,7 +1910,8 @@
     "meetingId": "strolid-leadership-call-2026-02-16",
     "meetingDate": "2026-02-16",
     "deadline": "2026-02-16",
-    "status": "open",
+    "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "email",
       "description": "Approval on the auditor contract"
@@ -1698,7 +1924,8 @@
     "meetingId": "strolid-leadership-call-2026-02-16",
     "meetingDate": "2026-02-16",
     "deadline": "2026-02-22",
-    "status": "open",
+    "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "other",
       "description": "Completed engagement report with internal visibility, dealer health, and agent performance."
@@ -1711,7 +1938,8 @@
     "meetingId": "strolid-leadership-call-2026-02-16",
     "meetingDate": "2026-02-16",
     "deadline": "2026-02-22",
-    "status": "open",
+    "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "other",
       "description": "VA rollout ready to deploy with the first couple of dealers."
@@ -1724,7 +1952,8 @@
     "meetingId": "strolid-leadership-call-2026-02-16",
     "meetingDate": "2026-02-16",
     "deadline": "2026-02-22",
-    "status": "open",
+    "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "other",
       "description": "Assessment of staffing levels and process efficiency in service and follow-up teams."
@@ -1737,7 +1966,8 @@
     "meetingId": "strolid-leadership-call-2026-02-16",
     "meetingDate": "2026-02-16",
     "deadline": "2026-02-17",
-    "status": "open",
+    "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "other",
       "description": "Documented expectations and agreements with operations managers."
@@ -1750,7 +1980,8 @@
     "meetingId": "strolid-leadership-call-2026-02-16",
     "meetingDate": "2026-02-16",
     "deadline": "2026-02-22",
-    "status": "open",
+    "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "google-docs",
       "description": "Signed auditor contract."
@@ -1764,11 +1995,11 @@
     "meetingDate": "2026-02-16",
     "deadline": "2026-02-22",
     "status": "done",
+    "resolvedInMeeting": "active-pipeline-review-2026-03-12",
     "expectedOutcome": {
       "system": "crm",
       "description": "Increased leads and sales from cold calls."
-    },
-    "resolvedInMeeting": "active-pipeline-review-2026-03-12"
+    }
   },
   {
     "id": "a-144",
@@ -1777,7 +2008,8 @@
     "meetingId": "strolid-leadership-call-2026-02-16",
     "meetingDate": "2026-02-16",
     "deadline": "2026-02-22",
-    "status": "open",
+    "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "website",
       "description": "Increased number of leads generated from marketing efforts."
@@ -1789,7 +2021,9 @@
     "owner": "Joe Furnari",
     "meetingId": "catch-up-on-marketing-activities-2026-02-20",
     "meetingDate": "2026-02-20",
+    "deadline": null,
     "status": "open",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "email",
       "description": "Jason to provide feedback to the marketing team for future improvements."
@@ -1801,7 +2035,9 @@
     "owner": "Joe Furnari",
     "meetingId": "catch-up-on-marketing-activities-2026-02-20",
     "meetingDate": "2026-02-20",
+    "deadline": null,
     "status": "open",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "email",
       "description": "Shared reporting on markets, dealers, and groups being targeted by the ABM firm to prevent conflicting efforts and messaging."
@@ -1813,12 +2049,13 @@
     "owner": "Joe Furnari",
     "meetingId": "catch-up-on-marketing-activities-2026-02-20",
     "meetingDate": "2026-02-20",
+    "deadline": null,
     "status": "done",
+    "resolvedInMeeting": "marketing-2026-03-13",
     "expectedOutcome": {
       "system": "email",
       "description": "Michael understands the constraints imposed by the engagement with the external ABM firm."
-    },
-    "resolvedInMeeting": "marketing-2026-03-13"
+    }
   },
   {
     "id": "a-148",
@@ -1826,7 +2063,9 @@
     "owner": "Michael Donovan",
     "meetingId": "catch-up-on-marketing-activities-2026-02-20",
     "meetingDate": "2026-02-20",
-    "status": "open",
+    "deadline": null,
+    "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "google-docs",
       "description": "A documented plan mapping out the workflow and a calendar view for the two-week campaign, aiming to generate leads."
@@ -1838,7 +2077,9 @@
     "owner": "Michael Donovan",
     "meetingId": "catch-up-on-marketing-activities-2026-02-20",
     "meetingDate": "2026-02-20",
-    "status": "open",
+    "deadline": null,
+    "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "crm",
       "description": "Successful payment of the monthly subscription fee."
@@ -1850,7 +2091,9 @@
     "owner": "Joe Furnari",
     "meetingId": "the-marketing-meeting-2026-02-24",
     "meetingDate": "2026-02-24",
-    "status": "open",
+    "deadline": null,
+    "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "google-docs",
       "description": "Updated P&L document with 2026 outlook."
@@ -1862,7 +2105,9 @@
     "owner": "Joe Furnari",
     "meetingId": "the-marketing-meeting-2026-02-24",
     "meetingDate": "2026-02-24",
-    "status": "open",
+    "deadline": null,
+    "status": "recurring",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "email",
       "description": "Email sent to Vinnie Micciche containing list of cancelled subscriptions."
@@ -1874,7 +2119,9 @@
     "owner": "Michael Donovan",
     "meetingId": "the-marketing-meeting-2026-02-24",
     "meetingDate": "2026-02-24",
-    "status": "open",
+    "deadline": null,
+    "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "email",
       "description": "Initial email campaign sent to the cleaned contact list."
@@ -1886,7 +2133,9 @@
     "owner": "Paulo Trovao",
     "meetingId": "the-marketing-meeting-2026-02-24",
     "meetingDate": "2026-02-24",
-    "status": "open",
+    "deadline": null,
+    "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "email",
       "description": "Initial email campaign sent to the cleaned contact list."
@@ -1898,7 +2147,9 @@
     "owner": "Michael Donovan",
     "meetingId": "the-marketing-meeting-2026-02-24",
     "meetingDate": "2026-02-24",
-    "status": "open",
+    "deadline": null,
+    "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "other",
       "description": "Cleaned and enriched contact data in Clay."
@@ -1910,7 +2161,9 @@
     "owner": "Paulo Trovao",
     "meetingId": "the-marketing-meeting-2026-02-24",
     "meetingDate": "2026-02-24",
-    "status": "open",
+    "deadline": null,
+    "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "other",
       "description": "Cleaned and enriched contact data in Clay."
@@ -1922,7 +2175,9 @@
     "owner": "Michael Donovan",
     "meetingId": "the-marketing-meeting-2026-02-24",
     "meetingDate": "2026-02-24",
-    "status": "open",
+    "deadline": null,
+    "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "crm",
       "description": "Updated contact list in Zoho with irrelevant contacts set as inactive after bounce rate assessment."
@@ -1934,7 +2189,9 @@
     "owner": "Paulo Trovao",
     "meetingId": "the-marketing-meeting-2026-02-24",
     "meetingDate": "2026-02-24",
-    "status": "open",
+    "deadline": null,
+    "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "crm",
       "description": "Updated contact list in Zoho with irrelevant contacts set as inactive after bounce rate assessment."
@@ -1946,7 +2203,9 @@
     "owner": "Michael Donovan",
     "meetingId": "the-marketing-meeting-2026-02-24",
     "meetingDate": "2026-02-24",
-    "status": "open",
+    "deadline": null,
+    "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "email",
       "description": "Regular email updates sent to Vinnie Micciche detailing project milestones."
@@ -1958,7 +2217,9 @@
     "owner": "Michael Donovan",
     "meetingId": "the-marketing-meeting-2026-02-24",
     "meetingDate": "2026-02-24",
-    "status": "open",
+    "deadline": null,
+    "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "google-docs",
       "description": "Documented ICP profile based on the seven automotive groups."
@@ -1970,7 +2231,9 @@
     "owner": "Paulo Trovao",
     "meetingId": "the-marketing-meeting-2026-02-24",
     "meetingDate": "2026-02-24",
-    "status": "open",
+    "deadline": null,
+    "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "google-docs",
       "description": "Documented ICP profile based on the seven automotive groups."
@@ -1982,7 +2245,9 @@
     "owner": "Michael Donovan",
     "meetingId": "the-marketing-meeting-2026-02-24",
     "meetingDate": "2026-02-24",
-    "status": "open",
+    "deadline": null,
+    "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "email",
       "description": "Email campaigns are being sent via Apollo."
@@ -1994,7 +2259,9 @@
     "owner": "Paulo Trovao",
     "meetingId": "the-marketing-meeting-2026-02-24",
     "meetingDate": "2026-02-24",
-    "status": "open",
+    "deadline": null,
+    "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "email",
       "description": "Email campaigns are being sent via Apollo."
@@ -2006,12 +2273,13 @@
     "owner": "Unassigned",
     "meetingId": "the-marketing-meeting-2026-02-24",
     "meetingDate": "2026-02-24",
+    "deadline": null,
     "status": "done",
+    "resolvedInMeeting": "marketing-2026-03-13",
     "expectedOutcome": {
       "system": "crm",
       "description": "Active customer files in Zoho are audited and updated by the client success team."
-    },
-    "resolvedInMeeting": "marketing-2026-03-13"
+    }
   },
   {
     "id": "a-164",
@@ -2019,12 +2287,13 @@
     "owner": "Michael Donovan",
     "meetingId": "the-marketing-meeting-2026-03-03",
     "meetingDate": "2026-03-03",
+    "deadline": null,
     "status": "done",
+    "resolvedInMeeting": "active-pipeline-review-2026-03-12",
     "expectedOutcome": {
       "system": "google-docs",
       "description": "Ad spend billing is correctly allocated and not charged to the external backup card associated with Daniel Parker's organization."
-    },
-    "resolvedInMeeting": "active-pipeline-review-2026-03-12"
+    }
   },
   {
     "id": "a-165",
@@ -2032,7 +2301,9 @@
     "owner": "Michael Donovan",
     "meetingId": "the-marketing-meeting-2026-03-03",
     "meetingDate": "2026-03-03",
-    "status": "open",
+    "deadline": null,
+    "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "email",
       "description": "Team provides feedback on the video content."
@@ -2044,7 +2315,9 @@
     "owner": "Unassigned",
     "meetingId": "the-marketing-meeting-2026-03-03",
     "meetingDate": "2026-03-03",
-    "status": "open",
+    "deadline": null,
+    "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "google-docs",
       "description": "A comprehensive list of Lithia dealers is compiled."
@@ -2057,7 +2330,8 @@
     "meetingId": "strolid-leadership-call-2026-03-09",
     "meetingDate": "2026-03-09",
     "deadline": "2026-03-09",
-    "status": "open",
+    "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "other",
       "description": "A signed contract with the auditors for the SOC 2 audit."
@@ -2069,7 +2343,9 @@
     "owner": "Harinder Bhinder",
     "meetingId": "strolid-leadership-call-2026-03-09",
     "meetingDate": "2026-03-09",
-    "status": "open",
+    "deadline": null,
+    "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "other",
       "description": "The SOC 2 audit process is moving forward smoothly."
@@ -2081,7 +2357,9 @@
     "owner": "Joe Furnari",
     "meetingId": "strolid-leadership-call-2026-03-09",
     "meetingDate": "2026-03-09",
-    "status": "open",
+    "deadline": null,
+    "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "calendar",
       "description": "Confirmation that the meeting invite has been received."
@@ -2093,7 +2371,9 @@
     "owner": "Harinder Bhinder",
     "meetingId": "strolid-leadership-call-2026-03-09",
     "meetingDate": "2026-03-09",
+    "deadline": null,
     "status": "open",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "other",
       "description": "Vinnie Micciche has a clearer understanding of the SOC 2 audit process and its implications."
@@ -2105,7 +2385,9 @@
     "owner": "Michael Donovan",
     "meetingId": "strolid-leadership-call-2026-03-09",
     "meetingDate": "2026-03-09",
-    "status": "open",
+    "deadline": null,
+    "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "other",
       "description": "Confirmation that the emails for the ICP and specific groups are valid."
@@ -2117,12 +2399,13 @@
     "owner": "Sergey Lyapustin",
     "meetingId": "strolid-leadership-call-2026-03-09",
     "meetingDate": "2026-03-09",
+    "deadline": null,
     "status": "done",
+    "resolvedInMeeting": "active-pipeline-review-2026-03-12",
     "expectedOutcome": {
       "system": "other",
       "description": "Sophia AI is handling service calls more effectively with reduced awkward silences."
-    },
-    "resolvedInMeeting": "active-pipeline-review-2026-03-12"
+    }
   },
   {
     "id": "a-173",
@@ -2130,7 +2413,9 @@
     "owner": "Thomas Howe",
     "meetingId": "strolid-leadership-call-2026-03-09",
     "meetingDate": "2026-03-09",
+    "deadline": null,
     "status": "open",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "email",
       "description": "Regular updates on the progress of the Call Review due diligence process."
@@ -2142,7 +2427,9 @@
     "owner": "Vinnie Micciche",
     "meetingId": "strolid-leadership-call-2026-03-09",
     "meetingDate": "2026-03-09",
-    "status": "open",
+    "deadline": null,
+    "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "calendar",
       "description": "All invited attendees have received the calendar invite for the 11:00 a.m. call."
@@ -2154,7 +2441,9 @@
     "owner": "Kevin Breen",
     "meetingId": "strolid-leadership-call-2026-03-09",
     "meetingDate": "2026-03-09",
-    "status": "open",
+    "deadline": null,
+    "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "other",
       "description": "Verified numbers"
@@ -2166,7 +2455,9 @@
     "owner": "Scott Henshaw",
     "meetingId": "scrum-standup-daily-update-2026-03-10",
     "meetingDate": "2026-03-10",
-    "status": "open",
+    "deadline": null,
+    "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "slack",
       "description": "A new Slack channel exists for voicemail answering alerts."
@@ -2178,7 +2469,9 @@
     "owner": "Matt Watson",
     "meetingId": "scrum-standup-daily-update-2026-03-10",
     "meetingDate": "2026-03-10",
-    "status": "open",
+    "deadline": null,
+    "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "other",
       "description": "A card exists with a list of people (starting with Frank) to add to the Slack channel."
@@ -2190,7 +2483,9 @@
     "owner": "Holly Meyerhofer",
     "meetingId": "scrum-standup-daily-update-2026-03-10",
     "meetingDate": "2026-03-10",
-    "status": "open",
+    "deadline": null,
+    "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "slack",
       "description": "Approval of chat widget styling confirmed by Holly Meyerhofer."
@@ -2202,12 +2497,13 @@
     "owner": "Sergey Lyapustin",
     "meetingId": "scrum-standup-daily-update-2026-03-10",
     "meetingDate": "2026-03-10",
+    "deadline": null,
     "status": "done",
+    "resolvedInMeeting": "active-pipeline-review-2026-03-12",
     "expectedOutcome": {
       "system": "other",
       "description": "Security scan rerun, and any vulnerabilities addressed in the Lovable dashboard."
-    },
-    "resolvedInMeeting": "active-pipeline-review-2026-03-12"
+    }
   },
   {
     "id": "a-180",
@@ -2215,7 +2511,9 @@
     "owner": "Kevin Breen",
     "meetingId": "scrum-standup-daily-update-2026-03-10",
     "meetingDate": "2026-03-10",
-    "status": "open",
+    "deadline": null,
+    "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "other",
       "description": "Feedback received from Anthony and Derek on the Lovable dashboard design and concepts."
@@ -2228,7 +2526,8 @@
     "meetingId": "the-marketing-meeting-2026-03-10",
     "meetingDate": "2026-03-10",
     "deadline": "2026-03-10",
-    "status": "open",
+    "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "other",
       "description": "A completed pipeline and scoring model based on lifetime accounts and associated lifetime value data."
@@ -2240,7 +2539,9 @@
     "owner": "Michael Donovan",
     "meetingId": "the-marketing-meeting-2026-03-10",
     "meetingDate": "2026-03-10",
-    "status": "open",
+    "deadline": null,
+    "status": "recurring",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "email",
       "description": "Shared themes to guide content creation for the email campaigns."
@@ -2252,7 +2553,9 @@
     "owner": "Vinnie Micciche",
     "meetingId": "the-marketing-meeting-2026-03-10",
     "meetingDate": "2026-03-10",
+    "deadline": null,
     "status": "open",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "email",
       "description": "Completed content aligned with the agreed-upon themes for the email campaigns."
@@ -2264,7 +2567,9 @@
     "owner": "Michael Donovan",
     "meetingId": "product-marketing-alignment-2026-03-11",
     "meetingDate": "2026-03-11",
-    "status": "open",
+    "deadline": null,
+    "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "other",
       "description": "Matt has necessary context for database access needs."
@@ -2276,12 +2581,13 @@
     "owner": "Matt Watson",
     "meetingId": "product-marketing-alignment-2026-03-11",
     "meetingDate": "2026-03-11",
+    "deadline": null,
     "status": "done",
+    "resolvedInMeeting": "active-pipeline-review-2026-03-12",
     "expectedOutcome": {
       "system": "snowflake",
       "description": "Basic dealer data table available in Snowflake."
-    },
-    "resolvedInMeeting": "active-pipeline-review-2026-03-12"
+    }
   },
   {
     "id": "a-186",
@@ -2291,11 +2597,11 @@
     "meetingDate": "2026-03-12",
     "deadline": "2026-03-13",
     "status": "done",
+    "resolvedInMeeting": "marketing-2026-03-13",
     "expectedOutcome": {
       "system": "calendar",
       "description": "Meeting invite sent for the specified time."
-    },
-    "resolvedInMeeting": "marketing-2026-03-13"
+    }
   },
   {
     "id": "a-187",
@@ -2305,6 +2611,7 @@
     "meetingDate": "2026-03-12",
     "deadline": "2026-03-13",
     "status": "open",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "email",
       "description": "Vinnie receives the requested data and slides."
@@ -2316,7 +2623,9 @@
     "owner": "Shawna Behen",
     "meetingId": "active-pipeline-review-2026-03-12",
     "meetingDate": "2026-03-12",
-    "status": "open",
+    "deadline": null,
+    "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "other",
       "description": "Callback numbers are routed to Frank's follow-up team."
@@ -2328,7 +2637,9 @@
     "owner": "Sergey Lyapustin",
     "meetingId": "active-pipeline-review-2026-03-12",
     "meetingDate": "2026-03-12",
-    "status": "open",
+    "deadline": null,
+    "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "crm",
       "description": "Analysis report on lead source quality and impact of phone screeners is available."
@@ -2340,7 +2651,9 @@
     "owner": "Scott",
     "meetingId": "active-pipeline-review-2026-03-12",
     "meetingDate": "2026-03-12",
-    "status": "open",
+    "deadline": null,
+    "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "codebase",
       "description": "Functioning 'save a deal' application with improved reporting capabilities."
@@ -2352,7 +2665,9 @@
     "owner": "Michael Donovan",
     "meetingId": "active-pipeline-review-2026-03-12",
     "meetingDate": "2026-03-12",
-    "status": "open",
+    "deadline": null,
+    "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "crm",
       "description": "Report outlining key patterns and similarities in customer call-back behavior."
@@ -2364,7 +2679,9 @@
     "owner": "Unassigned",
     "meetingId": "active-pipeline-review-2026-03-12",
     "meetingDate": "2026-03-12",
-    "status": "open",
+    "deadline": null,
+    "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "crm",
       "description": "Baseline of human follow-up performance metrics is established."
@@ -2376,7 +2693,9 @@
     "owner": "Shawna Behen",
     "meetingId": "active-pipeline-review-2026-03-12",
     "meetingDate": "2026-03-12",
-    "status": "open",
+    "deadline": null,
+    "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "other",
       "description": "Staffing plan prepared to accommodate the proposed call-time change."
@@ -2388,7 +2707,9 @@
     "owner": "Michael Donovan",
     "meetingId": "marketing-2026-03-13",
     "meetingDate": "2026-03-13",
-    "status": "open",
+    "deadline": null,
+    "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "email",
       "description": "Jason Branham receives the list of leads with LinkedIn profiles for the sales team to connect with."
@@ -2400,7 +2721,9 @@
     "owner": "Jason Branham",
     "meetingId": "marketing-2026-03-13",
     "meetingDate": "2026-03-13",
-    "status": "open",
+    "deadline": null,
+    "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "linkedin",
       "description": "Sales team members connect with leads on the list."
@@ -2412,7 +2735,9 @@
     "owner": "Jason Branham",
     "meetingId": "strolid-leadership-call-2026-03-23",
     "meetingDate": "2026-03-23",
-    "status": "open",
+    "deadline": null,
+    "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "email",
       "description": "A concise list of available Augusta merchandise options will be provided to Matt Watson."
@@ -2425,7 +2750,8 @@
     "meetingId": "strolid-leadership-call-2026-03-23",
     "meetingDate": "2026-03-23",
     "deadline": "2026-03-23",
-    "status": "open",
+    "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "other",
       "description": "A clearer understanding of the challenges and mitigation strategies for the new Performance Manager structure."
@@ -2437,7 +2763,9 @@
     "owner": "Vinnie Micciche",
     "meetingId": "strolid-leadership-call-2026-03-23",
     "meetingDate": "2026-03-23",
-    "status": "open",
+    "deadline": null,
+    "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "email",
       "description": "Facilitate a discussion between Joe Furnari and Jamie to address potential items regarding Call Review."
@@ -2450,7 +2778,8 @@
     "meetingId": "strolid-leadership-call-2026-03-23",
     "meetingDate": "2026-03-23",
     "deadline": "2026-03-23",
-    "status": "open",
+    "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "other",
       "description": "The Lovable report will be distributed internally for feedback and potential integration."
@@ -2462,7 +2791,9 @@
     "owner": "Vinnie Micciche",
     "meetingId": "strolid-leadership-call-2026-03-23",
     "meetingDate": "2026-03-23",
-    "status": "open",
+    "deadline": null,
+    "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "other",
       "description": "Establish clear guidelines and limitations for AI tool access and usage."
@@ -2474,7 +2805,9 @@
     "owner": "Harinder Bhinder",
     "meetingId": "strolid-leadership-call-2026-03-23",
     "meetingDate": "2026-03-23",
-    "status": "open",
+    "deadline": null,
+    "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "budget",
       "description": "A defined budget allocation for AI usage and associated costs."
@@ -2487,7 +2820,8 @@
     "meetingId": "strolid-leadership-call-2026-03-23",
     "meetingDate": "2026-03-23",
     "deadline": "2026-03-31",
-    "status": "open",
+    "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "google-docs",
       "description": "A detailed plan outlining the steps and timelines for the SOC audit process."
@@ -2500,7 +2834,8 @@
     "meetingId": "strolid-leadership-call-2026-03-23",
     "meetingDate": "2026-03-23",
     "deadline": "2026-03-23",
-    "status": "open",
+    "status": "abandoned",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "budget",
       "description": "Agreement on a budgeting approach for AI usage that accounts for variability in costs. The information will be included in future budget projections."
@@ -2514,6 +2849,7 @@
     "meetingDate": "2026-03-30",
     "deadline": "2026-03-30",
     "status": "open",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "email",
       "description": "Sergey will receive documentation outlining all requirements from the manufacturer for the secret shop task."
@@ -2525,7 +2861,9 @@
     "owner": "Sergey Lyapustin",
     "meetingId": "scrum-standup-daily-update-2026-03-30",
     "meetingDate": "2026-03-30",
+    "deadline": null,
     "status": "open",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "calendar",
       "description": "A meeting will be scheduled with the momentum API team for tomorrow or Wednesday morning."
@@ -2537,7 +2875,9 @@
     "owner": "Scott Henshaw",
     "meetingId": "scrum-standup-daily-update-2026-03-30",
     "meetingDate": "2026-03-30",
+    "deadline": null,
     "status": "open",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "calendar",
       "description": "A call will be scheduled with John tomorrow morning to review the infrastructure and test the elite weekly task integration."
@@ -2549,7 +2889,9 @@
     "owner": "Scott Henshaw",
     "meetingId": "scrum-standup-daily-update-2026-03-30",
     "meetingDate": "2026-03-30",
+    "deadline": null,
     "status": "open",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "codebase",
       "description": "The conserver side will be deployed to production, and the conditional tags feature will be fully tested."
@@ -2561,7 +2903,9 @@
     "owner": "Scott Henshaw",
     "meetingId": "scrum-standup-daily-update-2026-03-30",
     "meetingDate": "2026-03-30",
+    "deadline": null,
     "status": "open",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "codebase",
       "description": "The voicemail tag will be rewritten to be more accurate, and its validity will be confirmed before alerting is set up."
@@ -2573,7 +2917,9 @@
     "owner": "Sergey Lyapustin",
     "meetingId": "scrum-standup-daily-update-2026-03-30",
     "meetingDate": "2026-03-30",
+    "deadline": null,
     "status": "open",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "other",
       "description": "Kan Sing will evaluate the possibility of using LLM to filter out 'unknown' last names from voicemails."
@@ -2585,7 +2931,9 @@
     "owner": "Kevin Breen",
     "meetingId": "scrum-standup-daily-update-2026-03-30",
     "meetingDate": "2026-03-30",
+    "deadline": null,
     "status": "open",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "other",
       "description": "Kevin will verify if the return telephone number speed issue in voicemails has been resolved based on recent calls."
@@ -2597,7 +2945,9 @@
     "owner": "Sergey Lyapustin",
     "meetingId": "scrum-standup-daily-update-2026-03-30",
     "meetingDate": "2026-03-30",
+    "deadline": null,
     "status": "open",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "other",
       "description": "Sergey will conduct quick research on estimating the real-time text-to-speech generation costs."
@@ -2611,6 +2961,7 @@
     "meetingDate": "2026-03-30",
     "deadline": "2026-03-30",
     "status": "open",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "email",
       "description": "Vinnie is informed about rescheduling options."
@@ -2622,7 +2973,9 @@
     "owner": "Shawna Behen",
     "meetingId": "strolid-leadership-call-2026-03-30",
     "meetingDate": "2026-03-30",
+    "deadline": null,
     "status": "open",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "email",
       "description": "Jason and Joe receive necessary information to prepare for the Lithia presentation."
@@ -2634,7 +2987,9 @@
     "owner": "Shawna Behen",
     "meetingId": "strolid-leadership-call-2026-03-30",
     "meetingDate": "2026-03-30",
+    "deadline": null,
     "status": "open",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "google-docs",
       "description": "Completed presentation deck ready for the call with Lithia."
@@ -2646,7 +3001,9 @@
     "owner": "Shawna Behen",
     "meetingId": "strolid-leadership-call-2026-03-30",
     "meetingDate": "2026-03-30",
+    "deadline": null,
     "status": "open",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "google-docs",
       "description": "A structured presentation framework for the Lithia conversation."
@@ -2658,7 +3015,9 @@
     "owner": "Michael Donovan",
     "meetingId": "strolid-leadership-call-2026-03-30",
     "meetingDate": "2026-03-30",
+    "deadline": null,
     "status": "open",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "codebase",
       "description": "AI resource marketplace with sub-agents, skills, and plugins is developed and functional."
@@ -2670,7 +3029,9 @@
     "owner": "Sergey Lyapustin",
     "meetingId": "strolid-leadership-call-2026-03-30",
     "meetingDate": "2026-03-30",
+    "deadline": null,
     "status": "open",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "codebase",
       "description": "AI resource marketplace with sub-agents, skills, and plugins is developed and functional."
@@ -2682,7 +3043,9 @@
     "owner": "Unassigned",
     "meetingId": "weekly-1-on-1-with-michael-d-and-joe-f-2026-03-30",
     "meetingDate": "2026-03-30",
+    "deadline": null,
     "status": "open",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "crm",
       "description": "Existing contact lists are added to the CRM and correctly classified as MQLs."
@@ -2694,7 +3057,9 @@
     "owner": "Joe Furnari",
     "meetingId": "weekly-1-on-1-with-michael-d-and-joe-f-2026-03-30",
     "meetingDate": "2026-03-30",
+    "deadline": null,
     "status": "open",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "other",
       "description": "Vinnie is aligned on a coordinated approach for CRM improvements."
@@ -2708,6 +3073,7 @@
     "meetingDate": "2026-03-30",
     "deadline": "2026-03-31",
     "status": "open",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "other",
       "description": "Vinnie understands the importance of the CRM fixes and agrees with the proposed timeline."
@@ -2719,7 +3085,9 @@
     "owner": "Unassigned",
     "meetingId": "weekly-1-on-1-with-michael-d-and-joe-f-2026-03-30",
     "meetingDate": "2026-03-30",
+    "deadline": null,
     "status": "open",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "other",
       "description": "A final decision on the recap format is made."
@@ -2733,6 +3101,7 @@
     "meetingDate": "2026-03-30",
     "deadline": "2026-03-31",
     "status": "open",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "calendar",
       "description": "Vinnie's attendance is confirmed."
@@ -2744,7 +3113,9 @@
     "owner": "Sergey Lyapustin",
     "meetingId": "michael-sergey-2026-03-31",
     "meetingDate": "2026-03-31",
+    "deadline": null,
     "status": "open",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "github",
       "description": "A new repository exists with a defined structure for organization skills."
@@ -2756,7 +3127,9 @@
     "owner": "Michael Donovan",
     "meetingId": "michael-sergey-2026-03-31",
     "meetingDate": "2026-03-31",
+    "deadline": null,
     "status": "open",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "other",
       "description": "New project created with Straw work migrated."
@@ -2768,7 +3141,9 @@
     "owner": "Michael Donovan",
     "meetingId": "michael-sergey-2026-03-31",
     "meetingDate": "2026-03-31",
+    "deadline": null,
     "status": "open",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "email",
       "description": "Increased account resources or clarification on current limits."
@@ -2780,7 +3155,9 @@
     "owner": "Michael Donovan",
     "meetingId": "the-marketing-meeting-2026-03-31",
     "meetingDate": "2026-03-31",
+    "deadline": null,
     "status": "open",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "email",
       "description": "LinkedIn ad assets are approved by the team and ready for activation in April."
@@ -2792,7 +3169,9 @@
     "owner": "Michael Donovan",
     "meetingId": "the-marketing-meeting-2026-03-31",
     "meetingDate": "2026-03-31",
+    "deadline": null,
     "status": "open",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "email",
       "description": "Vinnie approves content outline."
@@ -2804,7 +3183,9 @@
     "owner": "Vinnie Micciche",
     "meetingId": "the-marketing-meeting-2026-03-31",
     "meetingDate": "2026-03-31",
+    "deadline": null,
     "status": "open",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "slack",
       "description": "Social media posts are aligned with previous edits and ready for publishing."
@@ -2816,7 +3197,9 @@
     "owner": "Paulo Trovao",
     "meetingId": "the-marketing-meeting-2026-03-31",
     "meetingDate": "2026-03-31",
+    "deadline": null,
     "status": "open",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "email",
       "description": "Email is approved for distribution."
@@ -2828,7 +3211,9 @@
     "owner": "Michael Donovan",
     "meetingId": "the-marketing-meeting-2026-03-31",
     "meetingDate": "2026-03-31",
+    "deadline": null,
     "status": "open",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "email",
       "description": "Vinnie receives data on dealer challenges."
@@ -2840,7 +3225,9 @@
     "owner": "Matt Watson",
     "meetingId": "product-marketing-alignment-2026-04-01",
     "meetingDate": "2026-04-01",
+    "deadline": null,
     "status": "open",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "codebase",
       "description": "A personal OS side project that ingests signals from multiple sources to categorize and automate actions, intended to scale to an organizational-level conversational CRM."
@@ -2852,7 +3239,9 @@
     "owner": "Matt Watson",
     "meetingId": "product-marketing-alignment-2026-04-01",
     "meetingDate": "2026-04-01",
+    "deadline": null,
     "status": "open",
+    "resolvedInMeeting": null,
     "expectedOutcome": {
       "system": "codebase",
       "description": "Orchestrator will spawn parallel sub-agents to perform specific tasks, which are ephemeral workers and can communicate, but not spawn further sub-agents."
