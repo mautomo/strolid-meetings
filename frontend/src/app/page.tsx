@@ -706,7 +706,7 @@ export default function Home() {
 
               {/* Presentation Slide deck */}
               {activeArtifact.artifact_type === "presentation" && (
-                <div style={{ height: "100%", display: "flex", flexDirection: "column" }}>
+                <div style={{ height: "100%", display: "flex", flexDirection: "column" }} className="animate-fade-in">
                   <div className="glass-card" style={{ flex: 1, padding: "2rem", display: "flex", flexDirection: "column", justifyContent: "center", background: "rgba(255,255,255,0.01)", minHeight: "300px" }}>
                     <h3 style={{ fontSize: "1.4rem", fontWeight: 800, color: "white", marginBottom: "1rem" }}>
                       {activeArtifact.slides[slideIndex]?.title}
@@ -753,6 +753,132 @@ export default function Home() {
                       Next
                     </button>
                   </div>
+                </div>
+              )}
+
+              {/* Scorecard Visualizer */}
+              {activeArtifact.artifact_type === "scorecard" && (
+                <div style={{ display: "flex", flexDirection: "column", gap: "1.5rem" }} className="animate-fade-in">
+                  {/* Gauge Card */}
+                  <div className="glass-card" style={{ padding: "1.5rem", textAlign: "center", background: "rgba(255, 255, 255, 0.01)", border: "1px solid var(--border-glass)" }}>
+                    <div style={{ fontSize: "0.85rem", color: "var(--text-muted)", textTransform: "uppercase", fontWeight: 700, marginBottom: "0.5rem" }}>
+                      Reliability Score
+                    </div>
+                    <div style={{ fontSize: "3rem", fontWeight: 900, color: "var(--green)", textShadow: "0 0 15px rgba(16, 185, 129, 0.3)", lineHeight: 1 }}>
+                      {activeArtifact.reliability.toFixed(1)}%
+                    </div>
+                    {/* Progress Bar */}
+                    <div style={{ width: "100%", height: "8px", background: "rgba(255,255,255,0.05)", borderRadius: "4px", marginTop: "1rem", overflow: "hidden" }}>
+                      <div style={{ width: `${activeArtifact.reliability}%`, height: "100%", background: "var(--green)", borderRadius: "4px", boxShadow: "0 0 8px var(--green)" }} />
+                    </div>
+                    <div style={{ fontSize: "0.8rem", color: "var(--text-muted)", marginTop: "0.5rem" }}>
+                      Calculated from action item completion rate
+                    </div>
+                  </div>
+
+                  {/* Stats Grid */}
+                  <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "0.75rem" }}>
+                    <div className="glass-card" style={{ padding: "1rem", background: "rgba(255,255,255,0.01)" }}>
+                      <div style={{ fontSize: "0.75rem", color: "var(--text-muted)" }}>Completed</div>
+                      <div style={{ fontSize: "1.5rem", fontWeight: 700, color: "var(--green)" }}>{activeArtifact.stats.completed}</div>
+                    </div>
+                    <div className="glass-card" style={{ padding: "1rem", background: "rgba(255,255,255,0.01)" }}>
+                      <div style={{ fontSize: "0.75rem", color: "var(--text-muted)" }}>Open</div>
+                      <div style={{ fontSize: "1.5rem", fontWeight: 700, color: "var(--blue)" }}>{activeArtifact.stats.open}</div>
+                    </div>
+                    <div className="glass-card" style={{ padding: "1rem", background: "rgba(255,255,255,0.01)" }}>
+                      <div style={{ fontSize: "0.75rem", color: "var(--text-muted)" }}>Delayed</div>
+                      <div style={{ fontSize: "1.5rem", fontWeight: 700, color: "var(--yellow)" }}>{activeArtifact.stats.delayed}</div>
+                    </div>
+                    <div className="glass-card" style={{ padding: "1rem", background: "rgba(255,255,255,0.01)" }}>
+                      <div style={{ fontSize: "0.75rem", color: "var(--text-muted)" }}>Abandoned</div>
+                      <div style={{ fontSize: "1.5rem", fontWeight: 700, color: "var(--red)" }}>{activeArtifact.stats.abandoned}</div>
+                    </div>
+                  </div>
+
+                  {/* Top Topics */}
+                  {activeArtifact.top_topics && activeArtifact.top_topics.length > 0 && (
+                    <div className="glass-card" style={{ padding: "1.25rem", background: "rgba(255,255,255,0.01)" }}>
+                      <h4 style={{ fontSize: "0.85rem", color: "white", textTransform: "uppercase", fontWeight: 700, marginBottom: "0.75rem" }}>
+                        Key Areas of Focus
+                      </h4>
+                      <div style={{ display: "flex", flexWrap: "wrap", gap: "0.5rem" }}>
+                        {activeArtifact.top_topics.map((t: string, idx: number) => (
+                          <span key={idx} className="badge" style={{ background: "rgba(99,102,241,0.15)", color: "var(--accent)", border: "1px solid rgba(99,102,241,0.2)", padding: "0.25rem 0.5rem", borderRadius: "4px", fontSize: "0.75rem" }}>
+                            {t}
+                          </span>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+
+                  {/* Key Insights */}
+                  {activeArtifact.key_insights && activeArtifact.key_insights.length > 0 && (
+                    <div className="glass-card" style={{ padding: "1.25rem", background: "rgba(255,255,255,0.01)" }}>
+                      <h4 style={{ fontSize: "0.85rem", color: "white", textTransform: "uppercase", fontWeight: 700, marginBottom: "0.75rem" }}>
+                        Qualitative Insights
+                      </h4>
+                      <ul style={{ paddingLeft: "1.2rem", color: "var(--text-muted)", fontSize: "0.85rem", display: "flex", flexDirection: "column", gap: "0.5rem" }}>
+                        {activeArtifact.key_insights.map((insight: string, idx: number) => (
+                          <li key={idx}>{insight}</li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
+                </div>
+              )}
+
+              {/* Comparison Visualizer */}
+              {activeArtifact.artifact_type === "comparison" && (
+                <div style={{ display: "flex", flexDirection: "column", gap: "1.5rem" }} className="animate-fade-in">
+                  {/* Alignment Score Card */}
+                  <div className="glass-card" style={{ padding: "1.5rem", background: "rgba(255, 255, 255, 0.01)", border: "1px solid var(--border-glass)" }}>
+                    <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                      <div style={{ textAlign: "left" }}>
+                        <div style={{ fontSize: "0.75rem", color: "var(--text-muted)", textTransform: "uppercase", fontWeight: 700 }}>Entity A</div>
+                        <div style={{ fontSize: "1rem", fontWeight: 700, color: "white" }}>{activeArtifact.entity_a}</div>
+                      </div>
+                      <div style={{ textAlign: "center", background: "rgba(99, 102, 241, 0.15)", borderRadius: "50%", width: "80px", height: "80px", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", border: "2px solid var(--accent)", boxShadow: "0 0 15px rgba(99, 102, 241, 0.3)" }}>
+                        <div style={{ fontSize: "1.25rem", fontWeight: 800, color: "white" }}>{activeArtifact.alignment_score.toFixed(0)}%</div>
+                        <div style={{ fontSize: "0.55rem", color: "var(--text-muted)", textTransform: "uppercase" }}>Align</div>
+                      </div>
+                      <div style={{ textAlign: "right" }}>
+                        <div style={{ fontSize: "0.75rem", color: "var(--text-muted)", textTransform: "uppercase", fontWeight: 700 }}>Entity B</div>
+                        <div style={{ fontSize: "1rem", fontWeight: 700, color: "white" }}>{activeArtifact.entity_b}</div>
+                      </div>
+                    </div>
+                    <div style={{ textAlign: "center", fontSize: "0.8rem", color: "var(--text-muted)", marginTop: "1rem" }}>
+                      Joint Decisions: <strong>{activeArtifact.joint_decisions}</strong>
+                    </div>
+                  </div>
+
+                  {/* Contrasting Viewpoints */}
+                  {activeArtifact.contrasting_viewpoints && activeArtifact.contrasting_viewpoints.length > 0 && (
+                    <div className="glass-card" style={{ padding: "1.25rem", background: "rgba(255,255,255,0.01)" }}>
+                      <h4 style={{ fontSize: "0.85rem", color: "white", textTransform: "uppercase", fontWeight: 700, marginBottom: "0.75rem" }}>
+                        Contrasting Viewpoints
+                      </h4>
+                      <ul style={{ paddingLeft: "1.2rem", color: "var(--text-muted)", fontSize: "0.85rem", display: "flex", flexDirection: "column", gap: "0.5rem" }}>
+                        {activeArtifact.contrasting_viewpoints.map((pt: string, idx: number) => (
+                          <li key={idx}>{pt}</li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
+
+                  {/* Key Findings */}
+                  {activeArtifact.key_findings && activeArtifact.key_findings.length > 0 && (
+                    <div className="glass-card" style={{ padding: "1.25rem", background: "rgba(255,255,255,0.01)" }}>
+                      <h4 style={{ fontSize: "0.85rem", color: "white", textTransform: "uppercase", fontWeight: 700, marginBottom: "0.75rem" }}>
+                        Strategic Key Findings
+                      </h4>
+                      <ul style={{ paddingLeft: "1.2rem", color: "var(--text-muted)", fontSize: "0.85rem", display: "flex", flexDirection: "column", gap: "0.5rem" }}>
+                        {activeArtifact.key_findings.map((f: string, idx: number) => (
+                          <li key={idx}>{f}</li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
                 </div>
               )}
 

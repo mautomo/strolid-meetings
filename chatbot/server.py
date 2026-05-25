@@ -169,6 +169,86 @@ class ChatRequest(BaseModel):
 APP_NAME = "strolid_meeting_intelligence"
 SESSION_DB_URL = "sqlite+aiosqlite:///./adk_sessions.db"
 
+def get_meeting_context(meeting_id: str) -> str:
+    """Query relational BigQuery tables to construct a rich metadata context block for the meeting."""
+    try:
+        # 1. Fetch meeting info
+        sql_meeting = f"""
+        SELECT title, date, type, summary, sentiment_score, tension_score 
+        FROM `{PROJECT_ID}.{DATASET_ID}.meetings` 
+        WHERE meeting_id = @meeting_id LIMIT 1
+        """
+        job_config = bigquery.QueryJobConfig(
+            query_parameters=[bigquery.ScalarQueryParameter("meeting_id", "STRING", meeting_id)]
+        )
+        res_meeting = list(bq_client.query(sql_meeting, job_config=job_config).result())
+        if not res_meeting:
+            return ""
+        
+        row = res_meeting[0]
+        title = row["title"]
+        date_str = row["date"].strftime("%Y-%m-%d") if hasattr(row["date"], "strftime") else str(row["date"])
+        m_type = row["type"]
+        summary = row["summary"]
+        sentiment = row["sentiment_score"] or 0.0
+        tension = row["tension_score"] or 0.0
+        
+        # 2. Fetch attendees
+        sql_attendees = f"""
+        SELECT person_name 
+        FROM `{PROJECT_ID}.{DATASET_ID}.meeting_attendees` 
+        WHERE meeting_id = @meeting_id
+        """
+        res_attendees = list(bq_client.query(sql_attendees, job_config=job_config).result())
+        attendees = [r["person_name"] for r in res_attendees]
+        
+        # 3. Fetch decisions
+        sql_decisions = f"""
+        SELECT description, confidence, topic, ARRAY_TO_STRING(decided_by, ', ') as decided_by 
+        FROM `{PROJECT_ID}.{DATASET_ID}.decisions` 
+        WHERE meeting_id = @meeting_id
+        """
+        res_decisions = list(bq_client.query(sql_decisions, job_config=job_config).result())
+        
+        # 4. Fetch action items
+        sql_actions = f"""
+        SELECT task, owner, status 
+        FROM `{PROJECT_ID}.{DATASET_ID}.action_items` 
+        WHERE meeting_id = @meeting_id
+        """
+        res_actions = list(bq_client.query(sql_actions, job_config=job_config).result())
+        
+        # Format markdown context
+        ctx = [
+            f"[System Context: The user has selected the active meeting '{title}' (Held: {date_str}, Type: {m_type}).",
+            "Here is the verified relational metadata for this meeting from the database:",
+            f"- **Summary**: {summary}",
+            f"- **Sentiment Score**: {sentiment:.2f} | **Tension Score**: {tension:.2f}",
+            f"- **Attendees**: {', '.join(attendees) if attendees else 'None specified'}"
+        ]
+        
+        if res_decisions:
+            ctx.append("- **Decisions Logged**:")
+            for d in res_decisions:
+                decided_by_str = f" by {d['decided_by']}" if d['decided_by'] else ""
+                ctx.append(f"  - [{d['confidence'].upper()}] \"{d['description']}\"{decided_by_str} (Topic: {d['topic']})")
+        else:
+            ctx.append("- **Decisions Logged**: None")
+            
+        if res_actions:
+            ctx.append("- **Action Items Assigned**:")
+            for a in res_actions:
+                ctx.append(f"  - [{a['status'].upper()}] to {a['owner']}: \"{a['task']}\"")
+        else:
+            ctx.append("- **Action Items Assigned**: None")
+            
+        ctx.append("Keep this context in mind when answering. If the user asks general or structural questions about this meeting (e.g. who attended, what was decided, what action items were assigned), rely on this verified metadata directly. For detailed transcript-level details not present in this summary, use the `rag_search` tool.]\n\n")
+        
+        return "\n".join(ctx)
+    except Exception as e:
+        print(f"Error fetching meeting context details: {e}")
+        return f"[System Context: Meeting ID: {meeting_id}. Keep this in mind when answering questions.]\n\n"
+
 # Initialize ADK Runner
 session_service = DatabaseSessionService(SESSION_DB_URL)
 adk_runner = Runner(
@@ -202,18 +282,7 @@ async def stream_response(session_id: str, user_id: str, user_message: str) -> A
     context_prefix = ""
     if session_id.startswith("session-meeting-"):
         meeting_id = session_id.replace("session-meeting-", "")
-        try:
-            sql = f"SELECT title, date FROM `{PROJECT_ID}.{DATASET_ID}.meetings` WHERE meeting_id = @meeting_id LIMIT 1"
-            job_config = bigquery.QueryJobConfig(
-                query_parameters=[bigquery.ScalarQueryParameter("meeting_id", "STRING", meeting_id)]
-            )
-            res = list(bq_client.query(sql, job_config=job_config).result())
-            if res:
-                title = res[0]["title"]
-                date = res[0]["date"].strftime("%Y-%m-%d") if hasattr(res[0]["date"], "strftime") else str(res[0]["date"])
-                context_prefix = f"[System Context: The user has currently selected the meeting '{title}' held on {date} (ID: {meeting_id}) in the UI. Keep this in mind when answering questions about 'this meeting' or 'the meeting' without explicit names. You can query its details using your tools.]\n\n"
-        except Exception as e:
-            print(f"Error fetching meeting context: {e}")
+        context_prefix = get_meeting_context(meeting_id)
 
     # 2. Run ADK Agent and stream tokens
     agent_message_text = context_prefix + user_message

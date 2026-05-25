@@ -393,6 +393,88 @@ async def generate_timeline_artifact(
     except Exception as e:
         return f"Error compiling timeline artifact: {e}"
 
+async def generate_scorecard_artifact(
+    title: str,
+    target: str,
+    reliability: float,
+    completed_count: int,
+    open_count: int,
+    delayed_count: int,
+    abandoned_count: int,
+    top_topics: list[str],
+    key_insights: list[str]
+) -> str:
+    """Generate a structured reliability scorecard JSON payload to display in the Canvas UI.
+    
+    Use this when the user asks for a scorecard, performance review, or detailed reliability analysis of a person or a topic.
+    
+    Args:
+        title: Title of the scorecard (e.g. "Vinnie Micciche Performance Scorecard").
+        target: The name of the person or topic (e.g. "Vinnie Micciche").
+        reliability: Reliability score percentage (completion rate, e.g. 85.5).
+        completed_count: Count of completed action items.
+        open_count: Count of open action items.
+        delayed_count: Count of delayed/recurring action items.
+        abandoned_count: Count of abandoned action items.
+        top_topics: List of key topics associated with this entity.
+        key_insights: List of qualitative findings or observations (2-4 insights).
+        
+    Returns:
+        A JSON string containing the scorecard artifact payload.
+    """
+    artifact = {
+        "artifact_type": "scorecard",
+        "title": title,
+        "target": target,
+        "reliability": reliability,
+        "stats": {
+            "completed": completed_count,
+            "open": open_count,
+            "delayed": delayed_count,
+            "abandoned": abandoned_count
+        },
+        "top_topics": top_topics,
+        "key_insights": key_insights
+    }
+    return json.dumps(artifact, indent=2)
+
+async def generate_comparison_artifact(
+    title: str,
+    entity_a: str,
+    entity_b: str,
+    joint_decisions_count: int,
+    alignment_score: float,
+    contrasting_viewpoints: list[str],
+    key_findings: list[str]
+) -> str:
+    """Generate a structured side-by-side comparison JSON payload to display in the Canvas UI.
+    
+    Use this when the user asks to compare two leaders, analyze their alignment, contrast their positions, or check synchronization.
+    
+    Args:
+        title: Title of the comparison (e.g. "Vinnie & Michael Alignment Analysis").
+        entity_a: Name of the first leader (e.g. "Vinnie Micciche").
+        entity_b: Name of the second leader (e.g. "Michael Donovan").
+        joint_decisions_count: Number of joint decisions they participated in together.
+        alignment_score: Alignment score percentage (joint decisions/total, e.g. 74.2).
+        contrasting_viewpoints: List of bullet points detailing differences in their stances or direction changes.
+        key_findings: List of summaries or strategic takeaways.
+        
+    Returns:
+        A JSON string containing the comparison artifact payload.
+    """
+    artifact = {
+        "artifact_type": "comparison",
+        "title": title,
+        "entity_a": entity_a,
+        "entity_b": entity_b,
+        "joint_decisions": joint_decisions_count,
+        "alignment_score": alignment_score,
+        "contrasting_viewpoints": contrasting_viewpoints,
+        "key_findings": key_findings
+    }
+    return json.dumps(artifact, indent=2)
+
 def build_agent() -> Agent:
     instruction = (
         "You are the Strolid Meeting Intelligence Assistant, a strategic chatbot "
@@ -404,8 +486,10 @@ def build_agent() -> Agent:
         "2. `get_analytics_summary` to pull meeting counts, decision ratios, and reliability statistics "
         "from the data warehouse.\n"
         "3. `generate_presentation_artifact` to create structured presentation slide decks for the user.\n"
-        "4. `generate_timeline_artifact` to create chronological event timelines.\n\n"
-        "When the user asks to compile a timeline or slide presentation, call the corresponding "
+        "4. `generate_timeline_artifact` to create chronological event timelines.\n"
+        "5. `generate_scorecard_artifact` to create structured reliability scorecards for individuals or topics.\n"
+        "6. `generate_comparison_artifact` to create side-by-side comparison analyses between leaders.\n\n"
+        "When the user asks to compile a timeline, slide presentation, scorecard, or comparison, call the corresponding "
         "artifact tool. Emissary payloads will be picked up by the UI React client to display cards."
     )
     
@@ -414,5 +498,12 @@ def build_agent() -> Agent:
         model="gemini-2.0-flash", # ADK 2.0 uses gemini-2.0-flash by default
         description="Strolid Meeting Intelligence and scoring assistant.",
         instruction=instruction,
-        tools=[rag_search, get_analytics_summary, generate_presentation_artifact, generate_timeline_artifact],
+        tools=[
+            rag_search, 
+            get_analytics_summary, 
+            generate_presentation_artifact, 
+            generate_timeline_artifact,
+            generate_scorecard_artifact,
+            generate_comparison_artifact
+        ],
     )
