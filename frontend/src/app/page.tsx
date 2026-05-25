@@ -27,6 +27,150 @@ interface Message {
   timestamp?: any;
 }
 
+function renderMarkdown(text: string) {
+  if (!text) return null;
+
+  const lines = text.split("\n");
+  const elements: React.ReactNode[] = [];
+  
+  let currentList: React.ReactNode[] = [];
+  let currentListType: "ul" | "ol" | null = null;
+  
+  let currentTableHeaders: string[] = [];
+  let currentTableRows: string[][] = [];
+  let inTable = false;
+  
+  const parseInline = (str: string): React.ReactNode[] => {
+    const parts = str.split(/(\*\*.*?\*\*)/g);
+    return parts.map((part, idx) => {
+      if (part.startsWith("**") && part.endsWith("**")) {
+        return <strong key={idx}>{part.slice(2, -2)}</strong>;
+      }
+      return part;
+    });
+  };
+
+  const flushList = (key: number) => {
+    if (currentList.length > 0) {
+      if (currentListType === "ul") {
+        elements.push(
+          <ul key={`ul-${key}`} style={{ paddingLeft: "1.25rem", margin: "0.5rem 0", listStyleType: "disc" }}>
+            {currentList}
+          </ul>
+        );
+      } else {
+        elements.push(
+          <ol key={`ol-${key}`} style={{ paddingLeft: "1.25rem", margin: "0.5rem 0", listStyleType: "decimal" }}>
+            {currentList}
+          </ol>
+        );
+      }
+      currentList = [];
+      currentListType = null;
+    }
+  };
+
+  const flushTable = (key: number) => {
+    if (inTable) {
+      elements.push(
+        <div key={`table-wrapper-${key}`} className="table-container">
+          <table className="markdown-table">
+            <thead>
+              <tr>
+                {currentTableHeaders.map((header, hIdx) => (
+                  <th key={hIdx}>{parseInline(header)}</th>
+                ))}
+              </tr>
+            </thead>
+            <tbody>
+              {currentTableRows.map((row, rIdx) => (
+                <tr key={rIdx}>
+                  {row.map((cell, cIdx) => (
+                    <td key={cIdx}>{parseInline(cell)}</td>
+                  ))}
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      );
+      currentTableHeaders = [];
+      currentTableRows = [];
+      inTable = false;
+    }
+  };
+
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i];
+    const trimmed = line.trim();
+
+    if (trimmed.startsWith("|")) {
+      flushList(i);
+      const cells = line.split("|").slice(1, -1).map(c => c.trim());
+      const isSeparator = cells.every(c => /^:?-+:?$/.test(c));
+      
+      if (isSeparator) {
+        continue;
+      }
+      
+      if (!inTable) {
+        inTable = true;
+        currentTableHeaders = cells;
+      } else {
+        currentTableRows.push(cells);
+      }
+      continue;
+    } else if (inTable) {
+      flushTable(i);
+    }
+
+    const bulletMatch = line.match(/^(\s*)([-*+])\s+(.*)/);
+    const numberedMatch = line.match(/^(\s*)(\d+)\.\s+(.*)/);
+
+    if (bulletMatch) {
+      if (currentListType !== "ul") {
+        flushList(i);
+        currentListType = "ul";
+      }
+      currentList.push(
+        <li key={`li-${i}`} style={{ marginBottom: "0.2rem" }}>
+          {parseInline(bulletMatch[3])}
+        </li>
+      );
+      continue;
+    } else if (numberedMatch) {
+      if (currentListType !== "ol") {
+        flushList(i);
+        currentListType = "ol";
+      }
+      currentList.push(
+        <li key={`li-${i}`} style={{ marginBottom: "0.2rem" }}>
+          {parseInline(numberedMatch[3])}
+        </li>
+      );
+      continue;
+    }
+
+    if (trimmed === "") {
+      flushList(i);
+      elements.push(<div key={`space-${i}`} style={{ height: "0.5rem" }} />);
+      continue;
+    }
+
+    flushList(i);
+    elements.push(
+      <p key={`p-${i}`} style={{ margin: "0.25rem 0", lineHeight: "1.4" }}>
+        {parseInline(line)}
+      </p>
+    );
+  }
+
+  flushList(lines.length);
+  flushTable(lines.length);
+
+  return <>{elements}</>;
+}
+
 export default function Home() {
   // Auth State
   const [user, setUser] = useState<any>(null);
@@ -446,8 +590,8 @@ export default function Home() {
                   borderRadius: msg.role === "user" ? "16px 16px 2px 16px" : "16px 16px 16px 2px"
                 }}
               >
-                <div style={{ fontSize: "0.95rem", whiteSpace: "pre-wrap", color: "white" }}>
-                  {msg.content}
+                <div style={{ fontSize: "0.95rem", whiteSpace: msg.role === "user" ? "pre-wrap" : "normal", color: "white" }}>
+                  {msg.role === "user" ? msg.content : renderMarkdown(msg.content)}
                 </div>
                 
                 {/* Link to Artifact if message includes one */}
@@ -476,8 +620,8 @@ export default function Home() {
           {isStreaming && (
             <div style={{ alignSelf: "flex-start", maxWidth: "80%" }}>
               <div className="glass-card" style={{ padding: "1rem 1.25rem", background: "rgba(31, 41, 55, 0.5)", borderRadius: "16px 16px 16px 2px" }}>
-                <div style={{ fontSize: "0.95rem", whiteSpace: "pre-wrap", color: "white" }}>
-                  {streamText || "Assistant is thinking..."}
+                <div style={{ fontSize: "0.95rem", color: "white" }}>
+                  {streamText ? renderMarkdown(streamText) : "Assistant is thinking..."}
                 </div>
               </div>
             </div>

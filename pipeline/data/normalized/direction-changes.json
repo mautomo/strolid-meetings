@@ -1,5 +1,25 @@
 [
   {
+    "topic": "automotive-intent-handoff-spec",
+    "originalPosition": "To define the 'Automotive Intent Handoff' specification, including a standard vCon-based payload and a simple endpoint for LLM platforms.",
+    "originalDate": "2023-10-27",
+    "originalMeeting": "strolid-auto-leadership-20231027",
+    "newPosition": "An 'Automotive Intent Handoff' spec will be defined, including a standard payload and a simple endpoint.",
+    "changeDate": "2023-10-27",
+    "changeMeeting": "StrolidAuto-Leadership-20231027",
+    "daysBetween": 0
+  },
+  {
+    "topic": "team-identity-redefinition",
+    "originalPosition": "To redefine the team's self-perception: Dealer MRI as the brain/diagnostic, Automotive Copilot as the assistant/connector, and BDC as the execution engine.",
+    "originalDate": "2023-10-27",
+    "originalMeeting": "strolid-auto-leadership-20231027",
+    "newPosition": "The team's identity will shift to Dealer MRI as the brain/diagnostic, Automotive Copilot as the assistant/connector, and BDC as the execution engine.",
+    "changeDate": "2023-10-27",
+    "changeMeeting": "StrolidAuto-Leadership-20231027",
+    "daysBetween": 0
+  },
+  {
     "topic": "portal-user-engagement",
     "originalPosition": "Focus on the \"why\" behind portal usage to drive dealer adoption.",
     "originalDate": "2025-01-28",

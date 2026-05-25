@@ -96,3 +96,13 @@ class PatternFlag(BaseModel):
     meetingRefs: List[str] = Field(default_factory=list)
     dates: List[str] = Field(default_factory=list)
     relatedEntities: List[str] = Field(default_factory=list)
+
+class ExtractedDocument(BaseModel):
+    docId: str
+    title: str
+    date: Optional[str] = None # format YYYY-MM-DD
+    authors: List[str] = Field(default_factory=list)
+    topics: List[str] = Field(default_factory=list)
+    summary: str
+    text: str
+
