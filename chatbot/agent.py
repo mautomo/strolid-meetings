@@ -74,12 +74,18 @@ async def rag_search(
         query_job = bq_client.query(sql_query, job_config=job_config)
         results = list(query_job.result())
         
-        if not results:
+        # Filter results by similarity score >= 0.55
+        filtered_results = []
+        for row in results:
+            similarity = 1.0 - row["distance"]
+            if similarity >= 0.55:
+                filtered_results.append((row, similarity))
+        
+        if not filtered_results:
             return "No matching meeting segments found for your query with those filters."
             
         output = [f"Top semantic matches in the transcript repository for query: '{query}'\n"]
-        for idx, row in enumerate(results):
-            similarity = 1.0 - row["distance"]
+        for idx, (row, similarity) in enumerate(filtered_results):
             date_str = row["date"].strftime("%Y-%m-%d") if hasattr(row["date"], "strftime") else str(row["date"])
             output.append(
                 f"[{idx+1}] Meeting: {row['meeting_id']} | Date: {date_str} | Similarity: {similarity:.2f}\n"

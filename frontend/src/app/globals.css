@@ -138,3 +138,30 @@ button {
 .animate-fade-in {
   animation: fadeIn 0.3s ease forwards;
 }
+
+/* Markdown Table and List Styling */
+.markdown-table {
+  margin: 0.75rem 0;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.markdown-table th, .markdown-table td {
+  border: 1px solid var(--border-glass);
+  padding: 0.5rem 0.75rem;
+}
+
+.markdown-table th {
+  background: rgba(255, 255, 255, 0.05);
+  font-weight: 700;
+  color: white;
+}
+
+.table-container {
+  border-radius: 8px;
+  border: 1px solid var(--border-glass);
+  background: rgba(0, 0, 0, 0.2);
+  margin: 1rem 0;
+  overflow-x: auto;
+}
+

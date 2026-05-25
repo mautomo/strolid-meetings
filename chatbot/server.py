@@ -1,6 +1,7 @@
 import os
 import sys
 import json
+import re
 import asyncio
 from pathlib import Path
 from typing import AsyncGenerator
@@ -14,6 +15,102 @@ from google.genai import types
 import firebase_admin
 from firebase_admin import credentials, firestore, auth
 from google.cloud import bigquery
+
+class StreamFilter:
+    def __init__(self):
+        self.buffer = ""
+        self.in_block = False
+        self.block_start_marker = "```json"
+        self.block_end_marker = "```"
+        self.is_fence = False
+
+    def feed(self, chunk: str) -> str:
+        self.buffer += chunk
+        output = ""
+        
+        while True:
+            if not self.in_block:
+                start_idx_fence = self.buffer.find("```json")
+                start_idx_brace = self.buffer.find("{")
+                
+                # Determine which comes first
+                start_idx = -1
+                is_fence = False
+                if start_idx_fence != -1 and start_idx_brace != -1:
+                    if start_idx_fence < start_idx_brace:
+                        start_idx = start_idx_fence
+                        is_fence = True
+                    else:
+                        start_idx = start_idx_brace
+                elif start_idx_fence != -1:
+                    start_idx = start_idx_fence
+                    is_fence = True
+                elif start_idx_brace != -1:
+                    start_idx = start_idx_brace
+                
+                if start_idx != -1:
+                    output += self.buffer[:start_idx]
+                    self.buffer = self.buffer[start_idx:]
+                    self.in_block = True
+                    self.is_fence = is_fence
+                else:
+                    keep_len = 7
+                    if len(self.buffer) > keep_len:
+                        output += self.buffer[:-keep_len]
+                        self.buffer = self.buffer[-keep_len:]
+                    break
+            else:
+                if self.is_fence:
+                    end_idx = self.buffer.find("```", 7)
+                    if end_idx != -1:
+                        block_content = self.buffer[:end_idx + 3]
+                        self.buffer = self.buffer[end_idx + 3:]
+                        self.in_block = False
+                        
+                        if "artifact_type" not in block_content:
+                            output += block_content
+                    else:
+                        break
+                else:
+                    brace_count = 0
+                    match_idx = -1
+                    for idx, char in enumerate(self.buffer):
+                        if char == "{":
+                            brace_count += 1
+                        elif char == "}":
+                            brace_count -= 1
+                            if brace_count == 0:
+                                match_idx = idx
+                                break
+                    if match_idx != -1:
+                        block_content = self.buffer[:match_idx + 1]
+                        self.buffer = self.buffer[match_idx + 1:]
+                        self.in_block = False
+                        
+                        if "artifact_type" not in block_content:
+                            output += block_content
+                    else:
+                        break
+        return output
+
+    def flush(self) -> str:
+        if self.in_block:
+            if "artifact_type" in self.buffer:
+                return ""
+        return self.buffer
+
+def clean_assistant_content(text: str) -> str:
+    pattern_fence = r'```json\s*\{.*?\"artifact_type\".*?\}\s*```'
+    cleaned = re.sub(pattern_fence, '', text, flags=re.DOTALL)
+    
+    pattern_bare = r'\{\s*\"artifact_type\".*?\}'
+    cleaned = re.sub(pattern_bare, '', cleaned, flags=re.DOTALL)
+    
+    cleaned = cleaned.strip()
+    if not cleaned:
+        cleaned = "Here is the generated presentation canvas:"
+    return cleaned
+
 
 # Ensure we can import from src/ and chatbot/
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "pipeline" / "src"))
@@ -124,6 +221,7 @@ async def stream_response(session_id: str, user_id: str, user_message: str) -> A
     
     accumulated_text = ""
     artifact_payload = None
+    stream_filter = StreamFilter()
     
     async for event in adk_runner.run_async(
         user_id=user_id, session_id=session_id, new_message=message
@@ -132,12 +230,14 @@ async def stream_response(session_id: str, user_id: str, user_message: str) -> A
             for part in event.content.parts:
                 text = getattr(part, "text", None)
                 if text:
-                    # Detect and filter out raw artifact JSON blocks from the chat stream,
-                    # since they will be rendered on the canvas, not read as text.
-                    # Artifacts are formatted as markdown code blocks with json.
                     accumulated_text += text
-                    # Yield tokens to the client
-                    yield text
+                    filtered = stream_filter.feed(text)
+                    if filtered:
+                        yield filtered
+                        
+    flushed = stream_filter.flush()
+    if flushed:
+        yield flushed
                     
     # 3. Post-process accumulated text to extract any artifact payloads
     # Artifacts are output by tools as valid JSON strings
@@ -172,9 +272,10 @@ async def stream_response(session_id: str, user_id: str, user_message: str) -> A
     # 4. Write assistant response and artifact metadata to Firestore
     if db:
         try:
+            cleaned_content = clean_assistant_content(accumulated_text)
             msg_doc = {
                 "role": "assistant",
-                "content": accumulated_text,
+                "content": cleaned_content,
                 "timestamp": firestore.SERVER_TIMESTAMP
             }
             if artifact_payload:

@@ -15,9 +15,8 @@ TABLE_ID = "embeddings"
 genai_client = genai.Client()
 bq_client = bigquery.Client(project=PROJECT_ID)
 
-def verify_rag_search():
-    query_text = "What was decided about the BC outbound campaign?"
-    print(f"RAG Test Query: '{query_text}'")
+def run_query(query_text: str):
+    print(f"\nRAG Test Query: '{query_text}'")
     
     # 1. Embed query
     try:
@@ -56,14 +55,26 @@ def verify_rag_search():
         print(f"Found {len(results)} matches.\n")
         
         for idx, row in enumerate(results):
-            print(f"Match [{idx+1}] distance: {row['distance']:.3f} | Date: {row['date']} | Meeting: {row['meeting_id']}")
-            print(f"Attendees: {', '.join(row['attendees'])}")
+            print(f"Match [{idx+1}] distance: {row['distance']:.3f} | Date: {row['date']} | ID: {row['meeting_id']}")
+            print(f"Attendees/Authors: {', '.join(row['attendees']) if row['attendees'] else 'None'}")
+            print(f"Topics: {', '.join(row['topics']) if row['topics'] else 'None'}")
             print(f"Text Passage: \"{row['text'].strip()[:200]}...\"")
             print("-" * 50)
             
-        print("Success! RAG search is fully verified.")
+        print("Query execution completed successfully.")
     except Exception as e:
         print(f"Error running vector query: {e}")
 
+def verify_rag_search():
+    print("Starting RAG search verification...")
+    # Test 1: Meeting Transcript query
+    run_query("What was decided about the BC outbound campaign?")
+    # Test 2: Non-meeting Document query
+    run_query("Why should a dealer consider Strolid?")
+    # Test 3: Lindy research query
+    run_query("What does the research on Lindy AI cover?")
+    print("\nRAG search verification finished.")
+
 if __name__ == "__main__":
     verify_rag_search()
+

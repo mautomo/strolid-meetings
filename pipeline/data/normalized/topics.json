@@ -6,6 +6,7 @@
     "lastMentioned": "2026-03-31",
     "meetingRefs": [
       "the-marketing-meeting-2025-11-11",
+      "Strolid-Leadership-2025-12-01",
       "michael-and-vin-continuation-2025-12-03",
       "call-with-michael-2025-12-05",
       "marketing-90-day-prioritization-2025-12-23",
@@ -19,10 +20,10 @@
       "the-marketing-meeting-2026-03-31"
     ],
     "decisionRefs": [
-      "d-085",
-      "d-138"
+      "d-123",
+      "d-176"
     ],
-    "mentionCount": 12
+    "mentionCount": 13
   },
   {
     "id": "messaging-strategy",
@@ -42,19 +43,19 @@
       "the-marketing-meeting-2026-03-31"
     ],
     "decisionRefs": [
-      "d-060",
-      "d-079",
-      "d-082",
-      "d-083",
-      "d-084",
-      "d-086",
-      "d-094",
-      "d-097",
-      "d-105",
+      "d-092",
+      "d-117",
+      "d-120",
       "d-121",
       "d-122",
-      "d-123",
-      "d-219"
+      "d-124",
+      "d-132",
+      "d-135",
+      "d-143",
+      "d-159",
+      "d-160",
+      "d-161",
+      "d-257"
     ],
     "mentionCount": 10
   },
@@ -73,8 +74,8 @@
       "marketing-2026-03-13"
     ],
     "decisionRefs": [
-      "d-168",
-      "d-196"
+      "d-206",
+      "d-234"
     ],
     "mentionCount": 7
   },
@@ -92,8 +93,8 @@
       "catch-up-on-marketing-activities-2026-02-20"
     ],
     "decisionRefs": [
-      "d-077",
-      "d-092"
+      "d-115",
+      "d-130"
     ],
     "mentionCount": 6
   },
@@ -109,9 +110,9 @@
       "the-marketing-meeting-2026-03-31"
     ],
     "decisionRefs": [
-      "d-081",
-      "d-087",
-      "d-220"
+      "d-119",
+      "d-125",
+      "d-258"
     ],
     "mentionCount": 4
   },
@@ -127,8 +128,8 @@
       "the-marketing-meeting-2026-01-06"
     ],
     "decisionRefs": [
-      "d-043",
-      "d-044"
+      "d-075",
+      "d-076"
     ],
     "mentionCount": 4
   },
@@ -144,9 +145,9 @@
       "regroup-on-website-refresh-initiative-2026-01-09"
     ],
     "decisionRefs": [
-      "d-080",
-      "d-117",
-      "d-126"
+      "d-118",
+      "d-155",
+      "d-164"
     ],
     "mentionCount": 4
   },
@@ -161,7 +162,7 @@
       "the-marketing-meeting-2026-01-06"
     ],
     "decisionRefs": [
-      "d-011"
+      "d-043"
     ],
     "mentionCount": 3
   },
@@ -176,7 +177,7 @@
       "weekly-1-on-1-with-michael-d-and-joe-f-2026-03-30"
     ],
     "decisionRefs": [
-      "d-115"
+      "d-153"
     ],
     "mentionCount": 3
   },
@@ -191,7 +192,7 @@
       "the-marketing-meeting-2026-01-13"
     ],
     "decisionRefs": [
-      "d-130"
+      "d-168"
     ],
     "mentionCount": 3
   },
@@ -206,9 +207,9 @@
       "strolid-leadership-call-2026-03-09"
     ],
     "decisionRefs": [
-      "d-095",
-      "d-171",
-      "d-182"
+      "d-133",
+      "d-209",
+      "d-220"
     ],
     "mentionCount": 3
   },
@@ -224,6 +225,141 @@
     ],
     "decisionRefs": [],
     "mentionCount": 3
+  },
+  {
+    "id": "strolid-auto-rollout-plan",
+    "label": "strolid-auto-rollout-plan",
+    "firstMentioned": "2023-10-27",
+    "lastMentioned": "2023-10-27",
+    "meetingRefs": [
+      "strolid-auto-leadership-20231027",
+      "StrolidAuto-Leadership-20231027"
+    ],
+    "decisionRefs": [],
+    "mentionCount": 2
+  },
+  {
+    "id": "automotive-copilot-dealer-mode",
+    "label": "automotive-copilot-dealer-mode",
+    "firstMentioned": "2023-10-27",
+    "lastMentioned": "2023-10-27",
+    "meetingRefs": [
+      "strolid-auto-leadership-20231027",
+      "StrolidAuto-Leadership-20231027"
+    ],
+    "decisionRefs": [],
+    "mentionCount": 2
+  },
+  {
+    "id": "dealer-mri-brain",
+    "label": "dealer-mri-brain",
+    "firstMentioned": "2023-10-27",
+    "lastMentioned": "2023-10-27",
+    "meetingRefs": [
+      "strolid-auto-leadership-20231027",
+      "StrolidAuto-Leadership-20231027"
+    ],
+    "decisionRefs": [],
+    "mentionCount": 2
+  },
+  {
+    "id": "automotive-copilot-network-mode",
+    "label": "automotive-copilot-network-mode",
+    "firstMentioned": "2023-10-27",
+    "lastMentioned": "2023-10-27",
+    "meetingRefs": [
+      "strolid-auto-leadership-20231027",
+      "StrolidAuto-Leadership-20231027"
+    ],
+    "decisionRefs": [],
+    "mentionCount": 2
+  },
+  {
+    "id": "llm-integration-strategy",
+    "label": "llm-integration-strategy",
+    "firstMentioned": "2023-10-27",
+    "lastMentioned": "2023-10-27",
+    "meetingRefs": [
+      "strolid-auto-leadership-20231027",
+      "StrolidAuto-Leadership-20231027"
+    ],
+    "decisionRefs": [],
+    "mentionCount": 2
+  },
+  {
+    "id": "vconic-infrastructure",
+    "label": "vconic-infrastructure",
+    "firstMentioned": "2023-10-27",
+    "lastMentioned": "2023-10-27",
+    "meetingRefs": [
+      "strolid-auto-leadership-20231027",
+      "StrolidAuto-Leadership-20231027"
+    ],
+    "decisionRefs": [],
+    "mentionCount": 2
+  },
+  {
+    "id": "product-scope-definition",
+    "label": "product-scope-definition",
+    "firstMentioned": "2023-10-27",
+    "lastMentioned": "2023-10-27",
+    "meetingRefs": [
+      "strolid-auto-leadership-20231027",
+      "StrolidAuto-Leadership-20231027"
+    ],
+    "decisionRefs": [],
+    "mentionCount": 2
+  },
+  {
+    "id": "workflow-integration",
+    "label": "workflow-integration",
+    "firstMentioned": "2023-10-27",
+    "lastMentioned": "2023-10-27",
+    "meetingRefs": [
+      "strolid-auto-leadership-20231027",
+      "StrolidAuto-Leadership-20231027"
+    ],
+    "decisionRefs": [],
+    "mentionCount": 2
+  },
+  {
+    "id": "performance-measurement",
+    "label": "performance-measurement",
+    "firstMentioned": "2023-10-27",
+    "lastMentioned": "2023-10-27",
+    "meetingRefs": [
+      "strolid-auto-leadership-20231027",
+      "StrolidAuto-Leadership-20231027"
+    ],
+    "decisionRefs": [],
+    "mentionCount": 2
+  },
+  {
+    "id": "api-productization",
+    "label": "api-productization",
+    "firstMentioned": "2023-10-27",
+    "lastMentioned": "2023-10-27",
+    "meetingRefs": [
+      "strolid-auto-leadership-20231027",
+      "StrolidAuto-Leadership-20231027"
+    ],
+    "decisionRefs": [],
+    "mentionCount": 2
+  },
+  {
+    "id": "automotive-intent-handoff-spec",
+    "label": "automotive-intent-handoff-spec",
+    "firstMentioned": "2023-10-27",
+    "lastMentioned": "2023-10-27",
+    "meetingRefs": [
+      "strolid-auto-leadership-20231027",
+      "StrolidAuto-Leadership-20231027"
+    ],
+    "decisionRefs": [
+      "d-006",
+      "d-030"
+    ],
+    "mentionCount": 2
   },
   {
     "id": "product-marketing",
@@ -247,7 +383,7 @@
       "active-pipeline-review-2026-03-12"
     ],
     "decisionRefs": [
-      "d-004"
+      "d-036"
     ],
     "mentionCount": 2
   },
@@ -261,7 +397,7 @@
       "product-roadmap-planning-2025-02-04"
     ],
     "decisionRefs": [
-      "d-005"
+      "d-037"
     ],
     "mentionCount": 2
   },
@@ -335,7 +471,7 @@
       "vconic-site-content-2025-11-20"
     ],
     "decisionRefs": [
-      "d-063"
+      "d-095"
     ],
     "mentionCount": 2
   },
@@ -373,10 +509,10 @@
       "marketing-2026-03-13"
     ],
     "decisionRefs": [
-      "d-045",
-      "d-046",
-      "d-069",
-      "d-197"
+      "d-077",
+      "d-078",
+      "d-101",
+      "d-235"
     ],
     "mentionCount": 2
   },
@@ -438,7 +574,7 @@
       "marketing-flow-and-alignment-2026-02-13"
     ],
     "decisionRefs": [
-      "d-062"
+      "d-094"
     ],
     "mentionCount": 2
   },
@@ -479,6 +615,32 @@
     "mentionCount": 2
   },
   {
+    "id": "fundraising",
+    "label": "fundraising",
+    "firstMentioned": "2025-12-01",
+    "lastMentioned": "2025-12-15",
+    "meetingRefs": [
+      "Strolid-Leadership-2025-12-01",
+      "strolid-leadership-call-2025-12-15"
+    ],
+    "decisionRefs": [
+      "d-107"
+    ],
+    "mentionCount": 2
+  },
+  {
+    "id": "customer-experience",
+    "label": "customer-experience",
+    "firstMentioned": "2025-12-01",
+    "lastMentioned": "2026-02-13",
+    "meetingRefs": [
+      "Strolid-Leadership-2025-12-01",
+      "marketing-flow-and-alignment-2026-02-13"
+    ],
+    "decisionRefs": [],
+    "mentionCount": 2
+  },
+  {
     "id": "viconic-website",
     "label": "viconic-website",
     "firstMentioned": "2025-12-03",
@@ -488,7 +650,7 @@
       "vin-and-michael-2025-12-03"
     ],
     "decisionRefs": [
-      "d-089"
+      "d-127"
     ],
     "mentionCount": 2
   },
@@ -514,12 +676,12 @@
       "the-marketing-meeting-2026-01-06"
     ],
     "decisionRefs": [
-      "d-110",
-      "d-111",
-      "d-112",
-      "d-113",
-      "d-114",
-      "d-116"
+      "d-148",
+      "d-149",
+      "d-150",
+      "d-151",
+      "d-152",
+      "d-154"
     ],
     "mentionCount": 2
   },
@@ -557,7 +719,7 @@
       "marketing-flow-and-alignment-2026-02-13"
     ],
     "decisionRefs": [
-      "d-145"
+      "d-183"
     ],
     "mentionCount": 2
   },
@@ -598,6 +760,99 @@
     "mentionCount": 2
   },
   {
+    "id": "pilot-program-criteria",
+    "label": "pilot-program-criteria",
+    "firstMentioned": "2023-10-27",
+    "lastMentioned": "2023-10-27",
+    "meetingRefs": [
+      "strolid-auto-leadership-20231027"
+    ],
+    "decisionRefs": [],
+    "mentionCount": 1
+  },
+  {
+    "id": "team-strategic-positioning",
+    "label": "team-strategic-positioning",
+    "firstMentioned": "2023-10-27",
+    "lastMentioned": "2023-10-27",
+    "meetingRefs": [
+      "strolid-auto-leadership-20231027"
+    ],
+    "decisionRefs": [],
+    "mentionCount": 1
+  },
+  {
+    "id": "investor-narrative",
+    "label": "investor-narrative",
+    "firstMentioned": "2023-10-27",
+    "lastMentioned": "2023-10-27",
+    "meetingRefs": [
+      "strolid-auto-leadership-20231027"
+    ],
+    "decisionRefs": [],
+    "mentionCount": 1
+  },
+  {
+    "id": "pilot-program-selection",
+    "label": "pilot-program-selection",
+    "firstMentioned": "2023-10-27",
+    "lastMentioned": "2023-10-27",
+    "meetingRefs": [
+      "StrolidAuto-Leadership-20231027"
+    ],
+    "decisionRefs": [],
+    "mentionCount": 1
+  },
+  {
+    "id": "case-study-development",
+    "label": "case-study-development",
+    "firstMentioned": "2023-10-27",
+    "lastMentioned": "2023-10-27",
+    "meetingRefs": [
+      "StrolidAuto-Leadership-20231027"
+    ],
+    "decisionRefs": [],
+    "mentionCount": 1
+  },
+  {
+    "id": "team-identity-redefinition",
+    "label": "team-identity-redefinition",
+    "firstMentioned": "2023-10-27",
+    "lastMentioned": "2023-10-27",
+    "meetingRefs": [
+      "StrolidAuto-Leadership-20231027"
+    ],
+    "decisionRefs": [
+      "d-007",
+      "d-031"
+    ],
+    "mentionCount": 1
+  },
+  {
+    "id": "investor-partner-story",
+    "label": "investor-partner-story",
+    "firstMentioned": "2023-10-27",
+    "lastMentioned": "2023-10-27",
+    "meetingRefs": [
+      "StrolidAuto-Leadership-20231027"
+    ],
+    "decisionRefs": [
+      "d-032"
+    ],
+    "mentionCount": 1
+  },
+  {
+    "id": "domain-ownership",
+    "label": "domain-ownership",
+    "firstMentioned": "2023-10-27",
+    "lastMentioned": "2023-10-27",
+    "meetingRefs": [
+      "StrolidAuto-Leadership-20231027"
+    ],
+    "decisionRefs": [],
+    "mentionCount": 1
+  },
+  {
     "id": "portal-user-engagement",
     "label": "portal-user-engagement",
     "firstMentioned": "2025-01-28",
@@ -606,8 +861,8 @@
       "product-roadmap-planning-2025-01-28"
     ],
     "decisionRefs": [
-      "d-001",
-      "d-002"
+      "d-033",
+      "d-034"
     ],
     "mentionCount": 1
   },
@@ -631,7 +886,7 @@
       "product-roadmap-planning-2025-01-28"
     ],
     "decisionRefs": [
-      "d-003"
+      "d-035"
     ],
     "mentionCount": 1
   },
@@ -655,7 +910,7 @@
       "product-roadmap-planning-2025-01-28"
     ],
     "decisionRefs": [
-      "d-006"
+      "d-038"
     ],
     "mentionCount": 1
   },
@@ -734,7 +989,7 @@
       "product-roadmap-planning-2025-02-04"
     ],
     "decisionRefs": [
-      "d-008"
+      "d-040"
     ],
     "mentionCount": 1
   },
@@ -747,7 +1002,7 @@
       "product-roadmap-planning-2025-02-04"
     ],
     "decisionRefs": [
-      "d-009"
+      "d-041"
     ],
     "mentionCount": 1
   },
@@ -804,7 +1059,7 @@
       "1-on-1-joe-and-michael-2025-07-01"
     ],
     "decisionRefs": [
-      "d-015"
+      "d-047"
     ],
     "mentionCount": 1
   },
@@ -905,7 +1160,7 @@
       "jason-michael-2025-09-16"
     ],
     "decisionRefs": [
-      "d-016"
+      "d-048"
     ],
     "mentionCount": 1
   },
@@ -929,7 +1184,7 @@
       "jason-michael-2025-09-16"
     ],
     "decisionRefs": [
-      "d-017"
+      "d-049"
     ],
     "mentionCount": 1
   },
@@ -975,7 +1230,7 @@
       "jason-michael-2025-09-16"
     ],
     "decisionRefs": [
-      "d-021"
+      "d-053"
     ],
     "mentionCount": 1
   },
@@ -999,8 +1254,8 @@
       "homepage-hero-session-2025-09-23"
     ],
     "decisionRefs": [
-      "d-022",
-      "d-023"
+      "d-054",
+      "d-055"
     ],
     "mentionCount": 1
   },
@@ -1057,7 +1312,7 @@
       "homepage-hero-session-2025-09-23"
     ],
     "decisionRefs": [
-      "d-025"
+      "d-057"
     ],
     "mentionCount": 1
   },
@@ -1114,7 +1369,7 @@
       "homepage-hero-session-2025-09-23"
     ],
     "decisionRefs": [
-      "d-024"
+      "d-056"
     ],
     "mentionCount": 1
   },
@@ -1237,7 +1492,7 @@
       "tech-process-and-product-review-2025-09-24"
     ],
     "decisionRefs": [
-      "d-030"
+      "d-062"
     ],
     "mentionCount": 1
   },
@@ -1316,7 +1571,7 @@
       "active-pipeline-review-2025-10-02"
     ],
     "decisionRefs": [
-      "d-032"
+      "d-064"
     ],
     "mentionCount": 1
   },
@@ -1373,7 +1628,7 @@
       "active-pipeline-review-2025-10-02"
     ],
     "decisionRefs": [
-      "d-033"
+      "d-065"
     ],
     "mentionCount": 1
   },
@@ -1386,7 +1641,7 @@
       "active-pipeline-review-2025-10-02"
     ],
     "decisionRefs": [
-      "d-034"
+      "d-066"
     ],
     "mentionCount": 1
   },
@@ -1476,7 +1731,7 @@
       "the-marketing-meeting-2025-10-21"
     ],
     "decisionRefs": [
-      "d-037"
+      "d-069"
     ],
     "mentionCount": 1
   },
@@ -1654,7 +1909,7 @@
       "the-marketing-meeting-2025-10-28"
     ],
     "decisionRefs": [
-      "d-047"
+      "d-079"
     ],
     "mentionCount": 1
   },
@@ -1678,7 +1933,7 @@
       "the-marketing-meeting-2025-10-28"
     ],
     "decisionRefs": [
-      "d-048"
+      "d-080"
     ],
     "mentionCount": 1
   },
@@ -1713,7 +1968,7 @@
       "the-marketing-meeting-2025-10-28"
     ],
     "decisionRefs": [
-      "d-049"
+      "d-081"
     ],
     "mentionCount": 1
   },
@@ -1737,7 +1992,7 @@
       "the-marketing-meeting-2025-10-28"
     ],
     "decisionRefs": [
-      "d-050"
+      "d-082"
     ],
     "mentionCount": 1
   },
@@ -1772,7 +2027,7 @@
       "weekly-marketing-planning-goals-2025-11-10"
     ],
     "decisionRefs": [
-      "d-052"
+      "d-084"
     ],
     "mentionCount": 1
   },
@@ -1928,7 +2183,7 @@
       "the-marketing-meeting-2025-11-11"
     ],
     "decisionRefs": [
-      "d-056"
+      "d-088"
     ],
     "mentionCount": 1
   },
@@ -2018,7 +2273,7 @@
       "vconic-site-content-2025-11-20"
     ],
     "decisionRefs": [
-      "d-058"
+      "d-090"
     ],
     "mentionCount": 1
   },
@@ -2031,7 +2286,7 @@
       "vconic-site-content-2025-11-20"
     ],
     "decisionRefs": [
-      "d-059"
+      "d-091"
     ],
     "mentionCount": 1
   },
@@ -2077,7 +2332,7 @@
       "vconic-site-content-2025-11-20"
     ],
     "decisionRefs": [
-      "d-061"
+      "d-093"
     ],
     "mentionCount": 1
   },
@@ -2090,7 +2345,7 @@
       "vconic-site-content-2025-11-20"
     ],
     "decisionRefs": [
-      "d-064"
+      "d-096"
     ],
     "mentionCount": 1
   },
@@ -2114,8 +2369,8 @@
       "the-marketing-meeting-2025-11-25"
     ],
     "decisionRefs": [
-      "d-065",
-      "d-066"
+      "d-097",
+      "d-098"
     ],
     "mentionCount": 1
   },
@@ -2172,7 +2427,7 @@
       "the-marketing-meeting-2025-11-25"
     ],
     "decisionRefs": [
-      "d-070"
+      "d-102"
     ],
     "mentionCount": 1
   },
@@ -2243,6 +2498,210 @@
     "mentionCount": 1
   },
   {
+    "id": "VCON-show-sponsorship",
+    "label": "VCON-show-sponsorship",
+    "firstMentioned": "2025-12-01",
+    "lastMentioned": "2025-12-01",
+    "meetingRefs": [
+      "Strolid-Leadership-2025-12-01"
+    ],
+    "decisionRefs": [],
+    "mentionCount": 1
+  },
+  {
+    "id": "expense-management",
+    "label": "expense-management",
+    "firstMentioned": "2025-12-01",
+    "lastMentioned": "2025-12-01",
+    "meetingRefs": [
+      "Strolid-Leadership-2025-12-01"
+    ],
+    "decisionRefs": [
+      "d-106"
+    ],
+    "mentionCount": 1
+  },
+  {
+    "id": "BDC-churn",
+    "label": "BDC-churn",
+    "firstMentioned": "2025-12-01",
+    "lastMentioned": "2025-12-01",
+    "meetingRefs": [
+      "Strolid-Leadership-2025-12-01"
+    ],
+    "decisionRefs": [],
+    "mentionCount": 1
+  },
+  {
+    "id": "cash-flow",
+    "label": "cash-flow",
+    "firstMentioned": "2025-12-01",
+    "lastMentioned": "2025-12-01",
+    "meetingRefs": [
+      "Strolid-Leadership-2025-12-01"
+    ],
+    "decisionRefs": [],
+    "mentionCount": 1
+  },
+  {
+    "id": "LLM-impact-on-automotive",
+    "label": "LLM-impact-on-automotive",
+    "firstMentioned": "2025-12-01",
+    "lastMentioned": "2025-12-01",
+    "meetingRefs": [
+      "Strolid-Leadership-2025-12-01"
+    ],
+    "decisionRefs": [],
+    "mentionCount": 1
+  },
+  {
+    "id": "website-traffic-decline",
+    "label": "website-traffic-decline",
+    "firstMentioned": "2025-12-01",
+    "lastMentioned": "2025-12-01",
+    "meetingRefs": [
+      "Strolid-Leadership-2025-12-01"
+    ],
+    "decisionRefs": [],
+    "mentionCount": 1
+  },
+  {
+    "id": "digital-retailing-tools",
+    "label": "digital-retailing-tools",
+    "firstMentioned": "2025-12-01",
+    "lastMentioned": "2025-12-01",
+    "meetingRefs": [
+      "Strolid-Leadership-2025-12-01"
+    ],
+    "decisionRefs": [],
+    "mentionCount": 1
+  },
+  {
+    "id": "automotive-marketplaces",
+    "label": "automotive-marketplaces",
+    "firstMentioned": "2025-12-01",
+    "lastMentioned": "2025-12-01",
+    "meetingRefs": [
+      "Strolid-Leadership-2025-12-01"
+    ],
+    "decisionRefs": [],
+    "mentionCount": 1
+  },
+  {
+    "id": "Strolid-GPT",
+    "label": "Strolid-GPT",
+    "firstMentioned": "2025-12-01",
+    "lastMentioned": "2025-12-01",
+    "meetingRefs": [
+      "Strolid-Leadership-2025-12-01"
+    ],
+    "decisionRefs": [],
+    "mentionCount": 1
+  },
+  {
+    "id": "dealer-co-pilot",
+    "label": "dealer-co-pilot",
+    "firstMentioned": "2025-12-01",
+    "lastMentioned": "2025-12-01",
+    "meetingRefs": [
+      "Strolid-Leadership-2025-12-01"
+    ],
+    "decisionRefs": [],
+    "mentionCount": 1
+  },
+  {
+    "id": "dealer-brain",
+    "label": "dealer-brain",
+    "firstMentioned": "2025-12-01",
+    "lastMentioned": "2025-12-01",
+    "meetingRefs": [
+      "Strolid-Leadership-2025-12-01"
+    ],
+    "decisionRefs": [],
+    "mentionCount": 1
+  },
+  {
+    "id": "AI-middleware",
+    "label": "AI-middleware",
+    "firstMentioned": "2025-12-01",
+    "lastMentioned": "2025-12-01",
+    "meetingRefs": [
+      "Strolid-Leadership-2025-12-01"
+    ],
+    "decisionRefs": [],
+    "mentionCount": 1
+  },
+  {
+    "id": "customer-journey",
+    "label": "customer-journey",
+    "firstMentioned": "2025-12-01",
+    "lastMentioned": "2025-12-01",
+    "meetingRefs": [
+      "Strolid-Leadership-2025-12-01"
+    ],
+    "decisionRefs": [],
+    "mentionCount": 1
+  },
+  {
+    "id": "CRM-integration",
+    "label": "CRM-integration",
+    "firstMentioned": "2025-12-01",
+    "lastMentioned": "2025-12-01",
+    "meetingRefs": [
+      "Strolid-Leadership-2025-12-01"
+    ],
+    "decisionRefs": [],
+    "mentionCount": 1
+  },
+  {
+    "id": "AI-applications",
+    "label": "AI-applications",
+    "firstMentioned": "2025-12-01",
+    "lastMentioned": "2025-12-01",
+    "meetingRefs": [
+      "Strolid-Leadership-2025-12-01"
+    ],
+    "decisionRefs": [],
+    "mentionCount": 1
+  },
+  {
+    "id": "product-development-strategy",
+    "label": "product-development-strategy",
+    "firstMentioned": "2025-12-01",
+    "lastMentioned": "2025-12-01",
+    "meetingRefs": [
+      "Strolid-Leadership-2025-12-01"
+    ],
+    "decisionRefs": [
+      "d-110"
+    ],
+    "mentionCount": 1
+  },
+  {
+    "id": "pilot-program",
+    "label": "pilot-program",
+    "firstMentioned": "2025-12-01",
+    "lastMentioned": "2025-12-01",
+    "meetingRefs": [
+      "Strolid-Leadership-2025-12-01"
+    ],
+    "decisionRefs": [
+      "d-111"
+    ],
+    "mentionCount": 1
+  },
+  {
+    "id": "data-reporting",
+    "label": "data-reporting",
+    "firstMentioned": "2025-12-01",
+    "lastMentioned": "2025-12-01",
+    "meetingRefs": [
+      "Strolid-Leadership-2025-12-01"
+    ],
+    "decisionRefs": [],
+    "mentionCount": 1
+  },
+  {
     "id": "employee-termination",
     "label": "employee-termination",
     "firstMentioned": "2025-12-02",
@@ -2251,7 +2710,7 @@
       "the-marketing-meeting-2025-12-02"
     ],
     "decisionRefs": [
-      "d-074"
+      "d-112"
     ],
     "mentionCount": 1
   },
@@ -2275,7 +2734,7 @@
       "the-marketing-meeting-2025-12-02"
     ],
     "decisionRefs": [
-      "d-075"
+      "d-113"
     ],
     "mentionCount": 1
   },
@@ -2288,7 +2747,7 @@
       "the-marketing-meeting-2025-12-02"
     ],
     "decisionRefs": [
-      "d-076"
+      "d-114"
     ],
     "mentionCount": 1
   },
@@ -2301,7 +2760,7 @@
       "the-marketing-meeting-2025-12-02"
     ],
     "decisionRefs": [
-      "d-078"
+      "d-116"
     ],
     "mentionCount": 1
   },
@@ -2446,7 +2905,7 @@
       "michael-and-vin-continuation-2025-12-03"
     ],
     "decisionRefs": [
-      "d-072"
+      "d-104"
     ],
     "mentionCount": 1
   },
@@ -2580,7 +3039,7 @@
       "vin-and-michael-2025-12-03"
     ],
     "decisionRefs": [
-      "d-088"
+      "d-126"
     ],
     "mentionCount": 1
   },
@@ -2703,7 +3162,7 @@
       "vin-and-michael-2025-12-03"
     ],
     "decisionRefs": [
-      "d-090"
+      "d-128"
     ],
     "mentionCount": 1
   },
@@ -2727,7 +3186,7 @@
       "joe-and-michael-catch-up-2025-12-04"
     ],
     "decisionRefs": [
-      "d-091"
+      "d-129"
     ],
     "mentionCount": 1
   },
@@ -2784,7 +3243,7 @@
       "call-with-michael-2025-12-05"
     ],
     "decisionRefs": [
-      "d-093"
+      "d-131"
     ],
     "mentionCount": 1
   },
@@ -2841,7 +3300,7 @@
       "the-marketing-meeting-2025-12-10"
     ],
     "decisionRefs": [
-      "d-096"
+      "d-134"
     ],
     "mentionCount": 1
   },
@@ -2859,17 +3318,6 @@
   {
     "id": "vita-mvp-launch",
     "label": "vita-mvp-launch",
-    "firstMentioned": "2025-12-15",
-    "lastMentioned": "2025-12-15",
-    "meetingRefs": [
-      "strolid-leadership-call-2025-12-15"
-    ],
-    "decisionRefs": [],
-    "mentionCount": 1
-  },
-  {
-    "id": "fundraising",
-    "label": "fundraising",
     "firstMentioned": "2025-12-15",
     "lastMentioned": "2025-12-15",
     "meetingRefs": [
@@ -2942,7 +3390,7 @@
       "strolid-leadership-call-2025-12-15"
     ],
     "decisionRefs": [
-      "d-098"
+      "d-136"
     ],
     "mentionCount": 1
   },
@@ -2955,7 +3403,7 @@
       "strolid-leadership-call-2025-12-15"
     ],
     "decisionRefs": [
-      "d-099"
+      "d-137"
     ],
     "mentionCount": 1
   },
@@ -3078,7 +3526,7 @@
       "the-marketing-meeting-2025-12-16"
     ],
     "decisionRefs": [
-      "d-101"
+      "d-139"
     ],
     "mentionCount": 1
   },
@@ -3091,7 +3539,7 @@
       "the-marketing-meeting-2025-12-16"
     ],
     "decisionRefs": [
-      "d-102"
+      "d-140"
     ],
     "mentionCount": 1
   },
@@ -3159,7 +3607,7 @@
       "marketing-90-day-prioritization-2025-12-23"
     ],
     "decisionRefs": [
-      "d-103"
+      "d-141"
     ],
     "mentionCount": 1
   },
@@ -3205,7 +3653,7 @@
       "marketing-90-day-prioritization-2025-12-23"
     ],
     "decisionRefs": [
-      "d-106"
+      "d-144"
     ],
     "mentionCount": 1
   },
@@ -3218,9 +3666,9 @@
       "website-planning-session-2025-12-29"
     ],
     "decisionRefs": [
-      "d-107",
-      "d-108",
-      "d-109"
+      "d-145",
+      "d-146",
+      "d-147"
     ],
     "mentionCount": 1
   },
@@ -3519,7 +3967,7 @@
       "the-marketing-meeting-2026-01-06"
     ],
     "decisionRefs": [
-      "d-125"
+      "d-163"
     ],
     "mentionCount": 1
   },
@@ -3664,9 +4112,9 @@
       "joe-and-michael-touch-base-2026-01-20"
     ],
     "decisionRefs": [
-      "d-118",
-      "d-124",
-      "d-134"
+      "d-156",
+      "d-162",
+      "d-172"
     ],
     "mentionCount": 1
   },
@@ -3679,7 +4127,7 @@
       "joe-and-michael-touch-base-2026-01-20"
     ],
     "decisionRefs": [
-      "d-135"
+      "d-173"
     ],
     "mentionCount": 1
   },
@@ -3692,9 +4140,9 @@
       "joe-and-michael-touch-base-2026-01-20"
     ],
     "decisionRefs": [
-      "d-136",
-      "d-137",
-      "d-140"
+      "d-174",
+      "d-175",
+      "d-178"
     ],
     "mentionCount": 1
   },
@@ -3707,7 +4155,7 @@
       "joe-and-michael-touch-base-2026-01-20"
     ],
     "decisionRefs": [
-      "d-139"
+      "d-177"
     ],
     "mentionCount": 1
   },
@@ -3720,8 +4168,8 @@
       "joe-and-michael-touch-base-2026-01-20"
     ],
     "decisionRefs": [
-      "d-141",
-      "d-142"
+      "d-179",
+      "d-180"
     ],
     "mentionCount": 1
   },
@@ -3957,17 +4405,6 @@
     "mentionCount": 1
   },
   {
-    "id": "customer-experience",
-    "label": "customer-experience",
-    "firstMentioned": "2026-02-13",
-    "lastMentioned": "2026-02-13",
-    "meetingRefs": [
-      "marketing-flow-and-alignment-2026-02-13"
-    ],
-    "decisionRefs": [],
-    "mentionCount": 1
-  },
-  {
     "id": "pricing-review",
     "label": "pricing-review",
     "firstMentioned": "2026-02-13",
@@ -4042,7 +4479,7 @@
       "strolid-leadership-call-2026-02-16"
     ],
     "decisionRefs": [
-      "d-153"
+      "d-191"
     ],
     "mentionCount": 1
   },
@@ -4055,7 +4492,7 @@
       "strolid-leadership-call-2026-02-16"
     ],
     "decisionRefs": [
-      "d-154"
+      "d-192"
     ],
     "mentionCount": 1
   },
@@ -4068,7 +4505,7 @@
       "strolid-leadership-call-2026-02-16"
     ],
     "decisionRefs": [
-      "d-155"
+      "d-193"
     ],
     "mentionCount": 1
   },
@@ -4103,7 +4540,7 @@
       "strolid-leadership-call-2026-02-16"
     ],
     "decisionRefs": [
-      "d-156"
+      "d-194"
     ],
     "mentionCount": 1
   },
@@ -4138,7 +4575,7 @@
       "strolid-leadership-call-2026-02-16"
     ],
     "decisionRefs": [
-      "d-158"
+      "d-196"
     ],
     "mentionCount": 1
   },
@@ -4173,7 +4610,7 @@
       "strolid-leadership-call-2026-02-16"
     ],
     "decisionRefs": [
-      "d-157"
+      "d-195"
     ],
     "mentionCount": 1
   },
@@ -4208,7 +4645,7 @@
       "strolid-leadership-call-2026-02-16"
     ],
     "decisionRefs": [
-      "d-159"
+      "d-197"
     ],
     "mentionCount": 1
   },
@@ -4265,7 +4702,7 @@
       "catch-up-on-marketing-activities-2026-02-20"
     ],
     "decisionRefs": [
-      "d-162"
+      "d-200"
     ],
     "mentionCount": 1
   },
@@ -4278,7 +4715,7 @@
       "catch-up-on-marketing-activities-2026-02-20"
     ],
     "decisionRefs": [
-      "d-163"
+      "d-201"
     ],
     "mentionCount": 1
   },
@@ -4324,7 +4761,7 @@
       "the-marketing-meeting-2026-02-24"
     ],
     "decisionRefs": [
-      "d-164"
+      "d-202"
     ],
     "mentionCount": 1
   },
@@ -4359,7 +4796,7 @@
       "the-marketing-meeting-2026-03-03"
     ],
     "decisionRefs": [
-      "d-170"
+      "d-208"
     ],
     "mentionCount": 1
   },
@@ -4372,7 +4809,7 @@
       "the-marketing-meeting-2026-03-03"
     ],
     "decisionRefs": [
-      "d-166"
+      "d-204"
     ],
     "mentionCount": 1
   },
@@ -4385,7 +4822,7 @@
       "the-marketing-meeting-2026-03-03"
     ],
     "decisionRefs": [
-      "d-169"
+      "d-207"
     ],
     "mentionCount": 1
   },
@@ -4519,7 +4956,7 @@
       "strolid-leadership-call-2026-03-09"
     ],
     "decisionRefs": [
-      "d-173"
+      "d-211"
     ],
     "mentionCount": 1
   },
@@ -4543,8 +4980,8 @@
       "strolid-leadership-call-2026-03-09"
     ],
     "decisionRefs": [
-      "d-174",
-      "d-175"
+      "d-212",
+      "d-213"
     ],
     "mentionCount": 1
   },
@@ -4700,7 +5137,7 @@
       "strolid-leadership-call-2026-03-09"
     ],
     "decisionRefs": [
-      "d-187"
+      "d-225"
     ],
     "mentionCount": 1
   },
@@ -4955,7 +5392,7 @@
       "the-marketing-meeting-2026-03-10"
     ],
     "decisionRefs": [
-      "d-183"
+      "d-221"
     ],
     "mentionCount": 1
   },
@@ -4990,7 +5427,7 @@
       "the-marketing-meeting-2026-03-10"
     ],
     "decisionRefs": [
-      "d-184"
+      "d-222"
     ],
     "mentionCount": 1
   },
@@ -5102,7 +5539,7 @@
       "active-pipeline-review-2026-03-12"
     ],
     "decisionRefs": [
-      "d-188"
+      "d-226"
     ],
     "mentionCount": 1
   },
@@ -5115,7 +5552,7 @@
       "active-pipeline-review-2026-03-12"
     ],
     "decisionRefs": [
-      "d-189"
+      "d-227"
     ],
     "mentionCount": 1
   },
@@ -5128,7 +5565,7 @@
       "active-pipeline-review-2026-03-12"
     ],
     "decisionRefs": [
-      "d-190"
+      "d-228"
     ],
     "mentionCount": 1
   },
@@ -5141,7 +5578,7 @@
       "active-pipeline-review-2026-03-12"
     ],
     "decisionRefs": [
-      "d-191"
+      "d-229"
     ],
     "mentionCount": 1
   },
@@ -5209,7 +5646,7 @@
       "active-pipeline-review-2026-03-12"
     ],
     "decisionRefs": [
-      "d-193"
+      "d-231"
     ],
     "mentionCount": 1
   },
@@ -5244,7 +5681,7 @@
       "active-pipeline-review-2026-03-12"
     ],
     "decisionRefs": [
-      "d-194"
+      "d-232"
     ],
     "mentionCount": 1
   },
@@ -5290,7 +5727,7 @@
       "active-pipeline-review-2026-03-12"
     ],
     "decisionRefs": [
-      "d-192"
+      "d-230"
     ],
     "mentionCount": 1
   },
@@ -5369,7 +5806,7 @@
       "strolid-leadership-call-2026-03-23"
     ],
     "decisionRefs": [
-      "d-198"
+      "d-236"
     ],
     "mentionCount": 1
   },
@@ -5514,7 +5951,7 @@
       "michael-jason-2026-03-27"
     ],
     "decisionRefs": [
-      "d-201"
+      "d-239"
     ],
     "mentionCount": 1
   },
@@ -5648,8 +6085,8 @@
       "strolid-leadership-call-2026-03-30"
     ],
     "decisionRefs": [
-      "d-042",
-      "d-206"
+      "d-074",
+      "d-244"
     ],
     "mentionCount": 1
   },
@@ -5662,7 +6099,7 @@
       "strolid-leadership-call-2026-03-30"
     ],
     "decisionRefs": [
-      "d-207"
+      "d-245"
     ],
     "mentionCount": 1
   },
@@ -5686,7 +6123,7 @@
       "strolid-leadership-call-2026-03-30"
     ],
     "decisionRefs": [
-      "d-210"
+      "d-248"
     ],
     "mentionCount": 1
   },
@@ -5743,7 +6180,7 @@
       "weekly-1-on-1-with-michael-d-and-joe-f-2026-03-30"
     ],
     "decisionRefs": [
-      "d-211"
+      "d-249"
     ],
     "mentionCount": 1
   },
@@ -5833,7 +6270,7 @@
       "michael-sergey-2026-03-31"
     ],
     "decisionRefs": [
-      "d-218"
+      "d-256"
     ],
     "mentionCount": 1
   },
@@ -5956,7 +6393,7 @@
       "product-marketing-alignment-2026-04-01"
     ],
     "decisionRefs": [
-      "d-222"
+      "d-260"
     ],
     "mentionCount": 1
   },
@@ -5969,7 +6406,7 @@
       "product-marketing-alignment-2026-04-01"
     ],
     "decisionRefs": [
-      "d-223"
+      "d-261"
     ],
     "mentionCount": 1
   },
@@ -5982,7 +6419,7 @@
       "product-marketing-alignment-2026-04-01"
     ],
     "decisionRefs": [
-      "d-221"
+      "d-259"
     ],
     "mentionCount": 1
   },
@@ -6006,7 +6443,7 @@
       "product-marketing-alignment-2026-04-01"
     ],
     "decisionRefs": [
-      "d-224"
+      "d-262"
     ],
     "mentionCount": 1
   },
@@ -6085,7 +6522,7 @@
       "product-marketing-alignment-2026-04-01"
     ],
     "decisionRefs": [
-      "d-225"
+      "d-263"
     ],
     "mentionCount": 1
   }

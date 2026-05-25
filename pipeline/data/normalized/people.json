@@ -5,7 +5,7 @@
     "aliases": [],
     "role": null,
     "department": "leadership",
-    "meetingCount": 53
+    "meetingCount": 54
   },
   {
     "id": "joe-furnari",
@@ -13,7 +13,7 @@
     "aliases": [],
     "role": null,
     "department": "leadership",
-    "meetingCount": 36
+    "meetingCount": 37
   },
   {
     "id": "vinnie-micciche",
@@ -21,7 +21,7 @@
     "aliases": [],
     "role": null,
     "department": "leadership",
-    "meetingCount": 27
+    "meetingCount": 28
   },
   {
     "id": "jason-branham",
@@ -29,7 +29,7 @@
     "aliases": [],
     "role": null,
     "department": "leadership",
-    "meetingCount": 27
+    "meetingCount": 28
   },
   {
     "id": "matt-watson",
@@ -37,7 +37,7 @@
     "aliases": [],
     "role": null,
     "department": "leadership",
-    "meetingCount": 24
+    "meetingCount": 25
   },
   {
     "id": "thomas-howe",
@@ -45,7 +45,7 @@
     "aliases": [],
     "role": null,
     "department": "leadership",
-    "meetingCount": 22
+    "meetingCount": 23
   },
   {
     "id": "kevin-breen",
@@ -69,6 +69,14 @@
     "aliases": [],
     "role": null,
     "department": "leadership",
+    "meetingCount": 14
+  },
+  {
+    "id": "sergey-lyapustin",
+    "name": "Sergey Lyapustin",
+    "aliases": [],
+    "role": null,
+    "department": "leadership",
     "meetingCount": 13
   },
   {
@@ -80,14 +88,6 @@
     "meetingCount": 12
   },
   {
-    "id": "sergey-lyapustin",
-    "name": "Sergey Lyapustin",
-    "aliases": [],
-    "role": null,
-    "department": "leadership",
-    "meetingCount": 12
-  },
-  {
     "id": "paulo-trovao",
     "name": "Paulo Trovao",
     "aliases": [],
@@ -96,20 +96,20 @@
     "meetingCount": 10
   },
   {
-    "id": "vin-micciche",
-    "name": "Vin Micciche",
+    "id": "mike-sullivan",
+    "name": "Mike Sullivan",
     "aliases": [],
     "role": null,
     "department": "leadership",
     "meetingCount": 6
   },
   {
-    "id": "mike-sullivan",
-    "name": "Mike Sullivan",
+    "id": "vin-micciche",
+    "name": "Vin Micciche",
     "aliases": [],
     "role": null,
     "department": "leadership",
-    "meetingCount": 5
+    "meetingCount": 6
   },
   {
     "id": "ken-herron",
@@ -134,6 +134,14 @@
     "role": null,
     "department": "leadership",
     "meetingCount": 3
+  },
+  {
+    "id": "jamie",
+    "name": "Jamie",
+    "aliases": [],
+    "role": null,
+    "department": "leadership",
+    "meetingCount": 2
   },
   {
     "id": "david-walsh",
@@ -198,6 +206,14 @@
     "role": null,
     "department": "cross-functional",
     "meetingCount": 2
+  },
+  {
+    "id": "strolid-auto-leadership-team",
+    "name": "Strolid Auto Leadership Team",
+    "aliases": [],
+    "role": null,
+    "department": "leadership",
+    "meetingCount": 1
   },
   {
     "id": "audrey-hayn",

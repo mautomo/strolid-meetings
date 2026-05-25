@@ -1,5 +1,647 @@
 [
   {
+    "meetingId": "strolid-auto-leadership-20231027",
+    "title": "Future of Strolid Auto - Leadership Call",
+    "date": "2023-10-27",
+    "series": "Strolid Auto Rollout Plan",
+    "type": "leadership",
+    "attendees": [
+      "Jamie"
+    ],
+    "summary": "This leadership meeting focused on aligning the Strolid Auto team on a clear, staged rollout plan for its core products: Automotive Copilot and Dealer MRI. The plan outlines four phases, starting with establishing Automotive Copilot within dealerships (Dealer Mode), then integrating Dealer MRI as a daily diagnostic 'brain', followed by positioning Copilot as a network connector for OEMs/portals, and finally as the default handoff for LLM platforms. The meeting also clarified the strategic positioning of Vconic, Dealer MRI, Automotive Copilot, and BDC within the Strolid Auto ecosystem for both internal teams and external partners/investors.",
+    "decisions": [
+      {
+        "description": "To pursue a clear, staged rollout plan for Strolid Auto, aiming to make Automotive Copilot indispensable, turn Dealer MRI into the 'conversation brain', and position for external LLM traffic.",
+        "decidedBy": [
+          "Leadership Team"
+        ],
+        "topic": "strolid-auto-rollout-strategy",
+        "confidence": "firm"
+      },
+      {
+        "description": "To choose 3\u20135 initial pilot partners for Phase 1 of Automotive Copilot rollout, based on criteria such as existing trust, use of reporting, presence of a 'champion', and willingness to use early versions.",
+        "decidedBy": [
+          "Leadership Team"
+        ],
+        "topic": "automotive-copilot-pilot-selection",
+        "confidence": "firm"
+      },
+      {
+        "description": "To define a tight scope for Copilot v1, focusing on one surface per pilot (dealer website widget, SMS assistant, or rep-assist) and specific capabilities for shoppers (answer questions, capture info, offer handoff) and reps (summarize calls, draft replies, suggest next best contact).",
+        "decidedBy": [
+          "Leadership Team"
+        ],
+        "topic": "automotive-copilot-v1-scope",
+        "confidence": "firm"
+      },
+      {
+        "description": "To define Dealer MRI v1 with specific inputs (calls, SMS/chat/email, web leads, CRM events, Copilot interactions) and core outputs ('Today' view, Store dashboard, Simple group view).",
+        "decidedBy": [
+          "Leadership Team"
+        ],
+        "topic": "dealer-mri-v1-definition",
+        "confidence": "firm"
+      },
+      {
+        "description": "To productize the Automotive Copilot API (Network Mode) with defined inputs, internal processes, and outputs for connecting external conversations to dealers.",
+        "decidedBy": [
+          "Leadership Team"
+        ],
+        "topic": "automotive-copilot-api-productization",
+        "confidence": "firm"
+      },
+      {
+        "description": "To define the 'Automotive Intent Handoff' specification, including a standard vCon-based payload and a simple endpoint for LLM platforms.",
+        "decidedBy": [
+          "Leadership Team"
+        ],
+        "topic": "automotive-intent-handoff-spec",
+        "confidence": "firm"
+      },
+      {
+        "description": "To redefine the team's self-perception: Dealer MRI as the brain/diagnostic, Automotive Copilot as the assistant/connector, and BDC as the execution engine.",
+        "decidedBy": [
+          "Leadership Team"
+        ],
+        "topic": "team-identity-redefinition",
+        "confidence": "firm"
+      },
+      {
+        "description": "To adopt a clear story for investors and partners: Strolid Auto as the conversation CRM for auto retail, building the copilot and connector linking shoppers, dealers, OEMs, and LLMs.",
+        "decidedBy": [
+          "Leadership Team"
+        ],
+        "topic": "investor-partner-messaging",
+        "confidence": "firm"
+      },
+      {
+        "description": "To deploy Automotive Copilot (Dealer Mode) on one surface per pilot dealer and stand up Dealer MRI v1 for those same pilots within the next 1-2 months.",
+        "decidedBy": [
+          "Leadership Team"
+        ],
+        "topic": "phase-1-rollout-timeline",
+        "confidence": "firm"
+      },
+      {
+        "description": "To roll out Dealer MRI + Copilot to a larger set of dealers (target: 30\u201350 rooftops MRI, 20+ Copilot) and launch 1\u20132 pilots with OEM/marketplace/finance partners within 6 to 18 months.",
+        "decidedBy": [
+          "Leadership Team"
+        ],
+        "topic": "phase-2-rollout-timeline",
+        "confidence": "firm"
+      },
+      {
+        "description": "To define and publish the 'Automotive Intent Handoff' spec, wrap Copilot as an LLM-friendly connector, and run limited-region pilots with LLM/marketplace partners within 18 to 30+ months.",
+        "decidedBy": [
+          "Leadership Team"
+        ],
+        "topic": "phase-3-rollout-timeline",
+        "confidence": "firm"
+      }
+    ],
+    "actionItems": [
+      {
+        "task": "Check if anyone else is using Dealermri.com and Automotivecopilot.com.",
+        "owner": "Jamie",
+        "deadline": null,
+        "expectedOutcome": null
+      },
+      {
+        "task": "Choose initial pilot partners (3-5 dealers/groups) based on defined criteria.",
+        "owner": "Unassigned",
+        "deadline": "Next 1-2 months",
+        "expectedOutcome": {
+          "system": "internal-process",
+          "description": "List of 3-5 selected pilot dealers/groups."
+        }
+      },
+      {
+        "task": "Wire Copilot into dealer\u2019s website or SMS entry point, our BDC workflows, and CRM.",
+        "owner": "Unassigned",
+        "deadline": "Next 1-2 months",
+        "expectedOutcome": {
+          "system": "product-integration",
+          "description": "Copilot integrated into pilot dealers' systems."
+        }
+      },
+      {
+        "task": "Train BDC & store teams on how Copilot introduces customers and how to pick up conversations.",
+        "owner": "Unassigned",
+        "deadline": "Next 1-2 months",
+        "expectedOutcome": {
+          "system": "training-program",
+          "description": "Trained BDC and store teams capable of using Copilot."
+        }
+      },
+      {
+        "task": "Instrument results for each pilot, tracking Copilot conversations, leads created, human handoffs, appointments set/shows/solds, and response time.",
+        "owner": "Unassigned",
+        "deadline": "Next 1-2 months",
+        "expectedOutcome": {
+          "system": "reporting-system",
+          "description": "Data collected on Copilot performance for pilot dealers."
+        }
+      },
+      {
+        "task": "Document 3\u20135 case studies with clear before/after results for Phase 1 pilots.",
+        "owner": "Unassigned",
+        "deadline": "Next 1-2 months",
+        "expectedOutcome": {
+          "system": "marketing-content",
+          "description": "Case studies demonstrating Copilot's lift."
+        }
+      },
+      {
+        "task": "Roll MRI into the same pilot dealers from Phase 1.",
+        "owner": "Unassigned",
+        "deadline": "Next 1-2 months",
+        "expectedOutcome": {
+          "system": "product-deployment",
+          "description": "Dealer MRI deployed to Phase 1 pilot dealers."
+        }
+      },
+      {
+        "task": "Add 2\u20133 more stores that might not have Copilot yet but will benefit from MRI diagnostic.",
+        "owner": "Unassigned",
+        "deadline": "Next 1-2 months",
+        "expectedOutcome": {
+          "system": "product-deployment",
+          "description": "Dealer MRI deployed to additional stores."
+        }
+      },
+      {
+        "task": "Define a simple cadence for each MRI customer (weekly leadership review, daily 'today\u2019s work' list).",
+        "owner": "Unassigned",
+        "deadline": "Next 1-2 months",
+        "expectedOutcome": {
+          "system": "customer-success-process",
+          "description": "Operating rhythm established for MRI customers."
+        }
+      },
+      {
+        "task": "Update internal ops so BDC teams use MRI to prioritize outreach and CS managers use MRI to prepare for dealer calls.",
+        "owner": "Unassigned",
+        "deadline": "Next 1-2 months",
+        "expectedOutcome": {
+          "system": "internal-process-update",
+          "description": "Internal teams effectively using MRI in their workflows."
+        }
+      },
+      {
+        "task": "Measure and document deals and ROs 'saved', reduction in missed follow-ups, improvements in show/sold, and manager feedback for MRI + Copilot + BDC.",
+        "owner": "Unassigned",
+        "deadline": "Next 1-2 months",
+        "expectedOutcome": {
+          "system": "reporting-system",
+          "description": "Data and feedback collected on MRI's impact."
+        }
+      },
+      {
+        "task": "Land 1\u20132 OEM / portal / finance pilots for Automotive Copilot API (Network Mode).",
+        "owner": "Unassigned",
+        "deadline": "6 to 18 months",
+        "expectedOutcome": {
+          "system": "business-development",
+          "description": "Partnerships secured for Network Mode pilots."
+        }
+      },
+      {
+        "task": "Integrate network-originated leads into Dealer MRI and BDC workflows, ensuring clear reporting back to OEM/portal partners.",
+        "owner": "Unassigned",
+        "deadline": "6 to 18 months",
+        "expectedOutcome": {
+          "system": "product-integration",
+          "description": "Network leads seamlessly handled and reported."
+        }
+      },
+      {
+        "task": "Create developer documentation for the Copilot API, showing examples, sandbox mode, and clear guarantees for LLM integration.",
+        "owner": "Unassigned",
+        "deadline": "18 to 30+ months",
+        "expectedOutcome": {
+          "system": "developer-relations",
+          "description": "LLM-friendly developer documentation published."
+        }
+      },
+      {
+        "task": "Run a controlled pilot for LLM integration, starting small with one region, a few brands, and one or two front-ends.",
+        "owner": "Unassigned",
+        "deadline": "18 to 30+ months",
+        "expectedOutcome": {
+          "system": "product-pilot",
+          "description": "Successful LLM integration pilot completed."
+        }
+      }
+    ],
+    "topicsDiscussed": [
+      "strolid-auto-rollout-plan",
+      "automotive-copilot-dealer-mode",
+      "dealer-mri-brain",
+      "automotive-copilot-network-mode",
+      "llm-integration-strategy",
+      "vconic-infrastructure",
+      "pilot-program-criteria",
+      "product-scope-definition",
+      "workflow-integration",
+      "performance-measurement",
+      "api-productization",
+      "automotive-intent-handoff-spec",
+      "team-strategic-positioning",
+      "investor-narrative"
+    ],
+    "tensions": [],
+    "referencesToPast": [
+      "We already own Dealermri.com and Automotivecopilot.com",
+      "We stop thinking of ourselves as 'just BDC + reporting'"
+    ]
+  },
+  {
+    "meetingId": "StrolidAuto-Leadership-20231027",
+    "title": "Strolid Auto Rollout Plan",
+    "date": "2023-10-27",
+    "series": "Strolid Auto Leadership Call",
+    "type": "leadership",
+    "attendees": [
+      "Jamie",
+      "Strolid Auto Leadership Team"
+    ],
+    "summary": "The Strolid Auto leadership team aligned on a clear, staged rollout plan for Automotive Copilot and Dealer MRI. The plan aims to make Automotive Copilot indispensable for dealers, turn Dealer MRI into the 'conversation brain' for groups, and position Strolid Auto to connect external LLM traffic to dealers in a controlled, high-value way. The rollout is structured in four phases: standing up Automotive Copilot inside dealers (Phase 1), making Dealer MRI the daily 'brain' for stores and groups (Phase 2), turning Copilot into a network connector for OEMs/portals (Phase 3), and finally positioning Copilot as the default LLM-to-dealer connector (Phase 4). This strategy redefines the team's identity, with Dealer MRI as the brain, Automotive Copilot as the assistant/connector, and BDC as the execution engine, providing a clear story for investors and partners.",
+    "decisions": [
+      {
+        "description": "Strolid Auto will pursue a clear, staged rollout plan for Automotive Copilot and Dealer MRI.",
+        "decidedBy": [
+          "Strolid Auto Leadership Team"
+        ],
+        "topic": "product-rollout-strategy",
+        "confidence": "firm"
+      },
+      {
+        "description": "The rollout plan's purpose is to make Automotive Copilot indispensable, turn Dealer MRI into the 'conversation brain', and connect external LLM traffic to dealers.",
+        "decidedBy": [
+          "Strolid Auto Leadership Team"
+        ],
+        "topic": "product-strategy-goals",
+        "confidence": "firm"
+      },
+      {
+        "description": "The core technology stack will consist of Vconic (infra), Dealer MRI (the brain), and Automotive Copilot (the action layer).",
+        "decidedBy": [
+          "Strolid Auto Leadership Team"
+        ],
+        "topic": "technology-stack-definition",
+        "confidence": "firm"
+      },
+      {
+        "description": "Phase 1 will focus on standing up Automotive Copilot inside dealers (Dealer Mode).",
+        "decidedBy": [
+          "Strolid Auto Leadership Team"
+        ],
+        "topic": "rollout-phase-1",
+        "confidence": "firm"
+      },
+      {
+        "description": "Initial pilot partners for Phase 1 will be 3-5 dealers or groups that already trust Strolid, have a champion, and are open to early versions.",
+        "decidedBy": [
+          "Strolid Auto Leadership Team"
+        ],
+        "topic": "pilot-partner-selection-criteria",
+        "confidence": "firm"
+      },
+      {
+        "description": "Copilot v1 scope will be kept tight, focusing on one surface per pilot (dealer website widget, SMS assistant, or rep-assist).",
+        "decidedBy": [
+          "Strolid Auto Leadership Team"
+        ],
+        "topic": "copilot-v1-scope",
+        "confidence": "firm"
+      },
+      {
+        "description": "Copilot v1 capabilities for shoppers must include answering specific questions, capturing name/contact info/consent, and offering human handoff.",
+        "decidedBy": [
+          "Strolid Auto Leadership Team"
+        ],
+        "topic": "copilot-v1-shopper-capabilities",
+        "confidence": "firm"
+      },
+      {
+        "description": "Copilot v1 capabilities for reps must include summarizing calls, drafting first replies, and suggesting 'next best contact'.",
+        "decidedBy": [
+          "Strolid Auto Leadership Team"
+        ],
+        "topic": "copilot-v1-rep-capabilities",
+        "confidence": "firm"
+      },
+      {
+        "description": "Copilot v1 data grounding will include inventory feed, CRM basics, and conversations via vCon.",
+        "decidedBy": [
+          "Strolid Auto Leadership Team"
+        ],
+        "topic": "copilot-v1-data-grounding",
+        "confidence": "firm"
+      },
+      {
+        "description": "Phase 2 will focus on making Dealer MRI the daily 'Brain' for stores and groups.",
+        "decidedBy": [
+          "Strolid Auto Leadership Team"
+        ],
+        "topic": "rollout-phase-2",
+        "confidence": "firm"
+      },
+      {
+        "description": "Dealer MRI v1 inputs will include calls, SMS/chat/email, web leads, CRM events, and Copilot interactions.",
+        "decidedBy": [
+          "Strolid Auto Leadership Team"
+        ],
+        "topic": "dealer-mri-v1-inputs",
+        "confidence": "firm"
+      },
+      {
+        "description": "Dealer MRI v1 core outputs will include a 'Today' view, a store dashboard, and a simple group view.",
+        "decidedBy": [
+          "Strolid Auto Leadership Team"
+        ],
+        "topic": "dealer-mri-v1-outputs",
+        "confidence": "firm"
+      },
+      {
+        "description": "MRI will be deployed to the same pilot dealers from Phase 1, plus 2-3 additional stores.",
+        "decidedBy": [
+          "Strolid Auto Leadership Team"
+        ],
+        "topic": "dealer-mri-deployment-strategy",
+        "confidence": "firm"
+      },
+      {
+        "description": "MRI will be made part of the weekly operating rhythm for each customer, including weekly leadership reviews and daily 'today's work' lists.",
+        "decidedBy": [
+          "Strolid Auto Leadership Team"
+        ],
+        "topic": "dealer-mri-workflow-integration",
+        "confidence": "firm"
+      },
+      {
+        "description": "Internal operations will be updated so BDC teams use MRI to prioritize outreach and CS managers use MRI for dealer calls.",
+        "decidedBy": [
+          "Strolid Auto Leadership Team"
+        ],
+        "topic": "internal-process-improvement",
+        "confidence": "firm"
+      },
+      {
+        "description": "Phase 3 will focus on turning Copilot into a Network Connector for OEMs/Portals.",
+        "decidedBy": [
+          "Strolid Auto Leadership Team"
+        ],
+        "topic": "rollout-phase-3",
+        "confidence": "firm"
+      },
+      {
+        "description": "The Copilot API (Network Mode) will be productized with defined inputs and outputs for external partners.",
+        "decidedBy": [
+          "Strolid Auto Leadership Team"
+        ],
+        "topic": "copilot-api-productization",
+        "confidence": "firm"
+      },
+      {
+        "description": "Phase 4 will position Automotive Copilot as the default way for LLM platforms to hand real automotive shoppers to real dealers.",
+        "decidedBy": [
+          "Strolid Auto Leadership Team"
+        ],
+        "topic": "rollout-phase-4",
+        "confidence": "firm"
+      },
+      {
+        "description": "An 'Automotive Intent Handoff' spec will be defined, including a standard payload and a simple endpoint.",
+        "decidedBy": [
+          "Strolid Auto Leadership Team"
+        ],
+        "topic": "automotive-intent-handoff-spec",
+        "confidence": "firm"
+      },
+      {
+        "description": "The team's identity will shift to Dealer MRI as the brain/diagnostic, Automotive Copilot as the assistant/connector, and BDC as the execution engine.",
+        "decidedBy": [
+          "Strolid Auto Leadership Team"
+        ],
+        "topic": "team-identity-redefinition",
+        "confidence": "firm"
+      },
+      {
+        "description": "Strolid Auto will be positioned as the conversation CRM for auto retail, building the copilot and connector linking shoppers, dealers, OEMs, and LLMs, and the exclusive automotive retail vertical on Vconic for investors and partners.",
+        "decidedBy": [
+          "Strolid Auto Leadership Team"
+        ],
+        "topic": "investor-partner-story",
+        "confidence": "firm"
+      }
+    ],
+    "actionItems": [
+      {
+        "task": "Check to see if anyone else is using Dealermri.com and Automotivecopilot.com.",
+        "owner": "Jamie",
+        "deadline": null,
+        "expectedOutcome": {
+          "system": "domain-ownership-verification",
+          "description": "Confirmation of exclusive domain usage or identification of other users."
+        }
+      },
+      {
+        "task": "Choose initial pilot partners (3-5 dealers or groups) for Phase 1 based on defined criteria.",
+        "owner": "Unassigned",
+        "deadline": "Next 1-2 months",
+        "expectedOutcome": {
+          "system": "pilot-program-initiation",
+          "description": "Selection and onboarding of 3-5 pilot dealers/groups meeting defined criteria."
+        }
+      },
+      {
+        "task": "Define Copilot v1 scope, including surfaces, capabilities for shoppers and reps, and data grounding.",
+        "owner": "Unassigned",
+        "deadline": "Next 1-2 months",
+        "expectedOutcome": {
+          "system": "product-definition",
+          "description": "Clear, tight scope for Copilot v1 features and integrations."
+        }
+      },
+      {
+        "task": "Implement Copilot and integrate it with existing dealer workflows (website/SMS entry, BDC, CRM).",
+        "owner": "Unassigned",
+        "deadline": "Next 1-2 months",
+        "expectedOutcome": {
+          "system": "product-deployment",
+          "description": "Copilot successfully wired into dealer systems and BDC workflows."
+        }
+      },
+      {
+        "task": "Train BDC and store teams on how Copilot introduces customers and how to pick up conversations.",
+        "owner": "Unassigned",
+        "deadline": "Next 1-2 months",
+        "expectedOutcome": {
+          "system": "user-enablement",
+          "description": "BDC and store teams proficient in using Copilot and picking up conversations."
+        }
+      },
+      {
+        "task": "Instrument results for each pilot, tracking Copilot conversations, leads created, human handoffs, appointments, and response times.",
+        "owner": "Unassigned",
+        "deadline": "Next 1-2 months",
+        "expectedOutcome": {
+          "system": "performance-tracking",
+          "description": "Comprehensive data collection on Copilot's impact on key metrics."
+        }
+      },
+      {
+        "task": "Document 3-5 case studies with clear before/after results from Phase 1 pilots.",
+        "owner": "Unassigned",
+        "deadline": "Next 1-2 months",
+        "expectedOutcome": {
+          "system": "marketing-collateral",
+          "description": "Compelling case studies demonstrating Copilot's value."
+        }
+      },
+      {
+        "task": "Define Dealer MRI v1, including inputs and core outputs.",
+        "owner": "Unassigned",
+        "deadline": "Next 1-2 months",
+        "expectedOutcome": {
+          "system": "product-definition",
+          "description": "Clear definition of Dealer MRI v1 features and data processing."
+        }
+      },
+      {
+        "task": "Deploy MRI to the same pilot dealers from Phase 1 and add 2-3 more stores.",
+        "owner": "Unassigned",
+        "deadline": "Next 1-2 months",
+        "expectedOutcome": {
+          "system": "product-deployment",
+          "description": "Dealer MRI rolled out to initial pilot group and additional stores."
+        }
+      },
+      {
+        "task": "Make MRI part of the weekly operating rhythm for each customer, defining a simple cadence for weekly leadership reviews and daily 'today's work' lists.",
+        "owner": "Unassigned",
+        "deadline": "Next 1-2 months",
+        "expectedOutcome": {
+          "system": "workflow-integration",
+          "description": "MRI integrated into dealer's daily and weekly management routines."
+        }
+      },
+      {
+        "task": "Measure and document outcomes from MRI + Copilot + BDC, including deals saved, reduction in missed follow-ups, and improvements in show/sold rates.",
+        "owner": "Unassigned",
+        "deadline": "Next 1-2 months",
+        "expectedOutcome": {
+          "system": "performance-tracking",
+          "description": "Quantifiable evidence of MRI's impact on dealer outcomes."
+        }
+      },
+      {
+        "task": "Roll out Dealer MRI + Copilot to a larger set of dealers and groups (target: 30-50 rooftops using MRI, 20+ using Copilot).",
+        "owner": "Unassigned",
+        "deadline": "6 to 18 months",
+        "expectedOutcome": {
+          "system": "market-expansion",
+          "description": "Achieve target adoption rates for MRI and Copilot across dealers."
+        }
+      },
+      {
+        "task": "Productize Automotive Copilot API (Network Mode) for OEMs/portals.",
+        "owner": "Unassigned",
+        "deadline": "6 to 18 months",
+        "expectedOutcome": {
+          "system": "api-development",
+          "description": "A fully defined and functional Copilot API for external partners."
+        }
+      },
+      {
+        "task": "Launch 1-2 pilots with OEM, marketplace, or finance/warranty partners sending conversations into Copilot.",
+        "owner": "Unassigned",
+        "deadline": "6 to 18 months",
+        "expectedOutcome": {
+          "system": "partnership-pilots",
+          "description": "Successful initiation of 1-2 external partner integrations with Copilot."
+        }
+      },
+      {
+        "task": "Integrate network-originated leads into MRI and BDC workflows with clear reporting back to partners.",
+        "owner": "Unassigned",
+        "deadline": "6 to 18 months",
+        "expectedOutcome": {
+          "system": "workflow-integration",
+          "description": "Seamless processing and reporting of leads from external partners."
+        }
+      },
+      {
+        "task": "Define and publish the 'Automotive Intent Handoff' spec (vCon-based payload and simple endpoint).",
+        "owner": "Unassigned",
+        "deadline": "18 to 30+ months",
+        "expectedOutcome": {
+          "system": "api-standardization",
+          "description": "A publicly available specification for LLM-to-dealer handoffs."
+        }
+      },
+      {
+        "task": "Wrap Copilot as an LLM-friendly connector with developer docs, sandbox mode, and clear guarantees.",
+        "owner": "Unassigned",
+        "deadline": "18 to 30+ months",
+        "expectedOutcome": {
+          "system": "llm-integration-platform",
+          "description": "Copilot configured to seamlessly integrate with LLM platforms."
+        }
+      },
+      {
+        "task": "Run limited-region pilots with LLM/marketplace partners.",
+        "owner": "Unassigned",
+        "deadline": "18 to 30+ months",
+        "expectedOutcome": {
+          "system": "llm-partnership-pilots",
+          "description": "Successful execution of initial LLM integration pilots."
+        }
+      },
+      {
+        "task": "Position Strolid Auto as the conversation CRM/brain, copilot/connector, and exclusive automotive retail vertical on Vconic.",
+        "owner": "Unassigned",
+        "deadline": "18 to 30+ months",
+        "expectedOutcome": {
+          "system": "market-positioning",
+          "description": "Clear and strong market positioning for Strolid Auto's offerings."
+        }
+      }
+    ],
+    "topicsDiscussed": [
+      "strolid-auto-rollout-plan",
+      "automotive-copilot-dealer-mode",
+      "automotive-copilot-network-mode",
+      "dealer-mri-brain",
+      "vconic-infrastructure",
+      "llm-integration-strategy",
+      "pilot-program-selection",
+      "product-scope-definition",
+      "workflow-integration",
+      "performance-measurement",
+      "case-study-development",
+      "api-productization",
+      "automotive-intent-handoff-spec",
+      "team-identity-redefinition",
+      "investor-partner-story",
+      "domain-ownership"
+    ],
+    "tensions": [
+      "The challenge of proving Copilot + BDC creates more engagement, better follow-up, and more shows/solds at pilot dealers.",
+      "The challenge of turning Dealer MRI into the diagnostic and 'today's work list' that leadership and managers rely on.",
+      "The challenge of proving Automotive Copilot can sit outside the dealer's own site and still route high-intent conversations.",
+      "The challenge of positioning Automotive Copilot as the default way for LLM platforms to hand real automotive shoppers to real dealers."
+    ],
+    "referencesToPast": [
+      "We already own Dealermri.com and Automotivecopilot.com",
+      "I have Jamie checking to see if anyone else is using these.",
+      "Already trust us and use our reporting (referring to existing relationships with potential pilot dealers)",
+      "We stop thinking of ourselves as 'just BDC + reporting' (reference to prior self-perception)",
+      "We already sit on top of the conversations."
+    ]
+  },
+  {
     "meetingId": "product-roadmap-planning-2025-01-28",
     "title": "Product: Roadmap Planning",
     "date": "2025-01-28",
@@ -1788,6 +2430,162 @@
     ],
     "tensions": [],
     "referencesToPast": []
+  },
+  {
+    "meetingId": "Strolid-Leadership-2025-12-01",
+    "title": "Strolid Leadership Call",
+    "date": "2025-12-01",
+    "series": "Strolid Leadership Call",
+    "type": "leadership",
+    "attendees": [
+      "Shawna Behen",
+      "Sergey Lyapustin",
+      "Joe Furnari",
+      "Jason Branham",
+      "Michael Donovan",
+      "Vinnie Micciche",
+      "Matt Watson",
+      "Thomas Howe",
+      "Mike Sullivan"
+    ],
+    "summary": "The Strolid leadership team convened to discuss immediate financial concerns, including BDC churn and the need for VCON fundraising. The primary focus shifted to Vinnie Micciche's vision for Strolid's future as an AI company, moving beyond its traditional BDC model. He presented insights from LLM interactions, predicting a decline in website traffic and the obsolescence of current digital retailing tools and automotive marketplaces. Vinnie proposed developing a 'Co-Pilot' (an AI-powered chat widget/assistant for customers, dealers, and agents) and enhancing the 'Dealer Brain' (Strolid GPT portal for dealer insights). A key opportunity identified is Strolid acting as a 'middleware' or 'trust layer' to bridge the gap between LLMs, which can provide information but not definitive lead handoffs, and automotive dealers. The team agreed to prioritize quick wins, pilot the Co-Pilot with a small number of dealers, and focus on building functional AI applications to address the evolving customer journey and lead generation challenges in the automotive industry.",
+    "decisions": [
+      {
+        "description": "Start watching expenses closely after the VCON show.",
+        "decidedBy": [
+          "Vinnie Micciche"
+        ],
+        "topic": "expense-management",
+        "confidence": "firm"
+      },
+      {
+        "description": "Prioritize raising money for VCON to support the Strolid business.",
+        "decidedBy": [
+          "Vinnie Micciche"
+        ],
+        "topic": "fundraising",
+        "confidence": "firm"
+      },
+      {
+        "description": "Proceed with the plan to start testing a chat widget (Co-Pilot) on dealer websites.",
+        "decidedBy": [
+          "Vinnie Micciche",
+          "Matt Watson"
+        ],
+        "topic": "chat-widget-development",
+        "confidence": "firm"
+      },
+      {
+        "description": "Strolid will pivot its identity from a BDC company to an AI company.",
+        "decidedBy": [
+          "Vinnie Micciche"
+        ],
+        "topic": "company-strategy",
+        "confidence": "firm"
+      },
+      {
+        "description": "Adopt an approach of picking the shortest path first for AI product development to achieve early wins.",
+        "decidedBy": [
+          "Matt Watson",
+          "Mike Sullivan"
+        ],
+        "topic": "product-development-strategy",
+        "confidence": "firm"
+      },
+      {
+        "description": "Pilot new AI elements with a small number of dealers (less than five) to gather feedback and iterate.",
+        "decidedBy": [
+          "Joe Furnari"
+        ],
+        "topic": "pilot-program",
+        "confidence": "firm"
+      }
+    ],
+    "actionItems": [
+      {
+        "task": "Discuss expense management with Perry.",
+        "owner": "Vinnie Micciche",
+        "deadline": null,
+        "expectedOutcome": null
+      },
+      {
+        "task": "Frame the new vision for the company to the internal team.",
+        "owner": "Vinnie Micciche",
+        "deadline": "Wednesday/Thursday",
+        "expectedOutcome": null
+      },
+      {
+        "task": "Initiate testing of the chat widget (Co-Pilot) on dealer websites.",
+        "owner": "Matt Watson",
+        "deadline": null,
+        "expectedOutcome": null
+      },
+      {
+        "task": "Actively pursue fundraising for VCON.",
+        "owner": "Vinnie Micciche",
+        "deadline": null,
+        "expectedOutcome": null
+      },
+      {
+        "task": "Mature data reporting and signals from conversations within the 'Dealer Brain' (Strolid GPT) for easier dealer understanding.",
+        "owner": "Kevin",
+        "deadline": null,
+        "expectedOutcome": null
+      },
+      {
+        "task": "Build specific AI tools/features one at a time, starting with inventory, appointment scheduling, and payments.",
+        "owner": "Sergey Lyapustin",
+        "deadline": null,
+        "expectedOutcome": null
+      }
+    ],
+    "topicsDiscussed": [
+      "VCON-show-sponsorship",
+      "expense-management",
+      "fundraising",
+      "BDC-churn",
+      "cash-flow",
+      "LLM-impact-on-automotive",
+      "website-traffic-decline",
+      "digital-retailing-tools",
+      "automotive-marketplaces",
+      "Strolid-GPT",
+      "dealer-co-pilot",
+      "dealer-brain",
+      "AI-middleware",
+      "customer-journey",
+      "lead-generation",
+      "CRM-integration",
+      "AI-applications",
+      "product-development-strategy",
+      "pilot-program",
+      "data-reporting",
+      "customer-experience"
+    ],
+    "tensions": [
+      "Concerns about serious BDC churn problems and impending cash flow issues.",
+      "The prediction that LLMs will diminish website traffic and eliminate existing digital retailing tools and automotive marketplaces, posing a 'scary' future for these companies.",
+      "Dealers' lack of understanding or care regarding data ownership and compliance, which Vinnie identifies as a significant problem.",
+      "Michael Donovan's questioning of the data source and deterministic nature for Strolid to become a 'trust layer' like Shift Digital.",
+      "Customer frustration with the disconnected car buying experience between online tools and showroom interactions.",
+      "Michael Donovan's concern about low website conversion rates for forms and chat, and how the new strategy will address this.",
+      "The contrast between LLMs providing estimated information and current BDC agent training that teaches avoidance of direct answers to push for appointments."
+    ],
+    "referencesToPast": [
+      "Mention of almost building a digital retailing tool in 2019 but deciding against it.",
+      "Reference to almost building a chat platform around the same time while talking to Ford and Toyota, and being glad they didn't.",
+      "Focusing on infrastructure like VCON and Conserver in the past.",
+      "David Rosenberg's original description of Strolid GPT (astrology BT) as a 'dealer MRI'.",
+      "Thomas Howe's prior discussions about 'co-pilots' leading to the purchase of 'automotivecopilot.com'.",
+      "Vinnie's consistent advocacy for Strolid BDC agents having access to Strolid GPT in their dialer for 'four or five months'.",
+      "Vinnie's past stance against digital retailing tools, arguing customers don't care about exact figures when shopping.",
+      "Reference to training agents on 'researchers, shoppers, and buyers' customer types.",
+      "Mention of the existing 'signals' feature as a data reporting tool.",
+      "Reference to David Rosenberg's past process around using 'Darwin' (a digital retailing tool) in his showroom.",
+      "Comparison of Strolid's potential 'trust layer' role to Shift Digital's function between OEMs and dealers.",
+      "Mike Sullivan referencing Vinnie's prior question about AWS's involvement in similar AI initiatives.",
+      "Mike Sullivan referencing Matt Watson's earlier point about picking the shortest path."
+    ]
   },
   {
     "meetingId": "the-marketing-meeting-2025-12-02",

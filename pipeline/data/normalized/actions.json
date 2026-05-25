@@ -1,6 +1,479 @@
 [
   {
     "id": "a-001",
+    "task": "Check if anyone else is using Dealermri.com and Automotivecopilot.com.",
+    "owner": "Jamie",
+    "meetingId": "strolid-auto-leadership-20231027",
+    "meetingDate": "2023-10-27",
+    "deadline": null,
+    "status": "abandoned",
+    "resolvedInMeeting": null,
+    "expectedOutcome": null
+  },
+  {
+    "id": "a-002",
+    "task": "Choose initial pilot partners (3-5 dealers/groups) based on defined criteria.",
+    "owner": "Unassigned",
+    "meetingId": "strolid-auto-leadership-20231027",
+    "meetingDate": "2023-10-27",
+    "deadline": "Next 1-2 months",
+    "status": "abandoned",
+    "resolvedInMeeting": null,
+    "expectedOutcome": {
+      "system": "internal-process",
+      "description": "List of 3-5 selected pilot dealers/groups."
+    }
+  },
+  {
+    "id": "a-003",
+    "task": "Wire Copilot into dealer\u2019s website or SMS entry point, our BDC workflows, and CRM.",
+    "owner": "Unassigned",
+    "meetingId": "strolid-auto-leadership-20231027",
+    "meetingDate": "2023-10-27",
+    "deadline": "Next 1-2 months",
+    "status": "abandoned",
+    "resolvedInMeeting": null,
+    "expectedOutcome": {
+      "system": "product-integration",
+      "description": "Copilot integrated into pilot dealers' systems."
+    }
+  },
+  {
+    "id": "a-004",
+    "task": "Train BDC & store teams on how Copilot introduces customers and how to pick up conversations.",
+    "owner": "Unassigned",
+    "meetingId": "strolid-auto-leadership-20231027",
+    "meetingDate": "2023-10-27",
+    "deadline": "Next 1-2 months",
+    "status": "abandoned",
+    "resolvedInMeeting": null,
+    "expectedOutcome": {
+      "system": "training-program",
+      "description": "Trained BDC and store teams capable of using Copilot."
+    }
+  },
+  {
+    "id": "a-005",
+    "task": "Instrument results for each pilot, tracking Copilot conversations, leads created, human handoffs, appointments set/shows/solds, and response time.",
+    "owner": "Unassigned",
+    "meetingId": "strolid-auto-leadership-20231027",
+    "meetingDate": "2023-10-27",
+    "deadline": "Next 1-2 months",
+    "status": "abandoned",
+    "resolvedInMeeting": null,
+    "expectedOutcome": {
+      "system": "reporting-system",
+      "description": "Data collected on Copilot performance for pilot dealers."
+    }
+  },
+  {
+    "id": "a-006",
+    "task": "Document 3\u20135 case studies with clear before/after results for Phase 1 pilots.",
+    "owner": "Unassigned",
+    "meetingId": "strolid-auto-leadership-20231027",
+    "meetingDate": "2023-10-27",
+    "deadline": "Next 1-2 months",
+    "status": "abandoned",
+    "resolvedInMeeting": null,
+    "expectedOutcome": {
+      "system": "marketing-content",
+      "description": "Case studies demonstrating Copilot's lift."
+    }
+  },
+  {
+    "id": "a-007",
+    "task": "Roll MRI into the same pilot dealers from Phase 1.",
+    "owner": "Unassigned",
+    "meetingId": "strolid-auto-leadership-20231027",
+    "meetingDate": "2023-10-27",
+    "deadline": "Next 1-2 months",
+    "status": "abandoned",
+    "resolvedInMeeting": null,
+    "expectedOutcome": {
+      "system": "product-deployment",
+      "description": "Dealer MRI deployed to Phase 1 pilot dealers."
+    }
+  },
+  {
+    "id": "a-008",
+    "task": "Add 2\u20133 more stores that might not have Copilot yet but will benefit from MRI diagnostic.",
+    "owner": "Unassigned",
+    "meetingId": "strolid-auto-leadership-20231027",
+    "meetingDate": "2023-10-27",
+    "deadline": "Next 1-2 months",
+    "status": "abandoned",
+    "resolvedInMeeting": null,
+    "expectedOutcome": {
+      "system": "product-deployment",
+      "description": "Dealer MRI deployed to additional stores."
+    }
+  },
+  {
+    "id": "a-009",
+    "task": "Define a simple cadence for each MRI customer (weekly leadership review, daily 'today\u2019s work' list).",
+    "owner": "Unassigned",
+    "meetingId": "strolid-auto-leadership-20231027",
+    "meetingDate": "2023-10-27",
+    "deadline": "Next 1-2 months",
+    "status": "abandoned",
+    "resolvedInMeeting": null,
+    "expectedOutcome": {
+      "system": "customer-success-process",
+      "description": "Operating rhythm established for MRI customers."
+    }
+  },
+  {
+    "id": "a-010",
+    "task": "Update internal ops so BDC teams use MRI to prioritize outreach and CS managers use MRI to prepare for dealer calls.",
+    "owner": "Unassigned",
+    "meetingId": "strolid-auto-leadership-20231027",
+    "meetingDate": "2023-10-27",
+    "deadline": "Next 1-2 months",
+    "status": "done",
+    "resolvedInMeeting": "active-pipeline-review-2026-03-12",
+    "expectedOutcome": {
+      "system": "internal-process-update",
+      "description": "Internal teams effectively using MRI in their workflows."
+    }
+  },
+  {
+    "id": "a-011",
+    "task": "Measure and document deals and ROs 'saved', reduction in missed follow-ups, improvements in show/sold, and manager feedback for MRI + Copilot + BDC.",
+    "owner": "Unassigned",
+    "meetingId": "strolid-auto-leadership-20231027",
+    "meetingDate": "2023-10-27",
+    "deadline": "Next 1-2 months",
+    "status": "abandoned",
+    "resolvedInMeeting": null,
+    "expectedOutcome": {
+      "system": "reporting-system",
+      "description": "Data and feedback collected on MRI's impact."
+    }
+  },
+  {
+    "id": "a-012",
+    "task": "Land 1\u20132 OEM / portal / finance pilots for Automotive Copilot API (Network Mode).",
+    "owner": "Unassigned",
+    "meetingId": "strolid-auto-leadership-20231027",
+    "meetingDate": "2023-10-27",
+    "deadline": "6 to 18 months",
+    "status": "abandoned",
+    "resolvedInMeeting": null,
+    "expectedOutcome": {
+      "system": "business-development",
+      "description": "Partnerships secured for Network Mode pilots."
+    }
+  },
+  {
+    "id": "a-013",
+    "task": "Integrate network-originated leads into Dealer MRI and BDC workflows, ensuring clear reporting back to OEM/portal partners.",
+    "owner": "Unassigned",
+    "meetingId": "strolid-auto-leadership-20231027",
+    "meetingDate": "2023-10-27",
+    "deadline": "6 to 18 months",
+    "status": "abandoned",
+    "resolvedInMeeting": null,
+    "expectedOutcome": {
+      "system": "product-integration",
+      "description": "Network leads seamlessly handled and reported."
+    }
+  },
+  {
+    "id": "a-014",
+    "task": "Create developer documentation for the Copilot API, showing examples, sandbox mode, and clear guarantees for LLM integration.",
+    "owner": "Unassigned",
+    "meetingId": "strolid-auto-leadership-20231027",
+    "meetingDate": "2023-10-27",
+    "deadline": "18 to 30+ months",
+    "status": "abandoned",
+    "resolvedInMeeting": null,
+    "expectedOutcome": {
+      "system": "developer-relations",
+      "description": "LLM-friendly developer documentation published."
+    }
+  },
+  {
+    "id": "a-015",
+    "task": "Run a controlled pilot for LLM integration, starting small with one region, a few brands, and one or two front-ends.",
+    "owner": "Unassigned",
+    "meetingId": "strolid-auto-leadership-20231027",
+    "meetingDate": "2023-10-27",
+    "deadline": "18 to 30+ months",
+    "status": "abandoned",
+    "resolvedInMeeting": null,
+    "expectedOutcome": {
+      "system": "product-pilot",
+      "description": "Successful LLM integration pilot completed."
+    }
+  },
+  {
+    "id": "a-016",
+    "task": "Check to see if anyone else is using Dealermri.com and Automotivecopilot.com.",
+    "owner": "Jamie",
+    "meetingId": "StrolidAuto-Leadership-20231027",
+    "meetingDate": "2023-10-27",
+    "deadline": null,
+    "status": "abandoned",
+    "resolvedInMeeting": null,
+    "expectedOutcome": {
+      "system": "domain-ownership-verification",
+      "description": "Confirmation of exclusive domain usage or identification of other users."
+    }
+  },
+  {
+    "id": "a-017",
+    "task": "Choose initial pilot partners (3-5 dealers or groups) for Phase 1 based on defined criteria.",
+    "owner": "Unassigned",
+    "meetingId": "StrolidAuto-Leadership-20231027",
+    "meetingDate": "2023-10-27",
+    "deadline": "Next 1-2 months",
+    "status": "abandoned",
+    "resolvedInMeeting": null,
+    "expectedOutcome": {
+      "system": "pilot-program-initiation",
+      "description": "Selection and onboarding of 3-5 pilot dealers/groups meeting defined criteria."
+    }
+  },
+  {
+    "id": "a-018",
+    "task": "Define Copilot v1 scope, including surfaces, capabilities for shoppers and reps, and data grounding.",
+    "owner": "Unassigned",
+    "meetingId": "StrolidAuto-Leadership-20231027",
+    "meetingDate": "2023-10-27",
+    "deadline": "Next 1-2 months",
+    "status": "abandoned",
+    "resolvedInMeeting": null,
+    "expectedOutcome": {
+      "system": "product-definition",
+      "description": "Clear, tight scope for Copilot v1 features and integrations."
+    }
+  },
+  {
+    "id": "a-019",
+    "task": "Implement Copilot and integrate it with existing dealer workflows (website/SMS entry, BDC, CRM).",
+    "owner": "Unassigned",
+    "meetingId": "StrolidAuto-Leadership-20231027",
+    "meetingDate": "2023-10-27",
+    "deadline": "Next 1-2 months",
+    "status": "abandoned",
+    "resolvedInMeeting": null,
+    "expectedOutcome": {
+      "system": "product-deployment",
+      "description": "Copilot successfully wired into dealer systems and BDC workflows."
+    }
+  },
+  {
+    "id": "a-020",
+    "task": "Train BDC and store teams on how Copilot introduces customers and how to pick up conversations.",
+    "owner": "Unassigned",
+    "meetingId": "StrolidAuto-Leadership-20231027",
+    "meetingDate": "2023-10-27",
+    "deadline": "Next 1-2 months",
+    "status": "abandoned",
+    "resolvedInMeeting": null,
+    "expectedOutcome": {
+      "system": "user-enablement",
+      "description": "BDC and store teams proficient in using Copilot and picking up conversations."
+    }
+  },
+  {
+    "id": "a-021",
+    "task": "Instrument results for each pilot, tracking Copilot conversations, leads created, human handoffs, appointments, and response times.",
+    "owner": "Unassigned",
+    "meetingId": "StrolidAuto-Leadership-20231027",
+    "meetingDate": "2023-10-27",
+    "deadline": "Next 1-2 months",
+    "status": "abandoned",
+    "resolvedInMeeting": null,
+    "expectedOutcome": {
+      "system": "performance-tracking",
+      "description": "Comprehensive data collection on Copilot's impact on key metrics."
+    }
+  },
+  {
+    "id": "a-022",
+    "task": "Document 3-5 case studies with clear before/after results from Phase 1 pilots.",
+    "owner": "Unassigned",
+    "meetingId": "StrolidAuto-Leadership-20231027",
+    "meetingDate": "2023-10-27",
+    "deadline": "Next 1-2 months",
+    "status": "abandoned",
+    "resolvedInMeeting": null,
+    "expectedOutcome": {
+      "system": "marketing-collateral",
+      "description": "Compelling case studies demonstrating Copilot's value."
+    }
+  },
+  {
+    "id": "a-023",
+    "task": "Define Dealer MRI v1, including inputs and core outputs.",
+    "owner": "Unassigned",
+    "meetingId": "StrolidAuto-Leadership-20231027",
+    "meetingDate": "2023-10-27",
+    "deadline": "Next 1-2 months",
+    "status": "abandoned",
+    "resolvedInMeeting": null,
+    "expectedOutcome": {
+      "system": "product-definition",
+      "description": "Clear definition of Dealer MRI v1 features and data processing."
+    }
+  },
+  {
+    "id": "a-024",
+    "task": "Deploy MRI to the same pilot dealers from Phase 1 and add 2-3 more stores.",
+    "owner": "Unassigned",
+    "meetingId": "StrolidAuto-Leadership-20231027",
+    "meetingDate": "2023-10-27",
+    "deadline": "Next 1-2 months",
+    "status": "abandoned",
+    "resolvedInMeeting": null,
+    "expectedOutcome": {
+      "system": "product-deployment",
+      "description": "Dealer MRI rolled out to initial pilot group and additional stores."
+    }
+  },
+  {
+    "id": "a-025",
+    "task": "Make MRI part of the weekly operating rhythm for each customer, defining a simple cadence for weekly leadership reviews and daily 'today's work' lists.",
+    "owner": "Unassigned",
+    "meetingId": "StrolidAuto-Leadership-20231027",
+    "meetingDate": "2023-10-27",
+    "deadline": "Next 1-2 months",
+    "status": "abandoned",
+    "resolvedInMeeting": null,
+    "expectedOutcome": {
+      "system": "workflow-integration",
+      "description": "MRI integrated into dealer's daily and weekly management routines."
+    }
+  },
+  {
+    "id": "a-026",
+    "task": "Measure and document outcomes from MRI + Copilot + BDC, including deals saved, reduction in missed follow-ups, and improvements in show/sold rates.",
+    "owner": "Unassigned",
+    "meetingId": "StrolidAuto-Leadership-20231027",
+    "meetingDate": "2023-10-27",
+    "deadline": "Next 1-2 months",
+    "status": "abandoned",
+    "resolvedInMeeting": null,
+    "expectedOutcome": {
+      "system": "performance-tracking",
+      "description": "Quantifiable evidence of MRI's impact on dealer outcomes."
+    }
+  },
+  {
+    "id": "a-027",
+    "task": "Roll out Dealer MRI + Copilot to a larger set of dealers and groups (target: 30-50 rooftops using MRI, 20+ using Copilot).",
+    "owner": "Unassigned",
+    "meetingId": "StrolidAuto-Leadership-20231027",
+    "meetingDate": "2023-10-27",
+    "deadline": "6 to 18 months",
+    "status": "done",
+    "resolvedInMeeting": "active-pipeline-review-2026-03-12",
+    "expectedOutcome": {
+      "system": "market-expansion",
+      "description": "Achieve target adoption rates for MRI and Copilot across dealers."
+    }
+  },
+  {
+    "id": "a-028",
+    "task": "Productize Automotive Copilot API (Network Mode) for OEMs/portals.",
+    "owner": "Unassigned",
+    "meetingId": "StrolidAuto-Leadership-20231027",
+    "meetingDate": "2023-10-27",
+    "deadline": "6 to 18 months",
+    "status": "abandoned",
+    "resolvedInMeeting": null,
+    "expectedOutcome": {
+      "system": "api-development",
+      "description": "A fully defined and functional Copilot API for external partners."
+    }
+  },
+  {
+    "id": "a-029",
+    "task": "Launch 1-2 pilots with OEM, marketplace, or finance/warranty partners sending conversations into Copilot.",
+    "owner": "Unassigned",
+    "meetingId": "StrolidAuto-Leadership-20231027",
+    "meetingDate": "2023-10-27",
+    "deadline": "6 to 18 months",
+    "status": "abandoned",
+    "resolvedInMeeting": null,
+    "expectedOutcome": {
+      "system": "partnership-pilots",
+      "description": "Successful initiation of 1-2 external partner integrations with Copilot."
+    }
+  },
+  {
+    "id": "a-030",
+    "task": "Integrate network-originated leads into MRI and BDC workflows with clear reporting back to partners.",
+    "owner": "Unassigned",
+    "meetingId": "StrolidAuto-Leadership-20231027",
+    "meetingDate": "2023-10-27",
+    "deadline": "6 to 18 months",
+    "status": "abandoned",
+    "resolvedInMeeting": null,
+    "expectedOutcome": {
+      "system": "workflow-integration",
+      "description": "Seamless processing and reporting of leads from external partners."
+    }
+  },
+  {
+    "id": "a-031",
+    "task": "Define and publish the 'Automotive Intent Handoff' spec (vCon-based payload and simple endpoint).",
+    "owner": "Unassigned",
+    "meetingId": "StrolidAuto-Leadership-20231027",
+    "meetingDate": "2023-10-27",
+    "deadline": "18 to 30+ months",
+    "status": "abandoned",
+    "resolvedInMeeting": null,
+    "expectedOutcome": {
+      "system": "api-standardization",
+      "description": "A publicly available specification for LLM-to-dealer handoffs."
+    }
+  },
+  {
+    "id": "a-032",
+    "task": "Wrap Copilot as an LLM-friendly connector with developer docs, sandbox mode, and clear guarantees.",
+    "owner": "Unassigned",
+    "meetingId": "StrolidAuto-Leadership-20231027",
+    "meetingDate": "2023-10-27",
+    "deadline": "18 to 30+ months",
+    "status": "abandoned",
+    "resolvedInMeeting": null,
+    "expectedOutcome": {
+      "system": "llm-integration-platform",
+      "description": "Copilot configured to seamlessly integrate with LLM platforms."
+    }
+  },
+  {
+    "id": "a-033",
+    "task": "Run limited-region pilots with LLM/marketplace partners.",
+    "owner": "Unassigned",
+    "meetingId": "StrolidAuto-Leadership-20231027",
+    "meetingDate": "2023-10-27",
+    "deadline": "18 to 30+ months",
+    "status": "abandoned",
+    "resolvedInMeeting": null,
+    "expectedOutcome": {
+      "system": "llm-partnership-pilots",
+      "description": "Successful execution of initial LLM integration pilots."
+    }
+  },
+  {
+    "id": "a-034",
+    "task": "Position Strolid Auto as the conversation CRM/brain, copilot/connector, and exclusive automotive retail vertical on Vconic.",
+    "owner": "Unassigned",
+    "meetingId": "StrolidAuto-Leadership-20231027",
+    "meetingDate": "2023-10-27",
+    "deadline": "18 to 30+ months",
+    "status": "abandoned",
+    "resolvedInMeeting": null,
+    "expectedOutcome": {
+      "system": "market-positioning",
+      "description": "Clear and strong market positioning for Strolid Auto's offerings."
+    }
+  },
+  {
+    "id": "a-035",
     "task": "Create engaging training and outreach materials for the sales and client success teams.",
     "owner": "Unassigned",
     "meetingId": "product-roadmap-planning-2025-01-28",
@@ -14,7 +487,7 @@
     }
   },
   {
-    "id": "a-002",
+    "id": "a-036",
     "task": "Conduct pilot programs with a select group of dealers to test and improve GPT.",
     "owner": "Vinnie Micciche",
     "meetingId": "product-roadmap-planning-2025-01-28",
@@ -28,7 +501,7 @@
     }
   },
   {
-    "id": "a-003",
+    "id": "a-037",
     "task": "Improve data collection and analysis to measure the impact of implemented changes.",
     "owner": "Matt Watson",
     "meetingId": "product-roadmap-planning-2025-01-28",
@@ -42,7 +515,7 @@
     }
   },
   {
-    "id": "a-004",
+    "id": "a-038",
     "task": "Conduct a gap analysis to determine the necessary level of effort and associated costs for achieving project timelines.",
     "owner": "Joe Furnari",
     "meetingId": "product-roadmap-planning-2025-02-04",
@@ -56,7 +529,7 @@
     }
   },
   {
-    "id": "a-005",
+    "id": "a-039",
     "task": "Reconcile June's data and perform a 90-day review of ad spend.",
     "owner": "Michael Donovan",
     "meetingId": "1-on-1-joe-and-michael-2025-07-01",
@@ -70,7 +543,7 @@
     }
   },
   {
-    "id": "a-006",
+    "id": "a-040",
     "task": "Outline the objectives for the CRM project kickoff meeting.",
     "owner": "Joe Furnari",
     "meetingId": "1-on-1-joe-and-michael-2025-07-01",
@@ -84,7 +557,7 @@
     }
   },
   {
-    "id": "a-007",
+    "id": "a-041",
     "task": "Set up a meeting with Michael Donovan and Jason for Tuesday or Wednesday next week to kickoff the CRM project and define the workflow.",
     "owner": "Joe Furnari",
     "meetingId": "1-on-1-joe-and-michael-2025-07-01",
@@ -98,7 +571,7 @@
     }
   },
   {
-    "id": "a-008",
+    "id": "a-042",
     "task": "Put Zoho Sales IQ documentation together and discuss it with Jason on a call before the 12:30 call.",
     "owner": "Michael Donovan",
     "meetingId": "1-on-1-joe-and-michael-2025-07-01",
@@ -112,7 +585,7 @@
     }
   },
   {
-    "id": "a-009",
+    "id": "a-043",
     "task": "Review and clean up the format of the CRM documentation and share it with Joe Furnari and Jason.",
     "owner": "Michael Donovan",
     "meetingId": "1-on-1-joe-and-michael-2025-07-01",
@@ -126,7 +599,7 @@
     }
   },
   {
-    "id": "a-010",
+    "id": "a-044",
     "task": "Have a conversation with Vinnie regarding bonus payments and concerns about job security.",
     "owner": "Joe Furnari",
     "meetingId": "1-on-1-joe-and-michael-2025-07-01",
@@ -140,7 +613,7 @@
     }
   },
   {
-    "id": "a-011",
+    "id": "a-045",
     "task": "Complete the session after work tonight to fix the BDC app.",
     "owner": "Michael Donovan",
     "meetingId": "jason-michael-2025-09-16",
@@ -154,7 +627,7 @@
     }
   },
   {
-    "id": "a-012",
+    "id": "a-046",
     "task": "Send an invite from the BDC app to Jason Branham.",
     "owner": "Michael Donovan",
     "meetingId": "jason-michael-2025-09-16",
@@ -168,7 +641,7 @@
     }
   },
   {
-    "id": "a-013",
+    "id": "a-047",
     "task": "Get with Reed to get the tag manager done for the Rainbow store.",
     "owner": "Michael Donovan",
     "meetingId": "jason-michael-2025-09-16",
@@ -182,7 +655,7 @@
     }
   },
   {
-    "id": "a-014",
+    "id": "a-048",
     "task": "Inform everyone regarding the next steps for analysis and automation.",
     "owner": "Michael Donovan",
     "meetingId": "jason-michael-2025-09-16",
@@ -196,7 +669,7 @@
     }
   },
   {
-    "id": "a-015",
+    "id": "a-049",
     "task": "Create a task list to document projects and tasks.",
     "owner": "Michael Donovan",
     "meetingId": "homepage-hero-session-2025-09-23",
@@ -210,7 +683,7 @@
     }
   },
   {
-    "id": "a-016",
+    "id": "a-050",
     "task": "Share the agenda for the marketing meeting with Ziad Al Khatib.",
     "owner": "Michael Donovan",
     "meetingId": "homepage-hero-session-2025-09-23",
@@ -224,7 +697,7 @@
     }
   },
   {
-    "id": "a-017",
+    "id": "a-051",
     "task": "Share historical documents with Ziad Al Khatib.",
     "owner": "Michael Donovan",
     "meetingId": "homepage-hero-session-2025-09-23",
@@ -238,7 +711,7 @@
     }
   },
   {
-    "id": "a-018",
+    "id": "a-052",
     "task": "Share the corporate identity brand guidelines for Strawid, including the white logo versions, with Ziad Al Khatib.",
     "owner": "Michael Donovan",
     "meetingId": "homepage-hero-session-2025-09-23",
@@ -252,7 +725,7 @@
     }
   },
   {
-    "id": "a-019",
+    "id": "a-053",
     "task": "Send Michael Donovan the click path and prompt used for Gemini images.",
     "owner": "Ziad Al Khatib",
     "meetingId": "homepage-hero-session-2025-09-23",
@@ -266,7 +739,7 @@
     }
   },
   {
-    "id": "a-020",
+    "id": "a-054",
     "task": "Watch Karate Kid, Goonies, and 16 Candles.",
     "owner": "Ziad Al Khatib",
     "meetingId": "homepage-hero-session-2025-09-23",
@@ -280,7 +753,7 @@
     }
   },
   {
-    "id": "a-021",
+    "id": "a-055",
     "task": "Do independent research.",
     "owner": "Ziad Al Khatib",
     "meetingId": "homepage-hero-session-2025-09-23",
@@ -294,7 +767,7 @@
     }
   },
   {
-    "id": "a-022",
+    "id": "a-056",
     "task": "Request examples from invado or award-winning websites from 2025.",
     "owner": "Ziad Al Khatib",
     "meetingId": "homepage-hero-session-2025-09-23",
@@ -308,7 +781,7 @@
     }
   },
   {
-    "id": "a-023",
+    "id": "a-057",
     "task": "Take some time to get the design dialed in to their standard and show Michael Donovan what that is.",
     "owner": "Ziad Al Khatib",
     "meetingId": "homepage-hero-session-2025-09-23",
@@ -322,7 +795,7 @@
     }
   },
   {
-    "id": "a-024",
+    "id": "a-058",
     "task": "Deploy the marketing automation platform.",
     "owner": "Michael Donovan",
     "meetingId": "tech-process-and-product-review-2025-09-24",
@@ -336,7 +809,7 @@
     }
   },
   {
-    "id": "a-025",
+    "id": "a-059",
     "task": "Explore the marketing automation platform provided by Michael Donovan as a closed beta resource.",
     "owner": "Audrey Hayn",
     "meetingId": "tech-process-and-product-review-2025-09-24",
@@ -350,7 +823,7 @@
     }
   },
   {
-    "id": "a-026",
+    "id": "a-060",
     "task": "Explore the marketing automation platform provided by Michael Donovan as a closed beta resource.",
     "owner": "Claude Hayn",
     "meetingId": "tech-process-and-product-review-2025-09-24",
@@ -364,7 +837,7 @@
     }
   },
   {
-    "id": "a-027",
+    "id": "a-061",
     "task": "Send a link to documentation on how the marketing automation platform environment is designed.",
     "owner": "Michael Donovan",
     "meetingId": "tech-process-and-product-review-2025-09-24",
@@ -378,7 +851,7 @@
     }
   },
   {
-    "id": "a-028",
+    "id": "a-062",
     "task": "Provide login credentials for the marketing automation platform.",
     "owner": "Michael Donovan",
     "meetingId": "tech-process-and-product-review-2025-09-24",
@@ -392,7 +865,7 @@
     }
   },
   {
-    "id": "a-029",
+    "id": "a-063",
     "task": "Look into the 30% API failure rate for notes not pushing.",
     "owner": "Sergey Lyapustin",
     "meetingId": "active-pipeline-review-2025-10-02",
@@ -406,7 +879,7 @@
     }
   },
   {
-    "id": "a-030",
+    "id": "a-064",
     "task": "Test out the VIN Solutions API push notes in one store.",
     "owner": "Shawna Behen",
     "meetingId": "active-pipeline-review-2025-10-02",
@@ -420,7 +893,7 @@
     }
   },
   {
-    "id": "a-031",
+    "id": "a-065",
     "task": "Continue working with Holly to get the list of users for system access review.",
     "owner": "Harinder Bhinder",
     "meetingId": "active-pipeline-review-2025-10-02",
@@ -434,7 +907,7 @@
     }
   },
   {
-    "id": "a-032",
+    "id": "a-066",
     "task": "Work on the onboarding flow for new people to the portal.",
     "owner": "Sergey Lyapustin",
     "meetingId": "active-pipeline-review-2025-10-02",
@@ -448,7 +921,7 @@
     }
   },
   {
-    "id": "a-033",
+    "id": "a-067",
     "task": "Add call notes evaluation to Holly's CRM evaluation process.",
     "owner": "Matt Watson",
     "meetingId": "active-pipeline-review-2025-10-02",
@@ -462,7 +935,7 @@
     }
   },
   {
-    "id": "a-034",
+    "id": "a-068",
     "task": "Review the item Michael Donovan shared.",
     "owner": "Vinnie Micciche",
     "meetingId": "the-marketing-meeting-2025-10-21",
@@ -476,7 +949,7 @@
     }
   },
   {
-    "id": "a-035",
+    "id": "a-069",
     "task": "Send a link to the staging version of the website, including the homepage, four product pages, leadership, and about page.",
     "owner": "Michael Donovan",
     "meetingId": "vconic-priority-content-update-2025-10-24",
@@ -490,7 +963,7 @@
     }
   },
   {
-    "id": "a-036",
+    "id": "a-070",
     "task": "Publish the draft website behind a firewall or password protected for review.",
     "owner": "Michael Donovan",
     "meetingId": "vconic-priority-content-update-2025-10-24",
@@ -504,7 +977,7 @@
     }
   },
   {
-    "id": "a-037",
+    "id": "a-071",
     "task": "Focus on hero images, profile banners, and post templates to define the look and feel of LinkedIn content.",
     "owner": "Michael Donovan",
     "meetingId": "vconic-priority-content-update-2025-10-24",
@@ -518,7 +991,7 @@
     }
   },
   {
-    "id": "a-038",
+    "id": "a-072",
     "task": "Send out a link to the Viconic site along with direct links to the different homepage options via email.",
     "owner": "Michael Donovan",
     "meetingId": "the-marketing-meeting-2025-10-28",
@@ -532,7 +1005,7 @@
     }
   },
   {
-    "id": "a-039",
+    "id": "a-073",
     "task": "Go through all the carousel posts that Michael Donovan will send and give feedback.",
     "owner": "Vinnie Micciche",
     "meetingId": "the-marketing-meeting-2025-10-28",
@@ -546,7 +1019,7 @@
     }
   },
   {
-    "id": "a-040",
+    "id": "a-074",
     "task": "Research the highest value keyword for the Viconic link on the Strolid site.",
     "owner": "Michael Donovan",
     "meetingId": "the-marketing-meeting-2025-10-28",
@@ -560,7 +1033,7 @@
     }
   },
   {
-    "id": "a-041",
+    "id": "a-075",
     "task": "Select and import the previous creative posts and send them to Michael Donovan in a PDF format.",
     "owner": "Ziad Al Khatib",
     "meetingId": "weekly-marketing-planning-goals-2025-11-10",
@@ -574,7 +1047,7 @@
     }
   },
   {
-    "id": "a-042",
+    "id": "a-076",
     "task": "Put together the revised social media posts and share them with Vinnie Micciche.",
     "owner": "Michael Donovan",
     "meetingId": "the-marketing-meeting-2025-11-11",
@@ -588,7 +1061,7 @@
     }
   },
   {
-    "id": "a-043",
+    "id": "a-077",
     "task": "Find and send research about where leads are going.",
     "owner": "Vinnie Micciche",
     "meetingId": "the-marketing-meeting-2025-11-11",
@@ -602,7 +1075,7 @@
     }
   },
   {
-    "id": "a-044",
+    "id": "a-078",
     "task": "Review and provide feedback on updated creatives.",
     "owner": "Vinnie Micciche",
     "meetingId": "the-marketing-meeting-2025-11-11",
@@ -616,7 +1089,7 @@
     }
   },
   {
-    "id": "a-045",
+    "id": "a-079",
     "task": "Put the outline material together and send it over to Vinnie Micciche.",
     "owner": "Michael Donovan",
     "meetingId": "the-marketing-meeting-2025-11-11",
@@ -630,7 +1103,7 @@
     }
   },
   {
-    "id": "a-046",
+    "id": "a-080",
     "task": "Improve the document to ensure Vinnie Micciche has the whole post in view, including the title on the graphic, copy, and caption hashtags.",
     "owner": "Michael Donovan",
     "meetingId": "the-marketing-meeting-2025-11-11",
@@ -644,7 +1117,7 @@
     }
   },
   {
-    "id": "a-047",
+    "id": "a-081",
     "task": "Share the updated document with the reran control content with Vinnie Micciche.",
     "owner": "Michael Donovan",
     "meetingId": "the-marketing-meeting-2025-11-11",
@@ -658,7 +1131,7 @@
     }
   },
   {
-    "id": "a-048",
+    "id": "a-082",
     "task": "Find a video person in Denver to capture B-roll, including bringing Thomas out for a day of shooting.",
     "owner": "Perry Evans",
     "meetingId": "vconic-site-content-2025-11-20",
@@ -672,7 +1145,7 @@
     }
   },
   {
-    "id": "a-049",
+    "id": "a-083",
     "task": "Work on the visualization mapping, focusing on animating the check and fading the full logo, finding two or three placeholder videos, and developing concepts for a derivative logo for Viconic Open Labs or Viconic Labs.",
     "owner": "Michael Donovan",
     "meetingId": "vconic-site-content-2025-11-20",
@@ -686,7 +1159,7 @@
     }
   },
   {
-    "id": "a-050",
+    "id": "a-084",
     "task": "Shortlist video production partners and queue up a meeting for Michael Donovan and Perry Evans to review the list and select the right team member.",
     "owner": "Perry Evans",
     "meetingId": "vconic-site-content-2025-11-20",
@@ -700,7 +1173,7 @@
     }
   },
   {
-    "id": "a-051",
+    "id": "a-085",
     "task": "Develop subtext for the Viconic Labs content and edit the content document.",
     "owner": "Perry Evans",
     "meetingId": "vconic-site-content-2025-11-20",
@@ -714,7 +1187,7 @@
     }
   },
   {
-    "id": "a-052",
+    "id": "a-086",
     "task": "Provide a strong example of leveraging vector scroll animations that are clean, tasteful, and provide a sense of movement beyond basic parallax.",
     "owner": "Michael Donovan",
     "meetingId": "vconic-site-content-2025-11-20",
@@ -728,7 +1201,7 @@
     }
   },
   {
-    "id": "a-053",
+    "id": "a-087",
     "task": "Resurrect a person to work with on the video side that understands the concept of an integrated look and feel to a series of explainer videos and tools that we can work from.",
     "owner": "Perry Evans",
     "meetingId": "vconic-site-content-2025-11-20",
@@ -742,7 +1215,7 @@
     }
   },
   {
-    "id": "a-054",
+    "id": "a-088",
     "task": "Build out the template for the sales deck so that the group can utilize it.",
     "owner": "Michael Donovan",
     "meetingId": "the-marketing-meeting-2025-11-25",
@@ -756,7 +1229,7 @@
     }
   },
   {
-    "id": "a-055",
+    "id": "a-089",
     "task": "Finish updates on the Looker Studio report, consolidating all social media, Google Analytics, and Google Ads data.",
     "owner": "Michael Donovan",
     "meetingId": "the-marketing-meeting-2025-11-25",
@@ -770,7 +1243,7 @@
     }
   },
   {
-    "id": "a-056",
+    "id": "a-090",
     "task": "Provide the restructured website content to Vinnie Micciche so they can review it.",
     "owner": "Michael Donovan",
     "meetingId": "the-marketing-meeting-2025-11-25",
@@ -784,7 +1257,7 @@
     }
   },
   {
-    "id": "a-057",
+    "id": "a-091",
     "task": "Look into the direct traffic source issue for Google Analytics.",
     "owner": "Michael Donovan",
     "meetingId": "the-marketing-meeting-2025-11-25",
@@ -798,7 +1271,7 @@
     }
   },
   {
-    "id": "a-058",
+    "id": "a-092",
     "task": "Double-check the Google Tag Manager setup for any tagging issues causing traffic misattribution.",
     "owner": "Michael Donovan",
     "meetingId": "the-marketing-meeting-2025-11-25",
@@ -812,7 +1285,7 @@
     }
   },
   {
-    "id": "a-059",
+    "id": "a-093",
     "task": "Coordinate time to refine the updated aesthetic sales deck using the 2025 sales deck V1 as a basis, to ensure it aligns with Jason Branham's word tracks and flow.",
     "owner": "Michael Donovan",
     "meetingId": "the-marketing-meeting-2025-11-25",
@@ -826,7 +1299,7 @@
     }
   },
   {
-    "id": "a-060",
+    "id": "a-094",
     "task": "Provide the created, recreated, or reconstructed content so Vinnie Micciche can review it and feel comfortable with what will be presented.",
     "owner": "Michael Donovan",
     "meetingId": "the-marketing-meeting-2025-11-25",
@@ -840,7 +1313,73 @@
     }
   },
   {
-    "id": "a-061",
+    "id": "a-095",
+    "task": "Discuss expense management with Perry.",
+    "owner": "Vinnie Micciche",
+    "meetingId": "Strolid-Leadership-2025-12-01",
+    "meetingDate": "2025-12-01",
+    "deadline": null,
+    "status": "abandoned",
+    "resolvedInMeeting": null,
+    "expectedOutcome": null
+  },
+  {
+    "id": "a-096",
+    "task": "Frame the new vision for the company to the internal team.",
+    "owner": "Vinnie Micciche",
+    "meetingId": "Strolid-Leadership-2025-12-01",
+    "meetingDate": "2025-12-01",
+    "deadline": "Wednesday/Thursday",
+    "status": "abandoned",
+    "resolvedInMeeting": null,
+    "expectedOutcome": null
+  },
+  {
+    "id": "a-097",
+    "task": "Initiate testing of the chat widget (Co-Pilot) on dealer websites.",
+    "owner": "Matt Watson",
+    "meetingId": "Strolid-Leadership-2025-12-01",
+    "meetingDate": "2025-12-01",
+    "deadline": null,
+    "status": "abandoned",
+    "resolvedInMeeting": null,
+    "expectedOutcome": null
+  },
+  {
+    "id": "a-098",
+    "task": "Actively pursue fundraising for VCON.",
+    "owner": "Vinnie Micciche",
+    "meetingId": "Strolid-Leadership-2025-12-01",
+    "meetingDate": "2025-12-01",
+    "deadline": null,
+    "status": "abandoned",
+    "resolvedInMeeting": null,
+    "expectedOutcome": null
+  },
+  {
+    "id": "a-099",
+    "task": "Mature data reporting and signals from conversations within the 'Dealer Brain' (Strolid GPT) for easier dealer understanding.",
+    "owner": "Kevin",
+    "meetingId": "Strolid-Leadership-2025-12-01",
+    "meetingDate": "2025-12-01",
+    "deadline": null,
+    "status": "abandoned",
+    "resolvedInMeeting": null,
+    "expectedOutcome": null
+  },
+  {
+    "id": "a-100",
+    "task": "Build specific AI tools/features one at a time, starting with inventory, appointment scheduling, and payments.",
+    "owner": "Sergey Lyapustin",
+    "meetingId": "Strolid-Leadership-2025-12-01",
+    "meetingDate": "2025-12-01",
+    "deadline": null,
+    "status": "open",
+    "resolvedInMeeting": null,
+    "expectedOutcome": null
+  },
+  {
+    "id": "a-101",
     "task": "Work with Christina directly for now to ensure social posts are flowing and social media activity is maintained.",
     "owner": "Vinnie Micciche",
     "meetingId": "the-marketing-meeting-2025-12-02",
@@ -854,7 +1393,7 @@
     }
   },
   {
-    "id": "a-062",
+    "id": "a-102",
     "task": "Be accountable for everything that comes and branches off of the social post topic, including putting the brief together and continuing the workflow.",
     "owner": "Michael Donovan",
     "meetingId": "the-marketing-meeting-2025-12-02",
@@ -868,7 +1407,7 @@
     }
   },
   {
-    "id": "a-063",
+    "id": "a-103",
     "task": "Schedule time with Kevin Breen to discuss resources, data, and piping relevant to marketing.",
     "owner": "Michael Donovan",
     "meetingId": "the-marketing-meeting-2025-12-02",
@@ -882,7 +1421,7 @@
     }
   },
   {
-    "id": "a-064",
+    "id": "a-104",
     "task": "Finish the connection from Sanity's AI to our content lake.",
     "owner": "Michael Donovan",
     "meetingId": "the-marketing-meeting-2025-12-02",
@@ -896,7 +1435,7 @@
     }
   },
   {
-    "id": "a-065",
+    "id": "a-105",
     "task": "Offer Christina an agency-style arrangement, asking for a price quote for three landing pages and the newsletter.",
     "owner": "Vinnie Micciche",
     "meetingId": "the-marketing-meeting-2025-12-02",
@@ -910,7 +1449,7 @@
     }
   },
   {
-    "id": "a-066",
+    "id": "a-106",
     "task": "Tone down the messaging to be less complex and more direct for the target audience of car guys.",
     "owner": "Michael Donovan",
     "meetingId": "michael-and-vin-continuation-2025-12-03",
@@ -924,7 +1463,7 @@
     }
   },
   {
-    "id": "a-067",
+    "id": "a-107",
     "task": "Refine social media post designs to be more in-your-face and low-funnel for lead generation.",
     "owner": "Michael Donovan",
     "meetingId": "michael-and-vin-continuation-2025-12-03",
@@ -938,7 +1477,7 @@
     }
   },
   {
-    "id": "a-068",
+    "id": "a-108",
     "task": "Circle back with Perry regarding the Viconic site.",
     "owner": "Michael Donovan",
     "meetingId": "michael-and-vin-continuation-2025-12-03",
@@ -952,7 +1491,7 @@
     }
   },
   {
-    "id": "a-069",
+    "id": "a-109",
     "task": "Work on some content ideas and send them to Michael Donovan for posting.",
     "owner": "Vinnie Micciche",
     "meetingId": "michael-and-vin-continuation-2025-12-03",
@@ -966,7 +1505,7 @@
     }
   },
   {
-    "id": "a-070",
+    "id": "a-110",
     "task": "Ensure new social media posts are sent out immediately to maintain posting frequency.",
     "owner": "Michael Donovan",
     "meetingId": "michael-and-vin-continuation-2025-12-03",
@@ -980,7 +1519,7 @@
     }
   },
   {
-    "id": "a-071",
+    "id": "a-111",
     "task": "Prepare a document outlining a timeline of all the changes Perry has requested for the Viconic site.",
     "owner": "Michael Donovan",
     "meetingId": "vin-and-michael-2025-12-03",
@@ -994,7 +1533,7 @@
     }
   },
   {
-    "id": "a-072",
+    "id": "a-112",
     "task": "Send the social posts to Vinnie Micciche for review with the captions in a Google doc.",
     "owner": "Michael Donovan",
     "meetingId": "vin-and-michael-2025-12-03",
@@ -1008,7 +1547,7 @@
     }
   },
   {
-    "id": "a-073",
+    "id": "a-113",
     "task": "Provide an estimated timeframe for deliverables for the website pages design and build.",
     "owner": "Michael Donovan",
     "meetingId": "vin-and-michael-2025-12-03",
@@ -1022,7 +1561,7 @@
     }
   },
   {
-    "id": "a-074",
+    "id": "a-114",
     "task": "Work something up to help Vinnie Micciche with the rest of the stuff he is doing so Vinnie Micciche can move on.",
     "owner": "Michael Donovan",
     "meetingId": "vin-and-michael-2025-12-03",
@@ -1036,7 +1575,7 @@
     }
   },
   {
-    "id": "a-075",
+    "id": "a-115",
     "task": "Find the documents that Vinnie sent for the social posts.",
     "owner": "Joe Furnari",
     "meetingId": "joe-and-michael-catch-up-2025-12-04",
@@ -1050,7 +1589,7 @@
     }
   },
   {
-    "id": "a-076",
+    "id": "a-116",
     "task": "Work with Mindy to put the Google account and other services on her corporate card.",
     "owner": "Michael Donovan",
     "meetingId": "joe-and-michael-catch-up-2025-12-04",
@@ -1064,7 +1603,7 @@
     }
   },
   {
-    "id": "a-077",
+    "id": "a-117",
     "task": "Create posts using Vinnie Micciche's clear and simple messaging, focusing on what makes Straw different and exciting.",
     "owner": "Michael Donovan",
     "meetingId": "call-with-michael-2025-12-05",
@@ -1078,7 +1617,7 @@
     }
   },
   {
-    "id": "a-078",
+    "id": "a-118",
     "task": "Share the link to the Perplexity tool.",
     "owner": "Michael Donovan",
     "meetingId": "call-with-michael-2025-12-05",
@@ -1092,7 +1631,7 @@
     }
   },
   {
-    "id": "a-079",
+    "id": "a-119",
     "task": "Compile verbatim marketing hooks with short captions and post them for a month.",
     "owner": "Michael Donovan",
     "meetingId": "call-with-michael-2025-12-05",
@@ -1106,7 +1645,7 @@
     }
   },
   {
-    "id": "a-080",
+    "id": "a-120",
     "task": "Go through the three documents and provide additional comments.",
     "owner": "Joe Furnari",
     "meetingId": "the-marketing-meeting-2025-12-10",
@@ -1120,7 +1659,7 @@
     }
   },
   {
-    "id": "a-081",
+    "id": "a-121",
     "task": "Confirm the workflow of automated appointment booking on the DMA website.",
     "owner": "Sergey Lyapustin",
     "meetingId": "strolid-leadership-call-2025-12-15",
@@ -1134,7 +1673,7 @@
     }
   },
   {
-    "id": "a-082",
+    "id": "a-122",
     "task": "Request David Rosenberg to help raise money, and share the last deck with Mike Sullivan.",
     "owner": "Vin Micciche",
     "meetingId": "strolid-leadership-call-2025-12-15",
@@ -1148,7 +1687,7 @@
     }
   },
   {
-    "id": "a-083",
+    "id": "a-123",
     "task": "Put together an advisory board by listing, interviewing, and figuring out an approach for potential candidates like Dave Spizac, Steve Greenfield, and Phil Batista.",
     "owner": "Vin Micciche",
     "meetingId": "strolid-leadership-call-2025-12-15",
@@ -1162,7 +1701,7 @@
     }
   },
   {
-    "id": "a-084",
+    "id": "a-124",
     "task": "Look at the Sophia data to determine which dealers specifically benefited from the converted appointments to create a case study.",
     "owner": "Kevin Breen",
     "meetingId": "strolid-leadership-call-2025-12-15",
@@ -1176,7 +1715,7 @@
     }
   },
   {
-    "id": "a-085",
+    "id": "a-125",
     "task": "Grant everybody access to GPT.",
     "owner": "Matt Watson",
     "meetingId": "strolid-leadership-call-2025-12-15",
@@ -1190,7 +1729,7 @@
     }
   },
   {
-    "id": "a-086",
+    "id": "a-126",
     "task": "Build the widget for the website and improve the organization of information on the dialer.",
     "owner": "Sergey Lyapustin",
     "meetingId": "strolid-leadership-call-2025-12-15",
@@ -1204,7 +1743,7 @@
     }
   },
   {
-    "id": "a-087",
+    "id": "a-127",
     "task": "Start working on go-to-market ideas for Sophia and ask dealers for feedback on their willingness to pay.",
     "owner": "Vin Micciche",
     "meetingId": "strolid-leadership-call-2025-12-15",
@@ -1218,7 +1757,7 @@
     }
   },
   {
-    "id": "a-088",
+    "id": "a-128",
     "task": "Get the data right on Sophia.",
     "owner": "Kevin Breen",
     "meetingId": "strolid-leadership-call-2025-12-15",
@@ -1232,7 +1771,7 @@
     }
   },
   {
-    "id": "a-089",
+    "id": "a-129",
     "task": "Write a check for Jake's wisdom teeth surgery.",
     "owner": "Vin Micciche",
     "meetingId": "strolid-leadership-call-2025-12-15",
@@ -1246,7 +1785,7 @@
     }
   },
   {
-    "id": "a-090",
+    "id": "a-130",
     "task": "Have a one-on-one meeting.",
     "owner": "Thomas Howe",
     "meetingId": "strolid-leadership-call-2025-12-15",
@@ -1260,7 +1799,7 @@
     }
   },
   {
-    "id": "a-091",
+    "id": "a-131",
     "task": "Have a one-on-one meeting.",
     "owner": "Harinder Bhinder",
     "meetingId": "strolid-leadership-call-2025-12-15",
@@ -1274,7 +1813,7 @@
     }
   },
   {
-    "id": "a-092",
+    "id": "a-132",
     "task": "Provide Vinnie Micciche with the login information for the V20 marketplace.",
     "owner": "Jason Branham",
     "meetingId": "the-marketing-meeting-2025-12-16",
@@ -1288,7 +1827,7 @@
     }
   },
   {
-    "id": "a-093",
+    "id": "a-133",
     "task": "Review the V20 marketplace profile page, add content with appropriate messaging (focusing on BDC and new AI capabilities), and get a general understanding of all the different stuff that can be added.",
     "owner": "Vinnie Micciche",
     "meetingId": "the-marketing-meeting-2025-12-16",
@@ -1302,7 +1841,7 @@
     }
   },
   {
-    "id": "a-094",
+    "id": "a-134",
     "task": "Connect with Michael Donovan to discuss an idea related to the website plan and progression.",
     "owner": "Joe Furnari",
     "meetingId": "the-marketing-meeting-2025-12-16",
@@ -1316,7 +1855,7 @@
     }
   },
   {
-    "id": "a-095",
+    "id": "a-135",
     "task": "Work on the plan for the website based on the information Vinnie Micciche sent on Friday and come up with deadlines, expectations, and timelines to start executing on some of the content for the website.",
     "owner": "Michael Donovan",
     "meetingId": "the-marketing-meeting-2025-12-16",
@@ -1330,7 +1869,7 @@
     }
   },
   {
-    "id": "a-096",
+    "id": "a-136",
     "task": "Vinnie Micciche to share all three marketing documents again for collective review with Michael Donovan and Joe Furnari.",
     "owner": "Vinnie Micciche",
     "meetingId": "marketing-90-day-prioritization-2025-12-23",
@@ -1344,7 +1883,7 @@
     }
   },
   {
-    "id": "a-097",
+    "id": "a-137",
     "task": "Jason and Vinnie to work on pricing and integration for the Sophia outbound capabilities to facilitate sales.",
     "owner": "Jason Branham",
     "meetingId": "marketing-90-day-prioritization-2025-12-23",
@@ -1358,7 +1897,7 @@
     }
   },
   {
-    "id": "a-098",
+    "id": "a-138",
     "task": "Set up the Slack automation for the first contributor content request.",
     "owner": "Michael Donovan",
     "meetingId": "website-planning-session-2025-12-29",
@@ -1372,7 +1911,7 @@
     }
   },
   {
-    "id": "a-099",
+    "id": "a-139",
     "task": "Share the January newsletter dates with Kristina Cvitko for review and feedback on the timeline.",
     "owner": "Michael Donovan",
     "meetingId": "website-planning-session-2025-12-29",
@@ -1386,7 +1925,7 @@
     }
   },
   {
-    "id": "a-100",
+    "id": "a-140",
     "task": "Use the time that would have been spent on three pages for the month to help Michael Donovan with the new WordPress site build and address plugins.",
     "owner": "Kristina Cvitko",
     "meetingId": "website-planning-session-2025-12-29",
@@ -1400,7 +1939,7 @@
     }
   },
   {
-    "id": "a-101",
+    "id": "a-141",
     "task": "Create a new instance in WP Engine, apply a new theme, and use Docker's local inference to structure new content into new pages, including a lead magnet page, a product page, and an article/cornerstone page.",
     "owner": "Michael Donovan",
     "meetingId": "website-planning-session-2025-12-29",
@@ -1414,7 +1953,7 @@
     }
   },
   {
-    "id": "a-102",
+    "id": "a-142",
     "task": "Put everything together and lay out the phases for tackling the website redesign and fixing the new site and loop Vin in on the plan.",
     "owner": "Michael Donovan",
     "meetingId": "website-planning-session-2025-12-29",
@@ -1428,7 +1967,7 @@
     }
   },
   {
-    "id": "a-103",
+    "id": "a-143",
     "task": "Do some research to figure out where to interject in the phases for tackling the website redesign and fixing the new site.",
     "owner": "Kristina Cvitko",
     "meetingId": "website-planning-session-2025-12-29",
@@ -1442,7 +1981,7 @@
     }
   },
   {
-    "id": "a-104",
+    "id": "a-144",
     "task": "Send the Lighthouse report to Kristina Cvitko.",
     "owner": "Michael Donovan",
     "meetingId": "website-planning-session-2025-12-29",
@@ -1456,7 +1995,7 @@
     }
   },
   {
-    "id": "a-105",
+    "id": "a-145",
     "task": "Create five new pages by Friday, or at least one or two pages, and send examples/ideas to Joe Furnari.",
     "owner": "Michael Donovan",
     "meetingId": "joe-and-michael-reconnect-2025-12-30",
@@ -1470,7 +2009,7 @@
     }
   },
   {
-    "id": "a-106",
+    "id": "a-146",
     "task": "Develop three core messages based on Michael Donovan's input.",
     "owner": "Vinnie Micciche",
     "meetingId": "the-marketing-meeting-2025-12-30",
@@ -1484,7 +2023,7 @@
     }
   },
   {
-    "id": "a-107",
+    "id": "a-147",
     "task": "Share the three decks for the V20 group for review and feedback.",
     "owner": "Vinnie Micciche",
     "meetingId": "the-marketing-meeting-2025-12-30",
@@ -1498,7 +2037,7 @@
     }
   },
   {
-    "id": "a-108",
+    "id": "a-148",
     "task": "Put a visual together to explain the three lanes, the core messaging, and the features.",
     "owner": "Joe Furnari",
     "meetingId": "the-marketing-meeting-2025-12-30",
@@ -1512,7 +2051,7 @@
     }
   },
   {
-    "id": "a-109",
+    "id": "a-149",
     "task": "Read through, critique, and provide feedback on Vinnie Micciche's shared decks, noting what is missing.",
     "owner": "Unassigned",
     "meetingId": "the-marketing-meeting-2025-12-30",
@@ -1526,7 +2065,7 @@
     }
   },
   {
-    "id": "a-110",
+    "id": "a-150",
     "task": "Throw a canvas together for Slack to drop ideas for visual inspiration for the website.",
     "owner": "Michael Donovan",
     "meetingId": "the-marketing-meeting-2026-01-06",
@@ -1540,7 +2079,7 @@
     }
   },
   {
-    "id": "a-111",
+    "id": "a-151",
     "task": "Work on the social posts and email blast to generate business.",
     "owner": "Michael Donovan",
     "meetingId": "the-marketing-meeting-2026-01-06",
@@ -1554,7 +2093,7 @@
     }
   },
   {
-    "id": "a-112",
+    "id": "a-152",
     "task": "Build the website exactly with the content that Vinnie Micciche shared.",
     "owner": "Michael Donovan",
     "meetingId": "the-marketing-meeting-2026-01-06",
@@ -1568,7 +2107,7 @@
     }
   },
   {
-    "id": "a-113",
+    "id": "a-153",
     "task": "Put something together if there is a scope of work that Joe Furnari would like.",
     "owner": "Michael Donovan",
     "meetingId": "the-marketing-meeting-2026-01-06",
@@ -1582,7 +2121,7 @@
     }
   },
   {
-    "id": "a-114",
+    "id": "a-154",
     "task": "Send links to the updated pages/content",
     "owner": "Michael Donovan",
     "meetingId": "regroup-on-website-refresh-initiative-2026-01-09",
@@ -1596,7 +2135,7 @@
     }
   },
   {
-    "id": "a-115",
+    "id": "a-155",
     "task": "Review the links and pages sent by Michael Donovan and provide feedback.",
     "owner": "Joe Furnari",
     "meetingId": "regroup-on-website-refresh-initiative-2026-01-09",
@@ -1610,7 +2149,7 @@
     }
   },
   {
-    "id": "a-116",
+    "id": "a-156",
     "task": "Send the link to the proposed staging environment website to Vinnie Micciche for review.",
     "owner": "Michael Donovan",
     "meetingId": "the-marketing-meeting-2026-01-13",
@@ -1624,7 +2163,7 @@
     }
   },
   {
-    "id": "a-117",
+    "id": "a-157",
     "task": "Outline how Vinnie Micciche should organize and submit revisions for the staged website (e.g., screenshot markup, list, Slack canvas).",
     "owner": "Michael Donovan",
     "meetingId": "the-marketing-meeting-2026-01-13",
@@ -1638,7 +2177,7 @@
     }
   },
   {
-    "id": "a-118",
+    "id": "a-158",
     "task": "Set up and send a file to Vinnie Micciche to build into Lovable as a theme with all the variables, so Vinnie Micciche can easily add content to the website.",
     "owner": "Michael Donovan",
     "meetingId": "the-marketing-meeting-2026-01-13",
@@ -1652,7 +2191,7 @@
     }
   },
   {
-    "id": "a-119",
+    "id": "a-159",
     "task": "Reverse the order of the badges on the website to display 'Human and AI', with 'Human' first.",
     "owner": "Michael Donovan",
     "meetingId": "the-marketing-meeting-2026-01-13",
@@ -1666,7 +2205,7 @@
     }
   },
   {
-    "id": "a-120",
+    "id": "a-160",
     "task": "Update the page in the staging environment that currently has white-on-white text for links on the live site.",
     "owner": "Michael Donovan",
     "meetingId": "the-marketing-meeting-2026-01-13",
@@ -1680,7 +2219,7 @@
     }
   },
   {
-    "id": "a-121",
+    "id": "a-161",
     "task": "Change 'Industry Insights' to 'Resources and Dealer Insights' on the website, which will become the blog section.",
     "owner": "Michael Donovan",
     "meetingId": "the-marketing-meeting-2026-01-13",
@@ -1694,7 +2233,7 @@
     }
   },
   {
-    "id": "a-122",
+    "id": "a-162",
     "task": "Reposition resources and lead sources to other categories.",
     "owner": "Michael Donovan",
     "meetingId": "joe-and-michael-touch-base-2026-01-20",
@@ -1708,7 +2247,7 @@
     }
   },
   {
-    "id": "a-123",
+    "id": "a-163",
     "task": "Consolidate the 22 pages under insights and the five pages under resources.",
     "owner": "Michael Donovan",
     "meetingId": "joe-and-michael-touch-base-2026-01-20",
@@ -1722,7 +2261,7 @@
     }
   },
   {
-    "id": "a-124",
+    "id": "a-164",
     "task": "Send Vinnie the FAQs to get confirmation on whether he wants the new content versus the old content and highlight that the existing FAQ was already built.",
     "owner": "Joe Furnari",
     "meetingId": "joe-and-michael-touch-base-2026-01-20",
@@ -1736,7 +2275,7 @@
     }
   },
   {
-    "id": "a-125",
+    "id": "a-165",
     "task": "Share the link to the original FAQ page with Joe Furnari via Slack.",
     "owner": "Michael Donovan",
     "meetingId": "joe-and-michael-touch-base-2026-01-20",
@@ -1750,7 +2289,7 @@
     }
   },
   {
-    "id": "a-126",
+    "id": "a-166",
     "task": "Review the FAQ content for spelling issues and to ensure it makes sense.",
     "owner": "Joe Furnari",
     "meetingId": "joe-and-michael-touch-base-2026-01-20",
@@ -1764,7 +2303,7 @@
     }
   },
   {
-    "id": "a-127",
+    "id": "a-167",
     "task": "Connect with Michael Donovan mid-morning tomorrow.",
     "owner": "Joe Furnari",
     "meetingId": "joe-and-michael-touch-base-2026-01-20",
@@ -1778,7 +2317,7 @@
     }
   },
   {
-    "id": "a-128",
+    "id": "a-168",
     "task": "Create a list of two or three priorities with estimated cost and time frame and develop a framework for the strategy.",
     "owner": "Michael Donovan",
     "meetingId": "joe-and-michael-regroup-2026-02-12",
@@ -1792,7 +2331,7 @@
     }
   },
   {
-    "id": "a-129",
+    "id": "a-169",
     "task": "Talk to Vinnie about Michael's compensation plan and the plan for building out the team.",
     "owner": "Joe Furnari",
     "meetingId": "joe-and-michael-regroup-2026-02-12",
@@ -1806,7 +2345,7 @@
     }
   },
   {
-    "id": "a-130",
+    "id": "a-170",
     "task": "Give Vinnie an update on Monday regarding the marketing team and strategy conversation.",
     "owner": "Joe Furnari",
     "meetingId": "joe-and-michael-regroup-2026-02-12",
@@ -1820,7 +2359,7 @@
     }
   },
   {
-    "id": "a-131",
+    "id": "a-171",
     "task": "Look up the GMs from Hyundai, Gulfport, Chevy, Meteory, and Berles, Nissan.",
     "owner": "Michael Donovan",
     "meetingId": "joe-and-michael-regroup-2026-02-12",
@@ -1834,7 +2373,7 @@
     }
   },
   {
-    "id": "a-132",
+    "id": "a-172",
     "task": "Finalize the lead magnet self-assessment tool and send it to Vinnie Micciche for review.",
     "owner": "Michael Donovan",
     "meetingId": "marketing-flow-and-alignment-2026-02-13",
@@ -1848,7 +2387,7 @@
     }
   },
   {
-    "id": "a-133",
+    "id": "a-173",
     "task": "Work on rolling out the three pillars: quick, not fast or urgent, proactive, and relationships, for internal messaging.",
     "owner": "Vinnie Micciche",
     "meetingId": "marketing-flow-and-alignment-2026-02-13",
@@ -1862,7 +2401,7 @@
     }
   },
   {
-    "id": "a-134",
+    "id": "a-174",
     "task": "Work on a full hygiene of the email database and establish a leveraging flow, which will be discussed on Tuesday.",
     "owner": "Michael Donovan",
     "meetingId": "marketing-flow-and-alignment-2026-02-13",
@@ -1876,7 +2415,7 @@
     }
   },
   {
-    "id": "a-135",
+    "id": "a-175",
     "task": "Gather content from his drive, place it in a folder, and share it with Michael Donovan.",
     "owner": "Vinnie Micciche",
     "meetingId": "marketing-flow-and-alignment-2026-02-13",
@@ -1890,7 +2429,7 @@
     }
   },
   {
-    "id": "a-136",
+    "id": "a-176",
     "task": "Follow up on the BDS contract to get it signed.",
     "owner": "Joe Furnari",
     "meetingId": "strolid-leadership-call-2026-02-16",
@@ -1904,7 +2443,7 @@
     }
   },
   {
-    "id": "a-137",
+    "id": "a-177",
     "task": "Meet with Vin Micciche to discuss 'talk two stuff' and get an answer on the auditor contract.",
     "owner": "Joe Furnari",
     "meetingId": "strolid-leadership-call-2026-02-16",
@@ -1918,7 +2457,7 @@
     }
   },
   {
-    "id": "a-138",
+    "id": "a-178",
     "task": "Build an engagement report.",
     "owner": "Kevin Breen",
     "meetingId": "strolid-leadership-call-2026-02-16",
@@ -1932,7 +2471,7 @@
     }
   },
   {
-    "id": "a-139",
+    "id": "a-179",
     "task": "Push the VA rollout and resolve issues.",
     "owner": "Sergey Lyapustin",
     "meetingId": "strolid-leadership-call-2026-02-16",
@@ -1946,7 +2485,7 @@
     }
   },
   {
-    "id": "a-140",
+    "id": "a-180",
     "task": "Conduct a deep dive into the service and follow-up teams, especially the service side.",
     "owner": "Shawna Behen",
     "meetingId": "strolid-leadership-call-2026-02-16",
@@ -1960,7 +2499,7 @@
     }
   },
   {
-    "id": "a-141",
+    "id": "a-181",
     "task": "Hold expectation meetings with operations managers.",
     "owner": "Shawna Behen",
     "meetingId": "strolid-leadership-call-2026-02-16",
@@ -1974,7 +2513,7 @@
     }
   },
   {
-    "id": "a-142",
+    "id": "a-182",
     "task": "Get the auditor to sign the contract.",
     "owner": "Harinder Bhinder",
     "meetingId": "strolid-leadership-call-2026-02-16",
@@ -1988,7 +2527,7 @@
     }
   },
   {
-    "id": "a-143",
+    "id": "a-183",
     "task": "Continue to go through the engage program and make a minimum of 30 cold calls every week.",
     "owner": "Jason Branham",
     "meetingId": "strolid-leadership-call-2026-02-16",
@@ -2002,7 +2541,7 @@
     }
   },
   {
-    "id": "a-144",
+    "id": "a-184",
     "task": "Generate more marketing activity and content.",
     "owner": "Michael Donovan",
     "meetingId": "strolid-leadership-call-2026-02-16",
@@ -2016,7 +2555,7 @@
     }
   },
   {
-    "id": "a-145",
+    "id": "a-185",
     "task": "Push Jason to provide feedback on the social media posts.",
     "owner": "Joe Furnari",
     "meetingId": "catch-up-on-marketing-activities-2026-02-20",
@@ -2030,7 +2569,7 @@
     }
   },
   {
-    "id": "a-146",
+    "id": "a-186",
     "task": "Push Vinnie to determine what reporting can be obtained from the external ABM firm and to get more information on the firm.",
     "owner": "Joe Furnari",
     "meetingId": "catch-up-on-marketing-activities-2026-02-20",
@@ -2044,7 +2583,7 @@
     }
   },
   {
-    "id": "a-147",
+    "id": "a-187",
     "task": "Send Michael Donovan the outline of his concerns and recommendations regarding the other firm.",
     "owner": "Joe Furnari",
     "meetingId": "catch-up-on-marketing-activities-2026-02-20",
@@ -2058,7 +2597,7 @@
     }
   },
   {
-    "id": "a-148",
+    "id": "a-188",
     "task": "Put together a two-week plan focused on email, social media, landing pages, and driving leads, then reassess with Joe Furnari.",
     "owner": "Michael Donovan",
     "meetingId": "catch-up-on-marketing-activities-2026-02-20",
@@ -2072,7 +2611,7 @@
     }
   },
   {
-    "id": "a-149",
+    "id": "a-189",
     "task": "Charge the monthly subscription for the model or platform to his credit card.",
     "owner": "Michael Donovan",
     "meetingId": "catch-up-on-marketing-activities-2026-02-20",
@@ -2086,7 +2625,7 @@
     }
   },
   {
-    "id": "a-150",
+    "id": "a-190",
     "task": "Update the P&L piece for the critical meeting, specifically addressing the 2026 outlook.",
     "owner": "Joe Furnari",
     "meetingId": "the-marketing-meeting-2026-02-24",
@@ -2100,7 +2639,7 @@
     }
   },
   {
-    "id": "a-151",
+    "id": "a-191",
     "task": "Provide Vinnie Micciche with the list of technical subscriptions that have been canceled.",
     "owner": "Joe Furnari",
     "meetingId": "the-marketing-meeting-2026-02-24",
@@ -2114,7 +2653,7 @@
     }
   },
   {
-    "id": "a-152",
+    "id": "a-192",
     "task": "Launch the email distribution ASAP using the cleaned contact list.",
     "owner": "Michael Donovan",
     "meetingId": "the-marketing-meeting-2026-02-24",
@@ -2128,7 +2667,7 @@
     }
   },
   {
-    "id": "a-153",
+    "id": "a-193",
     "task": "Launch the email distribution ASAP using the cleaned contact list.",
     "owner": "Paulo Trovao",
     "meetingId": "the-marketing-meeting-2026-02-24",
@@ -2142,7 +2681,7 @@
     }
   },
   {
-    "id": "a-154",
+    "id": "a-194",
     "task": "Work on the initial data cleansing and enrichment using Clay, with an initial budget of $2000 for launch.",
     "owner": "Michael Donovan",
     "meetingId": "the-marketing-meeting-2026-02-24",
@@ -2156,7 +2695,7 @@
     }
   },
   {
-    "id": "a-155",
+    "id": "a-195",
     "task": "Work on the initial data cleansing and enrichment using Clay, with an initial budget of $2000 for launch.",
     "owner": "Paulo Trovao",
     "meetingId": "the-marketing-meeting-2026-02-24",
@@ -2170,7 +2709,7 @@
     }
   },
   {
-    "id": "a-156",
+    "id": "a-196",
     "task": "Perform a sample email campaign on the 25,000 records in Zoho to assess the bounce rate and data inaccuracy, and then reconcile the list so that irrelevant contacts are set as inactive.",
     "owner": "Michael Donovan",
     "meetingId": "the-marketing-meeting-2026-02-24",
@@ -2184,7 +2723,7 @@
     }
   },
   {
-    "id": "a-157",
+    "id": "a-197",
     "task": "Perform a sample email campaign on the 25,000 records in Zoho to assess the bounce rate and data inaccuracy, and then reconcile the list so that irrelevant contacts are set as inactive.",
     "owner": "Paulo Trovao",
     "meetingId": "the-marketing-meeting-2026-02-24",
@@ -2198,7 +2737,7 @@
     }
   },
   {
-    "id": "a-158",
+    "id": "a-198",
     "task": "Document everything and send out brief milestone updates to Vinnie Micciche.",
     "owner": "Michael Donovan",
     "meetingId": "the-marketing-meeting-2026-02-24",
@@ -2212,7 +2751,7 @@
     }
   },
   {
-    "id": "a-159",
+    "id": "a-199",
     "task": "Create the ICP profile from the seven automotive groups.",
     "owner": "Michael Donovan",
     "meetingId": "the-marketing-meeting-2026-02-24",
@@ -2226,7 +2765,7 @@
     }
   },
   {
-    "id": "a-160",
+    "id": "a-200",
     "task": "Create the ICP profile from the seven automotive groups.",
     "owner": "Paulo Trovao",
     "meetingId": "the-marketing-meeting-2026-02-24",
@@ -2240,7 +2779,7 @@
     }
   },
   {
-    "id": "a-161",
+    "id": "a-201",
     "task": "Use Apollo for email distribution temporarily until Zoho is dialed in.",
     "owner": "Michael Donovan",
     "meetingId": "the-marketing-meeting-2026-02-24",
@@ -2254,7 +2793,7 @@
     }
   },
   {
-    "id": "a-162",
+    "id": "a-202",
     "task": "Use Apollo for email distribution temporarily until Zoho is dialed in.",
     "owner": "Paulo Trovao",
     "meetingId": "the-marketing-meeting-2026-02-24",
@@ -2268,7 +2807,7 @@
     }
   },
   {
-    "id": "a-163",
+    "id": "a-203",
     "task": "Involve the client success team to audit and update active customer files in Zoho.",
     "owner": "Unassigned",
     "meetingId": "the-marketing-meeting-2026-02-24",
@@ -2282,7 +2821,7 @@
     }
   },
   {
-    "id": "a-164",
+    "id": "a-204",
     "task": "Address the ad spend billing issue by migrating the billing away from the external association or creating a new shell account.",
     "owner": "Michael Donovan",
     "meetingId": "the-marketing-meeting-2026-03-03",
@@ -2296,7 +2835,7 @@
     }
   },
   {
-    "id": "a-165",
+    "id": "a-205",
     "task": "Share the video from Notebook LM, cut into short clips, for feedback.",
     "owner": "Michael Donovan",
     "meetingId": "the-marketing-meeting-2026-03-03",
@@ -2310,7 +2849,7 @@
     }
   },
   {
-    "id": "a-166",
+    "id": "a-206",
     "task": "Put together a list of Lithia dealers.",
     "owner": "Unassigned",
     "meetingId": "the-marketing-meeting-2026-03-03",
@@ -2324,7 +2863,7 @@
     }
   },
   {
-    "id": "a-167",
+    "id": "a-207",
     "task": "Sign a contract with the auditors for the SOC 2 audit.",
     "owner": "Harinder Bhinder",
     "meetingId": "strolid-leadership-call-2026-03-09",
@@ -2338,7 +2877,7 @@
     }
   },
   {
-    "id": "a-168",
+    "id": "a-208",
     "task": "Talk to Joe Furnari to move forward with the SOC 2 audit process.",
     "owner": "Harinder Bhinder",
     "meetingId": "strolid-leadership-call-2026-03-09",
@@ -2352,7 +2891,7 @@
     }
   },
   {
-    "id": "a-169",
+    "id": "a-209",
     "task": "Check calendar again for the invite to the meeting with Call Review's CEO and CIO.",
     "owner": "Joe Furnari",
     "meetingId": "strolid-leadership-call-2026-03-09",
@@ -2366,7 +2905,7 @@
     }
   },
   {
-    "id": "a-170",
+    "id": "a-210",
     "task": "Talk to Vinnie Micciche to (1) understand the distinction and complexity of the SOC 2 audit regarding VCONIC and the parent company structure, and (2) share the status of the SOC 2 audit.",
     "owner": "Harinder Bhinder",
     "meetingId": "strolid-leadership-call-2026-03-09",
@@ -2380,7 +2919,7 @@
     }
   },
   {
-    "id": "a-171",
+    "id": "a-211",
     "task": "Validate the 100% of emails for the ICP and specific groups.",
     "owner": "Michael Donovan",
     "meetingId": "strolid-leadership-call-2026-03-09",
@@ -2394,7 +2933,7 @@
     }
   },
   {
-    "id": "a-172",
+    "id": "a-212",
     "task": "Work on fixes to adjust Sophia to handle service calls more smoothly, addressing the feedback on awkward silence during weekend calls.",
     "owner": "Sergey Lyapustin",
     "meetingId": "strolid-leadership-call-2026-03-09",
@@ -2408,7 +2947,7 @@
     }
   },
   {
-    "id": "a-173",
+    "id": "a-213",
     "task": "Be kept in the loop regarding the progress as the due diligence process runs through Call Review.",
     "owner": "Thomas Howe",
     "meetingId": "strolid-leadership-call-2026-03-09",
@@ -2422,7 +2961,7 @@
     }
   },
   {
-    "id": "a-174",
+    "id": "a-214",
     "task": "Follow up on the invite list for the 11:00 a.m. call and ping the contact if Joe Furnari does not receive the email invite within a few more hours.",
     "owner": "Vinnie Micciche",
     "meetingId": "strolid-leadership-call-2026-03-09",
@@ -2436,7 +2975,7 @@
     }
   },
   {
-    "id": "a-175",
+    "id": "a-215",
     "task": "Kevin Breen will verify the metabase Volley numbers against Volley.",
     "owner": "Kevin Breen",
     "meetingId": "strolid-leadership-call-2026-03-09",
@@ -2450,7 +2989,7 @@
     }
   },
   {
-    "id": "a-176",
+    "id": "a-216",
     "task": "Set up a new Slack channel to receive alerts when a customer is detected answering during a voicemail drop.",
     "owner": "Scott Henshaw",
     "meetingId": "scrum-standup-daily-update-2026-03-10",
@@ -2464,7 +3003,7 @@
     }
   },
   {
-    "id": "a-177",
+    "id": "a-217",
     "task": "Create a card for the new Slack channel and include a list of individuals who should be added to it, starting with Frank.",
     "owner": "Matt Watson",
     "meetingId": "scrum-standup-daily-update-2026-03-10",
@@ -2478,7 +3017,7 @@
     }
   },
   {
-    "id": "a-178",
+    "id": "a-218",
     "task": "Seek approval on the new chat widget styling from Holly Meyerhofer via a screenshot on Slack or a direct website visit.",
     "owner": "Holly Meyerhofer",
     "meetingId": "scrum-standup-daily-update-2026-03-10",
@@ -2492,7 +3031,7 @@
     }
   },
   {
-    "id": "a-179",
+    "id": "a-219",
     "task": "Re-run the security scan for the Lovable dashboard and address any concerns before wider deployment.",
     "owner": "Sergey Lyapustin",
     "meetingId": "scrum-standup-daily-update-2026-03-10",
@@ -2506,7 +3045,7 @@
     }
   },
   {
-    "id": "a-180",
+    "id": "a-220",
     "task": "Seek feedback on the Lovable dashboard's design and concepts from Anthony and Derek before rolling it out to other managers.",
     "owner": "Kevin Breen",
     "meetingId": "scrum-standup-daily-update-2026-03-10",
@@ -2520,7 +3059,7 @@
     }
   },
   {
-    "id": "a-181",
+    "id": "a-221",
     "task": "Complete the current pipeline and scoring model.",
     "owner": "Jason Branham",
     "meetingId": "the-marketing-meeting-2026-03-10",
@@ -2534,7 +3073,7 @@
     }
   },
   {
-    "id": "a-182",
+    "id": "a-222",
     "task": "Provide Vinnie Micciche and Jason Branham with two or three themes for the weekly email campaigns.",
     "owner": "Michael Donovan",
     "meetingId": "the-marketing-meeting-2026-03-10",
@@ -2548,7 +3087,7 @@
     }
   },
   {
-    "id": "a-183",
+    "id": "a-223",
     "task": "Provide content for the email campaigns based on the themes Michael Donovan provides.",
     "owner": "Vinnie Micciche",
     "meetingId": "the-marketing-meeting-2026-03-10",
@@ -2562,7 +3101,7 @@
     }
   },
   {
-    "id": "a-184",
+    "id": "a-224",
     "task": "Show Matt Watson the context regarding the required database access, particularly the dealer groups, CLTV, average lifetime revenue, tenure, active/cancelled dealers, and churn information.",
     "owner": "Michael Donovan",
     "meetingId": "product-marketing-alignment-2026-03-11",
@@ -2576,7 +3115,7 @@
     }
   },
   {
-    "id": "a-185",
+    "id": "a-225",
     "task": "Experiment with Snowflake intelligence and build a basic data set/table of dealer facts from the CXM (rooftops section), including dealer ID, name, dealer group, inventory count, and historical data.",
     "owner": "Matt Watson",
     "meetingId": "product-marketing-alignment-2026-03-11",
@@ -2590,7 +3129,7 @@
     }
   },
   {
-    "id": "a-186",
+    "id": "a-226",
     "task": "Reschedule the meeting with Michael Donovan for 11:00 AM to 11:30 AM tomorrow.",
     "owner": "Jason Branham",
     "meetingId": "active-pipeline-review-2026-03-12",
@@ -2604,7 +3143,7 @@
     }
   },
   {
-    "id": "a-187",
+    "id": "a-227",
     "task": "Provide Vinnie Micciche with the slide information and data for Sophia call backs from October through January for tomorrow's call review.",
     "owner": "Kevin Breen",
     "meetingId": "active-pipeline-review-2026-03-12",
@@ -2618,7 +3157,7 @@
     }
   },
   {
-    "id": "a-188",
+    "id": "a-228",
     "task": "Point the callback numbers to Frank's follow-up team to have them answer.",
     "owner": "Shawna Behen",
     "meetingId": "active-pipeline-review-2026-03-12",
@@ -2632,7 +3171,7 @@
     }
   },
   {
-    "id": "a-189",
+    "id": "a-229",
     "task": "Review the data query, looking into lead source quality, and analyzing the impact of phone screeners.",
     "owner": "Sergey Lyapustin",
     "meetingId": "active-pipeline-review-2026-03-12",
@@ -2646,7 +3185,7 @@
     }
   },
   {
-    "id": "a-190",
+    "id": "a-230",
     "task": "Address the 'save a deal' prompt issue and develop a GPT-based application for comprehensive reporting.",
     "owner": "Scott",
     "meetingId": "active-pipeline-review-2026-03-12",
@@ -2660,7 +3199,7 @@
     }
   },
   {
-    "id": "a-191",
+    "id": "a-231",
     "task": "Analyze patterns and similarities between customers calling back and not calling back, considering lead source and time of day.",
     "owner": "Michael Donovan",
     "meetingId": "active-pipeline-review-2026-03-12",
@@ -2674,7 +3213,7 @@
     }
   },
   {
-    "id": "a-192",
+    "id": "a-232",
     "task": "Determine human performance metrics prior to Sophia's implementation (call backs).",
     "owner": "Unassigned",
     "meetingId": "active-pipeline-review-2026-03-12",
@@ -2688,7 +3227,7 @@
     }
   },
   {
-    "id": "a-193",
+    "id": "a-233",
     "task": "Evaluate staffing options for evening shift to support potential calling window shift to 2:00 PM to 8:00 PM.",
     "owner": "Shawna Behen",
     "meetingId": "active-pipeline-review-2026-03-12",
@@ -2702,7 +3241,7 @@
     }
   },
   {
-    "id": "a-194",
+    "id": "a-234",
     "task": "Provide Jason Branham with the \"phase zero\" lookalike list derived from the ICP data.",
     "owner": "Michael Donovan",
     "meetingId": "marketing-2026-03-13",
@@ -2716,7 +3255,7 @@
     }
   },
   {
-    "id": "a-195",
+    "id": "a-235",
     "task": "Use the lookalike list to start sending out connection requests on LinkedIn to test the results.",
     "owner": "Jason Branham",
     "meetingId": "marketing-2026-03-13",
@@ -2730,7 +3269,7 @@
     }
   },
   {
-    "id": "a-196",
+    "id": "a-236",
     "task": "Create a shortlist of Augusta merchandise items for Matt Watson.",
     "owner": "Jason Branham",
     "meetingId": "strolid-leadership-call-2026-03-23",
@@ -2744,7 +3283,7 @@
     }
   },
   {
-    "id": "a-197",
+    "id": "a-237",
     "task": "Spend time thinking through potential challenges with the Performance Manager structure.",
     "owner": "Vinnie Micciche",
     "meetingId": "strolid-leadership-call-2026-03-23",
@@ -2758,7 +3297,7 @@
     }
   },
   {
-    "id": "a-198",
+    "id": "a-238",
     "task": "Reach out to Jamie to connect Joe Furnari and Jamie regarding Call Review.",
     "owner": "Vinnie Micciche",
     "meetingId": "strolid-leadership-call-2026-03-23",
@@ -2772,7 +3311,7 @@
     }
   },
   {
-    "id": "a-199",
+    "id": "a-239",
     "task": "Review Kevin Breen's Lovable report and authorize sharing it with the internal team.",
     "owner": "Vinnie Micciche",
     "meetingId": "strolid-leadership-call-2026-03-23",
@@ -2786,7 +3325,7 @@
     }
   },
   {
-    "id": "a-200",
+    "id": "a-240",
     "task": "Spend more time with Sergey Lyapustin and Scott on guardrails for the AI tools.",
     "owner": "Vinnie Micciche",
     "meetingId": "strolid-leadership-call-2026-03-23",
@@ -2800,7 +3339,7 @@
     }
   },
   {
-    "id": "a-201",
+    "id": "a-241",
     "task": "Discuss creating a budget for the extensive use of AI.",
     "owner": "Harinder Bhinder",
     "meetingId": "strolid-leadership-call-2026-03-23",
@@ -2814,7 +3353,7 @@
     }
   },
   {
-    "id": "a-202",
+    "id": "a-242",
     "task": "Share a more concrete SOC auditor roadmap.",
     "owner": "Harinder Bhinder",
     "meetingId": "strolid-leadership-call-2026-03-23",
@@ -2828,7 +3367,7 @@
     }
   },
   {
-    "id": "a-203",
+    "id": "a-243",
     "task": "Discuss setting a flexible and variable AI budget and share cost information with Joe Furnari.",
     "owner": "Harinder Bhinder",
     "meetingId": "strolid-leadership-call-2026-03-23",
@@ -2842,7 +3381,7 @@
     }
   },
   {
-    "id": "a-204",
+    "id": "a-244",
     "task": "Compile and send the different secret shop requirements to Sergey Lyapustin.",
     "owner": "Shawna Behen",
     "meetingId": "scrum-standup-daily-update-2026-03-30",
@@ -2856,7 +3395,7 @@
     }
   },
   {
-    "id": "a-205",
+    "id": "a-245",
     "task": "Schedule a conversation with the momentum API team about their API topic.",
     "owner": "Sergey Lyapustin",
     "meetingId": "scrum-standup-daily-update-2026-03-30",
@@ -2870,7 +3409,7 @@
     }
   },
   {
-    "id": "a-206",
+    "id": "a-246",
     "task": "Schedule a call with John to review the infrastructure and potentially test one more integration with the elite weekly task.",
     "owner": "Scott Henshaw",
     "meetingId": "scrum-standup-daily-update-2026-03-30",
@@ -2884,7 +3423,7 @@
     }
   },
   {
-    "id": "a-207",
+    "id": "a-247",
     "task": "Deploy the conserver side to production and test it for the finished feature in the portal for the conditional tags.",
     "owner": "Scott Henshaw",
     "meetingId": "scrum-standup-daily-update-2026-03-30",
@@ -2898,7 +3437,7 @@
     }
   },
   {
-    "id": "a-208",
+    "id": "a-248",
     "task": "Rewrite the tag for detecting when an agent starts to leave a voicemail and the customer answers, ensuring it is valid before setting up any alerting on those calls.",
     "owner": "Scott Henshaw",
     "meetingId": "scrum-standup-daily-update-2026-03-30",
@@ -2912,7 +3451,7 @@
     }
   },
   {
-    "id": "a-209",
+    "id": "a-249",
     "task": "Bring up the issue of 'unknown last name' being included in the voicemail to Kan Sing to see if they can use LLM to filter out those names.",
     "owner": "Sergey Lyapustin",
     "meetingId": "scrum-standup-daily-update-2026-03-30",
@@ -2926,7 +3465,7 @@
     }
   },
   {
-    "id": "a-210",
+    "id": "a-250",
     "task": "Listen to a few voicemails from last week to see if the return telephone number appearance issue has gotten better.",
     "owner": "Kevin Breen",
     "meetingId": "scrum-standup-daily-update-2026-03-30",
@@ -2940,7 +3479,7 @@
     }
   },
   {
-    "id": "a-211",
+    "id": "a-251",
     "task": "Make some quick research to get to evaluate the real-time text-to-speech cost for generating voicemails.",
     "owner": "Sergey Lyapustin",
     "meetingId": "scrum-standup-daily-update-2026-03-30",
@@ -2954,7 +3493,7 @@
     }
   },
   {
-    "id": "a-212",
+    "id": "a-252",
     "task": "Send Vinnie an email to inform him about the potential reschedule to tomorrow or Wednesday.",
     "owner": "Joe Furnari",
     "meetingId": "strolid-leadership-call-2026-03-30",
@@ -2968,7 +3507,7 @@
     }
   },
   {
-    "id": "a-213",
+    "id": "a-253",
     "task": "Send an email to Jason Branham and Joe Furnari with the list of Lithia dealers and a snapshot of Edwin's previous work.",
     "owner": "Shawna Behen",
     "meetingId": "strolid-leadership-call-2026-03-30",
@@ -2982,7 +3521,7 @@
     }
   },
   {
-    "id": "a-214",
+    "id": "a-254",
     "task": "Work on a presentation deck for Mara (Lithia) covering Q1 2026 and Q4 2025 dealer performance.",
     "owner": "Shawna Behen",
     "meetingId": "strolid-leadership-call-2026-03-30",
@@ -2996,7 +3535,7 @@
     }
   },
   {
-    "id": "a-215",
+    "id": "a-255",
     "task": "Get the framework together for the presentation overview for the conversation with Lithia.",
     "owner": "Shawna Behen",
     "meetingId": "strolid-leadership-call-2026-03-30",
@@ -3010,7 +3549,7 @@
     }
   },
   {
-    "id": "a-216",
+    "id": "a-256",
     "task": "Continue putting together AI resources and compiling a marketplace with sub agents/skills and plugins.",
     "owner": "Michael Donovan",
     "meetingId": "strolid-leadership-call-2026-03-30",
@@ -3024,7 +3563,7 @@
     }
   },
   {
-    "id": "a-217",
+    "id": "a-257",
     "task": "Continue putting together AI resources and compiling a marketplace with sub agents/skills and plugins.",
     "owner": "Sergey Lyapustin",
     "meetingId": "strolid-leadership-call-2026-03-30",
@@ -3038,7 +3577,7 @@
     }
   },
   {
-    "id": "a-218",
+    "id": "a-258",
     "task": "Upload existing contact lists; classify as MQLs.",
     "owner": "Unassigned",
     "meetingId": "weekly-1-on-1-with-michael-d-and-joe-f-2026-03-30",
@@ -3052,7 +3591,7 @@
     }
   },
   {
-    "id": "a-219",
+    "id": "a-259",
     "task": "Speak with Vinnie about better approaches for CRM coordination.",
     "owner": "Joe Furnari",
     "meetingId": "weekly-1-on-1-with-michael-d-and-joe-f-2026-03-30",
@@ -3066,7 +3605,7 @@
     }
   },
   {
-    "id": "a-220",
+    "id": "a-260",
     "task": "Present the proposed CRM foundational fixes to Vinnie. Include a reasonable timeline for required completion.",
     "owner": "Michael Donovan",
     "meetingId": "weekly-1-on-1-with-michael-d-and-joe-f-2026-03-30",
@@ -3080,7 +3619,7 @@
     }
   },
   {
-    "id": "a-221",
+    "id": "a-261",
     "task": "Balance and finalize the proposed recap format against the initial carousel idea.",
     "owner": "Unassigned",
     "meetingId": "weekly-1-on-1-with-michael-d-and-joe-f-2026-03-30",
@@ -3094,7 +3633,7 @@
     }
   },
   {
-    "id": "a-222",
+    "id": "a-262",
     "task": "Confirm Vinnie's attendance for the meeting tomorrow.",
     "owner": "Joe Furnari",
     "meetingId": "weekly-1-on-1-with-michael-d-and-joe-f-2026-03-30",
@@ -3108,7 +3647,7 @@
     }
   },
   {
-    "id": "a-223",
+    "id": "a-263",
     "task": "Create new GitHub repository for organization skills. Include basic structure and placeholder files.",
     "owner": "Sergey Lyapustin",
     "meetingId": "michael-sergey-2026-03-31",
@@ -3122,7 +3661,7 @@
     }
   },
   {
-    "id": "a-224",
+    "id": "a-264",
     "task": "Spin up new project for all Straw work. Migrate related settings and skills.",
     "owner": "Michael Donovan",
     "meetingId": "michael-sergey-2026-03-31",
@@ -3136,7 +3675,7 @@
     }
   },
   {
-    "id": "a-225",
+    "id": "a-265",
     "task": "Contact Harinder regarding current account limitations. Investigate obtaining more resources for the limited account.",
     "owner": "Michael Donovan",
     "meetingId": "michael-sergey-2026-03-31",
@@ -3150,7 +3689,7 @@
     }
   },
   {
-    "id": "a-226",
+    "id": "a-266",
     "task": "Share LinkedIn Ads: Deliver paid LinkedIn ad assets for group review and approval prior to activation in April.",
     "owner": "Michael Donovan",
     "meetingId": "the-marketing-meeting-2026-03-31",
@@ -3164,7 +3703,7 @@
     }
   },
   {
-    "id": "a-227",
+    "id": "a-267",
     "task": "Draft Content Outline: Send a fill-in-the-blank Yes/No outline of proposed value propositions and content ideas to Vinnie.",
     "owner": "Michael Donovan",
     "meetingId": "the-marketing-meeting-2026-03-31",
@@ -3178,7 +3717,7 @@
     }
   },
   {
-    "id": "a-228",
+    "id": "a-268",
     "task": "Review Social Posts: Review the new weekly social media posts shared by Paulo to ensure the adapted voice matches previous edits.",
     "owner": "Vinnie Micciche",
     "meetingId": "the-marketing-meeting-2026-03-31",
@@ -3192,7 +3731,7 @@
     }
   },
   {
-    "id": "a-229",
+    "id": "a-269",
     "task": "Secure Email Approval: Ensure the email intended for Paul is secured for final approval.",
     "owner": "Paulo Trovao",
     "meetingId": "the-marketing-meeting-2026-03-31",
@@ -3206,7 +3745,7 @@
     }
   },
   {
-    "id": "a-230",
+    "id": "a-270",
     "task": "Send Dealer Data: Export and send the Zoho forms entries data containing dealer challenge feedback to Vinnie.",
     "owner": "Michael Donovan",
     "meetingId": "the-marketing-meeting-2026-03-31",
@@ -3220,7 +3759,7 @@
     }
   },
   {
-    "id": "a-231",
+    "id": "a-271",
     "task": "Implement well-defined agents that can evaluate nuances before any auto-response or automation occurs.",
     "owner": "Matt Watson",
     "meetingId": "product-marketing-alignment-2026-04-01",
@@ -3234,7 +3773,7 @@
     }
   },
   {
-    "id": "a-232",
+    "id": "a-272",
     "task": "Define agents with specific jobs so that tasks are executed as desired, with appropriate tooling and restricted access.",
     "owner": "Matt Watson",
     "meetingId": "product-marketing-alignment-2026-04-01",

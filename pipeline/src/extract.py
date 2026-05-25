@@ -4,6 +4,7 @@ import json
 import asyncio
 from pathlib import Path
 import docx
+from pypdf import PdfReader
 from google import genai
 from google.genai import types
 from pydantic import BaseModel
@@ -78,6 +79,15 @@ def extract_text_from_docx(file_path: Path) -> str:
                     full_text.append(para.text)
     return '\n'.join(full_text)
 
+def extract_text_from_pdf(file_path: Path) -> str:
+    reader = PdfReader(file_path)
+    text_parts = []
+    for page in reader.pages:
+        t = page.extract_text()
+        if t:
+            text_parts.append(t)
+    return "\n".join(text_parts)
+
 async def extract_meeting_data(text: str, filename: str) -> ExtractedMeeting:
     meeting_type = classify_meeting_type(filename)
     prompt = f"{EXTRACTION_PROMPT}\n\nHint: This appears to be a '{meeting_type}' type meeting based on the filename: '{filename}'\n\nMeeting notes:\n\n{text}"
@@ -120,6 +130,8 @@ async def process_file(filename: str, force: bool = False) -> bool:
         if filename.endswith(".md"):
             with open(file_path, "r", encoding="utf-8") as f:
                 text = f.read()
+        elif filename.endswith(".pdf"):
+            text = extract_text_from_pdf(file_path)
         else:
             text = extract_text_from_docx(file_path)
 
@@ -147,11 +159,30 @@ async def main():
     all_files = os.listdir(MEETINGS_DIR)
     meeting_files = [
         f for f in all_files
-        if (f.endswith(".docx") or (f.endswith(".md") and "Notes by Gemini" in f))
+        if (f.endswith(".docx") or f.endswith(".pdf") or f.endswith(".md"))
+        and ("notes by gemini" in f.lower() or "leadership call" in f.lower())
         and f not in EXCLUDE_FILES
     ]
 
-    print(f"Found {len(meeting_files)} meeting files to process.\n")
+    # Deduplicate: if both DOCX/MD and PDF exist, only keep DOCX/MD
+    groups = {}
+    for f in meeting_files:
+        stem = Path(f).stem
+        groups.setdefault(stem, []).append(f)
+        
+    deduped_meetings = []
+    for stem, files in groups.items():
+        best_file = None
+        for ext in [".docx", ".md", ".pdf"]:
+            match = [f for f in files if f.lower().endswith(ext)]
+            if match:
+                best_file = match[0]
+                break
+        if best_file:
+            deduped_meetings.append(best_file)
+            
+    meeting_files = deduped_meetings
+    print(f"Found {len(meeting_files)} unique meeting files to process.\n")
 
     force = "--force" in sys.argv
     
