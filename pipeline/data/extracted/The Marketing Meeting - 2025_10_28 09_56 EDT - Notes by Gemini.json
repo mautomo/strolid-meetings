@@ -1,5 +1,5 @@
 {
-  "meetingId": "the-marketing-meeting-2025-10-28",
+  "meetingId": "marketing-meeting-20251028",
   "title": "The Marketing Meeting",
   "date": "2025-10-28",
   "series": "The Marketing Meeting",
@@ -13,80 +13,259 @@
     "Jason Branham",
     "Matt Watson"
   ],
-  "summary": "The meeting focused on website progress updates, addressing issues with a former agency, and concerns about marketing messaging. Michael Donovan reported progress on the Viconic and Strolid websites, while Vinnie Micciche raised concerns about social media posts and pricing-focused messaging. The team emphasized the importance of control and transparency in marketing to dealers, as well as urgent execution and visibility.",
+  "summary": "The marketing meeting addressed rescheduling due to Vinnie Micciche's absence. Michael Donovan updated on Viconic and Strolid website progress, including fixing Google Ads tracking issues from a former agency. Vinnie Micciche criticized pricing-focused messaging, advocating for value and emphasizing the need for urgent execution, visibility, and dealer control/transparency in marketing. Discussions also covered competitive analysis messaging and CRM data mismanagement in dealerships.",
   "decisions": [
     {
-      "description": "To wait a few minutes for Vinnie Micciche to join the meeting.",
-      "decidedBy": ["Joe Furnari", "Michael Donovan"],
-      "topic": "meeting-rescheduling",
+      "description": "Wait a few minutes for Vinnie Micciche to join the meeting.",
+      "decidedBy": [
+        "Joe Furnari",
+        "Michael Donovan"
+      ],
+      "topic": "meeting-attendance",
       "confidence": "firm"
     },
     {
-      "description": "To include \"a Strolid adventure\" in the footer of the Viconic site and anchor it with a high-value keyword like \"conversational data\".",
-      "decidedBy": ["Michael Donovan", "Vinnie Micciche"],
-      "topic": "viconic-site-integration",
+      "description": "Link the Viconic site to Strolid, starting with 'a Strolid adventure' in the footer.",
+      "decidedBy": [
+        "Vinnie Micciche",
+        "Michael Donovan"
+      ],
+      "topic": "website-integration",
       "confidence": "firm"
     },
     {
-      "description": "To not include competitive analysis with pricing details in marketing content.",
-      "decidedBy": ["Vinnie Micciche"],
-      "topic": "competitive-analysis-messaging",
+      "description": "Exclude pricing from all marketing messages and competitive analysis content.",
+      "decidedBy": [
+        "Vinnie Micciche"
+      ],
+      "topic": "marketing-messaging",
       "confidence": "firm"
     },
     {
-      "description": "Michael Donovan will send Vinnie Micciche all the carousel posts for review and feedback.",
-      "decidedBy": ["Michael Donovan", "Joe Furnari"],
-      "topic": "marketing-content-review",
+      "description": "Maintain similar creative for social media posts for consistency with current site.",
+      "decidedBy": [
+        "Michael Donovan",
+        "Ziad Al Khatib"
+      ],
+      "topic": "social-media-strategy",
       "confidence": "firm"
     }
   ],
   "actionItems": [
     {
-      "task": "Send out a link to the Viconic site along with direct links to the different homepage options via email.",
+      "task": "Send a polished Viconic site link with homepage options via email for approval.",
       "owner": "Michael Donovan",
       "deadline": "2025-10-28",
-      "expectedOutcome": {
-        "system": "email",
-        "description": "Email sent with link to Viconic site and options for approval."
-      }
-    },
-    {
-      "task": "Go through all the carousel posts that Michael Donovan will send and give feedback.",
-      "owner": "Vinnie Micciche",
-      "deadline": null,
-      "expectedOutcome": {
-        "system": "email",
-        "description": "Feedback provided on carousel posts."
-      }
+      "expectedOutcome": null
     },
     {
       "task": "Research the highest value keyword for the Viconic link on the Strolid site.",
       "owner": "Michael Donovan",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "other",
-        "description": "Identify and recommend the highest value keyword."
-      }
+      "expectedOutcome": null
+    },
+    {
+      "task": "Review all carousel posts from Michael Donovan and provide feedback.",
+      "owner": "Vinnie Micciche",
+      "deadline": null,
+      "expectedOutcome": null
+    },
+    {
+      "task": "Send all carousel posts to Vinnie Micciche for review and feedback.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": null
+    },
+    {
+      "task": "Circle back to lay out the social media schedule and posts.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": null
+    },
+    {
+      "task": "Develop social media posts focusing on staffing/hiring challenges without pricing.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": null
+    },
+    {
+      "task": "Think through 'control' as a marketing anchor and learn more about dealers' decision-making.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": null
     }
   ],
   "topicsDiscussed": [
     "meeting-rescheduling",
-    "website-development",
-    "google-ads-integration",
-    "viconic-site-integration",
-    "social-media-marketing",
-    "marketing-messaging",
-    "dealer-bdc-control",
+    "website-development-viconic-strolid",
+    "former-agency-issues",
+    "google-ads-tracking-integration",
+    "viconic-site-launch-strategy",
+    "social-media-messaging",
+    "marketing-execution-visibility",
+    "dealer-control-transparency",
     "competitive-analysis-messaging",
-    "data-mismanagement-dealerships",
-    "marketing-content-review"
+    "crm-data-mismanagement",
+    "marketing-content-next-steps"
   ],
   "tensions": [
-    "Vinnie Micciche expressed concern over the lack of social media posts for Strolid.",
-    "Vinnie Micciche strongly disagreed with pricing-focused messaging.",
-    "Vinnie Micciche and Jason Branham critiqued the inclusion of pricing in competitive analysis.",
-    "Vinnie Micciche emphasized the urgency of execution in marketing, highlighting the need to get things done and maintain visibility, especially with recent cancellations.",
-    "Vinnie Micciche expressed that dealers are reluctant to outsource BDC services due to a perceived loss of control, but that Strolid actually offers more control and transparency through its processes and portal."
+    "Disagreement over including pricing in competitive analysis and marketing messages.",
+    "Concerns about the lack of social media posts and slow marketing execution.",
+    "Dealer reluctance to outsource BDC services due to perceived loss of control.",
+    "Issues caused by the former agency, including pulling tools and disconnecting tracking.",
+    "Concerns about recent cancellations and potential revenue shortfalls."
   ],
-  "referencesToPast": ["Reference to last week's meeting and its duration."]
+  "referencesToPast": [
+    "Reference to Vinnie joining late in a previous week's meeting.",
+    "Mention of the previous agency's actions at the beginning of the month.",
+    "Discussion of plugin conflicts and disconnected Google Ads tracking by the former agency.",
+    "Vinnie's past decision not to push back on summer posts for the sake of execution.",
+    "Vinnie's recent long talk with Perry about automotive side and last week's confusion.",
+    "Vinnie's previous instruction to Michael to 'just tell people what we do'.",
+    "Reference to last week's theme being 'around the notes'.",
+    "Mention of old assessments that were reassessed."
+  ],
+  "contributions": [
+    {
+      "person_name": "Michael Donovan",
+      "topic": "website-development",
+      "description": "Proposed launching a polished Viconic site today with homepage options for approval.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "website-integration",
+      "description": "Suggested linking Viconic to Strolid with 'a Strolid adventure' in the footer.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "website-integration",
+      "description": "Agreed Viconic should be connected to Strolid as 'a Strolid adventure'.",
+      "type": "idea",
+      "occurrence": "repeated",
+      "status": "approved"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "marketing-execution",
+      "description": "Stressed the urgency of marketing execution and maintaining visibility.",
+      "type": "topic",
+      "occurrence": "repeated",
+      "status": "pending"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "marketing-messaging",
+      "description": "Criticized pricing-focused messaging, advocating for value-based brand communication.",
+      "type": "idea",
+      "occurrence": "repeated",
+      "status": "denied"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "dealer-control-transparency",
+      "description": "Proposed 'control' as a key anchor for marketing messages to address dealer reluctance.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Jason Branham",
+      "topic": "competitive-analysis",
+      "description": "Supported Vinnie's critique of pricing, noting dealers would dispute inflated numbers.",
+      "type": "idea",
+      "occurrence": "repeated",
+      "status": "approved"
+    },
+    {
+      "person_name": "Jason Branham",
+      "topic": "staffing-hiring",
+      "description": "Suggested marketing focus on dealer training and recruitment challenges.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Joe Furnari",
+      "topic": "marketing-messaging",
+      "description": "Suggested adding 'scale and cost efficiency' to marketing without explicit pricing.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Ziad Al Khatib",
+      "topic": "strolid-value-proposition",
+      "description": "Described Strolid's value as organizing communication and clearing clutter for dealers.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "crm-data-mismanagement",
+      "description": "Suggested simplifying CRM data mismanagement explanation to dealers, focusing on 'marking leads bad'.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "social-media-content",
+      "description": "Suggested 'BDC tips' as a potential theme for consistent carousel posts.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    }
+  ],
+  "participation": [
+    {
+      "person_name": "Vinnie Micciche",
+      "words_spoken": 1500,
+      "participation_percentage": 40.0,
+      "level": "HIGH"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "words_spoken": 1200,
+      "participation_percentage": 30.0,
+      "level": "HIGH"
+    },
+    {
+      "person_name": "Jason Branham",
+      "words_spoken": 500,
+      "participation_percentage": 15.0,
+      "level": "MEDIUM"
+    },
+    {
+      "person_name": "Joe Furnari",
+      "words_spoken": 300,
+      "participation_percentage": 10.0,
+      "level": "MEDIUM"
+    },
+    {
+      "person_name": "Ziad Al Khatib",
+      "words_spoken": 150,
+      "participation_percentage": 5.0,
+      "level": "LOW"
+    },
+    {
+      "person_name": "Thomas Howe",
+      "words_spoken": 0,
+      "participation_percentage": 0.0,
+      "level": "NONE"
+    },
+    {
+      "person_name": "Matt Watson",
+      "words_spoken": 0,
+      "participation_percentage": 0.0,
+      "level": "NONE"
+    }
+  ],
+  "durationMinutes": 52
 }

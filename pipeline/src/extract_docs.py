@@ -31,6 +31,10 @@ Rules:
 - "authors": list of authors, creators, or main individuals/parties responsible for or mentioned in the document.
 - "topics": provide a list of relevant topics or tags (e.g. kebab-case or simple labels like marketing, website-refresh, outbound-sales).
 - "summary": a brief summary of the document (1-2 sentences).
+- "category": categorize the document, e.g. "marketing-hooks", "faq", "guides-and-definitions", "sales-playbook", "reports", "other".
+- "peopleInvolved": list of full names of individuals involved or mentioned in the document.
+- "sentiment": the overall sentiment of the document. Must be one of "positive", "neutral", "negative", "mixed".
+- "sentimentScore": overall sentiment score of the document, a float between -1.0 (extremely negative) and 1.0 (extremely positive).
 """
 
 def extract_text_from_docx(file_path: Path) -> str:
@@ -156,6 +160,8 @@ async def main():
         stem = Path(f).stem
         if stem.lower().endswith(".docx"):
             stem = stem[:-5]
+        # Clean any trailing copy numbers like " (1)" or " (2)"
+        stem = re.sub(r'\s*\(\d+\)$', '', stem).strip()
         norm_stem = re.sub(r'\s+', ' ', stem).strip().lower()
         groups.setdefault(norm_stem, []).append(f)
         

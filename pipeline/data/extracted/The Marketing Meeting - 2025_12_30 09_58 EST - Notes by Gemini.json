@@ -1,97 +1,174 @@
 {
-  "meetingId": "the-marketing-meeting-2025-12-30",
+  "meetingId": "marketing-meeting-2025-12-30",
   "title": "The Marketing Meeting",
   "date": "2025-12-30",
   "series": "The Marketing Meeting",
   "type": "marketing",
   "attendees": [
-    "Thomas Howe",
-    "Vinnie Micciche",
     "Joe Furnari",
-    "Michael Donovan",
-    "Ziad Al Khatib",
     "Jason Branham",
+    "Michael Donovan",
     "Matt Watson",
-    "Kevin Breen",
+    "Vinnie Micciche",
     "Harinder Bhinder"
   ],
-  "summary": "The meeting focused on a new three-lane marketing approach proposed by Michael Donovan to structure messaging, covering dealer visibility, speed flow, and AI integration. Vinnie Micciche requested specifics on execution, while Jason Branham suggested prioritizing lead generation, and the team agreed to use the three lanes to anchor strategic outcomes of trust, belief, and preference.",
+  "summary": "Joe Furnari, Jason Branham, Michael Donovan, Matt Watson, and Vinnie Micciche opened the meeting with a brief discussion on extreme weather, and Harinder Bhinder joined the call. Michael Donovan introduced a three-lane marketing approach—Lane One: \"Truth\" (dealer visibility), Lane Two: \"Control\" (speed flow and follow-up engineering), and Lane Three: \"Vision\" (AI plus human integration)—intended to structure all messaging, with Vinnie Micciche pressing for specifics on the execution plan, and Jason Branham suggesting a focus on actions to restore high-volume lead generation. The participants discussed defining the core message of Lane One as \"you can't manage what you can't see,\" aligning existing content with these lanes, balancing messaging for dealership \"grunts\" and decision-makers interested in AI and efficiencies, and agreed to use the three lanes as an architecture to anchor strategic outcomes of \"trust,\" \"belief,\" and \"preference,\" respectively.",
   "decisions": [
     {
-      "description": "Use the three lanes (Truth, Control, Vision) as an architecture to anchor strategic outcomes of trust, belief, and preference.",
+      "description": "Agreed to use the three lanes as an architecture for strategic outcomes.",
       "decidedBy": [
-        "Michael Donovan",
-        "Vinnie Micciche",
         "Joe Furnari",
         "Jason Branham",
+        "Michael Donovan",
         "Matt Watson",
+        "Vinnie Micciche",
         "Harinder Bhinder"
       ],
-      "topic": "messaging-strategy",
+      "topic": "marketing-strategy-framework",
       "confidence": "firm"
     },
     {
-      "description": "Define the core message of Lane One (Truth) as \"you can't manage what you can't see.\"",
-      "decidedBy": ["Michael Donovan"],
-      "topic": "messaging-strategy",
+      "description": "Three lanes will structure all messaging across funnel, website, and social posts.",
+      "decidedBy": [
+        "Michael Donovan",
+        "Vinnie Micciche",
+        "Jason Branham",
+        "Joe Furnari"
+      ],
+      "topic": "messaging-structure",
+      "confidence": "firm"
+    },
+    {
+      "description": "Three lanes to serve as messaging principles for content production efforts.",
+      "decidedBy": [
+        "Michael Donovan",
+        "Vinnie Micciche",
+        "Joe Furnari"
+      ],
+      "topic": "content-production-framework",
       "confidence": "firm"
     }
   ],
   "actionItems": [
     {
-      "task": "Develop three core messages based on Michael Donovan's input.",
+      "task": "Develop three core messages before the next meeting.",
       "owner": "Vinnie Micciche",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "other",
-        "description": "Three clearly defined core messages that align with the three-lane marketing approach."
-      }
+      "expectedOutcome": null
     },
     {
-      "task": "Share the three decks for the V20 group for review and feedback.",
+      "task": "Share V20 group decks for review and feedback.",
       "owner": "Vinnie Micciche",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "email",
-        "description": "Shared decks accessible to the team for review."
-      }
+      "expectedOutcome": null
     },
     {
-      "task": "Put a visual together to explain the three lanes, the core messaging, and the features.",
+      "task": "Create a visual for the three lanes, core messaging, and features.",
       "owner": "Joe Furnari",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "google-docs",
-        "description": "A visual representation that clearly outlines the three lanes, their core messaging, and related features."
-      }
+      "expectedOutcome": null
     },
     {
-      "task": "Read through, critique, and provide feedback on Vinnie Micciche's shared decks, noting what is missing.",
-      "owner": "Unassigned",
+      "task": "Review and provide feedback on Vinnie Micciche's shared decks.",
+      "owner": "All attendees",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "email",
-        "description": "Feedback provided on the V20 decks, highlighting any gaps or areas for improvement."
-      }
+      "expectedOutcome": null
     }
   ],
   "topicsDiscussed": [
-    "extreme-weather",
+    "extreme-weather-discussion",
     "three-lane-marketing-approach",
-    "lead-generation",
-    "dealer-visibility",
-    "messaging-strategy",
-    "content-structure",
-    "ai-integration",
-    "buyer-motion",
-    "strategic-outcomes"
+    "marketing-execution-plan",
+    "high-volume-lead-generation",
+    "lane-one-messaging-definition",
+    "content-alignment-strategy",
+    "messaging-target-audience-balance",
+    "ai-industry-adaptation",
+    "buyer-motion-strategic-outcomes"
   ],
   "tensions": [
-    "Vinnie Micciche pressing for specifics on the execution plan for the three-lane marketing approach.",
-    "Vinnie Micciche expressing concern about balancing messaging for different dealership roles (BDC vs. decision-makers).",
-    "Vinnie Micciche voicing anxiety about the rapid pace of AI advancement in the industry."
+    "Vinnie Micciche's push for execution specifics over framework.",
+    "Concern over balancing messaging for different dealership roles.",
+    "Anxiety regarding the rapid pace of AI development in the industry."
   ],
   "referencesToPast": [
-    "Earlier high-volume, quality lead generation following a website revamp and new content."
-  ]
+    "Reference to past high-volume lead generation success.",
+    "Mention of existing V20 group presentation decks."
+  ],
+  "contributions": [
+    {
+      "person_name": "Michael Donovan",
+      "topic": "three-lane-marketing-approach",
+      "description": "Introduced a three-lane marketing approach (Truth, Control, Vision).",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "approved"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "marketing-execution-plan",
+      "description": "Pressed for specifics on the execution plan for the marketing approach.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "pending"
+    },
+    {
+      "person_name": "Jason Branham",
+      "topic": "lead-generation-focus",
+      "description": "Suggested focusing on actions to restore high-volume lead generation.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "lane-one-messaging",
+      "description": "Defined Lane One's core message as 'you can't manage what you can't see'.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "content-alignment",
+      "description": "Detailed existing V20 content and its potential alignment with new lanes.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Joe Furnari",
+      "topic": "feature-to-message-mapping",
+      "description": "Clarified purpose of lanes to map features (Sophia, Vera) to core messages.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "messaging-balance",
+      "description": "Expressed concern about balancing messaging for 'grunts' vs. decision-makers.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "pending"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "ai-industry-speed",
+      "description": "Voiced anxiety about fast-moving AI industry and need for quick adaptation.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "pending"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "buyer-motion-strategic-outcomes",
+      "description": "Provided structure for lanes based on buyer emotion and strategic outcomes.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "approved"
+    }
+  ],
+  "participation": [],
+  "durationMinutes": null
 }

@@ -20,28 +20,30 @@ def run_script(script_path: Path, args: list = []):
 
 def main():
     src_dir = Path(__file__).resolve().parent / "src"
+    args = sys.argv[1:]
     
     # 1. Extract meetings
-    run_script(src_dir / "extract.py")
+    run_script(src_dir / "extract.py", args)
     
     # 2. Extract docs
-    run_script(src_dir / "extract_docs.py")
+    run_script(src_dir / "extract_docs.py", args)
     
     # 3. Normalize meetings
-    run_script(src_dir / "normalize.py")
+    run_script(src_dir / "normalize.py", args)
     
     # 4. Upload meetings to warehouse
-    run_script(src_dir / "warehouse.py")
+    run_script(src_dir / "warehouse.py", args)
     
     # 5. Chunk, embed, and upload to BigQuery (meeting + docs)
-    run_script(src_dir / "embeddings.py")
+    run_script(src_dir / "embeddings.py", args)
     
     # 6. Verify RAG search
-    run_script(src_dir / "verify_rag.py")
+    run_script(src_dir / "verify_rag.py", args)
     
     print("\n==================================================")
     print("ALL PIPELINE STEPS COMPLETED SUCCESSFULLY!")
     print("==================================================")
+
 
 if __name__ == "__main__":
     main()

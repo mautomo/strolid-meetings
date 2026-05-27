@@ -1,160 +1,264 @@
 {
-  "meetingId": "michael-and-vin-continuation-2025-12-03",
+  "meetingId": "MV-20251203-Continuation",
   "title": "Michael and Vin continuation",
   "date": "2025-12-03",
-  "series": "Michael and Vin continuation",
+  "series": "Michael and Vin",
   "type": "one-on-one",
-  "attendees": ["Vinnie Micciche", "Michael Donovan"],
-  "summary": "Vinnie Micciche expressed concerns about the lack of actionable marketing leads from Michael Donovan and urged immediate action and content creation. Michael Donovan shared their background and noted differing views on the Ideal Customer Profile (ICP). Vinnie Micciche emphasized the need for collaboration, clear deliverables, lead generation, and simple content aimed at attracting car guys and dealer groups.",
+  "attendees": [
+    "Vinnie Micciche",
+    "Michael Donovan",
+    "Jason Branham",
+    "Joe Furnari",
+    "Shauna",
+    "Perry",
+    "Ken",
+    "Z"
+  ],
+  "summary": "Vinnie Micciche expressed deep concern over Michael Donovan's lack of actionable marketing opportunities and leads, emphasizing urgent need for speed and content output. Michael Donovan shared background and noted fundamental ICP differences. Vinnie stressed collaboration, clear deliverables, lead generation, and simple, exciting content for 'car guys' and dealer groups, while critiquing Michael's content drafts and prioritization.",
   "decisions": [
     {
-      "description": "Michael Donovan will refine social posts to be more in-your-face and low-funnel for lead generation.",
-      "decidedBy": ["Michael Donovan"],
-      "topic": "messaging-strategy",
+      "description": "Michael Donovan to simplify messaging for car guys.",
+      "decidedBy": [
+        "Vinnie Micciche",
+        "Michael Donovan"
+      ],
+      "topic": "content-messaging",
       "confidence": "firm"
     },
     {
-      "description": "Michael Donovan will contact Perry regarding the Viconic website progress.",
-      "decidedBy": ["Michael Donovan", "Vinnie Micciche"],
-      "topic": "website-refresh",
+      "description": "Michael Donovan to send new social media posts immediately.",
+      "decidedBy": [
+        "Vinnie Micciche",
+        "Michael Donovan"
+      ],
+      "topic": "social-media-output",
       "confidence": "firm"
     },
     {
-      "description": "Vinnie Micciche will send content ideas to Michael Donovan for posting on Wednesday or Thursday.",
-      "decidedBy": ["Vinnie Micciche"],
-      "topic": "content-creation",
+      "description": "Michael Donovan to refine social media post designs for lead generation.",
+      "decidedBy": [
+        "Vinnie Micciche",
+        "Michael Donovan"
+      ],
+      "topic": "social-media-design",
       "confidence": "firm"
     },
     {
-      "description": "Marketing should translate ideas into messaging, focusing on velocity, brand guidelines, messaging, and leads.",
-      "decidedBy": ["Vinnie Micciche"],
-      "topic": "messaging-strategy",
+      "description": "Michael Donovan to follow up with Perry regarding Viconic website.",
+      "decidedBy": [
+        "Vinnie Micciche",
+        "Michael Donovan"
+      ],
+      "topic": "viconic-website-project",
       "confidence": "firm"
     },
     {
-      "description": "Messaging must be relevant to the company's direction.",
-      "decidedBy": ["Vinnie Micciche"],
-      "topic": "messaging-strategy",
-      "confidence": "firm"
-    },
-    {
-      "description": "Michael Donovan will immediately refine social posts to be more in-your-face and low-funnel.",
-      "decidedBy": ["Michael Donovan"],
-      "topic": "messaging-strategy",
-      "confidence": "firm"
-    },
-    {
-      "description": "Michael Donovan should focus on lead generation rather than building the marketing 'engine'.",
-      "decidedBy": ["Vinnie Micciche"],
-      "topic": "lead-generation",
-      "confidence": "firm"
-    },
-    {
-      "description": "Michael Donovan will \"tone down\" the marketing messaging to be less complex and more direct for the target audience of \"car guys.\"",
-      "decidedBy": ["Michael Donovan", "Vinnie Micciche"],
-      "topic": "messaging-strategy",
-      "confidence": "firm"
-    },
-    {
-      "description": "Michael Donovan will send out whatever posts they have immediately, emphasizing the need for speed.",
-      "decidedBy": ["Michael Donovan"],
-      "topic": "content-creation",
+      "description": "Vinnie Micciche to provide new content ideas to Michael Donovan for posting.",
+      "decidedBy": [
+        "Vinnie Micciche",
+        "Michael Donovan"
+      ],
+      "topic": "content-strategy",
       "confidence": "firm"
     }
   ],
   "actionItems": [
     {
-      "task": "Tone down the messaging to be less complex and more direct for the target audience of car guys.",
+      "task": "Tone down messaging to be less complex and more direct.",
       "owner": "Michael Donovan",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "social-media",
-        "description": "Messaging resonates with 'car guys' and attracts dealer groups."
-      }
+      "expectedOutcome": null
     },
     {
-      "task": "Refine social media post designs to be more in-your-face and low-funnel for lead generation.",
+      "task": "Ensure new social media posts are sent out immediately.",
       "owner": "Michael Donovan",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "social-media",
-        "description": "Social media posts effectively generate leads."
-      }
+      "expectedOutcome": null
     },
     {
-      "task": "Circle back with Perry regarding the Viconic site.",
+      "task": "Refine social media post designs to be in-your-face and low-funnel.",
       "owner": "Michael Donovan",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "website",
-        "description": "Progress on the Viconic website is assessed and next steps are defined."
-      }
+      "expectedOutcome": null
     },
     {
-      "task": "Work on some content ideas and send them to Michael Donovan for posting.",
+      "task": "Circle back with Perry regarding the VCON site.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": null
+    },
+    {
+      "task": "Create and send new content ideas to Michael Donovan.",
       "owner": "Vinnie Micciche",
       "deadline": "2025-12-04",
-      "expectedOutcome": {
-        "system": "email",
-        "description": "Michael Donovan receives content ideas from Vinnie Micciche."
-      }
+      "expectedOutcome": null
     },
     {
-      "task": "Ensure new social media posts are sent out immediately to maintain posting frequency.",
+      "task": "Get some posts out immediately.",
       "owner": "Michael Donovan",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "social-media",
-        "description": "Consistent and timely posting of content on social media platforms."
-      }
+      "expectedOutcome": null
     }
   ],
   "topicsDiscussed": [
-    "work-expectations",
-    "communication-style",
+    "marketing-strategy",
+    "lead-generation",
+    "content-output",
+    "ideal-customer-profile-icp",
+    "ai-llms-integration",
+    "website-development",
+    "communication-expectations",
     "mortgage-industry-background",
     "automotive-industry-transition",
-    "actionable-marketing-opportunities",
-    "revenue-generation",
-    "dealer-group-focus",
-    "scalability",
-    "collaboration",
-    "prioritization",
-    "management-priorities",
-    "marketing-priorities",
-    "audience-engagement",
-    "messaging-strategy",
-    "middleware-idea",
-    "paradigm-shifts",
-    "content-strategy-critique",
-    "pace-and-velocity",
-    "ai-utilization",
-    "decisive-action",
-    "accountability",
-    "ideal-customer-profile",
-    "content-output",
-    "content-quality",
-    "viconic-website",
-    "lead-generation",
-    "website-refresh",
-    "social-media",
-    "content-creation"
+    "dealer-group-scalability",
+    "marketing-prioritization",
+    "messaging-brand-guidelines",
+    "middleware-concept",
+    "organizational-velocity",
+    "content-quality-critique"
   ],
   "tensions": [
-    "Vinnie Micciche's concern over the lack of actionable marketing opportunities and leads generated by Michael Donovan.",
-    "Michael Donovan and Vinnie Micciche have fundamental differences in their beliefs regarding the Ideal Customer Profile (ICP).",
-    "Vinnie Micciche's criticism of Michael Donovan's content drafts and lack of prioritization.",
-    "Vinnie Micciche feeling like they are in \"quicksand\" with marketing.",
-    "Vinnie Micciche's frustration that Michael Donovan is not prioritizing lead generation.",
-    "Debate over the value of the '47 minutes is too long' message.",
-    "Michael Donovan outlined a range of marketing activities without quantifying the time needed.",
-    "Vinnie Micciche expressed concern that Michael Donovan does not translate requests into expected deliverables."
+    "Vinnie's concern over Michael's lack of actionable marketing opportunities and leads.",
+    "Vinnie's frustration with Michael's focus on building an 'engine' instead of immediate output.",
+    "Fundamental differences between Michael and Vinnie on the Ideal Customer Profile (ICP).",
+    "Vinnie's critique of Michael's content drafts for being too complex and vague.",
+    "Vinnie's feeling that Michael doesn't translate requests into clear deliverables.",
+    "Vinnie's feeling of being in 'quicksand' with marketing progress.",
+    "Michael's perception of being 'pinned in a hole' by Vinnie's communication.",
+    "Disagreement on the relevance of '47 minutes response time' statistic."
   ],
   "referencesToPast": [
-    "Conversation held years ago with Sean Reigns about the business being built on reputation.",
-    "Previous marketing efforts that included regular posting and email campaigns.",
-    "Previous content seen from Ken and Z.",
-    "Mention of past struggles scaling for groups.",
-    "Reference to Z's work the week before."
-  ]
+    "Conversation with Sean Reigns years ago about business built on reputation.",
+    "Last four months have been really scary due to lack of action and leads.",
+    "Mention of 'what we were doing before that we need to kind of get going.'",
+    "Vinnie's past instruction to Ken a year and a half ago about Facebook/Instagram.",
+    "Z's content creation 'the week before' and Vinnie's specific instructions to Z.",
+    "Vinnie's previous statement to Z about 'velocity, brand guidelines, messaging, and leads.'",
+    "Last content ideas provided to Michael Donovan were 'over a month ago.'",
+    "Reference to 'BDC from 2012' for outdated marketing tactics.",
+    "Vinnie's past conversations with Joe about big ideas taking years.",
+    "Michael's past message to Christina around 'beginning to mid October' about Z.",
+    "Michael's meeting on January 3rd about helping."
+  ],
+  "contributions": [
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "lead-generation-urgency",
+      "description": "Emphasized urgent need for actionable marketing opportunities and leads.",
+      "type": "topic",
+      "occurrence": "repeated",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "content-output-speed",
+      "description": "Stressed immediate content output over building a marketing 'engine.'",
+      "type": "idea",
+      "occurrence": "repeated",
+      "status": "approved"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "mortgage-industry-fraud",
+      "description": "Shared background on leaving mortgage industry due to fraud incidents.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "pending"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "automotive-industry-transition",
+      "description": "Explained transition to automotive by working on motorcycles and mechanics.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "pending"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "dealer-group-attraction",
+      "description": "Expressed desire to attract dealer groups for scalability, citing Catchy BT.",
+      "type": "idea",
+      "occurrence": "repeated",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "marketing-prioritization",
+      "description": "Criticized Michael for not prioritizing urgent tasks given financial structure.",
+      "type": "topic",
+      "occurrence": "repeated",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "middleware-llms-dealers",
+      "description": "Presented a $100 million idea about being middleware between LLMs and dealers.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "content-messaging-critique",
+      "description": "Critiqued Michael's draft content for not resonating with 'car guys.'",
+      "type": "topic",
+      "occurrence": "repeated",
+      "status": "approved"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "social-post-refinement",
+      "description": "Proposed refining social posts to be more 'in-your-face' and low-funnel.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "approved"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "icp-differences",
+      "description": "Admitted fundamental differences with Vinnie on the Ideal Customer Profile.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "pending"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "ai-utilization-speed",
+      "description": "Emphasized using AI tools like ChatGPT for speed in content generation.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "employee-dealer-customer-satisfaction",
+      "description": "Stated management priorities are employee, dealer, customer satisfaction, then profit.",
+      "type": "concept",
+      "occurrence": "repeated",
+      "status": "approved"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "capitalizing-vinnie-linkedin",
+      "description": "Suggested Strawlet posts follow Vinnie's LinkedIn lead to capitalize on audience.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    }
+  ],
+  "participation": [
+    {
+      "person_name": "Vinnie Micciche",
+      "words_spoken": 2000,
+      "participation_percentage": 66.67,
+      "level": "HIGH"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "words_spoken": 1000,
+      "participation_percentage": 33.33,
+      "level": "MEDIUM"
+    }
+  ],
+  "durationMinutes": 63
 }

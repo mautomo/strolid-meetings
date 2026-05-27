@@ -1,5 +1,5 @@
 {
-  "meetingId": "scrum-standup-daily-update-2026-03-30",
+  "meetingId": "Scrum-Standup-DailyUpdate-2026-03-30",
   "title": "Scrum/Standup/Daily Update",
   "date": "2026-03-30",
   "series": "Scrum/Standup/Daily Update",
@@ -21,110 +21,88 @@
     "Matt Watson",
     "Chris Celiberti"
   ],
-  "summary": "The standup covered dealer email issues, Copilot updates, and voicemail feature development. Dealer email problems remain unresolved, while Copilot's initial version was updated for stability. A personalized voicemail feature for Premier Collective was developed, and the team decided to spike out a real-time text-to-speech generation approach.",
+  "summary": "Dealer email issues persist. Copilot updates tested for stability. Personalized voicemail beta developed. Conditional tags feature completed and ready for deployment.",
   "decisions": [
     {
-      "description": "Start the meeting after waiting a couple more minutes for Matt Watson and Herender.",
-      "decidedBy": ["Scott Henshaw"],
-      "topic": "meeting-start-time",
-      "confidence": "firm"
-    },
-    {
-      "description": "Spike out the real-time text-to-speech generation approach for the personalized voicemail feature to avoid generating unnecessary recordings and to handle updated customer names.",
+      "description": "Spike out real-time text-to-speech generation for personalized voicemails.",
       "decidedBy": [
         "Scott Henshaw",
         "Sergey Lyapustin",
         "Matt Watson",
         "Shawna Behen"
       ],
-      "topic": "voicemail-generation-approach",
+      "topic": "personalized-voicemail-feature",
       "confidence": "firm"
     },
     {
-      "description": "Evaluate real-time generation options and incorporate the evaluation as a subtask in the current card.",
-      "decidedBy": ["Scott Henshaw", "Sergey Lyapustin"],
-      "topic": "realtime-generation-evaluation",
+      "description": "Evaluate real-time generation options for voicemails as a subtask in current card.",
+      "decidedBy": [
+        "Scott Henshaw",
+        "Sergey Lyapustin",
+        "Matt Watson"
+      ],
+      "topic": "personalized-voicemail-feature",
       "confidence": "firm"
     },
     {
-      "description": "Discuss whether to cancel the Thursday standup during tomorrow's or Wednesday's meeting when more participants are present.",
-      "decidedBy": ["Scott Henshaw", "Sergey Lyapustin"],
-      "topic": "standup-cancellation",
+      "description": "Discuss canceling Thursday standup during tomorrow's or Wednesday's meeting.",
+      "decidedBy": [
+        "Scott Henshaw",
+        "Matt Watson",
+        "Sergey Lyapustin"
+      ],
+      "topic": "standup-schedule",
       "confidence": "tentative"
     }
   ],
   "actionItems": [
     {
-      "task": "Compile and send the different secret shop requirements to Sergey Lyapustin.",
+      "task": "Compile and send secret shop requirements to Sergey Lyapustin.",
       "owner": "Shawna Behen",
       "deadline": "2026-03-30",
-      "expectedOutcome": {
-        "system": "email",
-        "description": "Sergey will receive documentation outlining all requirements from the manufacturer for the secret shop task."
-      }
+      "expectedOutcome": null
     },
     {
-      "task": "Schedule a conversation with the momentum API team about their API topic.",
+      "task": "Schedule a conversation with the Momentum API team.",
+      "owner": "Sergey Lyapustin",
+      "deadline": "2026-04-01",
+      "expectedOutcome": null
+    },
+    {
+      "task": "Schedule a call with John to review serverless infrastructure and test integration.",
+      "owner": "Scott Henshaw",
+      "deadline": "2026-03-31",
+      "expectedOutcome": null
+    },
+    {
+      "task": "Deploy conserver side for conditional tags to production and test.",
+      "owner": "Scott Henshaw",
+      "deadline": null,
+      "expectedOutcome": null
+    },
+    {
+      "task": "Rewrite the tag for detecting voicemail interruption by customer.",
+      "owner": "Scott Henshaw",
+      "deadline": null,
+      "expectedOutcome": null
+    },
+    {
+      "task": "Bring up 'unknown last name' voicemail issue to Kan Sing.",
       "owner": "Sergey Lyapustin",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "calendar",
-        "description": "A meeting will be scheduled with the momentum API team for tomorrow or Wednesday morning."
-      }
+      "expectedOutcome": null
     },
     {
-      "task": "Schedule a call with John to review the infrastructure and potentially test one more integration with the elite weekly task.",
-      "owner": "Scott Henshaw",
-      "deadline": null,
-      "expectedOutcome": {
-        "system": "calendar",
-        "description": "A call will be scheduled with John tomorrow morning to review the infrastructure and test the elite weekly task integration."
-      }
-    },
-    {
-      "task": "Deploy the conserver side to production and test it for the finished feature in the portal for the conditional tags.",
-      "owner": "Scott Henshaw",
-      "deadline": null,
-      "expectedOutcome": {
-        "system": "codebase",
-        "description": "The conserver side will be deployed to production, and the conditional tags feature will be fully tested."
-      }
-    },
-    {
-      "task": "Rewrite the tag for detecting when an agent starts to leave a voicemail and the customer answers, ensuring it is valid before setting up any alerting on those calls.",
-      "owner": "Scott Henshaw",
-      "deadline": null,
-      "expectedOutcome": {
-        "system": "codebase",
-        "description": "The voicemail tag will be rewritten to be more accurate, and its validity will be confirmed before alerting is set up."
-      }
-    },
-    {
-      "task": "Bring up the issue of 'unknown last name' being included in the voicemail to Kan Sing to see if they can use LLM to filter out those names.",
-      "owner": "Sergey Lyapustin",
-      "deadline": null,
-      "expectedOutcome": {
-        "system": "other",
-        "description": "Kan Sing will evaluate the possibility of using LLM to filter out 'unknown' last names from voicemails."
-      }
-    },
-    {
-      "task": "Listen to a few voicemails from last week to see if the return telephone number appearance issue has gotten better.",
+      "task": "Listen to voicemails from last week for return telephone number speed improvement.",
       "owner": "Kevin Breen",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "other",
-        "description": "Kevin will verify if the return telephone number speed issue in voicemails has been resolved based on recent calls."
-      }
+      "expectedOutcome": null
     },
     {
-      "task": "Make some quick research to get to evaluate the real-time text-to-speech cost for generating voicemails.",
-      "owner": "Sergey Lyapustin",
+      "task": "Spike out real-time generation approach for personalized voicemails.",
+      "owner": "Scott Henshaw",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "other",
-        "description": "Sergey will conduct quick research on estimating the real-time text-to-speech generation costs."
-      }
+      "expectedOutcome": null
     }
   ],
   "topicsDiscussed": [
@@ -132,24 +110,172 @@
     "copilot-updates",
     "personalized-voicemail-feature",
     "conditional-tags-feature",
+    "voicemail-interruption-detection",
     "silent-line-call-reports",
     "portal-gpt-evaluation-feature",
     "momentum-api",
-    "serverless-infrastructure",
+    "real-time-text-to-speech-generation",
+    "secret-shop-requirements",
+    "serverless-infrastructure-migration",
+    "upcoming-absences-standup-schedule",
     "automated-voicemail-issues",
-    "advanced-llm-workflow",
-    "agent-orchestration"
+    "advanced-llm-workflow-agent-orchestration"
   ],
   "tensions": [
-    "Concern about potentially losing dealers if the email issue is not fixed soon.",
-    "Sergey Lyapustin raised concerns about pre-generating customer names for the personalized voicemail feature, as names might be updated later.",
-    "Matt Watson cautioned that introducing AI increases the variable for mistakes in the personalized voicemail feature.",
-    "The Sophia Flores placeholder name used in the current beta voicemail implementation caused some confusion.",
-    "Kevin Breen brought up the automated voicemail leaving only a first name and the return telephone number being too fast in the voicemail."
+    "Concern about losing dealers due to unresolved email address issue.",
+    "Concerns about pre-generating voicemails due to potential customer name updates.",
+    "Matt Watson's caution about AI increasing error variables in customized voicemails.",
+    "Confusion caused by 'Sophia Flores' placeholder name in voicemails.",
+    "Difficulty maintaining context when running separate LLM sessions for different tasks."
   ],
   "referencesToPast": [
-    "Reference to a meeting just before the standup to discuss potential alternative approaches for the personalized voicemail feature.",
-    "Mention of an email thread regarding the momentum API topic.",
-    "Kevin Breen brought up two older voicemail issues."
-  ]
+    "Ongoing issue with adding a dealer's email address back to Mill's account.",
+    "Previously inaccurate tag for detecting when a customer answers during voicemail drop.",
+    "Momentum API topic mentioned in an earlier email thread.",
+    "Discussion before standup about personalized voicemail options.",
+    "Two older issues: automated voicemail leaving only first name and fast return telephone number."
+  ],
+  "contributions": [
+    {
+      "person_name": "Sergey Lyapustin",
+      "topic": "copilot-updates",
+      "description": "Fixed technical issues in Copilot, making it more stable and faster.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "completed-success"
+    },
+    {
+      "person_name": "Scott Henshaw",
+      "topic": "personalized-voicemail-feature",
+      "description": "Developed a beta version of personalized voicemail for Premier Collective.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Scott Henshaw",
+      "topic": "conditional-tags-feature",
+      "description": "Finished conditional tags feature in portal, ready for production deployment.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "completed-success"
+    },
+    {
+      "person_name": "Sergey Lyapustin",
+      "topic": "personalized-voicemail-feature",
+      "description": "Raised concerns about customer name updates breaking pre-generated voicemails.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "pending"
+    },
+    {
+      "person_name": "Sergey Lyapustin",
+      "topic": "real-time-text-to-speech",
+      "description": "Proposed using real-time text-to-speech for dynamic voicemail generation.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Matt Watson",
+      "topic": "ai-risk-management",
+      "description": "Cautioned that AI increases variables for mistakes in customer interactions.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "pending"
+    },
+    {
+      "person_name": "Scott Henshaw",
+      "topic": "voicemail-technical-implementation",
+      "description": "Suggested moving voicemail logic to dialer to avoid long-term storage.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Shawna Behen",
+      "topic": "secret-shop-requirements",
+      "description": "Committed to compiling and sending secret shop requirements to Sergey.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Kevin Breen",
+      "topic": "automated-voicemail-issues",
+      "description": "Brought up the 'hello Kevin no last name' issue in automated voicemails.",
+      "type": "topic",
+      "occurrence": "repeated",
+      "status": "pending"
+    },
+    {
+      "person_name": "Kevin Breen",
+      "topic": "automated-voicemail-issues",
+      "description": "Noted the return telephone number speed in voicemails was too fast.",
+      "type": "topic",
+      "occurrence": "repeated",
+      "status": "pending"
+    },
+    {
+      "person_name": "Matt Watson",
+      "topic": "llm-agent-orchestration",
+      "description": "Discussed breaking out Claude setup into orchestrator with specific agents.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Sergey Lyapustin",
+      "topic": "devops-llm-setup",
+      "description": "Offered to share John's DevOps setup using agents from Codex and anti-gravity.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "proposed"
+    }
+  ],
+  "participation": [
+    {
+      "person_name": "Scott Henshaw",
+      "words_spoken": 1400,
+      "participation_percentage": 45.0,
+      "level": "HIGH"
+    },
+    {
+      "person_name": "Sergey Lyapustin",
+      "words_spoken": 900,
+      "participation_percentage": 29.0,
+      "level": "HIGH"
+    },
+    {
+      "person_name": "Matt Watson",
+      "words_spoken": 450,
+      "participation_percentage": 14.5,
+      "level": "MEDIUM"
+    },
+    {
+      "person_name": "Shawna Behen",
+      "words_spoken": 200,
+      "participation_percentage": 6.5,
+      "level": "MEDIUM"
+    },
+    {
+      "person_name": "Kevin Breen",
+      "words_spoken": 100,
+      "participation_percentage": 3.2,
+      "level": "MEDIUM"
+    },
+    {
+      "person_name": "Holly Meyerhofer",
+      "words_spoken": 30,
+      "participation_percentage": 1.0,
+      "level": "LOW"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "words_spoken": 10,
+      "participation_percentage": 0.3,
+      "level": "LOW"
+    }
+  ],
+  "durationMinutes": 41
 }

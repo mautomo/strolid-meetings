@@ -1,0 +1,320 @@
+{
+  "meetingId": "strolid-leadership-20251201",
+  "title": "Strolid Leadership Call",
+  "date": "2025-12-01",
+  "series": "Strolid Leadership Call",
+  "type": "leadership",
+  "attendees": [
+    "Shawna Behen",
+    "Sergey Lyapustin",
+    "Joe Furnari",
+    "Jason Branham",
+    "Michael Donovan",
+    "Vinnie Micciche",
+    "Matt Watson",
+    "Thomas Howe",
+    "Mike Sullivan"
+  ],
+  "summary": "The Strolid leadership team discussed the profound impact of AI and LLMs on the automotive retail industry. Vinnie Micciche presented a vision for Strolid to transition from a BDC to an AI company, leveraging existing infrastructure to become a 'middleware' or 'trust layer' connecting LLMs with dealers. Key topics included the future of website traffic, digital retailing tools, and the need for a seamless customer journey from LLMs to dealerships. The team agreed on piloting new AI-driven chat widgets and focusing on building functional AI applications.",
+  "decisions": [
+    {
+      "description": "Sponsor VCON dinner and secure the VCON Foundation meeting room.",
+      "decidedBy": [
+        "Vinnie Micciche",
+        "Thomas Howe"
+      ],
+      "topic": "VCON-show-sponsorship",
+      "confidence": "firm"
+    },
+    {
+      "description": "Start closely monitoring and watching expenses after the VCON show.",
+      "decidedBy": [
+        "Vinnie Micciche"
+      ],
+      "topic": "expense-management",
+      "confidence": "firm"
+    },
+    {
+      "description": "Prioritize raising money for VCON to support the Strolid business.",
+      "decidedBy": [
+        "Vinnie Micciche"
+      ],
+      "topic": "VCON-fundraising",
+      "confidence": "firm"
+    },
+    {
+      "description": "Adopt an 'agents' approach for AI product development, focusing on specific functionalities.",
+      "decidedBy": [
+        "Matt Watson",
+        "Vinnie Micciche"
+      ],
+      "topic": "AI-product-development-strategy",
+      "confidence": "firm"
+    },
+    {
+      "description": "Proceed with the plan to start testing a chat widget on dealer websites.",
+      "decidedBy": [
+        "Matt Watson",
+        "Vinnie Micciche"
+      ],
+      "topic": "chat-widget-testing",
+      "confidence": "firm"
+    }
+  ],
+  "actionItems": [
+    {
+      "task": "Talk to Perry about the need to watch expenses closely.",
+      "owner": "Vinnie Micciche",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "financial-management",
+        "description": "Perry is aware of the need for tighter expense control."
+      }
+    },
+    {
+      "task": "Frame the new company vision and strategy to the internal team.",
+      "owner": "Vinnie Micciche",
+      "deadline": "Before Wednesday/Thursday meetings",
+      "expectedOutcome": {
+        "system": "internal-communication",
+        "description": "Team understands the strategic shift towards AI and new product direction."
+      }
+    },
+    {
+      "task": "Identify and prioritize the shortest path for early AI product wins.",
+      "owner": "Matt Watson",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "product-roadmap",
+        "description": "Clear roadmap for initial AI feature development and deployment."
+      }
+    },
+    {
+      "task": "Build AI tools one at a time, starting with inventory, then appointment scheduling and payments.",
+      "owner": "Sergey Lyapustin",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "product-development",
+        "description": "Modular AI applications integrated into the platform."
+      }
+    }
+  ],
+  "topicsDiscussed": [
+    "VCON-show-sponsorship",
+    "expense-management",
+    "BDC-churn-issues",
+    "VCON-fundraising",
+    "IETF-conference-travel",
+    "LLM-impact-on-automotive-retail",
+    "Strolid-GPT-capabilities",
+    "website-traffic-decline",
+    "digital-retailing-tools-future",
+    "LLM-as-marketplaces",
+    "Strolid-AI-transformation",
+    "dealer-co-pilot-concept",
+    "dealer-data-ownership",
+    "AI-product-development-strategy",
+    "customer-journey-integration",
+    "LLM-to-dealer-handoff",
+    "Strolid-as-trust-layer",
+    "conversational-CRM",
+    "agentic-AI-applications"
+  ],
+  "tensions": [
+    "Vinnie expressed concern about serious BDC churn problems and impending cash flow issues.",
+    "Vinnie highlighted the potential elimination of website traffic and existing digital retailing tools by LLMs.",
+    "Vinnie noted the current disconnection in the customer journey from LLMs to dealers, leading to frustration.",
+    "Michael Donovan questioned the data source for Strolid acting as a 'trust layer' for LLMs.",
+    "Michael Donovan raised concerns about historically low form conversion rates on automotive websites."
+  ],
+  "referencesToPast": [
+    "Vinnie mentioned almost building a digital retailing tool in 2019.",
+    "Vinnie recalled almost building a chat platform when talking to Ford and Toyota.",
+    "Vinnie referred to previous focus on infrastructure like VCON and Conserver.",
+    "Vinnie mentioned David Rosenberg's past description of Strolid GPT as a 'dealer MRI'.",
+    "Vinnie referenced Thomas Howe's prior discussions about 'co-pilots'.",
+    "Vinnie mentioned his past opposition to digital retailing tools.",
+    "Vinnie referred to discussions with Kevin about unlocking data within conversations.",
+    "Vinnie recalled David Rosenberg's process around Darwin in his showroom.",
+    "Vinnie mentioned Perry's ongoing assertion that Strolid is an AI company."
+  ],
+  "contributions": [
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "LLM-impact-on-automotive-retail",
+      "description": "Presented the idea that LLMs like Strolid GPT can answer complex customer questions.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "LLM-as-marketplaces",
+      "description": "Proposed the concept of LLMs evolving into marketplaces, diminishing website traffic.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "Strolid-AI-transformation",
+      "description": "Introduced the vision of Strolid becoming an 'AIBDC' with 'Dealer Co-Pilot' and 'Dealer Brain'.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "Strolid-as-trust-layer",
+      "description": "Suggested Strolid could act as middleware, connecting LLMs to dealers securely.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Matt Watson",
+      "topic": "AI-product-development-strategy",
+      "description": "Advocated for building 'agents' that work together for AI product development.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Matt Watson",
+      "topic": "AI-product-development-strategy",
+      "description": "Suggested focusing on the shortest path for early AI wins.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Joe Furnari",
+      "topic": "closed-loop-conversational-stack",
+      "description": "Highlighted the advantage of a full end-to-end closed-loop conversational stack.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Joe Furnari",
+      "topic": "business-benefits",
+      "description": "Identified quick wins, faster response times, better leads, and a bigger TAM as benefits.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Joe Furnari",
+      "topic": "AI-product-development-strategy",
+      "description": "Recommended piloting the new approach with a small number of dealers for feedback.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Thomas Howe",
+      "topic": "VCON-show-logistics",
+      "description": "Provided details on VCON show dates, locations, and sponsorship costs.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "completed-success"
+    },
+    {
+      "person_name": "Thomas Howe",
+      "topic": "IETF-conference-travel",
+      "description": "Shared information about the IETF conference in China being significantly cheaper.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "completed-success"
+    },
+    {
+      "person_name": "Mike Sullivan",
+      "topic": "agentic-AI-applications",
+      "description": "Explained LLMs as part of an infrastructure feeding into functional AI applications.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Mike Sullivan",
+      "topic": "AI-implementation-strategy",
+      "description": "Suggested mapping the buyer journey to identify areas for AI application.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Sergey Lyapustin",
+      "topic": "inventory-data-access",
+      "description": "Stated Strolid's strength is access to inventory data for dealerships.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Sergey Lyapustin",
+      "topic": "modular-AI-development",
+      "description": "Proposed building AI tools one at a time, starting with inventory, then scheduling.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    }
+  ],
+  "participation": [
+    {
+      "person_name": "Vinnie Micciche",
+      "words_spoken": 1500,
+      "participation_percentage": 55.0,
+      "level": "HIGH"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "words_spoken": 300,
+      "participation_percentage": 11.0,
+      "level": "MEDIUM"
+    },
+    {
+      "person_name": "Thomas Howe",
+      "words_spoken": 250,
+      "participation_percentage": 9.0,
+      "level": "MEDIUM"
+    },
+    {
+      "person_name": "Matt Watson",
+      "words_spoken": 180,
+      "participation_percentage": 6.5,
+      "level": "MEDIUM"
+    },
+    {
+      "person_name": "Joe Furnari",
+      "words_spoken": 220,
+      "participation_percentage": 8.0,
+      "level": "MEDIUM"
+    },
+    {
+      "person_name": "Mike Sullivan",
+      "words_spoken": 200,
+      "participation_percentage": 7.5,
+      "level": "MEDIUM"
+    },
+    {
+      "person_name": "Sergey Lyapustin",
+      "words_spoken": 80,
+      "participation_percentage": 3.0,
+      "level": "LOW"
+    },
+    {
+      "person_name": "Jason Branham",
+      "words_spoken": 20,
+      "participation_percentage": 0.7,
+      "level": "LOW"
+    },
+    {
+      "person_name": "Shawna Behen",
+      "words_spoken": 5,
+      "participation_percentage": 0.2,
+      "level": "NONE"
+    }
+  ],
+  "durationMinutes": null
+}

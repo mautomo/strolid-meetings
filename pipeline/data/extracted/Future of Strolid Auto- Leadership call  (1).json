@@ -1,0 +1,263 @@
+{
+  "meetingId": "strolid-auto-leadership-20240315",
+  "title": "Future of Strolid Auto - Leadership Call",
+  "date": "2024-03-15",
+  "series": "Strolid Auto Strategy",
+  "type": "leadership",
+  "attendees": [
+    "Vinnie Micciche",
+    "Michael Donovan",
+    "Joe Furnari",
+    "Paulo Trovao",
+    "Jason Branham",
+    "Matt Watson",
+    "Sergey",
+    "Sophia",
+    "Jake",
+    "Link"
+  ],
+  "summary": "This meeting aligned Strolid Auto leadership on a clear, staged rollout plan for Automotive Copilot and Dealer MRI. The plan focuses on making Copilot indispensable for dealers, turning Dealer MRI into the conversation brain, and positioning Strolid Auto to connect external LLM traffic. It outlines four phases: standing up Copilot, making Dealer MRI the daily brain, turning Copilot into a network connector, and finally, positioning Copilot for LLM integration. The goal is to evolve Strolid Auto into the conversation CRM for auto retail, linking shoppers, dealers, OEMs, and LLMs.",
+  "decisions": [
+    {
+      "description": "Align Strolid Auto leadership on a clear, staged rollout plan.",
+      "decidedBy": [],
+      "topic": "strolid-auto-rollout-plan",
+      "confidence": "firm"
+    },
+    {
+      "description": "Make Automotive Copilot indispensable inside dealers.",
+      "decidedBy": [],
+      "topic": "automotive-copilot-value",
+      "confidence": "firm"
+    },
+    {
+      "description": "Turn Dealer MRI into the \"conversation brain\" for groups and rooftops.",
+      "decidedBy": [],
+      "topic": "dealer-mri-strategic-positioning",
+      "confidence": "firm"
+    },
+    {
+      "description": "Position to connect external LLM traffic to Copilot and dealers.",
+      "decidedBy": [],
+      "topic": "llm-integration-strategy",
+      "confidence": "firm"
+    },
+    {
+      "description": "Choose 3-5 initial pilot partners for Phase 1.",
+      "decidedBy": [],
+      "topic": "pilot-partner-selection",
+      "confidence": "firm"
+    },
+    {
+      "description": "Define Copilot v1 scope to be tight, focusing on one surface per pilot.",
+      "decidedBy": [],
+      "topic": "copilot-v1-scope",
+      "confidence": "firm"
+    },
+    {
+      "description": "Implement Copilot and integrate with existing dealer workflows.",
+      "decidedBy": [],
+      "topic": "copilot-implementation",
+      "confidence": "firm"
+    },
+    {
+      "description": "Instrument results for each pilot to track key metrics.",
+      "decidedBy": [],
+      "topic": "performance-instrumentation",
+      "confidence": "firm"
+    },
+    {
+      "description": "Deploy MRI to same pilots + a few more in Phase 2.",
+      "decidedBy": [],
+      "topic": "dealer-mri-deployment",
+      "confidence": "firm"
+    },
+    {
+      "description": "Make MRI part of the weekly operating rhythm for customers.",
+      "decidedBy": [],
+      "topic": "dealer-mri-adoption",
+      "confidence": "firm"
+    },
+    {
+      "description": "Productize Copilot API (Network Mode) for OEMs/portals in Phase 2.",
+      "decidedBy": [],
+      "topic": "copilot-network-mode",
+      "confidence": "firm"
+    },
+    {
+      "description": "Define \"Automotive Intent Handoff\" spec for LLM integration in Phase 3.",
+      "decidedBy": [],
+      "topic": "automotive-intent-handoff",
+      "confidence": "firm"
+    }
+  ],
+  "actionItems": [
+    {
+      "task": "Check if Dealermri.com and Automotivecopilot.com are in use by others.",
+      "owner": "Jamie",
+      "deadline": null,
+      "expectedOutcome": null
+    },
+    {
+      "task": "Choose 3-5 initial pilot partners for Copilot deployment.",
+      "owner": "Unassigned",
+      "deadline": "Next 1-2 months",
+      "expectedOutcome": null
+    },
+    {
+      "task": "Define Copilot v1 scope (surface and capabilities).",
+      "owner": "Unassigned",
+      "deadline": "Next 1-2 months",
+      "expectedOutcome": null
+    },
+    {
+      "task": "Implement Copilot and integrate with dealer workflows.",
+      "owner": "Unassigned",
+      "deadline": "Next 1-2 months",
+      "expectedOutcome": null
+    },
+    {
+      "task": "Instrument results for Copilot pilots and document case studies.",
+      "owner": "Unassigned",
+      "deadline": "Next 1-2 months",
+      "expectedOutcome": null
+    },
+    {
+      "task": "Deploy MRI to pilot dealers and additional stores.",
+      "owner": "Unassigned",
+      "deadline": "Next 1-2 months",
+      "expectedOutcome": null
+    },
+    {
+      "task": "Define simple cadence for MRI customers (weekly review, daily work list).",
+      "owner": "Unassigned",
+      "deadline": "Next 1-2 months",
+      "expectedOutcome": null
+    },
+    {
+      "task": "Update internal ops for BDC/CS managers to use MRI.",
+      "owner": "Unassigned",
+      "deadline": "Next 1-2 months",
+      "expectedOutcome": null
+    },
+    {
+      "task": "Productize Automotive Copilot API (Network Mode).",
+      "owner": "Unassigned",
+      "deadline": "6 to 18 months",
+      "expectedOutcome": null
+    },
+    {
+      "task": "Land 1-2 OEM/portal/finance pilots for Network Mode.",
+      "owner": "Unassigned",
+      "deadline": "6 to 18 months",
+      "expectedOutcome": null
+    },
+    {
+      "task": "Define and publish \"Automotive Intent Handoff\" spec.",
+      "owner": "Unassigned",
+      "deadline": "18 to 30+ months",
+      "expectedOutcome": null
+    },
+    {
+      "task": "Wrap Copilot API with LLM-friendly developer docs.",
+      "owner": "Unassigned",
+      "deadline": "18 to 30+ months",
+      "expectedOutcome": null
+    }
+  ],
+  "topicsDiscussed": [
+    "strolid-auto-rollout-plan",
+    "automotive-copilot-dealer-mode",
+    "dealer-mri-conversation-brain",
+    "llm-integration-strategy",
+    "vconic-infrastructure",
+    "pilot-partner-selection",
+    "copilot-v1-scope",
+    "crm-integration",
+    "performance-instrumentation",
+    "network-mode-api",
+    "automotive-intent-handoff-spec",
+    "strolid-auto-vision"
+  ],
+  "tensions": [],
+  "referencesToPast": [
+    "We already own Dealermri.com and Automotivecopilot.com",
+    "Already trust us and use our reporting"
+  ],
+  "contributions": [
+    {
+      "person_name": "Strolid Auto Leadership",
+      "topic": "strolid-auto-rollout-plan",
+      "description": "Presented a four-phase rollout plan for Strolid Auto products.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Strolid Auto Leadership",
+      "topic": "automotive-copilot-dealer-mode",
+      "description": "Proposed making Automotive Copilot indispensable inside dealers.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Strolid Auto Leadership",
+      "topic": "dealer-mri-conversation-brain",
+      "description": "Proposed turning Dealer MRI into the \"conversation brain\" for groups.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Strolid Auto Leadership",
+      "topic": "llm-integration-strategy",
+      "description": "Proposed positioning Strolid Auto to connect external LLM traffic.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Strolid Auto Leadership",
+      "topic": "copilot-v1-scope",
+      "description": "Defined tight v1 scope for Copilot, focusing on specific surfaces and capabilities.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Strolid Auto Leadership",
+      "topic": "dealer-mri-v1-definition",
+      "description": "Defined core inputs and outputs for Dealer MRI v1.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Strolid Auto Leadership",
+      "topic": "copilot-network-mode-api",
+      "description": "Proposed productizing Copilot API for OEM/portal integration.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Strolid Auto Leadership",
+      "topic": "automotive-intent-handoff-spec",
+      "description": "Proposed defining a standard payload for LLM automotive intent handoff.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Strolid Auto Leadership",
+      "topic": "strolid-auto-vision",
+      "description": "Articulated the vision of Strolid Auto as the conversation CRM and connector.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "proposed"
+    }
+  ],
+  "participation": [],
+  "durationMinutes": null
+}

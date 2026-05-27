@@ -1,72 +1,93 @@
 {
-  "meetingId": "1-on-1-joe-and-michael-2025-07-01",
-  "title": "1-on-1 Joe and Michael",
+  "meetingId": "CRM-Strategy-1on1-20250701",
+  "title": "CRM Strategy and Operations Alignment",
   "date": "2025-07-01",
   "series": "1-on-1 Joe and Michael",
   "type": "one-on-one",
-  "attendees": ["Joe Furnari", "Michael Donovan"],
-  "summary": "Joe and Michael discussed CRM strategy alignment, leadership approach to Vinnie, sales pipeline discrepancies, and Vinnie's communication style. Michael is now leading the CRM project. They will present a unified leadership recommendation for the CRM design to Vinnie and strategize how to manage Vinnie's communication style.",
+  "attendees": [
+    "Joe Furnari",
+    "Michael Donovan"
+  ],
+  "summary": "Joe Furnari and Michael Donovan discussed CRM strategy, with Michael leading the project. They agreed Jason lacks system understanding and decided on a unified leadership approach for CRM design recommendations to Vinnie. Key issues included sales pipeline discrepancies, managing Vinnie's communication, marketing performance, and company culture/expenses. Action items were set for CRM documentation, meetings, and marketing review.",
   "decisions": [
     {
-      "description": "Michael Donovan is now leading the CRM project.",
-      "decidedBy": ["Joe Furnari", "Michael Donovan"],
+      "description": "Michael Donovan will lead the CRM project.",
+      "decidedBy": [
+        "Joe Furnari",
+        "Michael Donovan"
+      ],
       "topic": "crm-project-leadership",
       "confidence": "firm"
     },
     {
-      "description": "Present a unified leadership approach and recommendation for the CRM design to Vinnie.",
-      "decidedBy": ["Joe Furnari", "Michael Donovan"],
-      "topic": "crm-design-presentation",
+      "description": "Present a unified leadership recommendation for CRM design to Vinnie.",
+      "decidedBy": [
+        "Joe Furnari",
+        "Michael Donovan"
+      ],
+      "topic": "crm-design-strategy",
       "confidence": "firm"
     },
     {
-      "description": "Joe will schedule a recurring weekly meeting to maintain momentum on the CRM project, with the first kickoff meeting outlining project objectives before the call with Zoho.",
-      "decidedBy": ["Joe Furnari"],
-      "topic": "crm-project-meetings",
+      "description": "Joe Furnari will schedule a recurring weekly CRM meeting.",
+      "decidedBy": [
+        "Joe Furnari"
+      ],
+      "topic": "crm-project-management",
       "confidence": "firm"
     },
     {
-      "description": "Michael Donovan will prepare CRM documentation and discuss the Zoho Sales IQ feature with Jason before their joint meeting.",
-      "decidedBy": ["Michael Donovan"],
-      "topic": "crm-documentation",
+      "description": "Michael Donovan to prepare CRM documentation and discuss Zoho Sales IQ with Jason.",
+      "decidedBy": [
+        "Michael Donovan"
+      ],
+      "topic": "crm-documentation-alignment",
+      "confidence": "firm"
+    },
+    {
+      "description": "Company will cover all expenses for Michael Donovan's upcoming offsite.",
+      "decidedBy": [
+        "Joe Furnari"
+      ],
+      "topic": "company-expenses-offsite",
       "confidence": "firm"
     }
   ],
   "actionItems": [
     {
-      "task": "Reconcile June's data and perform a 90-day review of ad spend.",
+      "task": "Perform reconciliation for June and a 90-day review of ad spend.",
       "owner": "Michael Donovan",
       "deadline": null,
       "expectedOutcome": {
-        "system": "other",
-        "description": "Analysis of ad spend and performance metrics."
+        "system": "marketing-performance",
+        "description": "Clearer understanding of June data and ad spend effectiveness."
       }
     },
     {
-      "task": "Outline the objectives for the CRM project kickoff meeting.",
+      "task": "Outline objectives for the CRM project kickoff meeting.",
       "owner": "Joe Furnari",
-      "deadline": null,
+      "deadline": "next week before Zoho call",
       "expectedOutcome": {
-        "system": "google-docs",
-        "description": "Document outlining CRM project goals and deliverables."
+        "system": "crm-project-management",
+        "description": "Defined goals for the CRM project kickoff."
       }
     },
     {
-      "task": "Set up a meeting with Michael Donovan and Jason for Tuesday or Wednesday next week to kickoff the CRM project and define the workflow.",
+      "task": "Set up a meeting with Michael Donovan and Jason to kickoff CRM project and define workflow.",
       "owner": "Joe Furnari",
-      "deadline": null,
+      "deadline": "Tuesday or Wednesday next week",
       "expectedOutcome": {
-        "system": "calendar",
-        "description": "Scheduled meeting with Michael and Jason."
+        "system": "crm-project-management",
+        "description": "Initial alignment and planning for CRM workflow."
       }
     },
     {
-      "task": "Put Zoho Sales IQ documentation together and discuss it with Jason on a call before the 12:30 call.",
+      "task": "Put Zoho Sales IQ documentation together and discuss it with Jason.",
       "owner": "Michael Donovan",
-      "deadline": null,
+      "deadline": "before 12:30 call",
       "expectedOutcome": {
-        "system": "google-docs",
-        "description": "Documentation outlining Zoho Sales IQ functionality."
+        "system": "crm-documentation",
+        "description": "Shared understanding of Zoho Sales IQ features."
       }
     },
     {
@@ -74,49 +95,164 @@
       "owner": "Michael Donovan",
       "deadline": null,
       "expectedOutcome": {
-        "system": "google-docs",
-        "description": "Formatted CRM documentation shared with relevant stakeholders."
+        "system": "crm-documentation",
+        "description": "Standardized and clear CRM documentation."
       }
     },
     {
-      "task": "Have a conversation with Vinnie regarding bonus payments and concerns about job security.",
+      "task": "Have a conversation with Vinnie regarding Michael's concerns about employment threats and bonus.",
       "owner": "Joe Furnari",
       "deadline": null,
       "expectedOutcome": {
-        "system": "other",
-        "description": "Resolution of concerns about bonus payments and job security."
+        "system": "hr-management",
+        "description": "Address Michael's concerns about job security and compensation."
       }
     }
   ],
   "topicsDiscussed": [
-    "crm-strategy",
-    "leadership-alignment",
-    "sales-pipeline",
-    "communication-style",
-    "crm-documentation",
-    "marketing-performance",
-    "seo-performance",
-    "company-culture",
-    "expenses",
-    "zoho-sales-iq",
-    "ad-spend",
-    "bonus-payments",
-    "job-security"
+    "crm-strategy-alignment",
+    "jason's-system-understanding",
+    "crm-design-recommendations",
+    "sales-pipeline-discrepancies",
+    "vinnie's-communication-style",
+    "crm-documentation-workflow",
+    "marketing-seo-performance",
+    "company-culture-expenses",
+    "bonus-payments-job-security",
+    "zoho-sales-iq-feature",
+    "ad-spend-review"
   ],
   "tensions": [
-    "Joe's concern about not being fully aligned with Jason on the CRM strategy.",
-    "Jason's defensiveness and disagreement with Michael's points.",
-    "Michael's frustration over past marketing issues and the performance of Honest SEO.",
-    "Michael's concern about Vinnie's aggressive communication style and job threats.",
-    "Michael's frustration with the manual lead source report and its impact on bonus payments.",
-    "Disagreement about appropriate level of process and simplicity for the CRM."
+    "Jason's defensiveness and disagreement on CRM strategy.",
+    "Jason's limited understanding of CRM systems and processes.",
+    "Vinnie's aggressive communication style and threats of employment.",
+    "Discrepancies and disconnects in the sales pipeline.",
+    "Frustration over Honest SEO performance and YouTube view counts.",
+    "Michael's frustration over manual lead source report and delayed bonus.",
+    "Vinnie's leadership style, which manages through fear.",
+    "Michael's feeling of being disrespected and unprofessional behavior from Vinnie."
   ],
   "referencesToPast": [
-    "Mention of previous points made by Michael Donovan that Jason disagreed with.",
-    "Reference to a marketing standup meeting on May 20th.",
-    "Mention of previous conversation about Honest SEO being a revenue source.",
-    "Reference to a sales call/pipeline call on Monday.",
-    "Discussion of leads brought up last week.",
-    "The YouTube video view counts and the performance of Honest SEO (mentioned in the summary)."
-  ]
+    "Jason disagreed with Michael's points last week.",
+    "Vinnie was animated yesterday.",
+    "Jason's request for simplicity in CRM design three weeks ago.",
+    "May 20th marketing standup went bonkers regarding YouTube video view counts.",
+    "Vinnie repeatedly brings up topics (motorcycle, podcast, Ken's pricing).",
+    "Michael's past experience as a difficult boss and his personal change.",
+    "Michael's brother warned him about the company/Vinnie.",
+    "Discussion about Michael's employment agreement and bonus payment."
+  ],
+  "contributions": [
+    {
+      "person_name": "Michael Donovan",
+      "topic": "jason's-system-understanding",
+      "description": "Jason is out of his element regarding CRM systems and processes.",
+      "type": "idea",
+      "occurrence": "repeated",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Joe Furnari",
+      "topic": "crm-design-strategy",
+      "description": "Unified leadership approach for CRM design recommendations to Vinnie.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "approved"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "sales-pipeline-discrepancies",
+      "description": "Deals in negotiation/demo reverted to 'engaged' status in the pipeline.",
+      "type": "topic",
+      "occurrence": "repeated",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Joe Furnari",
+      "topic": "managing-vinnie's-communication",
+      "description": "Avoid getting animated with Vinnie; focus on demonstrating progress.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Joe Furnari",
+      "topic": "crm-documentation-workflow",
+      "description": "Michael and Jason should align on CRM documentation before involving Vinnie.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "marketing-seo-performance",
+      "description": "Honest SEO is treating the company as a revenue source and needs replacement.",
+      "type": "idea",
+      "occurrence": "repeated",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "ad-spend-review",
+      "description": "Perform a 90-day review of ad spend and reconcile June's data.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "company-culture",
+      "description": "Company culture should start at the top and flow naturally, with flexibility and accountability.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Joe Furnari",
+      "topic": "company-expenses-offsite",
+      "description": "All company-related offsite expenses will be covered by the company.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "approved"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "zoho-sales-iq-feature",
+      "description": "Zoho Sales IQ feature could be a viable tool for the CRM.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Joe Furnari",
+      "topic": "crm-project-management",
+      "description": "Schedule a recurring weekly meeting to maintain CRM project momentum.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "manual-lead-source-report",
+      "description": "Manual lead source report was a poor use of time and frustrating.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "proposed"
+    }
+  ],
+  "participation": [
+    {
+      "person_name": "Joe Furnari",
+      "words_spoken": 1500,
+      "participation_percentage": 43.0,
+      "level": "MEDIUM"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "words_spoken": 2000,
+      "participation_percentage": 57.0,
+      "level": "HIGH"
+    }
+  ],
+  "durationMinutes": 42
 }

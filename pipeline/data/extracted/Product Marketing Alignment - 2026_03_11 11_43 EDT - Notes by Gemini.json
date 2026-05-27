@@ -1,57 +1,153 @@
 {
-  "meetingId": "product-marketing-alignment-2026-03-11",
+  "meetingId": "PMA-20260311",
   "title": "Product Marketing Alignment",
-  "date": "2026-03-11",
+  "date": "Mar 11, 2026",
   "series": "Product Marketing Alignment",
   "type": "marketing",
-  "attendees": ["Michael Donovan", "Matt Watson", "Paulo Trovao"],
-  "summary": "The team discussed improved database access for Snowflake Intelligence to aid in creating data models and look-alike scoring, leading to a commitment from Matt to build a basic dealer data set containing dealer ID, name, group, and key CXM fields like inventory. They also reviewed the current data strategy and scoring model for targeting dealers, including the challenges of data acquisition due to high turnover in the auto industry.",
+  "attendees": [
+    "Michael Donovan",
+    "Matt Watson",
+    "Paulo Trovao"
+  ],
+  "summary": "Database access for Snowflake Intelligence was improved for creating data models, discussing data access methods and look-alike scoring, culminating in a commitment to build a basic data set.",
   "decisions": [
     {
-      "description": "Build a basic Snowflake table containing Dealer ID, name, dealer group, and key CXM fields like inventory count.",
-      "decidedBy": ["Matt Watson"],
-      "topic": "dealer-data-set",
+      "description": "Build a basic Snowflake table with Dealer ID, name, group, and key CXM fields.",
+      "decidedBy": [
+        "Matt Watson",
+        "Michael Donovan"
+      ],
+      "topic": "snowflake-data-set",
+      "confidence": "firm"
+    },
+    {
+      "description": "Use CXM as the source of truth for dealer IDs and group IDs.",
+      "decidedBy": [
+        "Matt Watson",
+        "Michael Donovan"
+      ],
+      "topic": "cxm-source-of-truth",
       "confidence": "firm"
     }
   ],
   "actionItems": [
     {
-      "task": "Show Matt Watson the context regarding the required database access, particularly the dealer groups, CLTV, average lifetime revenue, tenure, active/cancelled dealers, and churn information.",
+      "task": "Show Matt Watson context for required database access, including dealer groups and CLTV.",
       "owner": "Michael Donovan",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "other",
-        "description": "Matt has necessary context for database access needs."
-      }
+      "expectedOutcome": null
     },
     {
-      "task": "Experiment with Snowflake intelligence and build a basic data set/table of dealer facts from the CXM (rooftops section), including dealer ID, name, dealer group, inventory count, and historical data.",
+      "task": "Experiment with Snowflake Intelligence and build a basic dealer facts table from CXM.",
       "owner": "Matt Watson",
       "deadline": null,
       "expectedOutcome": {
-        "system": "snowflake",
-        "description": "Basic dealer data table available in Snowflake."
+        "system": "Snowflake",
+        "description": "Basic table with dealer ID, name, group, inventory count, and historical data."
       }
     }
   ],
   "topicsDiscussed": [
-    "database-access",
-    "snowflake-intelligence",
-    "data-modeling",
-    "data-strategy",
-    "scoring-model",
-    "dealer-targeting",
-    "data-acquisition",
-    "cxm-data",
-    "lead-handling"
+    "snowflake-intelligence-performance",
+    "data-model-creation",
+    "data-access-methods",
+    "look-alike-scoring",
+    "current-data-strategy",
+    "dealer-performance-kpis",
+    "cxm-data-integration",
+    "auto-industry-turnover",
+    "email-acquisition-llm"
   ],
   "tensions": [
-    "Challenges in acquiring accurate dealer data due to high turnover in the auto industry.",
-    "Difficulty in obtaining granular data points, like rooftop numbers and revenue, which are scattered across different systems.",
-    "Concerns about the usefulness and complexity of existing systems like Clay."
+    "High turnover rate in the auto industry (150%) makes data acquisition challenging.",
+    "Critical dealer performance KPIs (leads, show rates) are missing.",
+    "Invoice tracker data is problematic due to name mismatches and lack of parent group association.",
+    "Granular data points are scattered and difficult to obtain.",
+    "Existing systems like Clay are perceived as useless and complex."
   ],
   "referencesToPast": [
-    "Discussion about database access from last week's meeting.",
-    "Past use of ZoomInfo for contacts and emails."
-  ]
+    "Last week we talked about database access.",
+    "Past use of ZoomInfo for contacts and emails.",
+    "Current system was built independently to capture dealerships.",
+    "Invoice tracker data was referenced for dealer information."
+  ],
+  "contributions": [
+    {
+      "person_name": "Matt Watson",
+      "topic": "snowflake-intelligence-external-access",
+      "description": "Suggested Snowflake Intelligence for external access to simplify data model creation.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Matt Watson",
+      "topic": "llm-website-parsing",
+      "description": "Proposed using an LLM to parse websites for email syntax extrapolation.",
+      "type": "idea",
+      "occurrence": "repeated",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "current-data-strategy",
+      "description": "Provided context on current data approach, including CLTV and churn rates.",
+      "type": "topic",
+      "occurrence": "repeated",
+      "status": "pending"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "look-alike-scoring-model",
+      "description": "Explained the scoring model to find look-alike dealers based on seed groups.",
+      "type": "concept",
+      "occurrence": "repeated",
+      "status": "pending"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "dealer-performance-kpis",
+      "description": "Highlighted the lack of critical performance KPIs for current dealers.",
+      "type": "topic",
+      "occurrence": "proposed",
+      "status": "pending"
+    },
+    {
+      "person_name": "Paulo Trovao",
+      "topic": "email-enrichment-techniques",
+      "description": "Confirmed use of inference techniques and research APIs for email validity.",
+      "type": "concept",
+      "occurrence": "repeated",
+      "status": "approved"
+    },
+    {
+      "person_name": "Paulo Trovao",
+      "topic": "scoring-model-evolution",
+      "description": "Confirmed that the scoring model evolves with new variables and enrichment steps.",
+      "type": "concept",
+      "occurrence": "repeated",
+      "status": "pending"
+    }
+  ],
+  "participation": [
+    {
+      "person_name": "Matt Watson",
+      "words_spoken": 1050,
+      "participation_percentage": 45.0,
+      "level": "HIGH"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "words_spoken": 900,
+      "participation_percentage": 40.0,
+      "level": "HIGH"
+    },
+    {
+      "person_name": "Paulo Trovao",
+      "words_spoken": 350,
+      "participation_percentage": 15.0,
+      "level": "MEDIUM"
+    }
+  ],
+  "durationMinutes": 27
 }

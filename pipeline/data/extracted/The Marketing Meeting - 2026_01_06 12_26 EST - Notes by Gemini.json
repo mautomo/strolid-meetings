@@ -1,5 +1,5 @@
 {
-  "meetingId": "the-marketing-meeting-2026-01-06",
+  "meetingId": "marketing-meeting-20260106",
   "title": "The Marketing Meeting",
   "date": "2026-01-06",
   "series": "The Marketing Meeting",
@@ -15,31 +15,24 @@
     "Kevin Breen",
     "Harinder Bhinder"
   ],
-  "summary": "The marketing meeting covered website progress, messaging, and product differentiation, with a focus on conveying a \"human first or AI first\" message for the Straw solution. Vinnie Micciche expressed frustration with the website's progress and directed Michael Donovan to implement the provided content immediately, while Michael Donovan explained the foundational work completed and technical issues with the existing website, leading to tension. The team agreed to reconnect tomorrow to decompress and clarify the scope of work.",
+  "summary": "Participants discussed website progress, messaging, and product differentiation. Vinnie Micciche expressed frustration over website delays, demanding immediate content implementation. Michael Donovan defended foundational work, citing resource constraints and technical issues with the old site. Tensions rose over priorities, leading to an agreement to reconnect tomorrow.",
   "decisions": [
     {
-      "description": "Implement website content with a \"human first or AI first\" message.",
-      "decidedBy": ["Vinnie Micciche"],
-      "topic": "messaging-strategy",
+      "description": "Michael Donovan to immediately implement provided content on the website.",
+      "decidedBy": [
+        "Vinnie Micciche"
+      ],
+      "topic": "website-content-implementation",
       "confidence": "firm"
     },
     {
-      "description": "Build the website with the content provided by Vinnie Micciche.",
-      "decidedBy": ["Vinnie Micciche"],
-      "topic": "website-content",
+      "description": "Michael Donovan and Joe Furnari to reconnect tomorrow to decompress and discuss scope.",
+      "decidedBy": [
+        "Michael Donovan",
+        "Joe Furnari"
+      ],
+      "topic": "follow-up-discussion",
       "confidence": "firm"
-    },
-    {
-      "description": "Reconnect tomorrow to discuss the scope of work.",
-      "decidedBy": ["Michael Donovan", "Joe Furnari"],
-      "topic": "scope-of-work",
-      "confidence": "firm"
-    },
-    {
-      "description": "Focus on refreshing the existing website for a quick win.",
-      "decidedBy": ["Joe Furnari", "Vinnie Micciche"],
-      "topic": "website-refresh",
-      "confidence": "tentative"
     }
   ],
   "actionItems": [
@@ -47,66 +40,139 @@
       "task": "Throw a canvas together for Slack to drop ideas for visual inspiration for the website.",
       "owner": "Michael Donovan",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "slack",
-        "description": "A dedicated Slack channel or canvas filled with visual inspiration for the website design, covering BDC, service, and AI aspects."
-      }
+      "expectedOutcome": null
     },
     {
-      "task": "Work on the social posts and email blast to generate business.",
+      "task": "Work on social posts and email blast to generate business.",
       "owner": "Michael Donovan",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "other",
-        "description": "Scheduled social media posts and email campaigns designed to attract new business and generate leads."
-      }
+      "expectedOutcome": null
     },
     {
-      "task": "Build the website exactly with the content that Vinnie Micciche shared.",
+      "task": "Build the website exactly with the content Vinnie Micciche shared.",
       "owner": "Michael Donovan",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "website",
-        "description": "The website is updated with the exact content provided by Vinnie Micciche, reflecting the intended messaging and product differentiation."
-      }
+      "expectedOutcome": null
     },
     {
-      "task": "Put something together if there is a scope of work that Joe Furnari would like.",
+      "task": "Put something together if there is a scope of work Joe Furnari would like.",
       "owner": "Michael Donovan",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "google-docs",
-        "description": "A document outlining the proposed scope of work, including specific tasks, deadlines, and responsibilities."
-      }
+      "expectedOutcome": null
+    },
+    {
+      "task": "Reconnect tomorrow at some point.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": null
+    },
+    {
+      "task": "Reconnect tomorrow at some point.",
+      "owner": "Joe Furnari",
+      "deadline": null,
+      "expectedOutcome": null
     }
   ],
   "topicsDiscussed": [
     "website-progress",
     "messaging-strategy",
     "product-differentiation",
+    "never-miss-concept",
     "website-visuals",
     "website-momentum",
-    "website-development",
-    "website-refresh",
-    "website-redesign",
-    "timeline-to-nada",
-    "content-implementation",
-    "resource-allocation",
-    "technical-issues",
-    "dealer-websites",
-    "team-dynamics",
-    "scope-of-work"
+    "website-development-status",
+    "website-technical-issues",
+    "website-refresh-vs-redesign",
+    "nada-timeline",
+    "resource-priority-conflict",
+    "team-dynamics"
   ],
   "tensions": [
-    "Vinnie Micciche's frustration over lack of visible website progress.",
-    "Michael Donovan's feeling of being targeted and overwhelmed by low-level tasks.",
-    "Disagreement over the best approach to website improvement (refresh vs. redesign).",
-    "Conflicting priorities between short-term content updates and long-term performance improvements.",
-    "Michael Donovan's concerns about resource constraints and their role as VP of Marketing versus individual contributor."
+    "Vinnie Micciche's growing frustration over lack of visible website progress.",
+    "Michael Donovan feeling targeted and overwhelmed by low-level tasks and resource constraints.",
+    "Disagreement on website strategy: immediate content upload vs. foundational redesign.",
+    "Conflict over priorities: quick wins vs. long-term technical foundation.",
+    "Michael Donovan's frustration about the scope of work being outside his VP role."
   ],
   "referencesToPast": [
-    "Previous discussions about website content (weeks)",
-    "Firing the previous SEO agency",
-    "Four-month timeline since discussions began"
-  ]
+    "Vinnie Micciche mentioned talking about content for weeks.",
+    "Vinnie Micciche referenced a four-month timeline since discussing the website in August.",
+    "Mention of firing the previous SEO agency."
+  ],
+  "contributions": [
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "messaging-strategy",
+      "description": "Emphasized conveying a 'human first or AI first' message for Straw solution.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "product-differentiation",
+      "description": "Positioned Straw as 'the company in between the customer, the AI, and the dealer'.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "product-features",
+      "description": "Developed site content focusing on 'Dealer MRI' and 'Sophia' AI tool.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Jason Branham",
+      "topic": "messaging-strategy",
+      "description": "Strongly supported the 'Never Miss' concept as the core message.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "approved"
+    },
+    {
+      "person_name": "Matt Watson",
+      "topic": "messaging-strategy",
+      "description": "Suggested focusing on solving customer problems by combining AI and human solutions.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "website-visuals",
+      "description": "Expressed need for visual inspiration to represent BDC, service, and AI aspects.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "website-development-status",
+      "description": "Defended work, clarifying foundational framework, navigation, and styling were built.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "website-technical-issues",
+      "description": "Detailed technical difficulties of existing WordPress site, recommending migration.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Joe Furnari",
+      "topic": "website-refresh-vs-redesign",
+      "description": "Supported Michael Donovan's move to refresh the look and feel for greater impact.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    }
+  ],
+  "participation": [],
+  "durationMinutes": null
 }

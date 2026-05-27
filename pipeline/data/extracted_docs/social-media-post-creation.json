@@ -1,0 +1,23 @@
+{
+  "docId": "social-media-post-creation",
+  "title": "Social Media Post Creation",
+  "date": null,
+  "authors": [],
+  "topics": [
+    "social-media",
+    "content-creation",
+    "marketing-hooks",
+    "marketing-strategy",
+    "content-approval",
+    "performance-analysis"
+  ],
+  "summary": "This document outlines the process of creating social media posts using marketing hooks, aiming for streamlined approval by EOY. It details a failure point where initial direction on hook usage was misunderstood, leading to rework, and notes that current posts are underperforming with no priority to fix the strategy.",
+  "text": "social-media-post-creation\n\nOverview\nMarketing Hooks document set (links below)\nVin provided 3 marketing hook documents with several categories & individual hooks that I  used those to create:\npost graphics\ncaption titles\ncaptions\nhashtags\n\nGoal \nHave approved posts through EOY to build a streamlined process.\nNote: Need an updated review process, i.e. Zoho Social --> \"Request Approval\"\n\nFailure Point\nRecently told not to use the marketing hooks as \"copy and paste\" or \"in order\", which was my initial direction and understanding.\nInventory of verbatim posts need to be reworked. \nTime spent in meetings preparing documents instead of reading, rewriting, and updating graphics, caption titles, and captions possibly a factor.\n\n3 Lane Relation\nHaving guidelines on how the marketing hooks could be used for messaging on social, while maintaining consistency across communications, e.g. website, emails, Google Ads, etc.\n\nFrequency\nThe outline I have been provided is 3 social posts per week. \nResults: I have informed Joe that the posts are not performing well (recent data), and that our strategy is flat. \nDirection: Not a priority to fix, posting is the priority.\n---",
+  "category": "marketing-strategy",
+  "peopleInvolved": [
+    "Vin",
+    "Joe"
+  ],
+  "sentiment": "mixed",
+  "sentimentScore": -0.2
+}

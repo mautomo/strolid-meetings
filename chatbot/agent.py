@@ -17,11 +17,12 @@ async def rag_search(
     attendees: list[str] = None,
     start_date: str = None,
     end_date: str = None,
-    topics: list[str] = None
+    topics: list[str] = None,
+    meeting_ids: list[str] = None
 ) -> str:
     """Perform a vector-based semantic search over meeting transcripts and summaries.
     
-    Supports filtering search results by date range, specific individuals, and topics.
+    Supports filtering search results by date range, specific individuals, topics, and specific meeting IDs.
     
     Args:
         query: Semantic query text (e.g. "What did Michael say about website launch delays?").
@@ -29,6 +30,7 @@ async def rag_search(
         start_date: Optional start date filter in YYYY-MM-DD format (inclusive).
         end_date: Optional end date filter in YYYY-MM-DD format (inclusive).
         topics: Optional list of kebab-case topics discussed (e.g. ["website-refresh", "messaging-strategy"]).
+        meeting_ids: Optional list of specific meeting IDs to search within.
         
     Returns:
         A text report containing the top matched transcript passages.
@@ -57,17 +59,33 @@ async def rag_search(
         if topics:
             filters.append("EXISTS (SELECT 1 FROM UNNEST(topics) t WHERE t IN UNNEST(@topics))")
             params.append(bigquery.ArrayQueryParameter("topics", "STRING", topics))
+        if meeting_ids:
+            filters.append("meeting_id IN UNNEST(@meeting_ids)")
+            params.append(bigquery.ArrayQueryParameter("meeting_ids", "STRING", meeting_ids))
             
         where_clause = f"WHERE {' AND '.join(filters)}" if filters else ""
         
+        # If there are filters, pre-filter the table
+        if where_clause:
+            table_expr = f"(SELECT * FROM `{PROJECT_ID}.{DATASET_ID}.embeddings` {where_clause})"
+        else:
+            table_expr = f"`{PROJECT_ID}.{DATASET_ID}.embeddings`"
+            
         sql_query = f"""
         SELECT 
-          chunk_id, meeting_id, date, text, attendees, topics,
-          VECTOR_DISTANCE(embedding, @query_vector, 'COSINE') as distance
-        FROM `{PROJECT_ID}.{DATASET_ID}.embeddings`
-        {where_clause}
-        ORDER BY distance ASC
-        LIMIT 5
+          base.chunk_id as chunk_id, 
+          base.meeting_id as meeting_id, 
+          base.date as date, 
+          base.text as text, 
+          base.attendees as attendees, 
+          base.topics as topics,
+          distance
+        FROM VECTOR_SEARCH(
+          {table_expr},
+          'embedding',
+          (SELECT @query_vector as embedding),
+          top_k => 5
+        )
         """
         
         job_config = bigquery.QueryJobConfig(query_parameters=params)
@@ -75,6 +93,7 @@ async def rag_search(
         results = list(query_job.result())
         
         # Filter results by similarity score >= 0.55
+        # VECTOR_SEARCH distance for COSINE is cosine distance (1 - cosine similarity).
         filtered_results = []
         for row in results:
             similarity = 1.0 - row["distance"]
@@ -86,7 +105,7 @@ async def rag_search(
             
         output = [f"Top semantic matches in the transcript repository for query: '{query}'\n"]
         for idx, (row, similarity) in enumerate(filtered_results):
-            date_str = row["date"].strftime("%Y-%m-%d") if hasattr(row["date"], "strftime") else str(row["date"])
+            date_str = row["date"].strftime("%Y-%m-%d") if hasattr(row["date"], "strftime") and row["date"] else str(row["date"])
             output.append(
                 f"[{idx+1}] Meeting: {row['meeting_id']} | Date: {date_str} | Similarity: {similarity:.2f}\n"
                 f"Attendees: {', '.join(row['attendees'])}\n"
@@ -96,13 +115,17 @@ async def rag_search(
             )
         return "\n".join(output)
     except Exception as e:
+        import traceback
+        traceback.print_exc()
+        print(f"Error executing RAG search: {e}")
         return f"Error executing RAG search: {e}"
 
 async def get_analytics_summary(
     individual_name: str = None,
     topic: str = None,
     start_date: str = None,
-    end_date: str = None
+    end_date: str = None,
+    meeting_ids: list[str] = None
 ) -> str:
     """Query the relational data warehouse to fetch quantitative meeting analytics,
     sentiment records, and calculate performance/relationship scores.
@@ -112,6 +135,7 @@ async def get_analytics_summary(
         topic: Optional kebab-case topic to analyze (e.g. "messaging-strategy").
         start_date: Optional start date filter in YYYY-MM-DD.
         end_date: Optional end date filter in YYYY-MM-DD.
+        meeting_ids: Optional list of specific meeting IDs to restrict analysis.
         
     Returns:
         A text report of analytics metrics, scores, and relationship trends.
@@ -127,6 +151,9 @@ async def get_analytics_summary(
         if end_date:
             filters.append("date <= @end_date")
             params.append(bigquery.ScalarQueryParameter("end_date", "DATE", end_date))
+        if meeting_ids:
+            filters.append("meeting_id IN UNNEST(@meeting_ids)")
+            params.append(bigquery.ArrayQueryParameter("meeting_ids", "STRING", meeting_ids))
             
         where_meetings = f"WHERE {' AND '.join(filters)}" if filters else ""
         
@@ -159,6 +186,9 @@ async def get_analytics_summary(
         if end_date:
             decisions_filters.append("meeting_date <= @end_date")
             decisions_params.append(bigquery.ScalarQueryParameter("end_date", "DATE", end_date))
+        if meeting_ids:
+            decisions_filters.append("meeting_id IN UNNEST(@meeting_ids)")
+            decisions_params.append(bigquery.ArrayQueryParameter("meeting_ids", "STRING", meeting_ids))
             
         if individual_name:
             decisions_filters.append("@individual IN UNNEST(decided_by)")
@@ -194,6 +224,9 @@ async def get_analytics_summary(
         if end_date:
             action_filters.append("meeting_date <= @end_date")
             action_params.append(bigquery.ScalarQueryParameter("end_date", "DATE", end_date))
+        if meeting_ids:
+            action_filters.append("meeting_id IN UNNEST(@meeting_ids)")
+            action_params.append(bigquery.ArrayQueryParameter("meeting_ids", "STRING", meeting_ids))
             
         if individual_name:
             action_filters.append("owner = @individual")
@@ -267,6 +300,207 @@ async def get_analytics_summary(
     except Exception as e:
         return f"Error executing analytics: {e}"
 
+async def get_performance_report(
+    scope: str,
+    timeframe: str = None,
+    metrics: list[str] = None,
+    meeting_ids: list[str] = None
+) -> str:
+    """Analyze execution metrics (short, mid, and long-term) and company performance trends
+    using data from contributions, action items, decisions, and document metadata.
+    
+    Args:
+        scope: Either 'plan_execution' or 'company_performance'.
+        timeframe: Optional timeframe filter: 'short-term', 'mid-term', 'long-term', or 'all'.
+        metrics: Optional list of specific metrics to analyze: 'revenue', 'marketing', 'operations', 'churn', 'speed-to-market'.
+        meeting_ids: Optional list of specific meeting IDs to restrict analysis.
+        
+    Returns:
+        A report summarizing the performance trends, contributions, and execution scorecard.
+    """
+    try:
+        # Reference date for timeframes is 2026-05-25 based on metadata
+        # Short-term: >= 2026-04-25
+        # Mid-term: between 2026-02-25 and 2026-04-25
+        # Long-term: < 2026-02-25
+        date_filter = ""
+        if timeframe == "short-term":
+            date_filter = "AND {field} >= '2026-04-25'"
+        elif timeframe == "mid-term":
+            date_filter = "AND {field} >= '2026-02-25' AND {field} < '2026-04-25'"
+        elif timeframe == "long-term":
+            date_filter = "AND {field} < '2026-02-25'"
+
+        report_lines = []
+        
+        # Build query params if meeting_ids are supplied
+        params = []
+        if meeting_ids:
+            params.append(bigquery.ArrayQueryParameter("meeting_ids", "STRING", meeting_ids))
+        job_config = bigquery.QueryJobConfig(query_parameters=params) if params else None
+        
+        if scope == "plan_execution":
+            report_lines.append("=== STRATEGIC PLAN EXECUTION REPORT ===")
+            if timeframe:
+                report_lines.append(f"Timeframe: {timeframe.upper()}")
+            report_lines.append("")
+
+            # 1. Action Items completion rates
+            ai_date_filter = date_filter.format(field="meeting_date")
+            ai_meeting_filter = "AND meeting_id IN UNNEST(@meeting_ids)" if meeting_ids else ""
+            sql_actions = f"""
+            SELECT 
+              status, COUNT(*) as count
+            FROM `{PROJECT_ID}.{DATASET_ID}.action_items`
+            WHERE 1=1 {ai_date_filter} {ai_meeting_filter}
+            GROUP BY status
+            """
+            job = bq_client.query(sql_actions, job_config=job_config)
+            actions_data = {row["status"]: row["count"] for row in job.result()}
+            
+            total_actions = sum(actions_data.values())
+            completed = actions_data.get("done", 0)
+            open_items = actions_data.get("open", 0)
+            delayed = actions_data.get("recurring", 0)
+            abandoned = actions_data.get("abandoned", 0)
+            
+            completion_rate = (completed / total_actions * 100) if total_actions > 0 else 0.0
+            
+            report_lines.append("--- Action Item Execution ---")
+            report_lines.append(f"Total Actions Assigned: {total_actions}")
+            report_lines.append(f"  Completed: {completed} ({completion_rate:.1f}%)")
+            report_lines.append(f"  Open/In Progress: {open_items}")
+            report_lines.append(f"  Recurring/Delayed (Zombie/delayed loops): {delayed}")
+            report_lines.append(f"  Abandoned: {abandoned}")
+            report_lines.append("")
+
+            # 2. Contributions and Lifecycle
+            contrib_date_filter = date_filter.format(field="meeting_date")
+            contrib_meeting_filter = "AND meeting_id IN UNNEST(@meeting_ids)" if meeting_ids else ""
+            sql_contribs = f"""
+            SELECT 
+              occurrence, status, COUNT(*) as count
+            FROM `{PROJECT_ID}.{DATASET_ID}.contributions`
+            WHERE 1=1 {contrib_date_filter} {contrib_meeting_filter}
+            GROUP BY occurrence, status
+            """
+            job = bq_client.query(sql_contribs, job_config=job_config)
+            contribs = list(job.result())
+            
+            first_time_count = sum(row["count"] for row in contribs if row["occurrence"] == "first time")
+            repeated_count = sum(row["count"] for row in contribs if row["occurrence"] == "repeated")
+            
+            approved = sum(row["count"] for row in contribs if row["status"] == "approved")
+            denied = sum(row["count"] for row in contribs if row["status"] == "denied")
+            success = sum(row["count"] for row in contribs if row["status"] == "completed-success")
+            pending = sum(row["count"] for row in contribs if row["status"] in ["proposed", "pending"])
+            
+            report_lines.append("--- Contribution Lifecycle ---")
+            report_lines.append(f"First-time Contributions: {first_time_count}")
+            report_lines.append(f"Repeated/Revisited Topics: {repeated_count}")
+            report_lines.append("Status Breakdown:")
+            report_lines.append(f"  Approved/Accepted: {approved}")
+            report_lines.append(f"  Denied/Rejected: {denied}")
+            report_lines.append(f"  Completed with Success: {success}")
+            report_lines.append(f"  Pending/Proposed: {pending}")
+            report_lines.append("")
+
+            # 3. Decisions
+            decisions_meeting_filter = "AND meeting_id IN UNNEST(@meeting_ids)" if meeting_ids else ""
+            sql_decisions = f"""
+            SELECT 
+              meeting_date, description, topic, confidence
+            FROM `{PROJECT_ID}.{DATASET_ID}.decisions`
+            WHERE 1=1 {ai_date_filter} {decisions_meeting_filter}
+            ORDER BY meeting_date DESC
+            LIMIT 5
+            """
+            job = bq_client.query(sql_decisions, job_config=job_config)
+            decisions = list(job.result())
+            
+            report_lines.append("--- Key Decisions & Trajectory ---")
+            if decisions:
+                for idx, d in enumerate(decisions):
+                    date_str = d["meeting_date"].strftime("%Y-%m-%d") if hasattr(d["meeting_date"], "strftime") else str(d["meeting_date"])
+                    report_lines.append(f"[{idx+1}] {date_str} | Topic: {d['topic']} ({d['confidence']})")
+                    report_lines.append(f"    Decision: {d['description']}")
+            else:
+                report_lines.append("No decisions recorded in this timeframe.")
+                
+        elif scope == "company_performance":
+            report_lines.append("=== COMPANY PERFORMANCE ANALYSIS ===")
+            if metrics:
+                report_lines.append(f"Selected Areas: {', '.join(metrics).upper()}")
+            report_lines.append("")
+            
+            doc_date_filter = date_filter.format(field="date")
+            metric_clauses = []
+            if metrics:
+                for m in metrics:
+                    m_lower = m.lower().strip()
+                    metric_clauses.append(f"LOWER(topics_str) LIKE '%{m_lower}%' OR LOWER(category) LIKE '%{m_lower}%'")
+            
+            metric_filter = f"AND ({' OR '.join(metric_clauses)})" if metric_clauses else ""
+            
+            sql_docs = f"""
+            WITH doc_topics AS (
+              SELECT *, ARRAY_TO_STRING(topics, ', ') as topics_str
+              FROM `{PROJECT_ID}.{DATASET_ID}.documents`
+            )
+            SELECT 
+              title, date, category, summary, sentiment, sentiment_score
+            FROM doc_topics
+            WHERE 1=1 {doc_date_filter} {metric_filter}
+            ORDER BY date DESC
+            LIMIT 6
+            """
+            job = bq_client.query(sql_docs)
+            docs = list(job.result())
+            
+            avg_score = sum(d["sentiment_score"] for d in docs) / len(docs) if docs else 0.0
+            
+            report_lines.append("--- Document Intelligence Summary ---")
+            report_lines.append(f"Documents Analyzed: {len(docs)}")
+            report_lines.append(f"Average Sentiment Score: {avg_score:.2f}")
+            report_lines.append("")
+            
+            report_lines.append("--- Performance Area Details ---")
+            if docs:
+                for idx, d in enumerate(docs):
+                    d_date = d["date"].strftime("%Y-%m-%d") if d["date"] else "N/A"
+                    report_lines.append(f"[{idx+1}] {d['title']} | Date: {d_date} | Category: {d['category']}")
+                    report_lines.append(f"    Sentiment: {d['sentiment'].upper()} (Score: {d['sentiment_score']:.2f})")
+                    report_lines.append(f"    Summary: {d['summary']}")
+                    report_lines.append("")
+            else:
+                report_lines.append("No performance documents match the selected filters.")
+
+            # Related meetings
+            meeting_date_filter = date_filter.format(field="date")
+            meeting_meeting_filter = "AND meeting_id IN UNNEST(@meeting_ids)" if meeting_ids else ""
+            sql_meetings = f"""
+            SELECT 
+              title, date, summary, sentiment_score, sentiment_label
+            FROM `{PROJECT_ID}.{DATASET_ID}.meetings`
+            WHERE 1=1 {meeting_date_filter} {meeting_meeting_filter}
+            ORDER BY date DESC
+            LIMIT 3
+            """
+            job = bq_client.query(sql_meetings, job_config=job_config)
+            meetings = list(job.result())
+            
+            if meetings:
+                report_lines.append("--- Related Meeting Insights ---")
+                for m in meetings:
+                    m_date = m["date"].strftime("%Y-%m-%d") if hasattr(m["date"], "strftime") else str(m["date"])
+                    report_lines.append(f"- {m_date} | {m['title']} (Sentiment: {m['sentiment_label']})")
+                    report_lines.append(f"  Summary: {m['summary']}")
+                    report_lines.append("")
+                    
+        return "\n".join(report_lines)
+    except Exception as e:
+        return f"Error compiling performance report: {e}"
+
 async def generate_presentation_artifact(
     title: str,
     subtitle: str,
@@ -320,7 +554,8 @@ async def generate_timeline_artifact(
     title: str,
     topic: str = None,
     start_date: str = None,
-    end_date: str = None
+    end_date: str = None,
+    meeting_ids: list[str] = None
 ) -> str:
     """Query Decisions, Actions, and Tensions chronologically and build a structured timeline UI payload.
     
@@ -329,6 +564,7 @@ async def generate_timeline_artifact(
         topic: Optional kebab-case topic to limit timeline items.
         start_date: Optional start date filter (YYYY-MM-DD).
         end_date: Optional end date filter (YYYY-MM-DD).
+        meeting_ids: Optional list of specific meeting IDs to restrict timeline items.
         
     Returns:
         A JSON confirmation string containing the timeline events array.
@@ -346,6 +582,9 @@ async def generate_timeline_artifact(
         if topic:
             decisions_filters.append("topic = @topic")
             params.append(bigquery.ScalarQueryParameter("topic", "STRING", topic))
+        if meeting_ids:
+            decisions_filters.append("meeting_id IN UNNEST(@meeting_ids)")
+            params.append(bigquery.ArrayQueryParameter("meeting_ids", "STRING", meeting_ids))
             
         where = f"WHERE {' AND '.join(decisions_filters)}" if decisions_filters else ""
         
@@ -479,18 +718,27 @@ def build_agent() -> Agent:
     instruction = (
         "You are the Strolid Meeting Intelligence Assistant, a strategic chatbot "
         "designed to help teams review meeting transcripts, analyze relationship dynamics, "
-        "and track commitments.\n\n"
+        "track commitments, and generate performance scorecards.\n\n"
         "You have access to tools:\n"
         "1. `rag_search` to query semantic meeting transcripts. ALWAYS use this when asked about "
         "what people said, debates, transcript specifics, or historical context.\n"
         "2. `get_analytics_summary` to pull meeting counts, decision ratios, and reliability statistics "
         "from the data warehouse.\n"
-        "3. `generate_presentation_artifact` to create structured presentation slide decks for the user.\n"
-        "4. `generate_timeline_artifact` to create chronological event timelines.\n"
-        "5. `generate_scorecard_artifact` to create structured reliability scorecards for individuals or topics.\n"
-        "6. `generate_comparison_artifact` to create side-by-side comparison analyses between leaders.\n\n"
-        "When the user asks to compile a timeline, slide presentation, scorecard, or comparison, call the corresponding "
-        "artifact tool. Emissary payloads will be picked up by the UI React client to display cards."
+        "3. `get_performance_report` to analyze company performance trends (revenue, marketing, operations, "
+        "churn, speed-to-market) or short, mid, and long-term execution of plans (strategies, campaigns, updates, releases).\n"
+        "4. `generate_presentation_artifact` to create structured presentation slide decks for the user.\n"
+        "5. `generate_timeline_artifact` to create chronological event timelines.\n"
+        "6. `generate_scorecard_artifact` to create structured reliability scorecards for individuals or topics.\n"
+        "7. `generate_comparison_artifact` to create side-by-side comparison analyses between leaders.\n\n"
+        "CRITICAL - ACTIVE FILTERS: System context parameters (such as date ranges or a list of specific meeting ID filters) "
+        "will be supplied in the prompt as a '[System Context - Active Filters: ...]' prefix. "
+        "You MUST apply these filters as arguments to any query tools you call (e.g. meeting_ids list, start_date, end_date) "
+        "unless the user explicitly requests different filters or queries.\n\n"
+        "CRITICAL - CANVAS ARTIFACTS: When you call an artifact generation tool (e.g., `generate_presentation_artifact`, "
+        "`generate_timeline_artifact`, `generate_scorecard_artifact`, `generate_comparison_artifact`), "
+        "do NOT write or repeat the raw JSON block in your final text response. Simply provide a helpful, natural "
+        "text summary or explanation to the user. The system will automatically capture the tool's JSON output "
+        "and display the interactive canvas card on the right side."
     )
     
     return Agent(
@@ -501,6 +749,7 @@ def build_agent() -> Agent:
         tools=[
             rag_search, 
             get_analytics_summary, 
+            get_performance_report,
             generate_presentation_artifact, 
             generate_timeline_artifact,
             generate_scorecard_artifact,

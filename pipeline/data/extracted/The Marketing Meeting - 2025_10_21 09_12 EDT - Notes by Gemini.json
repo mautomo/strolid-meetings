@@ -1,92 +1,303 @@
 {
-  "meetingId": "the-marketing-meeting-2025-10-21",
+  "meetingId": "marketing-20251021",
   "title": "The Marketing Meeting",
   "date": "2025-10-21",
-  "series": "The Marketing Meeting",
+  "series": "Marketing Meeting Series",
   "type": "marketing",
   "attendees": [
     "Vinnie Micciche",
     "Joe Furnari",
     "Michael Donovan",
-    "Ziad Al Khatib",
     "Jason Branham",
-    "Matt Watson",
-    "Thomas Howe"
+    "Matt Watson"
   ],
-  "summary": "The meeting focused on refining the content strategy, emphasizing a \"human-led, AI-assisted\" approach for sales, and initiating a LinkedIn pilot program featuring Reed and Gus to leverage personal connections. Participants discussed concerns about lead equity among team members, maximizing reach through shared content, and the need for validated, timely content to address immediate visibility and engagement goals. Matt Watson offered to create a visual write-up regarding portal access to call records for Jason Branham's team.",
+  "summary": "Matt Watson offered to create a visual guide for portal access to call records. Michael Donovan launched a LinkedIn pilot with Reed and Gus, focusing on human-centric sales content. Jason Branham raised concerns about lead distribution equity. Joe Furnari and Matt Watson questioned lead capture via URLs and post duplication. Michael emphasized authority over direct leads and addressing outdated content. Joe urged quick content release. Vinnie Micciche proposed a chatbot for dealerships, with Michael agreeing to a human-led, AI-assisted approach.",
   "decisions": [
     {
-      "description": "Matt Watson will create a visual write-up for Jason Branham's team regarding portal access to call records.",
-      "decidedBy": ["Matt Watson"],
-      "topic": "call-records-portal-access",
+      "description": "Adopt a human-led, AI-assisted approach for sales.",
+      "decidedBy": [
+        "Michael Donovan",
+        "Vinnie Micciche"
+      ],
+      "topic": "human-ai-interaction-sales",
       "confidence": "firm"
     },
     {
-      "description": "Initiate a pilot program for LinkedIn posts featuring Reed and Gus, publishing two posts per week for three weeks, focusing on human-centric interactions in sales.",
-      "decidedBy": ["Michael Donovan"],
-      "topic": "linkedin-pilot-program",
+      "description": "Initiate LinkedIn pilot program with Reed and Gus for social posts.",
+      "decidedBy": [
+        "Michael Donovan"
+      ],
+      "topic": "linkedin-social-media-strategy",
       "confidence": "firm"
     },
     {
-      "description": "Team members should share, like, or comment on each other's LinkedIn posts instead of direct duplication.",
-      "decidedBy": ["Michael Donovan"],
-      "topic": "linkedin-post-engagement",
-      "confidence": "tentative"
-    },
-    {
-      "description": "Develop a chatbot to assist car dealerships in answering customer inquiries, with human intervention for complex questions, using a \"human-led, AI-assisted\" approach.",
-      "decidedBy": ["Vinnie Micciche", "Michael Donovan"],
-      "topic": "chatbot-development",
+      "description": "All social post content to be sourced from existing Stid content.",
+      "decidedBy": [
+        "Michael Donovan"
+      ],
+      "topic": "content-sourcing-and-timing",
       "confidence": "firm"
     },
     {
-      "description": "Michael Donovan will change the wording on messaging topic number three to reflect focusing on 'new car buyers' or 'new car customers ready to buy' instead of 'new car shoppers'.",
-      "decidedBy": ["Michael Donovan"],
-      "topic": "messaging-refinement",
+      "description": "First social posts for Reed and Gus to be released this week.",
+      "decidedBy": [
+        "Michael Donovan"
+      ],
+      "topic": "content-sourcing-and-timing",
       "confidence": "firm"
     },
     {
-      "description": "Set the weekly meeting between Michael and Joe back to 10:00 AM ongoing.",
-      "decidedBy": ["Michael Donovan"],
-      "topic": "meeting-schedule",
+      "description": "Homepage updated to follow ADA format.",
+      "decidedBy": [
+        "Michael Donovan"
+      ],
+      "topic": "website-updates",
+      "confidence": "firm"
+    },
+    {
+      "description": "Change messaging topic three wording to focus on 'new car buyers'.",
+      "decidedBy": [
+        "Michael Donovan"
+      ],
+      "topic": "messaging-review-ai-phrasing",
+      "confidence": "firm"
+    },
+    {
+      "description": "Vinnie Micciche to review shared content from Michael Donovan.",
+      "decidedBy": [
+        "Vinnie Micciche"
+      ],
+      "topic": "content-review",
       "confidence": "firm"
     }
   ],
   "actionItems": [
     {
-      "task": "Review the item Michael Donovan shared.",
+      "task": "Create visual write-up for portal access to call records.",
+      "owner": "Matt Watson",
+      "deadline": null,
+      "expectedOutcome": null
+    },
+    {
+      "task": "Launch LinkedIn pilot with Reed and Gus (2 posts/week for 3 weeks).",
+      "owner": "Michael Donovan",
+      "deadline": "this week",
+      "expectedOutcome": null
+    },
+    {
+      "task": "Speak with Reed about the LinkedIn pilot program.",
+      "owner": "Michael Donovan",
+      "deadline": "today",
+      "expectedOutcome": null
+    },
+    {
+      "task": "Ensure all social post data and facts are verifiable.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": null
+    },
+    {
+      "task": "Get first social posts out for Reed and Gus this week.",
+      "owner": "Michael Donovan",
+      "deadline": "this week",
+      "expectedOutcome": null
+    },
+    {
+      "task": "Automate content production for all team members and track leads via Zoho.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": null
+    },
+    {
+      "task": "Share, like, or comment on team members' LinkedIn posts.",
+      "owner": "All team members",
+      "deadline": null,
+      "expectedOutcome": null
+    },
+    {
+      "task": "Set up Agora Pulse for social listening and analytics.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": null
+    },
+    {
+      "task": "Prioritize quick release of validated content.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": null
+    },
+    {
+      "task": "Develop a chatbot for car dealerships.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": null
+    },
+    {
+      "task": "Revise messaging topic three to focus on 'new car buyers'.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": null
+    },
+    {
+      "task": "Review shared content.",
       "owner": "Vinnie Micciche",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "other",
-        "description": "Provide feedback and approval on the shared content."
-      }
+      "expectedOutcome": null
     }
   ],
   "topicsDiscussed": [
     "call-records-portal-access",
-    "social-media-strategy",
-    "human-centric-content",
-    "content-sourcing-timing",
-    "team-involvement-lead-attribution",
-    "maximizing-reach-engagement",
-    "attribution-models-analytics",
+    "linkedin-social-media-strategy",
+    "human-centric-sales-content",
+    "content-sourcing-and-timing",
+    "lead-attribution-equity",
+    "social-media-reach-engagement",
+    "analytics-attribution-models",
     "content-strategy-website-updates",
-    "short-term-vs-medium-term-goals",
-    "messaging-content-review",
-    "chatbot-for-car-dealerships",
-    "human-vs-ai-in-sales",
-    "bot-limitations-human-involvement",
-    "future-development-strategy"
+    "short-term-vs-long-term-goals",
+    "messaging-review-ai-phrasing",
+    "chatbot-development-dealerships",
+    "human-ai-interaction-sales",
+    "bot-limitations-human-intervention",
+    "future-bot-strategy"
   ],
   "tensions": [
-    "Jason Branham raised concerns about potential internal equity issues if some team members receive more leads from LinkedIn posts than others.",
-    "Joe Furnari questioned Michael Donovan's approach, suggesting a need to balance building long-term technological solutions with achieving short-term wins and momentum, particularly given current churn and a thin sales pipeline.",
-    "Michael Donovan expressed a desire to prioritize data-driven decisions on messaging rather than relying solely on subjective opinions.",
-    "Joe Furnari urged Michael Donovan to prioritize getting validated content out quickly to address Vinnie Micciche's immediate need for increased visibility and engagement."
+    "Jason's concern about lead distribution fairness from LinkedIn posts.",
+    "Debate over including website URLs in posts and duplicating content for reach.",
+    "Joe's push for immediate content release versus Michael's long-term automation.",
+    "Michael's frustration with outdated content and algorithm impact.",
+    "Michael's concern about bot accuracy for trade-in appraisals.",
+    "Michael's frustration with resource inefficiencies and third-party vendor issues."
   ],
   "referencesToPast": [
-    "The discussion about messaging from last week.",
-    "Offsite meeting two weeks ago where Gus expressed he doesn't want to delegate leads."
-  ]
+    "Matt referenced OEM social media feeds for dealerships.",
+    "Joe recalled Gus's stance on lead delegation at a prior offsite.",
+    "Michael cited Harvard Business Review content already on their website.",
+    "Joe mentioned Vinnie's past success in combating churn.",
+    "Michael referred to the Viconic launch and previous messaging discussions."
+  ],
+  "contributions": [
+    {
+      "person_name": "Matt Watson",
+      "topic": "call-records-portal-access",
+      "description": "Offered visual write-up for portal access to call records.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "linkedin-social-media-strategy",
+      "description": "Initiated LinkedIn pilot with Reed and Gus for personal profiles.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "approved"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "human-centric-sales-content",
+      "description": "Emphasized human touch in sales, citing Harvard data.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Jason Branham",
+      "topic": "lead-attribution-equity",
+      "description": "Raised concerns about fair lead distribution from social posts.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "pending"
+    },
+    {
+      "person_name": "Joe Furnari",
+      "topic": "social-media-reach-engagement",
+      "description": "Questioned including website URLs and mass post duplication.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Matt Watson",
+      "topic": "social-media-reach-engagement",
+      "description": "Suggested team members share Gus's posts for wider reach.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "content-strategy-website-updates",
+      "description": "Stated current content strategy addresses recent algorithm updates.",
+      "type": "topic",
+      "occurrence": "repeated",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Joe Furnari",
+      "topic": "content-strategy-website-updates",
+      "description": "Urged quick release of validated content for Vinnie's needs.",
+      "type": "idea",
+      "occurrence": "repeated",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Joe Furnari",
+      "topic": "short-term-vs-long-term-goals",
+      "description": "Questioned balancing long-term tech with short-term wins.",
+      "type": "topic",
+      "occurrence": "repeated",
+      "status": "pending"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "messaging-review-ai-phrasing",
+      "description": "Preferred 'human and AI' messaging over 'anti-bot' phrasing.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "approved"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "messaging-review-ai-phrasing",
+      "description": "Emphasized tailoring messaging to 'buyers' for critical human interaction.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "chatbot-development-dealerships",
+      "description": "Proposed chatbot for dealership customer inquiries.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "human-ai-interaction-sales",
+      "description": "Agreed to a 'human-led, AI-assisted' approach for sales.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "approved"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "future-bot-strategy",
+      "description": "Desired quick agent access to bot for inventory questions.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "future-bot-strategy",
+      "description": "Suggested bot as research tool to diversify content and improve employee satisfaction.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    }
+  ],
+  "participation": [],
+  "durationMinutes": 72
 }

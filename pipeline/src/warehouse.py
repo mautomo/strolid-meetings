@@ -46,7 +46,10 @@ def define_tables_and_schemas():
         "meeting_attendees": [
             bigquery.SchemaField("meeting_id", "STRING", mode="REQUIRED"),
             bigquery.SchemaField("person_id", "STRING", mode="REQUIRED"),
-            bigquery.SchemaField("person_name", "STRING")
+            bigquery.SchemaField("person_name", "STRING"),
+            bigquery.SchemaField("words_spoken", "INTEGER"),
+            bigquery.SchemaField("participation_percentage", "FLOAT64"),
+            bigquery.SchemaField("level_of_participation", "STRING")
         ],
         "decisions": [
             bigquery.SchemaField("decision_id", "STRING", mode="REQUIRED"),
@@ -87,6 +90,28 @@ def define_tables_and_schemas():
             bigquery.SchemaField("change_date", "DATE"),
             bigquery.SchemaField("change_meeting", "STRING"),
             bigquery.SchemaField("days_between", "INTEGER")
+        ],
+        "documents": [
+            bigquery.SchemaField("doc_id", "STRING", mode="REQUIRED"),
+            bigquery.SchemaField("title", "STRING"),
+            bigquery.SchemaField("date", "DATE"),
+            bigquery.SchemaField("category", "STRING"),
+            bigquery.SchemaField("summary", "STRING"),
+            bigquery.SchemaField("sentiment", "STRING"),
+            bigquery.SchemaField("sentiment_score", "FLOAT64"),
+            bigquery.SchemaField("people_involved", "STRING", mode="REPEATED"),
+            bigquery.SchemaField("topics", "STRING", mode="REPEATED")
+        ],
+        "contributions": [
+            bigquery.SchemaField("contribution_id", "STRING", mode="REQUIRED"),
+            bigquery.SchemaField("meeting_id", "STRING", mode="REQUIRED"),
+            bigquery.SchemaField("meeting_date", "DATE"),
+            bigquery.SchemaField("person_name", "STRING"),
+            bigquery.SchemaField("topic", "STRING"),
+            bigquery.SchemaField("description", "STRING"),
+            bigquery.SchemaField("type", "STRING"),
+            bigquery.SchemaField("occurrence", "STRING"),
+            bigquery.SchemaField("status", "STRING")
         ]
     }
     
@@ -98,8 +123,8 @@ def define_tables_and_schemas():
         except NotFound:
             table = bigquery.Table(table_ref, schema=schema)
             # Add time partitioning on DATE field if available
-            if table_name in ["meetings", "decisions", "action_items"]:
-                partition_field = "date" if table_name == "meetings" else "meeting_date"
+            if table_name in ["meetings", "decisions", "action_items", "contributions", "documents"]:
+                partition_field = "date" if table_name in ["meetings", "documents"] else "meeting_date"
                 table.time_partitioning = bigquery.TimePartitioning(
                     type_=bigquery.TimePartitioningType.DAY,
                     field=partition_field
@@ -111,9 +136,10 @@ def load_data_to_bq(data: NormalizedData):
     # Prepare meetings data
     meetings_rows = []
     attendees_rows = []
+    contributions_rows = []
+    contribution_counter = 1
+    
     for m in data.meetings:
-        # Mock sentiment/tension scores for ingestion (Phase 1 placeholder, will be real in Chatbot sentiment analysis)
-        # We can calculate simple averages: tension count as tension score, base sentiment on keywords
         tension_count = len(m.tensions)
         
         # Calculate a basic sentiment score based on summary content
@@ -148,17 +174,46 @@ def load_data_to_bq(data: NormalizedData):
             "attendee_count": len(m.attendees)
         })
         
-        # Resolve attendee mapping
+        # Resolve attendee mapping and participation
+        participation_map = {}
+        for p in getattr(m, "participation", []):
+            participation_map[p.person_name.lower()] = p
+            
         for name in m.attendees:
-            # Reresolve name logic to get unique person id
             from normalize import resolve_name, make_person_id
             res_name = resolve_name(name)
             p_id = make_person_id(res_name)
+            
+            part_info = participation_map.get(res_name.lower())
+            words = part_info.words_spoken if part_info else 0
+            pct = part_info.participation_percentage if part_info else 0.0
+            level = part_info.level if part_info else "NONE"
+            
             attendees_rows.append({
                 "meeting_id": m.meetingId,
                 "person_id": p_id,
-                "person_name": res_name
+                "person_name": res_name,
+                "words_spoken": int(words),
+                "participation_percentage": float(pct),
+                "level_of_participation": level
             })
+            
+        # Parse contributions
+        meeting_contributions = getattr(m, "contributions", [])
+        for c in meeting_contributions:
+            from normalize import resolve_name
+            contributions_rows.append({
+                "contribution_id": f"c-{str(contribution_counter).zfill(3)}",
+                "meeting_id": m.meetingId,
+                "meeting_date": m.date,
+                "person_name": resolve_name(c.person_name),
+                "topic": c.topic,
+                "description": c.description,
+                "type": c.type,
+                "occurrence": c.occurrence,
+                "status": c.status
+            })
+            contribution_counter += 1
             
     # Decisions rows
     decisions_rows = []
@@ -215,6 +270,31 @@ def load_data_to_bq(data: NormalizedData):
             "change_meeting": c.changeMeeting,
             "days_between": c.daysBetween
         })
+        
+    # Load Document metadata from extracted_docs/
+    EXTRACTED_DOCS_DIR = Path(__file__).resolve().parents[1] / "data" / "extracted_docs"
+    documents_rows = []
+    if EXTRACTED_DOCS_DIR.exists():
+        for file in os.listdir(EXTRACTED_DOCS_DIR):
+            if not file.endswith(".json"):
+                continue
+            try:
+                with open(EXTRACTED_DOCS_DIR / file, "r", encoding="utf-8") as f:
+                    doc = json.load(f)
+                    from normalize import resolve_name
+                    documents_rows.append({
+                        "doc_id": doc["docId"],
+                        "title": doc["title"],
+                        "date": doc.get("date"),
+                        "category": doc.get("category", "other"),
+                        "summary": doc["summary"],
+                        "sentiment": doc.get("sentiment", "neutral"),
+                        "sentiment_score": float(doc.get("sentimentScore", 0.0)),
+                        "people_involved": [resolve_name(p) for p in doc.get("peopleInvolved", doc.get("authors", []))],
+                        "topics": doc.get("topics", [])
+                    })
+            except Exception as e:
+                print(f"Error loading document JSON {file}: {e}")
 
     # Upload each table using BigQuery Client load_table_from_json
     tables_data = {
@@ -223,7 +303,9 @@ def load_data_to_bq(data: NormalizedData):
         "decisions": decisions_rows,
         "action_items": actions_rows,
         "topics": topics_rows,
-        "direction_changes": changes_rows
+        "direction_changes": changes_rows,
+        "documents": documents_rows,
+        "contributions": contributions_rows
     }
     
     for table_name, rows in tables_data.items():

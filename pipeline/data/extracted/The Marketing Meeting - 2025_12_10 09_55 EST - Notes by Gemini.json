@@ -1,8 +1,8 @@
 {
-  "meetingId": "the-marketing-meeting-2025-12-10",
+  "meetingId": "MM-20251210",
   "title": "The Marketing Meeting",
   "date": "2025-12-10",
-  "series": "The Marketing Meeting",
+  "series": "Marketing Series",
   "type": "marketing",
   "attendees": [
     "Thomas Howe",
@@ -15,41 +15,137 @@
     "Kevin Breen",
     "Harinder Bhinder"
   ],
-  "summary": "The meeting focused on the tokenized design system and content strategy for social posts. Vinnie Micciche emphasized the importance of accurate content and messaging reflecting Strawid's evolution, particularly in relation to AI and competition, requesting content approval before automation. Joe Furnari proposed, and Vinnie agreed to, generating two weeks of posts for Vinnie’s review before proceeding with automation.",
+  "summary": "Joe Furnari opened the meeting, which was briefly delayed. Michael Donovan presented a tokenized design system for improved design velocity. Vinnie Micciche emphasized accurate content and messaging reflecting Strawid's evolution and addressing AI threats, requesting content approval. Harinder Bhinder suggested leveraging AI while highlighting human connection. Joe proposed generating two weeks of posts for Vinnie's review, which Vinnie supported.",
   "decisions": [
     {
-      "description": "Generate two weeks' worth of social media posts for review before proceeding with automation.",
-      "decidedBy": ["Joe Furnari", "Vinnie Micciche"],
-      "topic": "content-review-approval",
+      "description": "Generate two weeks of social media posts for Vinnie's review before automation.",
+      "decidedBy": [
+        "Joe Furnari",
+        "Vinnie Micciche"
+      ],
+      "topic": "content-strategy",
       "confidence": "firm"
     },
     {
-      "description": "Focus messaging on helping dealers who don't know how to use AI, positioning Strawid as the expert.",
-      "decidedBy": ["Thomas Howe", "Vinnie Micciche"],
-      "topic": "messaging-strategy",
+      "description": "Messaging strategy to help dealers who don't know how to use AI, positioning Strawid as expert.",
+      "decidedBy": [
+        "Thomas Howe",
+        "Vinnie Micciche"
+      ],
+      "topic": "dealer-communication-ai",
       "confidence": "firm"
     }
   ],
   "actionItems": [
     {
-      "task": "Go through the three documents and provide additional comments.",
+      "task": "Go through three documents and provide additional comments.",
       "owner": "Joe Furnari",
       "deadline": "2025-12-10",
+      "expectedOutcome": null
+    },
+    {
+      "task": "Generate two weeks of social media posts for Vinnie's review.",
+      "owner": "Joe Furnari",
+      "deadline": null,
       "expectedOutcome": {
-        "system": "google-docs",
-        "description": "Joe Furnari will have added comments to the three documents, providing feedback on content and messaging."
+        "system": "content-management",
+        "description": "Approved social media content for two weeks."
       }
     }
   ],
   "topicsDiscussed": [
-    "design-system",
-    "messaging-strategy",
-    "content-review-approval",
-    "ai-messaging"
+    "meeting-start-delay",
+    "holiday-plans",
+    "tokenized-design-system",
+    "design-aesthetics",
+    "content-messaging-strategy",
+    "ai-threat-opportunity",
+    "dealer-communication",
+    "content-review-approval"
   ],
   "tensions": [
-    "Vinnie Micciche's concern that aesthetics were getting more focus than the messaging.",
-    "Vinnie's concern about messaging accuracy and the need to address the threat of AI bots."
+    "Vinnie's repeated emphasis on content accuracy over design aesthetics.",
+    "Concern over losing a dealer to an AI bot, highlighting the threat of AI."
   ],
-  "referencesToPast": []
+  "referencesToPast": [
+    "Mention of 'three specific documents' for messaging.",
+    "Reference to 'old themes like \"dealers need more leads\"'.",
+    "Mention of recently losing a dealer to an AI bot."
+  ],
+  "contributions": [
+    {
+      "person_name": "Joe Furnari",
+      "topic": "content-review-process",
+      "description": "Proposed generating two weeks of posts for Vinnie's review.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "approved"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "tokenized-design-system",
+      "description": "Presented tokenized design system and templates for social posts.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "content-accuracy",
+      "description": "Emphasized paramount importance of accurate content and messaging.",
+      "type": "topic",
+      "occurrence": "repeated",
+      "status": "pending"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "content-approval",
+      "description": "Requested content approval to ensure quality and alignment.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "approved"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "messaging-evolution",
+      "description": "Stressed messaging must reflect Strawid's evolution and address AI threat.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Harinder Bhinder",
+      "topic": "ai-messaging-human-connection",
+      "description": "Suggested leveraging AI messaging while highlighting Strawid's human connection.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Matt Watson",
+      "topic": "content-feedback",
+      "description": "Provided helpful feedback on documents, earning praise.",
+      "type": "concept",
+      "occurrence": "repeated",
+      "status": "completed-success"
+    },
+    {
+      "person_name": "Thomas Howe",
+      "topic": "dealer-ai-assistance",
+      "description": "Suggested helping dealers who don't know how to use AI.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "approved"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "ai-bot-threat",
+      "description": "Emphasized messaging needs to directly address the threat of AI bots.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "proposed"
+    }
+  ],
+  "participation": [],
+  "durationMinutes": null
 }

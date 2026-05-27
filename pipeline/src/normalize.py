@@ -50,6 +50,170 @@ def make_person_id(name: str) -> str:
         cleaned = cleaned.replace("--", "-")
     return cleaned.strip("-")
 
+def standardize_date(date_str: str) -> str:
+    if not date_str:
+        return "2025-01-01"
+    date_str = date_str.strip()
+    
+    # Try %Y-%m-%d and other common patterns
+    for fmt in ["%Y-%m-%d", "%Y/%m/%d", "%B %d, %Y", "%b %d, %Y", "%d %B %Y", "%d %b %Y", "%m/%d/%Y", "%m-%d-%Y"]:
+        try:
+            dt = datetime.strptime(date_str, fmt)
+            return dt.strftime("%Y-%m-%d")
+        except ValueError:
+            continue
+            
+    # Try parsing month names manually or using dateutil
+    try:
+        from dateutil import parser
+        dt = parser.parse(date_str)
+        return dt.strftime("%Y-%m-%d")
+    except Exception:
+        pass
+        
+    return date_str
+
+import docx
+import re
+from pypdf import PdfReader
+
+MEETINGS_DIR = Path(__file__).resolve().parents[2] / "original-docs"
+
+def extract_text_from_file(stem: str) -> str:
+    for ext in [".docx", ".md", ".pdf", ".txt"]:
+        file_path = MEETINGS_DIR / f"{stem}{ext}"
+        if file_path.exists():
+            try:
+                if ext == ".docx":
+                    doc = docx.Document(file_path)
+                    full_text = []
+                    for para in doc.paragraphs:
+                        full_text.append(para.text)
+                    for table in doc.tables:
+                        for row in table.rows:
+                            for cell in row.cells:
+                                for para in cell.paragraphs:
+                                    full_text.append(para.text)
+                    return "\n".join(full_text)
+                elif ext == ".pdf":
+                    reader = PdfReader(file_path)
+                    text_parts = []
+                    for page in reader.pages:
+                        t = page.extract_text()
+                        if t:
+                            text_parts.append(t)
+                    return "\n".join(text_parts)
+                else:
+                    with open(file_path, "r", encoding="utf-8") as f:
+                        return f.read()
+            except Exception as e:
+                print(f"Warning: Failed to read raw file {file_path}: {e}")
+    return ""
+
+def calculate_participation(meeting: ExtractedMeeting, stem: str):
+    from schema_types import AttendeeParticipation
+    
+    text = extract_text_from_file(stem)
+    if not text:
+        return
+        
+    # Find transcript section
+    transcript_start = -1
+    for kw in ["Transcript", "transcript", "📖 Transcript", "📖 transcript"]:
+        idx = text.find(kw)
+        if idx != -1:
+            transcript_start = idx
+            break
+            
+    transcript_text = text[transcript_start:] if transcript_start != -1 else text
+    
+    # Analyze duration via timestamps (e.g. 00:48:19 or 48:19)
+    timestamps = re.findall(r'(\d{1,2}):(\d{2}):(\d{2})', transcript_text)
+    if not timestamps:
+        timestamps = re.findall(r'(\d{1,2}):(\d{2})', transcript_text)
+        
+    duration = 0
+    if timestamps:
+        last_ts = timestamps[-1]
+        if len(last_ts) == 3:
+            h, m, s = map(int, last_ts)
+            duration = h * 60 + m
+        else:
+            m, s = map(int, last_ts)
+            duration = m
+            
+    meeting.durationMinutes = duration if duration > 0 else None
+
+    # Count words spoken per attendee
+    speaker_words = {resolve_name(a): 0 for a in meeting.attendees}
+    
+    # Build pattern matching for attendee names and first names/aliases
+    name_patterns = {}
+    for raw_name in meeting.attendees:
+        full_name = resolve_name(raw_name)
+        patterns = {full_name.lower(), raw_name.strip().lower()}
+        parts = full_name.lower().split()
+        if len(parts) > 0:
+            patterns.add(parts[0]) 
+        if len(parts) > 1:
+            patterns.add(f"{parts[0]} {parts[1][0]}") 
+        name_patterns[full_name] = patterns
+        
+    lines = transcript_text.splitlines()
+    current_speaker = None
+    
+    for line in lines:
+        line_strip = line.strip()
+        if not line_strip:
+            continue
+            
+        match = re.match(r'^\[?([A-Za-z\s._-]+)\]?:\s*(.*)', line_strip)
+        if match:
+            potential_speaker = match.group(1).strip().lower()
+            content = match.group(2).strip()
+            
+            found = False
+            for full_name, patterns in name_patterns.items():
+                if potential_speaker in patterns:
+                    current_speaker = full_name
+                    found = True
+                    break
+            if not found:
+                current_speaker = None
+                
+            if current_speaker:
+                words = len(content.split())
+                speaker_words[current_speaker] += words
+        else:
+            if current_speaker:
+                words = len(line_strip.split())
+                speaker_words[current_speaker] += words
+                
+    total_words = sum(speaker_words.values())
+    
+    participation_list = []
+    for raw_name in meeting.attendees:
+        full_name = resolve_name(raw_name)
+        words = speaker_words.get(full_name, 0)
+        pct = (words / total_words * 100) if total_words > 0 else 0.0
+        
+        level = "NONE"
+        if pct > 25.0:
+            level = "HIGH"
+        elif pct > 10.0:
+            level = "MEDIUM"
+        elif words > 0:
+            level = "LOW"
+            
+        participation_list.append(AttendeeParticipation(
+            person_name=full_name,
+            words_spoken=words,
+            participation_percentage=pct,
+            level=level
+        ))
+        
+    meeting.participation = participation_list
+
 def load_extracted_meetings() -> list[ExtractedMeeting]:
     if not EXTRACTED_DIR.exists():
         return []
@@ -61,13 +225,23 @@ def load_extracted_meetings() -> list[ExtractedMeeting]:
         try:
             with open(EXTRACTED_DIR / file, "r", encoding="utf-8") as f:
                 data = json.load(f)
-                meetings.append(ExtractedMeeting(**data))
+                meeting = ExtractedMeeting(**data)
+            
+            # Standardize meeting date to YYYY-MM-DD
+            meeting.date = standardize_date(meeting.date)
+            
+            # Calculate participation from original document text
+            stem = Path(file).stem
+            calculate_participation(meeting, stem)
+            
+            meetings.append(meeting)
         except Exception as e:
             print(f"Error loading {file}: {e}")
             
     # Sort chronologically by date
     meetings.sort(key=lambda m: m.date)
     return meetings
+
 
 def build_people(meetings: list[ExtractedMeeting]) -> list[Person]:
     people_map = {}

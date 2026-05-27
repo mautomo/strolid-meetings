@@ -1,5 +1,5 @@
 {
-  "meetingId": "the-marketing-meeting-2025-12-16",
+  "meetingId": "marketing-meeting-20251216",
   "title": "The Marketing Meeting",
   "date": "2025-12-16",
   "series": "The Marketing Meeting",
@@ -15,77 +15,253 @@
     "Kevin Breen",
     "Harinder Bhinder"
   ],
-  "summary": "The meeting centered on AI tool alignment, website updates to reflect AI capabilities, and marketplace profile updates. Vinnie Micciche presented Strallet and emphasized the urgency of updating the company website to showcase the AI focus, while Michael Donovan explained the website migration challenges and content strategy. Jason Branham requested a V20 marketplace update, which Vinnie Micciche agreed to handle.",
+  "summary": "Michael Donovan initiated discussion on AI tools and content generation. Vinnie Micciche presented 'Strallet' vision, an AI conversational layer for dealers, and a data strategy. Vinnie stressed urgent website update to reflect AI focus, expressing frustration with execution pace. Michael explained migration challenges. Jason Branham requested V20 marketplace update, which Vinnie agreed to handle. Participants supported promoting capabilities even if not fully ready.",
   "decisions": [
     {
-      "description": "Vinnie Micciche will review and update the company's profile page on the V20 marketplace, focusing on BDC and new AI capabilities.",
-      "decidedBy": ["Vinnie Micciche"],
+      "description": "Vinnie Micciche will handle the V20 marketplace profile page update.",
+      "decidedBy": [
+        "Vinnie Micciche",
+        "Jason Branham"
+      ],
       "topic": "v20-marketplace-update",
       "confidence": "firm"
     },
     {
-      "description": "Promote capabilities of new and future AI products (e.g., inbound and outbound Sophia) even if not fully ready, to attract customers and communicate the product roadmap.",
-      "decidedBy": ["Vinnie Micciche", "Jason Branham", "Harinder Bhinder"],
-      "topic": "ai-roadmap-promotion",
+      "description": "Strategy to promote product capabilities even if not fully ready to attract customers.",
+      "decidedBy": [
+        "Vinnie Micciche",
+        "Jason Branham",
+        "Harinder Bhinder"
+      ],
+      "topic": "product-roadmap-promotion",
       "confidence": "firm"
     }
   ],
   "actionItems": [
     {
-      "task": "Provide Vinnie Micciche with the login information for the V20 marketplace.",
+      "task": "Provide Vinnie Micciche with login for V20 marketplace.",
       "owner": "Jason Branham",
-      "deadline": null,
+      "deadline": "upcoming Friday",
       "expectedOutcome": {
-        "system": "email",
-        "description": "Vinnie Micciche has access to the V20 marketplace profile page to make updates."
+        "system": "V20 Marketplace",
+        "description": "Vinnie Micciche gains access to update profile."
       }
     },
     {
-      "task": "Review the V20 marketplace profile page, add content with appropriate messaging (focusing on BDC and new AI capabilities), and get a general understanding of all the different stuff that can be added.",
+      "task": "Review and update V20 marketplace profile page with BDC and new AI capabilities messaging.",
       "owner": "Vinnie Micciche",
-      "deadline": null,
+      "deadline": "upcoming Friday",
       "expectedOutcome": {
-        "system": "v20-marketplace",
-        "description": "The company profile on the V20 marketplace is updated with relevant content and highlights the company's AI capabilities."
+        "system": "V20 Marketplace",
+        "description": "Company profile updated to reflect current offerings."
       }
     },
     {
-      "task": "Connect with Michael Donovan to discuss an idea related to the website plan and progression.",
+      "task": "Connect with Michael Donovan to discuss website plan and progression.",
       "owner": "Joe Furnari",
       "deadline": null,
       "expectedOutcome": {
-        "system": "calendar",
-        "description": "A meeting is scheduled between Joe Furnari and Michael Donovan to discuss the website plan."
+        "system": "Website Development",
+        "description": "Develop a clear plan for website updates."
       }
     },
     {
-      "task": "Work on the plan for the website based on the information Vinnie Micciche sent on Friday and come up with deadlines, expectations, and timelines to start executing on some of the content for the website.",
+      "task": "Work on website plan, including deadlines and timelines, based on Vinnie Micciche's input.",
       "owner": "Michael Donovan",
       "deadline": null,
       "expectedOutcome": {
-        "system": "google-docs",
-        "description": "A detailed website plan document exists, outlining deadlines, expectations, and timelines for content execution."
+        "system": "Website Development",
+        "description": "Actionable plan for website content execution."
+      }
+    },
+    {
+      "task": "Work on website plan, including deadlines and timelines, based on Vinnie Micciche's input.",
+      "owner": "Joe Furnari",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "Website Development",
+        "description": "Actionable plan for website content execution."
       }
     }
   ],
   "topicsDiscussed": [
     "ai-tools-sharing",
-    "content-development",
-    "strallet-ai-capabilities",
+    "content-generation-consistency",
+    "strallet-vision",
+    "automotive-ai-solutions",
     "data-strategy",
-    "outbound-follow-up",
-    "internal-product-messaging",
-    "website-development-plan",
+    "website-update-priority",
     "website-migration-challenges",
-    "v20-marketplace-update",
-    "ai-roadmap-promotion",
-    "future-ai-product-vision",
-    "tools-development-efficiency",
-    "website-content-alignment"
+    "v20-marketplace-profile",
+    "product-roadmap-communication",
+    "development-efficiency",
+    "outbound-follow-up-challenges"
   ],
   "tensions": [
-    "Vinnie Micciche's frustration with the slow pace of website development and the website's failure to reflect the company's AI focus.",
-    "Michael Donovan's perceived contempt, leading to frustration from Vinnie Micciche."
+    "Vinnie Micciche's frustration with the slow pace of website execution and development.",
+    "Vinnie Micciche's frustration that the website reflects an outdated BDC human-only model.",
+    "Complexity of promoting the outbound follow-up product due to data acquisition challenges.",
+    "Vinnie Micciche's perceived contempt from Michael Donovan regarding website discussions.",
+    "Unresolved debate on prioritizing website messaging vs. building the 'whole engine'."
   ],
-  "referencesToPast": ["Website migration project started in late September."]
+  "referencesToPast": [
+    "Initial website migration project started in late September.",
+    "Comprehensive audit revealed content structure red flags and negative core algorithm update impact.",
+    "Vinnie Micciche repeatedly redirected conversation to core problem of execution, implying prior discussions."
+  ],
+  "contributions": [
+    {
+      "person_name": "Michael Donovan",
+      "topic": "ai-tools-sharing",
+      "description": "Suggested a sharing session for AI tools and content generation alignment.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "strallet-vision",
+      "description": "Presented 'Strallet,' an AI-powered conversational layer for automotive dealers.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "data-strategy",
+      "description": "Detailed a data strategy focused on internal silos and avoiding vendor lock-in.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "automotive-co-pilot",
+      "description": "Outlined product vision for an Automotive Co-pilot for dealers.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "dealer-mri",
+      "description": "Proposed Dealer MRI with improved reporting as a future product vision.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "website-update-priority",
+      "description": "Stressed urgent need to update company website to reflect AI and tech focus.",
+      "type": "idea",
+      "occurrence": "repeated",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Jason Branham",
+      "topic": "v20-marketplace-profile",
+      "description": "Requested an update to the V20 marketplace profile page.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "product-roadmap-promotion",
+      "description": "Proposed promoting capabilities even if not fully ready to attract customers.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "approved"
+    },
+    {
+      "person_name": "Jason Branham",
+      "topic": "product-roadmap-promotion",
+      "description": "Supported promoting capabilities to start conversations and communicate roadmap.",
+      "type": "idea",
+      "occurrence": "repeated",
+      "status": "approved"
+    },
+    {
+      "person_name": "Harinder Bhinder",
+      "topic": "customer-involvement",
+      "description": "Supported getting real customers for learning and involving them in building process.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "approved"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "content-flywheel",
+      "description": "Proposed using automotive innovation to drive a content flywheel across channels.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Joe Furnari",
+      "topic": "website-plan-timeline",
+      "description": "Intervened to refocus on the need for a website plan with timelines.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "proposed"
+    }
+  ],
+  "participation": [
+    {
+      "person_name": "Vinnie Micciche",
+      "words_spoken": 400,
+      "participation_percentage": 40.0,
+      "level": "HIGH"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "words_spoken": 350,
+      "participation_percentage": 35.0,
+      "level": "HIGH"
+    },
+    {
+      "person_name": "Joe Furnari",
+      "words_spoken": 100,
+      "participation_percentage": 10.0,
+      "level": "MEDIUM"
+    },
+    {
+      "person_name": "Jason Branham",
+      "words_spoken": 80,
+      "participation_percentage": 8.0,
+      "level": "MEDIUM"
+    },
+    {
+      "person_name": "Harinder Bhinder",
+      "words_spoken": 50,
+      "participation_percentage": 5.0,
+      "level": "LOW"
+    },
+    {
+      "person_name": "Thomas Howe",
+      "words_spoken": 0,
+      "participation_percentage": 0.0,
+      "level": "NONE"
+    },
+    {
+      "person_name": "Ziad Al Khatib",
+      "words_spoken": 0,
+      "participation_percentage": 0.0,
+      "level": "NONE"
+    },
+    {
+      "person_name": "Matt Watson",
+      "words_spoken": 0,
+      "participation_percentage": 0.0,
+      "level": "NONE"
+    },
+    {
+      "person_name": "Kevin Breen",
+      "words_spoken": 0,
+      "participation_percentage": 0.0,
+      "level": "NONE"
+    }
+  ],
+  "durationMinutes": null
 }

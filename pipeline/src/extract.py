@@ -2,6 +2,7 @@ import os
 import sys
 import json
 import asyncio
+import re
 from pathlib import Path
 import docx
 from pypdf import PdfReader
@@ -38,7 +39,8 @@ EXTRACTION_PROMPT = """You are a meeting intelligence analyst. Extract structure
 Return valid JSON matching the requested schema.
 
 Rules:
-- Extract ALL decisions, even small ones. A decision is any commitment, agreement, or direction set.
+- Extract decisions, action items, and contributions. Keep all descriptions concise (under 15 words) to stay within output limits.
+- Limit output to at most 12 decisions, 12 action items, and 15 contributions. Choose the most important/strategic ones.
 - For attendees, use full names. If only first names are used, include what's available.
 - "confidence" should be "firm" if explicitly agreed, "tentative" if conditionally agreed, "exploratory" if just discussed.
 - For action items, always try to identify an owner. If no owner is clear, use "Unassigned".
@@ -46,6 +48,13 @@ Rules:
 - Tensions include any pushback, disagreement, concern, or unresolved debate.
 - referencesToPast includes any mention of prior meetings, earlier decisions, or "we discussed this before" type references.
 - If the meeting notes include a transcript section, extract from BOTH the summary/details AND the transcript.
+- "contributions": Identify specific contributions (ideas, topics, or concepts) proposed or presented by individuals. For each:
+  - "person_name": full name of the person (use resolved full names like Vinnie Micciche, Michael Donovan, Joe Furnari, Paulo Trovao, Jason Branham, Matt Watson, Sergey, Sophia, Jake, Link).
+  - "topic": consistent kebab-case topic label.
+  - "description": summary of the contribution.
+  - "type": "topic", "idea", or "concept".
+  - "occurrence": determine if this contribution/topic/idea is being presented for the "first time", or "repeated" in this meeting.
+  - "status": the status of this contribution in the meeting: "approved" (explicitly accepted), "denied" (explicitly rejected), "completed-success" (marked as done/successful), "proposed" (just suggested), or "pending" (left unresolved).
 """
 
 def classify_meeting_type(filename: str) -> str:
@@ -92,29 +101,59 @@ async def extract_meeting_data(text: str, filename: str) -> ExtractedMeeting:
     meeting_type = classify_meeting_type(filename)
     prompt = f"{EXTRACTION_PROMPT}\n\nHint: This appears to be a '{meeting_type}' type meeting based on the filename: '{filename}'\n\nMeeting notes:\n\n{text}"
 
-    response = client.models.generate_content(
-        model=MODEL_ID,
-        contents=prompt,
-        config=types.GenerateContentConfig(
-            response_mime_type="application/json",
-            response_schema=ExtractedMeeting,
-            temperature=0.1
-        )
-    )
-    
-    # The new SDK parses the JSON response into Pydantic model directly if response_schema is specified
-    # However, sometimes we need to construct it from response.text
     try:
-        data = ExtractedMeeting.model_validate_json(response.text)
-        return data
-    except Exception as e:
-        print(f"Error parsing validation schema for {filename}: {e}")
-        # Fallback to loading text as dict then validating
-        cleaned = response.text.strip()
-        if cleaned.startswith("```"):
-            cleaned = cleaned.replace("```json", "").replace("```", "").strip()
-        parsed = json.loads(cleaned)
-        return ExtractedMeeting(**parsed)
+        response = await asyncio.to_thread(
+            client.models.generate_content,
+            model=MODEL_ID,
+            contents=prompt,
+            config=types.GenerateContentConfig(
+                response_mime_type="application/json",
+                response_schema=ExtractedMeeting,
+                temperature=0.1,
+                max_output_tokens=8192
+            )
+        )
+        try:
+            data = ExtractedMeeting.model_validate_json(response.text)
+            return data
+        except Exception as e:
+            # Fallback to loading text as dict then validating
+            cleaned = response.text.strip()
+            if cleaned.startswith("```"):
+                cleaned = cleaned.replace("```json", "").replace("```", "").strip()
+            parsed = json.loads(cleaned)
+            return ExtractedMeeting(**parsed)
+    except Exception as first_error:
+        print(f"  [RETRYING] First extraction attempt failed/truncated for {filename}: {first_error}. Retrying with strict brevity constraints...")
+        retry_prompt = (
+            f"{EXTRACTION_PROMPT}\n\n"
+            "CRITICAL: The previous attempt resulted in a truncated response because it was too long. "
+            "To prevent truncation, you MUST restrict the output to a strict maximum of 5 decisions, 5 action items, "
+            "and 5 contributions. Keep all description values extremely short (maximum 10 words each).\n\n"
+            f"Hint: This appears to be a '{meeting_type}' type meeting based on the filename: '{filename}'\n\n"
+            f"Meeting notes:\n\n{text}"
+        )
+        
+        response = await asyncio.to_thread(
+            client.models.generate_content,
+            model=MODEL_ID,
+            contents=retry_prompt,
+            config=types.GenerateContentConfig(
+                response_mime_type="application/json",
+                response_schema=ExtractedMeeting,
+                temperature=0.1,
+                max_output_tokens=8192
+            )
+        )
+        try:
+            data = ExtractedMeeting.model_validate_json(response.text)
+            return data
+        except Exception as e:
+            cleaned = response.text.strip()
+            if cleaned.startswith("```"):
+                cleaned = cleaned.replace("```json", "").replace("```", "").strip()
+            parsed = json.loads(cleaned)
+            return ExtractedMeeting(**parsed)
 
 async def process_file(filename: str, force: bool = False) -> bool:
     file_path = MEETINGS_DIR / filename
@@ -144,9 +183,12 @@ async def process_file(filename: str, force: bool = False) -> bool:
         
         with open(output_path, "w", encoding="utf-8") as f:
             f.write(data.model_dump_json(indent=2))
+        print(f"  Successfully extracted: {filename}")
         return True
     except Exception as e:
         print(f"  FAILED to process {filename}: {e}")
+        import traceback
+        traceback.print_exc()
         return False
 
 async def main():
@@ -168,6 +210,8 @@ async def main():
     groups = {}
     for f in meeting_files:
         stem = Path(f).stem
+        # Clean any trailing copy numbers like " (1)" or " (2)"
+        stem = re.sub(r'\s*\(\d+\)$', '', stem).strip()
         groups.setdefault(stem, []).append(f)
         
     deduped_meetings = []
@@ -200,7 +244,7 @@ async def main():
     print(f"Processing {len(to_process)} files...\n")
 
     # Process in batches to respect rate limits
-    BATCH_SIZE = 3
+    BATCH_SIZE = 6
     processed = 0
     failed = 0
 

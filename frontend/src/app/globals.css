@@ -1,21 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
 
 :root {
-  --bg: #05070f;
-  --surface: #0b0f19;
-  --surface-glass: rgba(11, 15, 25, 0.7);
-  --border-glass: rgba(255, 255, 255, 0.06);
-  --accent: #6366f1;
-  --accent-purple: #a855f7;
-  --accent-glow: rgba(99, 102, 241, 0.2);
-  --accent-hover: #4f46e5;
-  --text: #f3f4f6;
+  --bg: #0a0a0c;
+  --surface: #16161a;
+  --surface-glass: rgba(22, 22, 26, 0.65);
+  --border-glass: rgba(255, 255, 255, 0.08);
+  --accent: #3b82f6;
+  --accent-purple: #8b5cf6;
+  --accent-glow: rgba(59, 130, 246, 0.15);
+  --accent-hover: #2563eb;
+  --text: #f9fafb;
   --text-muted: #9ca3af;
   --green: #10b981;
   --red: #ef4444;
   --yellow: #f59e0b;
   --blue: #3b82f6;
-  --accent-gradient: linear-gradient(135deg, #6366f1 0%, #a855f7 100%);
+  --accent-gradient: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
 }
 
 * {
@@ -24,17 +24,24 @@
   padding: 0;
 }
 
+html, body {
+  height: 100% !important;
+  min-height: 100% !important;
+  max-height: 100% !important;
+  overflow: hidden !important;
+}
+
 body {
   font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
   background-color: var(--bg);
   color: var(--text);
   line-height: 1.5;
-  overflow: hidden;
+  overflow: hidden !important;
   background-image: 
-    radial-gradient(at 0% 0%, rgba(99, 102, 241, 0.12) 0px, transparent 40%),
-    radial-gradient(at 100% 100%, rgba(168, 85, 247, 0.08) 0px, transparent 45%),
-    linear-gradient(rgba(255, 255, 255, 0.003) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255, 255, 255, 0.003) 1px, transparent 1px);
+    radial-gradient(at 0% 0%, rgba(59, 130, 246, 0.08) 0px, transparent 40%),
+    radial-gradient(at 100% 100%, rgba(139, 92, 246, 0.05) 0px, transparent 45%),
+    linear-gradient(rgba(255, 255, 255, 0.002) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.002) 1px, transparent 1px);
   background-size: 100% 100%, 100% 100%, 48px 48px, 48px 48px;
 }
 
@@ -46,33 +53,32 @@ h1, h2, h3, h4, .font-display {
 /* Glassmorphism Classes */
 .glass-panel {
   background: var(--surface-glass);
-  backdrop-filter: blur(24px);
-  -webkit-backdrop-filter: blur(24px);
+  backdrop-filter: blur(32px);
+  -webkit-backdrop-filter: blur(32px);
   border: 1px solid var(--border-glass);
-  box-shadow: 0 20px 50px 0 rgba(0, 0, 0, 0.4);
+  box-shadow: 0 25px 60px -15px rgba(0, 0, 0, 0.6);
 }
 
 .glass-card {
-  background: rgba(17, 24, 39, 0.35);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border: 1px solid rgba(255, 255, 255, 0.04);
+  background: rgba(22, 22, 26, 0.35);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
   border-radius: 16px;
-  corner-shape: squircle;
   transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .glass-card:hover {
-  border-color: rgba(99, 102, 241, 0.25);
-  box-shadow: 0 10px 30px rgba(99, 102, 241, 0.08), 0 0 1px 1px rgba(99, 102, 241, 0.2) inset;
+  border-color: rgba(59, 130, 246, 0.3);
+  box-shadow: 0 10px 30px rgba(59, 130, 246, 0.06), 0 0 1px 1px rgba(59, 130, 246, 0.15) inset;
   transform: translateY(-2px);
-  background: rgba(17, 24, 39, 0.5);
+  background: rgba(22, 22, 26, 0.5);
 }
 
 /* Premium Inputs */
 input, select {
-  background: rgba(11, 15, 25, 0.85);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(22, 22, 26, 0.85);
+  border: 1px solid rgba(255, 255, 255, 0.06);
   color: var(--text);
   padding: 0.75rem 1rem;
   border-radius: 12px;
@@ -85,7 +91,7 @@ input, select {
 input:focus, select:focus {
   border-color: var(--accent);
   box-shadow: 0 0 0 3px var(--accent-glow);
-  background: rgba(11, 15, 25, 0.95);
+  background: rgba(22, 22, 26, 0.95);
 }
 
 /* Customized select styles */

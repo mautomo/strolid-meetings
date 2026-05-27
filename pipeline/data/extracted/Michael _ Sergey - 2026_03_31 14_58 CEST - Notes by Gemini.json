@@ -1,79 +1,208 @@
 {
-  "meetingId": "michael-sergey-2026-03-31",
-  "title": "Michael / Sergey",
+  "meetingId": "michael-sergey-20260331",
+  "title": "Zoho CRM Data, Branding Skill, and Account Limits Discussion",
   "date": "2026-03-31",
-  "series": "Michael / Sergey",
+  "series": "One-on-One",
   "type": "one-on-one",
-  "attendees": ["Michael Donovan", "Sergey Lyapustin"],
-  "summary": "Michael and Sergey discussed Zoho CRM database issues and account limits. They decided to develop a minimal branding skill for organizational deployment via the Anthropic account. Sergey will create a GitHub repository for skills, and Michael will contact Harinder to address account limits.",
+  "attendees": [
+    "Michael Donovan",
+    "Sergey Lyapustin"
+  ],
+  "summary": "Concerns about Zoho CRM database model and usage limits were discussed. The primary decision was to develop a minimal branding skill for immediate organizational deployment via Anthropic. Technical adjustments for account limits and configuration were also advised.",
   "decisions": [
     {
-      "description": "Develop a minimal branding skill defining basic guidelines like names and colors for organizational deployment via the Anthropic account.",
-      "decidedBy": ["Sergey Lyapustin"],
+      "description": "Develop a minimal branding skill for immediate organizational deployment.",
+      "decidedBy": [
+        "Sergey Lyapustin",
+        "Michael Donovan"
+      ],
       "topic": "branding-skill-development",
       "confidence": "firm"
     },
     {
-      "description": "Create a new GitHub repository for organization skills with basic structure and placeholder files.",
-      "decidedBy": ["Sergey Lyapustin"],
-      "topic": "skills-repository",
+      "description": "Create a new GitHub repository for organizational skills management.",
+      "decidedBy": [
+        "Sergey Lyapustin",
+        "Michael Donovan"
+      ],
+      "topic": "skills-repository-management",
       "confidence": "firm"
     },
     {
-      "description": "Michael will spin up a new project for all Straw work and migrate related settings and skills.",
-      "decidedBy": ["Michael Donovan"],
-      "topic": "work-setup-migration",
+      "description": "Michael Donovan to spin up a new project for all Straw-related work.",
+      "decidedBy": [
+        "Michael Donovan"
+      ],
+      "topic": "project-setup",
       "confidence": "firm"
     },
     {
-      "description": "Michael will contact Harinder to investigate obtaining more resources for the limited account.",
-      "decidedBy": ["Michael Donovan"],
-      "topic": "account-limits",
+      "description": "Michael Donovan to contact Harinder regarding Anthropic account usage limits.",
+      "decidedBy": [
+        "Michael Donovan"
+      ],
+      "topic": "account-limits-management",
       "confidence": "firm"
     }
   ],
   "actionItems": [
     {
-      "task": "Create new GitHub repository for organization skills. Include basic structure and placeholder files.",
+      "task": "Create new GitHub repository for organization skills with basic structure.",
       "owner": "Sergey Lyapustin",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "github",
-        "description": "A new repository exists with a defined structure for organization skills."
-      }
+      "expectedOutcome": null
     },
     {
-      "task": "Spin up new project for all Straw work. Migrate related settings and skills.",
+      "task": "Spin up a new project for all Straw work and migrate settings/skills.",
       "owner": "Michael Donovan",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "other",
-        "description": "New project created with Straw work migrated."
-      }
+      "expectedOutcome": null
     },
     {
-      "task": "Contact Harinder regarding current account limitations. Investigate obtaining more resources for the limited account.",
+      "task": "Contact Harinder regarding current Anthropic account limitations and resources.",
       "owner": "Michael Donovan",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "email",
-        "description": "Increased account resources or clarification on current limits."
-      }
+      "expectedOutcome": null
+    },
+    {
+      "task": "Update configuration files to increase max bash output to 90,000 characters.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": null
+    },
+    {
+      "task": "Create a hook to monitor and reformat read line counts over 2,500.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": null
     }
   ],
   "topicsDiscussed": [
-    "zoho-crm",
-    "database-model",
-    "internal-marketplace",
-    "skills",
-    "account-limits",
-    "skill-deployment",
-    "permissions",
-    "configuration"
+    "hardware-migration-costs",
+    "zoho-crm-data-model",
+    "zoho-health-check-api",
+    "internal-skills-marketplace",
+    "branding-skill-development",
+    "anthropic-account-limits",
+    "github-skills-repository",
+    "skill-automatic-invocation",
+    "dangerously-skip-permissions-guardrails",
+    "max-bash-output-configuration",
+    "max-lines-hook-development"
   ],
   "tensions": [
-    "Concerns raised about the Zoho CRM database model, specifically that 4 critical tables (users, tasks, meetings, calls) appeared disconnected.",
-    "Usage limits were exceeded, causing extra expense."
+    "Disconnected Zoho CRM tables causing data integrity concerns.",
+    "High costs and volatility of hardware pricing.",
+    "Hitting Anthropic account usage limits and unexpected charges.",
+    "Difficulty in identifying specific Anthropic account plans and limits.",
+    "Initial denial of Claude code bug by provider.",
+    "Risks of 'dangerously skip permissions' without proper guardrails.",
+    "Limitations of max lines in Claude even with increased context window."
   ],
-  "referencesToPast": []
+  "referencesToPast": [
+    "conversations that we've had",
+    "we're procuring list. I told you — you know we're going to grab we're going to do some type of deal with XP",
+    "I've seen this seen this as a common thread",
+    "Harinder set Paulo and I up",
+    "there was some bug on their clo code",
+    "you've had this happen I've had it happen everybody's had it happen",
+    "that was the original setting at a 200k context window"
+  ],
+  "contributions": [
+    {
+      "person_name": "Michael Donovan",
+      "topic": "zoho-crm-data-model",
+      "description": "Raised concerns about disconnected Zoho CRM tables (users, tasks, meetings, calls).",
+      "type": "topic",
+      "occurrence": "repeated",
+      "status": "pending"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "zoho-health-check-api",
+      "description": "Proposed a systematic Zoho API solution for daily health checks and weekly reports.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "internal-skills-marketplace",
+      "description": "Proposed an internal marketplace for skills integrating with Claude and Co-Work.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "proposed-skills",
+      "description": "Suggested skills for Gamma, brand consistency, and a feedback mechanism.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Sergey Lyapustin",
+      "topic": "branding-skill-development",
+      "description": "Proposed starting with a basic branding skill defining minimal guidelines (names, colors).",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "approved"
+    },
+    {
+      "person_name": "Sergey Lyapustin",
+      "topic": "organizational-skill-deployment",
+      "description": "Confirmed ability to distribute organizational skills via Anthropic admin account.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "approved"
+    },
+    {
+      "person_name": "Sergey Lyapustin",
+      "topic": "github-skills-repository",
+      "description": "Proposed creating a new GitHub repository for skills to manage updates.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "approved"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "dangerously-skip-permissions-guardrails",
+      "description": "Shared insights from Distler on setting up guardrails for permissions.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "max-bash-output-configuration",
+      "description": "Advised increasing 'max bash output' from 30,000 to 90,000 characters.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "max-lines-hook-development",
+      "description": "Suggested creating a hook to monitor and reformat read line counts over 2,500.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    }
+  ],
+  "participation": [
+    {
+      "person_name": "Michael Donovan",
+      "words_spoken": 1500,
+      "participation_percentage": 0.75,
+      "level": "HIGH"
+    },
+    {
+      "person_name": "Sergey Lyapustin",
+      "words_spoken": 500,
+      "participation_percentage": 0.25,
+      "level": "MEDIUM"
+    }
+  ],
+  "durationMinutes": 40
 }

@@ -1,78 +1,244 @@
 {
-  "meetingId": "marketing-90-day-prioritization-2025-12-23",
+  "meetingId": "MKTG-20251223-001",
   "title": "Marketing 90-day Prioritization",
-  "date": "2025-12-23",
+  "date": "Dec 23, 2025",
   "series": "Marketing 90-day Prioritization",
   "type": "marketing",
-  "attendees": ["Vinnie Micciche", "Joe Furnari", "Michael Donovan"],
-  "summary": "Michael Donovan presented a 90-day game plan, and Vinnie Micciche expressed frustration about messaging not reflecting the company's evolution toward AI and automations, emphasizing the need for collaborative content review. The team agreed on four core messaging building blocks and decided to enhance the existing website content before launching a new site, especially with the NAEDC event approaching.",
+  "attendees": [
+    "Vinnie Micciche",
+    "Joe Furnari",
+    "Michael Donovan"
+  ],
+  "summary": "Michael Donovan presented a 90-day game plan focusing on execution, rhythm, and outcomes like revenue and leads. Vinnie Micciche expressed frustration over the company's messaging, which he believes should reflect an \"evolution\" towards AI and automations, not a \"new motion,\" and accused Michael of not critically reviewing content for a hyper-personalized approach. The team agreed on four core messaging building blocks: inbound, outbound, co-pilot/bot chat, and conversational AI/analytics. Vinnie instructed the team to enhance the existing website content for the upcoming NAEDC event rather than waiting for a new site.",
   "decisions": [
     {
-      "description": "Enhance the existing website content related to inbound (Vita), outbound (Sophia), the co-pilot/bot chat, and conversational AI/analytics.",
-      "decidedBy": ["Vinnie Micciche"],
-      "topic": "website-content-update",
+      "description": "Agreed on four core messaging building blocks for marketing efforts.",
+      "decidedBy": [
+        "Vinnie Micciche",
+        "Michael Donovan",
+        "Joe Furnari"
+      ],
+      "topic": "core-messaging-strategy",
       "confidence": "firm"
     },
     {
-      "description": "Focus on adding more content to the existing website instead of waiting for the new website launch due to the upcoming NAEDC event.",
-      "decidedBy": ["Vinnie Micciche"],
+      "description": "Enhance existing website content immediately instead of waiting for a new site.",
+      "decidedBy": [
+        "Vinnie Micciche"
+      ],
       "topic": "website-strategy",
       "confidence": "firm"
     },
     {
-      "description": "Structure the marketing messaging into three lanes: dealer visibility/operational clarity; speed/flow/follow-up engineering; and AI/human co-pilot/dealer brain.",
-      "decidedBy": ["Michael Donovan"],
-      "topic": "messaging-strategy",
-      "confidence": "tentative"
-    },
-    {
-      "description": "The four core building blocks/differentiators for messaging will be: inbound (Vita), outbound (Sophia), the co-pilot/bot chat, and conversational AI/analytics.",
-      "decidedBy": ["Joe Furnari", "Vinnie Micciche"],
-      "topic": "messaging-framework",
+      "description": "Vinnie will reshare marketing documents for collective review by the team.",
+      "decidedBy": [
+        "Vinnie Micciche"
+      ],
+      "topic": "content-review-process",
       "confidence": "firm"
     }
   ],
   "actionItems": [
     {
-      "task": "Vinnie Micciche to share all three marketing documents again for collective review with Michael Donovan and Joe Furnari.",
+      "task": "Share three marketing documents again for collective review.",
       "owner": "Vinnie Micciche",
       "deadline": null,
       "expectedOutcome": {
-        "system": "google-docs",
-        "description": "Michael and Joe will have the opportunity to collaboratively review the content and messaging"
+        "system": "document-management",
+        "description": "Team reviews content collaboratively."
       }
     },
     {
-      "task": "Jason and Vinnie to work on pricing and integration for the Sophia outbound capabilities to facilitate sales.",
-      "owner": "Jason",
+      "task": "Enhance existing website content to align with current messaging.",
+      "owner": "Michael Donovan",
+      "deadline": "Before NAEDC event",
+      "expectedOutcome": {
+        "system": "website-management",
+        "description": "Website reflects current messaging and AI evolution."
+      }
+    },
+    {
+      "task": "Work on how to sell and integrate Sophia outbound capabilities.",
+      "owner": "Vinnie Micciche",
       "deadline": null,
       "expectedOutcome": {
-        "system": "other",
-        "description": "Develop a sales strategy and pricing structure for the Sophia outbound capabilities."
+        "system": "sales-strategy",
+        "description": "Clear sales and integration plan for Sophia outbound."
+      }
+    },
+    {
+      "task": "Figure out how to get data from non-Strawlet dealers for Sophia.",
+      "owner": "Vinnie Micciche",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "data-integration",
+        "description": "Method for integrating external dealer data for Sophia."
+      }
+    },
+    {
+      "task": "Guide Michael to churn out great marketing content.",
+      "owner": "Joe Furnari",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "content-creation",
+        "description": "High-quality marketing content produced."
+      }
+    },
+    {
+      "task": "Share the 140 pages of content with Vinnie.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "document-sharing",
+        "description": "Vinnie reviews the content for messaging alignment."
       }
     }
   ],
   "topicsDiscussed": [
     "90-day-game-plan",
     "messaging-priorities",
-    "website-content-update",
-    "ai-automation",
-    "content-creation-process",
-    "messaging-strategy",
-    "lead-generation",
+    "content-approval-process",
+    "company-vision-evolution",
+    "ai-automations",
+    "sophia-outbound",
+    "vita-inbound-service",
+    "co-pilot-bot-chat",
+    "conversational-ai-analytics",
+    "website-strategy",
     "naedc-event",
-    "messaging-framework"
+    "hyper-personalized-messaging",
+    "lead-generation",
+    "content-creation-process"
   ],
   "tensions": [
-    "Vinnie Micciche's frustration that shared content and vision are not being fully understood or collaboratively reviewed.",
-    "Vinnie Micciche's disagreement with the characterization of the strategic shift as a 'new motion' instead of an 'evolution'.",
-    "Michael Donovan accused of taking the 'top one' or first line of a document for posting without critical thought.",
-    "Concern that the 140 pages of content developed by Michael lacks a user interface and cannot be easily shared."
+    "Vinnie's frustration that company messaging is not understood or collaboratively reviewed.",
+    "Vinnie accused Michael of not critically reviewing content for appropriate conversational approach.",
+    "Disagreement between Vinnie and Michael on 'evolution' versus 'new motion' for strategic shift.",
+    "Vinnie's frustration with Michael and Z for selecting 'top one' content without critical thought.",
+    "Vinnie's frustration over Michael's comment about ChatGPT printouts, implying lack of effort.",
+    "Vinnie's perception that Michael disregards his input and prefers his own way.",
+    "Michael's failure to share 140 pages of content with Vinnie as requested."
   ],
   "referencesToPast": [
-    "Mention of a leadership call where Shauna noted Vinnie throwing lots of ideas out there.",
-    "Reference to previous marketing meetings where Vinnie emphasized focus on messaging.",
-    "Past collaboration on 'never miss' messaging 3-4 years ago.",
-    "Mention of sharing three marketing documents with Michael previously."
-  ]
+    "Mention of a leadership call where Shauna noted Vinnie's ideas.",
+    "Reference to a deck Vinnie is doing for Lithia.",
+    "Vinnie's statement about discussing a portal with GPT a year ago.",
+    "Vinnie's instruction to Lincoln and Jake yesterday about hyper-personalization.",
+    "Vinnie's repeated mentions of telling the team about messaging in 15 marketing meetings.",
+    "Vinnie blasting Jason a couple of weeks ago about feedback.",
+    "Vinnie's request two weeks ago for Michael to share 140 pages of content.",
+    "Acknowledgement that NAEDC event has been known for a long time.",
+    "Reference to 'never miss' brand guidelines developed three or four years ago."
+  ],
+  "contributions": [
+    {
+      "person_name": "Michael Donovan",
+      "topic": "90-day-game-plan",
+      "description": "Presented a high-level 90-day game plan document.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "company-vision-evolution",
+      "description": "Emphasized company's evolution from service BDC to tech company.",
+      "type": "concept",
+      "occurrence": "repeated",
+      "status": "approved"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "ai-automations-efficiencies",
+      "description": "Messaging needs to reflect move towards AI, automations, and efficiencies.",
+      "type": "idea",
+      "occurrence": "repeated",
+      "status": "approved"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "website-strategy",
+      "description": "Instructed team to enhance existing website content for NAEDC.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "approved"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "hyper-personalized-messaging",
+      "description": "Advocated for grassroots, hyper-personalized, conversational messaging for engagement.",
+      "type": "concept",
+      "occurrence": "repeated",
+      "status": "approved"
+    },
+    {
+      "person_name": "Joe Furnari",
+      "topic": "core-messaging-building-blocks",
+      "description": "Sought clarity on four core messaging building blocks (inbound, outbound, co-pilot, AI/analytics).",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "sophia-outbound",
+      "description": "Highlighted Sophia outbound as a huge efficiency creating internal and external value.",
+      "type": "idea",
+      "occurrence": "repeated",
+      "status": "pending"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "inbound-service-churn",
+      "description": "Explained inbound service (Vita) is primarily for churn reasons.",
+      "type": "topic",
+      "occurrence": "repeated",
+      "status": "pending"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "real-time-human-backup",
+      "description": "Proposed real-time human capabilities to back up robots going sideways.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "pending"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "dealer-brain",
+      "description": "Mentioned 'dealer brain' for capturing all conversations in one place.",
+      "type": "concept",
+      "occurrence": "repeated",
+      "status": "pending"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "messaging-lanes-structure",
+      "description": "Proposed structuring messaging into three lanes based on dealer mindset and content.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    }
+  ],
+  "participation": [
+    {
+      "person_name": "Vinnie Micciche",
+      "words_spoken": 1500,
+      "participation_percentage": 0.59,
+      "level": "HIGH"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "words_spoken": 750,
+      "participation_percentage": 0.29,
+      "level": "MEDIUM"
+    },
+    {
+      "person_name": "Joe Furnari",
+      "words_spoken": 300,
+      "participation_percentage": 0.12,
+      "level": "MEDIUM"
+    }
+  ],
+  "durationMinutes": 32
 }

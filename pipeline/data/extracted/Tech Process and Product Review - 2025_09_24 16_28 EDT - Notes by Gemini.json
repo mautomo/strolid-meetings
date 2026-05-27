@@ -1,34 +1,97 @@
 {
-  "meetingId": "tech-process-and-product-review-2025-09-24",
+  "meetingId": "TPR-2025-09-24",
   "title": "Tech Process and Product Review",
-  "date": "2025-09-24",
-  "series": "Tech Process and Product Review",
+  "date": "Sep 24, 2025",
+  "series": "Tech Process and Product Review Series",
   "type": "product",
-  "attendees": ["Audrey Hayn", "Michael Donovan", "Claude Hayn"],
-  "summary": "Michael Donovan shared insights on AI applications, demonstrated Google Sites for hosting AI-generated content, and presented his marketing automation platform. Claude and Audrey Hayn discussed their focus on small to medium enterprises (HVAC), emphasizing solution-selling and integrating their website with Michael's platform and Fonoster. The group explored ways to collaborate, with Michael offering a beta access to his platform in exchange for data and feedback.",
+  "attendees": [
+    "Audrey Hayn",
+    "Michael Donovan",
+    "Claude Hayn"
+  ],
+  "summary": "Michael Donovan discussed leveraging AI for deep research and visualization, sharing how Google Sites can host interactive AI-generated content, and introduced his marketing automation platform to consolidate marketing experience, offering it as a resource for collaboration. Claude Hayn and Audrey Hayn shared their focus on small to medium enterprises, particularly HVAC, and explained their approach to selling solutions rather than technology, emphasizing the intelligence of their development team, who are given high-level vision and autonomy. Claude Hayn also outlined plans to integrate their current website into a new communication suite, incorporating Michael Donovan's marketing platform capabilities and Fonoster, while Michael Donovan demonstrated an MVP of a conversational CRM for car dealerships and used market analysis to discuss exclusivity.",
   "decisions": [
     {
-      "description": "Claude Hayn plans to integrate their current website into a new communication suite, migrating off WordPress.",
-      "decidedBy": ["Claude Hayn"],
-      "topic": "website-integration",
+      "description": "Focus on small to medium enterprises, specifically HVAC, for VCON-integrated solutions.",
+      "decidedBy": [
+        "Claude Hayn",
+        "Audrey Hayn"
+      ],
+      "topic": "market-segmentation",
       "confidence": "firm"
     },
     {
-      "description": "Claude Hayn will integrate Michael Donovan's marketing platform capabilities into their communication suite.",
-      "decidedBy": ["Claude Hayn"],
-      "topic": "marketing-platform-integration",
+      "description": "Strategy to sell solutions and product capabilities rather than just technology.",
+      "decidedBy": [
+        "Claude Hayn",
+        "Audrey Hayn"
+      ],
+      "topic": "sales-strategy",
       "confidence": "firm"
     },
     {
-      "description": "Claude Hayn plans to integrate Fonoster into their communication suite.",
-      "decidedBy": ["Claude Hayn"],
-      "topic": "fonoster-integration",
+      "description": "Developers will be given high-level vision and autonomy for implementation.",
+      "decidedBy": [
+        "Claude Hayn"
+      ],
+      "topic": "developer-engagement",
       "confidence": "firm"
     },
     {
-      "description": "Audrey and Claude Hayn will explore Michael Donovan's marketing automation platform as a closed beta resource.",
-      "decidedBy": ["Audrey Hayn", "Claude Hayn"],
-      "topic": "platform-exploration",
+      "description": "Integrate current website into a new communication suite, moving off WordPress.",
+      "decidedBy": [
+        "Claude Hayn"
+      ],
+      "topic": "communication-suite-integration",
+      "confidence": "firm"
+    },
+    {
+      "description": "Incorporate Michael Donovan's marketing platform capabilities into the new communication suite.",
+      "decidedBy": [
+        "Claude Hayn"
+      ],
+      "topic": "communication-suite-integration",
+      "confidence": "firm"
+    },
+    {
+      "description": "Integrate Fonoster, an open-source Twilio alternative, into the communication suite.",
+      "decidedBy": [
+        "Claude Hayn"
+      ],
+      "topic": "communication-suite-integration",
+      "confidence": "firm"
+    },
+    {
+      "description": "Michael Donovan will deploy the marketing automation platform.",
+      "decidedBy": [
+        "Michael Donovan"
+      ],
+      "topic": "marketing-automation-platform-deployment",
+      "confidence": "firm"
+    },
+    {
+      "description": "Audrey Hayn and Claude Hayn will explore the marketing automation platform.",
+      "decidedBy": [
+        "Audrey Hayn",
+        "Claude Hayn"
+      ],
+      "topic": "marketing-automation-platform-exploration",
+      "confidence": "firm"
+    },
+    {
+      "description": "Michael Donovan will send documentation link for the environment design.",
+      "decidedBy": [
+        "Michael Donovan"
+      ],
+      "topic": "documentation-sharing",
+      "confidence": "firm"
+    },
+    {
+      "description": "Claude Hayn and Audrey Hayn will receive login credentials for the platform next week.",
+      "decidedBy": [
+        "Michael Donovan"
+      ],
+      "topic": "platform-access",
       "confidence": "firm"
     }
   ],
@@ -37,73 +100,196 @@
       "task": "Deploy the marketing automation platform.",
       "owner": "Michael Donovan",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "other",
-        "description": "Functional and accessible marketing automation platform."
-      }
+      "expectedOutcome": null
     },
     {
-      "task": "Explore the marketing automation platform provided by Michael Donovan as a closed beta resource.",
+      "task": "Explore the marketing automation platform as a closed beta resource.",
       "owner": "Audrey Hayn",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "other",
-        "description": "Familiarization with the features and potential uses of the platform."
-      }
+      "expectedOutcome": null
     },
     {
-      "task": "Explore the marketing automation platform provided by Michael Donovan as a closed beta resource.",
+      "task": "Explore the marketing automation platform as a closed beta resource.",
       "owner": "Claude Hayn",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "other",
-        "description": "Familiarization with the features and potential uses of the platform."
-      }
+      "expectedOutcome": null
     },
     {
-      "task": "Send a link to documentation on how the marketing automation platform environment is designed.",
+      "task": "Send a link to documentation on how the environment is designed.",
       "owner": "Michael Donovan",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "google-docs",
-        "description": "Accessible documentation detailing the design of the platform."
-      }
+      "expectedOutcome": null
     },
     {
-      "task": "Provide login credentials for the marketing automation platform.",
+      "task": "Provide login credentials for the platform.",
       "owner": "Michael Donovan",
-      "deadline": "2025-09-29",
-      "expectedOutcome": {
-        "system": "other",
-        "description": "Audrey and Claude Hayn gain access to the closed beta platform."
-      }
+      "deadline": "next week",
+      "expectedOutcome": null
+    },
+    {
+      "task": "Familiarize with GitHub for bug monitoring and concept cards.",
+      "owner": "Audrey Hayn",
+      "deadline": null,
+      "expectedOutcome": null
+    },
+    {
+      "task": "Explore using Michael Donovan's AI methods for process automation in side job.",
+      "owner": "Audrey Hayn",
+      "deadline": null,
+      "expectedOutcome": null
     }
   ],
   "topicsDiscussed": [
-    "developer-engagement",
-    "market-segments",
-    "selling-solutions",
-    "attribution-model",
-    "ai-research-visualization",
-    "google-sites",
-    "development-tools",
-    "marketing-automation",
-    "ai-assisted-development",
-    "collaboration-proposal",
-    "communication-suite",
+    "ai-deep-research",
+    "ai-visualization",
+    "google-sites-content-hosting",
+    "marketing-automation-platform",
+    "developer-engagement-process",
+    "vcon-market-segments",
+    "hvac-solutions",
+    "selling-solutions-vs-technology",
+    "attribution-models",
+    "data-insights",
+    "vcon-value-proposition",
+    "development-tools-workflow",
+    "github-notion-cursor",
+    "claude-code-desktop",
+    "shad-cn-ui-library",
+    "viconic-easter-egg",
+    "strategic-ai-integration",
+    "collaboration-opportunities",
+    "communication-suite-integration",
     "fonoster-integration",
-    "automotive-crm",
-    "market-analysis",
-    "team-approach",
-    "content-creation",
-    "business-development"
+    "automotive-crm-mvp",
+    "market-analysis-exclusivity",
+    "team-development-approach",
+    "content-creation-efficiency",
+    "business-development-sales-strategy"
   ],
   "tensions": [
-    "Audrey Hayn's company struggles to implement AI effectively due to a lack of understanding.",
-    "Concerns about VCON alone lacking high value without being paired with practical solutions."
+    "Difficulty educating HVAC providers about VCON without extensive background explanation.",
+    "Competition with siloed platforms offering transcriptions and deep RAM.",
+    "VCON alone lacks high value and needs 'meat substance' for practical solutions.",
+    "Struggle to implement AI for process automation in Audrey Hayn's side job due to lack of understanding.",
+    "Frustration with external SEO vendors using outdated methods (2008 approach)."
   ],
   "referencesToPast": [
-    "Michael Donovan's agency's experience with attribution models for car dealerships in 2015-2016.",
-    "Claude Hayn's past demos with Thomas where technology was over-emphasized."
-  ]
+    "Audrey Hayn's HVAC experience as an 'aha moment' for market segments.",
+    "Michael Donovan's agency's attribution model from 2015/2016 for car dealerships.",
+    "Claude Hayn's patent partner Carl Ford's lack of ad performance insight leading to 'ad jumps'.",
+    "Michael Donovan's 20 years of marketing experience consolidated into his platform.",
+    "Michael Donovan's 12-year-old son building a mobile app with Cursor and Claude Desktop.",
+    "Michael Donovan's electrician friend building an app to learn front-end web development.",
+    "Claude Hayn's past experience with 18 developers porting games to OS2 for IBM.",
+    "Claude Hayn's team members discovered through TAD Hack.",
+    "Positive feedback from industry contacts Perry and Chris Celibbrdi on Claude Hayn's platform."
+  ],
+  "contributions": [
+    {
+      "person_name": "Michael Donovan",
+      "topic": "ai-research-visualization",
+      "description": "Demonstrated leveraging AI (Google Gemini) for deep research and infographic visualization.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "content-sharing-platforms",
+      "description": "Proposed using Google Sites to host interactive AI-generated content and knowledge bases.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "marketing-automation",
+      "description": "Introduced his marketing automation platform, consolidating 20 years of experience with AI agents.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Claude Hayn",
+      "topic": "market-segmentation",
+      "description": "Shared focus on small to medium enterprises, specifically HVAC, after market analysis.",
+      "type": "topic",
+      "occurrence": "repeated",
+      "status": "approved"
+    },
+    {
+      "person_name": "Claude Hayn",
+      "topic": "sales-strategy",
+      "description": "Emphasized selling solutions and product capabilities ('the steak') over technology ('the sizzle').",
+      "type": "concept",
+      "occurrence": "repeated",
+      "status": "approved"
+    },
+    {
+      "person_name": "Claude Hayn",
+      "topic": "developer-engagement",
+      "description": "Explained giving developers high-level vision and autonomy due to their intelligence.",
+      "type": "concept",
+      "occurrence": "repeated",
+      "status": "approved"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "vcon-value-proposition",
+      "description": "Stated VCON needs 'meat substance' and practical solutions to provide high value beyond transcription.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "ai-assisted-development",
+      "description": "Suggested using Cursor with Claude Desktop and GitHub's SpecKit for spec-driven development.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "ui-development-tools",
+      "description": "Recommended Shad CN, an open-source Tailwind CSS library, for UI development.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Claude Hayn",
+      "topic": "communication-suite-integration",
+      "description": "Outlined plans to integrate their website, Michael Donovan's platform, and Fonoster into a new communication suite.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "automotive-crm",
+      "description": "Demonstrated an MVP of a conversational CRM for car dealerships, aiming to be a disruptor.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "market-exclusivity",
+      "description": "Suggested offering market exclusivity for services like HVAC to create scarcity and demand.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Audrey Hayn",
+      "topic": "ai-process-automation",
+      "description": "Expressed interest in using Michael Donovan's methods to implement AI for process automation in her side job.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    }
+  ],
+  "participation": [],
+  "durationMinutes": 83
 }

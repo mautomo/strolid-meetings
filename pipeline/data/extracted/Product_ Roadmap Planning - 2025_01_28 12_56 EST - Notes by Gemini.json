@@ -1,7 +1,7 @@
 {
-  "meetingId": "product-roadmap-planning-2025-01-28",
+  "meetingId": "PRP-20250128",
   "title": "Product: Roadmap Planning",
-  "date": "2025-01-28",
+  "date": "Jan 28, 2025",
   "series": "Product: Roadmap Planning",
   "type": "product",
   "attendees": [
@@ -17,98 +17,295 @@
     "Michael Donovan",
     "Jason Branham"
   ],
-  "summary": "The team discussed strategies for improving portal user engagement, focusing on onboarding, communication, and training. They decided to leverage a product-led growth model, implement pilot programs to test GPT, and improve internal team training using a tiered approach. Next steps involve creating training materials, conducting pilot programs, and improving data collection to measure impact.",
+  "summary": "Matt Watson, Vinnie Micciche, Michael Donovan, and Thomas Howe discussed improving portal user engagement, citing challenges with onboarding, communication, and training. Key suggestions included focusing on the portal's value proposition, leveraging a product-led growth model and diffusion of innovation theory, implementing pilot programs to test GPT, and improving internal team training through a tiered approach. Next steps involve creating engaging training materials, conducting pilot programs with select dealers, and improving data collection and analysis to measure the impact of implemented changes.",
   "decisions": [
     {
-      "description": "Focus on the \"why\" behind portal usage to drive dealer adoption.",
-      "decidedBy": ["Vinnie Micciche"],
-      "topic": "portal-user-engagement",
+      "description": "Create engaging training materials for portal value communication.",
+      "decidedBy": [
+        "Matt Watson",
+        "Vinnie Micciche",
+        "Michael Donovan",
+        "Thomas Howe"
+      ],
+      "topic": "training-materials",
       "confidence": "firm"
     },
     {
-      "description": "Leverage the diffusion of innovation theory to incentivize participation.",
-      "decidedBy": ["Michael Donovan"],
-      "topic": "portal-user-engagement",
-      "confidence": "firm"
-    },
-    {
-      "description": "Focus on improved onboarding and marketing campaigns.",
-      "decidedBy": ["Matt Watson"],
-      "topic": "user-onboarding",
-      "confidence": "firm"
-    },
-    {
-      "description": "Explore product improvements to increase inherent value.",
-      "decidedBy": ["Matt Watson"],
-      "topic": "product-improvement",
-      "confidence": "exploratory"
-    },
-    {
-      "description": "Implement a pilot program with a small group of dealers to test and improve GPT.",
-      "decidedBy": ["Vinnie Micciche"],
+      "description": "Conduct pilot programs with select dealers to test and improve GPT.",
+      "decidedBy": [
+        "Matt Watson",
+        "Vinnie Micciche",
+        "Michael Donovan",
+        "Thomas Howe"
+      ],
       "topic": "gpt-pilot-program",
       "confidence": "firm"
     },
     {
-      "description": "Use a \"karate school\" approach to training, where initial experts train more people.",
-      "decidedBy": ["Thomas Howe"],
-      "topic": "internal-team-training",
+      "description": "Improve data collection and analysis to measure user engagement impact.",
+      "decidedBy": [
+        "Matt Watson",
+        "Vinnie Micciche",
+        "Michael Donovan",
+        "Thomas Howe"
+      ],
+      "topic": "data-collection-measurement",
       "confidence": "firm"
     },
     {
-      "description": "Incorporate daily prompts that help managers track their daily tasks to improve usage and retention.",
-      "decidedBy": ["Thomas Howe"],
-      "topic": "portal-usage",
-      "confidence": "tentative"
+      "description": "Implement a tiered 'karate school' approach for internal team training.",
+      "decidedBy": [
+        "Matt Watson",
+        "Vinnie Micciche",
+        "Michael Donovan",
+        "Thomas Howe"
+      ],
+      "topic": "internal-team-training",
+      "confidence": "firm"
     }
   ],
   "actionItems": [
     {
-      "task": "Create engaging training and outreach materials for the sales and client success teams.",
+      "task": "Create engaging training and outreach materials for portal value.",
       "owner": "Unassigned",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "other",
-        "description": "Improved understanding of the portal's value and demo capabilities among sales and client success teams."
-      }
+      "expectedOutcome": null
     },
     {
-      "task": "Conduct pilot programs with a select group of dealers to test and improve GPT.",
+      "task": "Conduct pilot programs with a small group of dealers to test GPT.",
       "owner": "Vinnie Micciche",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "other",
-        "description": "Identified areas for improvement in GPT functionality and dealer training."
-      }
+      "expectedOutcome": null
     },
     {
-      "task": "Improve data collection and analysis to measure the impact of implemented changes.",
+      "task": "Improve data collection and measurement of user engagement.",
       "owner": "Matt Watson",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "google-analytics",
-        "description": "Establish baselines and track user engagement metrics to assess the effectiveness of changes."
-      }
+      "expectedOutcome": null
+    },
+    {
+      "task": "Establish baselines and organize existing data for product growth measurement.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": null
+    },
+    {
+      "task": "Design internal team training on portal usage and value communication.",
+      "owner": "Unassigned",
+      "deadline": null,
+      "expectedOutcome": null
     }
   ],
   "topicsDiscussed": [
     "portal-user-engagement",
-    "product-led-growth",
-    "user-onboarding",
-    "product-marketing",
-    "communication-strategy",
+    "product-led-growth-model",
+    "diffusion-of-innovation-theory",
+    "gamification",
+    "product-marketing-messaging",
+    "communication-training-gaps",
+    "product-improvements",
+    "gpt-pilot-programs",
     "internal-team-training",
-    "product-improvement",
-    "gpt-pilot-program",
-    "data-collection",
-    "usage-metrics",
-    "dealer-adoption",
-    "diffusion-of-innovation"
+    "data-collection-measurement"
   ],
   "tensions": [
-    "Lack of understanding of dealer needs contributing to low engagement.",
-    "Sales and client success teams need improved training on effectively communicating the portal's value.",
-    "Team members unable to perform demos and lack of consistent communication about new features."
+    "Challenges with portal onboarding, communication, and training.",
+    "Issues with signups, emails, MFA, and inviting new dealer employees.",
+    "Sales and client success teams lack effective portal value communication training.",
+    "Team members unable to perform demos and inconsistent feature communication.",
+    "Lack of understanding of dealer needs contributes to low engagement.",
+    "Uncertainty if low usage is product-related or due to communication/training."
   ],
-  "referencesToPast": []
+  "referencesToPast": [],
+  "contributions": [
+    {
+      "person_name": "Matt Watson",
+      "topic": "portal-user-engagement",
+      "description": "Initiated discussion on improving user engagement with the portal.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Matt Watson",
+      "topic": "product-led-growth",
+      "description": "Presented a product-led growth model highlighting onboarding, activation, retention challenges.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Matt Watson",
+      "topic": "product-improvements",
+      "description": "Proposed addressing low engagement via improved onboarding, marketing, and product value.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Matt Watson",
+      "topic": "data-collection-measurement",
+      "description": "Acknowledged the need for improved data collection and measurement of user engagement.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "portal-value-proposition",
+      "description": "Suggested focusing on the 'why' behind portal usage for dealer adoption.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "training-gaps",
+      "description": "Pointed out sales/client success teams need improved training on portal value.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "gpt-pilot-program",
+      "description": "Proposed a pilot program with dealers to test and improve GPT.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "internal-team-training",
+      "description": "Stressed importance of internal team training before expanding to dealers.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "diffusion-of-innovation",
+      "description": "Suggested leveraging diffusion of innovation theory, focusing on engaged users.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "gamification",
+      "description": "Suggested using gamification to incentivize user participation.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "dealer-needs",
+      "description": "Added that lack of understanding dealer needs contributes to low engagement.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "data-organization",
+      "description": "Emphasized establishing baselines and organizing existing data for proper growth measurement.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Thomas Howe",
+      "topic": "internal-team-training",
+      "description": "Suggested a 'karate school' approach for tiered internal team training.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Thomas Howe",
+      "topic": "workflow-integration",
+      "description": "Emphasized making portal usage a habit by integrating it into existing workflows.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Thomas Howe",
+      "topic": "daily-prompts",
+      "description": "Suggested incorporating daily prompts to help managers track tasks and improve usage.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    }
+  ],
+  "participation": [
+    {
+      "person_name": "Matt Watson",
+      "words_spoken": 0,
+      "participation_percentage": 0.0,
+      "level": "HIGH"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "words_spoken": 0,
+      "participation_percentage": 0.0,
+      "level": "HIGH"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "words_spoken": 0,
+      "participation_percentage": 0.0,
+      "level": "HIGH"
+    },
+    {
+      "person_name": "Thomas Howe",
+      "words_spoken": 0,
+      "participation_percentage": 0.0,
+      "level": "MEDIUM"
+    },
+    {
+      "person_name": "Shawna Behen",
+      "words_spoken": 0,
+      "participation_percentage": 0.0,
+      "level": "NONE"
+    },
+    {
+      "person_name": "Kristina Cvitko",
+      "words_spoken": 0,
+      "participation_percentage": 0.0,
+      "level": "NONE"
+    },
+    {
+      "person_name": "Ken Herron",
+      "words_spoken": 0,
+      "participation_percentage": 0.0,
+      "level": "NONE"
+    },
+    {
+      "person_name": "Joe Furnari",
+      "words_spoken": 0,
+      "participation_percentage": 0.0,
+      "level": "NONE"
+    },
+    {
+      "person_name": "David Walsh",
+      "words_spoken": 0,
+      "participation_percentage": 0.0,
+      "level": "NONE"
+    },
+    {
+      "person_name": "Michael Mirabile",
+      "words_spoken": 0,
+      "participation_percentage": 0.0,
+      "level": "NONE"
+    },
+    {
+      "person_name": "Jason Branham",
+      "words_spoken": 0,
+      "participation_percentage": 0.0,
+      "level": "NONE"
+    }
+  ],
+  "durationMinutes": null
 }

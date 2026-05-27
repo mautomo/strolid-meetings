@@ -1,81 +1,221 @@
 {
-  "meetingId": "product-marketing-alignment-2026-04-01",
+  "meetingId": "PMA-20260401",
   "title": "Product Marketing Alignment",
   "date": "2026-04-01",
   "series": "Product Marketing Alignment",
   "type": "marketing",
-  "attendees": ["Michael Donovan", "Matt Watson", "Paulo Trovao"],
-  "summary": "The meeting covered developer plugins, internal account issues, third-party security concerns (specifically a Trojan in Axios), and website restructuring project updates. Matt detailed a personal automation project aimed at scaling to an organizational-level conversational CRM, and the team discussed agent architecture and orchestration for efficient data processing.",
+  "attendees": [
+    "Michael Donovan",
+    "Matt Watson",
+    "Paulo Trovao",
+    "Herenda",
+    "Sergey"
+  ],
+  "summary": "The meeting covered developer plugins, internal account issues, and critical third-party security concerns like the Axios Trojan. Updates included website restructuring with a new resource center and Matt Watson's personal OS project, aiming for an organizational conversational CRM. Agent architecture and Conserver monetization were also discussed.",
   "decisions": [
     {
-      "description": "Matt will pass on the warning about the Axios Trojan to their development channels.",
-      "decidedBy": ["Matt Watson"],
-      "topic": "security-vulnerabilities",
+      "description": "Matt Watson will pass the Axios Trojan warning to development channels.",
+      "decidedBy": [
+        "Matt Watson"
+      ],
+      "topic": "axios-trojan-security",
       "confidence": "firm"
     },
     {
-      "description": "Matt will check with Herenda for updates on the team account and premium access.",
-      "decidedBy": ["Matt Watson"],
-      "topic": "team-account-status",
-      "confidence": "tentative"
-    },
-    {
-      "description": "Paulo will check with Sergey regarding Snowflake access unblocking.",
-      "decidedBy": ["Paulo Trovao"],
-      "topic": "snowflake-access",
-      "confidence": "tentative"
-    },
-    {
-      "description": "The new website restructuring project will hydrate from a content lake powered by a Groq database, processing around 120 articles clustered by topics like BDC performance and lead management.",
-      "decidedBy": ["Michael Donovan"],
-      "topic": "website-restructuring",
-      "confidence": "firm"
-    },
-    {
-      "description": "Migrate current Docker-intensive local development over to a Mac Mini to run the processes locally.",
-      "decidedBy": ["Matt Watson"],
-      "topic": "local-development-environment",
+      "description": "Conserver monetization will be based on managed solutions and proprietary features.",
+      "decidedBy": [
+        "Matt Watson",
+        "Paulo Trovao"
+      ],
+      "topic": "conserver-monetization",
       "confidence": "firm"
     }
   ],
   "actionItems": [
     {
-      "task": "Implement well-defined agents that can evaluate nuances before any auto-response or automation occurs.",
+      "task": "Check with Herenda for updates on the team account and premium access.",
       "owner": "Matt Watson",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "codebase",
-        "description": "A personal OS side project that ingests signals from multiple sources to categorize and automate actions, intended to scale to an organizational-level conversational CRM."
-      }
+      "expectedOutcome": null
     },
     {
-      "task": "Define agents with specific jobs so that tasks are executed as desired, with appropriate tooling and restricted access.",
+      "task": "Check with Sergey for unblocking Snowflake access.",
+      "owner": "Paulo Trovao",
+      "deadline": null,
+      "expectedOutcome": null
+    },
+    {
+      "task": "Pass the Axios Trojan warning to development channels.",
       "owner": "Matt Watson",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "codebase",
-        "description": "Orchestrator will spawn parallel sub-agents to perform specific tasks, which are ephemeral workers and can communicate, but not spawn further sub-agents."
-      }
+      "expectedOutcome": null
+    },
+    {
+      "task": "Rotate all API keys if an infected Axios version is found.",
+      "owner": "Unassigned",
+      "deadline": null,
+      "expectedOutcome": null
+    },
+    {
+      "task": "Migrate Docker-intensive local development to Mac Mini.",
+      "owner": "Matt Watson",
+      "deadline": null,
+      "expectedOutcome": null
     }
   ],
   "topicsDiscussed": [
     "developer-plugins",
-    "team-account-status",
-    "snowflake-access",
-    "security-vulnerabilities",
-    "risk-governance",
+    "team-account-limits",
+    "third-party-security-risks",
+    "axios-trojan",
     "website-restructuring",
-    "performance-metrics",
-    "personal-automation-project",
+    "resource-center",
+    "personal-automation-os",
+    "conversational-crm",
     "agent-architecture",
-    "data-evaluation",
-    "monetization-strategy",
-    "hardware-setup",
+    "governance-challenges",
+    "conserver-monetization",
     "local-development-environment"
   ],
   "tensions": [
-    "Confusion about trusting large models like Sonnet or Opus to architect the agent system correctly during a brainstorming session.",
-    "Paulo questioned the monetization strategy for the Conserver given that the technology is open source."
+    "Questions regarding the team account's 5-hour limit and push towards enterprise setup.",
+    "General security risk of arbitrary plugins and code, even commented-out in markdown.",
+    "Challenges of governance and safety with widespread common dependencies like Axios.",
+    "Matt Watson's confusion about trusting large models to architect agent systems correctly.",
+    "Paulo Trovao's initial confusion about Conserver monetization for an open-source product."
   ],
-  "referencesToPast": []
+  "referencesToPast": [
+    "Michael mentioned a prior issue shared with Matt regarding the 5-hour limit.",
+    "Michael referenced a busy day preventing an update to Paulo on Snowflake access.",
+    "Paulo referred to 'the jQuery days' and people putting scripts in it.",
+    "Michael mentioned Umba being early adopters of Node.",
+    "Matt recounted an experience with CDK data access while operating a big dealer group."
+  ],
+  "contributions": [
+    {
+      "person_name": "Matt Watson",
+      "topic": "developer-plugins",
+      "description": "Found Superpower and Context 7 plugins helpful for development.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "approved"
+    },
+    {
+      "person_name": "Matt Watson",
+      "topic": "sequential-thinking",
+      "description": "Sequential thinking plugin slows process, increases bug fixing success rate.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "approved"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "team-account-strategy",
+      "description": "Observed team account structure seems designed to push users toward enterprise setup.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Paulo Trovao",
+      "topic": "axios-trojan-security",
+      "description": "Warned about a Trojan in Axios versions 1.4.1 or 1.14.1.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "plugin-security-risks",
+      "description": "Emphasized general security risk of 'willy-nilly plugins' and arbitrary code.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "website-restructuring",
+      "description": "Updated on completed website restructuring, resulting in a snappy resource center.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "completed-success"
+    },
+    {
+      "person_name": "Matt Watson",
+      "topic": "personal-automation-os",
+      "description": "Detailed a personal OS side project for ingesting signals and automating actions.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Matt Watson",
+      "topic": "conversational-crm",
+      "description": "Vision for scaling personal OS to an organizational conversational CRM for VCON.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Paulo Trovao",
+      "topic": "agent-architecture",
+      "description": "Suggested separating concerns with specialized agents for different functions and models.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Paulo Trovao",
+      "topic": "agent-orchestration",
+      "description": "Explained that only the orchestrator can spawn parallel sub-agents, not sub-agents themselves.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Matt Watson",
+      "topic": "agent-refinement",
+      "description": "Using post-session feedback to refine Claude's handling of ingested data for agents.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "pending"
+    },
+    {
+      "person_name": "Matt Watson",
+      "topic": "conserver-monetization",
+      "description": "Clarified Conserver monetization is based on managed solution and proprietary features.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "approved"
+    },
+    {
+      "person_name": "Matt Watson",
+      "topic": "local-development-environment",
+      "description": "Plans to migrate Docker-intensive local development to a Mac Mini for better performance.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    }
+  ],
+  "participation": [
+    {
+      "person_name": "Matt Watson",
+      "words_spoken": 5000,
+      "participation_percentage": 38.5,
+      "level": "HIGH"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "words_spoken": 4500,
+      "participation_percentage": 34.6,
+      "level": "HIGH"
+    },
+    {
+      "person_name": "Paulo Trovao",
+      "words_spoken": 3500,
+      "participation_percentage": 26.9,
+      "level": "HIGH"
+    }
+  ],
+  "durationMinutes": 41
 }

@@ -1,140 +1,334 @@
 {
-  "meetingId": "scrum-standup-daily-update-2026-03-10",
+  "meetingId": "scrum-standup-20260310",
   "title": "Scrum/Standup/Daily Update",
   "date": "2026-03-10",
   "series": "Scrum/Standup/Daily Update",
   "type": "standup",
   "attendees": [
     "Holly Meyerhofer",
-    "Sunaina Khan",
-    "Joe Furnari",
-    "Shawna Behen",
     "Michael Donovan",
     "Scott Henshaw",
-    "Harinder Bhinder",
     "Sergey Lyapustin",
-    "Jason Branham",
-    "Thomas Howe",
     "Vinnie Micciche",
-    "Pavan Kumar",
     "Kevin Breen",
     "Matt Watson",
-    "Chris Celiberti",
-    "+1 781--84"
+    "Frank",
+    "Derek",
+    "Anthony",
+    "Gus",
+    "Kayla",
+    "John"
   ],
-  "summary": "The meeting focused on addressing voicemail drop issues with modern phones by implementing an alert system to flag when a customer answers during a drop, prompting a callback. Additionally, a fix was committed to cut off previous call audio when initiating a new call to reduce agent confusion. Security concerns regarding the Lovable dashboard led to a plan for stress testing and re-running a security scan.",
+  "summary": "The meeting focused on resolving voicemail drop issues with modern phones, leading to an alert system strategy. Dashboard security and performance for the Lovable application were reviewed, alongside updates on chat widgets and AI analysis for VCONs. Data collection for problem magnitude was prioritized.",
   "decisions": [
     {
-      "description": "Implement an alert system to flag when a human answers during a voicemail drop, prompting a callback.",
-      "decidedBy": ["+1 781--84", "Matt Watson", "Scott Henshaw"],
-      "topic": "voicemail-drop-alert",
-      "confidence": "firm"
-    },
-    {
-      "description": "Implement a fix that cuts off the audio from the previous call as soon as another call is initiated.",
-      "decidedBy": ["Scott Henshaw"],
-      "topic": "audio-cutoff-new-call",
-      "confidence": "firm"
-    },
-    {
-      "description": "Prioritize data collection by setting up an alert system to gauge the magnitude of the voicemail drop problem over one week before deciding on a more comprehensive solution.",
+      "description": "Implement an alert system to flag when a human answers during a voicemail drop for callback.",
       "decidedBy": [
+        "Vinnie Micciche",
+        "Matt Watson",
+        "Scott Henshaw"
+      ],
+      "topic": "voicemail-drop-solution",
+      "confidence": "firm"
+    },
+    {
+      "description": "Cut off previous call audio when initiating a new call to prevent agent confusion.",
+      "decidedBy": [
+        "Scott Henshaw",
+        "Matt Watson"
+      ],
+      "topic": "agent-audio-management",
+      "confidence": "firm"
+    },
+    {
+      "description": "Prioritize data collection for one week to gauge voicemail drop problem magnitude.",
+      "decidedBy": [
+        "Vinnie Micciche",
         "Sergey Lyapustin",
         "Matt Watson",
-        "Scott Henshaw",
-        "+1 781--84"
+        "Scott Henshaw"
       ],
-      "topic": "voicemail-drop-data-collection",
+      "topic": "data-collection-strategy",
       "confidence": "firm"
     },
     {
-      "description": "Silence the dealer socket pull messages scraper alert in Sentry unless failures exceed 20 times in an hour.",
-      "decidedBy": ["Scott Henshaw"],
-      "topic": "scraper-alert-threshold",
+      "description": "Publish Lovable dashboard publicly with Google authentication, share link internally.",
+      "decidedBy": [
+        "Matt Watson",
+        "Scott Henshaw"
+      ],
+      "topic": "lovable-dashboard-security",
       "confidence": "firm"
     },
     {
-      "description": "Publish the Lovable dashboard publicly while sharing the link only with internal users, due to Google authentication.",
-      "decidedBy": ["Matt Watson", "Scott Henshaw"],
-      "topic": "dashboard-publication",
+      "description": "Re-run security scan for Lovable dashboard before wider deployment.",
+      "decidedBy": [
+        "Sergey Lyapustin"
+      ],
+      "topic": "lovable-dashboard-security",
       "confidence": "firm"
     }
   ],
   "actionItems": [
     {
-      "task": "Set up a new Slack channel to receive alerts when a customer is detected answering during a voicemail drop.",
+      "task": "Keep discussion about unintended voicemail drop with Shauna on notes for tomorrow.",
+      "owner": "Scott Henshaw",
+      "deadline": "2026-03-11",
+      "expectedOutcome": null
+    },
+    {
+      "task": "Push an update related to tightening up security for Starling GPT.",
+      "owner": "Scott Henshaw",
+      "deadline": "2026-03-11",
+      "expectedOutcome": null
+    },
+    {
+      "task": "Cut off the audio from the previous call as soon as another call comes in.",
+      "owner": "Scott Henshaw",
+      "deadline": null,
+      "expectedOutcome": null
+    },
+    {
+      "task": "Set up a new Slack channel for alerts regarding customers picking up during a voicemail drop.",
+      "owner": "Scott Henshaw",
+      "deadline": null,
+      "expectedOutcome": null
+    },
+    {
+      "task": "Create a card for the new Slack channel and include the list of people to add.",
+      "owner": "Matt Watson",
+      "deadline": null,
+      "expectedOutcome": null
+    },
+    {
+      "task": "Go over the cards in the BDC performance dashboard with Derek and Anthony for feedback.",
+      "owner": "Kevin Breen",
+      "deadline": null,
+      "expectedOutcome": null
+    },
+    {
+      "task": "Look into and rerun the security scan for the BDC performance dashboard.",
+      "owner": "Sergey Lyapustin",
+      "deadline": null,
+      "expectedOutcome": null
+    },
+    {
+      "task": "Compare the Lovable AI analysis of customer comments with the Snowflake AI assistant.",
+      "owner": "Kevin Breen",
+      "deadline": null,
+      "expectedOutcome": null
+    },
+    {
+      "task": "Take a look at the Metabase question that Kevin Breen sent in Slack.",
+      "owner": "Matt Watson",
+      "deadline": null,
+      "expectedOutcome": null
+    },
+    {
+      "task": "Make configuration update for Hopkins Ford chat button text to 'chat'.",
       "owner": "Scott Henshaw",
       "deadline": null,
       "expectedOutcome": {
-        "system": "slack",
-        "description": "A new Slack channel exists for voicemail answering alerts."
-      }
-    },
-    {
-      "task": "Create a card for the new Slack channel and include a list of individuals who should be added to it, starting with Frank.",
-      "owner": "Matt Watson",
-      "deadline": null,
-      "expectedOutcome": {
-        "system": "other",
-        "description": "A card exists with a list of people (starting with Frank) to add to the Slack channel."
-      }
-    },
-    {
-      "task": "Seek approval on the new chat widget styling from Holly Meyerhofer via a screenshot on Slack or a direct website visit.",
-      "owner": "Holly Meyerhofer",
-      "deadline": null,
-      "expectedOutcome": {
-        "system": "slack",
-        "description": "Approval of chat widget styling confirmed by Holly Meyerhofer."
-      }
-    },
-    {
-      "task": "Re-run the security scan for the Lovable dashboard and address any concerns before wider deployment.",
-      "owner": "Sergey Lyapustin",
-      "deadline": null,
-      "expectedOutcome": {
-        "system": "other",
-        "description": "Security scan rerun, and any vulnerabilities addressed in the Lovable dashboard."
-      }
-    },
-    {
-      "task": "Seek feedback on the Lovable dashboard's design and concepts from Anthony and Derek before rolling it out to other managers.",
-      "owner": "Kevin Breen",
-      "deadline": null,
-      "expectedOutcome": {
-        "system": "other",
-        "description": "Feedback received from Anthony and Derek on the Lovable dashboard design and concepts."
+        "system": "CXM",
+        "description": "Hopkins Ford chat button displays 'chat'."
       }
     }
   ],
   "topicsDiscussed": [
-    "voicemail-drop-issue",
-    "agent-alerts",
-    "audio-issue",
-    "voicemail-issue-magnitude",
+    "voicemail-drop-issues",
+    "agent-audio-management",
+    "lovable-dashboard-development",
+    "dashboard-security",
+    "data-collection-strategy",
     "chat-widget-updates",
     "dealer-socket-scraper-alerts",
-    "security-updates",
-    "reply-parser",
-    "outbound-campaign",
-    "lovable-dashboard",
-    "dashboard-design",
-    "dashboard-security",
-    "ai-vcon-analysis",
-    "customer-comments",
-    "serverful-redeployement",
-    "retro-planning"
+    "starling-gpt-security",
+    "drive-centric-reply-parser",
+    "sophia-outbound-campaigns",
+    "vcon-ai-analysis",
+    "serverful-redeployment"
   ],
   "tensions": [
-    "Concerns about database performance bottlenecks if many people start using the Lovable dashboard.",
-    "Concerns about dashboard security and potential exposure of endpoints or CBI end points.",
-    "Concerns about customer comments in VCONs being templated or fake.",
-    "Debate about the best way to handle agents hearing customers answer during voicemail drops (silencing vs. barge-in).",
-    "Uncertainty about the frequency/magnitude of the voicemail drop issue and whether the investment in a fix is warranted."
+    "Agent confusion and chaos due to simultaneous audio from multiple calls.",
+    "Technical complexity and potential slowness of a 'jump back into call' button.",
+    "Concern about investing development time into a problem of unknown frequency.",
+    "Potential database performance bottlenecks for the Lovable dashboard with high usage.",
+    "Concerns about Snowflake costs if dashboards become very popular and frequently refreshed.",
+    "Outdated security audit for the Lovable dashboard prior to Google authentication.",
+    "Lovable AI's subpar performance in analyzing VCON customer comments, missing context.",
+    "Suspicion of templated or fake negative customer comments from some providers."
   ],
   "referencesToPast": [
-    "Mention of a previous meeting between Scott Henshaw, Holly Meyerhofer and her team to review DataDog tools and agent call analysis.",
-    "Reference to an outdated security audit issue that predates the Google authentication implementation.",
-    "Discussion of Sophia's ability to handle customers jumping into a voicemail and transitioning to a conversation, relating to previous discussions about Sophia."
-  ]
+    "Anticipated voicemail drop issue: 'we knew this was going to come up'.",
+    "Previous discussions about Sophia handling customer jumps during voicemail.",
+    "Security audit issue predating Google authentication for Lovable dashboard.",
+    "Kevin Breen's prior meeting with Anthony and Derek regarding dealer reports."
+  ],
+  "contributions": [
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "voicemail-drop-solution",
+      "description": "Proposed an alert system for human answers during voicemail drops for callback.",
+      "type": "idea",
+      "occurrence": "repeated",
+      "status": "approved"
+    },
+    {
+      "person_name": "Matt Watson",
+      "topic": "voicemail-drop-solution",
+      "description": "Championed the alert system for human answers during voicemail drops for callback.",
+      "type": "idea",
+      "occurrence": "repeated",
+      "status": "approved"
+    },
+    {
+      "person_name": "Holly Meyerhofer",
+      "topic": "agent-audio-management",
+      "description": "Reported agent confusion and chaos from hearing multiple audio streams simultaneously.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "pending"
+    },
+    {
+      "person_name": "Scott Henshaw",
+      "topic": "agent-audio-management",
+      "description": "Committed to fixing the audio issue by cutting off previous call audio on new call initiation.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "approved"
+    },
+    {
+      "person_name": "Sergey Lyapustin",
+      "topic": "data-collection-strategy",
+      "description": "Suggested running LLM analysis on past voicemail transcripts to estimate problem frequency.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "development-resource-allocation",
+      "description": "Raised concern about spending excessive development time on a problem of unknown frequency.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "pending"
+    },
+    {
+      "person_name": "Sergey Lyapustin",
+      "topic": "voicemail-drop-solution",
+      "description": "Proposed using OpenAI real-time API for partially interactive voicemail drops to handle answers.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Kevin Breen",
+      "topic": "lovable-dashboard-development",
+      "description": "Successfully integrated Google login into the Lovable dashboard for restricted access.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "completed-success"
+    },
+    {
+      "person_name": "Sergey Lyapustin",
+      "topic": "lovable-dashboard-performance",
+      "description": "Expressed concern about potential database performance bottlenecks for the Lovable dashboard.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "pending"
+    },
+    {
+      "person_name": "Sergey Lyapustin",
+      "topic": "lovable-dashboard-security",
+      "description": "Suggested initially publishing the Lovable dashboard for internal workspace only.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "denied"
+    },
+    {
+      "person_name": "Matt Watson",
+      "topic": "lovable-dashboard-security",
+      "description": "Suggested publishing the Lovable dashboard publicly with Google auth, sharing link internally.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "approved"
+    },
+    {
+      "person_name": "Scott Henshaw",
+      "topic": "lovable-dashboard-security",
+      "description": "Confirmed that the Lovable dashboard routes are protected after a quick check.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "completed-success"
+    },
+    {
+      "person_name": "Kevin Breen",
+      "topic": "vcon-ai-analysis",
+      "description": "Reported subpar performance of Lovable's AI in analyzing VCON customer comments.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "completed-success"
+    },
+    {
+      "person_name": "Kevin Breen",
+      "topic": "vcon-data-quality",
+      "description": "Identified identical negative customer comments across VCONs, suggesting templated or fake data.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "pending"
+    },
+    {
+      "person_name": "Sergey Lyapustin",
+      "topic": "vcon-data-quality",
+      "description": "Suggested using call transcripts/summaries instead of agent-inputted lead record comments for VCON analysis.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    }
+  ],
+  "participation": [
+    {
+      "person_name": "Scott Henshaw",
+      "words_spoken": 1000,
+      "participation_percentage": 30.0,
+      "level": "HIGH"
+    },
+    {
+      "person_name": "Matt Watson",
+      "words_spoken": 600,
+      "participation_percentage": 18.0,
+      "level": "HIGH"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "words_spoken": 500,
+      "participation_percentage": 15.0,
+      "level": "HIGH"
+    },
+    {
+      "person_name": "Sergey Lyapustin",
+      "words_spoken": 700,
+      "participation_percentage": 21.0,
+      "level": "HIGH"
+    },
+    {
+      "person_name": "Kevin Breen",
+      "words_spoken": 400,
+      "participation_percentage": 12.0,
+      "level": "MEDIUM"
+    },
+    {
+      "person_name": "Holly Meyerhofer",
+      "words_spoken": 100,
+      "participation_percentage": 3.0,
+      "level": "MEDIUM"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "words_spoken": 10,
+      "participation_percentage": 0.3,
+      "level": "LOW"
+    }
+  ],
+  "durationMinutes": 53
 }

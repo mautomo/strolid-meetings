@@ -1,141 +1,272 @@
 {
-  "meetingId": "strolid-leadership-call-2026-03-23",
+  "meetingId": "Strolid-Leadership-2026-03-23",
   "title": "Strolid Leadership Call",
-  "date": "2026-03-23",
+  "date": "Mar 23, 2026",
   "series": "Strolid Leadership Call",
   "type": "leadership",
   "attendees": [
     "Matt Watson",
     "Shawna Behen",
     "Vinnie Micciche",
-    "Thomas Howe",
     "Jason Branham",
     "Joe Furnari",
-    "Michael Donovan",
     "Harinder Bhinder",
     "Sergey Lyapustin",
-    "Kevin Breen"
+    "Kevin Breen",
+    "Lynn Stler",
+    "Edwin",
+    "Gus",
+    "Derek",
+    "Dustin",
+    "Michael Donovan"
   ],
-  "summary": "The meeting covered Q1 financial performance, revealing lower bookings and declining revenue, leading to discussions about organizational restructuring with new Performance Manager roles reporting to Operational Directors under Shawna Behen. Strategic updates included AI capabilities for improving data validation and controlling the narrative around the Call Review acquisition, emphasizing conversational intelligence.",
+  "summary": "The Q1 financial review revealed lower bookings and declining revenue, necessitating an organizational restructuring. New Performance Manager roles were established under Operational Directors. Strategic discussions included the Call Review acquisition, emphasizing a platform-centric narrative, and the demonstration of AI agent capabilities to improve workflow and data validation. Budgeting for AI usage and progress on the BDS deal and SOC compliance were also key topics.",
   "decisions": [
     {
-      "description": "Place Performance Managers under the Operational Directors, who report to Shawna Behen, to reduce churn and support sales and operational teams.",
-      "decidedBy": ["Vinnie Micciche"],
+      "description": "Operational structure finalized: Performance Managers report to Operational Directors under Shawna Behen.",
+      "decidedBy": [
+        "Vinnie Micciche",
+        "Shawna Behen"
+      ],
       "topic": "operational-structure",
-      "confidence": "firm"
-    },
-    {
-      "description": "Joe Furnari will respond to the remaining items about the BDS deal, with the aim to send the response back to Better Dead Solutions today.",
-      "decidedBy": ["Joe Furnari"],
-      "topic": "bds-deal",
-      "confidence": "firm"
-    },
-    {
-      "description": "Review the link Kevin Breen provided for the Lovable project and then authorize sharing it with the internal team for feedback, focusing on integrating the most important data points like a Sophia call addition.",
-      "decidedBy": ["Vinnie Micciche"],
-      "topic": "lovable-integration",
       "confidence": "firm"
     }
   ],
   "actionItems": [
     {
-      "task": "Create a shortlist of Augusta merchandise items for Matt Watson.",
-      "owner": "Jason Branham",
-      "deadline": null,
-      "expectedOutcome": {
-        "system": "email",
-        "description": "A concise list of available Augusta merchandise options will be provided to Matt Watson."
-      }
-    },
-    {
-      "task": "Spend time thinking through potential challenges with the Performance Manager structure.",
+      "task": "Think through potential challenges with the new performance manager structure.",
       "owner": "Vinnie Micciche",
-      "deadline": "2026-03-23",
-      "expectedOutcome": {
-        "system": "other",
-        "description": "A clearer understanding of the challenges and mitigation strategies for the new Performance Manager structure."
-      }
+      "deadline": "today",
+      "expectedOutcome": null
     },
     {
-      "task": "Reach out to Jamie to connect Joe Furnari and Jamie regarding Call Review.",
+      "task": "Reach out to Jamie to connect Joe Furnari regarding Call Review items.",
       "owner": "Vinnie Micciche",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "email",
-        "description": "Facilitate a discussion between Joe Furnari and Jamie to address potential items regarding Call Review."
-      }
+      "expectedOutcome": null
     },
     {
-      "task": "Review Kevin Breen's Lovable report and authorize sharing it with the internal team.",
-      "owner": "Vinnie Micciche",
-      "deadline": "2026-03-23",
-      "expectedOutcome": {
-        "system": "other",
-        "description": "The Lovable report will be distributed internally for feedback and potential integration."
-      }
-    },
-    {
-      "task": "Spend more time with Sergey Lyapustin and Scott on guardrails for the AI tools.",
+      "task": "Review Kevin Breen's Lovable report and authorize sharing with the team.",
       "owner": "Vinnie Micciche",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "other",
-        "description": "Establish clear guidelines and limitations for AI tool access and usage."
-      }
+      "expectedOutcome": null
     },
     {
-      "task": "Discuss creating a budget for the extensive use of AI.",
+      "task": "Spend more time with Sergey Lyapustin and Scott on AI tools guard rails.",
+      "owner": "Vinnie Micciche",
+      "deadline": null,
+      "expectedOutcome": null
+    },
+    {
+      "task": "Discuss and create a budget for extensive AI usage.",
       "owner": "Harinder Bhinder",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "budget",
-        "description": "A defined budget allocation for AI usage and associated costs."
-      }
+      "expectedOutcome": null
     },
     {
-      "task": "Share a more concrete SOC auditor roadmap.",
+      "task": "Share a concrete roadmap for SOC compliance after kickoff meeting.",
       "owner": "Harinder Bhinder",
-      "deadline": "2026-03-31",
-      "expectedOutcome": {
-        "system": "google-docs",
-        "description": "A detailed plan outlining the steps and timelines for the SOC audit process."
-      }
+      "deadline": "next-monday",
+      "expectedOutcome": null
     },
     {
-      "task": "Discuss setting a flexible and variable AI budget and share cost information with Joe Furnari.",
+      "task": "Talk to Joe Furnari about setting a flexible and variable AI budget.",
       "owner": "Harinder Bhinder",
-      "deadline": "2026-03-23",
-      "expectedOutcome": {
-        "system": "budget",
-        "description": "Agreement on a budgeting approach for AI usage that accounts for variability in costs. The information will be included in future budget projections."
-      }
+      "deadline": null,
+      "expectedOutcome": null
+    },
+    {
+      "task": "Respond to remaining items for the Better Dead Solutions (BDS) deal.",
+      "owner": "Joe Furnari",
+      "deadline": "today",
+      "expectedOutcome": null
     }
   ],
   "topicsDiscussed": [
-    "q1-financial-recap",
-    "full-year-targets",
-    "churn-reduction",
-    "pipeline-update",
-    "operational-structure",
+    "q1-financial-review",
+    "operational-structure-reorganization",
     "performance-manager-role",
     "ai-agent-capabilities",
-    "sophia-engagement-report",
-    "personalization-crm-roadmap",
     "call-review-acquisition",
-    "ai-budgeting",
+    "lovable-integration",
+    "marketing-update",
     "soc-auditors-contract",
-    "better-dead-solutions-deal"
+    "better-dead-solutions-deal",
+    "crm-personalization",
+    "augusta-merchandise"
   ],
   "tensions": [
-    "Ensuring performance managers have enough time with Jason Branham for upselling and outbound campaigns.",
-    "Uneasiness about how the performance manager role will play out.",
-    "Need for improved personalization in customer communication and addressing Rosenberg's concerns about generic email templates.",
-    "Need to limit access to the AI tool to prevent accidental issues and data governance concerns."
+    "Q1 bookings and revenue are down year-over-year, requiring significant improvements.",
+    "Concern about Performance Managers having enough time for upselling with Jason Branham.",
+    "Vinnie Micciche expressed uneasiness about the performance manager role's execution.",
+    "Need for a clear budget for AI usage costs due to extensive internal use.",
+    "AI tool's power requires limiting access to prevent accidental issues.",
+    "Rosenberg's concern about generic email templates instead of personalized replies.",
+    "Business struggles affecting employee earnings and the need to tackle hard problems.",
+    "Critical need for the BDS deal; failure could require Perry to raise funds quickly.",
+    "BDC managers were previously overburdened with administrative work."
   ],
   "referencesToPast": [
-    "Discussion of operational structure from the previous week's meeting.",
-    "Mention of goals set last year for churn reduction.",
-    "Reference to Q1 2025 bookings performance.",
-    "Revenue decline due to lower bookings since October of the previous year."
-  ]
+    "Revenue has declined for the 4th consecutive month since October.",
+    "Churn last year in late Q1 and through Q2 had improved dramatically.",
+    "Q1 bookings are about half of the previous year's bookings.",
+    "Vinnie mentioned last week that revenue would continue to decline.",
+    "Operational structure was discussed last week.",
+    "BDC managers were previously overburdened with administrative work.",
+    "Sergey was helpful in the fall building a roadmap for administrative tasks.",
+    "Personalization has been on the roadmap for a while.",
+    "They had 20% bookings growth last year.",
+    "Joe Furnari and Vinnie Micciche discussed past churn reduction goals (50% to 35% to 25%).",
+    "Operational Directors Edwin, Gus, and Derek were BDC managers previously.",
+    "Seasonal trends for churn have been observed over the last couple of years."
+  ],
+  "contributions": [
+    {
+      "person_name": "Jason Branham",
+      "topic": "pipeline-strategy",
+      "description": "Proposed offering full sales BDC for poor-performing stores to get a 'foot in the door'.",
+      "type": "idea",
+      "occurrence": "first-time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Joe Furnari",
+      "topic": "q1-financial-review",
+      "description": "Presented Q1 financial recap, full-year goals, and targets for bookings, churn, and revenue.",
+      "type": "topic",
+      "occurrence": "first-time",
+      "status": "pending"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "organizational-efficiency",
+      "description": "Emphasized organizational adjustments were necessary due to BDC managers' administrative burden.",
+      "type": "concept",
+      "occurrence": "repeated",
+      "status": "approved"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "crm-personalization",
+      "description": "Highlighted the need for improved personalization in customer communication beyond first lead response.",
+      "type": "idea",
+      "occurrence": "repeated",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Sergey Lyapustin",
+      "topic": "ai-agent-capabilities",
+      "description": "Demonstrated how AI agents can shorten feedback loops for investigations and data validation.",
+      "type": "concept",
+      "occurrence": "first-time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Sergey Lyapustin",
+      "topic": "sophia-engagement-report",
+      "description": "Showcased an AI-generated report revealing 17.5% Sophia engagement with SMS replies.",
+      "type": "topic",
+      "occurrence": "first-time",
+      "status": "pending"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "reporting-strategy",
+      "description": "Stressed keeping reports simple for dealers, focusing on unique customers for engagement rates.",
+      "type": "idea",
+      "occurrence": "proposed",
+      "status": "approved"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "call-review-strategy",
+      "description": "Suggested positioning the company for a partnership if not in the next Call Review conversation.",
+      "type": "idea",
+      "occurrence": "first-time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Harinder Bhinder",
+      "topic": "ai-budgeting",
+      "description": "Noted the need to budget for AI usage costs due to extensive internal use.",
+      "type": "topic",
+      "occurrence": "first-time",
+      "status": "pending"
+    },
+    {
+      "person_name": "Harinder Bhinder",
+      "topic": "soc-compliance",
+      "description": "Confirmed the contract with SOC auditors is signed and a kickoff meeting is scheduled.",
+      "type": "topic",
+      "occurrence": "first-time",
+      "status": "completed-success"
+    },
+    {
+      "person_name": "Joe Furnari",
+      "topic": "bds-deal",
+      "description": "Provided an update on the Better Dead Solutions (BDS) deal, anticipating completion soon.",
+      "type": "topic",
+      "occurrence": "first-time",
+      "status": "pending"
+    },
+    {
+      "person_name": "Matt Watson",
+      "topic": "augusta-merchandise",
+      "description": "Requested a shortlist of Augusta merchandise items from Jason Branham.",
+      "type": "topic",
+      "occurrence": "first-time",
+      "status": "pending"
+    }
+  ],
+  "participation": [
+    {
+      "person_name": "Vinnie Micciche",
+      "words_spoken": 1500,
+      "participation_percentage": 35.0,
+      "level": "HIGH"
+    },
+    {
+      "person_name": "Joe Furnari",
+      "words_spoken": 1200,
+      "participation_percentage": 28.0,
+      "level": "HIGH"
+    },
+    {
+      "person_name": "Sergey Lyapustin",
+      "words_spoken": 900,
+      "participation_percentage": 21.0,
+      "level": "HIGH"
+    },
+    {
+      "person_name": "Jason Branham",
+      "words_spoken": 300,
+      "participation_percentage": 7.0,
+      "level": "MEDIUM"
+    },
+    {
+      "person_name": "Harinder Bhinder",
+      "words_spoken": 200,
+      "participation_percentage": 4.0,
+      "level": "MEDIUM"
+    },
+    {
+      "person_name": "Matt Watson",
+      "words_spoken": 100,
+      "participation_percentage": 2.0,
+      "level": "LOW"
+    },
+    {
+      "person_name": "Shawna Behen",
+      "words_spoken": 50,
+      "participation_percentage": 1.0,
+      "level": "LOW"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "words_spoken": 50,
+      "participation_percentage": 1.0,
+      "level": "LOW"
+    }
+  ],
+  "durationMinutes": 62
 }

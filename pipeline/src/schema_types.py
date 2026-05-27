@@ -66,6 +66,20 @@ class ExtractedMeetingActionItem(BaseModel):
     deadline: Optional[str] = None
     expectedOutcome: Optional[ExpectedOutcome] = None
 
+class MeetingContribution(BaseModel):
+    person_name: str
+    topic: str
+    description: str
+    type: Literal["topic", "idea", "concept"]
+    occurrence: str
+    status: Literal["proposed", "approved", "denied", "completed-success", "pending"]
+
+class AttendeeParticipation(BaseModel):
+    person_name: str
+    words_spoken: int
+    participation_percentage: float
+    level: Literal["HIGH", "MEDIUM", "LOW", "NONE"]
+
 class ExtractedMeeting(BaseModel):
     meetingId: str
     title: str
@@ -79,6 +93,9 @@ class ExtractedMeeting(BaseModel):
     topicsDiscussed: List[str] = Field(default_factory=list)
     tensions: List[str] = Field(default_factory=list)
     referencesToPast: List[str] = Field(default_factory=list)
+    contributions: List[MeetingContribution] = Field(default_factory=list)
+    participation: List[AttendeeParticipation] = Field(default_factory=list)
+    durationMinutes: Optional[int] = None
 
 class NormalizedData(BaseModel):
     people: List[Person] = Field(default_factory=list)
@@ -105,4 +122,9 @@ class ExtractedDocument(BaseModel):
     topics: List[str] = Field(default_factory=list)
     summary: str
     text: str
+    category: str
+    peopleInvolved: List[str] = Field(default_factory=list)
+    sentiment: Literal["positive", "neutral", "negative", "mixed"]
+    sentimentScore: float
+
 

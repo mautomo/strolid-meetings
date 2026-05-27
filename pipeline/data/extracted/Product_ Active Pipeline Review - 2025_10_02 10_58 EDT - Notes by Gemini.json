@@ -1,8 +1,8 @@
 {
-  "meetingId": "active-pipeline-review-2025-10-02",
+  "meetingId": "product-pipeline-review-20251002",
   "title": "Product: Active Pipeline Review",
   "date": "2025-10-02",
-  "series": "Product: Active Pipeline Review",
+  "series": "Product",
   "type": "product",
   "attendees": [
     "Thomas Howe",
@@ -14,113 +14,361 @@
     "Jason Branham",
     "Michael Donovan",
     "Harinder Bhinder",
-    "Sergey Lyapustin"
+    "Sergey Lyapustin",
+    "Sophia",
+    "Holly",
+    "Gus",
+    "Gordon",
+    "Scott",
+    "Derek",
+    "Anthony",
+    "Perry",
+    "Todd"
   ],
-  "summary": "The team reviewed the active pipeline, discussing past engagement with Epilito Auto Group and updates on transcription and optimization fixes. Concerns were raised regarding pushing call notes to Drive Centric CRM, while issues with e-leads and VIN Solutions call note hyperlinks were addressed. Live production-level redaction for Frontline and automated call evaluations were highlighted as valuable features.",
+  "summary": "This product meeting reviewed the active pipeline, focusing on Epilito Auto Group engagement, transcription and optimization fixes, and CRM integrations. Key updates included a backup system for missing transcripts, VCON database optimization, and live production-level redaction for Frontline. Discussions covered e-lead improvements, API failure rates, and VIN Solutions call note hyperlinks. Action items were assigned for API failure investigation, VIN Solutions testing, system access review, and onboarding flow development.",
   "decisions": [
     {
-      "description": "Follow up on the call note pushing capability for Drive Centric CRM integration.",
-      "decidedBy": ["Matt Watson"],
-      "topic": "crm-integration",
+      "description": "Implemented a backup system for missing transcripts using Crescendo, OpenAI, and Deepgram.",
+      "decidedBy": [
+        "Matt Watson"
+      ],
+      "topic": "transcription-reliability",
       "confidence": "firm"
     },
     {
-      "description": "Moved the portal link from the bottom to the top of the note within the VIN Solutions CRM to make it clickable.",
-      "decidedBy": ["Sergey Lyapustin"],
+      "description": "Optimized the VCON database to reduce timeouts and issues in GPT, search, signals, and reports.",
+      "decidedBy": [
+        "Matt Watson"
+      ],
+      "topic": "vcon-database-optimization",
+      "confidence": "firm"
+    },
+    {
+      "description": "Removed the 25-signal limit per user for Straw users by optimizing performance.",
+      "decidedBy": [
+        "Matt Watson"
+      ],
+      "topic": "portal-performance",
+      "confidence": "firm"
+    },
+    {
+      "description": "Fixed a real-time signals bug by adjusting prompts and switching to a more cost-effective GPT model.",
+      "decidedBy": [
+        "Matt Watson"
+      ],
+      "topic": "ai-signal-accuracy",
+      "confidence": "firm"
+    },
+    {
+      "description": "Added Spanish voicemail detection and improved voicemail delivery reliability.",
+      "decidedBy": [
+        "Sergey Lyapustin"
+      ],
+      "topic": "voicemail-enhancements",
+      "confidence": "firm"
+    },
+    {
+      "description": "Implemented automatic detection of bad phone numbers based on carrier messages.",
+      "decidedBy": [
+        "Sergey Lyapustin"
+      ],
+      "topic": "phone-number-validation",
+      "confidence": "firm"
+    },
+    {
+      "description": "Moved the portal link in VIN Solutions call notes from bottom to top for clickability.",
+      "decidedBy": [
+        "Sergey Lyapustin"
+      ],
       "topic": "vin-solutions-integration",
       "confidence": "firm"
     },
     {
-      "description": "Create a bot to scrape OEM call notes data directly from Dealer Socket CRM.",
-      "decidedBy": ["Matt Watson", "Polly's team"],
+      "description": "Decided to create a bot to scrape OEM call notes directly from Dealer Socket CRM.",
+      "decidedBy": [
+        "Matt Watson"
+      ],
       "topic": "dealer-socket-integration",
       "confidence": "firm"
     },
     {
-      "description": "Notify the client success person when a dealer user without a portal login attempts to access the portal through a call note link.",
-      "decidedBy": ["Matt Watson"],
-      "topic": "portal-onboarding",
-      "confidence": "tentative"
+      "description": "Implemented live production-level redaction for Frontline to share anonymized customer data.",
+      "decidedBy": [
+        "Thomas Howe"
+      ],
+      "topic": "data-redaction",
+      "confidence": "firm"
     },
     {
-      "description": "Prioritize building an onboarding flow for new portal users.",
-      "decidedBy": ["Sergey Lyapustin", "Matt Watson"],
-      "topic": "portal-onboarding",
+      "description": "Started a new process for the engineering team to review high-priority IT escalations.",
+      "decidedBy": [
+        "Harinder Bhinder",
+        "Matt Watson"
+      ],
+      "topic": "it-escalation-process",
       "confidence": "firm"
     }
   ],
   "actionItems": [
     {
-      "task": "Look into the 30% API failure rate for notes not pushing.",
+      "task": "Investigate the reported 30% API failure rate for leads not pushing.",
       "owner": "Sergey Lyapustin",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "crm",
-        "description": "Identify the root cause of the high API failure rate and implement a solution to reduce it."
-      }
+      "expectedOutcome": null
     },
     {
-      "task": "Test out the VIN Solutions API push notes in one store.",
+      "task": "Test the VIN Solutions API push notes functionality in one store.",
       "owner": "Shawna Behen",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "crm",
-        "description": "Verify that call notes are successfully pushed to VIN Solutions and the portal link is clickable."
-      }
+      "expectedOutcome": null
     },
     {
-      "task": "Continue working with Holly to get the list of users for system access review.",
+      "task": "Continue working with Holly to obtain the list of users for system access review.",
       "owner": "Harinder Bhinder",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "other",
-        "description": "Obtain a complete list of users with system access for security review."
-      }
+      "expectedOutcome": null
     },
     {
-      "task": "Work on the onboarding flow for new people to the portal.",
+      "task": "Work on developing a proper onboarding flow for new portal users.",
       "owner": "Sergey Lyapustin",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "portal",
-        "description": "Implement a streamlined onboarding process for new portal users."
-      }
+      "expectedOutcome": null
     },
     {
-      "task": "Add call notes evaluation to Holly's CRM evaluation process.",
+      "task": "Follow up on the capability to push call notes to Drive Centric CRM.",
       "owner": "Matt Watson",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "other",
-        "description": "Holly's evaluation checklist includes if the CRM is able to receive call notes from our system."
-      }
+      "expectedOutcome": null
+    },
+    {
+      "task": "Kick off discovery and development for the bot to scrape OEM call notes from Dealer Socket.",
+      "owner": "Matt Watson",
+      "deadline": null,
+      "expectedOutcome": null
+    },
+    {
+      "task": "Bump the portal onboarding flow to a higher priority list.",
+      "owner": "Matt Watson",
+      "deadline": null,
+      "expectedOutcome": null
+    },
+    {
+      "task": "Begin exploring automation for notes on Techon and Dealer Socket.",
+      "owner": "Unassigned",
+      "deadline": null,
+      "expectedOutcome": null
+    },
+    {
+      "task": "Automate the lead assignment process.",
+      "owner": "Unassigned",
+      "deadline": null,
+      "expectedOutcome": null
+    },
+    {
+      "task": "Prioritize and implement smaller security fixes, such as removing keys from logs.",
+      "owner": "Harinder Bhinder",
+      "deadline": null,
+      "expectedOutcome": null
     }
   ],
   "topicsDiscussed": [
-    "epilito-auto-group",
-    "conserver-transcription",
-    "crm-integration",
-    "portal-updates",
-    "voicemail-improvements",
-    "e-lead-improvements",
+    "epilito-auto-group-engagement",
+    "conserver-transcription-optimization",
+    "drive-centric-crm-integration",
+    "portal-app-updates",
+    "voicemail-phone-number-e-lead-improvements",
     "api-failure-rate",
-    "vin-solutions-integration",
-    "dealer-socket-integration",
+    "vin-solutions-call-notes",
+    "dealer-socket-oem-call-notes",
     "click-to-call-transcripts",
-    "future-development",
-    "security-efforts",
+    "future-development-security",
     "frontline-conserver-pilot",
-    "redaction-features",
-    "call-evaluation-features",
-    "bpo-focus"
+    "redaction-call-evaluation-features",
+    "bpo-strategy"
   ],
   "tensions": [
-    "Concerns about the strength of the API connection for pushing call notes to dealers using Drive Centric CRM.",
-    "Doubt expressed by Shawna Behen regarding the reported 30% API failure rate for leads, feeling that such a high percentage of note failures would be noticed by her team.",
-    "Challenges with users adapting to AI LLM tools in the Frontline conserver pilot."
+    "Concerns raised by Vinnie Micciche and Shawna Behen regarding pushing call notes to Drive Centric CRM due to perceived API limitations.",
+    "Shawna Behen expressed doubt about the reported 30% API failure rate for leads, stating her team would have noticed.",
+    "Challenges noted with Frontline users adapting to AI LLM tools, requiring training on prompt writing.",
+    "Thomas Howe highlighted that redaction tagging requires non-repeatable professional services specific to each implementation."
   ],
   "referencesToPast": [
-    "Previous engagement with Epilito Auto Group and their interest in a hybrid model for outbound service.",
-    "Past issues with call notes refusal on Drive Centric CRM."
-  ]
+    "Previous engagement with Epilito Auto Group and their past interest in a hybrid model for outbound service.",
+    "Matt Watson affirmed confidence in an existing API for Drive Centric, though noting past issues with call notes refusal.",
+    "Shawna Behen mentioned a bot for Drive Centric that 'we shut off when we're working'.",
+    "Shawna Behen explained that Sergey Lyapustin had addressed a hyperlink issue with VIN Solutions from 'last week or the week before'.",
+    "Matt Watson mentioned a BMW theme requirement for Straw Chat that he 'did years ago'.",
+    "Sergey Lyapustin noted that merging issues based on silent status is 'something we've never been able to fix'."
+  ],
+  "contributions": [
+    {
+      "person_name": "Matt Watson",
+      "topic": "transcription-optimization-fixes",
+      "description": "Reported numerous fixes for transcription and optimization, including a backup system for missing transcripts.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "completed-success"
+    },
+    {
+      "person_name": "Matt Watson",
+      "topic": "vcon-database-optimization",
+      "description": "Provided updates on VCON database optimization to reduce timeouts and issues in GPT, search, signals, and reports.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "completed-success"
+    },
+    {
+      "person_name": "Matt Watson",
+      "topic": "drive-centric-api-confidence",
+      "description": "Affirmed confidence in an existing API for Drive Centric CRM, despite past issues with call notes refusal.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Matt Watson",
+      "topic": "portal-app-updates",
+      "description": "Detailed updates to the portal and apps, including removing the 25-signal limit and fixing a real-time signals bug.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "completed-success"
+    },
+    {
+      "person_name": "Sergey Lyapustin",
+      "topic": "voicemail-e-lead-improvements",
+      "description": "Highlighted Spanish voicemail detection, improved voicemail delivery, and automatic bad phone number detection.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "completed-success"
+    },
+    {
+      "person_name": "Sergey Lyapustin",
+      "topic": "e-lead-issues-resolution",
+      "description": "Discussed ongoing efforts to resolve e-lead issues, including automated solutions for misleads and duplicates.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "pending"
+    },
+    {
+      "person_name": "Sergey Lyapustin",
+      "topic": "vin-solutions-hyperlink-fix",
+      "description": "Addressed a VIN Solutions hyperlink issue by moving the portal link to the top of the note for clickability.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "completed-success"
+    },
+    {
+      "person_name": "Matt Watson",
+      "topic": "dealer-socket-oem-bot",
+      "description": "Announced efforts to create a bot to scrape OEM call notes directly from Dealer Socket CRM.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Sergey Lyapustin",
+      "topic": "portal-onboarding-flow",
+      "description": "Noted that an onboarding flow for new portal users is in the backlog, as call notes are a top source.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "pending"
+    },
+    {
+      "person_name": "Matt Watson",
+      "topic": "click-to-call-transcripts",
+      "description": "Confirmed a significant effort is underway to get transcripts for click-to-call issues in VIN Solutions.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "pending"
+    },
+    {
+      "person_name": "Harinder Bhinder",
+      "topic": "security-fixes-review",
+      "description": "Provided an update on security efforts, prioritizing smaller fixes and reviewing system access with Holly.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "pending"
+    },
+    {
+      "person_name": "Thomas Howe",
+      "topic": "frontline-redaction",
+      "description": "Highlighted the implementation of live production-level redaction for Frontline to share anonymized data.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "completed-success"
+    },
+    {
+      "person_name": "Matt Watson",
+      "topic": "automated-call-evaluations",
+      "description": "Added automated call evaluations and upset customer detection as valuable features for Strawa BDC.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "bpo-rebranding-strategy",
+      "description": "Inquired about customized features for BPO focus and the potential rebranding of Stralled as a BPO.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "proposed"
+    }
+  ],
+  "participation": [
+    {
+      "person_name": "Matt Watson",
+      "words_spoken": 1000,
+      "participation_percentage": 35.0,
+      "level": "HIGH"
+    },
+    {
+      "person_name": "Sergey Lyapustin",
+      "words_spoken": 700,
+      "participation_percentage": 25.0,
+      "level": "HIGH"
+    },
+    {
+      "person_name": "Shawna Behen",
+      "words_spoken": 400,
+      "participation_percentage": 15.0,
+      "level": "MEDIUM"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "words_spoken": 300,
+      "participation_percentage": 10.0,
+      "level": "MEDIUM"
+    },
+    {
+      "person_name": "Jason Branham",
+      "words_spoken": 200,
+      "participation_percentage": 7.0,
+      "level": "MEDIUM"
+    },
+    {
+      "person_name": "Thomas Howe",
+      "words_spoken": 150,
+      "participation_percentage": 5.0,
+      "level": "LOW"
+    },
+    {
+      "person_name": "Harinder Bhinder",
+      "words_spoken": 50,
+      "participation_percentage": 2.0,
+      "level": "LOW"
+    },
+    {
+      "person_name": "Joe Furnari",
+      "words_spoken": 30,
+      "participation_percentage": 1.0,
+      "level": "LOW"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "words_spoken": 0,
+      "participation_percentage": 0.0,
+      "level": "NONE"
+    }
+  ],
+  "durationMinutes": 30
 }

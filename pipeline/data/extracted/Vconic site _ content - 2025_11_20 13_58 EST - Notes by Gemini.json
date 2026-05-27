@@ -1,132 +1,291 @@
 {
-  "meetingId": "vconic-site-content-2025-11-20",
-  "title": "Vconic site / content",
+  "meetingId": "vconic-site-content-20251120",
+  "title": "Vconic Site and Content Strategy",
   "date": "2025-11-20",
-  "series": "Vconic site / content",
+  "series": "Vconic Content Strategy",
   "type": "marketing",
-  "attendees": ["Perry Evans", "Michael Donovan"],
-  "summary": "Michael Donovan provided a health update, and Perry Evans discussed VConic's content generation using OpenAI and the challenge of positioning VConic's compliance focus against BPO's cost-saving automation. They decided to focus on agentic AI observability, accelerate the VCon standard, refine VConic's messaging and visual design, prioritize the BPO market, and create explainer video content, with Michael Donovan focusing on visualization mapping and Perry Evans leading video production partner acquisition and VConic Labs content development.",
+  "attendees": [
+    "Perry Evans",
+    "Michael Donovan"
+  ],
+  "summary": "Michael Donovan provided a health update. Perry Evans detailed VConic's OpenAI reliance for content, discussed positioning compliance against BPO cost-saving focus, and outlined a strategy for agentic AI observability. Key decisions included prioritizing the BPO market, refining messaging, and creating explainer videos. Action items involve Perry securing a video partner and Michael focusing on visualization mapping.",
   "decisions": [
     {
-      "description": "Focus on agentic AI observability, tracking human-bot conversations.",
-      "decidedBy": ["Perry Evans", "Michael Donovan"],
-      "topic": "agentic-ai-observability",
-      "confidence": "firm"
-    },
-    {
-      "description": "Accelerate the VCon standard through engagement with Anthropic, IETF, J, and Joe Hildebrand.",
-      "decidedBy": ["Perry Evans"],
-      "topic": "vcon-standard",
-      "confidence": "firm"
-    },
-    {
-      "description": "Refine hero messaging to ensure VConic is recognized as the creator and educator of VCon.",
-      "decidedBy": ["Perry Evans"],
-      "topic": "messaging-strategy",
-      "confidence": "firm"
-    },
-    {
-      "description": "Prioritize the BPO market over the telecom opportunity.",
-      "decidedBy": ["Perry Evans", "Michael Donovan"],
+      "description": "Prioritize BPO market over secondary telecom opportunity.",
+      "decidedBy": [
+        "Perry Evans",
+        "Michael Donovan"
+      ],
       "topic": "market-prioritization",
       "confidence": "firm"
     },
     {
-      "description": "Create explainer video content, framing it around a hero's journey where the BPO is the 'Skywalker' and VConic is the mentor.",
-      "decidedBy": ["Perry Evans"],
-      "topic": "video-content",
+      "description": "Focus VConic's strategy on agentic AI observability.",
+      "decidedBy": [
+        "Perry Evans"
+      ],
+      "topic": "strategic-focus",
       "confidence": "firm"
     },
     {
-      "description": "Pursue a clean white style for the website to align with the \"hygiene theme of the business.\"",
-      "decidedBy": ["Perry Evans"],
-      "topic": "visual-design",
-      "confidence": "tentative"
+      "description": "Create explainer video content for storytelling.",
+      "decidedBy": [
+        "Perry Evans",
+        "Michael Donovan"
+      ],
+      "topic": "content-strategy",
+      "confidence": "firm"
     },
     {
-      "description": "Establish VConic Labs as a distinct space to house open-source activities and a partner program, separate from the enterprise story.",
-      "decidedBy": ["Perry Evans", "Michael Donovan"],
-      "topic": "vconic-labs",
+      "description": "Establish VConic Labs as a distinct space for open source activities.",
+      "decidedBy": [
+        "Perry Evans",
+        "Michael Donovan"
+      ],
+      "topic": "open-source-strategy",
+      "confidence": "firm"
+    },
+    {
+      "description": "Refine hero messaging to emphasize VConic as VCon creator/educator.",
+      "decidedBy": [
+        "Perry Evans"
+      ],
+      "topic": "messaging-refinement",
       "confidence": "firm"
     }
   ],
   "actionItems": [
     {
-      "task": "Find a video person in Denver to capture B-roll, including bringing Thomas out for a day of shooting.",
+      "task": "Find and short-list video production partners in Denver.",
       "owner": "Perry Evans",
       "deadline": null,
       "expectedOutcome": {
-        "system": "other",
-        "description": "Identification of a video production partner in Denver."
+        "system": "video-production",
+        "description": "Selected video team for explainer videos."
       }
     },
     {
-      "task": "Work on the visualization mapping, focusing on animating the check and fading the full logo, finding two or three placeholder videos, and developing concepts for a derivative logo for Viconic Open Labs or Viconic Labs.",
+      "task": "Work on visualization mapping, including video/animation concepts and derivative logo for Labs.",
       "owner": "Michael Donovan",
       "deadline": null,
       "expectedOutcome": {
-        "system": "google-docs",
-        "description": "Visualization mapping document with video and animation concepts, including logo variations."
+        "system": "visual-design",
+        "description": "Concepts for site animations and Labs logo."
       }
     },
     {
-      "task": "Shortlist video production partners and queue up a meeting for Michael Donovan and Perry Evans to review the list and select the right team member.",
+      "task": "Shortlist video people and queue up a meeting for review.",
       "owner": "Perry Evans",
       "deadline": null,
       "expectedOutcome": {
-        "system": "google-docs",
-        "description": "A shortlist of video production partners with a scheduled meeting for review."
+        "system": "video-production",
+        "description": "List of video candidates for team review."
       }
     },
     {
-      "task": "Develop subtext for the Viconic Labs content and edit the content document.",
+      "task": "Develop subhero and subtext for VConic Labs content.",
       "owner": "Perry Evans",
       "deadline": null,
       "expectedOutcome": {
-        "system": "google-docs",
-        "description": "Refined Viconic Labs content document with compelling subtext."
+        "system": "content-development",
+        "description": "Draft content for VConic Labs section."
       }
     },
     {
-      "task": "Provide a strong example of leveraging vector scroll animations that are clean, tasteful, and provide a sense of movement beyond basic parallax.",
+      "task": "Provide strong example of leveraging vector scroll animations.",
       "owner": "Michael Donovan",
       "deadline": null,
       "expectedOutcome": {
-        "system": "website",
-        "description": "Examples or implementation of vector scroll animations on the website."
+        "system": "web-design",
+        "description": "Demonstration of tasteful scroll animations."
       }
     },
     {
-      "task": "Resurrect a person to work with on the video side that understands the concept of an integrated look and feel to a series of explainer videos and tools that we can work from.",
+      "task": "Resurrect a person to work on video side for integrated look and feel.",
       "owner": "Perry Evans",
       "deadline": null,
       "expectedOutcome": {
-        "system": "other",
-        "description": "Engagement of a video production resource with experience in integrated video content."
+        "system": "video-production",
+        "description": "Video specialist for consistent video series."
+      }
+    },
+    {
+      "task": "Connect back early next week to review progress.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "meeting-coordination",
+        "description": "Follow-up meeting scheduled and conducted."
+      }
+    },
+    {
+      "task": "Connect back early next week to review progress.",
+      "owner": "Perry Evans",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "meeting-coordination",
+        "description": "Follow-up meeting scheduled and conducted."
       }
     }
   ],
   "topicsDiscussed": [
     "health-update",
-    "content-generation",
-    "ideal-customer-profile",
+    "openai-content-generation",
+    "bpo-icp-challenges",
     "agentic-ai-observability",
-    "vcon-standard",
-    "bpo-engagement",
-    "video-content",
-    "visualization",
-    "messaging-strategy",
-    "visual-design",
-    "elevator-pitch",
-    "market-prioritization",
-    "vconic-labs",
-    "open-source"
+    "vcon-standard-acceleration",
+    "team-expertise-leverage",
+    "bpo-engagement-strategy",
+    "video-content-strategy",
+    "messaging-visual-design",
+    "vconic-elevator-pitch",
+    "telecom-opportunity",
+    "vconic-labs-open-source"
   ],
   "tensions": [
-    "Pushback from BPO executives focused on agentic automation for cost savings, making it challenging to establish a 'why now' argument for VConic's compliance story.",
-    "Debate on whether the website is 'too dark' from a visual design perspective."
+    "Pushback from BPO executives on VConic's compliance proposition vs. their focus on cost-saving agentic automation.",
+    "Challenge of establishing a 'why now' argument for compliance as it's not a time driver.",
+    "Current text-based content is too dry for storytelling.",
+    "Debate on whether the site's visual design is 'too dark'."
   ],
   "referencesToPast": [
-    "Current content on the site was created quickly after Michael Donovan had to rebuild the previous, broken version of the site in six days."
-  ]
+    "Michael Donovan had to rebuild the previous, broken version of the site in six days."
+  ],
+  "contributions": [
+    {
+      "person_name": "Michael Donovan",
+      "topic": "health-update",
+      "description": "Shared personal health update and recovery progress.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "pending"
+    },
+    {
+      "person_name": "Perry Evans",
+      "topic": "openai-content-reliance",
+      "description": "Explained VConic's heavy reliance on OpenAI for content generation.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "pending"
+    },
+    {
+      "person_name": "Perry Evans",
+      "topic": "bpo-icp-challenge",
+      "description": "Highlighted pushback from BPO executives on compliance vs. cost-saving automation.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "pending"
+    },
+    {
+      "person_name": "Perry Evans",
+      "topic": "agentic-ai-observability",
+      "description": "Proposed focusing on unmet need to observe human-bot conversations in agentic AI.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Perry Evans",
+      "topic": "vcon-standard-acceleration",
+      "description": "Detailed strategy to accelerate VCon standard through Anthropic, IETF, J, and Joe Hildebrand.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Perry Evans",
+      "topic": "team-expertise-leverage",
+      "description": "Emphasized leveraging Mitch Lieberman's BPO background and Rick Emory's CRO connections.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "pending"
+    },
+    {
+      "person_name": "Perry Evans",
+      "topic": "bpo-engagement-strategy",
+      "description": "Proposed approaching top 50 BPOs with one enterprise project then standardizing VConic.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Perry Evans",
+      "topic": "video-content-necessity",
+      "description": "Stressed that video must be part of storytelling due to dry text content.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "approved"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "video-animation-integration",
+      "description": "Suggested integrating subtle background video and animation for VConic checkmark logo.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Perry Evans",
+      "topic": "video-production-lead",
+      "description": "Offered to lead finding a video person in Denver to capture B-roll.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "vector-scroll-animations",
+      "description": "Suggested using vector scroll animations for clean, tasteful movement.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Perry Evans",
+      "topic": "hero-messaging-refinement",
+      "description": "Proposed refining hero messaging to recognize VConic as VCon creator/educator.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Perry Evans",
+      "topic": "vconic-elevator-pitch",
+      "description": "Provided an elevator pitch for VConic as a platform for centralized customer interaction records.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "pending"
+    },
+    {
+      "person_name": "Perry Evans",
+      "topic": "telecom-opportunity-prioritization",
+      "description": "Advised that telecom opportunity should be secondary to BPO focus.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "approved"
+    },
+    {
+      "person_name": "Perry Evans",
+      "topic": "vconic-labs-concept",
+      "description": "Introduced VConic Labs as a distinct space for open source activities and partner programs.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "approved"
+    }
+  ],
+  "participation": [
+    {
+      "person_name": "Perry Evans",
+      "words_spoken": 300,
+      "participation_percentage": 0.75,
+      "level": "HIGH"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "words_spoken": 100,
+      "participation_percentage": 0.25,
+      "level": "MEDIUM"
+    }
+  ],
+  "durationMinutes": null
 }

@@ -1,0 +1,27 @@
+{
+  "docId": "sophia-ai-assessment-numa-fixed-ops-scorecard",
+  "title": "Sophia AI Assessment — Numa (Fixed Ops)",
+  "date": null,
+  "authors": [],
+  "topics": [
+    "ai-assessment",
+    "numa",
+    "fixed-ops",
+    "customer-satisfaction",
+    "service-booking",
+    "vendor-evaluation",
+    "risk-management",
+    "transparency",
+    "data-use",
+    "xtime-integration",
+    "escalation-controls",
+    "compliance",
+    "scorecard"
+  ],
+  "summary": "This document provides an assessment of Numa AI for Fixed Ops, identifying its potential to improve customer satisfaction and service booking show rates, but also highlighting significant risks related to trust, control, and advisor workflow. It includes a scorecard, lists missing vendor evidence, red flags, and critical questions for the vendor to address before proceeding.",
+  "text": "Sophia AI Assessment — Numa (Fixed Ops)\nMode: Light\nDecision Authority: Dealer Principal (Final)\nRamp Window: 180 days\nWin Definition (12 months): Increase customer satisfaction and service booking show rate.\nNarrative recommendation\nNuma is aimed at the right Fixed Ops pain: missed calls, appointment scheduling, and status updates—\nareas that directly impact customer satisfaction and booked work. If it reliably captures after-hours demand\nand reduces “where’s my car?” traffic, it can support your win metrics.\nYour primary risks are  trust and control, not features. You’ve flagged it as a  black box, and advisor\nworkflow changes may concentrate negative interactions (advisors become the last-stop escalation), raising\nburnout risk and potentially harming the very satisfaction you’re trying to improve. Proceed only with\nguardrails that force transparency, tight escalation controls, and explicit data-use limits.\nScorecard (0–100)\nCategory Weight Score (0–10)Weighted Pts\nAI Authenticity 20 4 8.0\nOperational Fit 20 7 14.0\nResource Alignment 15 6 9.0\nTransparency / Data 15 3 4.5\nROI Clarity 15 5 7.5\nRisk / Exit 10 4 4.0\nChange Management 5 4 2.0\nTotal 100 49.0\nVerdict Band:<60 = High Risk / Hype Detected (unless guarded pilot terms are negotiated)\nVendor proof checklist (missing evidence)\nData use & training (in writing): Contract addendum clarifying if/when dealership communications\ncan be used to train/improve models; ability to opt out.\n• \n1\nExplainability/QA: Clear audit trail for why the agent responded/escalated (beyond transcripts), plus\nQA tooling.\nXtime integration depth: Exact supported actions (create/modify/cancel, capacity rules, advisor\nrouting, loaners, RO linkage, etc.).\nEscalation + CX controls: Hard rules for handoff to humans (repeat caller , upset sentiment, safety,\nwarranty, price disputes, comebacks).\nSLA + uptime + failover: What happens when Numa, phones, or Xtime integration fails.\nCompliance responsibility clarity: Written responsibility matrix (recording/consent/TCPA-style\nmessaging, disclosures, retention).\nRed flags\nBlack box behavior: Hard to predict edge-case handling; edge cases drive CSI loss.\nData rights ambiguity: “Customers are yours” but vendor may use data for improvement/training\nwith consent.\nAdvisor experience risk: Advisors may become the complaint desk; burnout + reduced warmth\nwhen a human finally engages.\n5 next questions for the vendor\nTraining/data: Will you contractually commit to no model training on our dealership’s customer\ncommunications (voice/text/chat), including derived insights—yes or no?\nXtime specifics: List the exact Xtime actions supported and what is not supported.\nEscalation policy: Show the default escalation tree for upset customers and status calls—what\ntriggers takeover and how fast?\nCX outcomes: Provide comparable-rooftop results with baselines for CSI/NPS, show rate, complaint\nrate over 90–180 days.\nExit & portability: On cancellation, can we export all transcripts/recordings/tags/performance\nhistory, and what’s retained after termination?\n• \n• \n• \n• \n• \n• \n• \n• \n1. \n2. \n3. \n4. \n5. \n2",
+  "category": "reports",
+  "peopleInvolved": [],
+  "sentiment": "mixed",
+  "sentimentScore": -0.4
+}

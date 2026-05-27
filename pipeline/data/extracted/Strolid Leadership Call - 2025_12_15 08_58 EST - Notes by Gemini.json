@@ -1,166 +1,312 @@
 {
-  "meetingId": "strolid-leadership-call-2025-12-15",
+  "meetingId": "strolid-leadership-20251215",
   "title": "Strolid Leadership Call",
   "date": "2025-12-15",
   "series": "Strolid Leadership Call",
   "type": "leadership",
   "attendees": [
     "Matt Watson",
+    "Vinnie Micciche",
     "Shawna Behen",
-    "Vin Micciche",
     "Thomas Howe",
-    "jason.branham@strolid.com",
+    "Jason Branham",
     "Joe Furnari",
     "Michael Donovan",
     "Mike Sullivan",
     "Harinder Bhinder",
     "Sergey Lyapustin",
-    "Kevin Breen"
+    "Kevin Breen",
+    "Don",
+    "Jake",
+    "Link"
   ],
-  "summary": "The leadership team discussed product priorities, focusing on Vita as a potential MVP and the need for fundraising. They agreed to form an advisory board to leverage industry connections and discussed key development priorities like Sophia reporting, VA implementation, and the website widget. Agents will receive immediate access to GPT in the portal/dialer.",
+  "summary": "The Strolid leadership team discussed product priorities, focusing on a quick MVP launch for Vita with reporting. Fundraising needs were highlighted, leading to a proposal for a disciplined advisory board with strong industry connections. Key development priorities include Sophia reporting, VA implementation, and the website widget. Agents will immediately gain access to GPT in the portal/dialer. The team also focused on refining AI-centric marketing messages and improving dealer feedback mechanisms for operational enhancements.",
   "decisions": [
     {
-      "description": "Immediately grant agents access to GPT in the portal/dialer.",
-      "decidedBy": ["Vin Micciche", "Shawna Behen", "Don"],
-      "topic": "agent-access-to-gpt",
+      "description": "Launch Vita as an MVP focusing on reporting capabilities.",
+      "decidedBy": [
+        "Vinnie Micciche",
+        "Matt Watson"
+      ],
+      "topic": "vita-product-launch",
       "confidence": "firm"
     },
     {
-      "description": "Focus key development priorities on finishing Sophia reporting, implementing VA, and building the website widget.",
-      "decidedBy": ["Vin Micciche"],
-      "topic": "development-priorities",
+      "description": "Grant agents immediate access to GPT in the portal/dialer.",
+      "decidedBy": [
+        "Vinnie Micciche",
+        "Shawna Behen",
+        "Don",
+        "Matt Watson"
+      ],
+      "topic": "agent-gpt-access",
       "confidence": "firm"
     },
     {
-      "description": "Marketing messaging will emphasize the company's AI capabilities.",
-      "decidedBy": ["Vin Micciche"],
-      "topic": "marketing-messaging-strategy",
+      "description": "Form a disciplined advisory board with deep OEM and dealer group connections.",
+      "decidedBy": [
+        "Vinnie Micciche",
+        "Mike Sullivan",
+        "Thomas Howe"
+      ],
+      "topic": "advisory-board-strategy",
+      "confidence": "firm"
+    },
+    {
+      "description": "Prioritize finishing Sophia reporting, implementing VA, and building the website widget.",
+      "decidedBy": [
+        "Vinnie Micciche"
+      ],
+      "topic": "product-development-priorities",
+      "confidence": "firm"
+    },
+    {
+      "description": "Proactively gather dealer feedback on operational improvements and new technology.",
+      "decidedBy": [
+        "Vinnie Micciche",
+        "Joe Furnari",
+        "Sergey Lyapustin"
+      ],
+      "topic": "dealer-feedback-collection",
       "confidence": "firm"
     }
   ],
   "actionItems": [
     {
-      "task": "Confirm the workflow of automated appointment booking on the DMA website.",
+      "task": "Confirm workflow of automated appointment booking on DMA website.",
       "owner": "Sergey Lyapustin",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "other",
-        "description": "Verification that Vita can fully automate appointment booking."
-      }
+      "expectedOutcome": null
     },
     {
-      "task": "Request David Rosenberg to help raise money, and share the last deck with Mike Sullivan.",
-      "owner": "Vin Micciche",
+      "task": "Make a last request to David Rosenberg for fundraising assistance.",
+      "owner": "Vinnie Micciche",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "email",
-        "description": "Attempt to secure Rosenberg's assistance in fundraising, deck shared with Mike Sullivan."
-      }
+      "expectedOutcome": null
     },
     {
-      "task": "Put together an advisory board by listing, interviewing, and figuring out an approach for potential candidates like Dave Spizac, Steve Greenfield, and Phil Batista.",
-      "owner": "Vin Micciche",
+      "task": "Share the last fundraising deck with Mike Sullivan.",
+      "owner": "Vinnie Micciche",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "google-docs",
-        "description": "List of potential advisory board candidates with documented approaches."
-      }
+      "expectedOutcome": null
     },
     {
-      "task": "Look at the Sophia data to determine which dealers specifically benefited from the converted appointments to create a case study.",
+      "task": "Put together an advisory board by listing, interviewing, and approaching candidates.",
+      "owner": "Vinnie Micciche",
+      "deadline": null,
+      "expectedOutcome": null
+    },
+    {
+      "task": "Look at Sophia data to identify dealers benefiting from converted appointments for case studies.",
       "owner": "Kevin Breen",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "google-docs",
-        "description": "Case study document outlining specific dealer benefits from Sophia."
-      }
+      "expectedOutcome": null
     },
     {
-      "task": "Grant everybody access to GPT.",
+      "task": "Grant everybody access to GPT tomorrow.",
       "owner": "Matt Watson",
-      "deadline": "2025-12-16",
-      "expectedOutcome": {
-        "system": "other",
-        "description": "All agents have access to GPT in the portal/dialer."
-      }
+      "deadline": null,
+      "expectedOutcome": null
     },
     {
-      "task": "Build the widget for the website and improve the organization of information on the dialer.",
+      "task": "Build the website widget and improve dialer information organization.",
       "owner": "Sergey Lyapustin",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "website",
-        "description": "Functional website widget and improved dialer information structure."
-      }
+      "expectedOutcome": null
     },
     {
-      "task": "Start working on go-to-market ideas for Sophia and ask dealers for feedback on their willingness to pay.",
-      "owner": "Vin Micciche",
+      "task": "Start working on go-to-market ideas for Sophia and gauge dealer willingness to pay.",
+      "owner": "Vinnie Micciche",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "google-docs",
-        "description": "Go-to-market plan for Sophia with dealer feedback on pricing."
-      }
+      "expectedOutcome": null
     },
     {
       "task": "Get the data right on Sophia.",
       "owner": "Kevin Breen",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "crm",
-        "description": "Accurate data regarding Sophia's performance."
-      }
+      "expectedOutcome": null
     },
     {
-      "task": "Write a check for Jake's wisdom teeth surgery.",
-      "owner": "Vin Micciche",
+      "task": "Incorporate standardized questions about new technology into monthly/twice-monthly reviews.",
+      "owner": "Joe Furnari",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "other",
-        "description": "Payment made for Jake's surgery."
-      }
+      "expectedOutcome": null
     },
     {
-      "task": "Have a one-on-one meeting.",
+      "task": "Have a one-on-one meeting at 3:30.",
       "owner": "Thomas Howe",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "calendar",
-        "description": "Scheduled and completed one-on-one meeting."
-      }
+      "expectedOutcome": null
     },
     {
-      "task": "Have a one-on-one meeting.",
+      "task": "Have a one-on-one meeting at 3:30.",
       "owner": "Harinder Bhinder",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "calendar",
-        "description": "Scheduled and completed one-on-one meeting."
-      }
+      "expectedOutcome": null
     }
   ],
   "topicsDiscussed": [
     "product-priorities",
     "vita-mvp-launch",
-    "fundraising",
-    "advisory-board-strategy",
-    "vconic-platform",
-    "sales-marketing-messaging",
-    "communication-process",
-    "dealer-feedback",
-    "product-development-prioritization",
-    "agent-access-to-gpt",
-    "development-priorities",
+    "fundraising-strategy",
+    "advisory-board-formation",
+    "ai-marketing-messaging",
     "operational-improvements",
-    "ai-human-differentiation",
-    "competitive-strategy"
+    "dealer-feedback-collection",
+    "sophia-reporting",
+    "website-widget-development",
+    "agent-gpt-access",
+    "vconic-strategic-asset",
+    "sales-marketing-messaging",
+    "product-development-prioritization"
   ],
   "tensions": [
-    "Concerns about dealers not appreciating operational improvements.",
-    "Debate over prioritizing Vita versus Copilot."
+    "Company is bouncing between Copilot, internal items, Vita, and Chat priorities.",
+    "Need to raise capital due to extensive roadmap and insufficient resources.",
+    "Challenge of conveying VCONIC's magnitude to large dealer groups.",
+    "Concern that dealers are not appreciating or seeing the impact of operational improvements.",
+    "Dealers typically only provide feedback when something is wrong, not positive feedback.",
+    "Dialer is a complicated desktop application, not web-based, and platforms were not built to work together.",
+    "The car business is currently struggling, impacting Strolid's market."
   ],
   "referencesToPast": [
-    "Mention of a previous sales call regarding marketing messaging.",
-    "Discussion of operational fixes implemented since a past offsite meeting."
-  ]
+    "Vinnie's investor friend's advice from eight years ago about being nimble in technology development.",
+    "Pushing back on Vita's initial agreement terms to ensure interchangeability.",
+    "Plans to approach David Rosenberg and Rachel Richards for fundraising assistance.",
+    "Dave Spizac was a past advisor for the company.",
+    "Perry's advice to Vinnie a month ago about embracing being an AI company.",
+    "A previous meeting on reducing churn and accomplished operational improvements.",
+    "Kevin's data on Sophia's outbound calling success and lead generation metrics.",
+    "Shawna Behen confirming operational improvements since the offsite meeting.",
+    "Gus incorporating standardized questions into client calls a couple of months back.",
+    "Vinnie's past experience as a general manager of a dealership.",
+    "Vinnie's preference for the dialer idea for GPT pop-up due to lead-specific context.",
+    "Sergey Lyapustin noting existing complaints about dialer information organization.",
+    "Vinnie's consensus on the direction: finishing Sophia tasks first.",
+    "Vinnie's past decision to swear off consultants, except for Mike Sullivan."
+  ],
+  "contributions": [
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "product-priorities",
+      "description": "Vita can be launched quickly as an MVP focusing on reporting.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Sergey Lyapustin",
+      "topic": "vita-reporting",
+      "description": "Utilize Vita's existing reporting to bypass initial internal reporting.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "fundraising-strategy",
+      "description": "Strolid needs to raise capital due to extensive roadmap and insufficient resources.",
+      "type": "topic",
+      "occurrence": "repeated",
+      "status": "pending"
+    },
+    {
+      "person_name": "Thomas Howe",
+      "topic": "fundraising-strategy",
+      "description": "Now is a strategic time to raise money due to unique market offer and lack of distribution.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "advisory-board",
+      "description": "Form an advisory board with deep OEM and major dealer group connections.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Mike Sullivan",
+      "topic": "advisory-board",
+      "description": "Link advisors to capital access and ensure their primary motive is company scaling.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "approved"
+    },
+    {
+      "person_name": "Mike Sullivan",
+      "topic": "vconic-leverage",
+      "description": "VCONIC is a uniquely positioned platform and industry driver for investors.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "marketing-messaging",
+      "description": "Company must embrace being an AI company in marketing messaging.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "messaging-process",
+      "description": "Creative process involves throwing out initial ideas for team refinement.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "operational-improvements",
+      "description": "Communicate operational improvements to dealers to show impact and reduce churn.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Sergey Lyapustin",
+      "topic": "dealer-feedback",
+      "description": "Set up a mechanism to collect feedback from client success managers about dealer sentiments.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Joe Furnari",
+      "topic": "dealer-feedback",
+      "description": "Incorporate standardized questions about new technology into monthly reviews.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Jason Branham",
+      "topic": "product-prioritization",
+      "description": "The service market (Vita) has significant potential, especially when variable departments are down.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "product-strategy",
+      "description": "Sophia for old leads is a strong, scalable land product with clear ROI.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Jason Branham",
+      "topic": "ai-human-hybrid",
+      "description": "Message should be that the company captures 100% opportunities using both AI and humans.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    }
+  ],
+  "participation": [],
+  "durationMinutes": 64
 }

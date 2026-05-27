@@ -1,72 +1,180 @@
 {
-  "meetingId": "joe-and-michael-reconnect-2025-12-30",
+  "meetingId": "Joe-Michael-Reconnect-20251230",
   "title": "Joe and Michael Reconnect",
   "date": "2025-12-30",
-  "series": "Joe and Michael Reconnect",
+  "series": "Reconnect Series",
   "type": "one-on-one",
-  "attendees": ["Joe Furnari", "Michael Donovan"],
-  "summary": "Joe advised Michael on approaching website development in two phases: a quick refresh for Vinnie and a strategic buildout for Michael's infrastructure plan, suggesting focusing on five core page examples for Vinnie by Friday to secure quick wins. Michael expressed frustration over workload and being a one-person marketing team, while highlighting website complexity and the mismatch between current tasks and VP of Marketing responsibilities.",
+  "attendees": [
+    "Joe Furnari",
+    "Michael Donovan"
+  ],
+  "summary": "Joe Furnari advised Michael Donovan to approach website development in two phases: a quick refresh for Vinnie's immediate needs, followed by a strategic buildout. Michael expressed significant frustration over the extensive workload, feeling it's beyond his VP of Marketing role, and highlighted the existing website's complexity. Joe suggested focusing on five core page examples for Vinnie by Friday to secure quick wins and build confidence for future strategic work, acknowledging resource limitations.",
   "decisions": [
     {
-      "description": "Michael Donovan will approach website development in two phases: a quick refresh for Vinnie and a strategic buildout for Michael's infrastructure plan.",
-      "decidedBy": ["Joe Furnari", "Michael Donovan"],
-      "topic": "website-refresh",
+      "description": "Website development will proceed in two phases: quick refresh then strategic buildout.",
+      "decidedBy": [
+        "Joe Furnari",
+        "Michael Donovan"
+      ],
+      "topic": "website-development-strategy",
       "confidence": "firm"
     },
     {
-      "description": "Michael Donovan will focus on creating five core new pages or refreshes by Friday, anchored to the 11-page PowerPoint Vinnie had sent.",
-      "decidedBy": ["Joe Furnari", "Michael Donovan"],
-      "topic": "website-content",
+      "description": "Michael will create five core page examples for Vinnie by Friday.",
+      "decidedBy": [
+        "Michael Donovan",
+        "Joe Furnari"
+      ],
+      "topic": "quick-wins-website-pages",
       "confidence": "firm"
-    },
-    {
-      "description": "Joe Furnari will respond to the email about Vinnie's comments later tonight.",
-      "decidedBy": ["Joe Furnari"],
-      "topic": "email-response",
-      "confidence": "firm"
-    },
-    {
-      "description": "Joe Furnari and Michael Donovan will position a call with Vinnie on Monday, or whatever day they are available, after Michael Donovan has created the pages.",
-      "decidedBy": ["Joe Furnari", "Michael Donovan"],
-      "topic": "vinnie-meeting",
-      "confidence": "tentative"
     }
   ],
   "actionItems": [
     {
-      "task": "Create five new pages by Friday, or at least one or two pages, and send examples/ideas to Joe Furnari.",
+      "task": "Respond to Vinnie's email regarding his comments.",
+      "owner": "Joe Furnari",
+      "deadline": "Tonight",
+      "expectedOutcome": null
+    },
+    {
+      "task": "Create five new website pages (or 1-2) and send examples/ideas.",
       "owner": "Michael Donovan",
-      "deadline": "2026-01-02",
-      "expectedOutcome": {
-        "system": "email",
-        "description": "Completed draft pages sent to Joe for review and feedback."
-      }
+      "deadline": "Friday",
+      "expectedOutcome": null
+    },
+    {
+      "task": "Position a call with Vinnie to review the new pages.",
+      "owner": "Joe Furnari",
+      "deadline": "Monday",
+      "expectedOutcome": null
     }
   ],
   "topicsDiscussed": [
-    "website-refresh",
-    "marketing-team",
-    "role-definition",
-    "vinnie-communication",
-    "quick-wins",
-    "website-complexity",
-    "resource-constraints",
-    "ai-usage",
-    "job-satisfaction"
+    "website-development-strategy",
+    "vinnie-immediate-requests",
+    "michael-role-responsibilities",
+    "existing-website-complexity",
+    "resource-limitations",
+    "communication-with-vinnie",
+    "quick-wins-strategy",
+    "ai-delusion-misuse",
+    "team-structure-expectations"
   ],
   "tensions": [
-    "Michael's frustration with being a one-person marketing team and the disconnect between his role and responsibilities.",
-    "Michael's concerns about Vinnie's use of ChatGPT and the impact on communication.",
-    "Michael's frustration over the complexity and bloat of the existing website and the need for a refresh.",
-    "The debate over whether the immediate task is a 'refresh' or a 'new website'.",
-    "Michael's feeling of being attacked and unsupported."
+    "Michael's frustration with extensive workload and acting as a one-person marketing team.",
+    "Michael feeling current work is outside his VP of Marketing responsibilities and questioning demotion.",
+    "Michael's frustration with the existing website's 'bloated' complexity (43 plugins, 5 themes).",
+    "Michael's concern about Vinnie using ChatGPT out of context from his email.",
+    "Joe acknowledging limited resources and duplicated effort as a short-term issue.",
+    "Michael feeling 's*** on and attacked' and lack of team support.",
+    "Michael's concern about 'AI delusion' affecting business decisions."
   ],
   "referencesToPast": [
-    "Previous instances of Michael building websites for Strolid and Stral AI without compensation.",
-    "A conversation in March/April where Joe was worried about Michael doing too much.",
-    "Vinnie's 11-page PowerPoint presentation.",
-    "The offsite meeting where Michael was mocked after Joe stepped out.",
-    "A marketing plan document reviewed the prior week.",
-    "Previous disagreement related to underperforming hire."
-  ]
+    "Conversation with Joe in March or April about Michael doing too much.",
+    "Offsite meeting where Vinnie 'bit off' Joe's head.",
+    "Michael building websites for Strolid and Stral AI without compensation.",
+    "Michael's conversation with Vim before starting.",
+    "Vinnie's 11-page PowerPoint document.",
+    "Marketing plan document reviewed last week.",
+    "Joe's conversation last week about duplication of effort.",
+    "Michael's observation in May regarding Zoho lead source report.",
+    "Hiring Z and subsequent conversations with Natalie and Joe."
+  ],
+  "contributions": [
+    {
+      "person_name": "Joe Furnari",
+      "topic": "website-development-strategy",
+      "description": "Proposed a two-phase approach for website development.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "approved"
+    },
+    {
+      "person_name": "Joe Furnari",
+      "topic": "quick-wins-strategy",
+      "description": "Suggested focusing on five core page examples for Vinnie by Friday.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "approved"
+    },
+    {
+      "person_name": "Joe Furnari",
+      "topic": "confidence-building",
+      "description": "Advised delivering short-term requirements to gain flexibility for long-term work.",
+      "type": "concept",
+      "occurrence": "repeated",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Joe Furnari",
+      "topic": "vinnie-communication",
+      "description": "Noted Vinnie's frustration with meetings and preference for simple visuals.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Joe Furnari",
+      "topic": "resource-limitations",
+      "description": "Acknowledged duplication of effort and limited resources as a short-term issue.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "role-responsibilities",
+      "description": "Expressed frustration that current work is outside VP of Marketing responsibilities.",
+      "type": "topic",
+      "occurrence": "repeated",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "website-complexity",
+      "description": "Detailed the existing website's 'bloated' state with 43 plugins and five themes.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "demotion-concerns",
+      "description": "Questioned if he had been demoted due to the nature of his current tasks.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "pending"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "ai-misuse",
+      "description": "Raised concern about Vinnie using ChatGPT out of context from his email.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "ai-delusion",
+      "description": "Discussed 'AI delusion' causing issues and affecting business decisions.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "proposed"
+    }
+  ],
+  "participation": [
+    {
+      "person_name": "Joe Furnari",
+      "words_spoken": 1500,
+      "participation_percentage": 45.0,
+      "level": "MEDIUM"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "words_spoken": 1800,
+      "participation_percentage": 55.0,
+      "level": "HIGH"
+    }
+  ],
+  "durationMinutes": 30
 }

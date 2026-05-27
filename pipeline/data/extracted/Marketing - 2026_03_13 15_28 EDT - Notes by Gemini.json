@@ -1,58 +1,153 @@
 {
-  "meetingId": "marketing-2026-03-13",
-  "title": "Marketing",
+  "meetingId": "MKTG-20260313-001",
+  "title": "ICP Alignment and Multi-Channel LinkedIn Strategy",
   "date": "2026-03-13",
   "series": "Marketing",
   "type": "marketing",
-  "attendees": ["Paulo Trovao", "Michael Donovan", "Jason Branham"],
-  "summary": "The meeting focused on aligning the marketing and sales teams on the Ideal Customer Profile (ICP) and its multi-channel strategy. There was a debate regarding the effectiveness of direct LinkedIn connection requests from sales profiles, but Jason Branham agreed to test the strategy by sending out connection requests from the sales team, as part of a broader multi-channel approach.",
+  "attendees": [
+    "Paulo Trovao",
+    "Michael Donovan",
+    "Jason Branham"
+  ],
+  "summary": "The meeting focused on aligning the Ideal Customer Profile (ICP) definition and its multi-channel strategy. Agreement was reached on ICP scoring criteria, incorporating firmographic and technographic data. A key discussion point was the sales team's direct LinkedIn connection strategy, which Jason Branham accepted despite concerns about its effectiveness as an 'obvious sales play'. The team will proceed with this as part of a broader multi-channel approach.",
   "decisions": [
     {
-      "description": "The sales and client success teams will proceed with the presented Ideal Customer Profile (ICP) definition, as presented by Michael Donovan's team.",
-      "decidedBy": ["Jason Branham"],
-      "topic": "ideal-customer-profile",
+      "description": "ICP definition and function confirmed for effective scoring.",
+      "decidedBy": [
+        "Michael Donovan",
+        "Jason Branham"
+      ],
+      "topic": "ideal-customer-profile-icp",
       "confidence": "firm"
     },
     {
-      "description": "The sales team will begin sending out connection requests on LinkedIn using the \"phase zero\" lookalike list, as part of a multi-channel strategy.",
-      "decidedBy": ["Jason Branham"],
-      "topic": "linkedin-strategy",
-      "confidence": "tentative"
+      "description": "Sales and client success teams to proceed with presented ICP definition.",
+      "decidedBy": [
+        "Jason Branham"
+      ],
+      "topic": "ideal-customer-profile-icp",
+      "confidence": "firm"
+    },
+    {
+      "description": "Sales team to send direct LinkedIn connection requests to lookalike list.",
+      "decidedBy": [
+        "Michael Donovan",
+        "Jason Branham"
+      ],
+      "topic": "linkedin-connection-strategy",
+      "confidence": "firm"
     }
   ],
   "actionItems": [
     {
-      "task": "Provide Jason Branham with the \"phase zero\" lookalike list derived from the ICP data.",
+      "task": "Provide Jason Branham with the initial 'phase zero' lookalike list.",
       "owner": "Michael Donovan",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "email",
-        "description": "Jason Branham receives the list of leads with LinkedIn profiles for the sales team to connect with."
-      }
+      "expectedOutcome": null
     },
     {
-      "task": "Use the lookalike list to start sending out connection requests on LinkedIn to test the results.",
+      "task": "Sales team to start sending LinkedIn connection requests using the lookalike list.",
       "owner": "Jason Branham",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "linkedin",
-        "description": "Sales team members connect with leads on the list."
-      }
+      "expectedOutcome": null
     }
   ],
   "topicsDiscussed": [
-    "ideal-customer-profile",
-    "lead-scoring",
-    "multi-channel-marketing",
-    "linkedin-strategy",
-    "sales-enablement"
+    "ideal-customer-profile-icp",
+    "icp-scoring-criteria",
+    "multi-channel-marketing-strategy",
+    "linkedin-connection-strategy",
+    "sales-team-engagement",
+    "marketing-performance"
   ],
   "tensions": [
-    "Jason Branham expressed concern that direct LinkedIn connection requests from sales profiles are typically viewed as an 'obvious sales play' and are often declined.",
-    "Michael Donovan's frustration with \"just something\" marketing efforts."
+    "Jason Branham expressed concern that direct LinkedIn connection requests are perceived as an 'obvious sales play' and often declined.",
+    "Jason Branham stated he did not believe direct LinkedIn connections were the most effective path.",
+    "Michael Donovan expressed frustration over 'just something' efforts and lack of influence on marketing strategy."
   ],
   "referencesToPast": [
-    "Michael Donovan referenced past performance and marketing efforts, particularly those done last year.",
-    "Michael Donovan mentioned a previous website project that remains a problem."
-  ]
+    "Michael Donovan mentioned 'just something is what I've been doing since October' regarding past efforts.",
+    "Michael Donovan referred to a 'repeated just something' for a website problem.",
+    "Michael Donovan asked if Jason wanted to 'get back to how it was last year'.",
+    "Jason Branham countered 'we weren't doing LinkedIn connections last year'."
+  ],
+  "contributions": [
+    {
+      "person_name": "Michael Donovan",
+      "topic": "ideal-customer-profile-icp",
+      "description": "Presented the ICP definition and its multi-channel data synthesis.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "approved"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "icp-scoring-criteria",
+      "description": "Detailed firmographic, technographic, and growth signal criteria for prospect scoring.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "approved"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "linkedin-connection-strategy",
+      "description": "Proposed sales team use personal LinkedIn profiles for direct connections.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Jason Branham",
+      "topic": "linkedin-connection-strategy",
+      "description": "Raised concern that direct LinkedIn connections are seen as an 'obvious sales play'.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "pending"
+    },
+    {
+      "person_name": "Jason Branham",
+      "topic": "multi-channel-marketing-strategy",
+      "description": "Suggested an email campaign as a more effective starting point for warming up leads.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Jason Branham",
+      "topic": "linkedin-connection-strategy",
+      "description": "Inquired about using a bot for sending LinkedIn connection requests for efficiency.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "pending"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "marketing-performance",
+      "description": "Emphasized the need to progress beyond 'just something' efforts for better performance.",
+      "type": "concept",
+      "occurrence": "repeated",
+      "status": "pending"
+    }
+  ],
+  "participation": [
+    {
+      "person_name": "Michael Donovan",
+      "words_spoken": 400,
+      "participation_percentage": 0.55,
+      "level": "HIGH"
+    },
+    {
+      "person_name": "Jason Branham",
+      "words_spoken": 300,
+      "participation_percentage": 0.4,
+      "level": "HIGH"
+    },
+    {
+      "person_name": "Paulo Trovao",
+      "words_spoken": 20,
+      "participation_percentage": 0.05,
+      "level": "LOW"
+    }
+  ],
+  "durationMinutes": 18
 }

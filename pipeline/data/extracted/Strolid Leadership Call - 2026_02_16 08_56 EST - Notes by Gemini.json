@@ -1,173 +1,172 @@
 {
-  "meetingId": "strolid-leadership-call-2026-02-16",
+  "meetingId": "strolid-leadership-20260216",
   "title": "Strolid Leadership Call",
   "date": "2026-02-16",
   "series": "Strolid Leadership Call",
   "type": "leadership",
   "attendees": [
-    "Matt Watson",
-    "Shawna Behen",
-    "Vin Micciche",
-    "Thomas Howe",
-    "Jason Branham",
+    "Vinnie Micciche",
     "Joe Furnari",
-    "Michael Donovan",
-    "Mike Sullivan",
-    "Harinder Bhinder",
+    "Matt Watson",
+    "Kevin Breen",
     "Sergey Lyapustin",
-    "Kevin Breen"
+    "Shawna Behen",
+    "Harinder Bhinder",
+    "Jason Branham",
+    "Thomas Howe",
+    "Michael Donovan"
   ],
-  "summary": "The Strolid Leadership call focused on immediate execution, with participants committing to weekly deliverables to address lagging performance in the auto sector. Joe Furnari is prioritizing the BDS contract, while Vinnie Micciche raised concerns about Vonic expenses and suggested exploring a bridge loan. Marketing output was deemed insufficient, and a follow-up meeting was scheduled with Michael Donovan to address these concerns.",
+  "summary": "Vinnie Micciche introduced a new execution-focused meeting format. Joe Furnari committed to signing the BDS contract. Matt Watson is finalizing Stralled reporting. Kevin Breen is building an engagement report. Sergey Lyapustin is pushing VA rollout. Shawna Behen is assessing service teams. Harinder Bhinder is progressing infrastructure. Jason Branham committed sales to 30 cold calls. Thomas Howe is prioritizing BCI sales meetings. Vinnie Micciche stressed activity over marketing quality.",
   "decisions": [
     {
-      "description": "New meeting format focused on weekly deliverables and execution.",
-      "decidedBy": ["Vin Micciche"],
+      "description": "New meeting format focused on execution.",
+      "decidedBy": [
+        "Vinnie Micciche"
+      ],
       "topic": "meeting-format",
       "confidence": "firm"
     },
     {
-      "description": "Joe Furnari will follow up and do whatever is needed to get the BDS contract signed this week.",
-      "decidedBy": ["Joe Furnari"],
-      "topic": "bds-contract",
+      "description": "Cease all strategy meetings.",
+      "decidedBy": [
+        "Vinnie Micciche"
+      ],
+      "topic": "meeting-strategy",
       "confidence": "firm"
     },
     {
-      "description": "Look into a bridge loan or line of credit due to high Vonic expenses.",
-      "decidedBy": ["Vin Micciche"],
-      "topic": "financing",
-      "confidence": "tentative"
-    },
-    {
-      "description": "Kevin Breen will build an engagement report this week, collaborating with Matt Watson.",
-      "decidedBy": ["Kevin Breen"],
-      "topic": "engagement-report",
-      "confidence": "firm"
-    },
-    {
-      "description": "Sales team will commit to a minimum of 30 cold calls weekly until sales increase.",
-      "decidedBy": ["Jason Branham"],
-      "topic": "sales-activity",
-      "confidence": "firm"
-    },
-    {
-      "description": "Shawna Behen will hold expectation meetings with operations managers tomorrow.",
-      "decidedBy": ["Shawna Behen"],
+      "description": "Vinnie to observe Shawna's manager expectation meetings.",
+      "decidedBy": [
+        "Vinnie Micciche"
+      ],
       "topic": "operations-management",
       "confidence": "firm"
     },
     {
-      "description": "Focus on low-hanging fruit to sign up clients, prioritizing those willing to write a check.",
-      "decidedBy": ["Vin Micciche"],
-      "topic": "sales-strategy",
+      "description": "Focus on driving revenue.",
+      "decidedBy": [
+        "Vinnie Micciche"
+      ],
+      "topic": "revenue-generation",
+      "confidence": "firm"
+    },
+    {
+      "description": "Vinnie to have one-on-one with Michael about marketing.",
+      "decidedBy": [
+        "Vinnie Micciche"
+      ],
+      "topic": "marketing-strategy",
       "confidence": "firm"
     }
   ],
   "actionItems": [
     {
-      "task": "Follow up on the BDS contract to get it signed.",
+      "task": "Pursue BDS contract signing.",
       "owner": "Joe Furnari",
-      "deadline": "2026-02-22",
-      "expectedOutcome": {
-        "system": "email",
-        "description": "Signed BDS contract."
-      }
-    },
-    {
-      "task": "Meet with Vin Micciche to discuss 'talk two stuff' and get an answer on the auditor contract.",
-      "owner": "Joe Furnari",
-      "deadline": "2026-02-16",
-      "expectedOutcome": {
-        "system": "email",
-        "description": "Approval on the auditor contract"
-      }
+      "deadline": "this-week",
+      "expectedOutcome": null
     },
     {
       "task": "Build an engagement report.",
       "owner": "Kevin Breen",
-      "deadline": "2026-02-22",
-      "expectedOutcome": {
-        "system": "other",
-        "description": "Completed engagement report with internal visibility, dealer health, and agent performance."
-      }
+      "deadline": "this-week",
+      "expectedOutcome": null
     },
     {
-      "task": "Push the VA rollout and resolve issues.",
-      "owner": "Sergey Lyapustin",
-      "deadline": "2026-02-22",
-      "expectedOutcome": {
-        "system": "other",
-        "description": "VA rollout ready to deploy with the first couple of dealers."
-      }
-    },
-    {
-      "task": "Conduct a deep dive into the service and follow-up teams, especially the service side.",
+      "task": "Deep dive into service teams and hold expectation meetings.",
       "owner": "Shawna Behen",
-      "deadline": "2026-02-22",
-      "expectedOutcome": {
-        "system": "other",
-        "description": "Assessment of staffing levels and process efficiency in service and follow-up teams."
-      }
+      "deadline": "tomorrow",
+      "expectedOutcome": null
     },
     {
-      "task": "Hold expectation meetings with operations managers.",
-      "owner": "Shawna Behen",
-      "deadline": "2026-02-17",
-      "expectedOutcome": {
-        "system": "other",
-        "description": "Documented expectations and agreements with operations managers."
-      }
-    },
-    {
-      "task": "Get the auditor to sign the contract.",
-      "owner": "Harinder Bhinder",
-      "deadline": "2026-02-22",
-      "expectedOutcome": {
-        "system": "google-docs",
-        "description": "Signed auditor contract."
-      }
-    },
-    {
-      "task": "Continue to go through the engage program and make a minimum of 30 cold calls every week.",
+      "task": "Sales team to make minimum 30 cold calls weekly.",
       "owner": "Jason Branham",
-      "deadline": "2026-02-22",
-      "expectedOutcome": {
-        "system": "crm",
-        "description": "Increased leads and sales from cold calls."
-      }
+      "deadline": "weekly",
+      "expectedOutcome": null
     },
     {
-      "task": "Generate more marketing activity and content.",
-      "owner": "Michael Donovan",
-      "deadline": "2026-02-22",
-      "expectedOutcome": {
-        "system": "website",
-        "description": "Increased number of leads generated from marketing efforts."
-      }
+      "task": "Prioritize three BCI sales meetings.",
+      "owner": "Thomas Howe",
+      "deadline": "this-week",
+      "expectedOutcome": null
     }
   ],
   "topicsDiscussed": [
     "meeting-format",
+    "execution-focus",
+    "auto-performance",
     "bds-contract",
-    "financing",
+    "financial-concerns",
     "stralled-reporting",
-    "bonic-bds",
+    "bonic-initiatives",
     "engagement-report",
     "va-rollout",
     "service-team-assessment",
     "operations-management",
     "infrastructure-progress",
     "auditor-contract",
-    "sales-activity",
-    "marketing-content",
+    "sales-cold-calls",
     "bci-sales",
-    "sales-strategy"
+    "marketing-activity"
   ],
   "tensions": [
-    "Frustration that requested items are not continually getting done.",
-    "Concerns about the auto side being in a \"tail spin\" since September.",
-    "Concerns about high Vonic expenses and the need for cost control.",
-    "Dissatisfaction with the lack of marketing content and leads generated.",
-    "Concern that VA is holding up the rollout and Strolid is still paying them."
+    "Vinnie's frustration with uncompleted tasks.",
+    "Auto side 'tail spin' since September.",
+    "Vonic expense 'killing us'.",
+    "Concerns about funding VA if issues persist.",
+    "Marketing output insufficient.",
+    "Michael Donovan's pushback on marketing discussion."
   ],
-  "referencesToPast": []
+  "referencesToPast": [
+    "Auto side dropping since September.",
+    "Requested items not continually getting done.",
+    "Updated BDS contract sent yesterday.",
+    "Auditor contract discussed previously with Joe.",
+    "Sales team went 'blank' during President's Day.",
+    "Only three marketing leads this month and December."
+  ],
+  "contributions": [
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "meeting-format",
+      "description": "Proposed new execution-focused meeting format.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "approved"
+    },
+    {
+      "person_name": "Joe Furnari",
+      "topic": "bds-contract",
+      "description": "Committed to getting BDS contract signed this week.",
+      "type": "idea",
+      "occurrence": "repeated",
+      "status": "pending"
+    },
+    {
+      "person_name": "Matt Watson",
+      "topic": "stralled-reporting",
+      "description": "Pushed to finalize Stralled reporting and Bonic with BDS.",
+      "type": "topic",
+      "occurrence": "repeated",
+      "status": "pending"
+    },
+    {
+      "person_name": "Kevin Breen",
+      "topic": "engagement-report",
+      "description": "Committed to building an engagement report this week.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Jason Branham",
+      "topic": "cold-calling",
+      "description": "Sales team to commit to 30 cold calls weekly.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    }
+  ],
+  "participation": [],
+  "durationMinutes": 12
 }

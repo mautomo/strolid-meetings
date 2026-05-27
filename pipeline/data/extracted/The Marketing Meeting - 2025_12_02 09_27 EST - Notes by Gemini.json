@@ -1,5 +1,5 @@
 {
-  "meetingId": "the-marketing-meeting-2025-12-02",
+  "meetingId": "marketing-meeting-20251202",
   "title": "The Marketing Meeting",
   "date": "2025-12-02",
   "series": "The Marketing Meeting",
@@ -9,113 +9,234 @@
     "Vinnie Micciche",
     "Joe Furnari",
     "Michael Donovan",
-    "Ziad Al Khatib",
     "Jason Branham",
     "Matt Watson",
-    "Kevin Breen",
-    "Christina"
+    "Kevin Breen"
   ],
-  "summary": "The marketing team discussed the termination of Z due to performance issues, leading to a disagreement on how to best utilize Christina for temporary marketing help. They agreed on a scope of work for Christina focused on the newsletter, Slack updates, and landing pages. Vinnie Micciche directed the content strategy to focus on new technology and the company's shift toward automation, while Michael Donovan took accountability for content and suggested reposting high-performing content for immediate posts.",
+  "summary": "Jason, Michael, and Joe discussed football. Michael and Vinnie announced Z's termination due to lack of alignment and slow content. Vinnie questioned hiring difficulties. Vinnie reached out to Christina for temporary marketing help, leading to a tense exchange with Michael over Christina's capabilities. They agreed on Christina's scope for newsletter, Slack, and landing pages. Vinnie directed content to focus on new technology and automation. Michael outlined a messaging framework and took accountability for content, suggesting reposting old content.",
   "decisions": [
     {
-      "description": "Z was terminated from the organization due to a lack of alignment on capabilities and knowledge, and unsustainable content production.",
-      "decidedBy": ["Michael Donovan", "Vinnie Micciche"],
-      "topic": "employee-termination",
-      "confidence": "firm"
-    },
-    {
-      "description": "Christina will be brought in temporarily to help with marketing.",
-      "decidedBy": ["Vinnie Micciche"],
-      "topic": "temporary-staffing",
+      "description": "Z was terminated from the organization due to lack of alignment and slow content production.",
+      "decidedBy": [
+        "Michael Donovan",
+        "Vinnie Micciche"
+      ],
+      "topic": "personnel-change",
       "confidence": "firm"
     },
     {
       "description": "Christina's scope of work will include the newsletter, Slack updates, and landing pages.",
-      "decidedBy": ["Michael Donovan", "Vinnie Micciche"],
-      "topic": "christina-role",
+      "decidedBy": [
+        "Vinnie Micciche",
+        "Michael Donovan"
+      ],
+      "topic": "christina-scope-of-work",
       "confidence": "firm"
     },
     {
-      "description": "Content strategy will focus on new technology and the company's shift toward automation.",
-      "decidedBy": ["Vinnie Micciche"],
-      "topic": "content-strategy",
+      "description": "Content strategy will focus on new technology, automation, and the company's shift.",
+      "decidedBy": [
+        "Vinnie Micciche"
+      ],
+      "topic": "content-strategy-direction",
       "confidence": "firm"
     },
     {
-      "description": "Repost top-performing content from the last 60-90 days or from quarters 1 & 2 as a short-term solution for social posts.",
-      "decidedBy": ["Michael Donovan"],
-      "topic": "social-post-strategy",
+      "description": "Michael Donovan will take accountability for all content derived from the social post topic.",
+      "decidedBy": [
+        "Michael Donovan"
+      ],
+      "topic": "marketing-accountability",
+      "confidence": "firm"
+    },
+    {
+      "description": "Vinnie will offer Christina an agency-style arrangement for her marketing services.",
+      "decidedBy": [
+        "Vinnie Micciche"
+      ],
+      "topic": "christina-compensation",
       "confidence": "firm"
     }
   ],
   "actionItems": [
     {
-      "task": "Work with Christina directly for now to ensure social posts are flowing and social media activity is maintained.",
+      "task": "Work with Christina directly to ensure social posts are flowing and activity is maintained.",
       "owner": "Vinnie Micciche",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "social-media",
-        "description": "Consistent and timely social media posts."
-      }
+      "expectedOutcome": null
     },
     {
-      "task": "Be accountable for everything that comes and branches off of the social post topic, including putting the brief together and continuing the workflow.",
+      "task": "Be accountable for everything branching off the social post topic, including brief and workflow.",
       "owner": "Michael Donovan",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "google-docs",
-        "description": "A well-defined brief and workflow for social media posts."
-      }
+      "expectedOutcome": null
     },
     {
-      "task": "Schedule time with Kevin Breen to discuss resources, data, and piping relevant to marketing.",
+      "task": "Schedule time with Kevin Breen to discuss resources, data, and piping for marketing.",
       "owner": "Michael Donovan",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "calendar",
-        "description": "A meeting scheduled with Kevin Breen to discuss marketing resources and data."
-      }
+      "expectedOutcome": null
     },
     {
-      "task": "Finish the connection from Sanity's AI to our content lake.",
+      "task": "Finish the connection from Sanity's AI to the content lake.",
       "owner": "Michael Donovan",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "codebase",
-        "description": "Successful integration of Sanity's AI with the content lake."
-      }
+      "expectedOutcome": null
     },
     {
-      "task": "Offer Christina an agency-style arrangement, asking for a price quote for three landing pages and the newsletter.",
+      "task": "Ask Christina for a price quote for three landing pages and the newsletter.",
       "owner": "Vinnie Micciche",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "email",
-        "description": "Price quote received from Christina for the requested work."
-      }
+      "expectedOutcome": null
     }
   ],
   "topicsDiscussed": [
-    "employee-termination",
-    "marketing-staffing",
-    "temporary-staffing",
-    "christina-role",
-    "content-strategy",
-    "social-post-strategy",
-    "marketing-messaging",
-    "ai-content-generation",
-    "content-performance",
-    "market-conditions"
+    "football-bets-predictions",
+    "personnel-change-z-termination",
+    "marketing-staffing-challenges",
+    "temporary-marketing-solution-christina",
+    "christina-capabilities-role",
+    "social-media-strategy",
+    "content-strategy-direction",
+    "former-marketing-content-critique",
+    "company-focus-shift-automation",
+    "past-marketing-success-review",
+    "market-conditions-visibility",
+    "ai-for-content-generation",
+    "marketing-strategy-accountability",
+    "messaging-framework",
+    "contingency-plan-content-reposting",
+    "christina-scope-of-work"
   ],
   "tensions": [
-    "Disagreement between Vinnie Micciche and Michael Donovan regarding Christina's capabilities and the optimal use of their skills.",
-    "Vinnie Micciche expressed frustration with the lack of social media activity.",
-    "Michael Donovan raised concerns about the quality of Christina's creative ideas, citing past experiences."
+    "Jason Branham questioned similarity in hiring difficulties between Z and Kin.",
+    "Tense exchange between Vinnie Micciche and Michael Donovan regarding Christina's capabilities and role.",
+    "Vinnie Micciche expressed frustration over Z's content not aligning with company direction."
   ],
   "referencesToPast": [
-    "Reference to Kin's resume and past hiring difficulties in marketing, specifically Jack Brennan's time as COO.",
-    "Reference to effective marketing efforts from the second quarter.",
-    "Mention of a previous efficient workflow for social posts contingent on a brief.",
-    "Reference to lack of visibility from September to mid-October as a factor in Z's termination."
-  ]
+    "Kin's hiring difficulties",
+    "Jack Brennan's time as COO",
+    "Previous efficient workflow for social posts",
+    "Leadership call discussions on 'automotive co-pilot' and 'dealer MRI'",
+    "Successful marketing efforts from the second quarter",
+    "Lack of visibility from September to mid-October",
+    "Top-performing content from the last 60-90 days or Q1/Q2",
+    "New internal meeting plan"
+  ],
+  "contributions": [
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "football-betting-predictions",
+      "description": "Shared personal betting predictions on the Patriots for Super Bowl and AFC East.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "personnel-change-z-termination",
+      "description": "Announced Z's termination due to lack of alignment and unsustainable content production.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "approved"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "z-performance-critique",
+      "description": "Called Z a 'fraud' who said the right things but 'turned out to be a dud'.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "temporary-marketing-solution",
+      "description": "Revealed reaching out to Christina for temporary marketing assistance.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "christina-capabilities",
+      "description": "Emphasized Christina's strengths in newsletter, questioning social post assignment.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "christina-scope-of-work",
+      "description": "Proposed Christina focus on newsletter, Slack posts, and landing pages.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "approved"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "content-strategy-direction",
+      "description": "Directed content strategy to focus on new technology and company's shift to automation.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "approved"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "content-accountability",
+      "description": "Took accountability for all content derived from the social post topic.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "approved"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "contingency-content-plan",
+      "description": "Suggested reposting top-performing content from the last 60-90 days for immediate posts.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "ai-for-content-generation",
+      "description": "Demonstrated using ChatGPT with leadership call transcript to generate marketing messaging.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Jason Branham",
+      "topic": "duplicate-past-marketing-success",
+      "description": "Asked if the team could duplicate effective Q2 marketing efforts for quality leads.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "content-flywheel-strategy",
+      "description": "Affirmed Q2 success involved a content flywheel with multi-touch engagement and content diversity.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "company-shift-automation",
+      "description": "Described significant company shift from 'getting work done' to building technology to automate.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "messaging-framework",
+      "description": "Outlined a messaging framework: problem, outcome when solved, and cost of inaction.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "proposed"
+    }
+  ],
+  "participation": [],
+  "durationMinutes": null
 }

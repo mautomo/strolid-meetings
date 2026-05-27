@@ -1,189 +1,329 @@
 {
-  "meetingId": "active-pipeline-review-2026-03-12",
+  "meetingId": "product-pipeline-review-20260312",
   "title": "Product: Active Pipeline Review",
   "date": "2026-03-12",
   "series": "Product: Active Pipeline Review",
   "type": "product",
   "attendees": [
-    "Thomas Howe",
     "Vinnie Micciche",
-    "Shawna Behen",
     "Matt Watson",
-    "Ken Herron",
-    "Joe Furnari",
-    "Jason Branham",
-    "Michael Donovan",
-    "Harinder Bhinder",
     "Sergey Lyapustin",
-    "Kevin Breen"
+    "Shawna Behen",
+    "Kevin Breen",
+    "Michael Donovan",
+    "Jason Branham",
+    "Harinder Bhinder",
+    "Thomas Howe",
+    "Ken Herron",
+    "Joe Furnari"
   ],
-  "summary": "The meeting covered project updates for Lovable reporting and the Sophia campaign, focusing on low customer engagement. Lovable report sharing is ready for external integration with existing dealer ID security, and the BDC analytics dashboard passed internal security checks. The Sophia campaign's engagement rate decline from 15% to 11% is a concern, prompting investigation into lead quality and potential calling window adjustments, prioritizing internal fine-tuning before external sales integration.",
+  "summary": "Project updates addressed Lovable reporting and Sophia campaign status. Deep discussion on low customer engagement and product improvements, including security checks for BDC analytics and fine-tuning Sophia for internal deployment before external sales integration.",
   "decisions": [
     {
-      "description": "Reschedule meeting between Michael Donovan and Jason Branham for the following day between 11:00 AM and 11:30 AM.",
-      "decidedBy": ["Michael Donovan", "Jason Branham"],
-      "topic": "meeting-scheduling",
+      "description": "Lovable report sharing is ready for external integration into the portal using existing dealer ID.",
+      "decidedBy": [
+        "Sergey Lyapustin",
+        "Matt Watson"
+      ],
+      "topic": "lovable-reporting-integration",
       "confidence": "firm"
     },
     {
-      "description": "Reports created in Lovable by Kevin will be loaded into the portal's back end, similar to current Metabase reports, using the same dealer ID method for row-level security.",
-      "decidedBy": ["Sergey Lyapustin", "Matt Watson", "Kevin Breen"],
-      "topic": "lovable-reporting",
+      "description": "Internal security check for BDC analytics dashboard was positive, internal deployment testing to begin next week.",
+      "decidedBy": [
+        "Sergey Lyapustin",
+        "Matt Watson"
+      ],
+      "topic": "bdc-analytics-security",
       "confidence": "firm"
     },
     {
-      "description": "Deploy the BDC analytics dashboard internally first to run tests and look for potential issues before moving forward with dealer embeddings.",
-      "decidedBy": ["Sergey Lyapustin", "Matt Watson", "Kevin Breen"],
-      "topic": "security-testing",
+      "description": "Sophia campaign priority is internal fine-tuning and deployment for Strawa dealers before external sales.",
+      "decidedBy": [
+        "Vinnie Micciche",
+        "Matt Watson"
+      ],
+      "topic": "sophia-campaign-strategy",
       "confidence": "firm"
     },
     {
-      "description": "Continue the current Sophia outbound sales campaign until the following week.",
-      "decidedBy": ["Shawna Behen", "Sergey Lyapustin"],
-      "topic": "sophia-campaign",
-      "confidence": "firm"
-    },
-    {
-      "description": "The immediate goal for Sophia is to get the current system humming internally and fine-tune it before deciding on external sales and integrations.",
-      "decidedBy": ["Vinnie Micciche", "Matt Watson"],
-      "topic": "sophia-deployment",
-      "confidence": "firm"
-    },
-    {
-      "description": "Address the save-a-deal reporting with new AI capabilities using GPT prompts to generate comprehensive, quantitative reports; Scott will address this.",
-      "decidedBy": ["Matt Watson", "Scott"],
-      "topic": "reporting-improvements",
-      "confidence": "firm"
-    },
-    {
-      "description": "Shift Sophia's calling window to 2:00 PM to 8:00 PM to align with when customers are more likely to pick up.",
-      "decidedBy": ["Vinnie Micciche", "Michael Donovan", "Shawna Behen"],
-      "topic": "calling-schedule",
+      "description": "Proposed testing a shift in Sophia's calling window to 2:00 PM - 8:00 PM to align with customer pickup rates.",
+      "decidedBy": [
+        "Vinnie Micciche",
+        "Michael Donovan"
+      ],
+      "topic": "sophia-calling-schedule",
       "confidence": "tentative"
-    },
-    {
-      "description": "Project plan must include a step to evaluate prompts before going live.",
-      "decidedBy": ["Harinder Bhinder"],
-      "topic": "prompt-evaluation",
-      "confidence": "firm"
-    },
-    {
-      "description": "Prioritize which customer-generated prompts to accept, as some may be too \"out there\" to handle.",
-      "decidedBy": ["Matt Watson"],
-      "topic": "prompt-management",
-      "confidence": "firm"
     }
   ],
   "actionItems": [
     {
-      "task": "Reschedule the meeting with Michael Donovan for 11:00 AM to 11:30 AM tomorrow.",
+      "task": "Reschedule meeting with Michael Donovan for tomorrow between 11:00 AM - 11:30 AM.",
       "owner": "Jason Branham",
       "deadline": "2026-03-13",
-      "expectedOutcome": {
-        "system": "calendar",
-        "description": "Meeting invite sent for the specified time."
-      }
+      "expectedOutcome": null
     },
     {
-      "task": "Provide Vinnie Micciche with the slide information and data for Sophia call backs from October through January for tomorrow's call review.",
+      "task": "Provide Vinnie Micciche with Sophia callback data from October through January for tomorrow's call review.",
       "owner": "Kevin Breen",
       "deadline": "2026-03-13",
-      "expectedOutcome": {
-        "system": "email",
-        "description": "Vinnie receives the requested data and slides."
-      }
+      "expectedOutcome": null
     },
     {
-      "task": "Point the callback numbers to Frank's follow-up team to have them answer.",
+      "task": "Work to point the callback numbers to Frank's follow-up team to answer.",
       "owner": "Shawna Behen",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "other",
-        "description": "Callback numbers are routed to Frank's follow-up team."
-      }
+      "expectedOutcome": null
     },
     {
-      "task": "Review the data query, looking into lead source quality, and analyzing the impact of phone screeners.",
+      "task": "Investigate Sophia engagement rate decline, including lead quality and phone screeners impact.",
       "owner": "Sergey Lyapustin",
       "deadline": null,
       "expectedOutcome": {
-        "system": "crm",
-        "description": "Analysis report on lead source quality and impact of phone screeners is available."
+        "system": "Sophia",
+        "description": "Understand reasons for engagement rate drop and identify improvements."
       }
     },
     {
-      "task": "Address the 'save a deal' prompt issue and develop a GPT-based application for comprehensive reporting.",
+      "task": "Address the 'save a deal' prompt issue to generate comprehensive quantitative reports.",
       "owner": "Scott",
       "deadline": null,
       "expectedOutcome": {
-        "system": "codebase",
-        "description": "Functioning 'save a deal' application with improved reporting capabilities."
+        "system": "AI Reporting",
+        "description": "Accurate and complete quantitative reports from call data."
       }
     },
     {
-      "task": "Analyze patterns and similarities between customers calling back and not calling back, considering lead source and time of day.",
-      "owner": "Michael Donovan",
+      "task": "Incorporate evaluation tools from the start for the Co-pilot project.",
+      "owner": "Harinder Bhinder",
       "deadline": null,
       "expectedOutcome": {
-        "system": "crm",
-        "description": "Report outlining key patterns and similarities in customer call-back behavior."
-      }
-    },
-    {
-      "task": "Determine human performance metrics prior to Sophia's implementation (call backs).",
-      "owner": "Unassigned",
-      "deadline": null,
-      "expectedOutcome": {
-        "system": "crm",
-        "description": "Baseline of human follow-up performance metrics is established."
-      }
-    },
-    {
-      "task": "Evaluate staffing options for evening shift to support potential calling window shift to 2:00 PM to 8:00 PM.",
-      "owner": "Shawna Behen",
-      "deadline": null,
-      "expectedOutcome": {
-        "system": "other",
-        "description": "Staffing plan prepared to accommodate the proposed call-time change."
+        "system": "Co-pilot",
+        "description": "Monitor product usage and response effectiveness from initial deployment."
       }
     }
   ],
   "topicsDiscussed": [
-    "lovable-reporting",
-    "security-testing",
-    "sophia-campaign",
-    "sophia-deployment",
-    "market-valuation",
-    "revenue-streams",
-    "engagement-rates",
-    "value-proposition",
-    "product-improvement",
-    "call-analysis",
-    "quantitative-reporting",
-    "data-accuracy",
-    "calling-schedule",
-    "co-pilot-implementation",
-    "staffing-replacements",
-    "prompt-evaluation",
-    "customer-interaction",
-    "language-model-security",
-    "data-analysis",
-    "ai-tools",
-    "reporting-improvements"
+    "lovable-reporting-integration",
+    "bdc-analytics-security",
+    "sophia-campaign-strategy",
+    "customer-engagement-decline",
+    "ai-product-development",
+    "data-reporting-accuracy",
+    "co-pilot-development",
+    "revenue-potential-analysis",
+    "ai-staffing-impact",
+    "llm-security-cost"
   ],
   "tensions": [
-    "Concerns about the declining engagement rate of the Sophia outbound sales campaign.",
-    "Vinnie Micciche's lack of confidence in the accuracy of current reporting data.",
-    "Debate on whether to prioritize efficiency or ROI when selling AI tools to dealers.",
-    "Potential staffing challenges related to shifting Sophia's calling window to later hours.",
-    "Concern about the quality of leads as new dealers are introduced to Sophia.",
-    "Disagreement on how much the market impacted drop in engagement rates.",
-    "Potential costs of AI usage."
+    "Persistent decline in Sophia engagement rates despite changes and tweaks.",
+    "Lack of confidence in current Sophia reporting data accuracy due to significant variations.",
+    "Difficulty selling AI tools purely on efficiency versus demonstrating clear ROI.",
+    "Staffing challenges for shifting Sophia's calling window to evening hours.",
+    "Concerns about AI potentially 'training replacements' versus creating new roles.",
+    "Security and cost management concerns with public GPT model usage."
   ],
   "referencesToPast": [
-    "Reschedule of a meeting from the previous day with Jason Branham.",
-    "Discussion of old and new data related to Sophia's performance compared to earlier months (October-January).",
-    "Reference to previous discussions on Voli replacement as a service BDC platform.",
-    "Mention of previous QA work done for Front Line for 211."
-  ]
+    "Michael Donovan requested a reschedule of a meeting from the previous day with Jason Branham.",
+    "Sergey Lyapustin confirmed Lovable reports would integrate similar to current Metabase reports using the same dealer ID method.",
+    "Kevin Breen confirmed having Sophia performance data from October through January.",
+    "Vinnie Micciche mentioned they have talked about Voli replacement software for years.",
+    "Vinnie Micciche referenced not liking Sophia's first results in November and then January's data.",
+    "Matt Watson explained new AI capabilities for quantitative reports, referencing a prior discussion with Scott.",
+    "Vinnie Micciche mentioned showing a report to Sergey Lyapustin this morning.",
+    "Matt Watson confirmed they spent six months reviewing dealer prompts to create presets.",
+    "Harinder Bhinder mentioned looking at Co-work for analysis capabilities.",
+    "Matt Watson mentioned testing Snowflake's AI tool."
+  ],
+  "contributions": [
+    {
+      "person_name": "Sergey Lyapustin",
+      "topic": "lovable-reporting-integration",
+      "description": "Confirmed external report sharing via Lovable using existing dealer ID method.",
+      "type": "concept",
+      "occurrence": "repeated",
+      "status": "approved"
+    },
+    {
+      "person_name": "Sergey Lyapustin",
+      "topic": "bdc-analytics-security",
+      "description": "Reported positive internal security check for BDC analytics dashboard built by Kevin.",
+      "type": "topic",
+      "occurrence": "first-time",
+      "status": "completed-success"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "sophia-data-review",
+      "description": "Requested Sophia performance data (old and new) for an upcoming call review meeting.",
+      "type": "idea",
+      "occurrence": "first-time",
+      "status": "approved"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "sophia-product-refinement",
+      "description": "Emphasized Sophia project is not finished, needs tweaking for significant revenue potential.",
+      "type": "idea",
+      "occurrence": "repeated",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Matt Watson",
+      "topic": "sophia-deployment-milestones",
+      "description": "Asked for clarification on 'done' for Sophia, suggesting Strawa dealer deployment as first step.",
+      "type": "topic",
+      "occurrence": "first-time",
+      "status": "pending"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "revenue-potential-analysis",
+      "description": "Outlined potential revenue projections based on selling Sophia and other services to dealers.",
+      "type": "concept",
+      "occurrence": "first-time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "customer-engagement-decline",
+      "description": "Raised concerns about Sophia engagement rate dropping from 15% to 11%.",
+      "type": "topic",
+      "occurrence": "first-time",
+      "status": "pending"
+    },
+    {
+      "person_name": "Matt Watson",
+      "topic": "ai-value-proposition",
+      "description": "Countered that even low engagement can be valuable if it provides marginal benefit over human labor.",
+      "type": "idea",
+      "occurrence": "first-time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "data-reporting-accuracy",
+      "description": "Expressed lack of confidence in current reporting data due to significant variations in engagement rates.",
+      "type": "topic",
+      "occurrence": "first-time",
+      "status": "pending"
+    },
+    {
+      "person_name": "Sergey Lyapustin",
+      "topic": "engagement-decline-investigation",
+      "description": "Suggested reviewing data query, lead source quality, and phone screeners impact on engagement decline.",
+      "type": "idea",
+      "occurrence": "first-time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "calling-window-analysis",
+      "description": "Suggested analyzing patterns of who calls back, leading to discussion about Sophia's calling window.",
+      "type": "idea",
+      "occurrence": "first-time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "calling-window-shift-test",
+      "description": "Proposed testing a shift in Sophia's calling window to 2:00 PM - 8:00 PM.",
+      "type": "idea",
+      "occurrence": "first-time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Harinder Bhinder",
+      "topic": "co-pilot-evaluation-tools",
+      "description": "Emphasized incorporating evaluation tools from the start to monitor Co-pilot usage.",
+      "type": "idea",
+      "occurrence": "first-time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Harinder Bhinder",
+      "topic": "llm-security-cost",
+      "description": "Stressed tracing and logging usage for security and managing costs of GPT models.",
+      "type": "concept",
+      "occurrence": "first-time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "ai-for-data-analysis",
+      "description": "Suggested using LLMs for data analysis to quickly identify issues humans might overlook.",
+      "type": "idea",
+      "occurrence": "first-time",
+      "status": "proposed"
+    }
+  ],
+  "participation": [
+    {
+      "person_name": "Matt Watson",
+      "words_spoken": 280,
+      "participation_percentage": 30.0,
+      "level": "HIGH"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "words_spoken": 320,
+      "participation_percentage": 35.0,
+      "level": "HIGH"
+    },
+    {
+      "person_name": "Sergey Lyapustin",
+      "words_spoken": 120,
+      "participation_percentage": 13.0,
+      "level": "MEDIUM"
+    },
+    {
+      "person_name": "Shawna Behen",
+      "words_spoken": 90,
+      "participation_percentage": 10.0,
+      "level": "MEDIUM"
+    },
+    {
+      "person_name": "Harinder Bhinder",
+      "words_spoken": 70,
+      "participation_percentage": 7.0,
+      "level": "MEDIUM"
+    },
+    {
+      "person_name": "Kevin Breen",
+      "words_spoken": 30,
+      "participation_percentage": 3.0,
+      "level": "LOW"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "words_spoken": 15,
+      "participation_percentage": 1.5,
+      "level": "LOW"
+    },
+    {
+      "person_name": "Jason Branham",
+      "words_spoken": 10,
+      "participation_percentage": 0.5,
+      "level": "LOW"
+    },
+    {
+      "person_name": "Joe Furnari",
+      "words_spoken": 0,
+      "participation_percentage": 0.0,
+      "level": "NONE"
+    },
+    {
+      "person_name": "Thomas Howe",
+      "words_spoken": 0,
+      "participation_percentage": 0.0,
+      "level": "NONE"
+    },
+    {
+      "person_name": "Ken Herron",
+      "words_spoken": 0,
+      "participation_percentage": 0.0,
+      "level": "NONE"
+    }
+  ],
+  "durationMinutes": 60
 }

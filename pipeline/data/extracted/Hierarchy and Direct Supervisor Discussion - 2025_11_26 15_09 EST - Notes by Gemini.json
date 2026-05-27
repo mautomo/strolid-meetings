@@ -1,14 +1,21 @@
 {
-  "meetingId": "hierarchy-and-direct-supervisor-discussion-2025-11-26",
+  "meetingId": "hierarchy-supervisor-20251126-1",
   "title": "Hierarchy and Direct Supervisor Discussion",
   "date": "2025-11-26",
-  "series": "Hierarchy and Direct Supervisor Discussion",
+  "series": "Organizational Structure",
   "type": "other",
-  "attendees": ["Vinnie Micciche", "Ziad Al Khatib", "Michael Donovan"],
-  "summary": "The meeting was held regarding hierarchy and direct supervisor discussion, but a summary and details were not produced due to a lack of conversation in a supported language.",
+  "attendees": [
+    "Vinnie Micciche",
+    "Ziad Al Khatib",
+    "Michael Donovan"
+  ],
+  "summary": "A summary wasn't produced for this meeting because there wasn't enough conversation in a supported language.",
   "decisions": [],
   "actionItems": [],
-  "topicsDiscussed": ["hierarchy", "direct-supervisors"],
+  "topicsDiscussed": [],
   "tensions": [],
-  "referencesToPast": []
+  "referencesToPast": [],
+  "contributions": [],
+  "participation": [],
+  "durationMinutes": null
 }

@@ -1,86 +1,183 @@
 {
-  "meetingId": "vconic-priority-content-update-2025-10-24",
+  "meetingId": "Vconic-20251024-Update",
   "title": "Vconic Priority & Content Update",
-  "date": "2025-10-24",
-  "series": "Vconic Priority & Content Update",
+  "date": "Oct 24, 2025",
+  "series": "Vconic",
   "type": "marketing",
-  "attendees": ["Perry Evans", "Michael Donovan"],
-  "summary": "Perry Evans and Michael Donovan discussed website development, communication breakdowns, and strategic priorities, focusing on launching the website and LinkedIn content. Michael Donovan will provide a staging version of the website for Perry's feedback and prepare LinkedIn assets, while addressing communication gaps regarding directives and priorities.",
+  "attendees": [
+    "Perry Evans",
+    "Michael Donovan"
+  ],
+  "summary": "The meeting focused on Vconic website development, communication issues, and strategic priorities. Perry requested a visual draft for feedback. Michael committed to providing a staging version and preparing LinkedIn assets to align with Vinnie's launch priority.",
   "decisions": [
     {
-      "description": "Michael Donovan will provide a visual, password-protected staging version of the website for Perry Evans to review.",
-      "decidedBy": ["Michael Donovan"],
+      "description": "Michael will provide a visual, password-protected website draft.",
+      "decidedBy": [
+        "Michael Donovan",
+        "Perry Evans"
+      ],
       "topic": "website-development",
       "confidence": "firm"
     },
     {
-      "description": "Perry Evans will assess the staging website version and decide whether to dedicate three weeks to the website with a focus on LinkedIn, or spend the next week iterating on the website for a refined draft.",
-      "decidedBy": ["Perry Evans"],
-      "topic": "website-development",
-      "confidence": "tentative"
+      "description": "Michael will provide a staging version of the site today.",
+      "decidedBy": [
+        "Michael Donovan"
+      ],
+      "topic": "website-staging",
+      "confidence": "firm"
     },
     {
-      "description": "Michael Donovan will have LinkedIn assets ready to align with Vinnie's priority for immediate launch and social media development.",
-      "decidedBy": ["Michael Donovan"],
+      "description": "LinkedIn project will be put in a secondary stage.",
+      "decidedBy": [
+        "Perry Evans",
+        "Michael Donovan"
+      ],
+      "topic": "linkedin-prioritization",
+      "confidence": "firm"
+    },
+    {
+      "description": "Focus on basic presence for LinkedIn deliverables.",
+      "decidedBy": [
+        "Perry Evans",
+        "Michael Donovan"
+      ],
       "topic": "linkedin-strategy",
       "confidence": "firm"
     },
     {
-      "description": "LinkedIn project is put in a secondary stage, focusing on hero images, profile banners, and post templates.",
-      "decidedBy": ["Perry Evans", "Michael Donovan"],
-      "topic": "linkedin-strategy",
+      "description": "Michael will prepare LinkedIn assets like hero images and templates.",
+      "decidedBy": [
+        "Michael Donovan",
+        "Perry Evans"
+      ],
+      "topic": "linkedin-assets",
       "confidence": "firm"
     }
   ],
   "actionItems": [
     {
-      "task": "Send a link to the staging version of the website, including the homepage, four product pages, leadership, and about page.",
+      "task": "Send link to staging website (homepage, product pages, etc.).",
       "owner": "Michael Donovan",
-      "deadline": "2025-10-24",
+      "deadline": "later today",
       "expectedOutcome": {
-        "system": "email",
-        "description": "Perry Evans receives a link to the staging website."
+        "system": "website-staging",
+        "description": "Perry can view and provide feedback."
       }
     },
     {
-      "task": "Publish the draft website behind a firewall or password protected for review.",
+      "task": "Publish draft website behind firewall or password protection.",
       "owner": "Michael Donovan",
-      "deadline": null,
+      "deadline": "later today",
       "expectedOutcome": {
-        "system": "website",
-        "description": "Perry Evans can access and view the draft website."
+        "system": "website-access",
+        "description": "Perry can view content and presentation context."
       }
     },
     {
-      "task": "Focus on hero images, profile banners, and post templates to define the look and feel of LinkedIn content.",
+      "task": "Put LinkedIn project in a secondary stage.",
       "owner": "Michael Donovan",
       "deadline": null,
       "expectedOutcome": {
-        "system": "linkedin",
-        "description": "Templates and design language established for upcoming LinkedIn posts."
+        "system": "project-management",
+        "description": "Focus on hero images, banners, post templates."
+      }
+    },
+    {
+      "task": "Provide feedback on the website draft.",
+      "owner": "Perry Evans",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "website-iteration",
+        "description": "Refine website for going live quickly."
+      }
+    },
+    {
+      "task": "Stay in touch on Slack for updates.",
+      "owner": "Perry Evans, Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "communication",
+        "description": "Maintain ongoing communication."
       }
     }
   ],
   "topicsDiscussed": [
     "website-development",
-    "user-experience",
-    "communication-breakdown",
-    "team-dynamics",
+    "communication-issues",
     "strategic-priorities",
-    "linkedin-strategy",
-    "content-creation",
-    "project-management",
-    "resource-allocation"
+    "linkedin-development",
+    "team-dynamics",
+    "content-strategy",
+    "website-iteration"
   ],
   "tensions": [
-    "Communication breakdown between Perry Evans and Michael Donovan regarding website draft production.",
-    "Differing approaches between Vinnie (sales-focused) and Michael Donovan (structure-focused).",
-    "Vinnie's \"rant\" about lack of social posts and website launch timing.",
-    "Michael Donovan being given conflicting directives by Vinnie."
+    "Communication breakdown regarding website draft.",
+    "Michael Donovan's frustration with Vinnie's conflicting directives.",
+    "Different approaches between Vinnie (sales) and Michael Donovan (structure).",
+    "Michael feeling 'rugpulled' on projects due to changing priorities."
   ],
   "referencesToPast": [
-    "Previous conversation between Perry Evans and Michael Donovan about producing a website draft.",
-    "Mention of past conversations around Z and Vinnie ranting about not enough social posts.",
-    "Reference to the original sanity framework wireframe."
-  ]
+    "Recalled previous conversation about website draft commitment.",
+    "Mentioned Vinnie's directives to not worry about Viconic.",
+    "Vinnie's 'rant' about social posts stemmed from a P&L discussion.",
+    "Referred to a conversation a week ago to restart."
+  ],
+  "contributions": [
+    {
+      "person_name": "Perry Evans",
+      "topic": "website-visual-draft",
+      "description": "Requested visual draft for effective feedback.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "website-components",
+      "description": "Detailed existing framework, pages, components, and style guide.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Perry Evans",
+      "topic": "website-iteration-paths",
+      "description": "Proposed two paths for website iteration.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Vinnie",
+      "topic": "website-launch-priority",
+      "description": "Expressed desire for website to launch ASAP.",
+      "type": "topic",
+      "occurrence": "repeated",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "architectural-infrastructure",
+      "description": "Explained focus on building infrastructure for future content.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "proposed"
+    }
+  ],
+  "participation": [
+    {
+      "person_name": "Perry Evans",
+      "words_spoken": 1000,
+      "participation_percentage": 55.0,
+      "level": "HIGH"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "words_spoken": 800,
+      "participation_percentage": 45.0,
+      "level": "HIGH"
+    }
+  ],
+  "durationMinutes": 24
 }

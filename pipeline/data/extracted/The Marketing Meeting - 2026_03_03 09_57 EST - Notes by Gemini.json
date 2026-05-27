@@ -1,5 +1,5 @@
 {
-  "meetingId": "the-marketing-meeting-2026-03-03",
+  "meetingId": "marketing-meeting-20260303",
   "title": "The Marketing Meeting",
   "date": "2026-03-03",
   "series": "The Marketing Meeting",
@@ -9,91 +9,218 @@
     "Joe Furnari",
     "Michael Donovan",
     "Jason Branham",
-    "Paulo Trovao"
+    "Paulo Trovao",
+    "Sergey",
+    "Daniel Parker"
   ],
-  "summary": "The team discussed data enrichment options, including XP exe, and campaign deployment strategies. They agreed to prioritize campaigns for the ideal customer profile, focusing on establishing conversions and bounce rates, and segmenting campaigns into three areas: current customers, conquest, and past/cold customers. Michael Donovan will address the ad spend billing issue and share the video from Notebook LM for feedback.",
+  "summary": "Michael Donovan confirmed that the company XP exe, recommended by Sergey, aligns with their needs for data enrichment by utilizing AI to search the \"open internet\" and that they can test data accuracy before deployment, while Jason Branham expressed concerns about data age and Vinnie Micciche stressed the urgency of deploying campaigns for the ideal customer profile to establish conversions and bounce rates. Michael Donovan confirmed that they are ready to proceed with campaigns and are determining the path of least resistance for deployment, including assessing whether to use Apollo or Zoho Campaigns, and noted that they need to set up a dedicated, warm-up email subdomain for campaigning; Vinnie Micciche emphasized that the company's competitive advantage is helping dealers own their data and suggested starting with existing data to establish a baseline before enriching it with XP exe, proposed segmenting campaigns into three areas (current customers, conquest, and past/cold customers) for different messaging, and requested a list of Lithia dealers since the company was approved as a preferred partner. Michael Donovan reported that they need to migrate the ad spend billing away from an external backup card associated with Daniel Parker's organization.",
   "decisions": [
     {
-      "description": "Proceed with email and ad campaigns, prioritizing deployment.",
-      "decidedBy": ["Michael Donovan"],
+      "description": "XP exe aligns with data enrichment needs.",
+      "decidedBy": [
+        "Michael Donovan"
+      ],
+      "topic": "data-enrichment-tooling",
+      "confidence": "firm"
+    },
+    {
+      "description": "Ready to proceed with campaigns.",
+      "decidedBy": [
+        "Michael Donovan"
+      ],
       "topic": "campaign-deployment",
       "confidence": "firm"
     },
     {
-      "description": "Remove McGovern from the initial target list due to an existing negative relationship.",
-      "decidedBy": ["The team"],
-      "topic": "target-candidate-exclusion",
+      "description": "McGovern removed from target list due to negative relationship.",
+      "decidedBy": [
+        "Michael Donovan",
+        "Vinnie Micciche",
+        "Jason Branham"
+      ],
+      "topic": "target-customer-list",
       "confidence": "firm"
     },
     {
-      "description": "Focus on running campaigns for the defined ideal customer profile (ICP) roles to establish conversions and bounce rates.",
-      "decidedBy": ["Vinnie Micciche", "Michael Donovan"],
-      "topic": "ideal-customer-profile",
+      "description": "Johnson Automotive confirmed as active customer.",
+      "decidedBy": [
+        "Michael Donovan",
+        "Vinnie Micciche",
+        "Jason Branham"
+      ],
+      "topic": "customer-status",
       "confidence": "firm"
     },
     {
-      "description": "Segment campaigns into three areas: current customers, conquest, and past/cold customers, all requiring different messaging.",
-      "decidedBy": ["Vinnie Micciche"],
-      "topic": "campaign-segmentation",
-      "confidence": "firm"
-    },
-    {
-      "description": "Start with existing data to establish a baseline through campaigns before enriching the data using XP exe.",
-      "decidedBy": ["Vinnie Micciche"],
-      "topic": "data-enrichment",
-      "confidence": "firm"
-    },
-    {
-      "description": "Target dealer principals, corporate staff, and owners as the primary audience.",
-      "decidedBy": ["The team"],
-      "topic": "buyer-targeting",
+      "description": "Company approved as preferred partner with Lithia.",
+      "decidedBy": [
+        "Vinnie Micciche"
+      ],
+      "topic": "strategic-partnerships",
       "confidence": "firm"
     }
   ],
   "actionItems": [
     {
-      "task": "Address the ad spend billing issue by migrating the billing away from the external association or creating a new shell account.",
+      "task": "Set up a dedicated, warm-up email subdomain for campaigning.",
       "owner": "Michael Donovan",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "google-docs",
-        "description": "Ad spend billing is correctly allocated and not charged to the external backup card associated with Daniel Parker's organization."
-      }
-    },
-    {
-      "task": "Share the video from Notebook LM, cut into short clips, for feedback.",
-      "owner": "Michael Donovan",
-      "deadline": null,
-      "expectedOutcome": {
-        "system": "email",
-        "description": "Team provides feedback on the video content."
-      }
+      "expectedOutcome": null
     },
     {
       "task": "Put together a list of Lithia dealers.",
-      "owner": "Unassigned",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": null
+    },
+    {
+      "task": "Meet with Google reps to migrate ad spend billing or create new account.",
+      "owner": "Michael Donovan",
       "deadline": null,
       "expectedOutcome": {
-        "system": "google-docs",
-        "description": "A comprehensive list of Lithia dealers is compiled."
+        "system": "Google Ads",
+        "description": "Ad spend billing migrated away from Daniel Parker's organization."
       }
+    },
+    {
+      "task": "Share video from Notebook LM, cut into short clips, for feedback.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": null
+    },
+    {
+      "task": "Assess whether to use Apollo or Zoho Campaigns for deployment.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": null
     }
   ],
   "topicsDiscussed": [
-    "data-enrichment",
-    "campaign-deployment",
-    "buyer-targeting",
-    "data-accuracy",
-    "campaign-segmentation",
+    "data-enrichment-tooling",
+    "xp-exe-evaluation",
+    "campaign-deployment-strategy",
+    "email-subdomain-setup",
     "lithia-partnership",
-    "active-customer-tracking",
-    "data-ownership",
-    "video-content-feedback",
-    "ad-spend-billing"
+    "ad-spend-billing",
+    "buyer-group-composition",
+    "messaging-customization",
+    "data-accuracy-validation",
+    "target-customer-profiling",
+    "data-ownership-advantage",
+    "video-content-feedback"
   ],
   "tensions": [
-    "Jason Branham's concerns about the age of the data.",
-    "Vinnie Micciche questioned the need to use XP exe in conjunction with Clay and Apollo."
+    "Jason Branham's concern about the age and accuracy of data.",
+    "Vinnie Micciche questioning the necessity of using three data tools (XP exe, Clay, Apollo).",
+    "Vinnie Micciche questioning the influence of sales managers and reiterating the agreed target audience.",
+    "Concern over ad spend billing being tied to Daniel Parker's external organization."
   ],
-  "referencesToPast": []
+  "referencesToPast": [
+    "XP exe recommended by Sergey.",
+    "Utilized provided data from seven auto groups.",
+    "Known acquisition (Herb Chambers bought by Asbury) cited for data age concern.",
+    "Target audience was agreed to be dealer principals, corporate staff, and owners.",
+    "Ad spend from previous month charged to Daniel Parker's external backup card.",
+    "Company was approved as a preferred partner (Lithia), pending final questionnaire."
+  ],
+  "contributions": [
+    {
+      "person_name": "Michael Donovan",
+      "topic": "data-enrichment-tooling",
+      "description": "Confirmed XP exe aligns with needs and met owner.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "approved"
+    },
+    {
+      "person_name": "Jason Branham",
+      "topic": "data-accuracy",
+      "description": "Raised concerns about data age, citing a known acquisition.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "pending"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "campaign-deployment-urgency",
+      "description": "Stressed urgency of deploying campaigns for ICP to establish conversions.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "campaign-deployment-strategy",
+      "description": "Confirmed readiness for campaigns, assessing Apollo vs Zoho.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "data-ownership-advantage",
+      "description": "Emphasized company's competitive advantage in helping dealers own their data.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "campaign-segmentation",
+      "description": "Proposed segmenting campaigns into current, conquest, and past/cold customers.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "lithia-partnership",
+      "description": "Requested a list of Lithia dealers due to preferred partner status.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "ad-spend-billing",
+      "description": "Reported need to migrate ad spend billing from Daniel Parker's card.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "pending"
+    },
+    {
+      "person_name": "Sergey",
+      "topic": "data-enrichment-tooling",
+      "description": "Recommended XP exe for data enrichment.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "approved"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "data-validation",
+      "description": "Suggested validating data lists by sending email campaigns and checking bounce rates.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Jason Branham",
+      "topic": "active-customer-tracking",
+      "description": "Suggested invoice tracker as the most accurate source of truth for active dealers.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "revenue-generation",
+      "description": "Asserted quickest path to revenue is through service and sales BDC services.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    }
+  ],
+  "participation": [],
+  "durationMinutes": null
 }

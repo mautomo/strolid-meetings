@@ -1,166 +1,334 @@
 {
-  "meetingId": "the-marketing-meeting-2025-11-25",
+  "meetingId": "marketing-meeting-20251125-001",
   "title": "The Marketing Meeting",
   "date": "2025-11-25",
   "series": "The Marketing Meeting",
   "type": "marketing",
   "attendees": [
-    "Thomas Howe",
-    "Vinnie Micciche",
-    "Joe Furnari",
     "Michael Donovan",
-    "Ziad Al Khatib",
     "Jason Branham",
+    "Kevin Breen",
+    "Ziad Al Khatib",
     "Matt Watson",
-    "Kevin Breen"
+    "Thomas Howe",
+    "Joe Furnari",
+    "Vinnie Micciche"
   ],
-  "summary": "The marketing team reviewed website traffic, lead quality, and advertising costs, expressing concerns over bounce rates and high CPC. There was disagreement between Michael Donovan and Vinnie Micciche regarding the priority of a lead magnet versus fixing website analytics. Ultimately, the team agreed to focus on both improving website traffic and developing a compelling lead magnet to attract better quality leads.",
+  "summary": "Michael Donovan, Jason Branham, Kevin Breen, Ziad Al Khatib, Matt Watson, Thomas Howe, and Joe Furnari discussed updates to the aesthetic sales deck, with Jason Branham having redone the 'V1 2025 sales deck v1'. Michael Donovan confirmed a review would be scheduled to align it with a modern aesthetic. High website traffic was noted, but concerns arose over a high bounce rate, low-quality leads, and an extremely high Cost Per Click (CPC) of $14-$15. Michael Donovan applied over 300 negative keywords and suggested reconsidering the 'better car people' strategy. A disagreement occurred between Michael Donovan and Vinnie Micciche regarding the priority of a strong lead magnet versus fixing website traffic analytics, with Vinnie emphasizing immediate website and analytics fixes, including a potential Google Tag Manager issue and updated AI messaging for Strollet PT. Michael Donovan advocated for a dual focus.",
   "decisions": [
     {
-      "description": "Michael Donovan will schedule time with Jason Branham to review and align the updated sales deck with a more modern aesthetic.",
-      "decidedBy": ["Michael Donovan", "Jason Branham"],
-      "topic": "sales-deck-update",
+      "description": "Schedule time to review and align the updated aesthetic sales deck.",
+      "decidedBy": [
+        "Michael Donovan",
+        "Jason Branham"
+      ],
+      "topic": "sales-deck-updates",
       "confidence": "firm"
     },
     {
-      "description": "Michael Donovan will build out the template for the updated aesthetic sales deck so that the team can utilize it.",
-      "decidedBy": ["Michael Donovan"],
-      "topic": "sales-deck-update",
+      "description": "Michael Donovan will build a template for the sales deck for others to utilize.",
+      "decidedBy": [
+        "Michael Donovan"
+      ],
+      "topic": "sales-deck-template",
       "confidence": "firm"
     },
     {
-      "description": "Michael Donovan will prioritize optimizing the landing page for both paid and social traffic as part of the new, more adaptive site.",
-      "decidedBy": ["Michael Donovan"],
+      "description": "Applied over 300 negative keywords to Google Ads to block certain ads.",
+      "decidedBy": [
+        "Michael Donovan"
+      ],
+      "topic": "negative-keywords-strategy",
+      "confidence": "firm"
+    },
+    {
+      "description": "Achieve a bounce rate below 50% for the website.",
+      "decidedBy": [
+        "Michael Donovan"
+      ],
+      "topic": "bounce-rate-optimization",
+      "confidence": "firm"
+    },
+    {
+      "description": "Google Ads search terms were reviewed and optimized.",
+      "decidedBy": [
+        "Michael Donovan"
+      ],
+      "topic": "keyword-optimization",
+      "confidence": "firm"
+    },
+    {
+      "description": "Develop a plan for a strong lead magnet to attract low-funnel traffic.",
+      "decidedBy": [
+        "Michael Donovan"
+      ],
+      "topic": "lead-magnet-strategy",
+      "confidence": "firm"
+    },
+    {
+      "description": "Prioritize fixing website traffic analytics and SEO.",
+      "decidedBy": [
+        "Vinnie Micciche"
+      ],
+      "topic": "website-analytics-priority",
+      "confidence": "firm"
+    },
+    {
+      "description": "Investigate and fix potential Google Tag Manager issues immediately.",
+      "decidedBy": [
+        "Michael Donovan",
+        "Vinnie Micciche"
+      ],
+      "topic": "website-tagging-issues",
+      "confidence": "firm"
+    },
+    {
+      "description": "Target email deployments between 12 PM and 2 PM for highest traffic.",
+      "decidedBy": [
+        "Michael Donovan"
+      ],
+      "topic": "email-deployment-timing",
+      "confidence": "firm"
+    },
+    {
+      "description": "Optimize landing pages for paid and social traffic as part of the new site.",
+      "decidedBy": [
+        "Michael Donovan"
+      ],
       "topic": "landing-page-optimization",
       "confidence": "firm"
     },
     {
-      "description": "Michael Donovan will examine the data from November 10th, identified as the best efficiency day.",
-      "decidedBy": ["Michael Donovan"],
-      "topic": "efficiency-analysis",
-      "confidence": "firm"
-    },
-    {
-      "description": "Increase the frequency of carousel posts on LinkedIn from once a week to potentially twice a week.",
-      "decidedBy": ["Michael Donovan"],
-      "topic": "linkedin-strategy",
-      "confidence": "tentative"
-    },
-    {
-      "description": "Team will develop a strong lead magnet, aimed at low-funnel or problem-solving mode users, offering value in exchange for contact information.",
-      "decidedBy": ["Michael Donovan", "Matt Watson", "Jason Branham"],
-      "topic": "lead-magnet-creation",
-      "confidence": "firm"
-    },
-    {
-      "description": "The team will explore a \"lead provider scorecard\" as a potential lead magnet content.",
-      "decidedBy": ["Matt Watson", "Jason Branham"],
-      "topic": "lead-magnet-content",
-      "confidence": "exploratory"
-    },
-    {
-      "description": "Michael Donovan will address multiple critical things simultaneously, working on improving website traffic quality (via negative keywords) and developing a compelling lead magnet in parallel.",
-      "decidedBy": ["Michael Donovan"],
-      "topic": "marketing-priorities",
-      "confidence": "firm"
-    },
-    {
-      "description": "Vinnie Micciche will review the restructured website content first before meeting to discuss it.",
-      "decidedBy": ["Vinnie Micciche"],
-      "topic": "content-review",
+      "description": "Vinnie Micciche requested to review the restructured content before meeting.",
+      "decidedBy": [
+        "Vinnie Micciche"
+      ],
+      "topic": "content-restructuring-review",
       "confidence": "firm"
     }
   ],
   "actionItems": [
     {
-      "task": "Build out the template for the sales deck so that the group can utilize it.",
+      "task": "Build out the template for the sales deck for group utilization.",
       "owner": "Michael Donovan",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "google-docs",
-        "description": "A template document is available for others to create sales decks that align with the company's aesthetic and messaging."
-      }
+      "expectedOutcome": null
     },
     {
-      "task": "Finish updates on the Looker Studio report, consolidating all social media, Google Analytics, and Google Ads data.",
+      "task": "Coordinate time with Jason Branham to refine the updated aesthetic sales deck.",
       "owner": "Michael Donovan",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "google-docs",
-        "description": "A comprehensive Looker Studio dashboard is available that provides a single view of all marketing data."
-      }
+      "expectedOutcome": null
     },
     {
-      "task": "Provide the restructured website content to Vinnie Micciche so they can review it.",
+      "task": "Finish updates on the Looker Studio report to consolidate all data sources.",
       "owner": "Michael Donovan",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "google-docs",
-        "description": "Vinnie Micciche will review and approve the restructured website content."
-      }
+      "expectedOutcome": null
     },
     {
       "task": "Look into the direct traffic source issue for Google Analytics.",
       "owner": "Michael Donovan",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "google-docs",
-        "description": "The source of the high direct traffic in Google Analytics is identified and documented."
-      }
+      "expectedOutcome": null
     },
     {
-      "task": "Double-check the Google Tag Manager setup for any tagging issues causing traffic misattribution.",
+      "task": "Double-check the Google Tag Manager setup for any tagging issues.",
       "owner": "Michael Donovan",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "google-docs",
-        "description": "Google Tag Manager is correctly configured to accurately track website traffic."
-      }
+      "expectedOutcome": null
     },
     {
-      "task": "Coordinate time to refine the updated aesthetic sales deck using the 2025 sales deck V1 as a basis, to ensure it aligns with Jason Branham's word tracks and flow.",
+      "task": "Provide Vinnie Micciche with the restructured website content for review.",
       "owner": "Michael Donovan",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "google-docs",
-        "description": "A refined sales deck is created that aligns with the new website aesthetic and Jason Branham's messaging."
-      }
+      "expectedOutcome": null
     },
     {
-      "task": "Provide the created, recreated, or reconstructed content so Vinnie Micciche can review it and feel comfortable with what will be presented.",
+      "task": "Put together word tracks for the sales deck once it is assembled.",
+      "owner": "Jason Branham",
+      "deadline": null,
+      "expectedOutcome": null
+    },
+    {
+      "task": "Send data and schedule time with Vinnie Micciche to review the 'better car people, PPC' strategy.",
       "owner": "Michael Donovan",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "google-docs",
-        "description": "Vinnie Micciche reviews the content."
-      }
+      "expectedOutcome": null
+    },
+    {
+      "task": "Research competitor lead magnet ideas.",
+      "owner": "Vinnie Micciche",
+      "deadline": null,
+      "expectedOutcome": null
+    },
+    {
+      "task": "Produce content if given direction.",
+      "owner": "Vinnie Micciche",
+      "deadline": null,
+      "expectedOutcome": null
     }
   ],
   "topicsDiscussed": [
-    "sales-deck-update",
-    "website-traffic-analysis",
-    "lead-quality",
-    "bounce-rate",
-    "cost-per-click",
-    "google-ads",
+    "sales-deck-updates",
+    "website-traffic-optimization",
+    "bounce-rate-concerns",
+    "lead-quality-issues",
+    "cost-per-click-analysis",
+    "negative-keywords-strategy",
     "linkedin-engagement",
-    "lead-magnet-creation",
-    "google-tag-manager",
-    "seo-strategy",
-    "content-marketing",
-    "ai-messaging",
-    "product-development",
-    "website-content-restructuring"
+    "carousel-post-effectiveness",
+    "looker-studio-dashboard",
+    "google-analytics-data",
+    "lead-magnet-strategy",
+    "website-tagging-issues",
+    "content-production",
+    "llm-ai-messaging",
+    "product-showcasing",
+    "content-restructuring"
   ],
   "tensions": [
-    "Disagreement between Michael Donovan and Vinnie Micciche on the priority of focusing on website analytics versus developing a lead magnet.",
-    "Vinnie Micciche feeling 'blindsided' by the lead magnet discussion and unprepared to provide ideas on the spot.",
-    "Vinnie Micciche expressing concerns that Michael Donovan's current marketing approach 'isn't working' due to a lack of leads."
+    "Disagreement between Michael Donovan and Vinnie Micciche on the priority of lead magnet vs. website analytics.",
+    "Concerns over high bounce rate and low-quality leads despite increased traffic.",
+    "Debate on continuing to pursue 'better car people' due to extremely high CPC.",
+    "Vinnie Micciche feeling 'blindsided' by the lead magnet discussion.",
+    "Vinnie Micciche's assertion that current marketing efforts 'aren't working' due to lack of leads.",
+    "Michael Donovan's confusion regarding Vinnie's request for product screenshots for undeveloped products."
   ],
   "referencesToPast": [
-    "Mention of a sales deck that Michael Donovan created almost a year ago.",
-    "Reference to the previous SEO company and content they produced, including content that is still on the website.",
-    "Mention of previous discussions about an assessment form as a lead magnet.",
-    "Reference to organic traffic levels from March of last year."
-  ]
+    "Mention of Michael Donovan's sales deck from a year ago.",
+    "References to the previous SEO company and their content posting.",
+    "Discussions about an assessment form in the past.",
+    "Previous Google Tag Manager issue where the tag was knocked off the site.",
+    "Comparison of current traffic to March last year's organic traffic.",
+    "Comparison of current paid search to last year's paid search.",
+    "Conversation with Jake from the Waler Group about LLMs.",
+    "Viconic's deep roots in AI.",
+    "Decision to keep content on Straw AI.",
+    "Comparison to the transition from newspaper to website advertising in the 2000s."
+  ],
+  "contributions": [
+    {
+      "person_name": "Jason Branham",
+      "topic": "sales-deck-updates",
+      "description": "Redone sales deck 'V1 2025 sales deck v1' with service information.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "negative-keywords-strategy",
+      "description": "Applied over 300 negative keywords to Google Ads to block certain ads.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "approved"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "better-car-people-strategy",
+      "description": "Suggested reconsidering the pursuit of 'the better car people' due to high CPC.",
+      "type": "idea",
+      "occurrence": "repeated",
+      "status": "pending"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "marketing-prioritization",
+      "description": "Proposed a dual focus on lead magnet and website analytics simultaneously.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "website-analytics-priority",
+      "description": "Emphasized prioritizing fixing website traffic analytics and SEO.",
+      "type": "topic",
+      "occurrence": "repeated",
+      "status": "approved"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "website-tagging-issues",
+      "description": "Diagnosed potential Google Tag Manager issue causing high direct traffic.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "ai-messaging",
+      "description": "Suggested updating website messaging to highlight Strollet PT's AI capabilities.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Matt Watson",
+      "topic": "lead-magnet-strategy",
+      "description": "Proposed a 'lead provider scorecard' as a lead magnet content idea.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Jason Branham",
+      "topic": "lead-magnet-strategy",
+      "description": "Supported the 'lead provider scorecard' as a valuable lead magnet.",
+      "type": "idea",
+      "occurrence": "repeated",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Thomas Howe",
+      "topic": "public-tech-content",
+      "description": "Idea to use Strollet as an example in public tech content to attract AI interest.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "content-strategy",
+      "description": "Advocated for dynamically creating content related to their work.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "llm-research",
+      "description": "Suggested research on LLMs for BDCs as a content topic.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "seo-ai-strategy",
+      "description": "Proposed using research to 'trump' competitors by appearing better to LLMs.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "website-messaging",
+      "description": "Critiqued current website messaging, stating AI evolution is missing.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "content-architecture",
+      "description": "Mentioned a hub and spoke strategy for leveraging existing content.",
+      "type": "concept",
+      "occurrence": "repeated",
+      "status": "pending"
+    }
+  ],
+  "participation": [],
+  "durationMinutes": 58
 }

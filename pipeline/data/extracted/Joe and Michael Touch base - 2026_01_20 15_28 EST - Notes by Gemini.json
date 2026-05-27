@@ -1,143 +1,226 @@
 {
-  "meetingId": "joe-and-michael-touch-base-2026-01-20",
+  "meetingId": "joe-michael-touchbase-20260120",
   "title": "Joe and Michael Touch base",
   "date": "2026-01-20",
-  "series": "Joe and Michael Touch base",
+  "series": "Weekly Touch base",
   "type": "one-on-one",
-  "attendees": ["Joe Furnari", "Michael Donovan"],
-  "summary": "Michael and Joe discussed ongoing website cleanup and updates based on Vinnie's feedback, focusing on new pages and hiding legacy content. They addressed navigation and layout modifications, specifically the reorganization of drop-down menus, and determined next steps for the FAQ section and overall website launch strategy, opting for a post-NADA \"splash\" launch.",
+  "attendees": [
+    "Joe Furnari",
+    "Michael Donovan"
+  ],
+  "summary": "Michael Donovan and Joe Furnari discussed website cleanup, reconciling content, addressing Vinnie's feedback on wordy legacy pages, and navigation changes. They also covered FAQ updates and decided against a pre-NADA website launch, opting for a post-NADA 'awesome splash'.",
   "decisions": [
     {
-      "description": "Focus on creating updates and swapping out pages rather than refreshing every legacy page.",
-      "decidedBy": ["Joe Furnari", "Michael Donovan"],
-      "topic": "website-content",
+      "description": "Focus on updating new pages and hiding excessive legacy content.",
+      "decidedBy": [
+        "Joe Furnari",
+        "Michael Donovan"
+      ],
+      "topic": "website-content-strategy",
       "confidence": "firm"
     },
     {
-      "description": "Michael to surface a list of 30 legacy pages for Vinnie's validation by the end of next week to clean up the website.",
-      "decidedBy": ["Joe Furnari", "Michael Donovan"],
-      "topic": "website-cleanup",
-      "confidence": "tentative"
-    },
-    {
-      "description": "Remove 'resources' and 'lead sources' from the Solutions section and move them to other categories.",
-      "decidedBy": ["Joe Furnari", "Michael Donovan"],
-      "topic": "website-navigation",
+      "description": "Replace the current FAQ section with Vinnie's new list of eight questions.",
+      "decidedBy": [
+        "Joe Furnari",
+        "Michael Donovan"
+      ],
+      "topic": "faq-content-update",
       "confidence": "firm"
     },
     {
-      "description": "Potentially move \"AI intelligent engine\" under \"BDC solutions\" to create two stacks instead of three to maintain symmetry in the navigation.",
-      "decidedBy": ["Joe Furnari", "Michael Donovan"],
-      "topic": "website-navigation",
-      "confidence": "tentative"
-    },
-    {
-      "description": "Rely on a form for leads in the short term, removing \"leads\" and \"lead magnets\".",
-      "decidedBy": ["Michael Donovan"],
-      "topic": "lead-generation",
+      "description": "Do not launch a new website before the NADA event due to risk.",
+      "decidedBy": [
+        "Joe Furnari",
+        "Michael Donovan"
+      ],
+      "topic": "website-launch-timeline",
       "confidence": "firm"
     },
     {
-      "description": "Michael should replace the previously built FAQ section with Vinnie's new list of eight questions.",
-      "decidedBy": ["Joe Furnari"],
-      "topic": "faq-section",
+      "description": "Reposition 'resources' and 'lead sources' categories to other sections.",
+      "decidedBy": [
+        "Joe Furnari",
+        "Michael Donovan"
+      ],
+      "topic": "navigation-restructuring",
       "confidence": "firm"
     },
     {
-      "description": "Combine \"Insights\" and \"Resources\" in the navigation, resulting in three drop-downs: \"Solutions,\" \"Insights and Resources,\" and \"About Us\".",
-      "decidedBy": ["Joe Furnari", "Michael Donovan"],
-      "topic": "website-navigation",
-      "confidence": "firm"
-    },
-    {
-      "description": "Do not launch a new website before the NADA event.",
-      "decidedBy": ["Joe Furnari"],
-      "topic": "website-launch",
-      "confidence": "firm"
-    },
-    {
-      "description": "Aim for an \"awesome splash\" and momentum-building launch of the new site after the NADA event.",
-      "decidedBy": ["Joe Furnari"],
-      "topic": "website-launch",
+      "description": "Remove 'leads' and 'lead magnets' and rely on a form short-term.",
+      "decidedBy": [
+        "Michael Donovan"
+      ],
+      "topic": "lead-generation-strategy",
       "confidence": "firm"
     }
   ],
   "actionItems": [
     {
-      "task": "Reposition resources and lead sources to other categories.",
+      "task": "Reconcile the content list, including Vinnie's updates.",
       "owner": "Michael Donovan",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "website",
-        "description": "Resources and Lead Sources categories are removed from their current location in the navigation and moved elsewhere."
-      }
+      "expectedOutcome": null
     },
     {
-      "task": "Consolidate the 22 pages under insights and the five pages under resources.",
+      "task": "Surface a list of 30 legacy pages for Vinnie's validation to hide.",
+      "owner": "Michael Donovan",
+      "deadline": "end of next week",
+      "expectedOutcome": null
+    },
+    {
+      "task": "Reposition 'resources' and 'lead sources' to other categories.",
+      "owner": "Michael Donovan",
+      "deadline": "next day or two",
+      "expectedOutcome": null
+    },
+    {
+      "task": "Replace the existing FAQ with Vinnie's new list of eight questions.",
       "owner": "Michael Donovan",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "website",
-        "description": "The 22 insights pages and 5 resource pages are merged under the consolidated \"Insights and Resources\" navigation item."
-      }
-    },
-    {
-      "task": "Send Vinnie the FAQs to get confirmation on whether he wants the new content versus the old content and highlight that the existing FAQ was already built.",
-      "owner": "Joe Furnari",
-      "deadline": "2026-01-21",
-      "expectedOutcome": {
-        "system": "email",
-        "description": "Confirmation from Vinnie regarding which FAQ content (new or old) should be used on the website."
-      }
+      "expectedOutcome": null
     },
     {
       "task": "Share the link to the original FAQ page with Joe Furnari via Slack.",
       "owner": "Michael Donovan",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "slack",
-        "description": "Joe receives a link to the document containing the original FAQ content."
-      }
+      "expectedOutcome": null
     },
     {
-      "task": "Review the FAQ content for spelling issues and to ensure it makes sense.",
+      "task": "Get confirmation from Vinnie on preferred FAQ version by tomorrow morning.",
       "owner": "Joe Furnari",
-      "deadline": null,
-      "expectedOutcome": {
-        "system": "google-docs",
-        "description": "The FAQ content is free of spelling errors and is easily understandable."
-      }
+      "deadline": "tomorrow morning",
+      "expectedOutcome": null
     },
     {
       "task": "Connect with Michael Donovan mid-morning tomorrow.",
       "owner": "Joe Furnari",
-      "deadline": "2026-01-21",
-      "expectedOutcome": {
-        "system": "calendar",
-        "description": "A follow-up conversation between Joe and Michael takes place to discuss progress."
-      }
+      "deadline": "tomorrow mid-morning",
+      "expectedOutcome": null
+    },
+    {
+      "task": "Review the FAQ content for spelling issues and clarity.",
+      "owner": "Joe Furnari",
+      "deadline": null,
+      "expectedOutcome": null
+    },
+    {
+      "task": "Consolidate pages under 'insights' and 'resources' if appropriate.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": null
     }
   ],
   "topicsDiscussed": [
-    "website-content",
-    "website-cleanup",
-    "website-navigation",
-    "lead-generation",
-    "faq-section",
-    "website-launch",
-    "nada-event"
+    "website-content-cleanup",
+    "legacy-page-management",
+    "SEO-company-performance",
+    "website-navigation-changes",
+    "faq-section-updates",
+    "website-launch-strategy",
+    "content-verbosity-impact",
+    "plugin-reduction",
+    "lead-generation-forms",
+    "google-spam-policies",
+    "llm-content-relevance"
   ],
   "tensions": [
-    "Vinnie's disappointment with the wordy pages updated by Ken and the SEO company, Honest.",
-    "Michael's frustration with the squandered time and previous issues.",
-    "Michael's concern about the website's current state and the need for significant changes.",
-    "Joe advising against launching a new website before NADA due to risk and Vinnie's engagement."
+    "Vinnie's disappointment with wordy legacy pages from Ken and Honest.",
+    "Michael's frustration over squandered time on website improvements.",
+    "Disagreement on the timing of a new website launch before NADA.",
+    "Company's lack of a proven track record for delivering on tight timelines.",
+    "The challenge of reconciling Vinnie's changing FAQ requirements."
   ],
   "referencesToPast": [
-    "Vinnie's feedback from last week.",
-    "Content on the website for nine months or longer.",
-    "Work by Ken and Honest (SEO company) caused excessive content.",
-    "Michael built an FAQ section based on an earlier document from Vinnie.",
-    "Concerns about the challenges faced since May with Ken and other issues."
-  ]
+    "Vinnie's feedback from last week regarding wordy pages.",
+    "Legacy pages created by Ken and SEO company Honest.",
+    "Previous process where Christina built pages using Honest's content.",
+    "Michael's earlier work on an FAQ section based on a prior document.",
+    "Past discussions about website issues and squandered time.",
+    "Company's history of not delivering on tight timelines."
+  ],
+  "contributions": [
+    {
+      "person_name": "Joe Furnari",
+      "topic": "legacy-content-strategy",
+      "description": "Proposed focusing on new pages and hiding legacy content instead of refreshing all.",
+      "type": "idea",
+      "occurrence": "proposed",
+      "status": "approved"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "website-cleanup-plan",
+      "description": "Proposed surfacing a list of 30 legacy pages for Vinnie's validation to hide.",
+      "type": "idea",
+      "occurrence": "proposed",
+      "status": "pending"
+    },
+    {
+      "person_name": "Joe Furnari",
+      "topic": "navigation-layout-symmetry",
+      "description": "Suggested moving 'AI intelligent engine' under 'BDC solutions' for two stacks.",
+      "type": "idea",
+      "occurrence": "proposed",
+      "status": "pending"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "lead-generation-strategy",
+      "description": "Proposed removing 'leads' and 'lead magnets' and relying on a form short-term.",
+      "type": "idea",
+      "occurrence": "proposed",
+      "status": "approved"
+    },
+    {
+      "person_name": "Joe Furnari",
+      "topic": "faq-content-update",
+      "description": "Suggested replacing the previously built FAQ with Vinnie's new list directly.",
+      "type": "idea",
+      "occurrence": "proposed",
+      "status": "approved"
+    },
+    {
+      "person_name": "Joe Furnari",
+      "topic": "navigation-design-consistency",
+      "description": "Clarified Vinnie's expectation for consistent look and feel across drop-downs.",
+      "type": "concept",
+      "occurrence": "repeated",
+      "status": "pending"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "website-launch-acceleration",
+      "description": "Proposed bringing in outside help to finish content rewriting before NADA.",
+      "type": "idea",
+      "occurrence": "proposed",
+      "status": "denied"
+    },
+    {
+      "person_name": "Joe Furnari",
+      "topic": "website-launch-risk-management",
+      "description": "Strongly advised against launching a new website before NADA due to risk.",
+      "type": "idea",
+      "occurrence": "proposed",
+      "status": "approved"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "content-optimization-seo",
+      "description": "Explained the need for 'snippets' and 'chunked down' content for search engines.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Joe Furnari",
+      "topic": "website-launch-post-nada",
+      "description": "Recommended an 'awesome splash' launch of the new site after the NADA event.",
+      "type": "idea",
+      "occurrence": "proposed",
+      "status": "approved"
+    }
+  ],
+  "participation": [],
+  "durationMinutes": 45
 }

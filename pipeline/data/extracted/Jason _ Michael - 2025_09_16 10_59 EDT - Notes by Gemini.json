@@ -1,108 +1,226 @@
 {
-  "meetingId": "jason-michael-2025-09-16",
-  "title": "Jason / Michael",
+  "meetingId": "strolid-ai-marketing-20250916",
+  "title": "Strolid AI and Marketing Strategy",
   "date": "2025-09-16",
-  "series": "Jason / Michael",
+  "series": "Strolid Internal",
   "type": "one-on-one",
-  "attendees": ["Michael Donovan", "Jason Branham"],
-  "summary": "Michael Donovan discussed the Strolid AI and Viconic integration, the rebuilding of the marketing team to focus on data-driven approaches, and introduced the BDC app for dealer campaigns. He emphasized the importance of orchestration in automation, aligning marketing and sales for account-based strategies, and empowering team members with new tools.",
+  "attendees": [
+    "Michael Donovan",
+    "Jason Branham"
+  ],
+  "summary": "Michael Donovan discussed integrating Strolid AI with Viconic for an AI show in Amsterdam, emphasizing automation orchestration for a data-driven marketing team. He detailed a chatbot engagement model for custom reports and outlined rebuilding the marketing team for account-based strategies. Michael also introduced his BDC app to streamline dealer operations and empower client success with compliant campaigns and market scans.",
   "decisions": [
     {
-      "description": "Integrate Strolid AI with Viconic for an AI show in Amsterdam, with plans to eventually bring Strolid AI fully into the Strolid brand.",
-      "decidedBy": ["Michael Donovan"],
-      "topic": "strolid-ai-integration",
+      "description": "Integrate Strolid AI with Viconic for an AI show in Amsterdam.",
+      "decidedBy": [
+        "Michael Donovan",
+        "Jason Branham"
+      ],
+      "topic": "ai-integration",
       "confidence": "firm"
     },
     {
-      "description": "Rebuild the Strolid marketing team with a focus on data-driven approaches and transparency.",
-      "decidedBy": ["Michael Donovan"],
-      "topic": "marketing-team-rebuild",
+      "description": "Rebuild Strolid marketing team to be data-driven with full visibility.",
+      "decidedBy": [
+        "Michael Donovan"
+      ],
+      "topic": "marketing-team-restructure",
       "confidence": "firm"
     },
     {
-      "description": "Align marketing and sales to transition from lead generation to account-based marketing and experience.",
-      "decidedBy": ["Michael Donovan"],
-      "topic": "marketing-sales-alignment",
+      "description": "Transition marketing and sales from lead generation to account-based marketing.",
+      "decidedBy": [
+        "Michael Donovan"
+      ],
+      "topic": "marketing-strategy-shift",
       "confidence": "firm"
     },
     {
-      "description": "Use the BDC app as an olive branch to Edwin.",
-      "decidedBy": ["Michael Donovan"],
-      "topic": "bdc-app-edwin",
-      "confidence": "tentative"
-    },
-    {
-      "description": "Proceed with dashboards, including one for service.",
-      "decidedBy": ["Michael Donovan", "Jason Branham"],
-      "topic": "service-dashboards",
-      "confidence": "firm"
-    },
-    {
-      "description": "Michael Donovan will get with Reed to get the tag manager done for the Rainbow store.",
-      "decidedBy": ["Michael Donovan"],
-      "topic": "tag-manager-setup",
+      "description": "Empower client success (Gus, Edwin) to use BDC app for campaigns and market scans.",
+      "decidedBy": [
+        "Michael Donovan",
+        "Jason Branham"
+      ],
+      "topic": "client-success-tools",
       "confidence": "firm"
     }
   ],
   "actionItems": [
     {
-      "task": "Complete the session after work tonight to fix the BDC app.",
+      "task": "Complete BDC app fixes and send an invite to Jason Branham.",
       "owner": "Michael Donovan",
       "deadline": "2025-09-16",
       "expectedOutcome": {
-        "system": "other",
-        "description": "The BDC app is functional with capabilities to scan a market and create email campaigns."
+        "system": "BDC App",
+        "description": "Jason receives an invite and can access the BDC app."
       }
     },
     {
-      "task": "Send an invite from the BDC app to Jason Branham.",
+      "task": "Get with Reed to implement the tag manager for the Rainbow store.",
       "owner": "Michael Donovan",
       "deadline": "2025-09-16",
       "expectedOutcome": {
-        "system": "email",
-        "description": "Jason Branham receives an invitation to access the BDC app."
+        "system": "Rainbow Store Website",
+        "description": "Tag manager is correctly implemented for the Rainbow store."
       }
     },
     {
-      "task": "Get with Reed to get the tag manager done for the Rainbow store.",
-      "owner": "Michael Donovan",
-      "deadline": "2025-09-16",
-      "expectedOutcome": {
-        "system": "codebase",
-        "description": "Tag manager implemented for Rainbow store."
-      }
-    },
-    {
-      "task": "Inform everyone regarding the next steps for analysis and automation.",
+      "task": "Inform everyone regarding next steps for analysis and automation.",
       "owner": "Michael Donovan",
       "deadline": null,
       "expectedOutcome": {
-        "system": "slack",
-        "description": "Team members are aware of the next steps for analysis and automation"
+        "system": "Internal Communication",
+        "description": "Team is updated on analysis and automation progress."
       }
     }
   ],
   "topicsDiscussed": [
-    "strolid-ai-integration",
-    "marketing-automation",
-    "chatbot-engagement",
-    "marketing-team-rebuild",
+    "strolid-ai-viconic-integration",
+    "ai-show-amsterdam",
+    "marketing-automation-orchestration",
+    "data-driven-marketing",
+    "chatbot-development",
+    "custom-reporting",
+    "marketing-team-rebuilding",
     "account-based-marketing",
-    "bdc-app",
+    "bdc-app-development",
     "dealer-campaigns",
-    "data-analysis",
-    "market-scanning",
-    "tag-manager-setup",
-    "customer-relationship-management"
+    "crm-integration",
+    "market-scan-data",
+    "vin-solutions-api",
+    "social-media-engagement",
+    "compliance-legal-disclaimers",
+    "tag-manager-implementation"
   ],
   "tensions": [
-    "Debate about focusing on leads versus building relationships.",
-    "The delay in VIN Solutions API integration.",
-    "Concerns about Edwin creating his own email blast.",
-    "Vin's initial resistance to more dashboards."
+    "Debate between Michael and Jason on lead generation vs. relationship-based marketing.",
+    "Frustration over delays in VIN Solutions API integration.",
+    "Michael's concern about Edwin creating non-compliant email blasts.",
+    "Matt being 'standoffish' regarding tag manager implementation.",
+    "Past meeting being unproductive ('everything except the thing that the meeting was for').",
+    "Vin not wanting more dashboards, despite the need for them."
   ],
   "referencesToPast": [
-    "Previous marketing meeting which turned into a marathon meeting.",
-    "Past debates between Michael and Jason regarding lead generation vs. relationship building."
-  ]
+    "Michael mentioned earlier content engine for Strolid.",
+    "Michael's past experience building chatbots ('Been there, did that, got the t-shirt').",
+    "Vin's repeated emphasis on relationships.",
+    "Michael and Jason's past debate on lead generation.",
+    "Michael shared recent leads status with Jason.",
+    "Reference to a 'marathon meeting' a couple of weeks ago.",
+    "Michael's previous version of the BDC app (version one).",
+    "Michael's work on the BDC app over Labor Day weekend."
+  ],
+  "contributions": [
+    {
+      "person_name": "Michael Donovan",
+      "topic": "strolid-ai-viconic-integration",
+      "description": "Proposed integrating Strolid AI with Viconic for an Amsterdam AI show.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "marketing-automation-orchestration",
+      "description": "Emphasized that automation's power comes from orchestration, not just efficiency.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "data-driven-marketing-team",
+      "description": "Proposed rebuilding the marketing team to be data-driven, transparent, and visible.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "chatbot-custom-reports",
+      "description": "Detailed a chatbot engagement model for users to create custom reports.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "account-based-marketing-shift",
+      "description": "Proposed shifting marketing and sales from lead generation to account-based strategies.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "bdc-app-development",
+      "description": "Introduced the BDC app he developed to streamline dealer operations.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "client-success-empowerment",
+      "description": "Suggested empowering client success team members with the BDC app for campaigns.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Jason Branham",
+      "topic": "chat-tag-manager",
+      "description": "Asked about the status of the tag manager for the Rainbow store.",
+      "type": "topic",
+      "occurrence": "repeated",
+      "status": "pending"
+    },
+    {
+      "person_name": "Jason Branham",
+      "topic": "market-scan-data-sources",
+      "description": "Questioned the data sources for the BDC app's market scan feature.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "pending"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "bdc-app-data-sources",
+      "description": "Explained BDC app uses Google Places, Maps APIs, and US Census for market data.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "bdc-app-compliance",
+      "description": "Highlighted BDC app's features for co-op, compliance, and legal disclaimers.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "vin-solutions-api-bypass",
+      "description": "Suggested using VIN Solutions API to bypass ADF for faster lead notifications.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    }
+  ],
+  "participation": [
+    {
+      "person_name": "Michael Donovan",
+      "words_spoken": 1500,
+      "participation_percentage": 75.0,
+      "level": "HIGH"
+    },
+    {
+      "person_name": "Jason Branham",
+      "words_spoken": 500,
+      "participation_percentage": 25.0,
+      "level": "MEDIUM"
+    }
+  ],
+  "durationMinutes": 41
 }

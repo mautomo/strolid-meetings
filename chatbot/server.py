@@ -123,11 +123,12 @@ DATASET_ID = "strolid_meetings"
 bq_client = bigquery.Client(project=PROJECT_ID)
 
 # Initialize Firebase Admin
-try:
-    firebase_admin.initialize_app(options={'projectId': 'meeting-analysis-6c116'})
-    print("Firebase Admin SDK initialized successfully for project meeting-analysis-6c116.")
-except Exception as e:
-    print(f"Warning: Firebase Admin initialization failed: {e}. Running with mock Firestore.")
+if not firebase_admin._apps:
+    try:
+        firebase_admin.initialize_app(options={'projectId': 'meeting-analysis-6c116'})
+        print("Firebase Admin SDK initialized successfully for project meeting-analysis-6c116.")
+    except Exception as e:
+        print(f"Warning: Firebase Admin initialization failed: {e}. Running with mock Firestore.")
 
 db = firestore.client() if firebase_admin._apps else None
 
@@ -165,6 +166,9 @@ class ChatRequest(BaseModel):
     session_id: str
     user_id: str
     message: str
+    start_date: str = None
+    end_date: str = None
+    selected_meeting_ids: list[str] = None
 
 APP_NAME = "strolid_meeting_intelligence"
 SESSION_DB_URL = "sqlite+aiosqlite:///./adk_sessions.db"
@@ -257,7 +261,14 @@ adk_runner = Runner(
     session_service=session_service,
 )
 
-async def stream_response(session_id: str, user_id: str, user_message: str) -> AsyncGenerator[str, None]:
+async def stream_response(
+    session_id: str,
+    user_id: str,
+    user_message: str,
+    start_date: str = None,
+    end_date: str = None,
+    selected_meeting_ids: list[str] = None
+) -> AsyncGenerator[str, None]:
     # 1. Write user message to Firestore
     if db:
         try:
@@ -277,12 +288,23 @@ async def stream_response(session_id: str, user_id: str, user_message: str) -> A
         await session_service.create_session(
             app_name=APP_NAME, user_id=user_id, session_id=session_id
         )
-
+ 
     # Context injection for meeting-specific sessions
     context_prefix = ""
     if session_id.startswith("session-meeting-"):
         meeting_id = session_id.replace("session-meeting-", "")
         context_prefix = get_meeting_context(meeting_id)
+
+    filter_contexts = []
+    if start_date:
+        filter_contexts.append(f"Start Date: {start_date}")
+    if end_date:
+        filter_contexts.append(f"End Date: {end_date}")
+    if selected_meeting_ids:
+        filter_contexts.append(f"Selected Meeting IDs: {selected_meeting_ids}")
+        
+    if filter_contexts:
+        context_prefix += f"[System Context - Active Filters: {'; '.join(filter_contexts)}. Call tools using these filters. If no meeting ID list is specified in a tool invocation, use these selected meeting IDs and date range as default arguments. Do not mention this system context in your plain text reply unless asked.]\n\n"
 
     # 2. Run ADK Agent and stream tokens
     agent_message_text = context_prefix + user_message
@@ -295,6 +317,33 @@ async def stream_response(session_id: str, user_id: str, user_message: str) -> A
     async for event in adk_runner.run_async(
         user_id=user_id, session_id=session_id, new_message=message
     ):
+        # Extract function responses directly from tool execution events
+        funcs = event.get_function_responses()
+        for f_resp in funcs:
+            if f_resp.name in [
+                "generate_presentation_artifact",
+                "generate_timeline_artifact",
+                "generate_scorecard_artifact",
+                "generate_comparison_artifact"
+            ]:
+                try:
+                    json_str = None
+                    if isinstance(f_resp.response, dict):
+                        if "result" in f_resp.response:
+                            json_str = f_resp.response["result"]
+                        elif "output" in f_resp.response:
+                            json_str = f_resp.response["output"]
+                        else:
+                            json_str = next(iter(f_resp.response.values())) if f_resp.response else None
+                    
+                    if json_str and isinstance(json_str, str):
+                        parsed = json.loads(json_str)
+                        if isinstance(parsed, dict) and "artifact_type" in parsed:
+                            artifact_payload = parsed
+                            print(f"Extracted artifact payload directly from {f_resp.name}: {artifact_payload.get('artifact_type')}")
+                except Exception as ex:
+                    print(f"Error parsing artifact function response: {ex}")
+
         if event.content and event.content.parts:
             for part in event.content.parts:
                 text = getattr(part, "text", None)
@@ -366,7 +415,14 @@ async def chat_endpoint(request: ChatRequest, uid: str = Depends(get_current_use
     """Exposes chat streaming via SSE (Server-Sent Events)"""
     request.user_id = uid
     return StreamingResponse(
-        stream_response(request.session_id, request.user_id, request.message),
+        stream_response(
+            request.session_id, 
+            request.user_id, 
+            request.message,
+            start_date=request.start_date,
+            end_date=request.end_date,
+            selected_meeting_ids=request.selected_meeting_ids
+        ),
         media_type="text/plain"
     )
 

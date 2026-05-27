@@ -171,6 +171,37 @@ function renderMarkdown(text: string) {
   return <>{elements}</>;
 }
 
+const GeminiSparkle = () => (
+  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M12 2C12 7.52285 7.52285 12 2 12C7.52285 12 12 16.4771 12 22C12 16.4771 16.4771 12 22 12C16.4771 12 12 7.52285 12 2Z" fill="url(#gemini-grad)"/>
+    <defs>
+      <linearGradient id="gemini-grad" x1="2" y1="2" x2="22" y2="22" gradientUnits="userSpaceOnUse">
+        <stop stopColor="#3b82f6"/>
+        <stop offset="1" stopColor="#8b5cf6"/>
+      </linearGradient>
+    </defs>
+  </svg>
+);
+
+const UserIcon = () => (
+  <div style={{
+    width: "32px",
+    height: "32px",
+    borderRadius: "50%",
+    background: "rgba(255, 255, 255, 0.08)",
+    border: "1px solid rgba(255, 255, 255, 0.15)",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    fontSize: "0.85rem",
+    fontWeight: "bold",
+    color: "white",
+    flexShrink: 0
+  }}>
+    U
+  </div>
+);
+
 export default function Home() {
   // Auth State
   const [user, setUser] = useState<any>(null);
@@ -190,7 +221,10 @@ export default function Home() {
   const [isStreaming, setIsStreaming] = useState(false);
   const [streamText, setStreamText] = useState("");
   
-
+  // Date and meeting filtering states
+  const [startDate, setStartDate] = useState<string>("");
+  const [endDate, setEndDate] = useState<string>("");
+  const [selectedMeetingIds, setSelectedMeetingIds] = useState<string[]>([]);
 
   // Dynamic Meetings and Stats state
   const [meetings, setMeetings] = useState<any[]>([]);
@@ -200,9 +234,11 @@ export default function Home() {
   const [activeArtifact, setActiveArtifact] = useState<any>(null);
   const [slideIndex, setSlideIndex] = useState(0);
 
+  const uniqueMeetings = Array.from(new Map(meetings.map(m => [m.meeting_id, m])).values());
+
   // Recaptcha for Phone Auth
   const recaptchaVerifierRef = useRef<any>(null);
-  const chatEndRef = useRef<HTMLDivElement>(null);
+  const chatContainerRef = useRef<HTMLDivElement>(null);
 
   // Check Auth State
   useEffect(() => {
@@ -230,7 +266,10 @@ export default function Home() {
 
         if (meetingsRes.ok) {
           const meetingsData = await meetingsRes.json();
-          setMeetings(meetingsData.meetings || []);
+          const ms = meetingsData.meetings || [];
+          setMeetings(ms);
+          // By default, select all meetings
+          setSelectedMeetingIds(ms.map((m: any) => m.meeting_id));
         }
         
         if (statsRes.ok) {
@@ -280,7 +319,9 @@ export default function Home() {
 
   // Scroll to bottom
   useEffect(() => {
-    chatEndRef.current?.scrollIntoView({ behavior: "smooth" });
+    if (chatContainerRef.current) {
+      chatContainerRef.current.scrollTop = chatContainerRef.current.scrollHeight;
+    }
   }, [messages, streamText]);
 
   // Handle Email Login
@@ -375,7 +416,10 @@ export default function Home() {
         body: JSON.stringify({
           session_id: sessionId,
           user_id: user?.uid || "anonymous",
-          message: userMsgText
+          message: userMsgText,
+          start_date: startDate || null,
+          end_date: endDate || null,
+          selected_meeting_ids: selectedMeetingIds.length > 0 ? selectedMeetingIds : null
         })
       });
 
@@ -507,18 +551,27 @@ export default function Home() {
     <div style={{ display: "grid", gridTemplateColumns: "280px 1fr 480px", height: "100vh", overflow: "hidden" }}>
       
       {/* 1. Left Sidebar: Navigation & Session Info */}
-      <aside className="glass-panel" style={{ padding: "1.5rem", display: "flex", flexDirection: "column", borderRight: "1px solid var(--border-glass)" }}>
+      <aside className="glass-panel" style={{ padding: "1.5rem", display: "flex", flexDirection: "column", borderRight: "1px solid var(--border-glass)", height: "100%", overflow: "hidden" }}>
         <div style={{ marginBottom: "2rem" }}>
           <h2 style={{ fontSize: "1.2rem", fontWeight: 800, color: "white", marginBottom: "0.25rem" }}>Strolid Hub</h2>
           <span style={{ fontSize: "0.75rem", color: "var(--accent)", fontWeight: 700 }}>MEETING INTELLIGENCE v2.0</span>
         </div>
 
-        <div style={{ flex: 1, display: "flex", flexDirection: "column", gap: "1rem" }}>
+        <div style={{ flex: 1, display: "flex", flexDirection: "column", gap: "1rem", minHeight: 0 }}>
           <div>
-            <label style={{ fontSize: "0.75rem", color: "var(--text-muted)", textTransform: "uppercase", fontWeight: 700 }}>Select Session / Meeting</label>
+            <label style={{ fontSize: "0.75rem", color: "var(--text-muted)", textTransform: "uppercase", fontWeight: 700 }}>Select Chat Scope</label>
             <select 
               value={sessionId} 
-              onChange={(e) => setSessionId(e.target.value)} 
+              onChange={(e) => {
+                const val = e.target.value;
+                setSessionId(val);
+                if (val.startsWith("session-meeting-")) {
+                  const mId = val.replace("session-meeting-", "");
+                  setSelectedMeetingIds([mId]);
+                } else {
+                  setSelectedMeetingIds(uniqueMeetings.map(m => m.meeting_id));
+                }
+              }} 
               style={{ width: "100%", marginTop: "0.4rem" }}
             >
               <optgroup label="Global Sessions">
@@ -526,13 +579,100 @@ export default function Home() {
                 <option value="session-leadership-overall">Leadership Meetings (2025-2026)</option>
               </optgroup>
               <optgroup label="Individual Meetings">
-                {meetings.map((m) => (
+                {uniqueMeetings.map((m) => (
                   <option key={m.meeting_id} value={`session-meeting-${m.meeting_id}`}>
                     {m.date} - {m.title || m.meeting_id}
                   </option>
                 ))}
               </optgroup>
             </select>
+          </div>
+
+          <div style={{ display: "flex", flexDirection: "column", gap: "0.4rem" }}>
+            <label style={{ fontSize: "0.75rem", color: "var(--text-muted)", textTransform: "uppercase", fontWeight: 700 }}>Date Range</label>
+            <div style={{ display: "flex", gap: "0.5rem" }}>
+              <input 
+                type="date" 
+                value={startDate} 
+                onChange={(e) => setStartDate(e.target.value)} 
+                style={{ width: "50%", padding: "0.5rem", fontSize: "0.8rem", height: "36px" }}
+              />
+              <input 
+                type="date" 
+                value={endDate} 
+                onChange={(e) => setEndDate(e.target.value)} 
+                style={{ width: "50%", padding: "0.5rem", fontSize: "0.8rem", height: "36px" }}
+              />
+            </div>
+          </div>
+
+          <div style={{ display: "flex", flexDirection: "column", gap: "0.4rem", flex: 1, minHeight: 0 }}>
+            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+              <label style={{ fontSize: "0.75rem", color: "var(--text-muted)", textTransform: "uppercase", fontWeight: 700 }}>Selected Meetings</label>
+              <div style={{ display: "flex", gap: "0.4rem", fontSize: "0.7rem" }}>
+                <button 
+                  onClick={() => setSelectedMeetingIds(uniqueMeetings.map(m => m.meeting_id))}
+                  style={{ background: "transparent", color: "var(--accent)", fontWeight: 600, padding: 0 }}
+                  type="button"
+                >
+                  All
+                </button>
+                <span style={{ color: "var(--border-glass)" }}>|</span>
+                <button 
+                  onClick={() => setSelectedMeetingIds([])}
+                  style={{ background: "transparent", color: "var(--accent)", fontWeight: 600, padding: 0 }}
+                  type="button"
+                >
+                  None
+                </button>
+              </div>
+            </div>
+            
+            <div className="custom-scrollbar" style={{ 
+              flex: 1, 
+              overflowY: "auto", 
+              background: "rgba(0, 0, 0, 0.15)", 
+              border: "1px solid var(--border-glass)", 
+              borderRadius: "10px", 
+              padding: "0.5rem"
+            }}>
+              {uniqueMeetings.map((m) => {
+                const isChecked = selectedMeetingIds.includes(m.meeting_id);
+                return (
+                  <label 
+                    key={m.meeting_id} 
+                    style={{ 
+                      display: "flex", 
+                      alignItems: "center", 
+                      gap: "0.5rem", 
+                      padding: "0.35rem 0.5rem", 
+                      borderRadius: "6px",
+                      cursor: "pointer",
+                      fontSize: "0.8rem",
+                      background: isChecked ? "rgba(59, 130, 246, 0.05)" : "transparent",
+                      color: isChecked ? "white" : "var(--text-muted)",
+                      transition: "all 0.2s"
+                    }}
+                  >
+                    <input 
+                      type="checkbox" 
+                      checked={isChecked}
+                      onChange={() => {
+                        if (isChecked) {
+                          setSelectedMeetingIds(prev => prev.filter(id => id !== m.meeting_id));
+                        } else {
+                          setSelectedMeetingIds(prev => [...prev, m.meeting_id]);
+                        }
+                      }}
+                      style={{ cursor: "pointer", width: "14px", height: "14px", accentColor: "var(--accent)" }}
+                    />
+                    <span style={{ textOverflow: "ellipsis", overflow: "hidden", whiteSpace: "nowrap" }} title={m.title || m.meeting_id}>
+                      {m.date} - {m.title || m.meeting_id}
+                    </span>
+                  </label>
+                );
+              })}
+            </div>
           </div>
 
           <div style={{ marginTop: "2rem" }}>
@@ -561,7 +701,7 @@ export default function Home() {
       </aside>
 
       {/* 2. Middle Column: Chat Window */}
-      <main style={{ display: "flex", flexDirection: "column", height: "100%", background: "#090d16" }}>
+      <main style={{ display: "flex", flexDirection: "column", height: "100%", background: "#0c0c0e", overflow: "hidden" }}>
         
         {/* Header */}
         <header style={{ padding: "1.25rem 2rem", borderBottom: "1px solid var(--border-glass)", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
@@ -572,41 +712,95 @@ export default function Home() {
         </header>
 
         {/* Messages */}
-        <div style={{ flex: 1, overflowY: "auto", padding: "2rem", display: "flex", flexDirection: "column", gap: "1.5rem" }}>
+        <div 
+          ref={chatContainerRef}
+          style={{ flex: 1, overflowY: "auto", padding: "2rem", display: "flex", flexDirection: "column", gap: "2rem" }}
+        >
           {messages.map((msg) => (
             <div 
               key={msg.id} 
               style={{
+                display: "flex",
+                gap: "1rem",
                 alignSelf: msg.role === "user" ? "flex-end" : "flex-start",
-                maxWidth: "80%"
+                flexDirection: msg.role === "user" ? "row-reverse" : "row",
+                maxWidth: "85%",
+                alignItems: "flex-start"
               }}
             >
-              <div 
-                className="glass-card" 
-                style={{
-                  padding: "1rem 1.25rem",
-                  background: msg.role === "user" ? "var(--accent)" : "rgba(31, 41, 55, 0.5)",
-                  borderColor: msg.role === "user" ? "var(--accent)" : "rgba(255, 255, 255, 0.05)",
-                  borderRadius: msg.role === "user" ? "16px 16px 2px 16px" : "16px 16px 16px 2px"
-                }}
-              >
-                <div style={{ fontSize: "0.95rem", whiteSpace: msg.role === "user" ? "pre-wrap" : "normal", color: "white" }}>
-                  {msg.role === "user" ? msg.content : renderMarkdown(msg.content)}
+              {/* Avatar */}
+              {msg.role === "assistant" ? (
+                <div style={{
+                  width: "32px",
+                  height: "32px",
+                  borderRadius: "50%",
+                  background: "rgba(59, 130, 246, 0.1)",
+                  border: "1px solid rgba(59, 130, 246, 0.2)",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  flexShrink: 0
+                }}>
+                  <GeminiSparkle />
+                </div>
+              ) : (
+                <UserIcon />
+              )}
+
+              {/* Message content */}
+              <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>
+                <div 
+                  className={msg.role === "user" ? "glass-card" : ""} 
+                  style={{
+                    padding: msg.role === "user" ? "0.85rem 1.25rem" : "0.25rem 0",
+                    background: msg.role === "user" ? "rgba(255, 255, 255, 0.04)" : "transparent",
+                    border: msg.role === "user" ? "1px solid rgba(255, 255, 255, 0.06)" : "none",
+                    borderRadius: "18px",
+                    boxShadow: msg.role === "user" ? "0 4px 12px rgba(0, 0, 0, 0.15)" : "none",
+                    color: "var(--text)"
+                  }}
+                >
+                  <div style={{ fontSize: "0.95rem", whiteSpace: "pre-wrap", lineHeight: "1.6" }}>
+                    {msg.role === "user" ? msg.content : renderMarkdown(msg.content)}
+                  </div>
                 </div>
                 
                 {/* Link to Artifact if message includes one */}
                 {msg.artifact && (
-                  <div style={{ marginTop: "1rem", paddingTop: "0.75rem", borderTop: "1px solid rgba(255,255,255,0.1)", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                    <span style={{ fontSize: "0.8rem", color: "var(--text-muted)" }}>
-                      Generated {msg.artifact.artifact_type}
-                    </span>
+                  <div 
+                    className="glass-card" 
+                    style={{ 
+                      padding: "1rem", 
+                      marginTop: "0.5rem", 
+                      background: "rgba(22, 22, 26, 0.5)", 
+                      display: "flex", 
+                      flexDirection: "column",
+                      gap: "0.75rem",
+                      maxWidth: "320px",
+                      border: "1px solid rgba(255,255,255,0.06)",
+                      boxShadow: "0 8px 32px rgba(0, 0, 0, 0.3)"
+                    }}
+                  >
+                    <div style={{ display: "flex", alignItems: "center", gap: "0.5rem" }}>
+                      <span style={{ fontSize: "1.2rem" }}>
+                        {msg.artifact.artifact_type === "presentation" ? "📊" : 
+                         msg.artifact.artifact_type === "timeline" ? "📅" : 
+                         msg.artifact.artifact_type === "scorecard" ? "📈" : "⚖️"}
+                      </span>
+                      <span style={{ fontSize: "0.85rem", fontWeight: 600, color: "white" }}>
+                        {msg.artifact.title}
+                      </span>
+                    </div>
+                    <div style={{ fontSize: "0.8rem", color: "var(--text-muted)" }}>
+                      Interactive {msg.artifact.artifact_type} visualizer.
+                    </div>
                     <button 
                       onClick={() => {
                         setActiveArtifact(msg.artifact);
                         if (msg.artifact.artifact_type === "presentation") setSlideIndex(0);
                       }}
                       className="btn-primary" 
-                      style={{ padding: "0.25rem 0.75rem", fontSize: "0.75rem", borderRadius: "4px" }}
+                      style={{ padding: "0.5rem", fontSize: "0.8rem", borderRadius: "8px", width: "100%" }}
                     >
                       Open in Canvas
                     </button>
@@ -618,37 +812,84 @@ export default function Home() {
 
           {/* Streaming Indicator */}
           {isStreaming && (
-            <div style={{ alignSelf: "flex-start", maxWidth: "80%" }}>
-              <div className="glass-card" style={{ padding: "1rem 1.25rem", background: "rgba(31, 41, 55, 0.5)", borderRadius: "16px 16px 16px 2px" }}>
-                <div style={{ fontSize: "0.95rem", color: "white" }}>
-                  {streamText ? renderMarkdown(streamText) : "Assistant is thinking..."}
+            <div 
+              style={{
+                display: "flex",
+                gap: "1rem",
+                alignSelf: "flex-start",
+                maxWidth: "85%",
+                alignItems: "flex-start"
+              }}
+            >
+              <div style={{
+                width: "32px",
+                height: "32px",
+                borderRadius: "50%",
+                background: "rgba(59, 130, 246, 0.1)",
+                border: "1px solid rgba(59, 130, 246, 0.2)",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                flexShrink: 0
+              }}>
+                <GeminiSparkle />
+              </div>
+              <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>
+                <div style={{ padding: "0.25rem 0", color: "var(--text)" }}>
+                  <div style={{ fontSize: "0.95rem", color: "white" }}>
+                    {streamText ? renderMarkdown(streamText) : "Assistant is thinking..."}
+                  </div>
                 </div>
               </div>
             </div>
           )}
 
-          <div ref={chatEndRef} />
         </div>
 
         {/* Input Footer */}
-        <footer style={{ padding: "1.5rem 2rem", borderTop: "1px solid var(--border-glass)" }}>
-          <form onSubmit={handleSendMessage} style={{ display: "flex", gap: "1rem" }}>
-            <input 
-              type="text" 
-              placeholder="Ask about alignment, timelines, or generate a presentation..." 
-              value={input} 
-              onChange={(e) => setInput(e.target.value)}
-              style={{ flex: 1, fontSize: "0.95rem" }}
-            />
-            <button type="submit" className="btn-primary" disabled={isStreaming}>
-              Send
-            </button>
+        <footer style={{ padding: "1.5rem 2rem", borderTop: "1px solid var(--border-glass)", background: "transparent" }}>
+          <form onSubmit={handleSendMessage} style={{ maxWidth: "800px", margin: "0 auto", display: "flex", gap: "0.75rem", position: "relative" }}>
+            <div style={{ flex: 1, position: "relative", display: "flex", alignItems: "center" }}>
+              <input 
+                type="text" 
+                placeholder="Ask about alignment, timelines, or generate a presentation..." 
+                value={input} 
+                onChange={(e) => setInput(e.target.value)}
+                style={{ 
+                  width: "100%", 
+                  padding: "0.85rem 1.5rem", 
+                  paddingRight: "5rem", 
+                  borderRadius: "30px", 
+                  background: "rgba(22, 22, 26, 0.8)", 
+                  border: "1px solid var(--border-glass)",
+                  backdropFilter: "blur(24px)",
+                  color: "white",
+                  fontSize: "0.95rem"
+                }}
+              />
+              <button 
+                type="submit" 
+                disabled={isStreaming || !input.trim()}
+                style={{ 
+                  position: "absolute", 
+                  right: "6px", 
+                  padding: "0.55rem 1.25rem", 
+                  borderRadius: "20px", 
+                  background: input.trim() ? "var(--accent-gradient)" : "rgba(255,255,255,0.05)",
+                  color: input.trim() ? "white" : "rgba(255,255,255,0.3)",
+                  fontWeight: 600,
+                  fontSize: "0.85rem"
+                }}
+              >
+                Send
+              </button>
+            </div>
           </form>
         </footer>
       </main>
 
       {/* 3. Right Column: Persistent Dynamic Canvas */}
-      <section className="glass-panel" style={{ padding: "2rem", borderLeft: "1px solid var(--border-glass)", display: "flex", flexDirection: "column", height: "100%", background: "#070b12" }}>
+      <section className="glass-panel" style={{ padding: "2rem", borderLeft: "1px solid var(--border-glass)", display: "flex", flexDirection: "column", height: "100%", background: "#16161a", overflow: "hidden" }}>
         {activeArtifact ? (
           <div style={{ height: "100%", display: "flex", flexDirection: "column" }}>
             <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "1.5rem" }}>

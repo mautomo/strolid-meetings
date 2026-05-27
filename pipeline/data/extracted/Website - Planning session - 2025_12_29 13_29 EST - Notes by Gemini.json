@@ -1,126 +1,172 @@
 {
-  "meetingId": "website-planning-session-2025-12-29",
+  "meetingId": "Website-Planning-20251229",
   "title": "Website - Planning session",
-  "date": "2025-12-29",
-  "series": "Website - Planning session",
+  "date": "Dec 29, 2025",
+  "series": "Website Redesign",
   "type": "strategy",
-  "attendees": ["Michael Donovan", "Kristina Cvitko"],
-  "summary": "Michael Donovan and Kristina Cvitko discussed and planned for a website redesign and streamlining the newsletter process. Michael outlined a low-friction newsletter distribution and review process, and they agreed to collaborate on the WordPress site overhaul, with Kristina dedicating time typically spent on monthly pages to the redesign. They decided on a technical strategy involving a new staging environment, theme installation, and content migration using Docker, aiming for improved website performance and looping in Vin on the overall plan.",
+  "attendees": [
+    "Michael Donovan",
+    "Kristina Cvitko",
+    "Vinnie Micciche",
+    "Shauna",
+    "Natalie",
+    "Joe Furnari"
+  ],
+  "summary": "Kristina Cvitko confirmed the newsletter process, with Michael Donovan outlining a new low-friction distribution. Michael Donovan proposed a website redesign due to deprecated technology and disorganization, suggesting a \"fresh start\" and leading the setup in a new staging environment. Kristina Cvitko agreed to dedicate time to collaborate on the WordPress overhaul, focusing on foundational design elements. The plan includes migrating content via Docker and aiming for a 90+ performance score.",
   "decisions": [
     {
-      "description": "Automate the newsletter content request via Slack.",
-      "decidedBy": ["Michael Donovan", "Kristina Cvitko"],
-      "topic": "newsletter-process",
+      "description": "Kristina will dedicate time from monthly pages to assist with WordPress site overhaul.",
+      "decidedBy": [
+        "Kristina Cvitko",
+        "Michael Donovan"
+      ],
+      "topic": "website-redesign-collaboration",
       "confidence": "firm"
     },
     {
-      "description": "Use a huddle format for the newsletter team (Natalie, Kristina, Michael) to confirm deadlines and discuss progress.",
-      "decidedBy": ["Michael Donovan", "Kristina Cvitko"],
-      "topic": "newsletter-process",
+      "description": "Implement a new low-friction newsletter distribution process.",
+      "decidedBy": [
+        "Michael Donovan",
+        "Kristina Cvitko"
+      ],
+      "topic": "newsletter-distribution",
       "confidence": "firm"
     },
     {
-      "description": "Obtain final newsletter approval from Vin or Shauna.",
-      "decidedBy": ["Michael Donovan", "Kristina Cvitko"],
-      "topic": "newsletter-process",
+      "description": "Website redesign will be a \"fresh start\" with only necessary plugins and extensions.",
+      "decidedBy": [
+        "Michael Donovan",
+        "Kristina Cvitko"
+      ],
+      "topic": "wordpress-site-cleanup",
       "confidence": "firm"
     },
     {
-      "description": "Implement a \"fresh start\" for the website, installing only necessary plugins and extensions.",
-      "decidedBy": ["Michael Donovan"],
-      "topic": "website-redesign",
+      "description": "Create a new staging environment for the website redesign.",
+      "decidedBy": [
+        "Michael Donovan",
+        "Kristina Cvitko"
+      ],
+      "topic": "website-staging-environment",
       "confidence": "firm"
     },
     {
-      "description": "Kristina Cvitko will dedicate the time typically spent on her three monthly pages (lead magnet, product, article) to assist with the WordPress site redesign, plugins, and overall improvement.",
-      "decidedBy": ["Kristina Cvitko"],
-      "topic": "website-redesign",
+      "description": "Install a new, reputable theme for the redesigned website.",
+      "decidedBy": [
+        "Michael Donovan",
+        "Kristina Cvitko"
+      ],
+      "topic": "website-theme-selection",
       "confidence": "firm"
     },
     {
-      "description": "Create a new staging environment for the website.",
-      "decidedBy": ["Michael Donovan", "Kristina Cvitko"],
-      "topic": "website-redesign",
+      "description": "Migrate existing content using a local Docker instance with a \"Claude plugin\".",
+      "decidedBy": [
+        "Michael Donovan",
+        "Kristina Cvitko"
+      ],
+      "topic": "content-migration-strategy",
       "confidence": "firm"
     },
     {
-      "description": "Install a new, reputable theme for the website.",
-      "decidedBy": ["Michael Donovan", "Kristina Cvitko"],
-      "topic": "website-redesign",
+      "description": "Aim for a website performance score of 90 plus.",
+      "decidedBy": [
+        "Michael Donovan",
+        "Kristina Cvitko"
+      ],
+      "topic": "website-performance-goal",
       "confidence": "firm"
     },
     {
-      "description": "Migrate existing website content using a local Docker instance with a Claude plugin.",
-      "decidedBy": ["Michael Donovan"],
-      "topic": "website-redesign",
+      "description": "Kristina Cvitko will focus on foundational design elements like design tokens in staging.",
+      "decidedBy": [
+        "Kristina Cvitko",
+        "Michael Donovan"
+      ],
+      "topic": "design-system-implementation",
       "confidence": "firm"
     },
     {
-      "description": "Aim for a performance score of 90 plus on the redesigned website.",
-      "decidedBy": ["Michael Donovan"],
-      "topic": "website-performance",
+      "description": "Michael Donovan will create a phased plan for the website project.",
+      "decidedBy": [
+        "Michael Donovan",
+        "Kristina Cvitko"
+      ],
+      "topic": "website-project-planning",
       "confidence": "firm"
     },
     {
-      "description": "Loop Vin in on the website redesign plan.",
-      "decidedBy": ["Michael Donovan", "Kristina Cvitko"],
-      "topic": "website-redesign",
+      "description": "Vin will be looped in on the website redesign plan.",
+      "decidedBy": [
+        "Michael Donovan",
+        "Kristina Cvitko"
+      ],
+      "topic": "stakeholder-communication",
       "confidence": "firm"
     }
   ],
   "actionItems": [
     {
-      "task": "Set up the Slack automation for the first contributor content request.",
+      "task": "Set up Slack automation for first contributor content request.",
       "owner": "Michael Donovan",
       "deadline": null,
       "expectedOutcome": {
-        "system": "slack",
-        "description": "Automated reminders sent to content contributors."
+        "system": "Slack",
+        "description": "Automated content requests sent to newsletter contributors."
       }
     },
     {
-      "task": "Share the January newsletter dates with Kristina Cvitko for review and feedback on the timeline.",
+      "task": "Share January newsletter dates with Kristina Cvitko for feedback.",
       "owner": "Michael Donovan",
       "deadline": null,
       "expectedOutcome": {
-        "system": "email",
-        "description": "Kristina provides feedback on the feasibility of the proposed newsletter schedule."
+        "system": "Email/Calendar",
+        "description": "Kristina reviews and provides feedback on newsletter timeline."
       }
     },
     {
-      "task": "Use the time that would have been spent on three pages for the month to help Michael Donovan with the new WordPress site build and address plugins.",
+      "task": "Dedicate time from monthly pages to assist with new WordPress site build and plugins.",
       "owner": "Kristina Cvitko",
       "deadline": null,
       "expectedOutcome": {
-        "system": "wordpress",
-        "description": "Kristina assists in the WordPress site build, contributing to plugins and overall site improvement."
+        "system": "WordPress",
+        "description": "Progress made on new website build and plugin management."
       }
     },
     {
-      "task": "Create a new instance in WP Engine, apply a new theme, and use Docker's local inference to structure new content into new pages, including a lead magnet page, a product page, and an article/cornerstone page.",
+      "task": "Create new WP Engine instance, apply new theme, and use Docker for content migration.",
       "owner": "Michael Donovan",
       "deadline": null,
       "expectedOutcome": {
-        "system": "wp-engine",
-        "description": "New website instance with a theme and the content migrated."
+        "system": "WP Engine/Docker",
+        "description": "New website instance with migrated content and new theme."
       }
     },
     {
-      "task": "Put everything together and lay out the phases for tackling the website redesign and fixing the new site and loop Vin in on the plan.",
+      "task": "Put together and lay out phases for tackling website redesign and fixing the new site.",
       "owner": "Michael Donovan",
       "deadline": null,
       "expectedOutcome": {
-        "system": "google-docs",
-        "description": "Document outlining the phased approach and Vin's awareness of the plan."
+        "system": "Document",
+        "description": "Phased plan for website redesign project."
       }
     },
     {
-      "task": "Do some research to figure out where to interject in the phases for tackling the website redesign and fixing the new site.",
+      "task": "Loop Vin in on the website redesign plan.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "Communication",
+        "description": "Vin is informed and aligned with the website plan."
+      }
+    },
+    {
+      "task": "Research where to interject in the phases for tackling the website redesign.",
       "owner": "Kristina Cvitko",
       "deadline": null,
       "expectedOutcome": {
-        "system": "google-docs",
-        "description": "Kristina identifies areas where she can contribute during the website redesign process."
+        "system": "Research",
+        "description": "Kristina identifies optimal points for her contribution to the website project."
       }
     },
     {
@@ -128,28 +174,164 @@
       "owner": "Michael Donovan",
       "deadline": null,
       "expectedOutcome": {
-        "system": "email",
-        "description": "Kristina receives the Lighthouse report with performance metrics."
+        "system": "Email",
+        "description": "Kristina receives current website performance metrics."
       }
     }
   ],
   "topicsDiscussed": [
     "newsletter-process",
-    "website-redesign",
+    "newsletter-distribution-timeline",
+    "website-redesign-necessity",
+    "wordpress-site-disorganization",
+    "website-development-collaboration",
+    "technical-website-strategy",
     "content-migration",
-    "website-performance",
-    "wordpress-plugins",
-    "creative-brief",
-    "marketing-brief",
-    "design-tokens"
+    "website-performance-optimization",
+    "design-system-elements",
+    "project-phasing"
   ],
   "tensions": [
-    "Michael's frustration with the previous social media manager, Z.",
-    "Concern regarding Kristina's workload and ensuring fairness when dedicating time to the website redesign."
+    "Michael Donovan's frustration with Z's poor performance and eventual firing.",
+    "Concerns about the deprecated \"invado\" technology causing website issues.",
+    "Kristina Cvitko's initial concern about workload fairness when collaborating on the website.",
+    "Michael Donovan's observation about Natalie's meetings tending to run long."
   ],
   "referencesToPast": [
-    "Kristina Cvitko confirmed that the newsletter process is similar to before.",
-    "The website previously used “invado” which is now deprecated.",
-    "Reference to a prior meeting transcript between Vin and Z regarding a marketing plan."
-  ]
+    "Newsletter process similar to before.",
+    "Previous use of \"invado\" technology, now deprecated.",
+    "Prior discussions with Vin and Z regarding Z's performance.",
+    "Michael Donovan's past experience abandoning WordPress (2014/2015).",
+    "Previous issues with multiple sites in WP Engine.",
+    "Agreement with Vin regarding Kristina Cvitko's three monthly pages."
+  ],
+  "contributions": [
+    {
+      "person_name": "Kristina Cvitko",
+      "topic": "newsletter-process",
+      "description": "Confirmed newsletter process is similar to before, following Natalie's ideas.",
+      "type": "topic",
+      "occurrence": "repeated",
+      "status": "approved"
+    },
+    {
+      "person_name": "Kristina Cvitko",
+      "topic": "newsletter-content",
+      "description": "Mentioned Joe wants to add a financial part, possibly a 2025 recap.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Kristina Cvitko",
+      "topic": "newsletter-email-format",
+      "description": "Noted external email is now shorter, with only a button to the Pablo link.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "approved"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "newsletter-distribution",
+      "description": "Outlined a new, low-friction newsletter distribution process.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "approved"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "website-redesign-necessity",
+      "description": "Detailed need for website redesign due to deprecated technology and disorganization.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "wordpress-site-strategy",
+      "description": "Proposed a \"fresh start\" for the WordPress site, installing only necessary plugins.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "approved"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "website-development-collaboration",
+      "description": "Suggested taking the lead on new site setup in staging, then handing off or collaborating.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Kristina Cvitko",
+      "topic": "website-development-collaboration",
+      "description": "Agreed to dedicate time from monthly pages to assist with WordPress site overhaul.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "approved"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "website-technical-strategy",
+      "description": "Explained plan for new staging environment, reputable theme, and content migration via Docker.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "approved"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "website-performance-goal",
+      "description": "Proposed aiming for a website performance score of 90 plus.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "approved"
+    },
+    {
+      "person_name": "Kristina Cvitko",
+      "topic": "design-system-elements",
+      "description": "Will work on foundational elements like design tokens (font, colors, gradients) in staging.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "approved"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "project-phasing",
+      "description": "Will put together a phased plan for tackling the website redesign project.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "collaboration-management",
+      "description": "Suggested using a timer when collaborating to protect Kristina's time.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "approved"
+    },
+    {
+      "person_name": "Kristina Cvitko",
+      "topic": "project-interjection",
+      "description": "Will do research to figure out where to interject in the website redesign phases.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "pending"
+    }
+  ],
+  "participation": [
+    {
+      "person_name": "Michael Donovan",
+      "words_spoken": 2100,
+      "participation_percentage": 70.0,
+      "level": "HIGH"
+    },
+    {
+      "person_name": "Kristina Cvitko",
+      "words_spoken": 900,
+      "participation_percentage": 30.0,
+      "level": "MEDIUM"
+    }
+  ],
+  "durationMinutes": 33
 }

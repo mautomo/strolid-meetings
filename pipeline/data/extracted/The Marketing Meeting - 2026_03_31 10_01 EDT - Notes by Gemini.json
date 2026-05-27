@@ -1,5 +1,5 @@
 {
-  "meetingId": "the-marketing-meeting-2026-03-31",
+  "meetingId": "marketing-20260331-001",
   "title": "The Marketing Meeting",
   "date": "2026-03-31",
   "series": "The Marketing Meeting",
@@ -11,87 +11,262 @@
     "Jason Branham",
     "Paulo Trovao"
   ],
-  "summary": "The team reviewed B2B buyer landscape shifts and their impact on marketing initiatives. The marketing team was directed to align messaging with current dealer challenges, leveraging data from form entries to develop campaigns, and to provide clear plans of action given frustration regarding lead generation pace.",
+  "summary": "The meeting reviewed B2B buyer landscape shifts, noting digital research trends. Marketing initiatives like LinkedIn content and Google Ads Customer Match were updated. A key decision was made for the marketing team to align messaging with current dealer challenges, leveraging data from form entries to improve lead generation.",
   "decisions": [
     {
-      "description": "The marketing team must align messaging with current dealer challenges (high turnover, response time), leveraging data from form entries to develop campaigns.",
-      "decidedBy": ["Vinnie Micciche", "Michael Donovan"],
+      "description": "Marketing team must align messaging with current dealer challenges.",
+      "decidedBy": [
+        "Vinnie Micciche",
+        "Michael Donovan"
+      ],
       "topic": "messaging-strategy",
       "confidence": "firm"
     },
     {
-      "description": "Michael Donovan to create an outline for proposed value propositions, using a simple \"Yes or No\" approval format to ensure alignment.",
-      "decidedBy": ["Vinnie Micciche", "Michael Donovan"],
+      "description": "Messaging should originate from BDC, client success, and sales teams.",
+      "decidedBy": [
+        "Vinnie Micciche"
+      ],
+      "topic": "messaging-strategy",
+      "confidence": "firm"
+    },
+    {
+      "description": "Messaging should focus on solving dealers' real problems and leveraging emotions.",
+      "decidedBy": [
+        "Vinnie Micciche"
+      ],
+      "topic": "messaging-strategy",
+      "confidence": "firm"
+    },
+    {
+      "description": "Leverage data from form entries to develop data-driven campaigns.",
+      "decidedBy": [
+        "Vinnie Micciche",
+        "Michael Donovan"
+      ],
+      "topic": "data-driven-campaigns",
+      "confidence": "firm"
+    },
+    {
+      "description": "Michael Donovan to export Zoho forms entries data for analysis.",
+      "decidedBy": [
+        "Vinnie Micciche",
+        "Michael Donovan"
+      ],
+      "topic": "data-analysis",
+      "confidence": "firm"
+    },
+    {
+      "description": "Vinnie Micciche to create a post summarizing top five dealer challenges.",
+      "decidedBy": [
+        "Vinnie Micciche"
+      ],
       "topic": "content-creation",
       "confidence": "firm"
     }
   ],
   "actionItems": [
     {
-      "task": "Share LinkedIn Ads: Deliver paid LinkedIn ad assets for group review and approval prior to activation in April.",
+      "task": "Share LinkedIn Ads assets for group review and approval.",
       "owner": "Michael Donovan",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "email",
-        "description": "LinkedIn ad assets are approved by the team and ready for activation in April."
-      }
+      "expectedOutcome": null
     },
     {
-      "task": "Draft Content Outline: Send a fill-in-the-blank Yes/No outline of proposed value propositions and content ideas to Vinnie.",
+      "task": "Draft a fill-in-the-blank Yes/No outline of proposed value propositions and content ideas.",
       "owner": "Michael Donovan",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "email",
-        "description": "Vinnie approves content outline."
-      }
+      "expectedOutcome": null
     },
     {
-      "task": "Review Social Posts: Review the new weekly social media posts shared by Paulo to ensure the adapted voice matches previous edits.",
+      "task": "Review new weekly social media posts shared by Paulo.",
       "owner": "Vinnie Micciche",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "slack",
-        "description": "Social media posts are aligned with previous edits and ready for publishing."
-      }
+      "expectedOutcome": null
     },
     {
-      "task": "Secure Email Approval: Ensure the email intended for Paul is secured for final approval.",
+      "task": "Secure the email intended for Paul for final approval.",
       "owner": "Paulo Trovao",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "email",
-        "description": "Email is approved for distribution."
-      }
+      "expectedOutcome": null
     },
     {
-      "task": "Send Dealer Data: Export and send the Zoho forms entries data containing dealer challenge feedback to Vinnie.",
+      "task": "Export and send Zoho forms entries data containing dealer challenge feedback to Vinnie.",
       "owner": "Michael Donovan",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "email",
-        "description": "Vinnie receives data on dealer challenges."
-      }
+      "expectedOutcome": null
+    },
+    {
+      "task": "Modify recommendations based on recently gathered feedback.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": null
+    },
+    {
+      "task": "Create a post summarizing the top five dealer challenges from the data.",
+      "owner": "Vinnie Micciche",
+      "deadline": null,
+      "expectedOutcome": null
     }
   ],
   "topicsDiscussed": [
-    "b2b-buyer-behavior",
-    "customer-matching",
-    "linkedin-marketing",
-    "google-ads",
-    "account-based-marketing",
-    "lead-generation",
-    "content-creation",
-    "roi-calculator",
-    "value-proposition",
-    "dealer-challenges",
+    "b2b-buyer-landscape-shifts",
+    "marketing-initiatives-status",
+    "customer-match-strategy",
+    "content-direction-alignment",
+    "lead-generation-challenges",
+    "value-exchange-for-leads",
+    "dealer-market-challenges",
     "messaging-strategy",
-    "lead-nurturing"
+    "data-driven-campaigns",
+    "workflow-optimization"
   ],
   "tensions": [
-    "Vinnie expressed frustration about the slow pace of lead generation.",
-    "Vinnie expressed concern that the content presented by Michael did not align with what had been shared over previous months."
+    "Leadership team expressed frustration with the slow pace of lead generation.",
+    "Concern that proposed content (ROI calculator) did not align with previous discussions.",
+    "Debate on providing generalized tools versus problem-focused, emotional messaging."
   ],
   "referencesToPast": [
-    "Concern that content presented did not align with what had been shared over previous months."
-  ]
+    "B2B buyer landscape shift contrasts with previous cold calling methods.",
+    "Content presented did not align with what had been shared over previous months."
+  ],
+  "contributions": [
+    {
+      "person_name": "Michael Donovan",
+      "topic": "b2b-buyer-landscape-shifts",
+      "description": "Outlined shift in B2B buyer landscape towards digital research.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Jason Branham",
+      "topic": "buyer-group-composition",
+      "description": "Confirmed diverse roles in automotive pitch process, including BDC, marketing, sales, dealer principal.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "customer-match-strategy",
+      "description": "Explained strategy using entire buyer group lookalikes and including single-point dealerships.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "lead-capture",
+      "description": "Proposed seamless, zero-friction lead capture with value exchange (ROI calculator, benchmark report).",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "lead-generation",
+      "description": "Expressed frustration with slow lead generation and requested clear action plan.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "pending"
+    },
+    {
+      "person_name": "Joe Furnari",
+      "topic": "prospect-journey",
+      "description": "Requested a walk-through of a prospect's journey to understand demand generation.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "marketing-workflow",
+      "description": "Emphasized focus on outcomes and reducing complexity for leadership approval.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "content-approval-process",
+      "description": "Suggested a simple 'Yes or No' approval format for content outlines.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Jason Branham",
+      "topic": "dealer-challenges",
+      "description": "Confirmed dealers face high turnover in BDC, sales, and service areas.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "messaging-strategy",
+      "description": "Advocated for helpful, non-arrogant messaging focused on solving dealer problems.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "approved"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "emotional-messaging",
+      "description": "Asserted messaging must hit a nerve and promise 'never missing a lead'.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "approved"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "dealer-feedback-data",
+      "description": "Provided data from form entries showing dealer concerns: 'appointments, show rate, response time'.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Joe Furnari",
+      "topic": "workflow-optimization",
+      "description": "Advised Michael Donovan to 'chunk down' requests into simple work streams.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    }
+  ],
+  "participation": [
+    {
+      "person_name": "Vinnie Micciche",
+      "words_spoken": 150,
+      "participation_percentage": 30.0,
+      "level": "HIGH"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "words_spoken": 180,
+      "participation_percentage": 36.0,
+      "level": "HIGH"
+    },
+    {
+      "person_name": "Jason Branham",
+      "words_spoken": 70,
+      "participation_percentage": 14.0,
+      "level": "MEDIUM"
+    },
+    {
+      "person_name": "Joe Furnari",
+      "words_spoken": 60,
+      "participation_percentage": 12.0,
+      "level": "MEDIUM"
+    },
+    {
+      "person_name": "Paulo Trovao",
+      "words_spoken": 40,
+      "participation_percentage": 8.0,
+      "level": "LOW"
+    }
+  ],
+  "durationMinutes": null
 }

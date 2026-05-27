@@ -1,68 +1,178 @@
 {
-  "meetingId": "regroup-on-website-refresh-initiative-2026-01-09",
+  "meetingId": "website-refresh-20260109",
   "title": "Regroup on Website Refresh Initiative",
   "date": "2026-01-09",
-  "series": "Regroup on Website Refresh Initiative",
+  "series": "Website Refresh Initiative",
   "type": "other",
-  "attendees": ["Joe Furnari", "Michael Donovan"],
-  "summary": "Michael Donovan shared his frustration with the current WordPress website and detailed his independently developed modern website solution. Joe Furnari insisted Michael Donovan focus on Vinnie's request to update a few pages on the existing site to assess messaging and core concepts. Ultimately, Michael Donovan agreed to send Joe Furnari links to the updated pages before Monday.",
+  "attendees": [
+    "Michael Donovan",
+    "Joe Furnari",
+    "Vinnie"
+  ],
+  "summary": "Michael Donovan expressed frustration with the current WordPress website's issues and technical debt, revealing he independently developed a modern alternative. Joe Furnari insisted Michael follow Vinnie's directive to update only a few pages on the existing WordPress site to assess messaging, requesting links to the first 2-3 updated pages by Monday, maintaining the current site's look and feel.",
   "decisions": [
     {
-      "description": "Michael Donovan will update only four or five pages of new content on the existing WordPress site, focusing on Vinnie's directive.",
-      "decidedBy": ["Joe Furnari"],
-      "topic": "website-content-update-scope",
+      "description": "Focus on updating 4-5 pages of new content on the existing WordPress site.",
+      "decidedBy": [
+        "Vinnie",
+        "Joe Furnari"
+      ],
+      "topic": "wordpress-content-update",
       "confidence": "firm"
     },
     {
-      "description": "Michael Donovan will send links to the updated pages/content to Joe Furnari before Monday.",
-      "decidedBy": ["Michael Donovan"],
-      "topic": "content-delivery",
+      "description": "Michael Donovan will send links to the first 2-3 updated pages to Joe Furnari.",
+      "decidedBy": [
+        "Michael Donovan",
+        "Joe Furnari"
+      ],
+      "topic": "content-review-next-steps",
       "confidence": "firm"
     },
     {
-      "description": "The new website build will not be shared with Vinnie.",
-      "decidedBy": ["Joe Furnari"],
-      "topic": "new-website-sharing",
+      "description": "Updated pages should preferably maintain the current website's look and feel.",
+      "decidedBy": [
+        "Vinnie",
+        "Joe Furnari"
+      ],
+      "topic": "website-design-consistency",
       "confidence": "firm"
     }
   ],
   "actionItems": [
     {
-      "task": "Send links to the updated pages/content",
+      "task": "Send links to the first 2-3 updated pages to Joe Furnari.",
       "owner": "Michael Donovan",
-      "deadline": "2026-01-12",
-      "expectedOutcome": {
-        "system": "email",
-        "description": "Joe Furnari will receive links to two or three updated pages/content before Monday."
-      }
+      "deadline": "before Monday",
+      "expectedOutcome": null
     },
     {
-      "task": "Review the links and pages sent by Michael Donovan and provide feedback.",
+      "task": "Review the updated page links and provide feedback.",
       "owner": "Joe Furnari",
+      "deadline": "after staff meeting on Monday",
+      "expectedOutcome": null
+    },
+    {
+      "task": "Update global design elements (font, colors) and remove unused plugins on existing site.",
+      "owner": "Michael Donovan",
       "deadline": null,
       "expectedOutcome": {
-        "system": "email",
-        "description": "Joe Furnari will be prepared to discuss the updated content with Vinnie and provide feedback to Michael Donovan after the Monday staff meeting."
+        "system": "WordPress",
+        "description": "Improved site consistency and performance."
       }
     }
   ],
   "topicsDiscussed": [
-    "website-refresh",
-    "wordpress-platform",
-    "content-messaging",
-    "navigation-structure",
-    "technical-debt",
-    "alternative-website-solution"
+    "current-wordpress-issues",
+    "technical-debt-cleanup",
+    "alternative-website-solution",
+    "mega-menu-navigation",
+    "mobile-experience-design",
+    "vinnie-content-update-directive",
+    "feasibility-existing-site-updates",
+    "content-messaging-strategy"
   ],
   "tensions": [
-    "Michael Donovan's frustration with WordPress and desire to focus on the new website solution.",
-    "Joe Furnari's insistence on adhering to Vinnie's request to update the existing site.",
-    "Michael Donovan's argument about the technical difficulties of updating the existing site.",
-    "Disagreement over whether updating the navigation is necessary and within scope."
+    "Michael Donovan's frustration with the poorly built WordPress site and its technical debt.",
+    "Disagreement between Michael Donovan and Joe Furnari on prioritizing a new website solution versus updating the existing WordPress site.",
+    "Michael Donovan's difficulty and frustration with Vinnie's directive to update the 'sloppy' existing site.",
+    "Joe Furnari's concern that showing Vinnie the new website or technical complexities would cause frustration.",
+    "Michael Donovan's strong resistance to creating a PDF of the updated pages as requested by Joe Furnari."
   ],
   "referencesToPast": [
-    "Vinnie's previous acknowledgement that WordPress is not the long-term platform.",
-    "Previous scope of work discussions regarding website updates.",
-    "Content previously provided by Vinnie for the website."
-  ]
+    "Vinnie's acknowledgment a couple days ago that a new site is needed long-term.",
+    "Vinnie's prior directive to update content on the existing WordPress site.",
+    "Discussion last Tuesday about the look and feel of the website.",
+    "Vinnie sent 10 pages and a PDF last week for content.",
+    "Previous SEO firm 'broke some of the algorithms' and changed site function/appearance."
+  ],
+  "contributions": [
+    {
+      "person_name": "Michael Donovan",
+      "topic": "wordpress-site-issues",
+      "description": "Detailed current WordPress site issues like weird formatting, plugins, and navigation inconsistency.",
+      "type": "topic",
+      "occurrence": "repeated",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "global-design-elements",
+      "description": "Proposed setting global design elements like font (Montserrat) and theme colors.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "plugin-management",
+      "description": "Suggested improving the site by removing unused plugins.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "alternative-website-solution",
+      "description": "Revealed independent development of a new website solution with all current content and dark/light theme.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "mega-menu-navigation",
+      "description": "Outlined a modern mega menu structure for the new site, detailing sections and features.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "mobile-experience",
+      "description": "Described the planned standard hamburger menu experience for mobile devices on the new site.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "new-solution-deployment",
+      "description": "Proposed pushing the new solution to staging and sharing a link for review.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Joe Furnari",
+      "topic": "vinnie-directive-adherence",
+      "description": "Insisted Michael Donovan must follow Vinnie's directive to update content on the existing WordPress site.",
+      "type": "concept",
+      "occurrence": "repeated",
+      "status": "approved"
+    },
+    {
+      "person_name": "Joe Furnari",
+      "topic": "content-review-format",
+      "description": "Requested links to 2-3 updated pages, preferably with current site's look and feel, for Vinnie's review.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "approved"
+    }
+  ],
+  "participation": [
+    {
+      "person_name": "Michael Donovan",
+      "words_spoken": 1500,
+      "participation_percentage": 60.0,
+      "level": "HIGH"
+    },
+    {
+      "person_name": "Joe Furnari",
+      "words_spoken": 1000,
+      "participation_percentage": 40.0,
+      "level": "HIGH"
+    }
+  ],
+  "durationMinutes": 45
 }

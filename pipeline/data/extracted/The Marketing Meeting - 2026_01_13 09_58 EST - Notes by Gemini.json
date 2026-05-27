@@ -1,106 +1,245 @@
 {
-  "meetingId": "the-marketing-meeting-2026-01-13",
+  "meetingId": "MM-20260113-001",
   "title": "The Marketing Meeting",
   "date": "2026-01-13",
   "series": "The Marketing Meeting",
   "type": "marketing",
-  "attendees": ["Vinnie Micciche", "Joe Furnari", "Michael Donovan"],
-  "summary": "The meeting focused on reviewing updated website content in a staging environment. Vinnie Micciche suggested refining the AI messaging to focus on dealer outcomes and emphasizing human involvement, data governance, and professionalism. Michael Donovan and Joe Furnari discussed a process for Vinnie to submit revisions, and Michael agreed to set up a mirrored file/theme for rapid content updates.",
+  "attendees": [
+    "Vinnie Micciche",
+    "Joe Furnari",
+    "Michael Donovan"
+  ],
+  "summary": "Michael Donovan introduced a website staging environment for review. Vinnie Micciche suggested refining AI messaging to focus on dealer outcomes, emphasizing human involvement and data governance. Key changes requested include reversing the \"AI + Human\" badge and renaming \"Industry Insights\" to \"Resources and Dealer Insights.\" A process for revisions and rapid content updates was discussed.",
   "decisions": [
     {
-      "description": "Refine AI messaging to focus on dealer outcomes rather than \"human plus AI\" feature.",
-      "decidedBy": ["Vinnie Micciche", "Michael Donovan"],
-      "topic": "ai-messaging",
+      "description": "Staging environment introduced for website content review and revision.",
+      "decidedBy": [
+        "Michael Donovan",
+        "Vinnie Micciche"
+      ],
+      "topic": "website-staging-environment",
       "confidence": "firm"
     },
     {
-      "description": "Reverse the \"AI + Human\" badge to \"Human + AI\".",
-      "decidedBy": ["Vinnie Micciche", "Michael Donovan"],
-      "topic": "website-badge",
+      "description": "AI messaging to focus on dealer outcomes, not \"human plus AI\" feature.",
+      "decidedBy": [
+        "Vinnie Micciche",
+        "Michael Donovan"
+      ],
+      "topic": "ai-messaging-strategy",
+      "confidence": "firm"
+    },
+    {
+      "description": "Reverse \"AI + Human\" badge to \"Human + AI\" on the website.",
+      "decidedBy": [
+        "Vinnie Micciche",
+        "Michael Donovan"
+      ],
+      "topic": "website-content-updates",
       "confidence": "firm"
     },
     {
       "description": "Change \"Industry Insights\" to \"Resources and Dealer Insights\" for the blog.",
-      "decidedBy": ["Vinnie Micciche", "Michael Donovan"],
-      "topic": "blog-title",
+      "decidedBy": [
+        "Michael Donovan",
+        "Vinnie Micciche"
+      ],
+      "topic": "website-content-updates",
       "confidence": "firm"
     },
     {
-      "description": "Set up a mirrored file/theme for rapid website content updates (up to four times a month).",
-      "decidedBy": ["Michael Donovan"],
-      "topic": "website-content-updates",
+      "description": "Michael Donovan to set up mirrored file/theme for rapid content updates.",
+      "decidedBy": [
+        "Michael Donovan"
+      ],
+      "topic": "website-content-management",
+      "confidence": "firm"
+    },
+    {
+      "description": "Michael Donovan to send staging environment link to Vinnie Micciche.",
+      "decidedBy": [
+        "Michael Donovan"
+      ],
+      "topic": "website-staging-environment",
+      "confidence": "firm"
+    },
+    {
+      "description": "Michael Donovan to outline revision submission process for Vinnie Micciche.",
+      "decidedBy": [
+        "Michael Donovan"
+      ],
+      "topic": "website-revision-process",
+      "confidence": "firm"
+    },
+    {
+      "description": "Michael Donovan to update white-on-white text issue on staging environment.",
+      "decidedBy": [
+        "Michael Donovan"
+      ],
+      "topic": "website-bug-fix",
       "confidence": "firm"
     }
   ],
   "actionItems": [
     {
-      "task": "Send the link to the proposed staging environment website to Vinnie Micciche for review.",
+      "task": "Send link to proposed staging environment website to Vinnie Micciche for review.",
       "owner": "Michael Donovan",
       "deadline": "2026-01-13",
       "expectedOutcome": {
-        "system": "email",
-        "description": "Vinnie Micciche receives the link to the staging environment."
+        "system": "website",
+        "description": "Vinnie Micciche reviews staging environment."
       }
     },
     {
-      "task": "Outline how Vinnie Micciche should organize and submit revisions for the staged website (e.g., screenshot markup, list, Slack canvas).",
+      "task": "Outline how Vinnie Micciche should organize and submit revisions for the staged website.",
       "owner": "Michael Donovan",
       "deadline": null,
       "expectedOutcome": {
-        "system": "email",
-        "description": "Vinnie Micciche receives instructions on how to submit revisions."
+        "system": "process",
+        "description": "Clear revision submission process established."
       }
     },
     {
-      "task": "Set up and send a file to Vinnie Micciche to build into Lovable as a theme with all the variables, so Vinnie Micciche can easily add content to the website.",
-      "owner": "Michael Donovan",
-      "deadline": null,
-      "expectedOutcome": {
-        "system": "email",
-        "description": "Vinnie Micciche receives a file/theme that allows for easy website content updates."
-      }
-    },
-    {
-      "task": "Reverse the order of the badges on the website to display 'Human and AI', with 'Human' first.",
+      "task": "Set up and send a file/theme for Vinnie Micciche to build into Lovable for content.",
       "owner": "Michael Donovan",
       "deadline": null,
       "expectedOutcome": {
         "system": "website",
-        "description": "The website displays 'Human and AI' badge."
+        "description": "Vinnie can easily add content to website."
       }
     },
     {
-      "task": "Update the page in the staging environment that currently has white-on-white text for links on the live site.",
+      "task": "Reverse the order of the badges on the website to display 'Human and AI'.",
       "owner": "Michael Donovan",
       "deadline": null,
       "expectedOutcome": {
         "system": "website",
-        "description": "The staging environment no longer has white-on-white text for links."
+        "description": "Website badge order updated."
       }
     },
     {
-      "task": "Change 'Industry Insights' to 'Resources and Dealer Insights' on the website, which will become the blog section.",
+      "task": "Update the page in the staging environment that currently has white-on-white text.",
       "owner": "Michael Donovan",
       "deadline": null,
       "expectedOutcome": {
         "system": "website",
-        "description": "The website displays 'Resources and Dealer Insights' as the blog section title."
+        "description": "White-on-white text issue resolved."
+      }
+    },
+    {
+      "task": "Change 'Industry Insights' to 'Resources and Dealer Insights' on the website.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "website",
+        "description": "Blog section renamed and updated."
       }
     }
   ],
   "topicsDiscussed": [
     "website-staging-environment",
-    "ai-messaging",
-    "human-involvement",
+    "website-content-review",
+    "ai-messaging-strategy",
+    "human-ai-collaboration",
     "data-governance",
-    "professionalism",
-    "website-revisions",
+    "professionalism-certifications",
+    "website-revision-process",
     "content-strategy",
+    "future-of-ai-car-sales",
     "website-adaptability",
-    "website-security"
+    "website-bug-fixes"
   ],
-  "tensions": [],
+  "tensions": [
+    "Saturation of AI messaging in the market, making 'human plus AI' less effective.",
+    "Need for governance and supervision over AI tools to prevent hallucination and liability.",
+    "Existing website's quirky navigation and security issues."
+  ],
   "referencesToPast": [
+    "Conserver was built for establishing a 'system of truth' and governance.",
     "Existing website had quirky issues with navigation and security that Michael Donovan has made progress in fixing."
-  ]
+  ],
+  "contributions": [
+    {
+      "person_name": "Michael Donovan",
+      "topic": "website-staging-environment",
+      "description": "Introduced staging environment for website content review.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "website-staging-environment",
+      "description": "Appreciated staging environment for iterative website development.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "approved"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "ai-messaging-strategy",
+      "description": "Suggested refining AI messaging to focus on dealer outcomes.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "human-ai-collaboration",
+      "description": "Stressed critical role of human involvement and data governance in AI.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "professionalism-certifications",
+      "description": "Emphasized professionalism and certifications like Sock 2 for larger groups.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "website-content-updates",
+      "description": "Requested reversing 'AI + Human' badge to 'Human + AI'.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "approved"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "website-content-updates",
+      "description": "Proposed changing 'Industry Insights' to 'Resources and Dealer Insights'.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "approved"
+    },
+    {
+      "person_name": "Joe Furnari",
+      "topic": "website-revision-process",
+      "description": "Asked for a structured process for Vinnie to submit website revisions.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "website-content-management",
+      "description": "Agreed to set up mirrored file/theme for rapid content updates.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "approved"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "website-adaptability",
+      "description": "Emphasized need for easy, rapid website content iteration.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    }
+  ],
+  "participation": [],
+  "durationMinutes": null
 }

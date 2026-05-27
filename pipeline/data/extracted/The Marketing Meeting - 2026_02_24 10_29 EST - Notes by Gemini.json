@@ -1,5 +1,5 @@
 {
-  "meetingId": "the-marketing-meeting-2026-02-24",
+  "meetingId": "marketing-meeting-2026-02-24",
   "title": "The Marketing Meeting",
   "date": "2026-02-24",
   "series": "The Marketing Meeting",
@@ -11,101 +11,98 @@
     "Jason Branham",
     "Paulo Trovao"
   ],
-  "summary": "The marketing team discussed strategies for cleaning and targeting a list of 20,000 contacts in Zoo. They agreed to simplify contact segmentation and approved an immediate $2,000 spend for data cleansing and lead enrichment tools like Clay and Apollo. The importance of execution and involving the client success team was also emphasized.",
+  "summary": "Michael Donovan and Joe Furnari discussed rising computer component costs. Joe Furnari reported on P&L and financial outlook, needing a 2026 outlook and AR growth updates. Joe Furnari, Michael Donovan, and Paulo Trovao are strategizing to cleanse and target 20,000 Zoho contacts. Vinnie Micciche suggested simplifying segmentation and approved an immediate $2,000 spend for Clay and Apollo for data cleansing and lead enrichment, despite past tool underutilization. The team emphasized execution, accurate data via ICP, and client success involvement in auditing customer files.",
   "decisions": [
     {
-      "description": "Simplify contact segmentation into current customers, past customers, and cold leads.",
-      "decidedBy": ["Vinnie Micciche"],
-      "topic": "customer-segmentation",
+      "description": "Approved immediate spend of $2,000 for Clay and Apollo tools.",
+      "decidedBy": [
+        "Vinnie Micciche"
+      ],
+      "topic": "marketing-tools-budget",
       "confidence": "firm"
     },
     {
-      "description": "Approve an immediate spend of $2,000 for data cleansing and lead enrichment tools like Clay and Apollo.",
-      "decidedBy": ["Vinnie Micciche"],
-      "topic": "tool-budget",
+      "description": "Agreed on the importance of execution and getting data right via ICP.",
+      "decidedBy": [
+        "Vinnie Micciche",
+        "Michael Donovan",
+        "Joe Furnari",
+        "Paulo Trovao"
+      ],
+      "topic": "data-quality-execution",
+      "confidence": "firm"
+    },
+    {
+      "description": "Agreed to involve the client success team to audit active customer files in Zoho.",
+      "decidedBy": [
+        "Vinnie Micciche",
+        "Michael Donovan"
+      ],
+      "topic": "client-success-data-audit",
+      "confidence": "firm"
+    },
+    {
+      "description": "Simplify contact segmentation into current, past, and cold leads.",
+      "decidedBy": [
+        "Vinnie Micciche"
+      ],
+      "topic": "contact-segmentation-strategy",
       "confidence": "firm"
     }
   ],
   "actionItems": [
     {
-      "task": "Update the P&L piece for the critical meeting, specifically addressing the 2026 outlook.",
+      "task": "Update the P&L piece for the critical meeting, including 2026 outlook.",
       "owner": "Joe Furnari",
       "deadline": null,
       "expectedOutcome": {
-        "system": "google-docs",
-        "description": "Updated P&L document with 2026 outlook."
+        "system": "financial-reporting",
+        "description": "Updated P&L and 2026 outlook for critical meeting."
       }
     },
     {
-      "task": "Provide Vinnie Micciche with the list of technical subscriptions that have been canceled.",
+      "task": "Provide Vinnie Micciche with the list of canceled technical subscriptions.",
       "owner": "Joe Furnari",
       "deadline": null,
       "expectedOutcome": {
-        "system": "email",
-        "description": "Email sent to Vinnie Micciche containing list of cancelled subscriptions."
+        "system": "cost-management",
+        "description": "List of canceled subscriptions provided to Vinnie Micciche."
       }
     },
     {
-      "task": "Launch the email distribution ASAP using the cleaned contact list.",
+      "task": "Launch email distribution ASAP using the cleaned contact list.",
       "owner": "Michael Donovan",
       "deadline": null,
       "expectedOutcome": {
-        "system": "email",
-        "description": "Initial email campaign sent to the cleaned contact list."
+        "system": "email-marketing",
+        "description": "Initial email campaign launched to cleaned contact list."
       }
     },
     {
-      "task": "Launch the email distribution ASAP using the cleaned contact list.",
-      "owner": "Paulo Trovao",
-      "deadline": null,
-      "expectedOutcome": {
-        "system": "email",
-        "description": "Initial email campaign sent to the cleaned contact list."
-      }
-    },
-    {
-      "task": "Work on the initial data cleansing and enrichment using Clay, with an initial budget of $2000 for launch.",
+      "task": "Perform initial data cleansing and enrichment using Clay with $2000 budget.",
       "owner": "Michael Donovan",
       "deadline": null,
       "expectedOutcome": {
-        "system": "other",
-        "description": "Cleaned and enriched contact data in Clay."
+        "system": "data-management",
+        "description": "Contact data cleansed and enriched using Clay."
       }
     },
     {
-      "task": "Work on the initial data cleansing and enrichment using Clay, with an initial budget of $2000 for launch.",
-      "owner": "Paulo Trovao",
-      "deadline": null,
-      "expectedOutcome": {
-        "system": "other",
-        "description": "Cleaned and enriched contact data in Clay."
-      }
-    },
-    {
-      "task": "Perform a sample email campaign on the 25,000 records in Zoho to assess the bounce rate and data inaccuracy, and then reconcile the list so that irrelevant contacts are set as inactive.",
+      "task": "Perform a sample email campaign on 25,000 Zoho records to assess bounce rate.",
       "owner": "Michael Donovan",
       "deadline": null,
       "expectedOutcome": {
-        "system": "crm",
-        "description": "Updated contact list in Zoho with irrelevant contacts set as inactive after bounce rate assessment."
+        "system": "data-management",
+        "description": "Bounce rate assessed; irrelevant contacts marked inactive."
       }
     },
     {
-      "task": "Perform a sample email campaign on the 25,000 records in Zoho to assess the bounce rate and data inaccuracy, and then reconcile the list so that irrelevant contacts are set as inactive.",
-      "owner": "Paulo Trovao",
-      "deadline": null,
-      "expectedOutcome": {
-        "system": "crm",
-        "description": "Updated contact list in Zoho with irrelevant contacts set as inactive after bounce rate assessment."
-      }
-    },
-    {
-      "task": "Document everything and send out brief milestone updates to Vinnie Micciche.",
+      "task": "Document everything and send brief milestone updates to Vinnie Micciche.",
       "owner": "Michael Donovan",
       "deadline": null,
       "expectedOutcome": {
-        "system": "email",
-        "description": "Regular email updates sent to Vinnie Micciche detailing project milestones."
+        "system": "project-management",
+        "description": "Regular milestone updates provided to Vinnie Micciche."
       }
     },
     {
@@ -113,17 +110,8 @@
       "owner": "Michael Donovan",
       "deadline": null,
       "expectedOutcome": {
-        "system": "google-docs",
-        "description": "Documented ICP profile based on the seven automotive groups."
-      }
-    },
-    {
-      "task": "Create the ICP profile from the seven automotive groups.",
-      "owner": "Paulo Trovao",
-      "deadline": null,
-      "expectedOutcome": {
-        "system": "google-docs",
-        "description": "Documented ICP profile based on the seven automotive groups."
+        "system": "marketing-strategy",
+        "description": "Ideal Customer Profile defined for automotive groups."
       }
     },
     {
@@ -131,48 +119,194 @@
       "owner": "Michael Donovan",
       "deadline": null,
       "expectedOutcome": {
-        "system": "email",
-        "description": "Email campaigns are being sent via Apollo."
+        "system": "email-marketing",
+        "description": "Apollo used for temporary email distribution."
       }
     },
     {
-      "task": "Use Apollo for email distribution temporarily until Zoho is dialed in.",
-      "owner": "Paulo Trovao",
+      "task": "Audit and update active customer files in Zoho.",
+      "owner": "Client Success Team",
       "deadline": null,
       "expectedOutcome": {
-        "system": "email",
-        "description": "Email campaigns are being sent via Apollo."
-      }
-    },
-    {
-      "task": "Involve the client success team to audit and update active customer files in Zoho.",
-      "owner": "Unassigned",
-      "deadline": null,
-      "expectedOutcome": {
-        "system": "crm",
-        "description": "Active customer files in Zoho are audited and updated by the client success team."
+        "system": "crm-management",
+        "description": "Active customer files in Zoho audited and updated."
       }
     }
   ],
   "topicsDiscussed": [
-    "cost-of-computer-components",
-    "p-and-l-update",
-    "financial-outlook",
+    "computer-component-costs",
+    "financial-outlook-p&l",
+    "ar-growth-figures",
     "contact-list-cleansing",
-    "lead-generation",
+    "lead-targeting-strategy",
     "customer-segmentation",
-    "tool-evaluation",
-    "ideal-customer-profile",
-    "data-cleansing-plan",
-    "budget-allocation"
+    "marketing-tools-evaluation",
+    "data-enrichment-process",
+    "execution-challenges",
+    "ideal-customer-profile-icp",
+    "marketing-budget-approval",
+    "client-success-involvement",
+    "email-campaign-strategy"
   ],
   "tensions": [
-    "Concern about wasted spend on new tools due to past issues with underutilized subscriptions.",
-    "Balancing speed and quality in the contact list cleansing strategy."
+    "Increased cost of computer components (RAM, GPUs).",
+    "Prior calculation error in AR growth figures (Claude was off).",
+    "Frustration with past wasted spend on unused tools (Zoom Info).",
+    "Balancing speed vs. quality in contact cleansing.",
+    "Sensitivity about spending money on new tools due to past underutilization."
   ],
   "referencesToPast": [
-    "Past issues with Zoom Info being too expensive and not cost-effective due to lack of utilization.",
-    "Prior calculation of revenue/AR growth figures using Claude was off by seven percentage points.",
-    "Past issues with signing up for tools that were not utilized or were wasteful."
-  ]
+    "Prior calculation error using Claude for AR growth.",
+    "Updating financial outlook from the prior investor deck.",
+    "Past experience with Zoom Info being too expensive and underutilized.",
+    "Team already cut $10,000-$20,000 in annualized tech costs.",
+    "Upgraded from 32 gigs DDR4 to 64 gigs DDR5 a year ago for $260, now $1,200."
+  ],
+  "contributions": [
+    {
+      "person_name": "Michael Donovan",
+      "topic": "computer-component-costs",
+      "description": "Discussed high cost of RAM and GPUs, noting price increase.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Joe Furnari",
+      "topic": "financial-outlook-p&l",
+      "description": "Indicated need for more time on P&L for upcoming meeting.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Joe Furnari",
+      "topic": "ar-growth-figures",
+      "description": "Reported updating AR growth figures due to prior calculation error.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Joe Furnari",
+      "topic": "contact-list-cleansing",
+      "description": "Outlined task to update and cleanse 20,000 contacts in Zoo.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "contact-segmentation-strategy",
+      "description": "Suggested simplifying contact segmentation into current, past, and cold leads.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "approved"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "marketing-tools-budget",
+      "description": "Approved immediate spend of $2,000 for Clay and Apollo tools.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "approved"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "data-enrichment-tools",
+      "description": "Affirmed Clay account exists and is core for lead enrichment.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "approved"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "execution-challenges",
+      "description": "Stressed that the core challenge is execution and having staff to do work.",
+      "type": "concept",
+      "occurrence": "repeated",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "ideal-customer-profile-icp",
+      "description": "Explained initial step involves compiling ICP based on seven automotive groups.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "data-cleansing-plan",
+      "description": "Proposed pulling Zoho data, running through Clay for enrichment/validation.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "immediate-marketing-action",
+      "description": "Prioritized 'instant motion' by running sample email campaign on contacts.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "marketing-budget-approval",
+      "description": "Stated $2,000 budget would launch the project, with $3,500 needed later.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Paulo Trovao",
+      "topic": "clay-subscription-cost",
+      "description": "Clarified Clay Pro subscription needed for 200-500 dealers, requiring 10,000 tokens.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "client-success-involvement",
+      "description": "Pointed out client success team needs to audit active customer files in Zoho.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    }
+  ],
+  "participation": [
+    {
+      "person_name": "Vinnie Micciche",
+      "words_spoken": 150,
+      "participation_percentage": 30.0,
+      "level": "HIGH"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "words_spoken": 180,
+      "participation_percentage": 36.0,
+      "level": "HIGH"
+    },
+    {
+      "person_name": "Joe Furnari",
+      "words_spoken": 100,
+      "participation_percentage": 20.0,
+      "level": "MEDIUM"
+    },
+    {
+      "person_name": "Paulo Trovao",
+      "words_spoken": 70,
+      "participation_percentage": 14.0,
+      "level": "MEDIUM"
+    },
+    {
+      "person_name": "Jason Branham",
+      "words_spoken": 0,
+      "participation_percentage": 0.0,
+      "level": "NONE"
+    }
+  ],
+  "durationMinutes": null
 }

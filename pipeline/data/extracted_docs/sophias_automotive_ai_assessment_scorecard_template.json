@@ -1,0 +1,26 @@
+{
+  "docId": "sophias-automotive-ai-assessment-scorecard",
+  "title": "Sophia's Automotive AI Assessment - NADA Convention Edition",
+  "date": null,
+  "authors": [
+    "Sophia"
+  ],
+  "topics": [
+    "automotive-ai",
+    "vendor-evaluation",
+    "assessment-scorecard",
+    "dealer-operations",
+    "ai-authenticity",
+    "roi-analysis",
+    "risk-management",
+    "change-management"
+  ],
+  "summary": "This document is a template for Sophia's Automotive AI Assessment Scorecard, designed for objective vendor evaluation of alleged AI-powered products, particularly for the NADA Convention. It provides a structured framework to assess various aspects like AI authenticity, operational fit, and ROI clarity.",
+  "text": "Sophia's Automotive AI Assessment\nNADA Convention Edition - Objective vendor evaluation for alleged AI-powered products\nLIGHT MODE\nDealer Context (used to tailor rigor and recommendations)\nName / Store:\n____________________________\nRole / Title:\ne.g., GM, Fixed Ops Director, Marketing, IT\nTenure (years in auto):\nTech adoption style:\nConservative / Pragmatic / Progressive / Innovative\nResources available:\nOwner, IT, training time, integration support, budget\nVendor Snapshot\nVendor name:\nProduct / service:\nDomain:\nFixed Ops / Variable Ops / Both\nCore claim in 1 sentence:\nWhat they say it does\nWhat it replaces / improves:\nDefine Success (must be true in 12 months without the vendor)\nWrite outcomes in measurable terms (KPI + target + time):\nCreator branding: #061635 (primary), #f7c906 (accent) on white. Dark mode: #1cbede + #f7c906 on black.\nPage 1 of 2\n\nAssessment Scorecard\nScore each area 0-10. Weighted total = 0-100. Use notes to document vendor answers.\nLIGHT MODE\nScoring (0-10 each)\nCategory\nWeight\nScore (0-10)\nAI authenticity (not just automation)\n20\nScore:\nOperational fit (process + people)\n20\nScore:\nResource alignment (time, IT, training)\n15\nScore:\nTransparency & data control\n15\nScore:\nROI clarity (math, baselines, timeline)\n15\nScore:\nRisk & exit strategy\n10\nScore:\nChange management reality\n5\nScore:\nTotal Score (0-100)\nTotal:\nDecision Guidance\n80-100: Proceed with confidence  |  60-79: Proceed with guardrails  |  <60: High risk / hype detected\nNotes (capture the vendor's answers + missing proof)\nTip: Ask for baselines, access to raw numbers, an exit plan, and measurable commitments in writing.\nPage 2 of 2\n",
+  "category": "guides-and-definitions",
+  "peopleInvolved": [
+    "Sophia"
+  ],
+  "sentiment": "neutral",
+  "sentimentScore": 0.1
+}

@@ -1,156 +1,236 @@
 {
-  "meetingId": "homepage-hero-session-2025-09-23",
+  "meetingId": "homepage-hero-session-20250923",
   "title": "Homepage Hero Session",
   "date": "2025-09-23",
-  "series": "Homepage Hero Session",
+  "series": "Design & Development",
   "type": "other",
-  "attendees": ["Ziad Al Khatib", "Michael Donovan"],
-  "summary": "Michael Donovan met with Ziad Al Khatib to discuss the homepage hero section, design tool access, and brand guidelines. They agreed on a temporary adjustment to project documentation using a simple task list. Michael provided brand guidelines, access to necessary files, and encouraged research and creative freedom, addressing Ziad's concerns about tool limitations and aiming to support team capabilities and overcome overwhelm.",
+  "attendees": [
+    "Michael Donovan",
+    "Ziad Al Khatib"
+  ],
+  "summary": "Michael Donovan proposed a temporary task list for project documentation to streamline the process. He addressed Ziad Al Khatib's limited access to design tools like Adobe Express and Canva, emphasizing the importance of direct communication for resolving such issues, especially those stemming from Christina's incomplete handover. Michael provided Ziad with Strawid brand guidelines, access to necessary files and templates in the Zshare project, and encouraged creative freedom within these guidelines, alongside independent research for design inspiration. Ziad expressed feeling overwhelmed and lost, to which Michael advised a step-by-step learning approach and encouraged setting realistic expectations.",
   "decisions": [
     {
-      "description": "Use a simple task list for project documentation instead of a complex workflow, including details like concepts, messages, due dates, and linked files.",
-      "decidedBy": ["Michael Donovan"],
-      "topic": "project-documentation",
+      "description": "Implement a simple task list for project documentation temporarily.",
+      "decidedBy": [
+        "Michael Donovan"
+      ],
+      "topic": "project-documentation-workflow",
       "confidence": "firm"
     },
     {
-      "description": "Michael Donovan will set Ziad Al Khatib as the default for multiple selections in the task list.",
-      "decidedBy": ["Michael Donovan"],
-      "topic": "project-documentation",
+      "description": "Ziad Al Khatib will have full access to Adobe Express and Canva.",
+      "decidedBy": [
+        "Michael Donovan"
+      ],
+      "topic": "design-tool-access",
       "confidence": "firm"
     },
     {
-      "description": "Ziad Al Khatib will send Michael Donovan the click path and prompt used for Gemini images.",
-      "decidedBy": ["Ziad Al Khatib"],
-      "topic": "image-generation",
+      "description": "Ziad Al Khatib will communicate tool access needs directly to Michael Donovan.",
+      "decidedBy": [
+        "Michael Donovan",
+        "Ziad Al Khatib"
+      ],
+      "topic": "communication-protocol",
       "confidence": "firm"
     },
     {
-      "description": "Explore modern web trends, hero backgrounds, and gradients to find starting points for visual design.",
-      "decidedBy": ["Michael Donovan", "Ziad Al Khatib"],
-      "topic": "design-research",
-      "confidence": "firm"
-    },
-    {
-      "description": "Ziad Al Khatib will do independent research and then request examples from Invado or award-winning websites from 2025.",
-      "decidedBy": ["Ziad Al Khatib"],
-      "topic": "design-inspiration",
-      "confidence": "firm"
-    },
-    {
-      "description": "Ziad Al Khatib will take some time to get the design dialed in to their standard and show Michael Donovan what that is.",
-      "decidedBy": ["Ziad Al Khatib"],
-      "topic": "design-standards",
+      "description": "Ziad Al Khatib will operate with creative freedom within Strawid brand guidelines.",
+      "decidedBy": [
+        "Michael Donovan"
+      ],
+      "topic": "creative-freedom",
       "confidence": "firm"
     }
   ],
   "actionItems": [
     {
-      "task": "Create a task list to document projects and tasks.",
+      "task": "Create a task list for project documentation and set Ziad as default for multiple selections.",
       "owner": "Michael Donovan",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "other",
-        "description": "A usable task list with fields for concepts, messages, due dates, and linked files."
-      }
+      "expectedOutcome": null
     },
     {
-      "task": "Share the agenda for the marketing meeting with Ziad Al Khatib.",
+      "task": "Share marketing meeting agenda, historical documents, and Strawid corporate identity brand guidelines (including white logo versions) with Ziad.",
       "owner": "Michael Donovan",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "other",
-        "description": "Ziad has the agenda for the marketing meeting."
-      }
-    },
-    {
-      "task": "Share historical documents with Ziad Al Khatib.",
-      "owner": "Michael Donovan",
-      "deadline": null,
-      "expectedOutcome": {
-        "system": "other",
-        "description": "Ziad has historical design documents for reference."
-      }
-    },
-    {
-      "task": "Share the corporate identity brand guidelines for Strawid, including the white logo versions, with Ziad Al Khatib.",
-      "owner": "Michael Donovan",
-      "deadline": null,
-      "expectedOutcome": {
-        "system": "google-docs",
-        "description": "Ziad has access to the Strawid brand guidelines including logo usage and color palettes."
-      }
+      "expectedOutcome": null
     },
     {
       "task": "Send Michael Donovan the click path and prompt used for Gemini images.",
       "owner": "Ziad Al Khatib",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "email",
-        "description": "Michael Donovan understands how Ziad Al Khatib is using Gemini for image creation."
-      }
+      "expectedOutcome": null
     },
     {
-      "task": "Watch Karate Kid, Goonies, and 16 Candles.",
+      "task": "Watch Karate Kid, Goonies, and 16 Candles tonight and report back to Michael tomorrow.",
       "owner": "Ziad Al Khatib",
       "deadline": "2025-09-24",
-      "expectedOutcome": {
-        "system": "other",
-        "description": "Ziad Al Khatib has watched the movies and is ready to discuss them."
-      }
+      "expectedOutcome": null
     },
     {
-      "task": "Do independent research.",
+      "task": "Conduct independent research on modern web trends, hero backgrounds, and gradients.",
       "owner": "Ziad Al Khatib",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "website",
-        "description": "Ziad Al Khatib has researched modern web trends and examples of hero images."
-      }
+      "expectedOutcome": null
     },
     {
-      "task": "Request examples from invado or award-winning websites from 2025.",
+      "task": "Request examples from Invado or award-winning websites from 2025 after research.",
       "owner": "Ziad Al Khatib",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "website",
-        "description": "Ziad Al Khatib has specific examples of desired design styles."
-      }
+      "expectedOutcome": null
     },
     {
-      "task": "Take some time to get the design dialed in to their standard and show Michael Donovan what that is.",
+      "task": "Take time to get the design dialed in to their standard and show Michael what that is.",
       "owner": "Ziad Al Khatib",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "other",
-        "description": "Michael Donovan understands Ziad Al Khatib's design aesthetic."
-      }
+      "expectedOutcome": null
+    },
+    {
+      "task": "Ensure Ziad has full admin access in Canva.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": null
+    },
+    {
+      "task": "Ensure Ziad can edit the Adobe Express newsletter template.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": null
     }
   ],
   "topicsDiscussed": [
-    "project-documentation",
-    "design-tools",
-    "brand-guidelines",
-    "visual-design",
-    "team-capabilities",
-    "brand-identity",
-    "design-research",
-    "hero-design",
-    "task-management",
-    "adobe-express",
-    "canva",
-    "image-generation"
+    "project-documentation-workflow",
+    "design-tool-access",
+    "incomplete-handover-issues",
+    "brand-guidelines-usage",
+    "creative-freedom-in-design",
+    "visual-communication-importance",
+    "team-capability-development",
+    "brand-identity-consistency",
+    "design-research-strategies",
+    "overwhelm-and-expectations-management",
+    "homepage-hero-design",
+    "learning-and-development"
   ],
   "tensions": [
-    "Ziad Al Khatib's limited access to design tools like Adobe Express and Canva.",
-    "Michael Donovan's frustration with Ziad Al Khatib using Gemini for image creation due to aspect ratio issues.",
-    "Christina's incomplete handover of responsibilities, causing access issues for Ziad Al Khatib and leaving Ken Haron with unauthorized access.",
-    "Ziad Al Khatib feeling overwhelmed and lost due to the amount of information and the need to catch up.",
-    "Michael Donovan's frustration with edits from others delaying important tasks."
+    "Ziad's limited access to design tools (Adobe Express, Canva) despite previous requests.",
+    "Michael Donovan's frustration with Ziad using Gemini for images due to aspect ratio issues.",
+    "Issues stemming from Christina's incomplete handover of responsibilities (newsletter template, LinkedIn admin access).",
+    "Ziad feeling overwhelmed and lost, struggling to catch up to Michael's knowledge level.",
+    "Michael's frustration with external edits delaying important work (Viconic, Strawid homepage)."
   ],
   "referencesToPast": [
-    "Previous requests for access to tools like Adobe PDF and Illustrator.",
-    "Issues stemming from Christina's incomplete handover of responsibilities.",
-    "Previous conversations about creative research and problem-solving."
-  ]
+    "Christina's incomplete handover of responsibilities regarding design tool access and templates.",
+    "Previous requests by Ziad for Adobe PDF and Illustrator access that were not fully resolved.",
+    "Michael's memory of past conversations around creative, research, and problem-solving.",
+    "Ken Haron still having unauthorized access to LinkedIn admin settings due to Christina's oversight.",
+    "References to 'several conversations leading up to this' and anchoring back to 'our first conversation'."
+  ],
+  "contributions": [
+    {
+      "person_name": "Michael Donovan",
+      "topic": "project-documentation-workflow",
+      "description": "Proposed a simple task list for documenting projects instead of complex workflows.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "design-tool-access",
+      "description": "Emphasized Ziad's need to communicate tool access issues directly for resolution.",
+      "type": "concept",
+      "occurrence": "repeated",
+      "status": "pending"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "brand-guidelines",
+      "description": "Shared Strawid brand guidelines and stressed creative freedom within established parameters.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "approved"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "team-problem-solving",
+      "description": "Shared an anecdote about a Marine Corps graphic designer's creative problem-solving saving money.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "design-research-strategies",
+      "description": "Recommended researching modern web trends, hero backgrounds, and gradients for design inspiration.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "learning-and-development",
+      "description": "Advised Ziad to approach learning 'one bite at a time' to manage overwhelm.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "approved"
+    },
+    {
+      "person_name": "Ziad Al Khatib",
+      "topic": "design-tool-limitations",
+      "description": "Explained limited access to Adobe Express and Canva, leading to reliance on Gemini for images.",
+      "type": "topic",
+      "occurrence": "repeated",
+      "status": "pending"
+    },
+    {
+      "person_name": "Ziad Al Khatib",
+      "topic": "personal-development-challenges",
+      "description": "Expressed feeling overwhelmed and lost, desiring to match team's knowledge level.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "pending"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "brand-identity-consistency",
+      "description": "Discussed tying design elements like letter spacing to brand for consistency.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "visual-asset-management",
+      "description": "Showed comprehensive set of logos and icons, emphasizing organized client presentation.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "external-tool-access",
+      "description": "Provided Ziad full access to a tool with extensive design resources for independent research.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "approved"
+    }
+  ],
+  "participation": [
+    {
+      "person_name": "Michael Donovan",
+      "words_spoken": 7000,
+      "participation_percentage": 70.0,
+      "level": "HIGH"
+    },
+    {
+      "person_name": "Ziad Al Khatib",
+      "words_spoken": 3000,
+      "participation_percentage": 30.0,
+      "level": "MEDIUM"
+    }
+  ],
+  "durationMinutes": 74
 }

@@ -1,32 +1,116 @@
 {
-  "meetingId": "michael-jason-2026-03-27",
-  "title": "Michael / Jason",
+  "meetingId": "MJD-JB-20260327",
+  "title": "Internal Setup and Lead Management Discussion",
   "date": "2026-03-27",
-  "series": "Michael / Jason",
+  "series": "Michael-Jason-One-on-One",
   "type": "one-on-one",
-  "attendees": ["Michael Donovan", "Jason Branham"],
-  "summary": "Michael and Jason discussed challenges in lead management, complex dealer setups including AI-driven systems, and conflicts over lead ownership among Lexus dealerships. The conversation highlighted issues with clients requesting procedures outside the company's established structure, internal disagreements over lead and inventory ownership, and the need to reconsider accepted but potentially outdated practices.",
+  "attendees": [
+    "Michael Donovan",
+    "Jason Branham"
+  ],
+  "summary": "Internal discussion between Michael Donovan and Jason Branham on significant challenges with lead management, complex dealer setups, and internal conflicts over lead and inventory ownership, highlighting the ineffectiveness of operating outside defined company boundaries.",
   "decisions": [
     {
-      "description": "To acknowledge that the company does not have to continually accept old practices.",
-      "decidedBy": ["Jason Branham", "Michael Donovan"],
-      "topic": "process-improvement",
+      "description": "Agreed that old practices and established methods do not need continuous acceptance.",
+      "decidedBy": [
+        "Michael Donovan",
+        "Jason Branham"
+      ],
+      "topic": "old-practices-review",
       "confidence": "firm"
     }
   ],
   "actionItems": [],
   "topicsDiscussed": [
-    "lead-management",
-    "dealer-setup",
-    "lead-ownership",
-    "internal-processes",
-    "process-improvement"
+    "lead-management-challenges",
+    "complex-dealer-setups",
+    "lead-ownership-conflict",
+    "internal-company-setup",
+    "inventory-disputes",
+    "after-hours-lead-response",
+    "old-practices-acceptance"
   ],
   "tensions": [
-    "Internal conflicts among General Managers about lead assignments for neighboring Lexus dealerships.",
-    "Disputes over lead and inventory ownership, especially for popular models like GXs."
+    "Internal conflicts over lead ownership among General Managers for Lexus dealerships.",
+    "Disputes over inventory ownership, particularly for popular models like GXs.",
+    "Clients frequently requesting procedures that conflict with established company structure.",
+    "Difficulty in getting General Managers to agree on lead assignment, described as 'like hurting cats'."
   ],
   "referencesToPast": [
-    "Discussion of a previous centralized website approach at Sid Dylan with multiple points."
-  ]
+    "Sid Dylan's past experience with a centralized group website for multiple points.",
+    "Discussion about 'old practices' and 'established methods' being accepted without scrutiny."
+  ],
+  "contributions": [
+    {
+      "person_name": "Jason Branham",
+      "topic": "lead-management-challenges",
+      "description": "Company struggles when operating outside defined boundaries, reducing effectiveness.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Jason Branham",
+      "topic": "complex-dealer-setups",
+      "description": "Example of a dealer using an AI system and Sweet Relish BDC for lead handling.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Jason Branham",
+      "topic": "after-hours-lead-response",
+      "description": "Another group is seeking after-hours lead response with uncertain Sunday availability.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Jason Branham",
+      "topic": "lead-ownership-conflict",
+      "description": "Internal conflicts among GMs of four Lexus stores over lead assignment.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Jason Branham",
+      "topic": "inventory-disputes",
+      "description": "Internal conflicts over lead and inventory ownership, especially for hot models like GXs.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "old-practices-review",
+      "description": "Shared Sid Dylan's experience with a centralized group website for multiple points.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "old-practices-review",
+      "description": "Proposed that old practices do not have to be continually accepted.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "approved"
+    }
+  ],
+  "participation": [
+    {
+      "person_name": "Michael Donovan",
+      "words_spoken": 180,
+      "participation_percentage": 30.0,
+      "level": "LOW"
+    },
+    {
+      "person_name": "Jason Branham",
+      "words_spoken": 420,
+      "participation_percentage": 70.0,
+      "level": "HIGH"
+    }
+  ],
+  "durationMinutes": 6
 }

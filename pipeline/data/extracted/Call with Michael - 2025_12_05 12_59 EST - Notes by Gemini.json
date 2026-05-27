@@ -1,81 +1,227 @@
 {
-  "meetingId": "call-with-michael-2025-12-05",
+  "meetingId": "M-20251205-MichaelCall",
   "title": "Call with Michael",
   "date": "2025-12-05",
-  "series": "Call with Michael",
-  "type": "one-on-one",
-  "attendees": ["Vin Micciche", "Michael Donovan", "Jason Branham"],
-  "summary": "Vinnie, Michael, and Jason discussed marketing hooks, content flow, and terminology, deciding to rebrand technology features as \"automotive co-pilots\" to emphasize their AI-human hybrid approach. Vinnie shared data on Sophia's success as a potential standalone product and stressed the importance of clear messaging focused on Straw's speed, efficiency, and advanced technology. Michael agreed to use Vinnie's content verbatim for marketing to ensure consistency and impact.",
+  "series": "Call with Michael Series",
+  "type": "strategy",
+  "attendees": [
+    "Vinnie Micciche",
+    "Michael Donovan",
+    "Jason Branham"
+  ],
+  "summary": "Vinnie Micciche, Michael Donovan, and Jason Branham discussed marketing hooks, content flow, and shifting technology terminology to \"automotive co-pilot.\" Vinnie Micciche shared promising Sophia data, emphasizing clear, concise messaging highlighting unique value propositions and driving revenue by targeting larger dealer groups. Vinnie Micciche's messaging vision for speed, efficiency, and advanced technology was adopted verbatim for marketing content.",
   "decisions": [
     {
-      "description": "Adopt the term \"automotive co-pilot\" to describe the technology, emphasizing the AI coaching human approach.",
-      "decidedBy": ["Vin Micciche", "Michael Donovan", "Jason Branham"],
+      "description": "Adopt 'automotive co-pilot' terminology for technology features.",
+      "decidedBy": [
+        "Vinnie Micciche",
+        "Michael Donovan",
+        "Jason Branham"
+      ],
       "topic": "technology-terminology",
       "confidence": "firm"
     },
     {
-      "description": "Adopt Vinnie Micciche's messaging focused on speed, efficiency, and advanced technology for marketing content.",
-      "decidedBy": ["Vin Micciche", "Michael Donovan"],
-      "topic": "messaging-strategy",
+      "description": "Vinnie Micciche's vision for marketing messaging to be adopted verbatim.",
+      "decidedBy": [
+        "Vinnie Micciche",
+        "Michael Donovan"
+      ],
+      "topic": "marketing-messaging-strategy",
       "confidence": "firm"
     },
     {
-      "description": "Shift business focus to larger dealer groups and OEMs to secure more stable, long-term contracts.",
-      "decidedBy": ["Vin Micciche"],
-      "topic": "buyer-targeting",
+      "description": "Shift business focus from 'mom and pop' to larger dealer groups and OEMs.",
+      "decidedBy": [
+        "Vinnie Micciche"
+      ],
+      "topic": "business-strategy-dealer-groups",
+      "confidence": "firm"
+    },
+    {
+      "description": "Reject posts using older terminology like 'busy BDC' for marketing content.",
+      "decidedBy": [
+        "Vinnie Micciche"
+      ],
+      "topic": "marketing-messaging-clarity",
       "confidence": "firm"
     }
   ],
   "actionItems": [
     {
-      "task": "Create posts using Vinnie Micciche's clear and simple messaging, focusing on what makes Straw different and exciting.",
+      "task": "Create posts using Vinnie Micciche's clear and simple messaging.",
       "owner": "Michael Donovan",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "linkedin",
-        "description": "Posts that clearly and concisely communicate Straw's value proposition and differentiate it from competitors."
-      }
+      "expectedOutcome": null
     },
     {
-      "task": "Share the link to the Perplexity tool.",
+      "task": "Share the link to the Perplexity tool with Vinnie Micciche.",
       "owner": "Michael Donovan",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "slack",
-        "description": "Vinnie Micciche to receive the link to the Perplexity tool."
-      }
+      "expectedOutcome": null
     },
     {
-      "task": "Compile verbatim marketing hooks with short captions and post them for a month.",
+      "task": "Compile and post verbatim hooks with short captions for a month.",
       "owner": "Michael Donovan",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "linkedin",
-        "description": "A series of marketing posts that uses the approved hooks and captions."
-      }
+      "expectedOutcome": null
+    },
+    {
+      "task": "Integrate new messaging into new website content development.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": null
     }
   ],
   "topicsDiscussed": [
-    "marketing-hooks",
-    "content-flow",
+    "marketing-hooks-review",
+    "content-flow-strategy",
     "messaging-strategy",
-    "technology-terminology",
-    "dealer-personas",
-    "lead-generation",
+    "technology-terminology-rebranding",
+    "automotive-co-pilot",
+    "dealer-personas-messaging",
+    "sophia-standalone-product",
+    "link-agreement-pricing",
+    "marketing-tools-workflow",
     "website-development",
-    "financial-needs",
-    "product-development",
-    "buyer-targeting",
-    "sophia-technology"
+    "business-focus-dealer-groups",
+    "financial-needs-product-deployment"
   ],
   "tensions": [
-    "Vinnie Micciche's frustration with Michael Donovan's prior messaging and content strategy, which he found unclear and outdated.",
-    "Vinnie Micciche's concern about the complexity of Michael Donovan's marketing workflow.",
-    "Vinnie Micciche's concern about the relevance of current website content."
+    "Vinnie Micciche's frustration with Michael Donovan's post content complexity.",
+    "Mitch from Vconic's hesitation about using 'Co-pilot' due to Microsoft's push.",
+    "Vinnie Micciche's concern about existing website content relevance.",
+    "Vinnie Micciche's past frustration with Group One not developing equity mining tools."
   ],
   "referencesToPast": [
-    "Vinnie Micciche mentioned their prior frustration when a colleague chose content they did not prefer.",
-    "Vinnie Micciche shared a historical example of seeing market needs (equity mining tools) and being frustrated that Group One would not develop them.",
-    "Existing content pages are unsure who built them and if they are relevant to their goals, particularly if they are just copies of the old site's content."
-  ]
+    "Vinnie Micciche's prior frustration with a colleague's content choice.",
+    "Vinnie Micciche recalling owning 'Automotive Copilot' term.",
+    "Mention of Matt previously lacking time for data analysis.",
+    "Vinnie Micciche's historical example of Group One not developing equity mining tools.",
+    "Vinnie Micciche's concern about existing content pages being copies of old site."
+  ],
+  "contributions": [
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "marketing-hooks",
+      "description": "Initiated discussion on marketing hooks and their review.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "content-generation",
+      "description": "Explained using Chat GPT for content focusing on people, tech, and dealer needs.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "content-flow-strategy",
+      "description": "Emphasized collaborative discussion for content flow over next two months.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Jason Branham",
+      "topic": "technology-messaging",
+      "description": "Suggested 'our technology makes them faster' over 'dialer' for clarity.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Jason Branham",
+      "topic": "co-pilot-terminology",
+      "description": "Agreed with 'co-pilots' for technology, noting it makes them faster.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "approved"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "automotive-co-pilot",
+      "description": "Recalled owning 'Automotive Copilot' term, clarifying its use for human-AI coaching.",
+      "type": "concept",
+      "occurrence": "repeated",
+      "status": "approved"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "dealer-personas-messaging",
+      "description": "Stressed messaging appealing to diverse dealer personas, from 'old school' to AI-savvy.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "human-ai-thought-leadership",
+      "description": "Preferred thought leadership: 'humans working with AI instead of AI replacing humans'.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "sophia-standalone-product",
+      "description": "Shared Sophia's success data, suggesting it could be a scalable, standalone product.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "marketing-messaging-clarity",
+      "description": "Emphasized concise messaging directly on graphics for quick attention.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "unique-value-propositions",
+      "description": "Highlighted unified communications (calls, texts, emails in one place) as key offering.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "straw-capabilities-summary",
+      "description": "Provided powerful summary: 'We call faster, respond faster, capture everything, connect channels'.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "link-agreement-pricing",
+      "description": "Provided update on Link agreement, detailing revised pricing structure.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "approved"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "perplexity-linkedin-posts",
+      "description": "Demonstrated a Perplexity project for generating LinkedIn posts.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "business-focus-shift",
+      "description": "Proposed shifting business focus to larger dealer groups and OEMs.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "proposed"
+    }
+  ],
+  "participation": [],
+  "durationMinutes": null
 }

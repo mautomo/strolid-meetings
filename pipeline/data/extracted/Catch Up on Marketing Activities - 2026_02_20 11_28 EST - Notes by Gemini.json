@@ -1,105 +1,195 @@
 {
-  "meetingId": "catch-up-on-marketing-activities-2026-02-20",
+  "meetingId": "marketing-catchup-20260220",
   "title": "Catch Up on Marketing Activities",
   "date": "2026-02-20",
-  "series": "Catch Up on Marketing Activities",
+  "series": "Marketing Activities",
   "type": "marketing",
-  "attendees": ["Joe Furnari", "Paulo Trovao", "Michael Donovan"],
-  "summary": "Joe, Michael, and Paulo discussed social media feedback, strategy clarity, and content development. Michael presented work on the Ideal Customer Profile (ICP) which led to Joe approving a $349 monthly subscription for automation. Joe relayed Vinnie's decision to hire an external ABM firm and raised concerns, while Michael presented a BDC self-assessment app as a lead magnet with a two-week plan focused on lead generation through email and social campaigns.",
+  "attendees": [
+    "Joe Furnari",
+    "Paulo Trovao",
+    "Michael Donovan"
+  ],
+  "summary": "Joe Furnari and Michael Donovan reviewed positive social media feedback. Paulo Trovao highlighted data injection. Michael Donovan outlined a 'BDC ecosystem' content package. Michael Donovan presented initial Ideal Customer Profile (ICP) work, leading Joe Furnari to approve a $349 monthly subscription for automation. Joe Furnari relayed Vinnie's decision to hire an external ABM firm, expressing concerns about channel conflict and data attribution. Michael Donovan presented a BDC self-assessment app as an MQL engine, with a two-week plan to integrate it and generate leads via email and social campaigns using new ICP data.",
   "decisions": [
     {
-      "description": "Approved a $349 monthly subscription for automated ICP development.",
-      "decidedBy": ["Joe Furnari"],
-      "topic": "icp-automation",
+      "description": "Approve $349 monthly subscription for ICP automation.",
+      "decidedBy": [
+        "Joe Furnari"
+      ],
+      "topic": "icp-automation-subscription",
       "confidence": "firm"
     },
     {
-      "description": "Committed to push Vinnie for details on the external ABM firm's targets.",
-      "decidedBy": ["Joe Furnari"],
-      "topic": "abm-firm-alignment",
+      "description": "Integrate BDC self-assessment lead magnet into current site and social rotation.",
+      "decidedBy": [
+        "Michael Donovan",
+        "Joe Furnari"
+      ],
+      "topic": "bdc-app-integration",
       "confidence": "firm"
     },
     {
-      "description": "To fully integrate the self-assessment lead magnet into the current site and social rotation.",
-      "decidedBy": ["Michael Donovan"],
-      "topic": "lead-magnet-integration",
-      "confidence": "firm"
-    },
-    {
-      "description": "Joe will send Michael an email regarding the payment.",
-      "decidedBy": ["Joe Furnari"],
-      "topic": "expense-reporting",
+      "description": "Focus on email, social media, and landing pages for lead generation for two weeks.",
+      "decidedBy": [
+        "Michael Donovan",
+        "Joe Furnari"
+      ],
+      "topic": "two-week-lead-gen-plan",
       "confidence": "firm"
     }
   ],
   "actionItems": [
     {
-      "task": "Push Jason to provide feedback on the social media posts.",
+      "task": "Push Vinnie for reporting on external ABM firm's targets and details.",
+      "owner": "Joe Furnari",
+      "deadline": "2026-02-27",
+      "expectedOutcome": null
+    },
+    {
+      "task": "Push Jason to provide feedback on social media posts.",
       "owner": "Joe Furnari",
       "deadline": null,
+      "expectedOutcome": null
+    },
+    {
+      "task": "Send Michael Donovan an outline of concerns and recommendations regarding the external firm.",
+      "owner": "Joe Furnari",
+      "deadline": null,
+      "expectedOutcome": null
+    },
+    {
+      "task": "Put together a two-week plan for email, social media, landing pages, and driving leads.",
+      "owner": "Michael Donovan",
+      "deadline": "2026-03-06",
       "expectedOutcome": {
-        "system": "email",
-        "description": "Jason to provide feedback to the marketing team for future improvements."
+        "system": "workflow-document",
+        "description": "Workflow mapped out, shared, and designed into a calendar."
       }
     },
     {
-      "task": "Push Vinnie to determine what reporting can be obtained from the external ABM firm and to get more information on the firm.",
-      "owner": "Joe Furnari",
-      "deadline": null,
-      "expectedOutcome": {
-        "system": "email",
-        "description": "Shared reporting on markets, dealers, and groups being targeted by the ABM firm to prevent conflicting efforts and messaging."
-      }
-    },
-    {
-      "task": "Send Michael Donovan the outline of his concerns and recommendations regarding the other firm.",
-      "owner": "Joe Furnari",
-      "deadline": null,
-      "expectedOutcome": {
-        "system": "email",
-        "description": "Michael understands the constraints imposed by the engagement with the external ABM firm."
-      }
-    },
-    {
-      "task": "Put together a two-week plan focused on email, social media, landing pages, and driving leads, then reassess with Joe Furnari.",
+      "task": "Charge the monthly subscription for the ICP platform to his credit card.",
       "owner": "Michael Donovan",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "google-docs",
-        "description": "A documented plan mapping out the workflow and a calendar view for the two-week campaign, aiming to generate leads."
-      }
+      "expectedOutcome": null
     },
     {
-      "task": "Charge the monthly subscription for the model or platform to his credit card.",
-      "owner": "Michael Donovan",
+      "task": "Send an email to Michael Donovan regarding the payment for the subscription.",
+      "owner": "Joe Furnari",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "crm",
-        "description": "Successful payment of the monthly subscription fee."
-      }
+      "expectedOutcome": null
     }
   ],
   "topicsDiscussed": [
     "social-media-feedback",
-    "content-strategy",
-    "ideal-customer-profile",
-    "abm-strategy",
-    "lead-generation",
-    "bdc-assessment-app",
-    "team-alignment",
-    "lead-magnet-integration",
-    "expense-reporting"
+    "marketing-strategy-clarity",
+    "bdc-ecosystem-content",
+    "ideal-customer-profile-icp",
+    "abm-external-firm-engagement",
+    "bdc-self-assessment-app",
+    "lead-generation-strategy"
   ],
   "tensions": [
-    "Joe's concerns about channel conflict and data attribution due to Vinnie's decision to hire an external ABM firm.",
-    "Vinnie's refusal to entertain a unified strategy between the internal team and the external ABM firm.",
-    "Disagreement between Michael and Joe on the timeline to integrate the BDC assessment tool.",
-    "Joe's concerns that Michael's timelines are unrealistic.",
-    "Jason may be uncomfortable with the ABM's firm lead engagement process."
+    "Lack of direct interaction (comments/likes) on social media posts.",
+    "Vinnie's decision to hire an external ABM firm without internal team input.",
+    "Concerns about channel conflict, messaging drift, and data attribution with external firm.",
+    "Vinnie's refusal to entertain a unified strategy between internal and external teams.",
+    "Michael Donovan's frustration over past marketing strategy inconsistencies and lack of resources.",
+    "Disagreement on the timeline for BDC app integration (hours vs. days/week).",
+    "Debate on whether the BDC self-assessment app is 'step one' or 'step two/three' for lead generation."
   ],
   "referencesToPast": [
-    "Satisfying Vinnie's earlier requests.",
-    "Mention of previous discussion on map hours and contact enrichment.",
-    "Mentioned they talked about these groups last week."
-  ]
+    "Vinnie's earlier requests for social media posts.",
+    "Previous discussions about the 'Never Miss' slogan.",
+    "Michael Donovan's prior meeting with Jason.",
+    "Vinnie's decision to hire an external ABM firm based on a referral.",
+    "Michael Donovan's concerns about marketing strategy since September.",
+    "Reference to Q2 last year's record-breaking quarter."
+  ],
+  "contributions": [
+    {
+      "person_name": "Joe Furnari",
+      "topic": "social-media-feedback",
+      "description": "Acknowledged positive impact of recent social media posts, satisfying Vinnie's requests.",
+      "type": "topic",
+      "occurrence": "repeated",
+      "status": "approved"
+    },
+    {
+      "person_name": "Paulo Trovao",
+      "topic": "social-media-content",
+      "description": "Noted injecting posts with thought-provoking data to create a sense of need.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "bdc-ecosystem-content",
+      "description": "Outlined next steps for developing an integrated 'BDC ecosystem' content package.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "ideal-customer-profile-icp",
+      "description": "Presented initial work on ICP, detailing manual data enrichment due to free plan limitations.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "pending"
+    },
+    {
+      "person_name": "Joe Furnari",
+      "topic": "abm-external-firm-engagement",
+      "description": "Relayed Vinnie's decision to hire an external ABM firm, expressing concerns.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "denied"
+    },
+    {
+      "person_name": "Joe Furnari",
+      "topic": "unified-marketing-strategy",
+      "description": "Recommended a unified strategy between internal team and external ABM firm.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "denied"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "bdc-self-assessment-app",
+      "description": "Presented a BDC self-assessment application to serve as an MQL engine.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "lead-generation-strategy",
+      "description": "Proposed a two-week plan focusing on email, social, and landing pages for lead generation.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "approved"
+    }
+  ],
+  "participation": [
+    {
+      "person_name": "Joe Furnari",
+      "words_spoken": 1200,
+      "participation_percentage": 45.0,
+      "level": "HIGH"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "words_spoken": 1400,
+      "participation_percentage": 52.5,
+      "level": "HIGH"
+    },
+    {
+      "person_name": "Paulo Trovao",
+      "words_spoken": 65,
+      "participation_percentage": 2.5,
+      "level": "LOW"
+    }
+  ],
+  "durationMinutes": 48
 }

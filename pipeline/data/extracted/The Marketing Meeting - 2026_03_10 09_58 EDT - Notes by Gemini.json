@@ -1,5 +1,5 @@
 {
-  "meetingId": "the-marketing-meeting-2026-03-10",
+  "meetingId": "MKTG-20260310-001",
   "title": "The Marketing Meeting",
   "date": "2026-03-10",
   "series": "The Marketing Meeting",
@@ -11,35 +11,69 @@
     "Jason Branham",
     "Paulo Trovao"
   ],
-  "summary": "The meeting focused on campaign content and messaging accuracy, especially concerning the integration of AI into marketing materials. There was a strong disagreement over content relevance and messaging authority, but the team committed to a simplified campaign implementation, agreeing to share draft email themes for content modification. Vinnie Micciche agreed to quickly provide finalized content to ensure accurate messaging.",
+  "summary": "Initial technical review and ICP scoring confirmed, with a significant disagreement over content validity and messaging authority, requiring content simplification and theme focus.",
   "decisions": [
     {
-      "description": "ICP groups were identified using seed customers based on analyzed technology usage and staffing levels to create a defined target audience.",
-      "decidedBy": ["Michael Donovan"],
-      "topic": "buyer-targeting",
+      "description": "Ideal Customer Profile (ICP) groups identified using seed customers and defined by technology usage and staffing levels.",
+      "decidedBy": [
+        "Michael Donovan",
+        "Team"
+      ],
+      "topic": "icp-group-identification",
       "confidence": "firm"
     },
     {
-      "description": "Dashboard simplification was confirmed and historical revenue data was confirmed to originate from the invoice tracker.",
-      "decidedBy": ["Michael Donovan"],
-      "topic": "dashboard-simplification",
-      "confidence": "firm"
-    },
-    {
-      "description": "Simplified campaign implementation was committed to, foregoing video content initially.",
+      "description": "Campaign implementation simplified by foregoing video content initially.",
       "decidedBy": [
         "Joe Furnari",
-        "Vinnie Micciche",
-        "Michael Donovan",
-        "Jason Branham"
+        "Team"
       ],
-      "topic": "campaign-implementation",
+      "topic": "campaign-content-simplification",
       "confidence": "firm"
     },
     {
-      "description": "2 or 3 draft email themes will be shared for content modification.",
-      "decidedBy": ["Joe Furnari", "Michael Donovan"],
-      "topic": "email-campaign-content",
+      "description": "Team to share 2-3 draft email themes for content modification.",
+      "decidedBy": [
+        "Joe Furnari",
+        "Team"
+      ],
+      "topic": "campaign-content-modification",
+      "confidence": "firm"
+    },
+    {
+      "description": "Vinnie Micciche will provide finalized email content quickly to ensure accurate messaging.",
+      "decidedBy": [
+        "Vinnie Micciche",
+        "Team"
+      ],
+      "topic": "email-content-creation",
+      "confidence": "firm"
+    },
+    {
+      "description": "Response time data point updated to 5.4 based on Vinnie Micciche's feedback.",
+      "decidedBy": [
+        "Michael Donovan",
+        "Vinnie Micciche"
+      ],
+      "topic": "data-accuracy",
+      "confidence": "firm"
+    },
+    {
+      "description": "Messaging should center on human involvement, AI, and personal response.",
+      "decidedBy": [
+        "Vinnie Micciche",
+        "Team"
+      ],
+      "topic": "messaging-strategy",
+      "confidence": "firm"
+    },
+    {
+      "description": "Michael Donovan to simplify deliverable to 2-3 cohorts with simple draft emails for refinement.",
+      "decidedBy": [
+        "Joe Furnari",
+        "Team"
+      ],
+      "topic": "email-campaign-deliverables",
       "confidence": "firm"
     }
   ],
@@ -48,57 +82,139 @@
       "task": "Complete the current pipeline and scoring model.",
       "owner": "Jason Branham",
       "deadline": "2026-03-10",
-      "expectedOutcome": {
-        "system": "other",
-        "description": "A completed pipeline and scoring model based on lifetime accounts and associated lifetime value data."
-      }
+      "expectedOutcome": null
     },
     {
-      "task": "Provide Vinnie Micciche and Jason Branham with two or three themes for the weekly email campaigns.",
+      "task": "Provide Vinnie Micciche and Jason Branham with two or three themes for weekly email campaigns.",
       "owner": "Michael Donovan",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "email",
-        "description": "Shared themes to guide content creation for the email campaigns."
-      }
+      "expectedOutcome": null
     },
     {
-      "task": "Provide content for the email campaigns based on the themes Michael Donovan provides.",
+      "task": "Provide Michael Donovan with content for the email campaigns based on the themes.",
       "owner": "Vinnie Micciche",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "email",
-        "description": "Completed content aligned with the agreed-upon themes for the email campaigns."
-      }
+      "expectedOutcome": null
     }
   ],
   "topicsDiscussed": [
-    "technical-review",
-    "icp-scoring",
-    "content-validity",
+    "icp-group-identification",
     "messaging-authority",
-    "content-simplification",
-    "theme-focus",
+    "campaign-content-simplification",
+    "technical-setup",
     "dashboard-simplification",
     "historical-revenue-data",
-    "ideal-customer-profile",
-    "campaign-launch",
-    "ai-integration",
-    "data-accuracy",
-    "campaign-implementation",
-    "lead-generation",
-    "lead-quality",
-    "roi-analysis"
+    "content-needs-campaign-launch",
+    "ai-in-messaging",
+    "efficiency-gains",
+    "lead-wasting-data",
+    "fragmented-ai-risks",
+    "response-time-data",
+    "economic-buyer-targeting"
   ],
   "tensions": [
-    "Disagreement over content relevance and the need for AI focus in marketing materials.",
-    "Concern that current sales deck data is outdated and lacks essential AI focus.",
-    "Disagreement over whose messaging authority should be prioritized, especially regarding industry expertise.",
-    "Michael Donovan pushed back, stating that the draft email content was intentionally geared to go to the economic buyer and other classified decision-makers, a point Vinnie Micciche immediately rejected as a marketing twist and not reality"
+    "Strong disagreement over content relevance and validity of current sales deck data.",
+    "Vinnie Micciche asserted messaging authority, demanding development halt until content needs are understood.",
+    "Vinnie Micciche expressed concern about Michael Donovan's focus on technical aspects over message substance.",
+    "Michael Donovan pushed back on Vinnie Micciche's rejection of 'economic buyer' targeting for email content."
   ],
   "referencesToPast": [
-    "Mention of Vinnie Micciche's feedback received and updates underway.",
-    "Reference to the dashboard's original version being \"overwhelming\".",
-    "Content used in the sales deck was reliant on \"old BDC data\" that was relevant ten years ago but that dealers would probably scoff at today, lacking essential information on AI."
-  ]
+    "Historical revenue data originated from the invoice tracker.",
+    "Sales deck content was reliant on 'old BDC data' from ten years ago.",
+    "Response time data point updated to 5.4 based on Vinnie Micciche's previous feedback.",
+    "Cox study cited regarding 20% of salesperson's salary wasted on bad leads.",
+    "Internal company data shows about 30% of serviced leads are bad."
+  ],
+  "contributions": [
+    {
+      "person_name": "Michael Donovan",
+      "topic": "dashboard-simplification",
+      "description": "Provided an overview of the simplified dashboard, noting data origin and security.",
+      "type": "concept",
+      "occurrence": "repeated",
+      "status": "pending"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "icp-group-identification",
+      "description": "Confirmed ICP groups developed by analyzing technology usage and staffing levels.",
+      "type": "topic",
+      "occurrence": "repeated",
+      "status": "approved"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "campaign-video-content",
+      "description": "Requested a 60-90 second video featuring Vinnie Micciche and Jason Branham for campaign launch.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "denied"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "sales-deck-content-relevance",
+      "description": "Expressed concern that sales deck content was outdated 'old BDC data' and lacked AI focus.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "pending"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "messaging-authority",
+      "description": "Asserted that messaging should come from industry experts who talk to dealers daily.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "approved"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "messaging-strategy",
+      "description": "Stressed importance of messaging centered on human involvement, AI, and personal response.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "approved"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "ai-utilization",
+      "description": "Argued current materials fail to highlight company's deep utilization of real AI and conversational data layer.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "approved"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "fragmented-ai-risks",
+      "description": "Warned about dangers of fragmented AI tools and shared an anecdote about an illegal 'straw purchase'.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Jason Branham",
+      "topic": "value-proposition",
+      "description": "Reinforced value proposition by citing a Cox study on wasted leads.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "approved"
+    },
+    {
+      "person_name": "Joe Furnari",
+      "topic": "campaign-implementation-strategy",
+      "description": "Proposed a simplified approach for initial campaign launch, foregoing video and sharing draft emails.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "approved"
+    },
+    {
+      "person_name": "Joe Furnari",
+      "topic": "email-campaign-deliverables",
+      "description": "Recommended Michael Donovan simplify deliverable to 2-3 cohorts with simple draft emails for refinement.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "approved"
+    }
+  ],
+  "participation": [],
+  "durationMinutes": null
 }

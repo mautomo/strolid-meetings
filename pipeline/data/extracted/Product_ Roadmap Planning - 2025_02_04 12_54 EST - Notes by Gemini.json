@@ -1,8 +1,8 @@
 {
-  "meetingId": "product-roadmap-planning-2025-02-04",
-  "title": "Product: Roadmap Planning",
+  "meetingId": "prod-roadmap-20250204",
+  "title": "Product Roadmap Planning",
   "date": "2025-02-04",
-  "series": "Product: Roadmap Planning",
+  "series": "Product Roadmap Planning",
   "type": "product",
   "attendees": [
     "Thomas Howe",
@@ -17,61 +17,309 @@
     "Michael Mirabile",
     "Michael Donovan"
   ],
-  "summary": "The meeting centered on Q1 roadmap planning, presented by Matt Watson, with a focus on GPT, the portal, and signals. Key discussions involved timeline management, resource allocation, the phone system transition, and GPT pilot program feedback. Decisions included finalizing the phone system transition by February 28th and prioritizing dealer feedback for the GPT pilot.",
+  "summary": "Matt Watson presented Q1 roadmap (GPT, portal, signals). Joe Furnari pushed for timelines. Vinnie Micciche stressed testing and QA. Discussions covered resource allocation, delay analysis, phone system transition, Crescendo integration, and dealer GPT feedback. Collaboration with Mike's team on LLM continues.",
   "decisions": [
     {
-      "description": "Finalize the phone system transition by February 28th (pending contract).",
-      "decidedBy": ["Matt Watson", "Vinnie Micciche"],
+      "description": "Finalize phone system transition by February 28th, pending contract.",
+      "decidedBy": [
+        "Matt Watson",
+        "Engineering team"
+      ],
       "topic": "phone-system-transition",
-      "confidence": "firm"
+      "confidence": "tentative"
     },
     {
-      "description": "Integrate Crescendo (dependent on contract).",
-      "decidedBy": ["Matt Watson"],
+      "description": "Integrate Crescendo into the product, dependent on contract finalization.",
+      "decidedBy": [
+        "Team"
+      ],
       "topic": "crescendo-integration",
       "confidence": "tentative"
     },
     {
-      "description": "Prioritize dealer GPT feedback.",
-      "decidedBy": ["Matt Watson", "Vinnie Micciche"],
+      "description": "Prioritize dealer GPT feedback for product improvement and decision-making.",
+      "decidedBy": [
+        "Matt Watson",
+        "Vinnie Micciche"
+      ],
       "topic": "dealer-gpt-feedback",
       "confidence": "firm"
     },
     {
-      "description": "Increase Sergey's hours.",
-      "decidedBy": ["Vinnie Micciche"],
-      "topic": "resource-allocation",
-      "confidence": "tentative"
+      "description": "Continue collaboration with Mike and his team on LLM development.",
+      "decidedBy": [
+        "Thomas Howe",
+        "Engineering team"
+      ],
+      "topic": "LLM-development",
+      "confidence": "firm"
+    },
+    {
+      "description": "Establish a dedicated QA department to address quality control issues.",
+      "decidedBy": [
+        "Vinnie Micciche",
+        "Team"
+      ],
+      "topic": "quality-assurance",
+      "confidence": "firm"
+    },
+    {
+      "description": "Implement time-boxing for feature releases to manage scope effectively.",
+      "decidedBy": [
+        "Thomas Howe",
+        "Team"
+      ],
+      "topic": "release-management",
+      "confidence": "firm"
+    },
+    {
+      "description": "Address critical bugs in the GPT pilot swiftly to ensure usability.",
+      "decidedBy": [
+        "Matt Watson",
+        "Engineering team"
+      ],
+      "topic": "gpt-pilot-bugs",
+      "confidence": "firm"
     }
   ],
   "actionItems": [
     {
-      "task": "Conduct a gap analysis to determine the necessary level of effort and associated costs for achieving project timelines.",
+      "task": "Finalize contract for phone system transition.",
+      "owner": "Unassigned",
+      "deadline": "2025-02-28",
+      "expectedOutcome": null
+    },
+    {
+      "task": "Complete phone system transition.",
+      "owner": "Engineering team",
+      "deadline": "2025-02-28",
+      "expectedOutcome": null
+    },
+    {
+      "task": "Finalize contract for Crescendo integration.",
+      "owner": "Unassigned",
+      "deadline": null,
+      "expectedOutcome": null
+    },
+    {
+      "task": "Integrate Crescendo.",
+      "owner": "Engineering team",
+      "deadline": null,
+      "expectedOutcome": null
+    },
+    {
+      "task": "Prioritize and address dealer GPT feedback.",
+      "owner": "Matt Watson",
+      "deadline": null,
+      "expectedOutcome": null
+    },
+    {
+      "task": "Continue LLM development collaboration with Mike's team.",
+      "owner": "Thomas Howe",
+      "deadline": null,
+      "expectedOutcome": null
+    },
+    {
+      "task": "Conduct gap analysis for project timelines and associated costs.",
       "owner": "Joe Furnari",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "other",
-        "description": "A clear understanding of the required effort and costs associated with project timelines."
-      }
+      "expectedOutcome": null
+    },
+    {
+      "task": "Increase Sergey's hours to improve team efficiency.",
+      "owner": "Vinnie Micciche",
+      "deadline": null,
+      "expectedOutcome": null
+    },
+    {
+      "task": "Address critical bugs in the GPT pilot.",
+      "owner": "Engineering team",
+      "deadline": null,
+      "expectedOutcome": null
     }
   ],
   "topicsDiscussed": [
     "q1-roadmap",
-    "gpt-deployment",
+    "gpt-development",
+    "portal-enhancements",
+    "signals-feature",
+    "timeline-management",
+    "testing-quality-assurance",
     "resource-allocation",
     "phone-system-transition",
     "crescendo-integration",
-    "gpt-pilot-program",
-    "dealer-feedback",
-    "llm-development"
+    "dealer-gpt-feedback",
+    "LLM-development",
+    "crm-fixes",
+    "sales-opportunities-impact"
   ],
   "tensions": [
-    "Concerns about rushing releases and the need for thorough testing before launch.",
     "Frustration over delays in GPT deployment.",
-    "Concerns about the upcoming phone system transition's impact on workflow.",
-    "Debate on prioritizing speed versus understanding SLAs for the phone system transition."
+    "Concerns about rushing releases without thorough testing.",
+    "Debate on prioritizing speed versus understanding SLAs for phone system transition.",
+    "Challenges of setting timelines for innovative, rapidly evolving technologies like GPT.",
+    "Impact of sales-focused projects on core product development and resource allocation."
   ],
   "referencesToPast": [
-    "Previous feedback from a similar initiative with merchants."
-  ]
+    "Leveraging previous feedback from a similar initiative with merchants for dealer involvement."
+  ],
+  "contributions": [
+    {
+      "person_name": "Matt Watson",
+      "topic": "q1-roadmap",
+      "description": "Presented Q1 roadmap focusing on GPT, the portal, and signals.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Joe Furnari",
+      "topic": "timeline-management",
+      "description": "Advocated for sharper timelines and specific deliverables for projects.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "testing-quality-assurance",
+      "description": "Stressed thorough testing before launch and the need for a QA department.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Thomas Howe",
+      "topic": "release-management",
+      "description": "Supported time-boxing releases to manage features within allocated timeframes.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "resource-allocation",
+      "description": "Proposed leveraging David's investment to increase Sergey's hours for efficiency.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Joe Furnari",
+      "topic": "project-planning",
+      "description": "Suggested a gap analysis to determine effort and costs for project timelines.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Shawna Behen",
+      "topic": "phone-system-transition",
+      "description": "Raised concerns about the potential impact of the upcoming phone system transition.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "phone-system-transition",
+      "description": "Emphasized the urgency of the transition due to Ring Plan's fragility.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Matt Watson",
+      "topic": "gpt-pilot-program",
+      "description": "Acknowledged bugs in the GPT pilot, causing deployment delays to dealers.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "dealer-gpt-feedback",
+      "description": "Emphasized prioritizing dealer feedback and understanding its context and value.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Thomas Howe",
+      "topic": "LLM-development",
+      "description": "Provided an update on collaboration with Mike's team and LLM development plans.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "proposed"
+    }
+  ],
+  "participation": [
+    {
+      "person_name": "Matt Watson",
+      "words_spoken": 100,
+      "participation_percentage": 25.0,
+      "level": "HIGH"
+    },
+    {
+      "person_name": "Joe Furnari",
+      "words_spoken": 80,
+      "participation_percentage": 20.0,
+      "level": "HIGH"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "words_spoken": 120,
+      "participation_percentage": 30.0,
+      "level": "HIGH"
+    },
+    {
+      "person_name": "Thomas Howe",
+      "words_spoken": 60,
+      "participation_percentage": 15.0,
+      "level": "MEDIUM"
+    },
+    {
+      "person_name": "Shawna Behen",
+      "words_spoken": 20,
+      "participation_percentage": 5.0,
+      "level": "LOW"
+    },
+    {
+      "person_name": "Kristina Cvitko",
+      "words_spoken": 0,
+      "participation_percentage": 0.0,
+      "level": "NONE"
+    },
+    {
+      "person_name": "Ken Herron",
+      "words_spoken": 0,
+      "participation_percentage": 0.0,
+      "level": "NONE"
+    },
+    {
+      "person_name": "David Walsh",
+      "words_spoken": 0,
+      "participation_percentage": 0.0,
+      "level": "NONE"
+    },
+    {
+      "person_name": "Jason Branham",
+      "words_spoken": 0,
+      "participation_percentage": 0.0,
+      "level": "NONE"
+    },
+    {
+      "person_name": "Michael Mirabile",
+      "words_spoken": 0,
+      "participation_percentage": 0.0,
+      "level": "NONE"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "words_spoken": 0,
+      "participation_percentage": 0.0,
+      "level": "NONE"
+    }
+  ],
+  "durationMinutes": null
 }

@@ -1,78 +1,170 @@
 {
-  "meetingId": "joe-and-michael-regroup-2026-02-12",
+  "meetingId": "joe-michael-regroup-20260212",
   "title": "Joe and Michael Regroup",
   "date": "2026-02-12",
-  "series": "Joe and Michael Regroup",
+  "series": "One-on-One Regroup",
   "type": "one-on-one",
-  "attendees": ["Joe Furnari", "Michael Donovan"],
-  "summary": "Joe and Michael discussed leveraging a document Vinnie liked for content deliverables and timelines for budget acquisition. They also addressed database hygiene and financial resources. Joe conveyed Vinnie's preference for a dedicated in-house team, which conflicted with Michael's commitments, leading to a discussion about his employment agreement and compensation.",
+  "attendees": [
+    "Joe Furnari",
+    "Michael Donovan",
+    "Vinnie Micciche",
+    "Paulo Trovao",
+    "Matt Watson",
+    "Jason Branham",
+    "Sergey",
+    "Maria Dunning"
+  ],
+  "summary": "Joe Furnari and Michael Donovan discussed feedback on a document Vinnie liked and Michael Donovan's plan to leverage it for various content deliverables, emphasizing the need to convey timelines for these deliverables to Vinnie to secure more budget for demand generation. They also addressed the necessity of financial resources for database hygiene and improving data quality, with Joe Furnari asking Michael Donovan to develop a two- to three-priority budgetary proposal with costs and timelines for Vinnie’s approval. Joe Furnari conveyed Vinnie's preference for a fully dedicated, in-house marketing team, which conflicted with Michael Donovan's existing commitments and led to a difficult discussion about Michael Donovan's employment agreement and compensation.",
   "decisions": [
     {
-      "description": "Michael will develop a list of two or three priorities with associated costs and timelines for budget approval.",
-      "decidedBy": ["Joe Furnari", "Michael Donovan"],
-      "topic": "budget-priorities",
+      "description": "Michael to develop a 2-3 priority budget proposal with costs and timelines.",
+      "decidedBy": [
+        "Joe Furnari",
+        "Michael Donovan"
+      ],
+      "topic": "budget-proposal",
       "confidence": "firm"
     },
     {
-      "description": "Michael will provide Vinnie with an endpoint for the assessment lead magnet quickly if Matt provides it.",
-      "decidedBy": ["Michael Donovan"],
-      "topic": "assessment-lead-magnet",
-      "confidence": "tentative"
-    },
-    {
-      "description": "Focus on database hygiene to improve email campaign results, requiring financial resources for tools and processes.",
-      "decidedBy": ["Michael Donovan"],
-      "topic": "database-hygiene",
-      "confidence": "tentative"
-    },
-    {
-      "description": "Michael will identify and look up contacts (GMs) from Burles Nissan, Matt Bowers Hyundai Gulfport, Matt Bowers Chevy Metairie, and Northway Toyota.",
-      "decidedBy": ["Michael Donovan"],
-      "topic": "target-account-identification",
+      "description": "Michael to map out simple flow and rough budget estimates for Vinnie.",
+      "decidedBy": [
+        "Michael Donovan"
+      ],
+      "topic": "budget-strategy-framework",
       "confidence": "firm"
     },
     {
-      "description": "Use a 50% closing rate from SQLs for projections.",
-      "decidedBy": ["Joe Furnari", "Michael Donovan"],
+      "description": "Identify key customer accounts for targeting and segmentation.",
+      "decidedBy": [
+        "Joe Furnari",
+        "Michael Donovan"
+      ],
+      "topic": "customer-segmentation",
+      "confidence": "firm"
+    },
+    {
+      "description": "Use specific dealerships (Burles Nissan, Matt Bowers, Northway Toyota) for targeting.",
+      "decidedBy": [
+        "Joe Furnari",
+        "Michael Donovan"
+      ],
+      "topic": "target-accounts",
+      "confidence": "firm"
+    },
+    {
+      "description": "Approach budget conversation by highlighting underspent funds for repurposing.",
+      "decidedBy": [
+        "Joe Furnari"
+      ],
+      "topic": "budget-allocation-strategy",
+      "confidence": "firm"
+    },
+    {
+      "description": "Set objective to close 10 new deals per month.",
+      "decidedBy": [
+        "Joe Furnari",
+        "Michael Donovan"
+      ],
+      "topic": "sales-targets",
+      "confidence": "firm"
+    },
+    {
+      "description": "Use a conservative 50% closing rate for SQLs, requiring 20 SQLs/month.",
+      "decidedBy": [
+        "Joe Furnari",
+        "Michael Donovan"
+      ],
       "topic": "sales-conversion-rate",
       "confidence": "firm"
+    },
+    {
+      "description": "Incorporate Answering Machine Detection (AMD) to improve data quality.",
+      "decidedBy": [
+        "Michael Donovan"
+      ],
+      "topic": "data-quality-improvement",
+      "confidence": "tentative"
+    },
+    {
+      "description": "Implement definitions, sources, and change log in reporting portal using FUMA.",
+      "decidedBy": [
+        "Michael Donovan"
+      ],
+      "topic": "reporting-documentation",
+      "confidence": "tentative"
     }
   ],
   "actionItems": [
     {
-      "task": "Create a list of two or three priorities with estimated cost and time frame and develop a framework for the strategy.",
+      "task": "Create a 2-3 priority budget proposal with costs and timelines.",
+      "owner": "Michael Donovan",
+      "deadline": "2026-02-13",
+      "expectedOutcome": {
+        "system": "Vinnie's approval",
+        "description": "Budget proposal for Vinnie's review and approval."
+      }
+    },
+    {
+      "task": "Develop a framework for the strategy to be reviewed Monday and presented Tuesday.",
+      "owner": "Michael Donovan",
+      "deadline": "2026-02-13",
+      "expectedOutcome": {
+        "system": "Internal review",
+        "description": "Strategy framework ready for review and presentation."
+      }
+    },
+    {
+      "task": "Talk to Vinnie about Michael Donovan's compensation plan.",
+      "owner": "Joe Furnari",
+      "deadline": "2026-02-17",
+      "expectedOutcome": {
+        "system": "Compensation review",
+        "description": "Discussion with Vinnie regarding Michael's compensation."
+      }
+    },
+    {
+      "task": "Give Vinnie an update on the marketing team and strategy conversation.",
+      "owner": "Joe Furnari",
+      "deadline": "2026-02-17",
+      "expectedOutcome": {
+        "system": "Vinnie's awareness",
+        "description": "Update Vinnie on team and strategy discussions."
+      }
+    },
+    {
+      "task": "Look up GMs from Hyundai Gulfport, Chevy Metairie, and Burles Nissan.",
       "owner": "Michael Donovan",
       "deadline": null,
       "expectedOutcome": {
-        "system": "google-docs",
-        "description": "Document outlining priorities, costs, timelines, and strategy framework for Vinnie's review."
+        "system": "Contact list",
+        "description": "Identify General Managers for target dealerships."
       }
     },
     {
-      "task": "Talk to Vinnie about Michael's compensation plan and the plan for building out the team.",
-      "owner": "Joe Furnari",
-      "deadline": null,
-      "expectedOutcome": {
-        "system": "other",
-        "description": "Vinnie's feedback and decisions regarding compensation and team structure."
-      }
-    },
-    {
-      "task": "Give Vinnie an update on Monday regarding the marketing team and strategy conversation.",
-      "owner": "Joe Furnari",
-      "deadline": null,
-      "expectedOutcome": {
-        "system": "other",
-        "description": "Vinnie is updated on the team strategy"
-      }
-    },
-    {
-      "task": "Look up the GMs from Hyundai, Gulfport, Chevy, Meteory, and Berles, Nissan.",
+      "task": "Continue working on the budget and strategy framework for Vinnie.",
       "owner": "Michael Donovan",
       "deadline": null,
       "expectedOutcome": {
-        "system": "crm",
-        "description": "List of GMs from target dealerships added to the CRM."
+        "system": "Presentation material",
+        "description": "Refine budget and strategy for Vinnie's presentation."
+      }
+    },
+    {
+      "task": "Have a conversation with Vinnie about Michael Donovan's compensation plan.",
+      "owner": "Joe Furnari",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "Compensation review",
+        "description": "Discuss Michael's compensation with Vinnie."
+      }
+    },
+    {
+      "task": "Kick AMD and FUMA documentation ideas to Sergey.",
+      "owner": "Michael Donovan",
+      "deadline": null,
+      "expectedOutcome": {
+        "system": "Sergey's awareness",
+        "description": "Inform Sergey about AMD and FUMA documentation suggestions."
       }
     }
   ],
@@ -81,36 +173,159 @@
     "content-deliverables",
     "budget-allocation",
     "demand-generation",
-    "flywheel-strategy",
-    "blog-content",
-    "podcast-material",
-    "timeline-for-deliverables",
-    "google-ads-performance",
     "database-hygiene",
-    "segmented-list",
+    "data-quality",
+    "budgetary-proposals",
     "target-accounts",
-    "segmentation",
     "financial-strategy",
+    "sales-goals",
     "marketing-infrastructure",
-    "reporting-portal",
+    "system-improvements",
     "organizational-structure",
+    "personnel-model",
     "employment-agreement",
-    "compensation-plan"
+    "compensation-plan",
+    "google-ads-performance",
+    "email-campaigns",
+    "assessment-lead-magnet",
+    "reporting-portal"
   ],
   "tensions": [
-    "Vinnie's preference for a fully dedicated in-house marketing team conflicting with Michael's existing commitments.",
-    "Michael's dissatisfaction with their compensation plan.",
-    "Joe and Michael disagreeing on the origin of Michael's employment agreement.",
-    "Concerns about data contamination within Zoho.",
-    "Conflicting information received by Michael from Vinnie."
+    "Vinnie's preference for a fully dedicated in-house marketing team conflicts with Michael Donovan's existing commitments.",
+    "Michael Donovan's dissatisfaction with his employment agreement and compensation.",
+    "Joe Furnari's denial of responsibility for Michael's employment agreement terms.",
+    "Michael Donovan receives conflicting responses from Vinnie on various matters.",
+    "Joe Furnari's concern about the lack of internal resources for database hygiene.",
+    "Michael Donovan feeling \"hamstrung on budget\" impacting priorities.",
+    "Michael Donovan's assertion of integrity regarding time and \"double-dipping\" accusations."
   ],
   "referencesToPast": [
     "Unsuccessful call with Front Line.",
-    "Positive feedback Vinnie provided on information sent by Paulo.",
-    "Prior materials leveraged for blog content and podcasts.",
+    "Positive feedback from Vinnie on information sent by Paulo.",
+    "Vinnie's email about strategy, described as a \"hell dock\".",
+    "Leveraging prior materials and AI for content.",
     "Previous conversations about database hygiene.",
-    "Review of SQL data from previous months and years.",
-    "Reference to report Michael shared many months ago",
-    "Mention of previous month's team changes with Sergey and Matt."
-  ]
+    "Joe started SESAT and NPS survey in December, but CRM was a disaster.",
+    "Joe was on with Zoho, who showed him how to build the CRM.",
+    "Jason Branham has mentioned email campaigns multiple times.",
+    "Michael asked for five best customer accounts the other day.",
+    "Joe shared historical data on SQL conversion rates from a report months ago.",
+    "Joe had a prior conversation with Vinnie about marketing team strategy.",
+    "Michael's employment agreement negotiation and its terms.",
+    "Michael's belief that Vinnie set the baseline for his compensation.",
+    "Michael receiving conflicting responses from Vinnie, including being \"fired in a meeting\"."
+  ],
+  "contributions": [
+    {
+      "person_name": "Michael Donovan",
+      "topic": "content-strategy",
+      "description": "Plan to leverage Vinnie's liked document for various content deliverables.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "approved"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "marketing-strategy",
+      "description": "Proposed \"crawl, walk, run\" data-driven strategy for continuous improvement.",
+      "type": "concept",
+      "occurrence": "repeated",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "database-hygiene",
+      "description": "Suggested financial resources for tools like Clay for database cleanup.",
+      "type": "idea",
+      "occurrence": "repeated",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "customer-segmentation",
+      "description": "Requested names of longest-standing dealerships for targeting and segmentation.",
+      "type": "topic",
+      "occurrence": "repeated",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "data-quality",
+      "description": "Recommended incorporating Answering Machine Detection (AMD).",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "reporting-documentation",
+      "description": "Stressed need for definitions, sources, and change log in reporting portal using FUMA.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "marketing-infrastructure",
+      "description": "Highlighted existing marketing infrastructure for assessment data and content ideation.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Joe Furnari",
+      "topic": "budget-justification",
+      "description": "Emphasized conveying deliverable timelines to Vinnie to secure more demand gen budget.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Joe Furnari",
+      "topic": "budget-proposal",
+      "description": "Asked Michael to develop a 2-3 priority budgetary proposal with costs and timelines.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "approved"
+    },
+    {
+      "person_name": "Joe Furnari",
+      "topic": "budget-strategy",
+      "description": "Proposed using repurposed underspent budget to fund new marketing initiatives.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Joe Furnari",
+      "topic": "sales-targets",
+      "description": "Suggested objective of closing 10 new deals a month with a 50% conversion rate.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "approved"
+    },
+    {
+      "person_name": "Joe Furnari",
+      "topic": "team-structure",
+      "description": "Relayed Vinnie's strong preference for a fully dedicated, in-house marketing team.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "proposed"
+    }
+  ],
+  "participation": [
+    {
+      "person_name": "Joe Furnari",
+      "words_spoken": 1800,
+      "participation_percentage": 48.0,
+      "level": "HIGH"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "words_spoken": 1950,
+      "participation_percentage": 52.0,
+      "level": "HIGH"
+    }
+  ],
+  "durationMinutes": 52
 }

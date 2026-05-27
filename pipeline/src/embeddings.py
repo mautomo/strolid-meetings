@@ -200,6 +200,8 @@ def process_and_embed_all():
     groups = {}
     for f in meeting_files:
         stem = Path(f).stem
+        # Clean any trailing copy numbers like " (1)" or " (2)"
+        stem = re.sub(r'\s*\(\d+\)$', '', stem).strip()
         groups.setdefault(stem, []).append(f)
         
     deduped_meetings = []
@@ -252,8 +254,9 @@ def process_and_embed_all():
         print(f"  Split into {len(chunks)} chunks.")
         
         sentiment = "NEUTRAL"
-        from normalize import resolve_name
+        from normalize import resolve_name, standardize_date
         attendees = [resolve_name(a) for a in meta.attendees]
+        std_date = standardize_date(meta.date)
         
         for c_idx, chunk in enumerate(chunks):
             chunk_id = f"{meta.meetingId}-c{str(c_idx).zfill(3)}"
@@ -264,7 +267,7 @@ def process_and_embed_all():
                 all_chunks_rows.append({
                     "chunk_id": chunk_id,
                     "meeting_id": meta.meetingId,
-                    "date": meta.date,
+                    "date": std_date,
                     "text": chunk,
                     "attendees": attendees,
                     "topics": meta.topicsDiscussed,
@@ -299,8 +302,9 @@ def process_and_embed_all():
                 authors = doc_dict.get("authors", [])
                 topics = doc_dict.get("topics", [])
                 
-                from normalize import resolve_name
+                from normalize import resolve_name, standardize_date
                 authors_resolved = [resolve_name(a) for a in authors]
+                std_date = standardize_date(date_str)
                 
                 # Chunk text (documents are not transcripts)
                 chunks = chunk_text(text, is_transcript=False)
@@ -313,7 +317,7 @@ def process_and_embed_all():
                         all_chunks_rows.append({
                             "chunk_id": chunk_id,
                             "meeting_id": doc_id,
-                            "date": date_str,
+                            "date": std_date,
                             "text": chunk,
                             "attendees": authors_resolved,
                             "topics": topics,

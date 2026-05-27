@@ -1,103 +1,227 @@
 {
-  "meetingId": "vin-and-michael-2025-12-03",
-  "title": "Vin and Michael",
+  "meetingId": "vin-michael-20251203",
+  "title": "One-on-One: Vinnie Micciche and Michael Donovan",
   "date": "2025-12-03",
-  "series": "Vin and Michael",
+  "series": "Vin and Michael One-on-One",
   "type": "one-on-one",
-  "attendees": ["Vinnie Micciche", "Michael Donovan"],
-  "summary": "Vinnie Micciche and Michael Donovan discussed Christina's newsletter proposal, with Michael approving the flat fee. Vinnie expressed frustration with Michael's lack of task completion and communication, particularly regarding the Viconic website, instructing Michael to halt work on it until Perry provides clear direction. The discussion escalated, leading Vinnie to suggest separating and offering Michael a consulting role.",
+  "attendees": [
+    "Vinnie Micciche",
+    "Michael Donovan"
+  ],
+  "summary": "Vinnie Micciche and Michael Donovan discussed Christina's proposed flat fee for newsletter work, which Michael Donovan found reasonable despite viewing the hourly rate as high. Vinnie Micciche expressed frustration with Michael Donovan's unfinished tasks and lack of clear communication regarding health issues or workload prioritization, contrasting this with Michael Donovan's focus on other projects like the Viconic website, which Vinnie Micciche wants Michael Donovan to stop working on until Perry provides clear direction due to Perry's frequent changes and complex requests. The conversation escalated to Vinnie Micciche questioning Michael Donovan's execution, leading to Vinnie Micciche suggesting that they need to separate, offering Michael Donovan a consulting role, and requesting Michael Donovan send a document detailing the constant changes Perry has made to the Viconic website.",
   "decisions": [
     {
-      "description": "Michael Donovan agrees with Christina's proposed flat fee for newsletter work.",
-      "decidedBy": ["Michael Donovan"],
+      "description": "Christina's flat fee for newsletter work is reasonable.",
+      "decidedBy": [
+        "Vinnie Micciche",
+        "Michael Donovan"
+      ],
       "topic": "newsletter-proposal",
       "confidence": "firm"
     },
     {
-      "description": "Michael Donovan to stop working on the Viconic website until Perry gives very clear direction.",
-      "decidedBy": ["Vinnie Micciche"],
-      "topic": "viconic-website",
+      "description": "Michael to stop Viconic website work until Perry gives clear direction.",
+      "decidedBy": [
+        "Vinnie Micciche"
+      ],
+      "topic": "viconic-website-project",
       "confidence": "firm"
     },
     {
-      "description": "Vinnie Micciche suggests separating and offers Michael Donovan a consulting role.",
-      "decidedBy": ["Vinnie Micciche"],
-      "topic": "employment-separation",
-      "confidence": "tentative"
+      "description": "Vinnie suggests separating from Michael, offering a consulting role.",
+      "decidedBy": [
+        "Vinnie Micciche"
+      ],
+      "topic": "employment-status",
+      "confidence": "firm"
     }
   ],
   "actionItems": [
     {
-      "task": "Prepare a document outlining a timeline of all the changes Perry has requested for the Viconic site.",
+      "task": "Prepare document outlining Perry's Viconic site changes timeline.",
       "owner": "Michael Donovan",
       "deadline": null,
       "expectedOutcome": {
-        "system": "google-docs",
-        "description": "A timeline documenting all changes to the Viconic website requested by Perry."
+        "system": "document",
+        "description": "Clear timeline of Perry's Viconic website changes."
       }
     },
     {
-      "task": "Send the social posts to Vinnie Micciche for review with the captions in a Google doc.",
+      "task": "Send social posts for review with captions in Google doc.",
       "owner": "Michael Donovan",
-      "deadline": null,
+      "deadline": "2025-12-03",
       "expectedOutcome": {
-        "system": "google-docs",
-        "description": "Google doc containing social media posts and captions for review."
+        "system": "google-doc",
+        "description": "Social posts with captions for Vinnie's review."
       }
     },
     {
-      "task": "Provide an estimated timeframe for deliverables for the website pages design and build.",
+      "task": "Provide estimated timeframe for website pages design and build deliverables.",
       "owner": "Michael Donovan",
       "deadline": null,
       "expectedOutcome": {
-        "system": "other",
-        "description": "Estimated timeline for the completion of website page design and build."
+        "system": "report",
+        "description": "Timeline for website design and build deliverables."
       }
     },
     {
-      "task": "Work something up to help Vinnie Micciche with the rest of the stuff he is doing so Vinnie Micciche can move on.",
+      "task": "Work up a plan for transition to consulting role.",
       "owner": "Michael Donovan",
       "deadline": null,
       "expectedOutcome": {
-        "system": "other",
-        "description": "Plan to transition responsibilities to allow Vinnie to move on from current projects."
+        "system": "plan",
+        "description": "Transition plan for Michael Donovan's responsibilities."
       }
     }
   ],
   "topicsDiscussed": [
-    "newsletter-proposal",
-    "task-completion",
-    "communication-issues",
-    "health-issues",
-    "viconic-website",
-    "project-management",
-    "delivery-expectations",
-    "execution",
-    "social-media-strategy",
-    "team-management",
-    "employee-expectations",
-    "workload-management",
-    "trust-and-confidence",
-    "timeline-deliverables",
-    "employment-separation"
+    "christina-newsletter-proposal",
+    "task-completion-prioritization",
+    "communication-health-issues",
+    "viconic-website-project",
+    "delivery-rework-avoidance",
+    "execution-gratification",
+    "perry-website-requests",
+    "communication-style-complexity",
+    "z-performance-dismissal",
+    "project-status-deliverables",
+    "employment-separation-consulting"
   ],
   "tensions": [
-    "Vinnie's frustration with Michael's lack of task completion.",
-    "Michael's health issues impacting work and communication.",
-    "Michael's perceived lack of focus and prioritization.",
-    "Michael's feeling of being 'painted into a corner' by Vinnie.",
-    "Vinnie's questioning of Michael's marketing knowledge.",
-    "Michael feeling excluded from the newsletter strategy.",
-    "Michael's feeling that Vinnie does not trust his skills or knowledge.",
-    "Vinnie's concern about the lack of quick progress on the marketing side.",
-    "Z blaming Michael for not getting work done.",
-    "Michael's perspective that Vinnie's perception of time is off."
+    "Vinnie's frustration with Michael's unfinished tasks and perceived ignoring of requests.",
+    "Lack of clear communication from Michael regarding health issues or workload.",
+    "Disagreement over Michael's approach to the Viconic website and Perry's changing demands.",
+    "Vinnie's concern about Michael's tendency to 'push back' with own ideas instead of delivering.",
+    "Michael feeling 'painted into a corner' and distrusted by Vinnie.",
+    "Dispute over Michael's involvement and management of Z, and Z's dismissal.",
+    "Vinnie's stress from the argumentative nature of the conversation.",
+    "Michael's perception of being fired vs. Vinnie's proposal for separation."
   ],
   "referencesToPast": [
-    "Previous conversations with Z about task completion.",
-    "Past website built by Vinnie Micciche taking only an hour.",
-    "Previous situation with Z being fired.",
-    "Previous conversations with Perry about the Viconic website since August.",
-    "Previous offsite meeting."
-  ]
+    "what we were paying her (Christina)",
+    "told Z the same thing (about not asking for much)",
+    "I spent my whole career making sure I did exactly what my bosses said",
+    "I've totally dropped the Viconic website (previous decision by Vinnie)",
+    "asked you one day to give me anything by the end of the day and I didn't get it (Viconic)",
+    "conversations with him about it (Perry and Viconic)",
+    "talking about this freaking website since August",
+    "previous situation with Z",
+    "workflow document Vinnie sent regarding Z",
+    "brought that up over a month ago, the week after the offsite (Z's performance)",
+    "I asked you three weeks ago what you have him do (Z)",
+    "one email campaign last month and none in the month before"
+  ],
+  "contributions": [
+    {
+      "person_name": "Michael Donovan",
+      "topic": "christina-newsletter-proposal",
+      "description": "Proposed flat fee for newsletter is reasonable despite high hourly rate.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "approved"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "task-completion-prioritization",
+      "description": "Michael needs to prioritize and deliver on Vinnie's requests.",
+      "type": "topic",
+      "occurrence": "repeated",
+      "status": "pending"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "communication-health-issues",
+      "description": "Michael must communicate health issues or workload to Vinnie.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "viconic-website-project",
+      "description": "Michael should stop Viconic work until Perry gives clear direction.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "approved"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "viconic-website-project",
+      "description": "Built Viconic site using basic copywriting methodology as a starting point.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "pending"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "delivery-rework-avoidance",
+      "description": "Focus on specific direction and delivery, avoid recreating new methods.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "execution-gratification",
+      "description": "Values velocity and speed, prefers quick execution, fixing messes later.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "perry-website-requests",
+      "description": "Perry wants the entire Viconic site to be video-based.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "pending"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "perry-website-requests",
+      "description": "Michael should document Perry's frequent changes to the Viconic website.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "approved"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "task-saturation",
+      "description": "Experiencing 'task saturation' and feeling overwhelmed by many tasks.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "pending"
+    },
+    {
+      "person_name": "Vinnie Micciche",
+      "topic": "employment-separation-consulting",
+      "description": "Suggests separating from Michael, offering a consulting role instead.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "marketing-strategy",
+      "description": "Claims 181 pages of refined content 'fully wrapped in schema'.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "proposed"
+    }
+  ],
+  "participation": [
+    {
+      "person_name": "Vinnie Micciche",
+      "words_spoken": 1500,
+      "participation_percentage": 60.0,
+      "level": "HIGH"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "words_spoken": 1000,
+      "participation_percentage": 40.0,
+      "level": "MEDIUM"
+    }
+  ],
+  "durationMinutes": 35
 }

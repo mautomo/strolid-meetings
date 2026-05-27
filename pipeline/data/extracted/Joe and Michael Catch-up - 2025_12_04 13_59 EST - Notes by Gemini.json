@@ -1,60 +1,113 @@
 {
-  "meetingId": "joe-and-michael-catch-up-2025-12-04",
+  "meetingId": "joe-michael-catchup-20251204",
   "title": "Joe and Michael Catch-up",
   "date": "2025-12-04",
-  "series": "Joe and Michael Catch-up",
+  "series": "One-on-One Catch-up",
   "type": "one-on-one",
-  "attendees": ["Joe Furnari", "Michael Donovan"],
-  "summary": "Joe Furnari and Michael Donovan discussed Vinnie's management style and its impact on workflow, including a Perplexity payment issue and content strategy challenges due to inconsistent feedback. Joe advised Michael to balance tool development with immediate production to satisfy Vinnie's impatience, while Michael temporarily resolved the Perplexity issue and aims for a more efficient content creation system.",
+  "attendees": [
+    "Joe Furnari",
+    "Michael Donovan"
+  ],
+  "summary": "Joe Furnari and Michael Donovan discussed Vinnie's emotionally volatile management style and low emotional intelligence, noting that Vinnie has fired them multiple times, and addressed workflow challenges, including a Perplexity payment issue that Michael Donovan temporarily resolved. The participants discussed difficulties with content strategy due to Vinnie's inconsistent feedback, excessive content requests, and lack of interest in tracking, with Joe Furnari advising Michael Donovan to balance tool development with immediate production to satisfy Vinnie's impatience.",
   "decisions": [
     {
-      "description": "Michael Donovan temporarily paid the $40 charge for Perplexity to resolve the immediate lockout.",
-      "decidedBy": ["Michael Donovan"],
-      "topic": "perplexity-payment",
-      "confidence": "firm"
-    },
-    {
-      "description": "Focus on one big content idea per month.",
-      "decidedBy": ["Michael Donovan"],
-      "topic": "content-strategy",
+      "description": "Michael Donovan temporarily paid $40 for Perplexity to resolve lockout.",
+      "decidedBy": [
+        "Michael Donovan"
+      ],
+      "topic": "perplexity-payment-issue",
       "confidence": "firm"
     }
   ],
   "actionItems": [
     {
-      "task": "Find the documents that Vinnie sent for the social posts.",
+      "task": "Find Vinnie's social post documents.",
       "owner": "Joe Furnari",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "google-docs",
-        "description": "Locate the original document from Vinnie for creating social posts."
-      }
+      "expectedOutcome": null
     },
     {
-      "task": "Work with Mindy to put the Google account and other services on her corporate card.",
+      "task": "Work with Mindy to migrate Google and other accounts to corporate card.",
       "owner": "Michael Donovan",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "other",
-        "description": "Migrate accounts to the corporate card to resolve payment issues."
-      }
+      "expectedOutcome": null
     }
   ],
   "topicsDiscussed": [
-    "vinnie-management-style",
-    "perplexity-payment",
+    "vinnies-management-style",
+    "workplace-environment",
     "social-post-workflow",
+    "perplexity-payment-issue",
     "content-strategy",
-    "source-documentation"
+    "source-documentation",
+    "content-production-development"
   ],
   "tensions": [
     "Vinnie's emotionally volatile management style and low emotional intelligence.",
-    "Vinnie's inconsistent feedback and excessive content requests.",
-    "Frustration over Vinnie's lack of interest in tracking and reporting, prioritizing immediate visibility instead.",
-    "Difficulty in advancing the social post workflow due to being locked out of the Perplexity platform related to a payment issue."
+    "Vinnie has fired them multiple times, creating an unstable environment.",
+    "Difficulties with content strategy due to Vinnie's inconsistent feedback.",
+    "Vinnie's excessive content requests and lack of interest in tracking.",
+    "Frustration over Vinnie prioritizing immediate visibility over tracking/reporting.",
+    "Disagreement on content length/format based on Vinnie's past feedback.",
+    "Financial constraints attributed to Vinnie's focus on controlling expenses."
   ],
   "referencesToPast": [
-    "Past incident where Vinnie got animated, and Shauna had to intervene.",
-    "Vinnie's past feedback contradicted this approach by stating that content was 'too much to read'."
-  ]
+    "Vinnie has fired them multiple times.",
+    "Michael Donovan was fired once the day before.",
+    "Past incident where Vinnie got animated and Shauna intervened.",
+    "Needed exact format of GPT documents Vinnie previously sent.",
+    "Vinnie's past feedback stated content was 'too much to read'."
+  ],
+  "contributions": [
+    {
+      "person_name": "Joe Furnari",
+      "topic": "vinnies-management-style",
+      "description": "Vinnie has low emotional intelligence and often fires people.",
+      "type": "topic",
+      "occurrence": "repeated",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Joe Furnari",
+      "topic": "content-production-development",
+      "description": "Advised balancing tool development with immediate production to satisfy Vinnie.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "social-post-workflow",
+      "description": "Detailed difficulties with social post workflow due to Perplexity lockout.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "content-strategy",
+      "description": "Proposed creating a 'flywheel effect' through efficient systems.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "content-strategy",
+      "description": "Suggested focusing on 'one big idea for the month' for content.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "source-documentation",
+      "description": "Prioritized sources like JD Power and Automotive News for fact-checking.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "proposed"
+    }
+  ],
+  "participation": [],
+  "durationMinutes": null
 }

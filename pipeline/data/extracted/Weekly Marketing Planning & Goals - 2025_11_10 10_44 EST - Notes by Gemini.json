@@ -1,65 +1,142 @@
 {
-  "meetingId": "weekly-marketing-planning-goals-2025-11-10",
+  "meetingId": "MKTG-20251110-001",
   "title": "Weekly Marketing Planning & Goals",
   "date": "2025-11-10",
-  "series": "Weekly Marketing Planning & Goals",
+  "series": "Weekly Marketing Planning",
   "type": "marketing",
-  "attendees": ["Ziad Al Khatib", "Michael Donovan"],
-  "summary": "Ziad presented advertising content, and Michael raised concerns about factual accuracy, emphasizing the need for system checks on quantitative metrics. They discussed content strategy, agreeing on a character limit for Facebook content and addressing technical issues. Michael requested past creative posts in PDF format and examined an AI-generated output, questioning its data connections.",
+  "attendees": [
+    "Ziad Al Khatib",
+    "Michael Donovan"
+  ],
+  "summary": "Ziad Al Khatib presented visual advertising content for Wednesday and Thursday, including a graphic referencing \"9 hours to 5 minutes real results,\" which Michael Donovan questioned for factual accuracy and emphasized the need for system fact-checking of quantitative metrics. Michael Donovan and Ziad Al Khatib discussed the evolving content strategy, outlining Perplexity settings, content requirements like \"fact check quantitative metrics and statistics\" and \"Punchy lines,\" and agreed on an optional 250-character limit for content length, particularly for Facebook. The speakers also addressed technical issues related to file size limits and project file management, reviewed content performance and document strategy where Michael Donovan requested previous creative posts in a PDF format from Ziad Al Khatib, and examined an AI-generated output, with Michael Donovan questioning the AI's data connections and noting the importance of understanding the AI's structure to consistently achieve content objectives.",
   "decisions": [
     {
-      "description": "Content requirements should include \"fact check quantitative metrics and statistics\" and \"Punchy lines\".",
-      "decidedBy": ["Michael Donovan", "Ziad Al Khatib"],
-      "topic": "content-requirements",
+      "description": "Optional 250-character limit for content length, particularly for Facebook.",
+      "decidedBy": [
+        "Michael Donovan",
+        "Ziad Al Khatib"
+      ],
+      "topic": "social-media-content-length",
       "confidence": "firm"
     },
     {
-      "description": "Content length for Facebook should optionally include a limit of 250 characters.",
-      "decidedBy": ["Michael Donovan", "Ziad Al Khatib"],
-      "topic": "content-length",
-      "confidence": "tentative"
-    },
-    {
-      "description": "Remove the example output to reduce the file size.",
-      "decidedBy": ["Michael Donovan"],
-      "topic": "file-size-reduction",
+      "description": "Remove example output to reduce project file size.",
+      "decidedBy": [
+        "Michael Donovan"
+      ],
+      "topic": "project-file-management",
       "confidence": "firm"
     },
     {
-      "description": "Past creative posts to be provided in PDF format.",
-      "decidedBy": ["Michael Donovan"],
-      "topic": "document-format",
+      "description": "Previous creative posts to be sent in PDF format.",
+      "decidedBy": [
+        "Michael Donovan",
+        "Ziad Al Khatib"
+      ],
+      "topic": "document-strategy",
       "confidence": "firm"
     }
   ],
   "actionItems": [
     {
-      "task": "Select and import the previous creative posts and send them to Michael Donovan in a PDF format.",
+      "task": "Select, import, and send previous creative posts to Michael Donovan in PDF format.",
       "owner": "Ziad Al Khatib",
       "deadline": null,
-      "expectedOutcome": {
-        "system": "email",
-        "description": "Michael Donovan receives a PDF containing the past creative posts."
-      }
+      "expectedOutcome": null
     }
   ],
   "topicsDiscussed": [
     "visual-advertising-content",
-    "perplexity-setup",
-    "content-strategy",
-    "content-length",
-    "social-media-optimization",
-    "technical-issues",
-    "project-file-management",
-    "content-performance",
+    "content-strategy-evolution",
+    "perplexity-settings",
+    "quantitative-metric-fact-checking",
+    "social-media-content-length",
+    "technical-file-management-issues",
+    "content-performance-review",
     "document-strategy",
-    "ai-functionality",
-    "ai-content-structure"
+    "ai-generated-content-review",
+    "understanding-ai-output-structure"
   ],
   "tensions": [
-    "Questioning the factual accuracy of the \"9 hours to 5 minutes\" statistic.",
-    "Concerns about AI's data connections and relevance of certain outputs.",
-    "Image produced by AI was not the right orientation."
+    "Michael Donovan questioned the factual accuracy of the '9 hours to 5 minutes' statistic.",
+    "Michael Donovan questioned the AI's data connections and relevance of its output.",
+    "Technical issues with saving files due to being 'over' the size limit."
   ],
-  "referencesToPast": ["Previous creative posts", "previous topics"]
+  "referencesToPast": [
+    "Michael Donovan noted the system had previously allowed saving a file with the same high number count.",
+    "Ziad Al Khatib suggested attachments might be pulling from previous topics."
+  ],
+  "contributions": [
+    {
+      "person_name": "Ziad Al Khatib",
+      "topic": "visual-advertising-content",
+      "description": "Presented visual advertising content for Wednesday and Thursday.",
+      "type": "topic",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "quantitative-metric-fact-checking",
+      "description": "Emphasized the need for system fact-checking of quantitative metrics.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "approved"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "content-strategy-evolution",
+      "description": "Outlined Perplexity settings and content requirements like 'Punchy lines'.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "social-media-content-length",
+      "description": "Suggested an optional 250-character limit for Facebook content length.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "approved"
+    },
+    {
+      "person_name": "Ziad Al Khatib",
+      "topic": "document-strategy",
+      "description": "Offered to send previous creative posts to Michael Donovan.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "ai-output-understanding",
+      "description": "Clarified AI output structure: headline is first line, image copy for visual.",
+      "type": "concept",
+      "occurrence": "first time",
+      "status": "proposed"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "topic": "project-file-management",
+      "description": "Decided to remove example output to reduce file size.",
+      "type": "idea",
+      "occurrence": "first time",
+      "status": "approved"
+    }
+  ],
+  "participation": [
+    {
+      "person_name": "Ziad Al Khatib",
+      "words_spoken": 150,
+      "participation_percentage": 45.0,
+      "level": "HIGH"
+    },
+    {
+      "person_name": "Michael Donovan",
+      "words_spoken": 180,
+      "participation_percentage": 55.0,
+      "level": "HIGH"
+    }
+  ],
+  "durationMinutes": null
 }
