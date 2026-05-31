@@ -1,8 +1,48 @@
 rules_version = '2';
 service cloud.firestore {
   match /databases/{database}/documents {
+
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function emailOf() {
+      return request.auth.token.email;
+    }
+
+    function canReadConversation(data) {
+      return isSignedIn() && (
+        data.ownerUid == request.auth.uid ||
+        (emailOf() != null && emailOf() in data.sharedWith)
+      );
+    }
+
+    // Conversations are owned by their creator and optionally shared (read-only) with
+    // other users by email. ALL writes go through the backend Admin SDK (which bypasses
+    // these rules), so client writes are denied. Clients may only read what they own or
+    // have been shared. A list query must be constrained by ownerUid or sharedWith
+    // (array-contains) so every returned doc satisfies this rule.
+    match /conversations/{conversationId} {
+      allow read: if isSignedIn() && (
+        resource.data.ownerUid == request.auth.uid ||
+        (emailOf() != null && emailOf() in resource.data.sharedWith)
+      );
+      allow write: if false;
+
+      match /messages/{messageId} {
+        allow read: if canReadConversation(
+          get(/databases/$(database)/documents/conversations/$(conversationId)).data
+        );
+        allow write: if false;
+      }
+    }
+
+    // Members allowlist and legacy global sessions are backend-only (Admin SDK).
+    match /members/{memberId} {
+      allow read, write: if false;
+    }
     match /sessions/{sessionId}/{document=**} {
-      allow read, write: if request.auth != null;
+      allow read, write: if false;
     }
   }
 }
