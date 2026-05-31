@@ -21,6 +21,7 @@ const CANVAS_OPTIONS: { hint: CanvasHint; label: string; prompt: string }[] = [
   { hint: "presentation", label: "Presentation", prompt: "Create a presentation summarizing the selected meetings." },
   { hint: "scorecard", label: "Scorecard", prompt: "Generate a reliability scorecard for the selected scope." },
   { hint: "comparison", label: "Comparison", prompt: "Compare alignment between two people on the selected topics." },
+  { hint: "deepthink", label: "DeepThink", prompt: "Find where an individual set a direction on a topic and later reversed it themselves." },
 ];
 
 const SENTIMENT_OPTIONS: { mode: SentimentMode; label: string }[] = [

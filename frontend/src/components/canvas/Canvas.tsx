@@ -6,6 +6,7 @@ import { TimelineArtifact } from "./artifacts/TimelineArtifact";
 import { PresentationArtifact } from "./artifacts/PresentationArtifact";
 import { ScorecardArtifact } from "./artifacts/ScorecardArtifact";
 import { ComparisonArtifact } from "./artifacts/ComparisonArtifact";
+import { DeepThinkArtifact } from "./artifacts/DeepThinkArtifact";
 
 export function Canvas() {
   const { activeArtifact, setActiveArtifact } = useChat();
@@ -42,6 +43,7 @@ export function Canvas() {
         {activeArtifact.artifact_type === "presentation" && <PresentationArtifact data={activeArtifact} />}
         {activeArtifact.artifact_type === "scorecard" && <ScorecardArtifact data={activeArtifact} />}
         {activeArtifact.artifact_type === "comparison" && <ComparisonArtifact data={activeArtifact} />}
+        {activeArtifact.artifact_type === "deepthink" && <DeepThinkArtifact data={activeArtifact} />}
       </div>
     </section>
   );

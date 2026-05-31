@@ -23,6 +23,7 @@ ARTIFACT_TOOLS = {
     "generate_timeline_artifact",
     "generate_scorecard_artifact",
     "generate_comparison_artifact",
+    "generate_deepthink_artifact",
 }
 
 
@@ -80,11 +81,16 @@ class ComparisonArtifact(_ArtifactBase):
     alignment_score: float
 
 
+class DeepThinkArtifact(_ArtifactBase):
+    reversals: list
+
+
 _ARTIFACT_MODELS = {
     "presentation": PresentationArtifact,
     "timeline": TimelineArtifact,
     "scorecard": ScorecardArtifact,
     "comparison": ComparisonArtifact,
+    "deepthink": DeepThinkArtifact,
 }
 
 
@@ -408,6 +414,7 @@ CANVAS_HINTS = {
     "presentation": "generate_presentation_artifact",
     "scorecard": "generate_scorecard_artifact",
     "comparison": "generate_comparison_artifact",
+    "deepthink": "generate_deepthink_artifact",
 }
 
 

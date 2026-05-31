@@ -1,6 +1,6 @@
 "use client";
 
-import { Presentation, CalendarRange, Gauge, GitCompareArrows, type LucideIcon } from "lucide-react";
+import { Presentation, CalendarRange, Gauge, GitCompareArrows, Brain, type LucideIcon } from "lucide-react";
 import { useChat } from "@/context/ChatContext";
 import { Markdown } from "@/components/common/Markdown";
 import { AssistantAvatar, UserAvatar } from "@/components/common/Avatars";
@@ -11,6 +11,7 @@ const ARTIFACT_ICON: Record<Artifact["artifact_type"], LucideIcon> = {
   timeline: CalendarRange,
   scorecard: Gauge,
   comparison: GitCompareArrows,
+  deepthink: Brain,
 };
 
 export function MessageBubble({ message }: { message: Message }) {

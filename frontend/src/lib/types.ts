@@ -4,7 +4,8 @@ export type ArtifactType =
   | "timeline"
   | "presentation"
   | "scorecard"
-  | "comparison";
+  | "comparison"
+  | "deepthink";
 
 export interface TimelineEvent {
   id: string;
@@ -58,11 +59,33 @@ export interface ComparisonArtifact {
   key_findings?: string[];
 }
 
+export interface DeepThinkReversal {
+  id: string;
+  person: string;
+  topic: string;
+  original_position: string;
+  original_date: string;
+  original_meeting: string;
+  original_confidence: string;
+  new_position: string;
+  change_date: string;
+  change_meeting: string;
+  new_confidence: string;
+  days_between: number;
+}
+
+export interface DeepThinkArtifact {
+  artifact_type: "deepthink";
+  title: string;
+  reversals: DeepThinkReversal[];
+}
+
 export type Artifact =
   | TimelineArtifact
   | PresentationArtifact
   | ScorecardArtifact
-  | ComparisonArtifact;
+  | ComparisonArtifact
+  | DeepThinkArtifact;
 
 export interface Message {
   id: string;
@@ -88,7 +111,7 @@ export interface Topic {
   mention_count: number;
 }
 
-export type CanvasHint = "timeline" | "presentation" | "scorecard" | "comparison";
+export type CanvasHint = "timeline" | "presentation" | "scorecard" | "comparison" | "deepthink";
 export type SentimentMode = "one_to_one" | "one_to_all" | "all";
 
 export type Role = "admin" | "user";
