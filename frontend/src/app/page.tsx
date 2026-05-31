@@ -13,6 +13,8 @@ import {
 } from "firebase/auth";
 import { collection, query, orderBy, onSnapshot, limit } from "firebase/firestore";
 import { auth, db } from "./firebase";
+import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
 import "./globals.css";
 
 const API_BASE = typeof window !== "undefined" && window.location.hostname === "localhost"
@@ -29,146 +31,23 @@ interface Message {
 
 function renderMarkdown(text: string) {
   if (!text) return null;
-
-  const lines = text.split("\n");
-  const elements: React.ReactNode[] = [];
-  
-  let currentList: React.ReactNode[] = [];
-  let currentListType: "ul" | "ol" | null = null;
-  
-  let currentTableHeaders: string[] = [];
-  let currentTableRows: string[][] = [];
-  let inTable = false;
-  
-  const parseInline = (str: string): React.ReactNode[] => {
-    const parts = str.split(/(\*\*.*?\*\*)/g);
-    return parts.map((part, idx) => {
-      if (part.startsWith("**") && part.endsWith("**")) {
-        return <strong key={idx}>{part.slice(2, -2)}</strong>;
-      }
-      return part;
-    });
-  };
-
-  const flushList = (key: number) => {
-    if (currentList.length > 0) {
-      if (currentListType === "ul") {
-        elements.push(
-          <ul key={`ul-${key}`} style={{ paddingLeft: "1.25rem", margin: "0.5rem 0", listStyleType: "disc" }}>
-            {currentList}
-          </ul>
-        );
-      } else {
-        elements.push(
-          <ol key={`ol-${key}`} style={{ paddingLeft: "1.25rem", margin: "0.5rem 0", listStyleType: "decimal" }}>
-            {currentList}
-          </ol>
-        );
-      }
-      currentList = [];
-      currentListType = null;
-    }
-  };
-
-  const flushTable = (key: number) => {
-    if (inTable) {
-      elements.push(
-        <div key={`table-wrapper-${key}`} className="table-container">
-          <table className="markdown-table">
-            <thead>
-              <tr>
-                {currentTableHeaders.map((header, hIdx) => (
-                  <th key={hIdx}>{parseInline(header)}</th>
-                ))}
-              </tr>
-            </thead>
-            <tbody>
-              {currentTableRows.map((row, rIdx) => (
-                <tr key={rIdx}>
-                  {row.map((cell, cIdx) => (
-                    <td key={cIdx}>{parseInline(cell)}</td>
-                  ))}
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
-      );
-      currentTableHeaders = [];
-      currentTableRows = [];
-      inTable = false;
-    }
-  };
-
-  for (let i = 0; i < lines.length; i++) {
-    const line = lines[i];
-    const trimmed = line.trim();
-
-    if (trimmed.startsWith("|")) {
-      flushList(i);
-      const cells = line.split("|").slice(1, -1).map(c => c.trim());
-      const isSeparator = cells.every(c => /^:?-+:?$/.test(c));
-      
-      if (isSeparator) {
-        continue;
-      }
-      
-      if (!inTable) {
-        inTable = true;
-        currentTableHeaders = cells;
-      } else {
-        currentTableRows.push(cells);
-      }
-      continue;
-    } else if (inTable) {
-      flushTable(i);
-    }
-
-    const bulletMatch = line.match(/^(\s*)([-*+])\s+(.*)/);
-    const numberedMatch = line.match(/^(\s*)(\d+)\.\s+(.*)/);
-
-    if (bulletMatch) {
-      if (currentListType !== "ul") {
-        flushList(i);
-        currentListType = "ul";
-      }
-      currentList.push(
-        <li key={`li-${i}`} style={{ marginBottom: "0.2rem" }}>
-          {parseInline(bulletMatch[3])}
-        </li>
-      );
-      continue;
-    } else if (numberedMatch) {
-      if (currentListType !== "ol") {
-        flushList(i);
-        currentListType = "ol";
-      }
-      currentList.push(
-        <li key={`li-${i}`} style={{ marginBottom: "0.2rem" }}>
-          {parseInline(numberedMatch[3])}
-        </li>
-      );
-      continue;
-    }
-
-    if (trimmed === "") {
-      flushList(i);
-      elements.push(<div key={`space-${i}`} style={{ height: "0.5rem" }} />);
-      continue;
-    }
-
-    flushList(i);
-    elements.push(
-      <p key={`p-${i}`} style={{ margin: "0.25rem 0", lineHeight: "1.4" }}>
-        {parseInline(line)}
-      </p>
-    );
-  }
-
-  flushList(lines.length);
-  flushTable(lines.length);
-
-  return <>{elements}</>;
+  return (
+    <div className="markdown-body">
+      <ReactMarkdown
+        remarkPlugins={[remarkGfm]}
+        components={{
+          // Preserve the existing table styling (globals.css .table-container / .markdown-table)
+          table: (props) => (
+            <div className="table-container">
+              <table className="markdown-table" {...props} />
+            </div>
+          ),
+        }}
+      >
+        {text}
+      </ReactMarkdown>
+    </div>
+  );
 }
 
 const GeminiSparkle = () => (
@@ -220,6 +99,8 @@ export default function Home() {
   const [sessionId, setSessionId] = useState("session-strolid-q4-2025");
   const [isStreaming, setIsStreaming] = useState(false);
   const [streamText, setStreamText] = useState("");
+  const [chatError, setChatError] = useState("");
+  const [lastUserMessage, setLastUserMessage] = useState("");
   
   // Date and meeting filtering states
   const [startDate, setStartDate] = useState<string>("");
@@ -286,6 +167,10 @@ export default function Home() {
   // Listen to Firestore Chat Messages when logged in
   useEffect(() => {
     if (!user || !db) return;
+
+    // Switching sessions: clear stale canvas/errors before the new listener repopulates.
+    setActiveArtifact(null);
+    setChatError("");
 
     const msgsRef = collection(db, "sessions", sessionId, "messages");
     const q = query(msgsRef, orderBy("timestamp", "asc"));
@@ -393,54 +278,107 @@ export default function Home() {
     }
   };
 
-  // Send message to FastAPI ADK Chatbot
-  const handleSendMessage = async (e: React.FormEvent) => {
-    e.preventDefault();
-    if (!input.trim() || isStreaming) return;
+  // Send a message to the FastAPI ADK chatbot and consume the SSE stream.
+  const sendMessage = async (userMsgText: string) => {
+    if (!userMsgText.trim() || isStreaming) return;
 
-    const userMsgText = input;
-    setInput("");
+    // Date-range sanity check before hitting the backend.
+    if (startDate && endDate && startDate > endDate) {
+      setChatError("Start date must be on or before the end date.");
+      return;
+    }
+
+    setChatError("");
+    setLastUserMessage(userMsgText);
     setIsStreaming(true);
     setStreamText("");
 
+    const controller = new AbortController();
+    // Idle timeout: abort only if the stream stalls (no data) for 45s, rather than
+    // capping total duration, so long but healthy responses are not cut off.
+    let idleTimer: ReturnType<typeof setTimeout> = setTimeout(() => controller.abort(), 45000);
+    const resetIdle = () => {
+      clearTimeout(idleTimer);
+      idleTimer = setTimeout(() => controller.abort(), 45000);
+    };
+
     try {
       const token = await user.getIdToken();
-      const headers: Record<string, string> = { 
-        "Content-Type": "application/json",
-        "x-firebase-auth": token
-      };
-
       const response = await fetch(`${API_BASE}/api/chat`, {
         method: "POST",
-        headers: headers,
+        headers: {
+          "Content-Type": "application/json",
+          "x-firebase-auth": token,
+        },
         body: JSON.stringify({
           session_id: sessionId,
           user_id: user?.uid || "anonymous",
           message: userMsgText,
           start_date: startDate || null,
           end_date: endDate || null,
-          selected_meeting_ids: selectedMeetingIds.length > 0 ? selectedMeetingIds : null
-        })
+          selected_meeting_ids: selectedMeetingIds.length > 0 ? selectedMeetingIds : null,
+        }),
+        signal: controller.signal,
       });
 
-      if (!response.ok) throw new Error("API request failed.");
+      if (!response.ok || !response.body) {
+        throw new Error(`API request failed (${response.status}).`);
+      }
 
-      const reader = response.body?.getReader();
+      const reader = response.body.getReader();
       const decoder = new TextDecoder();
-      if (!reader) throw new Error("Stream reader not supported.");
+      let buffer = "";
+      let streamErr: string | null = null;
 
       while (true) {
         const { value, done } = await reader.read();
         if (done) break;
-        const chunk = decoder.decode(value);
-        setStreamText((prev) => prev + chunk);
+        resetIdle();
+        buffer += decoder.decode(value, { stream: true });
+
+        // SSE frames are separated by a blank line.
+        const frames = buffer.split("\n\n");
+        buffer = frames.pop() ?? "";
+        for (const frame of frames) {
+          const dataLine = frame.split("\n").find((l) => l.startsWith("data:"));
+          if (!dataLine) continue;
+          let evt: any;
+          try {
+            evt = JSON.parse(dataLine.slice(5).trim());
+          } catch {
+            continue;
+          }
+          if (evt.type === "token") {
+            setStreamText((prev) => prev + (evt.text || ""));
+          } else if (evt.type === "artifact" && evt.payload) {
+            setActiveArtifact(evt.payload);
+            if (evt.payload.artifact_type === "presentation") setSlideIndex(0);
+          } else if (evt.type === "error") {
+            streamErr = evt.message || "The assistant hit an error.";
+          }
+        }
       }
-    } catch (err) {
-      console.error("Chat error:", err);
+
+      if (streamErr) setChatError(streamErr);
+    } catch (err: any) {
+      if (err?.name === "AbortError") {
+        setChatError("The request timed out. Please try again.");
+      } else {
+        console.error("Chat error:", err);
+        setChatError("Couldn't reach the assistant. Check your connection and try again.");
+      }
     } finally {
+      clearTimeout(idleTimer);
       setIsStreaming(false);
       setStreamText("");
     }
+  };
+
+  const handleSendMessage = async (e: React.FormEvent) => {
+    e.preventDefault();
+    const text = input;
+    setInput("");
+    await sendMessage(text);
   };
 
   if (loading) {
@@ -848,6 +786,47 @@ export default function Home() {
 
         {/* Input Footer */}
         <footer style={{ padding: "1.5rem 2rem", borderTop: "1px solid var(--border-glass)", background: "transparent" }}>
+          {chatError && (
+            <div
+              style={{
+                maxWidth: "800px",
+                margin: "0 auto 0.75rem",
+                padding: "0.75rem 1rem",
+                background: "rgba(239, 68, 68, 0.1)",
+                border: "1px solid var(--red)",
+                borderRadius: "12px",
+                color: "var(--red)",
+                fontSize: "0.85rem",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "space-between",
+                gap: "1rem",
+              }}
+            >
+              <span>{chatError}</span>
+              <div style={{ display: "flex", gap: "0.5rem", flexShrink: 0 }}>
+                {lastUserMessage && (
+                  <button
+                    onClick={() => sendMessage(lastUserMessage)}
+                    disabled={isStreaming}
+                    className="btn-secondary"
+                    style={{ padding: "0.35rem 0.85rem", fontSize: "0.8rem", borderRadius: "8px" }}
+                  >
+                    Retry
+                  </button>
+                )}
+                <button
+                  onClick={() => setChatError("")}
+                  style={{ background: "transparent", color: "var(--red)", padding: "0 0.25rem", display: "flex", alignItems: "center" }}
+                  aria-label="Dismiss error"
+                >
+                  <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <path d="M3 3L11 11M11 3L3 11" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          )}
           <form onSubmit={handleSendMessage} style={{ maxWidth: "800px", margin: "0 auto", display: "flex", gap: "0.75rem", position: "relative" }}>
             <div style={{ flex: 1, position: "relative", display: "flex", alignItems: "center" }}>
               <input 
