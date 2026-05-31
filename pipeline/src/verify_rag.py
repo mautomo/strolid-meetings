@@ -39,7 +39,8 @@ def run_query(query_text: str):
       TABLE `{PROJECT_ID}.{DATASET_ID}.{TABLE_ID}`,
       'embedding',
       (SELECT @query_vector as embedding),
-      top_k => 3
+      top_k => 3,
+      distance_type => 'COSINE'
     )
     """
     
@@ -55,7 +56,8 @@ def run_query(query_text: str):
         print(f"Found {len(results)} matches.\n")
         
         for idx, row in enumerate(results):
-            print(f"Match [{idx+1}] distance: {row['distance']:.3f} | Date: {row['date']} | ID: {row['meeting_id']}")
+            similarity = 1.0 - row['distance']
+            print(f"Match [{idx+1}] cosine similarity: {similarity:.3f} (distance: {row['distance']:.3f}) | Date: {row['date']} | ID: {row['meeting_id']}")
             print(f"Attendees/Authors: {', '.join(row['attendees']) if row['attendees'] else 'None'}")
             print(f"Topics: {', '.join(row['topics']) if row['topics'] else 'None'}")
             print(f"Text Passage: \"{row['text'].strip()[:200]}...\"")

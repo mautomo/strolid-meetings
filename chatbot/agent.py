@@ -9,6 +9,14 @@ from google.adk.agents import Agent
 PROJECT_ID = os.getenv("GOOGLE_CLOUD_PROJECT", "meeting-analysis-496916")
 DATASET_ID = "strolid_meetings"
 
+# Retrieval tuning (override via env). We over-fetch candidates from VECTOR_SEARCH,
+# then apply an adaptive similarity threshold so we return useful results instead of
+# silently coming up empty.
+RAG_TOP_K = int(os.getenv("RAG_TOP_K", "5"))
+RAG_OVERFETCH = int(os.getenv("RAG_OVERFETCH", "20"))
+RAG_MIN_SIMILARITY = float(os.getenv("RAG_MIN_SIMILARITY", "0.55"))
+RAG_FALLBACK_THRESHOLDS = (0.45, 0.35)
+
 genai_client = genai.Client()
 bq_client = bigquery.Client(project=PROJECT_ID)
 
@@ -64,12 +72,10 @@ async def rag_search(
             params.append(bigquery.ArrayQueryParameter("meeting_ids", "STRING", meeting_ids))
             
         where_clause = f"WHERE {' AND '.join(filters)}" if filters else ""
-        
-        # If there are filters, pre-filter the table
-        if where_clause:
-            table_expr = f"(SELECT * FROM `{PROJECT_ID}.{DATASET_ID}.embeddings` {where_clause})"
-        else:
-            table_expr = f"`{PROJECT_ID}.{DATASET_ID}.embeddings`"
+
+        # VECTOR_SEARCH requires a relation (table subquery), not a bare table name,
+        # so always wrap in a SELECT. This also applies any active metadata filters.
+        table_expr = f"(SELECT * FROM `{PROJECT_ID}.{DATASET_ID}.embeddings` {where_clause})"
             
         sql_query = f"""
         SELECT 
@@ -84,26 +90,66 @@ async def rag_search(
           {table_expr},
           'embedding',
           (SELECT @query_vector as embedding),
-          top_k => 5
+          top_k => {RAG_OVERFETCH},
+          distance_type => 'COSINE'
         )
         """
         
         job_config = bigquery.QueryJobConfig(query_parameters=params)
         query_job = bq_client.query(sql_query, job_config=job_config)
         results = list(query_job.result())
-        
-        # Filter results by similarity score >= 0.55
-        # VECTOR_SEARCH distance for COSINE is cosine distance (1 - cosine similarity).
-        filtered_results = []
-        for row in results:
-            similarity = 1.0 - row["distance"]
-            if similarity >= 0.55:
-                filtered_results.append((row, similarity))
-        
+
+        # Rank all over-fetched candidates by cosine similarity (1 - cosine distance).
+        scored = sorted(
+            ((row, 1.0 - row["distance"]) for row in results),
+            key=lambda rs: rs[1],
+            reverse=True,
+        )
+
+        # Select the top-K above a threshold, de-duplicating identical passages.
+        # The corpus contains repeated chunks (e.g. DOCX+PDF of the same doc), which
+        # would otherwise waste result slots on byte-identical text.
+        def select(threshold: float):
+            seen_text = set()
+            picked = []
+            for row, sim in scored:
+                if sim < threshold:
+                    continue
+                # Dedup on the full normalized passage (a prefix would collapse
+                # distinct chunks that share a boilerplate opening).
+                key = " ".join((row["text"] or "").split())
+                if key in seen_text:
+                    continue
+                seen_text.add(key)
+                picked.append((row, sim))
+                if len(picked) >= RAG_TOP_K:
+                    break
+            return picked
+
+        # Adaptive thresholding: prefer high-confidence matches, but progressively
+        # widen the bar if nothing clears it, so we surface the closest passages
+        # (flagged as lower-confidence) instead of returning a silent empty result.
+        broadened = False
+        filtered_results = select(RAG_MIN_SIMILARITY)
         if not filtered_results:
-            return "No matching meeting segments found for your query with those filters."
-            
-        output = [f"Top semantic matches in the transcript repository for query: '{query}'\n"]
+            for fallback in RAG_FALLBACK_THRESHOLDS:
+                filtered_results = select(fallback)
+                if filtered_results:
+                    broadened = True
+                    break
+
+        if not filtered_results:
+            has_filters = any([attendees, topics, meeting_ids, start_date, end_date])
+            return (
+                f"No meeting segments closely matched '{query}'"
+                + (" with the active filters. Try removing date/attendee/topic filters, " if has_filters else ". Try ")
+                + "rephrasing the question or using different keywords."
+            )
+
+        header = f"Top semantic matches in the transcript repository for query: '{query}'"
+        if broadened:
+            header += "\n(Note: no high-confidence matches were found; showing the closest lower-confidence passages.)"
+        output = [header + "\n"]
         for idx, (row, similarity) in enumerate(filtered_results):
             date_str = row["date"].strftime("%Y-%m-%d") if hasattr(row["date"], "strftime") and row["date"] else str(row["date"])
             output.append(
@@ -518,7 +564,8 @@ async def generate_presentation_artifact(
         slide_contents: List of detailed paragraph contents/bullets for each slide.
         
     Returns:
-        A JSON confirmation string containing the presentation artifact configuration.
+        A dict describing the presentation artifact. The system renders it as an interactive
+        canvas. Do not echo its contents in your text reply.
     """
     slides = []
     # Add title slide
@@ -541,14 +588,12 @@ async def generate_presentation_artifact(
             "bullets": bullets
         })
         
-    artifact = {
+    return {
         "artifact_type": "presentation",
         "title": title,
         "theme": "dark-morphism",
         "slides": slides
     }
-    
-    return json.dumps(artifact, indent=2)
 
 async def generate_timeline_artifact(
     title: str,
@@ -567,7 +612,8 @@ async def generate_timeline_artifact(
         meeting_ids: Optional list of specific meeting IDs to restrict timeline items.
         
     Returns:
-        A JSON confirmation string containing the timeline events array.
+        A dict describing the timeline artifact. The system renders it as an interactive
+        canvas. Do not echo its contents in your text reply.
     """
     try:
         decisions_filters = []
@@ -622,15 +668,13 @@ async def generate_timeline_artifact(
                 "meeting_id": row["meeting_id"]
             })
             
-        artifact = {
+        return {
             "artifact_type": "timeline",
             "title": title,
             "events": events
         }
-        
-        return json.dumps(artifact, indent=2)
     except Exception as e:
-        return f"Error compiling timeline artifact: {e}"
+        return {"status": "error", "message": f"Error compiling timeline artifact: {e}"}
 
 async def generate_scorecard_artifact(
     title: str,
@@ -659,7 +703,8 @@ async def generate_scorecard_artifact(
         key_insights: List of qualitative findings or observations (2-4 insights).
         
     Returns:
-        A JSON string containing the scorecard artifact payload.
+        A dict describing the scorecard artifact. The system renders it as an interactive
+        canvas. Do not echo its contents in your text reply.
     """
     artifact = {
         "artifact_type": "scorecard",
@@ -675,7 +720,7 @@ async def generate_scorecard_artifact(
         "top_topics": top_topics,
         "key_insights": key_insights
     }
-    return json.dumps(artifact, indent=2)
+    return artifact
 
 async def generate_comparison_artifact(
     title: str,
@@ -700,7 +745,8 @@ async def generate_comparison_artifact(
         key_findings: List of summaries or strategic takeaways.
         
     Returns:
-        A JSON string containing the comparison artifact payload.
+        A dict describing the comparison artifact. The system renders it as an interactive
+        canvas. Do not echo its contents in your text reply.
     """
     artifact = {
         "artifact_type": "comparison",
@@ -712,7 +758,7 @@ async def generate_comparison_artifact(
         "contrasting_viewpoints": contrasting_viewpoints,
         "key_findings": key_findings
     }
-    return json.dumps(artifact, indent=2)
+    return artifact
 
 def build_agent() -> Agent:
     instruction = (
