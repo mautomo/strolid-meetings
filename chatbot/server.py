@@ -23,6 +23,7 @@ ARTIFACT_TOOLS = {
     "generate_timeline_artifact",
     "generate_scorecard_artifact",
     "generate_comparison_artifact",
+    "generate_deepthink_artifact",
 }
 
 
@@ -80,11 +81,16 @@ class ComparisonArtifact(_ArtifactBase):
     alignment_score: float
 
 
+class DeepThinkArtifact(_ArtifactBase):
+    reversals: list
+
+
 _ARTIFACT_MODELS = {
     "presentation": PresentationArtifact,
     "timeline": TimelineArtifact,
     "scorecard": ScorecardArtifact,
     "comparison": ComparisonArtifact,
+    "deepthink": DeepThinkArtifact,
 }
 
 
@@ -121,11 +127,39 @@ if not firebase_admin._apps:
 
 db = firestore.client() if firebase_admin._apps else None
 
-async def get_current_user(
-    authorization: str = Header(None),
-    x_firebase_auth: str = Header(None)
-) -> str:
-    """Verifies the Firebase ID token from the x-firebase-auth or Authorization header and returns the UID."""
+# --- Access allowlist + roles (Firestore "members" collection, doc id = lowercased email) ---
+# Bootstrap admins are always treated as admin even before the collection is seeded, so an
+# operator can never lock themselves out. Enforcement is opt-in: until ALLOWLIST_ENFORCED is
+# true, every authenticated user keeps full access (role defaults to "user"). This lets an
+# admin build the allowlist first, then flip enforcement on.
+ADMIN_EMAILS = {e.strip().lower() for e in os.getenv("ADMIN_EMAILS", "").split(",") if e.strip()}
+ALLOWLIST_ENFORCED = os.getenv("ALLOWLIST_ENFORCED", "false").lower() in ("1", "true", "yes")
+MEMBERS_COLLECTION = "members"
+print(f"[access] ADMIN_EMAILS={ADMIN_EMAILS} ALLOWLIST_ENFORCED={ALLOWLIST_ENFORCED}")
+
+
+def get_member(email: Optional[str]) -> Optional[dict]:
+    """Return the member record for an email, or None if not allowlisted."""
+    if not email or not db:
+        return None
+    try:
+        snap = db.collection(MEMBERS_COLLECTION).document(email.lower()).get()
+        return snap.to_dict() if snap.exists else None
+    except Exception as e:
+        print(f"Error reading member {email}: {e}")
+        return None
+
+
+def resolve_role(email: Optional[str]) -> Optional[str]:
+    """Resolve a caller's role: bootstrap admins first, then the members collection, else None."""
+    if email and email.lower() in ADMIN_EMAILS:
+        return "admin"
+    member = get_member(email)
+    return member.get("role") if member else None
+
+
+def _verify_token(authorization: Optional[str], x_firebase_auth: Optional[str]) -> dict:
+    """Extract and verify the Firebase ID token, returning the decoded claims."""
     token = None
     if x_firebase_auth:
         token = x_firebase_auth
@@ -136,10 +170,40 @@ async def get_current_user(
         raise HTTPException(status_code=401, detail="Missing or invalid authorization credentials")
 
     try:
-        decoded_token = auth.verify_id_token(token)
-        return decoded_token["uid"]
+        return auth.verify_id_token(token)
     except Exception as e:
         raise HTTPException(status_code=401, detail=f"Invalid Firebase ID Token: {e}")
+
+
+async def get_current_user(
+    authorization: str = Header(None),
+    x_firebase_auth: str = Header(None)
+) -> str:
+    """Verify the Firebase ID token and return the UID, enforcing the allowlist when enabled."""
+    decoded = _verify_token(authorization, x_firebase_auth)
+    if ALLOWLIST_ENFORCED and resolve_role(decoded.get("email")) is None:
+        raise HTTPException(status_code=403, detail="This account is not on the access allowlist.")
+    return decoded["uid"]
+
+
+async def get_current_principal(
+    authorization: str = Header(None),
+    x_firebase_auth: str = Header(None)
+) -> dict:
+    """Like get_current_user but returns identity + resolved role for /api/me and admin routes."""
+    decoded = _verify_token(authorization, x_firebase_auth)
+    email = decoded.get("email")
+    role = resolve_role(email)
+    if ALLOWLIST_ENFORCED and role is None:
+        raise HTTPException(status_code=403, detail="This account is not on the access allowlist.")
+    return {"uid": decoded["uid"], "email": email, "role": role or "user"}
+
+
+async def require_admin(principal: dict = Depends(get_current_principal)) -> dict:
+    """Allow only admins (bootstrap ADMIN_EMAILS or members with role 'admin')."""
+    if principal["role"] != "admin":
+        raise HTTPException(status_code=403, detail="Admin access required.")
+    return principal
 
 app = FastAPI(title="Strolid Meeting Intelligence Chatbot API")
 
@@ -159,7 +223,7 @@ app.add_middleware(
     # production requests still come from the explicit Firebase origins above.
     allow_origin_regex=r"http://localhost:\d+",
     allow_credentials=True,
-    allow_methods=["GET", "POST", "OPTIONS"],
+    allow_methods=["GET", "POST", "DELETE", "OPTIONS"],
     allow_headers=["Content-Type", "Authorization", "x-firebase-auth"],
 )
 
@@ -171,6 +235,24 @@ class ChatRequest(BaseModel):
     start_date: Optional[str] = None
     end_date: Optional[str] = None
     selected_meeting_ids: Optional[list[str]] = None
+    # Tool-drawer selections (Phase 2). topics filters retrieval; canvas_hint routes the
+    # agent to a specific artifact generator; sentiment_mode is reserved for Phase 5 data.
+    topics: Optional[list[str]] = None
+    canvas_hint: Optional[str] = None
+    sentiment_mode: Optional[str] = None
+
+
+class MemberInvite(BaseModel):
+    email: str
+    role: str = "user"  # "admin" | "user"
+
+
+class ConversationCreate(BaseModel):
+    title: Optional[str] = None
+
+
+class ShareRequest(BaseModel):
+    email: str
 
 
 # --- Basic per-user rate limiting (in-memory sliding window, per instance) ---
@@ -295,11 +377,13 @@ adk_runner = Runner(
 
 
 def _persist_messages(session_id: str, user_message: str, assistant_content: str, artifact_payload: Optional[dict]):
-    """Best-effort Firestore persistence. Never raises into the request path."""
+    """Best-effort Firestore persistence under conversations/{id}. Never raises into the
+    request path. The conversation doc is created/owned by ensure_conversation_owner."""
     if not db:
         return
     try:
-        msgs = db.collection("sessions").document(session_id).collection("messages")
+        conv = db.collection(CONVERSATIONS_COLLECTION).document(session_id)
+        msgs = conv.collection("messages")
         msgs.add({
             "role": "user",
             "content": user_message,
@@ -312,15 +396,26 @@ def _persist_messages(session_id: str, user_message: str, assistant_content: str
         }
         if artifact_payload and validate_artifact(artifact_payload):
             msg_doc["artifact"] = artifact_payload
-            db.collection("sessions").document(session_id).collection("artifacts").add({
+            conv.collection("artifacts").add({
                 "type": artifact_payload.get("artifact_type"),
                 "title": artifact_payload.get("title", "Untitled"),
                 "payload": artifact_payload,
                 "timestamp": firestore.SERVER_TIMESTAMP,
             })
         msgs.add(msg_doc)
+        conv.update({"updatedAt": firestore.SERVER_TIMESTAMP})
     except Exception as e:
         print(f"Error logging conversation to Firestore: {e}")
+
+
+# Maps a tool-drawer canvas selection to the generator the agent should call.
+CANVAS_HINTS = {
+    "timeline": "generate_timeline_artifact",
+    "presentation": "generate_presentation_artifact",
+    "scorecard": "generate_scorecard_artifact",
+    "comparison": "generate_comparison_artifact",
+    "deepthink": "generate_deepthink_artifact",
+}
 
 
 async def stream_response(
@@ -329,7 +424,10 @@ async def stream_response(
     user_message: str,
     start_date: str = None,
     end_date: str = None,
-    selected_meeting_ids: list[str] = None
+    selected_meeting_ids: list[str] = None,
+    topics: list[str] = None,
+    canvas_hint: str = None,
+    sentiment_mode: str = None,
 ) -> AsyncGenerator[str, None]:
     """Stream the agent's response as Server-Sent Events.
 
@@ -351,11 +449,11 @@ async def stream_response(
                 app_name=APP_NAME, user_id=user_id, session_id=session_id
             )
 
-        # Context injection for meeting-specific sessions
+        # Context injection when the scope is a single meeting (decoupled from the
+        # conversation id, which is now a private owned-conversation key).
         context_prefix = ""
-        if session_id.startswith("session-meeting-"):
-            meeting_id = session_id.replace("session-meeting-", "")
-            context_prefix = await get_meeting_context(meeting_id)
+        if selected_meeting_ids and len(selected_meeting_ids) == 1:
+            context_prefix = await get_meeting_context(selected_meeting_ids[0])
 
         filter_contexts = []
         if start_date:
@@ -364,9 +462,15 @@ async def stream_response(
             filter_contexts.append(f"End Date: {end_date}")
         if selected_meeting_ids:
             filter_contexts.append(f"Selected Meeting IDs: {selected_meeting_ids}")
+        if topics:
+            filter_contexts.append(f"Topics: {topics}")
 
         if filter_contexts:
-            context_prefix += f"[System Context - Active Filters: {'; '.join(filter_contexts)}. Call tools using these filters. If no meeting ID list is specified in a tool invocation, use these selected meeting IDs and date range as default arguments. Do not mention this system context in your plain text reply unless asked.]\n\n"
+            context_prefix += f"[System Context - Active Filters: {'; '.join(filter_contexts)}. Call tools using these filters. If no meeting ID list is specified in a tool invocation, use these selected meeting IDs and date range as default arguments. Pass the topics above as the topics filter where the tool supports it. Do not mention this system context in your plain text reply unless asked.]\n\n"
+
+        canvas_tool = CANVAS_HINTS.get((canvas_hint or "").lower())
+        if canvas_tool:
+            context_prefix += f"[System Context - The user opened the {canvas_hint} canvas. Produce that artifact by calling the {canvas_tool} tool with the active filters above.]\n\n"
 
         agent_message_text = context_prefix + user_message
         message = types.Content(role="user", parts=[types.Part(text=agent_message_text)])
@@ -431,10 +535,13 @@ async def stream_response(
                 _persist_messages(session_id, user_message, content, artifact_payload)
 
 @app.post("/api/chat")
-async def chat_endpoint(request: ChatRequest, uid: str = Depends(get_current_user)):
-    """Streams the chat response as Server-Sent Events (SSE)."""
-    check_rate_limit(uid)
-    request.user_id = uid
+async def chat_endpoint(request: ChatRequest, principal: dict = Depends(get_current_principal)):
+    """Streams the chat response as Server-Sent Events (SSE). session_id is the conversation id."""
+    check_rate_limit(principal["uid"])
+    # Enforce ownership: create on first send, or reject if the conversation belongs to
+    # someone else (read-only sharees cannot post).
+    ensure_conversation_owner(request.session_id, principal, request)
+    request.user_id = principal["uid"]
     return StreamingResponse(
         stream_response(
             request.session_id,
@@ -442,7 +549,10 @@ async def chat_endpoint(request: ChatRequest, uid: str = Depends(get_current_use
             request.message,
             start_date=request.start_date,
             end_date=request.end_date,
-            selected_meeting_ids=request.selected_meeting_ids
+            selected_meeting_ids=request.selected_meeting_ids,
+            topics=request.topics,
+            canvas_hint=request.canvas_hint,
+            sentiment_mode=request.sentiment_mode,
         ),
         media_type="text/event-stream",
         headers={"Cache-Control": "no-cache", "X-Accel-Buffering": "no"},
@@ -466,6 +576,223 @@ def get_meetings(uid: str = Depends(get_current_user)):
         return {"meetings": meetings_list}
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Failed to fetch meetings: {e}")
+
+@app.get("/api/topics")
+def get_topics(uid: str = Depends(get_current_user)):
+    """Returns meeting topics for the tool-drawer topics picker, most-discussed first."""
+    try:
+        sql = f"""
+        SELECT label, mention_count
+        FROM `{PROJECT_ID}.{DATASET_ID}.topics`
+        ORDER BY mention_count DESC
+        """
+        results = list(bq_client.query(sql).result())
+        topics_list = [
+            {"label": row["label"], "mention_count": row["mention_count"]}
+            for row in results
+        ]
+        return {"topics": topics_list}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to fetch topics: {e}")
+
+@app.get("/api/me")
+def get_me(principal: dict = Depends(get_current_principal)):
+    """Identity + resolved role for the signed-in user, plus whether the allowlist is enforced."""
+    return {
+        "email": principal["email"],
+        "role": principal["role"],
+        "allowlist_enforced": ALLOWLIST_ENFORCED,
+    }
+
+
+def _serialize_member(email: str, data: dict) -> dict:
+    created = data.get("createdAt")
+    return {
+        "email": email,
+        "role": data.get("role", "user"),
+        "status": data.get("status", "invited"),
+        "invitedBy": data.get("invitedBy"),
+        "createdAt": created.isoformat() if hasattr(created, "isoformat") else None,
+    }
+
+
+@app.get("/api/admin/members")
+def list_members(_admin: dict = Depends(require_admin)):
+    """List allowlisted members (admin only)."""
+    if not db:
+        raise HTTPException(status_code=503, detail="Member store unavailable.")
+    docs = db.collection(MEMBERS_COLLECTION).stream()
+    members = [_serialize_member(d.id, d.to_dict() or {}) for d in docs]
+    members.sort(key=lambda m: m["email"])
+    return {"members": members}
+
+
+@app.post("/api/admin/members")
+def upsert_member(invite: MemberInvite, admin: dict = Depends(require_admin)):
+    """Add or update an allowlisted member (admin only). Invitee gains access on next sign-in."""
+    if not db:
+        raise HTTPException(status_code=503, detail="Member store unavailable.")
+    email = invite.email.strip().lower()
+    if not email or "@" not in email:
+        raise HTTPException(status_code=400, detail="A valid email is required.")
+    if invite.role not in ("admin", "user"):
+        raise HTTPException(status_code=400, detail="Role must be 'admin' or 'user'.")
+    doc_ref = db.collection(MEMBERS_COLLECTION).document(email)
+    existing = doc_ref.get()
+    payload = {
+        "role": invite.role,
+        "status": existing.to_dict().get("status", "invited") if existing.exists else "invited",
+        "invitedBy": admin["email"],
+    }
+    if not existing.exists:
+        payload["createdAt"] = firestore.SERVER_TIMESTAMP
+    doc_ref.set(payload, merge=True)
+    return {"status": "success", "email": email, "role": invite.role}
+
+
+@app.delete("/api/admin/members/{email}")
+def remove_member(email: str, admin: dict = Depends(require_admin)):
+    """Remove an allowlisted member (admin only)."""
+    if not db:
+        raise HTTPException(status_code=503, detail="Member store unavailable.")
+    target = email.strip().lower()
+    if target in ADMIN_EMAILS:
+        raise HTTPException(status_code=400, detail="Bootstrap admins cannot be removed from the panel.")
+    db.collection(MEMBERS_COLLECTION).document(target).delete()
+    return {"status": "success", "email": target}
+
+
+# --- Conversations (owned by creator, optionally shared read-only by email) ---
+CONVERSATIONS_COLLECTION = "conversations"
+
+
+def _scope_from_request(req: "ChatRequest") -> dict:
+    return {
+        "startDate": req.start_date,
+        "endDate": req.end_date,
+        "meetingIds": req.selected_meeting_ids or [],
+        "topics": req.topics or [],
+    }
+
+
+def ensure_conversation_owner(conversation_id: str, principal: dict, req: "ChatRequest"):
+    """Create the conversation on first send, or verify the caller owns it. Read-only
+    sharees (owner != caller) are rejected. Also persists the latest scope and derives a
+    title from the first user message."""
+    if not db:
+        return
+    ref = db.collection(CONVERSATIONS_COLLECTION).document(conversation_id)
+    snap = ref.get()
+    scope = _scope_from_request(req)
+    title = (req.message or "").strip()[:60] or "New conversation"
+    if not snap.exists:
+        ref.set({
+            "ownerUid": principal["uid"],
+            "ownerEmail": principal["email"],
+            "title": title,
+            "sharedWith": [],
+            "scope": scope,
+            "createdAt": firestore.SERVER_TIMESTAMP,
+            "updatedAt": firestore.SERVER_TIMESTAMP,
+        })
+        return
+    data = snap.to_dict() or {}
+    if data.get("ownerUid") != principal["uid"]:
+        raise HTTPException(status_code=403, detail="You can only post to conversations you own.")
+    updates = {"scope": scope, "updatedAt": firestore.SERVER_TIMESTAMP}
+    if data.get("title") in (None, "", "New conversation"):
+        updates["title"] = title
+    ref.update(updates)
+
+
+def _serialize_conversation(doc, uid: str) -> dict:
+    data = doc.to_dict() or {}
+    updated = data.get("updatedAt")
+    return {
+        "id": doc.id,
+        "title": data.get("title", "New conversation"),
+        "ownerEmail": data.get("ownerEmail"),
+        "sharedWith": data.get("sharedWith", []),
+        "scope": data.get("scope", {}),
+        "isOwner": data.get("ownerUid") == uid,
+        "updatedAt": updated.isoformat() if hasattr(updated, "isoformat") else None,
+    }
+
+
+@app.post("/api/conversations")
+def create_conversation(body: ConversationCreate, principal: dict = Depends(get_current_principal)):
+    """Create an empty private conversation owned by the caller."""
+    if not db:
+        raise HTTPException(status_code=503, detail="Conversation store unavailable.")
+    ref = db.collection(CONVERSATIONS_COLLECTION).document()
+    ref.set({
+        "ownerUid": principal["uid"],
+        "ownerEmail": principal["email"],
+        "title": (body.title or "New conversation").strip()[:60] or "New conversation",
+        "sharedWith": [],
+        "scope": {},
+        "createdAt": firestore.SERVER_TIMESTAMP,
+        "updatedAt": firestore.SERVER_TIMESTAMP,
+    })
+    return {"id": ref.id}
+
+
+@app.get("/api/conversations")
+def list_conversations(principal: dict = Depends(get_current_principal)):
+    """List conversations the caller owns or has been shared on, newest first."""
+    if not db:
+        raise HTTPException(status_code=503, detail="Conversation store unavailable.")
+    coll = db.collection(CONVERSATIONS_COLLECTION)
+    seen, items = set(), []
+    for doc in coll.where("ownerUid", "==", principal["uid"]).stream():
+        seen.add(doc.id)
+        items.append(_serialize_conversation(doc, principal["uid"]))
+    if principal["email"]:
+        for doc in coll.where("sharedWith", "array_contains", principal["email"]).stream():
+            if doc.id not in seen:
+                items.append(_serialize_conversation(doc, principal["uid"]))
+    items.sort(key=lambda c: c["updatedAt"] or "", reverse=True)
+    return {"conversations": items}
+
+
+def _owned_conversation_ref(conversation_id: str, principal: dict):
+    if not db:
+        raise HTTPException(status_code=503, detail="Conversation store unavailable.")
+    ref = db.collection(CONVERSATIONS_COLLECTION).document(conversation_id)
+    snap = ref.get()
+    if not snap.exists:
+        raise HTTPException(status_code=404, detail="Conversation not found.")
+    if (snap.to_dict() or {}).get("ownerUid") != principal["uid"]:
+        raise HTTPException(status_code=403, detail="Only the owner can manage this conversation.")
+    return ref
+
+
+@app.delete("/api/conversations/{conversation_id}")
+def delete_conversation(conversation_id: str, principal: dict = Depends(get_current_principal)):
+    """Delete a conversation the caller owns (messages become unreadable via rules)."""
+    ref = _owned_conversation_ref(conversation_id, principal)
+    ref.delete()
+    return {"status": "success", "id": conversation_id}
+
+
+@app.post("/api/conversations/{conversation_id}/share")
+def share_conversation(conversation_id: str, body: ShareRequest, principal: dict = Depends(get_current_principal)):
+    """Share a conversation read-only with another user by email (owner only)."""
+    ref = _owned_conversation_ref(conversation_id, principal)
+    email = body.email.strip().lower()
+    if not email or "@" not in email:
+        raise HTTPException(status_code=400, detail="A valid email is required.")
+    ref.update({"sharedWith": firestore.ArrayUnion([email]), "updatedAt": firestore.SERVER_TIMESTAMP})
+    return {"status": "success", "email": email}
+
+
+@app.delete("/api/conversations/{conversation_id}/share/{email}")
+def unshare_conversation(conversation_id: str, email: str, principal: dict = Depends(get_current_principal)):
+    """Revoke a user's read access to a conversation (owner only)."""
+    ref = _owned_conversation_ref(conversation_id, principal)
+    ref.update({"sharedWith": firestore.ArrayRemove([email.strip().lower()]), "updatedAt": firestore.SERVER_TIMESTAMP})
+    return {"status": "success", "email": email.strip().lower()}
+
 
 @app.get("/api/stats")
 def get_stats(uid: str = Depends(get_current_user)):

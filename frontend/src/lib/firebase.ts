@@ -8,7 +8,7 @@ const firebaseConfig = {
   projectId: "meeting-analysis-6c116",
   storageBucket: "meeting-analysis-6c116.firebasestorage.app",
   messagingSenderId: "33229996475",
-  appId: "1:33229996475:web:257770266444b90fd9049e"
+  appId: "1:33229996475:web:257770266444b90fd9049e",
 };
 
 // Initialize Firebase (SSR-safe singleton)

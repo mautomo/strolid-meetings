@@ -760,6 +760,93 @@ async def generate_comparison_artifact(
     }
     return artifact
 
+async def generate_deepthink_artifact(
+    title: str,
+    person: str = None,
+    topic: str = None,
+    start_date: str = None,
+    end_date: str = None,
+) -> str:
+    """Detect when the SAME individual set a direction on a topic and later reversed it.
+
+    Use this for "DeepThink" requests: who flip-flopped, who reversed an earlier
+    decision, who changed their own mind on a topic, or self-contradictions over time.
+    Queries the precomputed `person_direction_changes` table (each row is one person
+    superseding their own prior decision on a topic).
+
+    Args:
+        title: Title of the DeepThink artifact (e.g. "Self-Reversals: Website Strategy").
+        person: Optional full name to limit to one individual (e.g. "Michael Donovan").
+        topic: Optional kebab-case topic to limit reversals.
+        start_date: Optional lower bound on the reversal date (YYYY-MM-DD, inclusive).
+        end_date: Optional upper bound on the reversal date (YYYY-MM-DD, inclusive).
+
+    Returns:
+        A dict describing the deepthink artifact. The system renders it as an interactive
+        canvas. Do not echo its contents in your text reply.
+    """
+    try:
+        filters = []
+        params = []
+
+        if person:
+            filters.append("person = @person")
+            params.append(bigquery.ScalarQueryParameter("person", "STRING", person))
+        if topic:
+            filters.append("topic = @topic")
+            params.append(bigquery.ScalarQueryParameter("topic", "STRING", topic))
+        if start_date:
+            filters.append("change_date >= @start_date")
+            params.append(bigquery.ScalarQueryParameter("start_date", "DATE", start_date))
+        if end_date:
+            filters.append("change_date <= @end_date")
+            params.append(bigquery.ScalarQueryParameter("end_date", "DATE", end_date))
+
+        where = f"WHERE {' AND '.join(filters)}" if filters else ""
+
+        sql = f"""
+        SELECT
+          person, topic,
+          original_position, original_date, original_meeting, original_confidence,
+          new_position, change_date, change_meeting, new_confidence,
+          days_between
+        FROM `{PROJECT_ID}.{DATASET_ID}.person_direction_changes`
+        {where}
+        ORDER BY change_date ASC
+        """
+
+        job_config = bigquery.QueryJobConfig(query_parameters=params)
+        job = bq_client.query(sql, job_config=job_config)
+        results = list(job.result())
+
+        def _date(value):
+            return value.strftime("%Y-%m-%d") if hasattr(value, "strftime") else str(value)
+
+        reversals = []
+        for idx, row in enumerate(results):
+            reversals.append({
+                "id": f"rev-{idx+1}",
+                "person": row["person"],
+                "topic": row["topic"],
+                "original_position": row["original_position"],
+                "original_date": _date(row["original_date"]),
+                "original_meeting": row["original_meeting"],
+                "original_confidence": row["original_confidence"],
+                "new_position": row["new_position"],
+                "change_date": _date(row["change_date"]),
+                "change_meeting": row["change_meeting"],
+                "new_confidence": row["new_confidence"],
+                "days_between": row["days_between"],
+            })
+
+        return {
+            "artifact_type": "deepthink",
+            "title": title,
+            "reversals": reversals,
+        }
+    except Exception as e:
+        return {"status": "error", "message": f"Error compiling deepthink artifact: {e}"}
+
 def build_agent() -> Agent:
     instruction = (
         "You are the Strolid Meeting Intelligence Assistant, a strategic chatbot "
@@ -775,13 +862,16 @@ def build_agent() -> Agent:
         "4. `generate_presentation_artifact` to create structured presentation slide decks for the user.\n"
         "5. `generate_timeline_artifact` to create chronological event timelines.\n"
         "6. `generate_scorecard_artifact` to create structured reliability scorecards for individuals or topics.\n"
-        "7. `generate_comparison_artifact` to create side-by-side comparison analyses between leaders.\n\n"
+        "7. `generate_comparison_artifact` to create side-by-side comparison analyses between leaders.\n"
+        "8. `generate_deepthink_artifact` to surface per-person direction reversals (the same individual set a "
+        "direction on a topic and later changed it). Use for flip-flop, self-reversal, or changed-their-own-mind questions.\n\n"
         "CRITICAL - ACTIVE FILTERS: System context parameters (such as date ranges or a list of specific meeting ID filters) "
         "will be supplied in the prompt as a '[System Context - Active Filters: ...]' prefix. "
         "You MUST apply these filters as arguments to any query tools you call (e.g. meeting_ids list, start_date, end_date) "
         "unless the user explicitly requests different filters or queries.\n\n"
         "CRITICAL - CANVAS ARTIFACTS: When you call an artifact generation tool (e.g., `generate_presentation_artifact`, "
-        "`generate_timeline_artifact`, `generate_scorecard_artifact`, `generate_comparison_artifact`), "
+        "`generate_timeline_artifact`, `generate_scorecard_artifact`, `generate_comparison_artifact`, "
+        "`generate_deepthink_artifact`), "
         "do NOT write or repeat the raw JSON block in your final text response. Simply provide a helpful, natural "
         "text summary or explanation to the user. The system will automatically capture the tool's JSON output "
         "and display the interactive canvas card on the right side."
@@ -799,6 +889,7 @@ def build_agent() -> Agent:
             generate_presentation_artifact, 
             generate_timeline_artifact,
             generate_scorecard_artifact,
-            generate_comparison_artifact
+            generate_comparison_artifact,
+            generate_deepthink_artifact
         ],
     )

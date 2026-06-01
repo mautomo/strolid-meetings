@@ -91,6 +91,19 @@ def define_tables_and_schemas():
             bigquery.SchemaField("change_meeting", "STRING"),
             bigquery.SchemaField("days_between", "INTEGER")
         ],
+        "person_direction_changes": [
+            bigquery.SchemaField("person", "STRING"),
+            bigquery.SchemaField("topic", "STRING"),
+            bigquery.SchemaField("original_position", "STRING"),
+            bigquery.SchemaField("original_date", "DATE"),
+            bigquery.SchemaField("original_meeting", "STRING"),
+            bigquery.SchemaField("original_confidence", "STRING"),
+            bigquery.SchemaField("new_position", "STRING"),
+            bigquery.SchemaField("change_date", "DATE"),
+            bigquery.SchemaField("change_meeting", "STRING"),
+            bigquery.SchemaField("new_confidence", "STRING"),
+            bigquery.SchemaField("days_between", "INTEGER")
+        ],
         "documents": [
             bigquery.SchemaField("doc_id", "STRING", mode="REQUIRED"),
             bigquery.SchemaField("title", "STRING"),
@@ -270,6 +283,23 @@ def load_data_to_bq(data: NormalizedData):
             "change_meeting": c.changeMeeting,
             "days_between": c.daysBetween
         })
+
+    # Per-person direction reversals
+    person_changes_rows = []
+    for c in data.personDirectionChanges:
+        person_changes_rows.append({
+            "person": c.person,
+            "topic": c.topic,
+            "original_position": c.originalPosition,
+            "original_date": c.originalDate,
+            "original_meeting": c.originalMeeting,
+            "original_confidence": c.originalConfidence,
+            "new_position": c.newPosition,
+            "change_date": c.changeDate,
+            "change_meeting": c.changeMeeting,
+            "new_confidence": c.newConfidence,
+            "days_between": c.daysBetween
+        })
         
     # Load Document metadata from extracted_docs/
     EXTRACTED_DOCS_DIR = Path(__file__).resolve().parents[1] / "data" / "extracted_docs"
@@ -304,6 +334,7 @@ def load_data_to_bq(data: NormalizedData):
         "action_items": actions_rows,
         "topics": topics_rows,
         "direction_changes": changes_rows,
+        "person_direction_changes": person_changes_rows,
         "documents": documents_rows,
         "contributions": contributions_rows
     }

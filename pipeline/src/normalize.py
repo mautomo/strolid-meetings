@@ -6,7 +6,7 @@ from datetime import datetime
 
 # Ensure we can import from src/
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from schema_types import Person, Decision, ActionItem, TopicThread, DirectionChange, ExtractedMeeting, NormalizedData
+from schema_types import Person, Decision, ActionItem, TopicThread, DirectionChange, PersonDirectionChange, ExtractedMeeting, NormalizedData
 
 EXTRACTED_DIR = Path(__file__).resolve().parents[1] / "data" / "extracted"
 OUTPUT_DIR = Path(__file__).resolve().parents[1] / "data" / "normalized"
@@ -460,6 +460,57 @@ def detect_direction_changes(decisions: list[Decision]) -> list[DirectionChange]
                 
     return sorted(changes, key=lambda c: c.changeDate)
 
+def detect_person_direction_changes(decisions: list[Decision]) -> list[PersonDirectionChange]:
+    """Per-person reversals: the SAME individual sets a direction on a topic, then
+    later supersedes it. We walk each topic's superseding chain (same logic as
+    detect_direction_changes) and attribute the reversal to people present in BOTH
+    the original decision's decidedBy and the superseding decision's decidedBy.
+    """
+    changes = []
+
+    by_topic = {}
+    for d in decisions:
+        by_topic.setdefault(d.topic, []).append(d)
+
+    for topic, topic_decisions in by_topic.items():
+        if len(topic_decisions) < 2:
+            continue
+
+        topic_decisions.sort(key=lambda x: x.meetingDate)
+
+        for i in range(1, len(topic_decisions)):
+            prev = topic_decisions[i - 1]
+            curr = topic_decisions[i]
+
+            if curr.supersedes != prev.id:
+                continue
+
+            # Same individual on both sides of the reversal.
+            shared = [name for name in curr.decidedBy if name in prev.decidedBy]
+            if not shared:
+                continue
+
+            prev_date = datetime.strptime(prev.meetingDate, "%Y-%m-%d")
+            curr_date = datetime.strptime(curr.meetingDate, "%Y-%m-%d")
+            days_between = (curr_date - prev_date).days
+
+            for person in shared:
+                changes.append(PersonDirectionChange(
+                    person=person,
+                    topic=topic,
+                    originalPosition=prev.description,
+                    originalDate=prev.meetingDate,
+                    originalMeeting=prev.meetingId,
+                    originalConfidence=prev.confidence,
+                    newPosition=curr.description,
+                    changeDate=curr.meetingDate,
+                    changeMeeting=curr.meetingId,
+                    newConfidence=curr.confidence,
+                    daysBetween=days_between
+                ))
+
+    return sorted(changes, key=lambda c: (c.person, c.changeDate))
+
 def main():
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     
@@ -493,13 +544,18 @@ def main():
     print("Detecting direction changes...")
     direction_changes = detect_direction_changes(decisions)
     print(f"  Found {len(direction_changes)} direction changes.\n")
-    
+
+    print("Detecting per-person direction reversals...")
+    person_direction_changes = detect_person_direction_changes(decisions)
+    print(f"  Found {len(person_direction_changes)} per-person reversals.\n")
+
     normalized = NormalizedData(
         people=people,
         decisions=decisions,
         actionItems=action_items,
         topics=topics,
         directionChanges=direction_changes,
+        personDirectionChanges=person_direction_changes,
         meetings=meetings
     )
     
@@ -514,6 +570,8 @@ def main():
         json.dump([t.model_dump() for t in topics], f, indent=2)
     with open(OUTPUT_DIR / "direction-changes.json", "w", encoding="utf-8") as f:
         json.dump([c.model_dump() for c in direction_changes], f, indent=2)
+    with open(OUTPUT_DIR / "person-direction-changes.json", "w", encoding="utf-8") as f:
+        json.dump([c.model_dump() for c in person_direction_changes], f, indent=2)
     with open(OUTPUT_DIR / "meetings.json", "w", encoding="utf-8") as f:
         json.dump([m.model_dump() for m in meetings], f, indent=2)
         

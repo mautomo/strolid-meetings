@@ -54,6 +54,19 @@ class DirectionChange(BaseModel):
     changeMeeting: str
     daysBetween: int
 
+class PersonDirectionChange(BaseModel):
+    person: str
+    topic: str
+    originalPosition: str
+    originalDate: str
+    originalMeeting: str
+    originalConfidence: str
+    newPosition: str
+    changeDate: str
+    changeMeeting: str
+    newConfidence: str
+    daysBetween: int
+
 class ExtractedMeetingDecision(BaseModel):
     description: str
     decidedBy: List[str]
@@ -103,6 +116,7 @@ class NormalizedData(BaseModel):
     actionItems: List[ActionItem] = Field(default_factory=list)
     topics: List[TopicThread] = Field(default_factory=list)
     directionChanges: List[DirectionChange] = Field(default_factory=list)
+    personDirectionChanges: List[PersonDirectionChange] = Field(default_factory=list)
     meetings: List[ExtractedMeeting] = Field(default_factory=list)
 
 class PatternFlag(BaseModel):
